@@ -1,0 +1,6 @@
+Open the folder and run serve_quiz.bat.
+Then on any phone connected to the same Wi-Fi, open:
+
+http://192.168.0.190:8000/
+
+If this link does not load, find your PC's local IP and replace it in the URL.
