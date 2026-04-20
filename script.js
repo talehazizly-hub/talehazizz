@@ -48,13 +48,15 @@ function selectQuestionsByRange(questions, start, end) {
   // Filter questions in the specified range
   const filtered = questions.filter((item) => item.num >= start && item.num <= end);
   
+  // Always shuffle the questions randomly
+  shuffleArray(filtered);
+  
   // If more than 50 questions, randomly select 50
   if (filtered.length > 50) {
-    shuffleArray(filtered);
     return filtered.slice(0, 50);
   }
   
-  // Otherwise return all questions in the range
+  // Otherwise return all questions in the range (already shuffled)
   return filtered;
 }
 
@@ -77,8 +79,7 @@ function startExam() {
     return;
   }
 
-  currentQuestions = QUESTIONS.filter((item) => item.num >= start && item.num <= end);
-  shuffleArray(currentQuestions);
+  currentQuestions = selectQuestionsByRange(QUESTIONS, start, end);
   if (!currentQuestions.length) {
     alert('Seçdiyiniz aralıqda sual yoxdur.');
     return;
