@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="lamb" content="talehazizz" />
+  <title>137</title>
+  <style>
+    :root {
+      --bg: #f7f8fb;
+      --surface: #ffffff;
+      --text: #1d2636;
+      --muted: #6c7694;
+      --primary: #3366ff;
+      --success: #138a4f;
+      --danger: #d43030;
+      --border: #dfe3ee;
+      --shadow: 0 16px 40px rgba(47, 61, 86, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background: linear-gradient(180deg, #edf2ff 0%, #f7f8fb 100%);
+      color: var(--text);
+    }
+    .app-shell {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header { text-align: center; margin-bottom: 24px; }
+    h1 { margin: 0; font-size: clamp(2rem, 4vw, 3rem); }
+    .subtitle { margin: 12px auto 0; max-width: 720px; color: var(--muted); }
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    label { font-weight: 600; }
+    input[type='number'] {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 1rem;
+    }
+    button {
+      border: none; border-radius: 14px; cursor: pointer;
+      font-weight: 700; padding: 14px 20px;
+    }
+    button.primary { background: var(--primary); color: white; }
+    button.secondary { background: #eef2ff; color: var(--text); }
+    .hidden { display: none; }
+    .note { color: var(--muted); margin-bottom: 18px; }
+    .panel-header {
+      display: flex; justify-content: space-between; flex-wrap: wrap;
+      gap: 12px; align-items: center; margin-bottom: 20px;
+    }
+    .question-card {
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 22px;
+    }
+    .question-text { font-size: 1.15rem; line-height: 1.6; margin-bottom: 20px; }
+    .options { display: grid; gap: 12px; }
+    .option-button {
+      text-align: left; padding: 16px; border-radius: 16px;
+      border: 1px solid var(--border); background: #fff;
+      transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+    }
+    .option-button:hover:not(:disabled) { transform: translateY(-1px); border-color: rgba(51, 102, 255, 0.35); }
+    .option-button.correct { border-color: rgba(19, 138, 79, 0.2); background: rgba(19, 138, 79, 0.08); }
+    .option-button.incorrect { border-color: rgba(212, 48, 48, 0.2); background: rgba(212, 48, 48, 0.08); }
+    .option-button:disabled { opacity: 0.85; cursor: default; }
+    .feedback { margin-top: 18px; min-height: 30px; font-weight: 700; }
+    .feedback.correct { color: var(--success); }
+    .feedback.wrong { color: var(--danger); }
+    .wrong-card {
+      border: 1px solid var(--border);
+      border-radius: 16px; padding: 18px;
+      margin-bottom: 14px; background: #fbfbfc;
+    }
+    .wrong-card p { margin: 6px 0; }
+    footer { text-align: center; color: var(--muted); font-size: 0.95rem; padding-top: 6px; }
+    @media (max-width: 640px) {
+      .form-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <!-- lamb: talehazizz -->
+  <div class="app-shell">
+    <header>
+      <h1>137</h1>
+      <p class="subtitle">PDF-based quiz offline. Seçim aralığı 1-700 arasında.</p>
+    </header>
+    <main>
+      <section id="config-panel" class="panel">
+        <div class="form-row">
+          <label for="startInput">Başlanğıc sual:</label>
+          <input id="startInput" type="number" min="1" value="1" />
+        </div>
+        <div class="form-row">
+          <label for="endInput">Son sual:</label>
+          <input id="endInput" type="number" min="1" value="10" />
+        </div>
+        <div class="note" id="range-note"></div>
+        <button id="startBtn" class="primary">Imtahana başlayın</button>
+      </section>
+
+      <section id="exam-panel" class="panel hidden">
+        <div class="panel-header">
+          <div id="question-tracker"></div>
+          <button id="finishBtn" class="secondary">İmtahanı bitir</button>
+        </div>
+        <div class="question-card">
+          <div id="question-text" class="question-text"></div>
+          <div id="options" class="options"></div>
+        </div>
+        <div id="feedback" class="feedback"></div>
+        <div class="panel-footer">
+          <button id="nextBtn" class="secondary hidden">Növbəti sual</button>
+        </div>
+      </section>
+
+      <section id="result-panel" class="panel hidden">
+        <h2>Nəticə</h2>
+        <p id="score-summary"></p>
+        <div id="wrong-list"></div>
+        <button id="restartBtn" class="primary">Yenidən başla</button>
+      </section>
+    </main>
+    <footer>
+      <p>Internet olmadan işləyir. Səhifəni yeniləməyə ehtiyac yoxdur.</p>
+    </footer>
+  </div>
+  <script src="questions.js"></script>
+  <script>
+    const MAX_QUESTION = 700;
+    const availableCount = Math.min(MAX_QUESTION, QUESTIONS.length);
+    const startInput = document.getElementById('startInput');
+    const endInput = document.getElementById('endInput');
+    const startBtn = document.getElementById('startBtn');
+    const finishBtn = document.getElementById('finishBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const restartBtn = document.getElementById('restartBtn');
+    const configPanel = document.getElementById('config-panel');
+    const examPanel = document.getElementById('exam-panel');
+    const resultPanel = document.getElementById('result-panel');
+    const questionTracker = document.getElementById('question-tracker');
+    const questionText = document.getElementById('question-text');
+    const optionsContainer = document.getElementById('options');
+    const feedback = document.getElementById('feedback');
+    const scoreSummary = document.getElementById('score-summary');
+    const wrongList = document.getElementById('wrong-list');
+    const rangeNote = document.getElementById('range-note');
+    let currentQuestions = [];
+    let currentIndex = 0;
+    let results = [];
+    function init() {
+      startInput.max = availableCount;
+      endInput.max = availableCount;
+      endInput.value = Math.min(10, availableCount);
+      rangeNote.textContent = `Sual aralığı 1 - ${availableCount} arasından seçilə bilər.`;
+      startBtn.addEventListener('click', startExam);
+      finishBtn.addEventListener('click', finishExam);
+      nextBtn.addEventListener('click', goToNextQuestion);
+      restartBtn.addEventListener('click', resetApp);
+    }
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+    function startExam() {
+      const start = Number(startInput.value);
+      const end = Number(endInput.value);
+      if (!Number.isInteger(start) || !Number.isInteger(end) || start < 1 || end < 1) {
+        alert('Zəhmət olmasa düzgün aralıq daxil edin.');
+        return;
+      }
+      if (start > end) {
+        alert('Başlanğıc sual sayı son sualdan böyük ola bilməz.');
+        return;
+      }
+      if (start > availableCount || end > availableCount) {
+        alert(`Dəstə yalnız 1 - ${availableCount} aralığında sualları ehtiva edir.`);
+        return;
+      }
+      currentQuestions = QUESTIONS.filter((item) => item.num >= start && item.num <= end);
+      shuffleArray(currentQuestions);
+      if (!currentQuestions.length) {
+        alert('Seçdiyiniz aralıqda sual yoxdur.');
+        return;
+      }
+      currentIndex = 0;
+      results = [];
+      configPanel.classList.add('hidden');
+      resultPanel.classList.add('hidden');
+      examPanel.classList.remove('hidden');
+      nextBtn.classList.add('hidden');
+      feedback.textContent = '';
+      loadQuestion();
+    }
+    function loadQuestion() {
+      const current = currentQuestions[currentIndex];
+      questionTracker.textContent = `Sual ${currentIndex + 1} / ${currentQuestions.length} (№ ${current.num})`;
+      questionText.textContent = current.question;
+      optionsContainer.innerHTML = '';
+      feedback.textContent = '';
+      feedback.className = 'feedback';
+      nextBtn.textContent = 'Növbəti sual';
+      nextBtn.classList.add('hidden');
+      current.options.forEach((option, index) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'option-button';
+        button.textContent = option.text;
+        button.addEventListener('click', () => selectAnswer(index));
+        optionsContainer.appendChild(button);
+      });
+    }
+    function selectAnswer(selectedIndex) {
+      const current = currentQuestions[currentIndex];
+      const optionButtons = Array.from(optionsContainer.children);
+      if (optionButtons.some((btn) => btn.disabled)) return;
+      const correctIndex = current.options.findIndex((o) => o.correct);
+      const correctText = current.options[correctIndex].text;
+      const selectedOption = current.options[selectedIndex];
+      optionButtons.forEach((btn, index) => {
+        btn.disabled = true;
+        if (index === correctIndex) btn.classList.add('correct');
+        if (index === selectedIndex && index !== correctIndex) btn.classList.add('incorrect');
+      });
+      const isCorrect = selectedIndex === correctIndex;
+      results.push({
+        num: current.num,
+        question: current.question,
+        selected: selectedOption.text,
+        correct: correctText,
+        isCorrect,
+      });
+      feedback.textContent = isCorrect ? 'Düzgün cavab!' : `Yanlış cavab. Düzgün cavab: ${correctText}`;
+      feedback.classList.add(isCorrect ? 'correct' : 'wrong');
+      nextBtn.classList.remove('hidden');
+      if (currentIndex === currentQuestions.length - 1) nextBtn.textContent = 'Nəticəni gör';
+    }
+    function goToNextQuestion() {
+      if (currentIndex < currentQuestions.length - 1) {
+        currentIndex += 1;
+        loadQuestion();
+      } else {
+        finishExam();
+      }
+    }
+    function finishExam() {
+      examPanel.classList.add('hidden');
+      resultPanel.classList.remove('hidden');
+      const correctCount = results.filter((item) => item.isCorrect).length;
+      scoreSummary.textContent = `Düzgün cavablar: ${correctCount} / ${results.length}`;
+      wrongList.innerHTML = '';
+      const wrongItems = results.filter((item) => !item.isCorrect);
+      if (!wrongItems.length) {
+        wrongList.innerHTML = '<p>Hamısı düzgün cavablandırıldı.</p>';
+        return;
+      }
+      wrongItems.forEach((item) => {
+        const card = document.createElement('div');
+        card.className = 'wrong-card';
+        card.innerHTML = `
+          <p><strong>№ ${item.num}:</strong> ${item.question}</p>
+          <p><strong>Siz seçdiniz:</strong> ${item.selected}</p>
+          <p><strong>Düzgün cavab:</strong> ${item.correct}</p>
+        `;
+        wrongList.appendChild(card);
+      });
+    }
+    function resetApp() {
+      configPanel.classList.remove('hidden');
+      examPanel.classList.add('hidden');
+      resultPanel.classList.add('hidden');
+      feedback.textContent = '';
+      currentQuestions = [];
+      results = [];
+      nextBtn.classList.add('hidden');
+    }
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

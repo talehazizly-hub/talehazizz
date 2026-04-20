@@ -5,6 +5,7 @@ const startInput = document.getElementById('startInput');
 const endInput = document.getElementById('endInput');
 const startBtn = document.getElementById('startBtn');
 const finishBtn = document.getElementById('finishBtn');
+const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const restartBtn = document.getElementById('restartBtn');
 const configPanel = document.getElementById('config-panel');
@@ -29,6 +30,7 @@ function init() {
   rangeNote.textContent = `Sual aralığı 1 - ${availableCount} arasından seçilə bilər.`;
   startBtn.addEventListener('click', startExam);
   finishBtn.addEventListener('click', finishExam);
+  prevBtn.addEventListener('click', goToPreviousQuestion);
   nextBtn.addEventListener('click', goToNextQuestion);
   restartBtn.addEventListener('click', resetApp);
 }
@@ -38,6 +40,20 @@ function shuffleArray(array) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
+}
+
+function selectQuestionsByRange(questions, start, end) {
+  // Filter questions in the specified range
+  const filtered = questions.filter((item) => item.num >= start && item.num <= end);
+  
+  // If more than 50 questions, randomly select 50
+  if (filtered.length > 50) {
+    shuffleArray(filtered);
+    return filtered.slice(0, 50);
+  }
+  
+  // Otherwise return all questions in the range
+  return filtered;
 }
 
 function startExam() {
@@ -71,6 +87,7 @@ function startExam() {
   configPanel.classList.add('hidden');
   resultPanel.classList.add('hidden');
   examPanel.classList.remove('hidden');
+  prevBtn.classList.add('hidden');
   nextBtn.classList.add('hidden');
   feedback.textContent = '';
   loadQuestion();
@@ -85,6 +102,11 @@ function loadQuestion() {
   feedback.className = 'feedback';
   nextBtn.textContent = 'Növbəti sual';
   nextBtn.classList.add('hidden');
+  if (currentIndex > 0) {
+    prevBtn.classList.remove('hidden');
+  } else {
+    prevBtn.classList.add('hidden');
+  }
 
   current.options.forEach((option, index) => {
     const button = document.createElement('button');
@@ -140,6 +162,13 @@ function selectAnswer(selectedIndex) {
   } else {
     nextBtn.textContent = 'Nəticəni gör';
     nextBtn.classList.remove('hidden');
+  }
+}
+
+function goToPreviousQuestion() {
+  if (currentIndex > 0) {
+    currentIndex -= 1;
+    loadQuestion();
   }
 }
 
