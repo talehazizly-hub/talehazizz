@@ -4,6 +4,7 @@ const availableCount = Math.min(MAX_QUESTION, QUESTIONS.length);
 const startInput = document.getElementById('startInput');
 const endInput = document.getElementById('endInput');
 const startBtn = document.getElementById('startBtn');
+const backBtn = document.getElementById('backBtn');
 const finishBtn = document.getElementById('finishBtn');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
@@ -29,6 +30,7 @@ function init() {
   endInput.value = Math.min(10, availableCount);
   rangeNote.textContent = `Sual aralığı 1 - ${availableCount} arasından seçilə bilər.`;
   startBtn.addEventListener('click', startExam);
+  backBtn.addEventListener('click', goBackToConfig);
   finishBtn.addEventListener('click', finishExam);
   prevBtn.addEventListener('click', goToPreviousQuestion);
   nextBtn.addEventListener('click', goToNextQuestion);
@@ -87,7 +89,8 @@ function startExam() {
   configPanel.classList.add('hidden');
   resultPanel.classList.add('hidden');
   examPanel.classList.remove('hidden');
-  prevBtn.classList.add('hidden');
+  prevBtn.classList.remove('hidden');
+  prevBtn.disabled = true;
   nextBtn.classList.add('hidden');
   feedback.textContent = '';
   loadQuestion();
@@ -102,11 +105,8 @@ function loadQuestion() {
   feedback.className = 'feedback';
   nextBtn.textContent = 'Növbəti sual';
   nextBtn.classList.add('hidden');
-  if (currentIndex > 0) {
-    prevBtn.classList.remove('hidden');
-  } else {
-    prevBtn.classList.add('hidden');
-  }
+  prevBtn.disabled = currentIndex === 0;
+  prevBtn.classList.remove('hidden');
 
   current.options.forEach((option, index) => {
     const button = document.createElement('button');
@@ -204,6 +204,18 @@ function finishExam() {
       wrongList.appendChild(card);
     });
   }
+}
+
+function goBackToConfig() {
+  configPanel.classList.remove('hidden');
+  examPanel.classList.add('hidden');
+  resultPanel.classList.add('hidden');
+  feedback.textContent = '';
+  currentQuestions = [];
+  results = [];
+  currentIndex = 0;
+  prevBtn.classList.add('hidden');
+  nextBtn.classList.add('hidden');
 }
 
 function resetApp() {
