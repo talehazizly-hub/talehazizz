@@ -36,7 +36,6 @@ const rangeNote = document.getElementById('range-note');
 let currentQuestions = [];
 let currentIndex = 0;
 let results = [];
-let shuffledOptions = {}; // Store shuffled options for each question
 
 function init() {
   startInput.max = availableCount;
@@ -51,26 +50,18 @@ function init() {
   restartBtn.addEventListener('click', resetApp);
 }
 
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
+
 
 function selectQuestionsByRange(questions, start, end) {
   // Filter questions in the specified range
   const filtered = questions.filter((item) => item.num >= start && item.num <= end);
   
-  // Always shuffle the questions randomly
-  shuffleArray(filtered);
-  
-  // If more than 50 questions, randomly select 50
+  // If more than 50 questions, select first 50
   if (filtered.length > 50) {
     return filtered.slice(0, 50);
   }
   
-  // Otherwise return all questions in the range (already shuffled)
+  // Otherwise return all questions in the range
   return filtered;
 }
 
@@ -101,7 +92,6 @@ function startExam() {
 
   currentIndex = 0;
   results = [];
-  shuffledOptions = {}; // Reset shuffled options
   configPanel.classList.add('hidden');
   resultPanel.classList.add('hidden');
   examPanel.classList.remove('hidden');
@@ -124,19 +114,10 @@ function loadQuestion() {
   prevBtn.disabled = currentIndex === 0;
   prevBtn.classList.remove('hidden');
 
-  // Shuffle options on first view if not already shuffled
-  const questionKey = `q${current.num}`;
-  if (!shuffledOptions[questionKey]) {
-    shuffledOptions[questionKey] = [...current.options];
-    shuffleArray(shuffledOptions[questionKey]);
-  }
-
-  const displayOptions = shuffledOptions[questionKey];
-
   // Check if this question has already been answered
   const result = results.find((r) => r.num === current.num);
 
-  displayOptions.forEach((option, index) => {
+  current.options.forEach((option, index) => {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'option-button';
@@ -145,8 +126,9 @@ function loadQuestion() {
     if (result) {
       // Question already answered - show the result
       button.disabled = true;
+      const correctIndex = current.options.findIndex((o) => o.correct);
 
-      if (option.correct) {
+      if (index === correctIndex) {
         button.classList.add('correct');
       }
 
@@ -172,40 +154,43 @@ function loadQuestion() {
       }
     } else {
       // Question not answered yet - allow selection
-      button.addEventListener('click', () => selectAnswer(option));
+      button.addEventListener('click', () => selectAnswer(index));
     }
 
     optionsContainer.appendChild(button);
   });
 }
 
-function selectAnswer(selectedOption) {
+function selectAnswer(selectedIndex) {
   const current = currentQuestions[currentIndex];
   const optionButtons = Array.from(optionsContainer.children);
   if (optionButtons.some((btn) => btn.disabled && btn.classList.contains('option-button'))) {
     return;
   }
 
-  const correctOption = current.options.find((o) => o.correct);
-  const correctText = correctOption.text;
-  const isCorrect = selectedOption.correct;
+  const correctIndex = current.options.findIndex((o) => o.correct);
+  const correctText = current.options[correctIndex].text;
+  const selectedOption = current.options[selectedIndex];
+  const selectedButton = optionButtons[selectedIndex];
 
   optionButtons.forEach((btn, index) => {
     btn.disabled = true;
-    if (optionsContainer.children[index].textContent === correctText) {
+    if (index === correctIndex) {
       btn.classList.add('correct');
     }
-    if (btn.textContent === selectedOption.text && !isCorrect) {
+    if (index === selectedIndex && index !== correctIndex) {
       btn.classList.add('incorrect');
     }
   });
+
+  const isCorrect = selectedIndex === correctIndex;
 
   results.push({
     num: current.num,
     question: current.question,
     selected: selectedOption.text,
     correct: correctText,
-    isCorrect,
+    isCorrect: isCorrect,
   });
 
   if (isCorrect) {
@@ -272,7 +257,6 @@ function goBackToConfig() {
   feedback.textContent = '';
   currentQuestions = [];
   results = [];
-  shuffledOptions = {};
   currentIndex = 0;
   prevBtn.classList.add('hidden');
   nextBtn.classList.add('hidden');
@@ -285,7 +269,6 @@ function resetApp() {
   feedback.textContent = '';
   currentQuestions = [];
   results = [];
-  shuffledOptions = {};
   nextBtn.classList.add('hidden');
 }
 
