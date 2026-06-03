@@ -36,6 +36,7 @@ const rangeNote = document.getElementById('range-note');
 let currentQuestions = [];
 let currentIndex = 0;
 let results = [];
+let shuffledOptions = {}; // Store shuffled options for each question
 
 function init() {
   startInput.max = availableCount;
@@ -100,6 +101,7 @@ function startExam() {
 
   currentIndex = 0;
   results = [];
+  shuffledOptions = {}; // Reset shuffled options
   configPanel.classList.add('hidden');
   resultPanel.classList.add('hidden');
   examPanel.classList.remove('hidden');
@@ -122,10 +124,19 @@ function loadQuestion() {
   prevBtn.disabled = currentIndex === 0;
   prevBtn.classList.remove('hidden');
 
+  // Shuffle options on first view if not already shuffled
+  const questionKey = `q${current.num}`;
+  if (!shuffledOptions[questionKey]) {
+    shuffledOptions[questionKey] = [...current.options];
+    shuffleArray(shuffledOptions[questionKey]);
+  }
+
+  const displayOptions = shuffledOptions[questionKey];
+
   // Check if this question has already been answered
   const result = results.find((r) => r.num === current.num);
 
-  current.options.forEach((option, index) => {
+  displayOptions.forEach((option, index) => {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'option-button';
@@ -134,9 +145,8 @@ function loadQuestion() {
     if (result) {
       // Question already answered - show the result
       button.disabled = true;
-      const correctIndex = current.options.findIndex((o) => o.correct);
 
-      if (index === correctIndex) {
+      if (option.correct) {
         button.classList.add('correct');
       }
 
@@ -162,36 +172,34 @@ function loadQuestion() {
       }
     } else {
       // Question not answered yet - allow selection
-      button.addEventListener('click', () => selectAnswer(index));
+      button.addEventListener('click', () => selectAnswer(option));
     }
 
     optionsContainer.appendChild(button);
   });
 }
 
-function selectAnswer(selectedIndex) {
+function selectAnswer(selectedOption) {
   const current = currentQuestions[currentIndex];
   const optionButtons = Array.from(optionsContainer.children);
   if (optionButtons.some((btn) => btn.disabled && btn.classList.contains('option-button'))) {
     return;
   }
 
-  const correctIndex = current.options.findIndex((o) => o.correct);
-  const correctText = current.options[correctIndex].text;
-  const selectedOption = current.options[selectedIndex];
-  const selectedButton = optionButtons[selectedIndex];
+  const correctOption = current.options.find((o) => o.correct);
+  const correctText = correctOption.text;
+  const isCorrect = selectedOption.correct;
 
   optionButtons.forEach((btn, index) => {
     btn.disabled = true;
-    if (index === correctIndex) {
+    if (optionsContainer.children[index].textContent === correctText) {
       btn.classList.add('correct');
     }
-    if (index === selectedIndex && index !== correctIndex) {
+    if (btn.textContent === selectedOption.text && !isCorrect) {
       btn.classList.add('incorrect');
     }
   });
 
-  const isCorrect = selectedIndex === correctIndex;
   results.push({
     num: current.num,
     question: current.question,
@@ -264,6 +272,7 @@ function goBackToConfig() {
   feedback.textContent = '';
   currentQuestions = [];
   results = [];
+  shuffledOptions = {};
   currentIndex = 0;
   prevBtn.classList.add('hidden');
   nextBtn.classList.add('hidden');
@@ -276,6 +285,7 @@ function resetApp() {
   feedback.textContent = '';
   currentQuestions = [];
   results = [];
+  shuffledOptions = {};
   nextBtn.classList.add('hidden');
 }
 
