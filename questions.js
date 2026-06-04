@@ -1,11554 +1,6212 @@
 const QUESTIONS = [
   {
     "num": 1,
-    "question": "M.F. Axundova  görə aşağıdakılardan hansı doğrudur?",
+    "question": "Nağdsız hesablaşma formasıdır:",
     "options": [
       {
-        "text": "Maddi dünya Allah tərəfindən yaradılmışdır.",
-        "correct": false
-      },
-      {
-        "text": "Təbiət və yaradan vəhdət təşkil edir.",
-        "correct": false
-      },
-      {
-        "text": "Təbiət mənəvi substansiyadan yaranmışdır.",
-        "correct": false
-      },
-      {
-        "text": "Maddi və mənəvi birgə yaranmışdır.",
-        "correct": false
-      },
-      {
-        "text": "Təbiət öz-özünün səbəbidir",
+        "text": "akkreditiv",
         "correct": true
+      },
+      {
+        "text": "aksept",
+        "correct": false
+      },
+      {
+        "text": "trast",
+        "correct": false
+      },
+      {
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "birja",
+        "correct": false
       }
     ]
   },
   {
     "num": 2,
-    "question": "\"Artımın hədləri” nəzəriyyəsinin müəlliflərini göstərin:",
+    "question": "Kredit riskinə aid olan riskdir:",
     "options": [
       {
-        "text": "D.Bell, E.Toffler",
+        "text": "valyuta riski",
         "correct": false
       },
       {
-        "text": "İ.Kant, T.Parsons",
-        "correct": false
-      },
-      {
-        "text": "E.Toffer, U.Bek",
-        "correct": false
-      },
-      {
-        "text": "D.Forrester, D.Medouz",
+        "text": "faiz dərəcəsi riski",
         "correct": true
       },
       {
-        "text": "D.Bell, U.Bek",
+        "text": "likvidlik riski",
+        "correct": false
+      },
+      {
+        "text": "əməliyyat riski",
+        "correct": false
+      },
+      {
+        "text": "bank riski",
         "correct": false
       }
     ]
   },
   {
     "num": 3,
-    "question": "Kim(lər) sivilizasiyanı tərəqqinin son məqsədi hesab edirdi?",
+    "question": "Ölkə ərazisində banklar arasında hesablaşmalar:",
     "options": [
       {
-        "text": "Ingilis materialistləri",
+        "text": "yalnız depozit olmayan hesablar üzrə aparılır",
         "correct": false
       },
       {
-        "text": "Siseron",
+        "text": "yalnız bankların Statistika Komitəsində  açılan hesablar vasitəsilə aparılır",
         "correct": false
       },
       {
-        "text": "Aristotel",
-        "correct": false
-      },
-      {
-        "text": "İ.Kant",
-        "correct": false
-      },
-      {
-        "text": "Fransız maarifçiləri",
+        "text": "müxbir hesablar vasitəsi ilə aparılır",
         "correct": true
+      },
+      {
+        "text": "yalnız Milli Depozit Sisteminin müxbir hesablar vasitəsilə aparılır",
+        "correct": false
+      },
+      {
+        "text": "yalnız ştatların regional idarələri üzrə olan hesablar vasitəsilə aparılır",
+        "correct": false
       }
     ]
   },
   {
     "num": 4,
-    "question": "F.Engelsin fikrincə  dövlətin əsas əlamətləri hansılardır?",
+    "question": "Bank kapitalının üç əsas funksiyasından biridir?",
     "options": [
       {
-        "text": "hakimiyyət  aparatının, ərazinin  və vergilərin mövcud olması",
+        "text": "əmanətlərin istifadəsi",
+        "correct": false
+      },
+      {
+        "text": "qeyri-müəyyən tənzimləmə",
+        "correct": false
+      },
+      {
+        "text": "vəsaitlərin bölgüsü",
+        "correct": false
+      },
+      {
+        "text": "tənzimləmə",
         "correct": true
       },
       {
-        "text": "istehsal, sosial və ideoloji  münasibətlər sisteminin  qurulması",
-        "correct": false
-      },
-      {
-        "text": "maddi və mənəvi dəyərlərə malik olma",
-        "correct": false
-      },
-      {
-        "text": "iqtisadi,siyasi və mənəvi mədəniyyətin formalaşmış halı",
-        "correct": false
-      },
-      {
-        "text": "iqtisadiyyatın, elmin, mədəniyyətin  mövcudluğu",
+        "text": "qeyri-müəyyən operativlik",
         "correct": false
       }
     ]
   },
   {
     "num": 5,
-    "question": "Dinin yaranması və mövcud olmasının  başlıca psixoloji  səbəbi nədir?",
+    "question": "Bankın kredit potensialının artırılması yolları:",
     "options": [
       {
-        "text": "siyasi ziddiyyətlərin  ləğvi",
+        "text": "tələblərin minimal ehtiyatlarının artırılmamasıdır",
         "correct": false
       },
       {
-        "text": "sosial ədalətsizlikdən yaxa  qurtarmaq",
+        "text": "kreditləşmə prinsiplərinə riayət edilməməsidir",
         "correct": false
       },
       {
-        "text": "insanın mənfi emosiya  və sarsıntılardan yaxa qurtarmaq istəyi",
+        "text": "passiv əməliyyatların təkmilləşdirilməməsidır",
+        "correct": false
+      },
+      {
+        "text": "sənəd dövriyyəsinin sürətlənməsidir",
+        "correct": false
+      },
+      {
+        "text": "cəlb olunmuş vəsaitlərin həcminin artırılmasıdır",
         "correct": true
-      },
-      {
-        "text": "istehsal-təsərrüfatçılıq sahəsinin  geriliyinin  aradan götürülməsi",
-        "correct": false
-      },
-      {
-        "text": "xöşbəxt  həyatın  ideoloji  əsaslandırılmasının  axtarışı",
-        "correct": false
       }
     ]
   },
   {
     "num": 6,
-    "question": "Nəyi falsifikasiya etmək mümkün deyil?",
+    "question": "Ödəniş tələbnamə-tapşırığı ilə hesablaşmalar zamanı emitent bank ödəyicinin əvvəlcədən verdiyi sərəncam əsasında vəsait alan tərəfindən təqdim olunan ödəniş tələbnamə tapşırığı üzrə vəsait alanın xeyrinə həyata keçirilir:",
     "options": [
       {
-        "text": "Allahın mövcudluğunu",
+        "text": "ödəniş tələbnamə-tapşırığı ilə hesablaşmalar",
         "correct": true
       },
       {
-        "text": "Marsda həyatın olmasını",
+        "text": "inkasso sərəncamı ilə olan hesablaşmalar",
         "correct": false
       },
       {
-        "text": "Masonların mövcudluğunu",
+        "text": "akkreditivlərlə hesablaşmalar",
         "correct": false
       },
       {
-        "text": "Atlantidanın mövcudluğunu",
+        "text": "veksellər ilə olan hesablaşmalar",
         "correct": false
       },
       {
-        "text": "qara qu quşlarının olmasını",
+        "text": "plastik kartlarla hesablaşmalar",
         "correct": false
       }
     ]
   },
   {
     "num": 7,
-    "question": "“ Hisslər üçün  əlçatmaz olan əql üçün də əlçatmazdır”  tezisini müdafiə edən cərəyanı göstərin:",
+    "question": "Mənzil tikilməsinə və ya alınmasına fiziki şəxslərə verilən uzunmüddətli ssuda:",
     "options": [
       {
-        "text": "sensualizm",
+        "text": "tikinti kreditidir",
+        "correct": false
+      },
+      {
+        "text": "ipoteka kreditidir",
         "correct": true
       },
       {
-        "text": "solipsizm",
+        "text": "beynəlxalq kreditidir",
         "correct": false
       },
       {
-        "text": "empirizm",
+        "text": "qısamüddətli kreditdir",
         "correct": false
       },
       {
-        "text": "intuitivizm",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm",
+        "text": "overdraft kreditidir",
         "correct": false
       }
     ]
   },
   {
     "num": 8,
-    "question": "Yeni dövr fəlsəfəsidə empirizmin banisi kimdir?",
+    "question": "…. siyasətinin aparılması hesabına kommersiya bankları ilə Mərkəzi Bank arasındakı pul axınları tənzimlənir:",
     "options": [
       {
-        "text": "F.Bekon",
+        "text": "faiz",
+        "correct": false
+      },
+      {
+        "text": "valyuta",
+        "correct": false
+      },
+      {
+        "text": "pul",
         "correct": true
       },
       {
-        "text": "K.Helvetsi",
+        "text": "əmtəə",
         "correct": false
       },
       {
-        "text": "B.Spinoza",
-        "correct": false
-      },
-      {
-        "text": "R.Dekart",
-        "correct": false
-      },
-      {
-        "text": "Q.Leybnits",
+        "text": "qiymət",
         "correct": false
       }
     ]
   },
   {
     "num": 9,
-    "question": "Materiyanın mövcudluq formasını  göstərin",
+    "question": "Nağdsız pul dövriyyəsində mal və pul vəsaitlərinin qarşılıqlı hərəkəti:",
     "options": [
       {
-        "text": "tərəqqi",
+        "text": "həmişə baş verir",
         "correct": false
       },
       {
-        "text": "idrak",
+        "text": "dövri olaraq baş verir",
         "correct": false
       },
       {
-        "text": "materiya",
+        "text": "1 tərəfli müqavilə bağlandıqda baş verir",
         "correct": false
       },
       {
-        "text": "tənəzzül",
-        "correct": false
-      },
-      {
-        "text": "məkan",
+        "text": "heç zaman baş vermir",
         "correct": true
+      },
+      {
+        "text": "sövdələşmə subyektlərinin razılığı əsasında baş verir",
+        "correct": false
       }
     ]
   },
   {
     "num": 10,
-    "question": "Postpozitivizmə kimlər aiddir?",
+    "question": "Bankın kassasından nağd pul ... əsasında verilir:",
     "options": [
       {
-        "text": "İ.Lakatos, P.Feyerabend, T.Kun",
+        "text": "şəxsi çeki",
+        "correct": false
+      },
+      {
+        "text": "akkreditiv",
+        "correct": false
+      },
+      {
+        "text": "ödəniş tapşırığı",
+        "correct": false
+      },
+      {
+        "text": "veksel",
+        "correct": false
+      },
+      {
+        "text": "pul çekləri və kassa məxaric orderləri",
         "correct": true
-      },
-      {
-        "text": "O.Kont, HSpenser, EMax",
-        "correct": false
-      },
-      {
-        "text": "M.Şlik, O.Neyrat, R.Karnap",
-        "correct": false
-      },
-      {
-        "text": "A.Berqson, KJaspers, MHaydegger",
-        "correct": false
-      },
-      {
-        "text": "M.Fuko, J.Derrida, J.Liotar",
-        "correct": false
       }
     ]
   },
   {
     "num": 11,
-    "question": "Qnoseologiyada mənasına görə həqiqətin əksi olan anlayış hansıdır?",
+    "question": "Bank menecmentinin məqsədi müəyyən edilir:",
     "options": [
       {
-        "text": "təbliğat",
-        "correct": false
-      },
-      {
-        "text": "yalan",
+        "text": "bankın idarə olunması məqsədləri ilə",
         "correct": true
       },
       {
-        "text": "qavrayış",
+        "text": "bankın mənfəətliliyi ilə",
         "correct": false
       },
       {
-        "text": "təsəvvür",
+        "text": "bankın likvidliyi ilə",
         "correct": false
       },
       {
-        "text": "mühakimə",
+        "text": "bankın ödəmə qabiliyyətliliyi ilə",
+        "correct": false
+      },
+      {
+        "text": "bankın iqtisadi və mənəvi məqsədləri ilə",
         "correct": false
       }
     ]
   },
   {
     "num": 12,
-    "question": "İnsan hüquqları haqqında   ümumi  bəyannamə (1948-ci il) nəyin əsasını təşkil edir?",
+    "question": "Bankın mənfəətliliyi ona ........... imkanı verir:",
     "options": [
       {
-        "text": "Liberal-demokratik ideologiyanın",
+        "text": "müştəri itirmək",
+        "correct": false
+      },
+      {
+        "text": "yeni filiallar və şöbələr  açmaq yolu ilə öz fəaliyyət miqyasını genişləndirmək",
         "correct": true
       },
       {
-        "text": "Cəmiyyətin  inkişafının  maddi  şərtlərinin",
+        "text": "hesablaşmaların azaldılması",
         "correct": false
       },
       {
-        "text": "Yeni iqtisadi  proqramların  işlənməsinin",
+        "text": "filiallarla qarşılıqlı münasibəti kəsmək",
         "correct": false
       },
       {
-        "text": "Ekoloji  hərəkatın",
-        "correct": false
-      },
-      {
-        "text": "Cəmiyyətin  inkişafının  dövlət  proqramının",
+        "text": "rentabellik səviyyəsini aşağı salmaq və azaltmaq",
         "correct": false
       }
     ]
   },
   {
     "num": 13,
-    "question": "Əsas siyasi  rejim növlərinin adlarını göstərin",
+    "question": "Kommersiya banklarının nizamnamə kapitalının həcmi.....manatdır:",
     "options": [
       {
-        "text": "Totalitarizm, avtoritarizm, demokratiya",
+        "text": "500 mln",
+        "correct": false
+      },
+      {
+        "text": "100 mln",
+        "correct": false
+      },
+      {
+        "text": "50 mln",
         "correct": true
       },
       {
-        "text": "Monarxiya, teokratiya",
+        "text": "1 mln",
         "correct": false
       },
       {
-        "text": "Plutokratiya, timokratiya",
-        "correct": false
-      },
-      {
-        "text": "Oxlokratiya, sentrizm",
-        "correct": false
-      },
-      {
-        "text": "Faşizm, kommunizm",
+        "text": "200 mln",
         "correct": false
       }
     ]
   },
   {
     "num": 14,
-    "question": "Sosial idrakın aksioloji tərəfi dedikdə nə başa düşülür?",
+    "question": "Bağlama nədir:",
     "options": [
       {
-        "text": "dəyər yanaşması",
+        "text": "əskinazların möhürlənməsidir",
+        "correct": false
+      },
+      {
+        "text": "əskinazların ləğv edilməsidir",
+        "correct": false
+      },
+      {
+        "text": "əskinazların Mərkəzi Bankdan alınmasıdır",
+        "correct": false
+      },
+      {
+        "text": "eyni nominal dəyərdən olan 10 (on) ədəd dəstdən (1000) vərəq ibarət əskinazların bağlanmasıdır",
         "correct": true
       },
       {
-        "text": "subyektin şəxsi təcrübəsi",
-        "correct": false
-      },
-      {
-        "text": "sоsial idrakda ictimai praktikanın rоlu",
-        "correct": false
-      },
-      {
-        "text": "sosial idrakın təbiəti",
-        "correct": false
-      },
-      {
-        "text": "ictimai təzahürlərin idrakı",
+        "text": "əskinazların xərclənməsidir",
         "correct": false
       }
     ]
   },
   {
     "num": 15,
-    "question": "Postindustrializm konsepsiyasında cəmiyyətin hansı sferası üstünlük təşkil edir?",
+    "question": "Qiymətlilər nədir:",
     "options": [
       {
-        "text": "elm",
+        "text": "qiymətli kağız və akkreditivlərdir",
         "correct": false
       },
       {
-        "text": "ekologiya",
+        "text": "trast əməliyyatıdır",
         "correct": false
       },
       {
-        "text": "xidmət",
+        "text": "lizinq əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "kredit pullardır",
+        "correct": false
+      },
+      {
+        "text": "nağd pul,qiymətli kağızlar,qiymətli metallar,daş-qaşlar,zinət əşyalarıdır, xarici valyuta vəsaitləridir",
         "correct": true
-      },
-      {
-        "text": "maddi istehsal",
-        "correct": false
-      },
-      {
-        "text": "siyasi sfera",
-        "correct": false
       }
     ]
   },
   {
     "num": 16,
-    "question": "Postindustrial cəmiyyətin inkişafını şərtləndirən əsas amil hansıdır?",
+    "question": "İnternet bankçılıq ... əhəmiyyətli dərəcədə şərait yaradır:",
     "options": [
       {
-        "text": "siyasət",
-        "correct": false
-      },
-      {
-        "text": "informasiya",
+        "text": "nağdsız ödənişlərə",
         "correct": true
       },
       {
-        "text": "xidmətlər",
+        "text": "qalıq ödənişlərinə",
         "correct": false
       },
       {
-        "text": "maddi istehsal",
+        "text": "idxal ödənişlərinə",
         "correct": false
       },
       {
-        "text": "ekologiya",
+        "text": "limitsiz qalan ödənişlərə",
+        "correct": false
+      },
+      {
+        "text": "investisiya ödənişlərinə",
         "correct": false
       }
     ]
   },
   {
     "num": 17,
-    "question": "İnformasiya hansı cəmiyyətin inkişafının əsasında durur?",
+    "question": "İnkassasiya anlayışı aşağıda verilən hansı variantda doğru əks etdirilmişdir:",
     "options": [
       {
-        "text": "postindustrializmin",
+        "text": "yalnız plastik kartların təyinat yerinə çatdırılmasıdır",
+        "correct": false
+      },
+      {
+        "text": "nağd pul və digər qiymətlilərin olduğu yerdən təyinat yerinə daşınmasıdır",
         "correct": true
       },
       {
-        "text": "quldarlıq cəmiyyətinin",
+        "text": "sənədlərin təyinat yerinə çatdırılmasıdır",
         "correct": false
       },
       {
-        "text": "feodal cəmiyyətin",
+        "text": "məlumatların təyinat yerinə çatdırılmasıdır",
         "correct": false
       },
       {
-        "text": "aqrar cəmiyyətin",
-        "correct": false
-      },
-      {
-        "text": "industrializmin",
+        "text": "ipotekanın təyinat yerinə çatdırılmasıdır",
         "correct": false
       }
     ]
   },
   {
     "num": 18,
-    "question": "Postindustrial cəmiyyətin inkişafının əsasında duran əsas amili göstərin",
+    "question": "Kreditləşmənin prinsiplərini göstərin:",
     "options": [
       {
-        "text": "əxlaq",
+        "text": "məqsədli istifadə",
         "correct": false
       },
       {
-        "text": "mədəniyyət",
+        "text": "müddətlilik",
         "correct": false
       },
       {
-        "text": "siyasət",
-        "correct": false
-      },
-      {
-        "text": "informasiya",
+        "text": "hamısı",
         "correct": true
       },
       {
-        "text": "dövlət",
+        "text": "ödənişlik-(% faizini ödəmə)",
+        "correct": false
+      },
+      {
+        "text": "qaytarılmaq",
         "correct": false
       }
     ]
   },
   {
     "num": 19,
-    "question": "İnformasiya hansı cəmiyyətin inkişafının əsasında durur?",
+    "question": "Pul banderolu nədir?",
     "options": [
       {
-        "text": "antik cəmiyyətin",
+        "text": "pulları saxlamaq üçün xüsusi yerdir",
         "correct": false
       },
       {
-        "text": "sinfi cəmiyyətin",
+        "text": "pul dəstlərini bağlamaq üçün vahid formalı sənəddir",
         "correct": false
       },
       {
-        "text": "postindustrial cəmiyyətin",
+        "text": "eyni nominal dəyərdən olan əskinaz toplusudur",
+        "correct": false
+      },
+      {
+        "text": "pul dəstlərini bağlamaq üçün Mərkəzi Bank tərəfindən təsdiq edilmiş vahid formalı lentdir",
         "correct": true
       },
       {
-        "text": "industrial cəmiyyətin",
-        "correct": false
-      },
-      {
-        "text": "ənənəvi cəmiyyətin",
+        "text": "pul bağlamaq üçün 5 tərəfli lentdir",
         "correct": false
       }
     ]
   },
   {
     "num": 20,
-    "question": "Postindustrial cəmiyyətdə dəyərin əsas mənbəyini nə təşkil edir?",
+    "question": "Lizinq əməliyyatında kimlər iştirak edə bilər:",
     "options": [
       {
-        "text": "əmək",
+        "text": "gizli bank filialı",
         "correct": false
       },
       {
-        "text": "nəzəri bilik",
+        "text": "Gömrük Komitəsi",
+        "correct": false
+      },
+      {
+        "text": "hüquqi şəxs olan kredit göndərən",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": false
+      },
+      {
+        "text": "lizinq alan istənilən hüquqi və fiziki şəxs",
         "correct": true
-      },
-      {
-        "text": "kənd təsərrüfatı",
-        "correct": false
-      },
-      {
-        "text": "muzdlu iş qüvvəsi",
-        "correct": false
-      },
-      {
-        "text": "kapital",
-        "correct": false
       }
     ]
   },
   {
     "num": 21,
-    "question": "Mədəniyyətdə  novatorluq:",
+    "question": "Banklarda cəlb olunmuş vəsaitlər hansı əməliyyatlar hesabına səfərbər edilir:",
     "options": [
       {
-        "text": "ideoloji  funksiya yerinə  yetirir",
-        "correct": false
-      },
-      {
-        "text": "mədəniyyətin inkişafını  şərtləndirir",
+        "text": "bankın passiv əməliyyatları",
         "correct": true
       },
       {
-        "text": "mühafizəkarlığa gətirib çıxarır",
+        "text": "mənfəət əməliyyatları",
         "correct": false
       },
       {
-        "text": "elmin  inkişafından  asılıdır",
+        "text": "bankın xəzinədarlıq əməliyyatları",
         "correct": false
       },
       {
-        "text": "mədəniyyətin fasiləsizliyini  təmin edir",
+        "text": "trast əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "bankın aktiv əməliyyatları",
         "correct": false
       }
     ]
   },
   {
     "num": 22,
-    "question": "İnsanı  fəaliyyətin  subyekti kimi  xarakterizə edən  anlayışı göstərin",
+    "question": "Universal bank:",
     "options": [
       {
-        "text": "Şəxsiyyət",
-        "correct": true
-      },
-      {
-        "text": "fərdiyyət",
+        "text": "manat və valyuta lisenziyasına malikdir",
         "correct": false
       },
       {
-        "text": "fərd",
+        "text": "Mərkəzi Bankın əməliyyatlarını həyata keçirir",
         "correct": false
       },
       {
-        "text": "qəhrəman",
-        "correct": false
-      },
-      {
-        "text": "tarixi şəxsiyyət",
+        "text": "qiymətli kağızlar bazarında peşəkar",
         "correct": false
       }
     ]
   },
   {
     "num": 23,
-    "question": "\"Yaşamaq - həzz almaqdır \" tezisini irəli sürən cərəyan",
+    "question": "Universal bank:",
     "options": [
       {
-        "text": "praqmatizm",
+        "text": "sənədsiz stehlak krediti verir",
         "correct": false
       },
       {
-        "text": "rasionalizm",
+        "text": "yalniz investisiya əməliyyatını həyata keçirir",
         "correct": false
       },
       {
-        "text": "gedonizm",
+        "text": "bütün bank əməliyyatlarını həyata keçirir",
         "correct": true
       },
       {
-        "text": "utilitarizm",
+        "text": "heç bir bank əməliyyatını həyata keçirmir",
         "correct": false
       },
       {
-        "text": "asketizm",
+        "text": "kommersiya banklarını lisenziyalaşdırır",
         "correct": false
       }
     ]
   },
   {
     "num": 24,
-    "question": "İntuisionizmə görə (A.Berqson) varlığa adekvat olan idraki qabiliyyət hansıdır",
+    "question": "İnvestor kimi bankın əsas məqsədlərindən biri:",
     "options": [
       {
-        "text": "təfəkkür",
+        "text": "vəsaitlərdən maksimum istifadə etməməkdir",
         "correct": false
       },
       {
-        "text": "duyğu",
+        "text": "vəsaitlərin vaxtında geri qaytarılmamasıdır",
         "correct": false
       },
       {
-        "text": "induksiya",
+        "text": "vəsaitlərin müddətliliyinin qorunmamasıdır",
         "correct": false
       },
       {
-        "text": "iradə",
-        "correct": false
-      },
-      {
-        "text": "intuisiya",
+        "text": "qoyuluşların təhlükəsizliyi və onların artımıdır",
         "correct": true
+      },
+      {
+        "text": "vəsaitlərin ödəncliyini təmin etməməkdir",
+        "correct": false
       }
     ]
   },
   {
     "num": 25,
-    "question": "Klassik alman fəlsəfəsində dialektik inkişaf qanunlarını hansı filosof sistemləşdirmişdir?",
+    "question": "Valyuta sərvətlərinə aiddir:",
     "options": [
       {
-        "text": "Şellinq",
+        "text": "bank sənədləri",
         "correct": false
       },
       {
-        "text": "Kant",
+        "text": "kredit, depozit və s.",
         "correct": false
       },
       {
-        "text": "Fixte",
+        "text": "əmlak, istehlak malları",
         "correct": false
       },
       {
-        "text": "Feyerbax",
+        "text": "klirinq, depozit",
         "correct": false
       },
       {
-        "text": "Hegel",
+        "text": "xarici valyuta, qiymətli metallar və s.",
         "correct": true
       }
     ]
   },
   {
     "num": 26,
-    "question": "Hansı filosofun təlimində  insan  bədən və ruhun vəhdəti  kimi fəlsəfənin çıxış nöqtəsini təşkil edir?",
+    "question": "Əməliyyat günü ərzində kassa əməliyyatlarının həyata keçirildiyi kassadır:",
     "options": [
       {
-        "text": "Holbaxın",
-        "correct": false
-      },
-      {
-        "text": "Lametrinin",
-        "correct": false
-      },
-      {
-        "text": "Didronun",
-        "correct": false
-      },
-      {
-        "text": "Feyerbaxın",
+        "text": "gündüz kassası",
         "correct": true
       },
       {
-        "text": "Russonun",
+        "text": "gizli mədaxil kassası",
+        "correct": false
+      },
+      {
+        "text": "gizli məxaric kassası",
+        "correct": false
+      },
+      {
+        "text": "gizli kassa",
+        "correct": false
+      },
+      {
+        "text": "banklarda belə kassa olmur",
         "correct": false
       }
     ]
   },
   {
     "num": 27,
-    "question": "Dekartın fəlsəfi mühakimələrinin çıxış prinsipini göstərin:",
+    "question": "Bank fəaliyyətində risklər neçə kateqoriyaya bölünür?",
     "options": [
       {
-        "text": "nurlanma",
+        "text": "dövlət vəsaitlərinin riskləri",
         "correct": false
       },
       {
-        "text": "meditasiya",
-        "correct": false
-      },
-      {
-        "text": "dialektika",
-        "correct": false
-      },
-      {
-        "text": "intuisiya",
-        "correct": false
-      },
-      {
-        "text": "şübhə",
+        "text": "maliyyə riskləri,funksional risklər, xarici risklər",
         "correct": true
+      },
+      {
+        "text": "yalnız müştərilərin vəsaitlərinin riskləri",
+        "correct": false
+      },
+      {
+        "text": "qapalı və açıq risklər",
+        "correct": false
+      },
+      {
+        "text": "bank riskləri, depozit riskləri",
+        "correct": false
       }
     ]
   },
   {
     "num": 28,
-    "question": "Dekarta görə elmi metodun əsasını aşağıdakılardan hansı təşkil edir?",
+    "question": "Beynəlxalq maliyyə ödənişlərini həyata keçirən sistemi göstərin:",
     "options": [
       {
-        "text": "“Özünü dərk et!”",
+        "text": "XÖHKS(Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi)",
         "correct": false
       },
       {
-        "text": "düzgün variant yoxdur",
+        "text": "KÖMİS(Kütləvi Ödənişlər üzrə Mərkəzləşdirilmiş İnformasiya Sistemi)",
         "correct": false
       },
       {
-        "text": "«Hər şey Allahın idarəsindən asılıdır”",
-        "correct": false
-      },
-      {
-        "text": "«Bilik gücdür”",
-        "correct": false
-      },
-      {
-        "text": "«Düşünürəm, dеməli, mövcudam»",
+        "text": "SWİFT(Beynəlxalq Maliyyə Telekommunikasiya Sistemi)",
         "correct": true
+      },
+      {
+        "text": "AZİPS(Real Vaxt Rejimində işləyən Banklararası Milli Hesablaşma Sistemi)",
+        "correct": false
+      },
+      {
+        "text": "HÖP(Hökümət Ödəniş Portalı)",
+        "correct": false
       }
     ]
   },
   {
     "num": 29,
-    "question": "Yeni Dövr fəlsəfəsinin əsas problemini göstərin:",
+    "question": "Bank kreditində ssuda faizi müəyyən edilir:",
     "options": [
       {
-        "text": "insan problemi",
+        "text": "borcalanın bərabər ödənişləri ilə",
         "correct": false
       },
       {
-        "text": "varlıq problemi",
+        "text": "sənədləşmə üzrə ödənilən faizlə",
         "correct": false
       },
       {
-        "text": "elmi idrak problemi",
+        "text": "kredit müqaviləsinin müddəti bitdikdən sonra",
+        "correct": false
+      },
+      {
+        "text": "Müqavilə şərtləri əsasında",
         "correct": true
       },
       {
-        "text": "maddi və ideal olanın nisbəti problemi",
-        "correct": false
-      },
-      {
-        "text": "cəmiyyət problemi",
+        "text": "bankın verdiyi ssudalardan faizlərin tutulması yolu ilə",
         "correct": false
       }
     ]
   },
   {
     "num": 30,
-    "question": "Yeni Dövrün fəlsəfi cərəyanı olan empirizimin banisini göstərin?",
+    "question": "Azərbaycan Respublikası Prezidentinin 2018-ci il 6 sentyabr tarixli sərəncamı ilə 2018-2020-ci illərdə Azərbaycan Respublikası rəqəmsal ödənişlərin genişləndirilməsi  üzrə Dövlət Programı çərçivəsində Mərkəzi Bank tərəfindən yaradılmışdır:",
     "options": [
       {
-        "text": "R.Dekart",
+        "text": "KÖMİS Sistemi",
         "correct": false
       },
       {
-        "text": "Q.Leybnits",
+        "text": "AZİPS Sistemi",
         "correct": false
       },
       {
-        "text": "C.Lokk",
+        "text": "Klirinq Sistemi",
         "correct": false
       },
       {
-        "text": "B.Spinoza",
+        "text": "SWİFT Sistemi",
         "correct": false
       },
       {
-        "text": "F.Bekon",
+        "text": "Ani Ödənişlər Sistemi",
         "correct": true
       }
     ]
   },
   {
     "num": 31,
-    "question": "Kantın yaradıcılığı  hansı dövrlərə ayrılır?",
+    "question": "Azərbaycan Respublikası Prezidentinin 2018-ci il 6 sentyabr tarixli sərəncamı ilə 2018-2020-ci illərdə Azərbaycan Respublikası rəqəmsal ödənişlərin genişləndirilməsi  üzrə Dövlət Programı çərçivəsində Mərkəzi Bank tərəfindən yaradılmışdır:",
     "options": [
       {
-        "text": "idealist və materialist",
-        "correct": false
-      },
-      {
-        "text": "gənclik və yetkinlik",
-        "correct": false
-      },
-      {
-        "text": "məntiqi və praktiki",
-        "correct": false
-      },
-      {
-        "text": "metafiziki və dialektik",
-        "correct": false
-      },
-      {
-        "text": "tənqidəqədərki və tənqidi",
+        "text": "Ani Ödənişlər Sistemi",
         "correct": true
+      },
+      {
+        "text": "SWİFT Sistemi",
+        "correct": false
+      },
+      {
+        "text": "KÖMİS Sistemi",
+        "correct": false
+      },
+      {
+        "text": "AZİPS Sistemi",
+        "correct": false
+      },
+      {
+        "text": "Klirinq Sistemi",
+        "correct": false
       }
     ]
   },
   {
     "num": 32,
-    "question": "Alman klasisk fəlsəfəsinin mərkəzi problemini göstərin:",
+    "question": "Müəssisələrə nağd pul ilə bank köçürmələrini həyata keçirmək:",
     "options": [
       {
-        "text": "həyatın mənası",
+        "text": "lisenziya aldıqdan sonra mümkündür",
         "correct": false
       },
       {
-        "text": "ilkin başlanğıc",
-        "correct": false
-      },
-      {
-        "text": "insan və  Allah",
-        "correct": false
-      },
-      {
-        "text": "subyekt və obyektin eyniyyəti",
+        "text": "Qanunvericiliklə müəyyən edilmiş qaydaya əsasən icazə verilir",
         "correct": true
       },
       {
-        "text": "insan psixikasının  strukturu",
+        "text": "fiziki şəxslər icazə verdikdə mümkündür",
+        "correct": false
+      },
+      {
+        "text": "hesablaşma kassa mərkəzi tərəfindən icazə verildiyi zaman mümkündür",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslər tərəfindən müəssisəyə icazə verildikdə mümkündür",
         "correct": false
       }
     ]
   },
   {
     "num": 33,
-    "question": "Hegelin dialektik metodu nəyi aşkarlamağa imkan verir?",
+    "question": "Kassa əməliyyatları bankların ..... əməliyyatlarıdır:",
     "options": [
       {
-        "text": "bazar iqtisadiyyatının mahiyyətini",
+        "text": "təmənnasız",
         "correct": false
       },
       {
-        "text": "düzgün variant yoxdur",
+        "text": "birja",
         "correct": false
       },
       {
-        "text": "insanın dual təbiətini",
-        "correct": false
-      },
-      {
-        "text": "əmək  bölgüsünün səbəblərini",
-        "correct": false
-      },
-      {
-        "text": "inkişafı",
+        "text": "öz müştəriləri ilə nağd pul",
         "correct": true
       }
     ]
   },
   {
     "num": 34,
-    "question": "Hegelin sistemində təbiət və tarixi nə yaradır?",
+    "question": "Konvertasiya.......deyilir:",
     "options": [
       {
-        "text": "Allahın iradəsi",
+        "text": "bir bankın digərinə dəyişdirilməsinə",
         "correct": false
       },
       {
-        "text": "təsadüf",
+        "text": "nağd pulun nağdsız pula çevrilməsinə",
         "correct": false
       },
       {
-        "text": "zərurət",
+        "text": "pulun kreditə çevrilməsinə",
         "correct": false
       },
       {
-        "text": "təbii qanunlar",
-        "correct": false
-      },
-      {
-        "text": "mütləq ideyanın inkişaf məntiqi",
+        "text": "bir valyuta növünün digərinə dəyişdirilməsinə",
         "correct": true
+      },
+      {
+        "text": "pulun dəfinəyə çevrilməsinə",
+        "correct": false
       }
     ]
   },
   {
     "num": 35,
-    "question": "Hegel hansı fəlsəfi cərəyanın nümayəndəsidir?",
+    "question": "Nağdsız dövriyyə … … əhatə edir:",
     "options": [
       {
-        "text": "subyektiv idealizm",
+        "text": "yalnız valyuta dövriyyəsini",
         "correct": false
       },
       {
-        "text": "metafizik materializm",
+        "text": "yalnız maliyyə dövriyyəsini",
         "correct": false
       },
       {
-        "text": "materialist monizm",
+        "text": "yalnız əmtəə dövriyyəsini",
         "correct": false
       },
       {
-        "text": "obyektiv idealizm",
+        "text": "yalnız qeyri əmtəə dövriyyəsini",
+        "correct": false
+      },
+      {
+        "text": "əmtəə və qeyri əmtəə dövriyyəsini",
         "correct": true
-      },
-      {
-        "text": "idealist plüralizm",
-        "correct": false
       }
     ]
   },
   {
     "num": 36,
-    "question": "İdrak metodu kimi dialektikanı kim işləyib sistemləşdirmişdir?",
+    "question": "Mərkəzi Bankın əsas resurs mənbəyidir:",
     "options": [
       {
-        "text": "Leibnits",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
+        "text": "banknot emissiyası",
         "correct": true
       },
       {
-        "text": "Kant",
+        "text": "hesablara vəsaitləri köçürmək",
         "correct": false
       },
       {
-        "text": "Dekart",
+        "text": "lisenziya vermək",
         "correct": false
       },
       {
-        "text": "Marks",
+        "text": "banknot ekspansiyası",
+        "correct": false
+      },
+      {
+        "text": "sərbəst vəsaitlər",
         "correct": false
       }
     ]
   },
   {
     "num": 37,
-    "question": "Alman klassik fəlsəfəsinin nümayəndəsini göstərin:",
+    "question": "Kommersiya bankları hansı Bank Qanununa əsasən fəaliyyət göstərir?",
     "options": [
       {
-        "text": "Volter",
+        "text": "düzgün cavab yoxdur",
         "correct": false
       },
       {
-        "text": "P. Holbax",
-        "correct": false
-      },
-      {
-        "text": "Didro",
-        "correct": false
-      },
-      {
-        "text": "J. Fixte",
+        "text": "\"Banklar Haqqında\" Azərbaycan Respublikasının Qanununa əsasən",
         "correct": true
       },
       {
-        "text": "Dekart",
+        "text": "Bank Olmayan Kredit Təşkilatları (BOKT) Haqqında Qanuna əsasən",
+        "correct": false
+      },
+      {
+        "text": "\"Banklar Assosiasiyaları Haqqında\" Qanuna əsasən",
+        "correct": false
+      },
+      {
+        "text": "\"Qiymətli Kağızlar Haqqında\" Qanuna əsasən",
         "correct": false
       }
     ]
   },
   {
     "num": 38,
-    "question": "“Özündə şeylər” anlayışını dovriyyəyə ilk dəfə hansı filosof daxil etmişdir?",
+    "question": "Kommersiya bankları ....... əməliyyatlarını yerinə yetirirlər:",
     "options": [
       {
-        "text": "Spinoza",
+        "text": "dövlət qiymətli kağızlarını satmaq",
         "correct": false
       },
       {
-        "text": "Dekart",
+        "text": "ölkənin qızıl və valyuta fonduna xidmət göstərir",
         "correct": false
       },
       {
-        "text": "Fixte",
-        "correct": false
-      },
-      {
-        "text": "Marks",
-        "correct": false
-      },
-      {
-        "text": "Kant",
+        "text": "kreditləşmə, hesablaşma",
         "correct": true
+      },
+      {
+        "text": "lisenziya vermək",
+        "correct": false
+      },
+      {
+        "text": "dövlətə kassa xidməti göstərmək",
+        "correct": false
       }
     ]
   },
   {
     "num": 39,
-    "question": "Maarifçiliyin  sosial idealı öz ifadəsini nədə tapır?",
+    "question": "Banklar arasında hesablaşmalar:",
     "options": [
       {
-        "text": "teokratik cəmiyyət  ideyasında",
+        "text": "Xəzinədarlıq hesabları üzrə aparılır",
         "correct": false
       },
       {
-        "text": "materializmə  meylli olmalarında  tapmışdır",
+        "text": "depozit hesabları üzrə aparılır",
         "correct": false
       },
       {
-        "text": "elmin  tərəqqisinə  çalışmalarında",
-        "correct": false
-      },
-      {
-        "text": "ağılın  prinsipləri  əsasında  cəmiyyəti  yenidən  qurmaq  çağırışlarında",
+        "text": "Müxbir hesablar vasitəsi ilə aparılır",
         "correct": true
       },
       {
-        "text": "monarxiyanın  təbliğində",
+        "text": "bankların Maliyyə Nazirliyində",
         "correct": false
       }
     ]
   },
   {
     "num": 40,
-    "question": "Substansiyanın  dualizmi  ideyası  kimə məxsusdur?",
+    "question": "Bank hesablarının növləridir:",
     "options": [
       {
-        "text": "Dekarta",
+        "text": "məbləğ hesabları, müxbir hesablar",
+        "correct": false
+      },
+      {
+        "text": "əsas və əmanət hesabları",
+        "correct": false
+      },
+      {
+        "text": "əsas və cari hesablar, valyuta hesabları",
+        "correct": false
+      },
+      {
+        "text": "əsas və cari hesablar, kredit hesablar",
+        "correct": false
+      },
+      {
+        "text": "cari hesablar, cari subhesablar, əmanət hesabları, müxbir hesablar",
         "correct": true
-      },
-      {
-        "text": "İbn-Sinaya",
-        "correct": false
-      },
-      {
-        "text": "Hegelə",
-        "correct": false
-      },
-      {
-        "text": "Haydeggerə",
-        "correct": false
-      },
-      {
-        "text": "Platona",
-        "correct": false
       }
     ]
   },
   {
     "num": 41,
-    "question": "Substansiyanın yeganə olduğunu iddia edən kimdir?",
+    "question": "Kommersiya banklarının yaradılması və təşkili hansı variantda doğru verilib?",
     "options": [
       {
-        "text": "Leybnis",
-        "correct": false
-      },
-      {
-        "text": "Demokrit",
-        "correct": false
-      },
-      {
-        "text": "Kant",
-        "correct": false
-      },
-      {
-        "text": "Dekart",
-        "correct": false
-      },
-      {
-        "text": "Spinoza",
+        "text": "Açıq Səhmdar Cəmiyyəti formasında yaradılır və fəaliyyət göstərir",
         "correct": true
+      },
+      {
+        "text": "Qarışıq Səhmdar Cəmiyyəti formasında yaradılır",
+        "correct": false
+      },
+      {
+        "text": "Qapalı Səhmdar Cəmiyyəti formasında yaradılır",
+        "correct": false
+      },
+      {
+        "text": "Açıq və Qapalı Səhmdar Cəmiyyəti formasında yaradılır və fəaliyyət göstərir",
+        "correct": false
+      },
+      {
+        "text": "əsas və qeyri-Məhdud Məsuliyyətli Cəmiyyət formasında yaradılır",
+        "correct": false
       }
     ]
   },
   {
     "num": 42,
-    "question": "Spinozaya  görə substansiya aşağıdakılardan  hansıdır?",
+    "question": "Real Vaxt Rejimində Banklararası Milli Hesablaşmalar sistemidir:",
     "options": [
       {
-        "text": "ruh",
+        "text": "XÖHKS",
         "correct": false
       },
       {
-        "text": "materiya",
-        "correct": false
-      },
-      {
-        "text": "bunların hec biri",
-        "correct": false
-      },
-      {
-        "text": "canlılar aləmi",
-        "correct": false
-      },
-      {
-        "text": "təbiət",
+        "text": "AZİPS",
         "correct": true
+      },
+      {
+        "text": "SVOP",
+        "correct": false
+      },
+      {
+        "text": "BOKT",
+        "correct": false
+      },
+      {
+        "text": "SWIFT",
+        "correct": false
       }
     ]
   },
   {
     "num": 43,
-    "question": "Aşağıdakılardan hansı Dekartın  substansiya  anlayışına uyğundur?",
+    "question": "Opsion ................ :",
     "options": [
       {
-        "text": "kainatdır",
-        "correct": false
-      },
-      {
-        "text": "özü-öz mövcudluğunu şərtləndirən varlıqdır",
-        "correct": false
-      },
-      {
-        "text": "əşyalardır",
-        "correct": false
-      },
-      {
-        "text": "Insanın  yaratdıqlarıdır",
-        "correct": false
-      },
-      {
-        "text": "dualist səciyyə daşıyır",
+        "text": "qabaqcadan razılaşdırılmış qiymətə,",
         "correct": true
       }
     ]
   },
   {
     "num": 44,
-    "question": "Dekarta  görə  elmi metod öz mənbəyini nədən götürməlidir",
+    "question": "Dövlətin xəzinədarlıq hesablarına xidmət göstərir:",
     "options": [
       {
-        "text": "müşahidələrdən",
+        "text": "Bank şirkətləri",
         "correct": false
       },
       {
-        "text": "ilahiyyatdan",
+        "text": "bankların müştəriləri",
         "correct": false
       },
       {
-        "text": "siyasətdən",
+        "text": "Universal banklar",
         "correct": false
       },
       {
-        "text": "təcrübədən",
-        "correct": false
-      },
-      {
-        "text": "məntiqi  təfəkkürdən",
+        "text": "Mərkəzi Bank",
         "correct": true
+      },
+      {
+        "text": "İxtisaslaşmış banklar",
+        "correct": false
       }
     ]
   },
   {
     "num": 45,
-    "question": "Humanizm aşağıdakılardan hansının mərkəzi  ideyasıdır?",
+    "question": "Kredit təşkilatlarının Ali İdarəetmə Orqanı ...... Ümumi Yığıncağıdır:",
     "options": [
       {
-        "text": "ellinizm dövrü  fəlsəfəsinin",
+        "text": "müştərilərin",
         "correct": false
       },
       {
-        "text": "modernizm fəlsəfəsinin",
+        "text": "milli  depozit şirkətlərinin",
         "correct": false
       },
       {
-        "text": "orta əsrlər  müsəlman  şərq fəlsəfəsinin",
+        "text": "Bank Holdinq şirkətlərinin",
         "correct": false
       },
       {
-        "text": "intibah  fəlsəfəsinin",
+        "text": "İdarə Heyyətinin",
+        "correct": false
+      },
+      {
+        "text": "Təsisçilərin",
         "correct": true
-      },
-      {
-        "text": "klassik alman  fəlsəfəsinin",
-        "correct": false
       }
     ]
   },
   {
     "num": 46,
-    "question": "Antroposentrizm hnsı dövrün fəlsəfəsini səciyyələndirən  termindir?",
+    "question": "AZİPS -də(Real Vaxt Rejimində Banklararası Milli Hesablaşmalar Sistemi) hesablaşmalar hansı valyutada aparılır?",
     "options": [
       {
-        "text": "orta əsrlər  fəlsəfəsini",
-        "correct": false
-      },
-      {
-        "text": "yeni dövr fəlsəfəsini",
-        "correct": false
-      },
-      {
-        "text": "intibah dövrü  fəlsəfəsini",
+        "text": "milli və xarici",
         "correct": true
       },
       {
-        "text": "antik (qədim yunan-rom fəlsəfəsini",
+        "text": "yalnız dollar və rubl ilə",
         "correct": false
       },
       {
-        "text": "qədim  Şərq  fəlsəfəsinin",
+        "text": "yalnız rubl ilə",
+        "correct": false
+      },
+      {
+        "text": "yalnız xarici",
+        "correct": false
+      },
+      {
+        "text": "yalnız milli",
         "correct": false
       }
     ]
   },
   {
     "num": 47,
-    "question": "Bekona görə  elmi metod öz başlanğıcını nədən  götürülməlidir?",
+    "question": "Vençur anlayışı nədir?",
     "options": [
       {
-        "text": "təcrübədən",
+        "text": "Mərkəzi Bankın əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "riskli vəsait qoyuluşudur",
         "correct": true
       },
       {
-        "text": "məntiqi təfəkkürdən",
+        "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT) riskli olmayan əməliyyatıdır",
         "correct": false
       },
       {
-        "text": "bədii  əsərlərdən",
+        "text": "mənfi risklərlə vəsait köçürülməsidir",
         "correct": false
       },
       {
-        "text": "ilahiyyatdan",
-        "correct": false
-      },
-      {
-        "text": "sadə müşahidədən",
+        "text": "rezidentlərin etibarlı vəsait qoyuluşudur",
         "correct": false
       }
     ]
   },
   {
     "num": 48,
-    "question": "Empirizm cərəyanı idrakın mənbəyini nədə görürdü?",
+    "question": "Vençur anlayışı nədir?",
     "options": [
       {
-        "text": "təfəkkürdə",
+        "text": "Mərkəzi Bankın əməliyyatıdır",
         "correct": false
       },
       {
-        "text": "dində",
+        "text": "şifrələnmiş risklərlə vəsait qoyuluşudur",
         "correct": false
       },
       {
-        "text": "riyaziyyatda",
-        "correct": false
-      },
-      {
-        "text": "təcrübədə",
+        "text": "riskli vəsait qoyuluşudur",
         "correct": true
       },
       {
-        "text": "incəsənətdə",
+        "text": "rezidentlərin etibarlı vəsait qoyuluşudur",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT) riskli omayan əməliyyatıdır",
         "correct": false
       }
     ]
   },
   {
     "num": 49,
-    "question": "Klassik alman fəlsəfəsində dialektik inkişaf qanunlarını hansı filosof sistemləşdirmişdir?",
+    "question": "Beynəlxalq hesablaşmalarda bir bankın başqa bankda olan müxbir hesabı adlanır:",
     "options": [
       {
-        "text": "Fixte",
+        "text": "xüsusi ssuda hesabı",
         "correct": false
       },
       {
-        "text": "Hegel",
+        "text": "cari hesab",
+        "correct": false
+      },
+      {
+        "text": "gizli hesab",
+        "correct": false
+      },
+      {
+        "text": "\"Nostro\" hesab",
         "correct": true
       },
       {
-        "text": "Kant",
-        "correct": false
-      },
-      {
-        "text": "Feyerbax?",
-        "correct": false
-      },
-      {
-        "text": "Şellinq",
+        "text": "hesablaşma hesabı",
         "correct": false
       }
     ]
   },
   {
     "num": 50,
-    "question": "İ.Kant aşağıda göstərilən hansı idrak cərəyanına mənsub idi?",
+    "question": "Mərkəzi Bankın aktiv əməliyyatıdır:",
     "options": [
       {
-        "text": "Empirizm",
+        "text": "plastik kartlarla əməliyyatlar",
         "correct": false
       },
       {
-        "text": "Skeptisizm?",
+        "text": "investisiya əməliyyatları",
         "correct": false
       },
       {
-        "text": "Rasionalizm",
+        "text": "fiziki şəxslərərə kredit vermək",
         "correct": false
       },
       {
-        "text": "Sensualizm",
+        "text": "mənfəət əldə etmək",
         "correct": false
       },
       {
-        "text": "Aqnostisizm",
+        "text": "uçot-ssuda əməliyyatları, qızıl və valyuta ehtiyatlarının idarə olunması və s.",
         "correct": true
       }
     ]
   },
   {
     "num": 51,
-    "question": "Fransız mexanistik materialistləri kimlərdir?",
+    "question": "Mərkəzi Bankın aktiv əməliyyatıdır:",
     "options": [
       {
-        "text": "Didro, Holbax, Spinoza?",
-        "correct": false
-      },
-      {
-        "text": "Kant, Russo, Dalamber",
-        "correct": false
-      },
-      {
-        "text": "Volter, Didro, Haydegger",
-        "correct": false
-      },
-      {
-        "text": "Lametri, Holbax, Helvetsi",
+        "text": "uçot-ssuda əməliyyatları, qızıl və valyuta ehtiyatlarının idarə olunması və s.",
         "correct": true
       },
       {
-        "text": "Yaspers, Volter, AKamyu",
+        "text": "fiziki şəxslərə kredit vermək",
+        "correct": false
+      },
+      {
+        "text": "investisiya əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "mənfəət əldə etmək",
+        "correct": false
+      },
+      {
+        "text": "plastik kartlarla əməliyyatlar",
         "correct": false
       }
     ]
   },
   {
     "num": 52,
-    "question": "Adı çəkilənlərdən kim  fransız filosofudur?",
+    "question": "İxtisaslaşma səviyyəsinə görə banklar ayrılır:",
     "options": [
       {
-        "text": "QLeybnis?",
+        "text": "yalnız ixtisaslaşmış",
         "correct": false
       },
       {
-        "text": "F.Bekon",
+        "text": "kommersiya banklarının qərarına əsasən 4 yerə ayrılır",
         "correct": false
       },
       {
-        "text": "T.Hobbs",
+        "text": "Mərkəzi Bankın",
         "correct": false
       },
       {
-        "text": "R.Dekart",
+        "text": "universal və ixtisaslaşmış",
         "correct": true
-      },
-      {
-        "text": "A Lametri",
-        "correct": false
       }
     ]
   },
   {
     "num": 53,
-    "question": "“Məntiq elmi” əsərinin müəllifi kimdir?",
+    "question": "İxtisaslaşma səviyyəsinə görə banklar bölünür:",
     "options": [
       {
-        "text": "Şellinq",
+        "text": "filialsız banklara və çoxfiliallı banklara",
         "correct": false
       },
       {
-        "text": "Feyerbax",
+        "text": "regional, regionlararası, milli və beynəlxalq banklara",
         "correct": false
       },
       {
-        "text": "Fixte",
-        "correct": false
-      },
-      {
-        "text": "Kant",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
+        "text": "universal və ixtisaslaşmış banklara",
         "correct": true
+      },
+      {
+        "text": "xarici kapitallı banklara",
+        "correct": false
+      },
+      {
+        "text": "dövlət, səhmdar, xüsusi, özəl və qarışıq banklara",
+        "correct": false
       }
     ]
   },
   {
     "num": 54,
-    "question": "Hegelə görə anlayışın hərəkəti prosesi hansı xarakter daşıyır?",
+    "question": "Rezident ifadəsinə daxildir:",
     "options": [
       {
-        "text": "Metafizik",
+        "text": "Azərbaycan Respublikasında daimi",
         "correct": false
-      },
-      {
-        "text": "Davamlı",
-        "correct": false
-      },
-      {
-        "text": "Dalğavari",
-        "correct": false
-      },
-      {
-        "text": "Mütəmadi",
-        "correct": false
-      },
-      {
-        "text": "Dialektik",
-        "correct": true
       }
     ]
   },
   {
     "num": 55,
-    "question": "Dünyanın vahid başlanğıcdan necə yaranmasını Şellinq nəyin vasitəsilə dərk edilməsini mümkün hesab edirdi?",
+    "question": "Kreditin prinsipidir:",
     "options": [
       {
-        "text": "“Mütləq mən”in empirizmi vasitəsilə",
+        "text": "nəzarətçilik",
         "correct": false
       },
       {
-        "text": "Rassional qavrayış vasitəsi ilə",
+        "text": "bölüşdürücülük",
         "correct": false
       },
       {
-        "text": "Fərdin mənəvi mkanları vasitəsilə",
+        "text": "idarəçilik",
         "correct": false
       },
       {
-        "text": "Intellektual intuiasiya vasitəsi ilə",
+        "text": "sərbəstlik",
+        "correct": false
+      },
+      {
+        "text": "faizin ödənilməsi (ödənişlik)",
         "correct": true
-      },
-      {
-        "text": "Subyektin təşəkkürü vasitəsi ilə",
-        "correct": false
       }
     ]
   },
   {
     "num": 56,
-    "question": "Fixtenin “Mütləq Mən” anlayışı nəyi bildirir?",
+    "question": "Nağdsız dövriyyə … dövriyyəsini əhatə edir:",
     "options": [
       {
-        "text": "Insanın özünü idrakı",
-        "correct": false
-      },
-      {
-        "text": "Subyektin imkanları",
-        "correct": false
-      },
-      {
-        "text": "Insanın ümumi şəkildə tamlığı",
-        "correct": false
-      },
-      {
-        "text": "Bütün mövcudatın mütləq başlanğıcı",
+        "text": "əmtəə və qeyri əmtəə dövriyyəsini",
         "correct": true
       },
       {
-        "text": "Fərdin idrakı qabiliyyəti",
+        "text": "əsas kommersiya ödənişlərinin",
+        "correct": false
+      },
+      {
+        "text": "yalnız maliyyə vəsaitlərinin",
+        "correct": false
+      },
+      {
+        "text": "yalnız qeyri-əmtəə",
+        "correct": false
+      },
+      {
+        "text": "kassa",
         "correct": false
       }
     ]
   },
   {
     "num": 57,
-    "question": "Kantın “Özündə şeylər” anlayışı nəyi bildirir?",
+    "question": "Mərkəzi Bank məqsədinə nail olmaq üçün bu funksiyanı yerinə yetirir:",
     "options": [
       {
-        "text": "Təbiət ünsürlərini",
+        "text": "fiziki şəxslərin əmanətlərini depozitə cəlb edir",
         "correct": false
       },
       {
-        "text": "Duyğuları oyadan xarici reallıqları",
+        "text": "Bank Assosiasiyalarına kredit verir və onların fəaliyyətini həyata keçirir",
+        "correct": false
+      },
+      {
+        "text": "dövlətin pul və valyuta siyasətini",
         "correct": true
-      },
-      {
-        "text": "Praktiki səciyyə daşıyan hissləri",
-        "correct": false
-      },
-      {
-        "text": "Insanın duyğu və qavrayışını",
-        "correct": false
-      },
-      {
-        "text": "Qeyri-maddi, ideal mövcudatı",
-        "correct": false
       }
     ]
   },
   {
     "num": 58,
-    "question": "Kantın aprior mühakimələri nəyi bildirir?",
+    "question": "Spot əməliyyatı nədir?",
     "options": [
       {
-        "text": "Təcrübəyəqədərki mühakimələri",
+        "text": "bir valyutanın digər valyuta növünə depozit olunmasıdır",
+        "correct": false
+      },
+      {
+        "text": "bir valyutanın digər valyutaya konvertasiya edilə bilməməsidir",
+        "correct": false
+      },
+      {
+        "text": "cari bazar məzənnəsi ilə bir valyutanın digəri ilə satın alınmasıdır",
         "correct": true
       },
       {
-        "text": "Bir-birindən fərqli olan fikirləri",
+        "text": "bir valyutanın digərinə bölünməsidir",
         "correct": false
       },
       {
-        "text": "Praktiki səciyyə daşıyan fikirləri",
-        "correct": false
-      },
-      {
-        "text": "Müşahidə edilən hissləri",
-        "correct": false
-      },
-      {
-        "text": "Müsbət(pozitiv) xarakterli mühakimələri",
+        "text": "bir valyutanın digərinə klirinq edilməsidir",
         "correct": false
       }
     ]
   },
   {
     "num": 59,
-    "question": "Holbaxa görə materiyanın əsas atributu nədir?",
+    "question": "……lizinqdə müqavilə istənilən vaxt pozula bilər:",
     "options": [
       {
-        "text": "Uzunluğu və eni",
+        "text": "depozit sahibinin təşəbbüsü ilə",
         "correct": false
       },
       {
-        "text": "əşyavilik",
+        "text": "kredit təşkilatlarının inkasatorunun təşəbbüsü ilə",
         "correct": false
       },
       {
-        "text": "Zaman",
+        "text": "kənar şəxslərin təşəbbüsü ilə",
         "correct": false
       },
       {
-        "text": "hərəkət",
+        "text": "tərəflərdən birinin təşəbbüsü ilə",
         "correct": true
       },
       {
-        "text": "Məkan",
+        "text": "Mərkəzi Bankın təşəbbüsü ilə",
         "correct": false
       }
     ]
   },
   {
     "num": 60,
-    "question": "Fransız materializmində dünyanın mexaniki mənzərəsi kimin tərəfindən əsaslandırılmışdır?",
+    "question": "Kredit üçün xarakterik olan nədir:",
     "options": [
       {
-        "text": "Didro",
+        "text": "qaytarılan olmaması",
         "correct": false
       },
       {
-        "text": "Kondilyak",
+        "text": "tərəfdaşlıq",
         "correct": false
       },
       {
-        "text": "Volter",
+        "text": "məcburi xarakter daşıması",
         "correct": false
       },
       {
-        "text": "Holbax",
+        "text": "münasibətlərin əvəzsiz olması",
+        "correct": false
+      },
+      {
+        "text": "istifadəyə görə ödəniş",
         "correct": true
-      },
-      {
-        "text": "Russo",
-        "correct": false
       }
     ]
   },
   {
     "num": 61,
-    "question": "Helvetsi və Kondilyak nəyi eyniləşdirdi?",
+    "question": "Kommersiya bankının passiv əməliyyatıdır .......:",
     "options": [
       {
-        "text": "Nəzəriyyə və təcrübəni",
-        "correct": false
-      },
-      {
-        "text": "Materiya və ideyanı",
-        "correct": false
-      },
-      {
-        "text": "Cəmiyyət və təbiəti",
-        "correct": false
-      },
-      {
-        "text": "Hissi və ağılı",
+        "text": "depozit",
         "correct": true
       },
       {
-        "text": "Cism və ruhu",
+        "text": "sənədləşmə",
+        "correct": false
+      },
+      {
+        "text": "innovasiya",
+        "correct": false
+      },
+      {
+        "text": "faktorinq",
+        "correct": false
+      },
+      {
+        "text": "maliyyələşmə",
         "correct": false
       }
     ]
   },
   {
     "num": 62,
-    "question": "C.Lokk hansı fəlsəfi mövqedən çıxış edirdi?",
+    "question": "Əmanət sertifikatı verilə bilər ......:",
     "options": [
       {
-        "text": "Dini sxolastika",
+        "text": "gizli şəxslərə",
         "correct": false
       },
       {
-        "text": "Panteizm",
-        "correct": false
-      },
-      {
-        "text": "Rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "Obyektiv idealizm",
-        "correct": false
-      },
-      {
-        "text": "Sensualizm və empirizm",
+        "text": "fiziki şəxslərə",
         "correct": true
+      },
+      {
+        "text": "yalnız bankın səhmdarlarının filiallarına",
+        "correct": false
+      },
+      {
+        "text": "trast şirkətlərinə",
+        "correct": false
+      },
+      {
+        "text": "trast şirkətinin filialına",
+        "correct": false
       }
     ]
   },
   {
     "num": 63,
-    "question": "Q.Leybnis bölünməz monadaları nə hesab edirdi?",
+    "question": "Səhm buraxmaq yolu ilə banklar:",
     "options": [
       {
-        "text": "əqlin əsası",
-        "correct": false
-      },
-      {
-        "text": "Təfəkkürün nəticəsi",
-        "correct": false
-      },
-      {
-        "text": "şüurun məzmunu",
-        "correct": false
-      },
-      {
-        "text": "Təbiətin mahiyyəti",
-        "correct": true
-      },
-      {
-        "text": "zəkanın bütləri",
+        "text": "qiymətli kağızlarla əməliyyat",
         "correct": false
       }
     ]
   },
   {
     "num": 64,
-    "question": "Dekarta məxsus idrak metodunda mühüm prinsiplərdən biri hansıdır?",
+    "question": "Ayrı-ayrı bank əməliyyatlarını yerinə yetirmək hüququ olan kredit təşkilatıdır:",
     "options": [
       {
-        "text": "Inkaretmə",
+        "text": "Bank Birlikləri",
         "correct": false
       },
       {
-        "text": "Mütənasiblik",
+        "text": "Sığorta Kompaniyaları",
         "correct": false
       },
       {
-        "text": "Ardıcıllıq",
+        "text": "Bank Assosiasiyaları",
         "correct": false
       },
       {
-        "text": "Fərqləndirmə",
-        "correct": false
-      },
-      {
-        "text": "Fasiləsizlik",
+        "text": "Bank Olmayan Kredit Təşkilatları (BOKT)",
         "correct": true
+      },
+      {
+        "text": "bank filiallarının filialları",
+        "correct": false
       }
     ]
   },
   {
     "num": 65,
-    "question": "“Düşünürəm, deməli, mövcudam”  aforizmi  kimə məxsusdur?",
+    "question": "Banklararası kreditin cəlb olunmasında məqsəd:",
     "options": [
       {
-        "text": "Q.Leybmitsə",
+        "text": "lizinq əməliyyatlarının genişləndirilməsidir",
         "correct": false
       },
       {
-        "text": "Q.Qalileyə",
-        "correct": false
-      },
-      {
-        "text": "F.Bekona",
-        "correct": false
-      },
-      {
-        "text": "C.Lokka",
-        "correct": false
-      },
-      {
-        "text": "R.Dekarta",
+        "text": "kommersiya banklarının aktiv",
         "correct": true
+      },
+      {
+        "text": "inkassasiya fəaliyyətinin yaxşılaşdırılmasıdır",
+        "correct": false
       }
     ]
   },
   {
     "num": 66,
-    "question": "F.Bekonun fikrincə “idollar” nəyə mane olur?",
+    "question": "Kommersiya banklarının aktiv əməliyyatlarına aiddir:",
     "options": [
       {
-        "text": "Empirik faktların toplanılmasına",
-        "correct": false
-      },
-      {
-        "text": "Nəzəri biliyin əsaslandırılmasına",
-        "correct": false
-      },
-      {
-        "text": "Rasional problemin açıqlanmasına",
-        "correct": false
-      },
-      {
-        "text": "Mühakimələrin bir-birilə tutuşdurulmasına",
-        "correct": false
-      },
-      {
-        "text": "Həqiqi, obyektiv biliyin əldə edilməsinə",
+        "text": "kredit əməliyyatları, investisiya əməliyyatları və s.",
         "correct": true
+      },
+      {
+        "text": "yalnız kassa əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "kredit əməliyyatları,passiv əməliyyatlar,kassa əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "yalnız investisiya əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "hesablaşma və passiv əməliyyatlar",
+        "correct": false
       }
     ]
   },
   {
     "num": 67,
-    "question": "Sonsuz kiçilənlər haqqında riyazi  metod nəyi tədqiq etməyə imkan verirdi?",
+    "question": "Müştərilərə açılmış hesabların qeydiyyatı kitabında aşağıdakı məlumat məcburidir:",
     "options": [
       {
-        "text": "Bioloji prosesləri",
+        "text": "yuxarı təşkilatın adı",
         "correct": false
       },
       {
-        "text": "Kimyəvi prosesləri",
-        "correct": false
-      },
-      {
-        "text": "Hərəkəti riyazi dildə ifadə etməyi",
+        "text": "şəxsi hesabın nömrəsi",
         "correct": true
       },
       {
-        "text": "Biokimyəvi prosesləri",
+        "text": "müştərinin fəaliyyət növü",
         "correct": false
       },
       {
-        "text": "Sosial prosesləri",
+        "text": "müştərinin uçot məlumatları",
+        "correct": false
+      },
+      {
+        "text": "müştərinin banka olan borcu",
         "correct": false
       }
     ]
   },
   {
     "num": 68,
-    "question": "Frensis Bekonun işlədiyi elmi-tədqiqat metodu necə adlanır?",
+    "question": "Mərkəzi Bankın təşkilati sturukturuna daxildir:",
     "options": [
       {
-        "text": "Rasional metod",
+        "text": "əmanətçilər, İdarə Heyəti",
         "correct": false
       },
       {
-        "text": "Abstraktlaşdırma metodu",
+        "text": "kommersiya bankları, filiallar",
         "correct": false
       },
       {
-        "text": "Modelləşdirmə metodu",
-        "correct": false
-      },
-      {
-        "text": "İnduktiv  metod",
+        "text": "İdarə Heyəti, Mərkəzi Aparat, Ərazi İdarələri",
         "correct": true
       },
       {
-        "text": "Deduktiv metod",
+        "text": "Bank Olmayan Kredit Təşkilatları (BOKT)",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslər, auditorlar",
         "correct": false
       }
     ]
   },
   {
     "num": 69,
-    "question": "İntibah dialektikasının əsasını kim qoymuşdur?",
+    "question": "Kommersiya bankının passiv əməliyyatlarına ............. aiddir:",
     "options": [
       {
-        "text": "NKopernik",
+        "text": "müştərilərə sənəd xidmətinin göstərilməsi",
         "correct": false
       },
       {
-        "text": "CBruno",
+        "text": "investisiya əməliyyatları",
         "correct": false
       },
       {
-        "text": "Parasels",
+        "text": "trast əməliyyatları",
         "correct": false
       },
       {
-        "text": "BTelezio",
-        "correct": false
-      },
-      {
-        "text": "Kuzalı Nikolay",
+        "text": "vəsaitlərin cəlb edilməsi",
         "correct": true
+      },
+      {
+        "text": "kreditlərin verilməsi",
+        "correct": false
       }
     ]
   },
   {
     "num": 70,
-    "question": "İndustrializm dövrünə təsadüf edən panteizm nədir?",
+    "question": "Kredit təşkilatının əsas məqsədidir:",
     "options": [
       {
-        "text": "Cəmiyyətin təbiətlə yekcinsliyi",
+        "text": "müəssisələri kreditlə təmin etməmək",
         "correct": false
       },
       {
-        "text": "Təbiətin və insanın fərqli mahiyyət daşıması",
+        "text": "səhmdarlara dividend ödəmək",
         "correct": false
       },
       {
-        "text": "Insanın təbiətlə vəhdət təşkil etməsi",
+        "text": "hesablaşmaları həyata keçirməmək",
         "correct": false
       },
       {
-        "text": "Tanrının insanla qarşı-qarşıya qoyulması",
+        "text": "müəssisələrə kassa xidməti göstərməmək",
         "correct": false
       },
       {
-        "text": "Tanrının təbiətlə eyniləşdirilməsi",
+        "text": "mənfəət əldə etmək",
         "correct": true
       }
     ]
   },
   {
     "num": 71,
-    "question": "Elmi rasionallığın klassik tipi nə vaxt  formalaşmışdı?",
+    "question": "Qiymətli kağızlara aid edilir:",
     "options": [
       {
-        "text": "XVII-XVIII  əsrlərdə",
+        "text": "hamısı",
         "correct": true
       },
       {
-        "text": "antik dövrdə",
+        "text": "sertifikatlar",
         "correct": false
       },
       {
-        "text": "ХХ  əsrin son rüblüyündə",
+        "text": "veksellər",
         "correct": false
       },
       {
-        "text": "ХIV-XV  əsrlərdə",
+        "text": "istiqrazlar",
         "correct": false
       },
       {
-        "text": "XIX əsrin sonu-  XX  əsrin ortalarında",
+        "text": "səhmlər",
         "correct": false
       }
     ]
   },
   {
     "num": 72,
-    "question": "Sosial təsisat kimi elmə nə daxildir?",
+    "question": "Faktorinq əməliyyatında müştəri qismində çıxış edir:",
     "options": [
       {
-        "text": "universitetlər, institutlar, akademiyalar",
+        "text": "bankın ərazi bölmələri",
         "correct": false
       },
       {
-        "text": "elmi məktəblər, elmi cərəyanlar, elmi konsepsiyalar",
-        "correct": false
-      },
-      {
-        "text": "elm sferasında davranışı təyin edən idarə və sosial normaların məcmusu",
+        "text": "müxtəlif iqtisadi subyektlər",
         "correct": true
       },
       {
-        "text": "fundamental elmlər, tətbiqi elmlər, ixtisaslaşdırılmış nəzəriyyələr",
+        "text": "qeyri Bank Olmayan Kredit Təşkilatları (BOKT)",
         "correct": false
       },
       {
-        "text": "cəmiyyətin məhsuldar qüvvələri",
+        "text": "qeyri sığorta kompaniyaları",
+        "correct": false
+      },
+      {
+        "text": "bankın kredit idarəsi",
         "correct": false
       }
     ]
   },
   {
     "num": 73,
-    "question": "Elmi rasionallığın  postqeyri-klassik tipinə səciyyəvi olan  nədir?",
+    "question": "Bank Səhmdarlarının Ümumi Yığıncağının müstəsna səlahiyyətinə aid deyil ........:",
     "options": [
       {
-        "text": "dünyanın mexaniki mənzərəsinin öyrənilməsi",
+        "text": "nizamnaməyə əlavələr və dəyişikliklər etmək",
         "correct": false
       },
       {
-        "text": "tədqiqatın subyektindən və onun istifadə etdiyi vasitələrdən  mücərrədləşmə",
+        "text": "bankın maliyyə və kadr siyasətini müəyyənləşdirmək",
         "correct": false
       },
       {
-        "text": "alimin tədqiqat  vasiətələrinin araşdırılması",
-        "correct": false
-      },
-      {
-        "text": "özüinkişafda olan sistemlərin öyrənilməsi",
+        "text": "bankın filiallarına lisenziya vermək",
         "correct": true
       },
       {
-        "text": "ekoloji reallıqların araşdırılması",
+        "text": "dövri olaraq bankın hesabatını müzakirə etmək",
+        "correct": false
+      },
+      {
+        "text": "bankın nizamnaməsini qəbul etmək",
         "correct": false
       }
     ]
   },
   {
     "num": 74,
-    "question": "Elmin inkişaf yolunda maneəyə çevrilmiş ənənəvi nəzəriyyə və  təsəvvürlərin  dağıdılması  necə adlanır",
+    "question": "Kapital qoyuluşunun maliyyələşdirmə mənbəələrinə .....aiddir?",
     "options": [
       {
-        "text": "modernləşdirmə",
+        "text": "bələdiyyə vəsaitləri",
         "correct": false
       },
       {
-        "text": "islahat",
+        "text": "sığorta fondlarının vasitələri",
         "correct": false
       },
       {
-        "text": "elmi-texniki tərəqqi",
+        "text": "pensiya fondunun vəsaitləri",
         "correct": false
       },
       {
-        "text": "elmi inqilab",
+        "text": "hamısı",
         "correct": true
       },
       {
-        "text": "stiyentizm",
+        "text": "dövlət büdcə vəsaitləri",
         "correct": false
       }
     ]
   },
   {
     "num": 75,
-    "question": "Elmin inkişafını bütün sosial problemlərin həllində universal  vasitə hesab edən konsepsiya necə adlanır?",
+    "question": "Azərbaycan Respublikası Mərkəzi Bankının fəaliyyətinə dair yoxlama ...........tərəfindən aparılır:",
     "options": [
       {
-        "text": "romantizm",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "ekzistensializm",
-        "correct": false
-      },
-      {
-        "text": "stiyentizm",
+        "text": "Azərbaycan Respublikasının",
         "correct": true
-      },
-      {
-        "text": "personalizm",
-        "correct": false
       }
     ]
   },
   {
     "num": 76,
-    "question": "Elmin texnika ilə  vahid bir sistemdə birləşməsi  nəticəsində istehsalatın xarakterinin  radikal şəkildə dəyişməsi necə adlanır?",
+    "question": "Mərkəzi Bankın passiv əməliyyatıdır:",
     "options": [
       {
-        "text": "texniki-texnoloji inqilab",
-        "correct": false
-      },
-      {
-        "text": "sosial",
-        "correct": false
-      },
-      {
-        "text": "kompüter inqilabı",
-        "correct": false
-      },
-      {
-        "text": "intellektual inqilab",
-        "correct": false
-      },
-      {
-        "text": "elmi-texniki inqilab",
+        "text": "banknot emissiyası",
         "correct": true
+      },
+      {
+        "text": "əhaliyə kredit verilməsi",
+        "correct": false
+      },
+      {
+        "text": "banklara qısa müddətli ssuda verilməsi",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərin hesablarına qoyuluşlar",
+        "correct": false
+      },
+      {
+        "text": "müəssisələrə kredit verilməsi",
+        "correct": false
       }
     ]
   },
   {
     "num": 77,
-    "question": "Elmi inqilabların baş verməsi  nə ilə əlaqədardır?",
+    "question": "Lizinq mahiyyətcə:",
     "options": [
       {
-        "text": "yeni elmi kəşflərlə",
-        "correct": false
-      },
-      {
-        "text": "yeni elmi paradiqmaların meydana gəlməsi ilə",
+        "text": "lizinq verənin lizinq alana",
         "correct": true
-      },
-      {
-        "text": "elmin yeni təşkili formalarının meydana gəlməsi ilə",
-        "correct": false
-      },
-      {
-        "text": "yeni elmi təsisatların meydana gəlməsi ilə",
-        "correct": false
-      },
-      {
-        "text": "elmin istehsalatla yeni əlaqələrinin meydana gəlməsi ilə",
-        "correct": false
       }
     ]
   },
   {
     "num": 78,
-    "question": "Elmi biliyin  aparıcı inkişaf amilinə çevrildiyi sivilizasiya necə adlanır?",
+    "question": "Kredit təşkilatının buraxdığı səhmlər hansı qurum tərəfindən dövlət qeydiyyatına alınır ?",
     "options": [
       {
-        "text": "qərb",
+        "text": "kommersiya bankları",
         "correct": false
       },
       {
-        "text": "sənaye",
+        "text": "Maliyyə Nazirliyi",
         "correct": false
       },
       {
-        "text": "postsənaye",
+        "text": "Mərkəzi Bank",
         "correct": true
       },
       {
-        "text": "texnogen",
+        "text": "Nazirlər Kabineti",
         "correct": false
       },
       {
-        "text": "aqrar",
+        "text": "İqtisadiyyat Nazirliyyi",
         "correct": false
       }
     ]
   },
   {
     "num": 79,
-    "question": "Marksizm  maddi nemətlər əldə etmək üçün  cəmiyyətin  təbiətə təsir vasitələrini necə adlandırır?",
+    "question": "Banklar…. görə universal və ixtisaslaşmış banklara bölünürlər:",
     "options": [
       {
-        "text": "maddi-texniki qüvvələr",
+        "text": "mülkiyyət növünə",
         "correct": false
       },
       {
-        "text": "elm",
+        "text": "xidmət sferasına",
         "correct": false
       },
       {
-        "text": "iqtisadi qüvvələr",
+        "text": "fəaliyyət miqyaslarına",
         "correct": false
       },
       {
-        "text": "texniki qüvvələr",
-        "correct": false
-      },
-      {
-        "text": "məhsuldar qüvvələr",
+        "text": "ixtisaslaşma səviyyəsinə görə",
         "correct": true
+      },
+      {
+        "text": "sayına görə",
+        "correct": false
       }
     ]
   },
   {
     "num": 80,
-    "question": "Stiyentizm nədir?",
+    "question": "İqtisadiyyatın bazar modelində nağdsız pulun emissiyası … tərəfindən həyata keçirilir:",
     "options": [
       {
-        "text": "elmi rasionallığın tipi",
+        "text": "təsərrüfat subyektləri tərəfindən",
         "correct": false
       },
       {
-        "text": "orta əsr fəlsəfəsində cərəyan",
+        "text": "Milli Məclis  tərəfindən",
         "correct": false
       },
       {
-        "text": "dünyagörüş forması",
+        "text": "Banklar Assosiasiyası tərəfindən",
         "correct": false
       },
       {
-        "text": "elmin mədəniyyətin ali mərhələsi kimi qiymətləndirilməsi",
+        "text": "Maliyyə Nazirliyi tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
         "correct": true
-      },
-      {
-        "text": "elmin subyekt və   obyektə  bölgüsü",
-        "correct": false
       }
     ]
   },
   {
     "num": 81,
-    "question": "Aşağıda göstərilənlərdən hansı ictimai şüur formasıdır?",
+    "question": "Öz adından və öz hesabına qiymətli kağızlarla həyata keçirilən peşəkar fəaliyyət adlanır:",
     "options": [
       {
-        "text": "humanizm",
-        "correct": false
-      },
-      {
-        "text": "mifologiya",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "elm",
+        "text": "diler fəaliyyəti",
         "correct": true
       },
       {
-        "text": "utopiya",
+        "text": "depozitar fəaliyyət",
+        "correct": false
+      },
+      {
+        "text": "klirinq fəaliyyəti",
+        "correct": false
+      },
+      {
+        "text": "lizinq fəaliyyəti",
+        "correct": false
+      },
+      {
+        "text": "investisiya fəaliyyəti",
         "correct": false
       }
     ]
   },
   {
     "num": 82,
-    "question": "Aşağıdakılrdan hansı elmi səciyyələndirir?",
+    "question": "Kommersiya banklarının hansı mülkiyyət formasında yaradılmasına baxmayaraq, onlar.......:",
     "options": [
       {
-        "text": "qəliz  mülahizələr məcmusuu",
+        "text": "Milli Depozit Sisteminə hesabat verirlər",
         "correct": false
       },
       {
-        "text": "doktrinalar",
-        "correct": false
-      },
-      {
-        "text": "alimlərin imtiyazları",
-        "correct": false
-      },
-      {
-        "text": "həqiqətlər və onların sübut edilməsi  sistemi",
+        "text": "müstəqildir",
         "correct": true
       },
       {
-        "text": "adi adamların başa düşmədikləri şeylər",
+        "text": "Prezidentə hesabat verməlidir",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın İdarə Heyyətindən asılıdır",
+        "correct": false
+      },
+      {
+        "text": "Auditorlar Palatasına hesabat verir",
         "correct": false
       }
     ]
   },
   {
     "num": 83,
-    "question": "Aşağıda göstərilənlərdən hansılar elmi rasionallığın tiplərinə aiddir?",
+    "question": ".….kreditinin başlıca təyinatı əhalinin istehlak tələbinin ödənilməsidir:",
     "options": [
       {
-        "text": "klassik, sonrakı klassik, humanist",
+        "text": "lizinq",
         "correct": false
       },
       {
-        "text": "klassik, müasir, humanist",
+        "text": "bank",
         "correct": false
       },
       {
-        "text": "qeyri-klassik, klassik, müasir",
-        "correct": false
-      },
-      {
-        "text": "klassik, qeyri-klassik, postqeyri-klassik",
+        "text": "istehlak",
         "correct": true
       },
       {
-        "text": "sonrakı klassik, humanist, qeyri-klassik",
+        "text": "kommersiya",
+        "correct": false
+      },
+      {
+        "text": "blank",
         "correct": false
       }
     ]
   },
   {
     "num": 84,
-    "question": "Nəzəriyyə hansı funksiyaları yerinə yetirir?",
+    "question": "Nağd pul və digər qiymətlilərin daşınmasını həyata keçirən şəxsdir :",
     "options": [
       {
-        "text": "idrak və izahetmə",
+        "text": "mühasib",
         "correct": false
       },
       {
-        "text": "metodoloji və proqnostik",
+        "text": "kassir",
         "correct": false
       },
       {
-        "text": "dünyagörüşü və proqnostik",
+        "text": "əməliyyatçı",
         "correct": false
       },
       {
-        "text": "izahetmə və   qabaqgörmə",
+        "text": "inkassator",
         "correct": true
       },
       {
-        "text": "tərbiyə və idraki",
+        "text": "mühafizəçi",
         "correct": false
       }
     ]
   },
   {
     "num": 85,
-    "question": "«Elmi biliyin  təşkilinin ali, ən inkişaf etmiş forması” nəyi səciyyələndirir?",
+    "question": "Bank əməliyyatlarını həyata keçirə  bilməz :",
     "options": [
       {
-        "text": "nəzəriyyəni",
+        "text": "Bank Olmayan Kredit  Təşkilatları(BOKT)",
+        "correct": false
+      },
+      {
+        "text": "İxtisaslaşmış banklar",
+        "correct": false
+      },
+      {
+        "text": "Kredit təşkilatları",
+        "correct": false
+      },
+      {
+        "text": "Universal Banklar",
+        "correct": false
+      },
+      {
+        "text": "Banklar Assosasiyası",
         "correct": true
-      },
-      {
-        "text": "konsepsiyanı",
-        "correct": false
-      },
-      {
-        "text": "təlimi",
-        "correct": false
-      },
-      {
-        "text": "doktrinanı",
-        "correct": false
-      },
-      {
-        "text": "elmi məktəbi",
-        "correct": false
       }
     ]
   },
   {
     "num": 86,
-    "question": "Əsaslandırılmış hipotez nəyə çevrilir?",
+    "question": "Nağd pul və digər qiymətlilərin daşınması prosesi adlanır :",
     "options": [
       {
-        "text": "paradiqmaya",
-        "correct": false
-      },
-      {
-        "text": "təlimə",
-        "correct": false
-      },
-      {
-        "text": "elmə",
-        "correct": false
-      },
-      {
-        "text": "konsepsiyaya",
-        "correct": false
-      },
-      {
-        "text": "nəzəriyyəyə",
+        "text": "inkassasiya",
         "correct": true
+      },
+      {
+        "text": "deflyasiya",
+        "correct": false
+      },
+      {
+        "text": "stimulyasiya",
+        "correct": false
+      },
+      {
+        "text": "emissiya",
+        "correct": false
+      },
+      {
+        "text": "inflyasiya",
+        "correct": false
       }
     ]
   },
   {
     "num": 87,
-    "question": "Yunan dilindən tərcümədə “ problem”  sözü hansı  məna daşıyır?",
+    "question": "Mərkəzi Bankın pul kütləsinin azalmasına yönəldilən siyasət necə  adlanır :",
     "options": [
       {
-        "text": "alqoritm",
+        "text": "komission",
         "correct": false
       },
       {
-        "text": "axtarış",
-        "correct": false
-      },
-      {
-        "text": "çətinlik, maneə",
+        "text": "restruksion",
         "correct": true
       },
       {
-        "text": "məqsəd",
+        "text": "investision",
         "correct": false
       },
       {
-        "text": "şübhə",
+        "text": "inflyasion",
+        "correct": false
+      },
+      {
+        "text": "sibsidion",
         "correct": false
       }
     ]
   },
   {
     "num": 88,
-    "question": "Fəlsəfi antropologiyanın ideya mənbələrini göstərin",
+    "question": "Əhalinin pul yığımları ölkədə hansı  münasibətlərin inkişafının nəticəsidir:",
     "options": [
       {
-        "text": "alman romantik fəlsəfəsi və həyat fəlsəfəsi, ekzistensializm, fenomenologiya",
+        "text": "faktorinq",
+        "correct": false
+      },
+      {
+        "text": "icarə",
+        "correct": false
+      },
+      {
+        "text": "əhalinin pul gəlirlərinin",
         "correct": true
       },
       {
-        "text": "antik fəlsəfə, orta əsr fəlsəfəsi",
+        "text": "lizinq",
         "correct": false
       },
       {
-        "text": "alman klassik fəlsəfəsi, freydizm",
-        "correct": false
-      },
-      {
-        "text": "marksizm fəlsəfəsi, alman klassik fəlsəfəsi",
-        "correct": false
-      },
-      {
-        "text": "fatalizm, volüntarizm",
+        "text": "forfeytinq",
         "correct": false
       }
     ]
   },
   {
     "num": 89,
-    "question": "Personalizmə görə, ali şəxsiyyət kimdir?",
+    "question": "Banklar tərəfindən vəsaitin cəlb edilməsi əməliyyatıdır:",
     "options": [
       {
-        "text": "cəmiyyətdir",
+        "text": "emissiya",
         "correct": false
       },
       {
-        "text": "təbiətdir",
+        "text": "aktiv",
         "correct": false
       },
       {
-        "text": "nsandır",
+        "text": "faktorinq",
         "correct": false
       },
       {
-        "text": "dövlətdir",
-        "correct": false
-      },
-      {
-        "text": "Allahdır",
+        "text": "passiv",
         "correct": true
+      },
+      {
+        "text": "klirinq",
+        "correct": false
       }
     ]
   },
   {
     "num": 90,
-    "question": "İnsanı hərəkətə təhrik edən nədir?",
+    "question": "Xüsusi kapitalın artırılmasının vacib mənbəyi hesab edilir:",
     "options": [
       {
-        "text": "əqidələr",
+        "text": "xərclər",
         "correct": false
       },
       {
-        "text": "motivlər",
+        "text": "fiziki şəxslərin vəsaitləri",
         "correct": false
       },
       {
-        "text": "məqsədlər",
+        "text": "ipoteka əməliyyatları",
         "correct": false
       },
       {
-        "text": "tələbatlar",
+        "text": "lizinq əməliyyatı",
+        "correct": false
+      },
+      {
+        "text": "mənfəət",
         "correct": true
-      },
-      {
-        "text": "maraqlar",
-        "correct": false
       }
     ]
   },
   {
     "num": 91,
-    "question": "İnsanın təkamülündə əsas amil nə olmuşdur?",
+    "question": "Depozit dedikdə ... başa düşülür:",
     "options": [
       {
-        "text": "instinktlər",
-        "correct": false
-      },
-      {
-        "text": "vərdişlər",
-        "correct": false
-      },
-      {
-        "text": "ünsiyyət",
-        "correct": false
-      },
-      {
-        "text": "əmək fəaliyyəti",
+        "text": "fiziki və hüquqi şəxslərin banka vəsait qoyuluşları",
         "correct": true
       },
       {
-        "text": "ailə",
+        "text": "yalnız fiziki şəxslərin gəlirləri",
+        "correct": false
+      },
+      {
+        "text": "yalnız hüquqi şəxslərin gəlirləri",
+        "correct": false
+      },
+      {
+        "text": "sığorta gəlirləri",
+        "correct": false
+      },
+      {
+        "text": "büdcə qoyuluşları",
         "correct": false
       }
     ]
   },
   {
     "num": 92,
-    "question": "Tərbiyə  insanın nəyə olan    qabiliyyətini  reallaşdırır, artırır və möhkəmləndirir?",
+    "question": "Mərkəzi Bank haqqında Qanun hansı illərdə qəbul edilmişdir:",
     "options": [
       {
-        "text": "əyləncələrə",
+        "text": "1992-ci il, 1996-cı il, 2014-cü il",
         "correct": false
       },
       {
-        "text": "xidmətlərə",
-        "correct": false
-      },
-      {
-        "text": "zəhmətə",
-        "correct": false
-      },
-      {
-        "text": "fəaliyyətə",
+        "text": "1992-ci il, 1996-cı il, 2004-cü il",
         "correct": true
       },
       {
-        "text": "xeyirxahlığa",
+        "text": "1992-ci il, 1996-cı il, 2016-cı il",
+        "correct": false
+      },
+      {
+        "text": "1992-ci il, 2004-cü il, 2014-cü il",
+        "correct": false
+      },
+      {
+        "text": "1992-ci il, 1996-cı il, 2025cı il",
         "correct": false
       }
     ]
   },
   {
     "num": 93,
-    "question": "Rəsmi elm kimi fəlsəfi antropologiya kim tərəfindən yaradılmışdır?",
+    "question": "İri məbləğli ödənişlərin sistemidir:",
     "options": [
       {
-        "text": "Kant və Hegel",
+        "text": "depozit",
         "correct": false
       },
       {
-        "text": "Marks və Engels",
+        "text": "XÖHKS(Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi)",
         "correct": false
       },
       {
-        "text": "Haydegger və Sartr",
-        "correct": false
-      },
-      {
-        "text": "Freyd və Fromm",
-        "correct": false
-      },
-      {
-        "text": "M. Şeler və Q. Plesner",
+        "text": "AZİPS(Real Vaxt Rejimində işləyən Banklararası Milli Hesablaşma Sistemi)",
         "correct": true
+      },
+      {
+        "text": "Vençur sistemi",
+        "correct": false
+      },
+      {
+        "text": "veksel",
+        "correct": false
       }
     ]
   },
   {
     "num": 94,
-    "question": "İnsanı əmək alətləri hazırlayan heyvan kimi səciyyələndirən tədqiqatçını göstərin",
+    "question": "Analitik hesab nədir?",
     "options": [
       {
-        "text": "Darvin",
-        "correct": false
-      },
-      {
-        "text": "Aristotel",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
-        "correct": false
-      },
-      {
-        "text": "B.Franklin",
+        "text": "hesabın daxilindəki məlumatların",
         "correct": true
-      },
-      {
-        "text": "Marks",
-        "correct": false
       }
     ]
   },
   {
     "num": 95,
-    "question": "Subyekt kimdir?",
+    "question": "Mühasibat uçotunun aparılmasında bank ..... təmin etməlidir:",
     "options": [
       {
-        "text": "naməlum bir şəxs",
-        "correct": false
-      },
-      {
-        "text": "qəribə insan",
-        "correct": false
-      },
-      {
-        "text": "xoşagəlməz insan",
-        "correct": false
-      },
-      {
-        "text": "fəaliyyətin daşıyıcısı olan insan",
-        "correct": true
-      },
-      {
-        "text": "sahibkar",
+        "text": "hesabat dövrü ərzində həyata keçirilən əməliyyatların",
         "correct": false
       }
     ]
   },
   {
     "num": 96,
-    "question": "Bir fərdi başqalarından fərqləndirən spesifik, özünəməxsus  konkret bioloji  və sosial  cəhətlərin məcmusuna nə deyilir?",
+    "question": "Təklif edilən ifadələrdən kreditin funksiyasını ayırın:",
     "options": [
       {
-        "text": "Orijinallıq",
-        "correct": false
-      },
-      {
-        "text": "Fenomen",
-        "correct": false
-      },
-      {
-        "text": "talant",
-        "correct": false
-      },
-      {
-        "text": "Fərdiyyət",
+        "text": "yenidənbölgü funksiyası",
         "correct": true
       },
       {
-        "text": "Şəxsiyyət",
+        "text": "təkrar istehsal",
+        "correct": false
+      },
+      {
+        "text": "vaxtında qaytarılmaq funksiyası",
+        "correct": false
+      },
+      {
+        "text": "müvəqqəti azad vəsaitlərin səfərbər olunması",
+        "correct": false
+      },
+      {
+        "text": "optimallaşdırma",
         "correct": false
       }
     ]
   },
   {
     "num": 97,
-    "question": "Fərd nəyə deyilir?",
+    "question": "Banklarda muhasibat uçotunun əsas predmetidir ....:",
     "options": [
       {
-        "text": "özünə qapanmış insana",
+        "text": "düzgün cavab yoxdur",
         "correct": false
       },
       {
-        "text": "şəxsiyyətə",
-        "correct": false
-      },
-      {
-        "text": "başqalarına bənzəməyən insana",
-        "correct": false
-      },
-      {
-        "text": "ayrıca götürülmüş konkret  insana",
+        "text": "bank aktivləri, xüsusi vəsaitləri və öhdəlikləri",
         "correct": true
       },
       {
-        "text": "canlı insan orqanizminə",
+        "text": "yalnız bankın aktivləri",
+        "correct": false
+      },
+      {
+        "text": "yalnız bankın passivləri",
+        "correct": false
+      },
+      {
+        "text": "dövriyyə sənədləri",
         "correct": false
       }
     ]
   },
   {
     "num": 98,
-    "question": "Tələbat nədir?",
+    "question": "Kredit Təşkilatları İttifaqı və Assosiasiyaları:",
     "options": [
       {
-        "text": "insanın nəyəsə malik olmaq istəyi",
+        "text": "istisna hallarda yerinə yetirə bilərlər",
         "correct": false
       },
       {
-        "text": "insanın maddi nemətlərə ehtiyacının olması",
+        "text": "bank filiallarının icazəsi olduqda yerinə yetirə bilərlər",
         "correct": false
       },
       {
-        "text": "insanın mənəvi nemətlərə ehtiyacının olması",
-        "correct": false
-      },
-      {
-        "text": "insanın nəyəsə meyl  etməsi",
-        "correct": false
-      },
-      {
-        "text": "insanı hərəkətə təhrik edən, onun  təbiətindən, ən əhəmiyyətli xassələrindən irəli gələn ehtiyacı",
+        "text": "bank əməliyyatlarını yerinə yetirə bilməzlər",
         "correct": true
+      },
+      {
+        "text": "bank daxili auditin icazəsi olduqda yerinə yetirə bilərlər",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın icazəsi olduqda yerinə yetirə bilərlər",
+        "correct": false
       }
     ]
   },
   {
     "num": 99,
-    "question": "İnsanın bioloji mənşəyi haqqında materialist nəzəriyyənin banisi kim olmuşdur?",
+    "question": "….. plastik kartı sahibinə yalnız kart hesabında olan məbləğ həcmində hesablaşma aparmaq imkanı verir:",
     "options": [
       {
-        "text": "Hobbs",
+        "text": "müddətli kartlar",
         "correct": false
       },
       {
-        "text": "Lokk",
+        "text": "super kartlar",
         "correct": false
       },
       {
-        "text": "Kant",
+        "text": "müddətsiz kartlar",
         "correct": false
       },
       {
-        "text": "Freyd",
-        "correct": false
-      },
-      {
-        "text": "Darvin",
+        "text": "debet kartları",
         "correct": true
+      },
+      {
+        "text": "əmtəə kartları",
+        "correct": false
       }
     ]
   },
   {
     "num": 100,
-    "question": "Ünsiyyətin universal vasitəsi nədir?",
+    "question": "Kredit təşkilatlarını lisenziyalaşdırır:",
     "options": [
       {
-        "text": "təxəyyül",
+        "text": "Bank Holdinq Şirkətləri",
         "correct": false
       },
       {
-        "text": "beyin",
+        "text": "Beynəlxalq Valyuta Fondu (BVF)",
         "correct": false
       },
       {
-        "text": "jestlər",
+        "text": "Maliyyə Monitorinq Mərkəzi",
         "correct": false
       },
       {
-        "text": "nitq",
+        "text": "bankların filialları",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
         "correct": true
-      },
-      {
-        "text": "intuisiya",
-        "correct": false
       }
     ]
   },
   {
     "num": 101,
-    "question": "Fəlsəfi antropologiya  nə haqqında ümumləşdirilmiş fəlsəfi təlimdir?",
+    "question": "Kommersiya banklarının kassa əməliyyatıdır:",
     "options": [
       {
-        "text": "sivilizasiya",
-        "correct": false
-      },
-      {
-        "text": "insan və cəmiyyət",
-        "correct": false
-      },
-      {
-        "text": "cəmiyyət",
-        "correct": false
-      },
-      {
-        "text": "mədəniyyət",
-        "correct": false
-      },
-      {
-        "text": "insan",
+        "text": "nağd pulların və digər qiymətlilərin",
         "correct": true
+      },
+      {
+        "text": "nağd pulların başqa hesablara köçürülməsi",
+        "correct": false
+      },
+      {
+        "text": "veksellərin uçotu",
+        "correct": false
+      },
+      {
+        "text": "yalnız nağd pulun qəbulu və ləğv olunması",
+        "correct": false
+      },
+      {
+        "text": "qiymətlilərin satılması",
+        "correct": false
       }
     ]
   },
   {
     "num": 102,
-    "question": "İnsan necə varlıqdır?",
+    "question": "Mərkəzi Bank hansı Qanuna əsasən fəaliyyət göstərir:",
     "options": [
       {
-        "text": "bioloji varlıqdır",
+        "text": "\"Əsas Bank Haqqında\" Qanuna əsasən",
         "correct": false
       },
       {
-        "text": "mənəvi varlıqdır",
-        "correct": false
-      },
-      {
-        "text": "sosial varlıqdır",
-        "correct": false
-      },
-      {
-        "text": "biososial varlıqdır",
+        "text": "\"Mərkəzi Bank Haqqında\" Qanuna əsasən",
         "correct": true
       },
       {
-        "text": "psixoloji varlıqdır",
+        "text": "\"Mərkəzi Bankın fəaliyyəti Haqqında Qanuna\" əsasən",
+        "correct": false
+      },
+      {
+        "text": "\"Banklar Bankı Haqqında Qanuna\" əsasən",
+        "correct": false
+      },
+      {
+        "text": "\"Dövlət Haqqında\" Qanuna əsasən",
         "correct": false
       }
     ]
   },
   {
     "num": 103,
-    "question": "Antropososiogenez nədir?",
+    "question": "Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemidir:",
     "options": [
       {
-        "text": "bioloji növ kimi insanın mənşəyi haqqında elm",
+        "text": "AZİPS",
         "correct": false
       },
       {
-        "text": "ailənin mənşəyi haqqında elm",
+        "text": "HÖP",
         "correct": false
       },
       {
-        "text": "mədəniyyəyin mənşəyi haqqında elm",
-        "correct": false
-      },
-      {
-        "text": "insan və cəmiyyətin mənşəyi haqqında elm",
+        "text": "XÖHKS",
         "correct": true
       },
       {
-        "text": "cəmiyyətin mənşəyi haqqında elm",
+        "text": "kredit sistemi",
+        "correct": false
+      },
+      {
+        "text": "SWİFT",
         "correct": false
       }
     ]
   },
   {
     "num": 104,
-    "question": "İnsanların davranışının hərəkətverici qüvvəsini  psixi olanda görən  cərəyan hansıdır?",
+    "question": "Bank daxili auditin məqsədi nədir?",
     "options": [
       {
-        "text": "ekzistensializm",
+        "text": "əmanətçilərin fəaliyyətinə nəzarət etmək məqsədi daşıyır",
         "correct": false
       },
       {
-        "text": "naturalizm",
+        "text": "daxili auditin məqsədi olmur",
         "correct": false
       },
       {
-        "text": "hermenevtika",
+        "text": "qiymətli kağızlara nəzarət edir",
         "correct": false
       },
       {
-        "text": "freydizm",
+        "text": "bank daxili audit - bankın daxili nəzarət və",
         "correct": true
-      },
-      {
-        "text": "personalizm",
-        "correct": false
       }
     ]
   },
   {
     "num": 105,
-    "question": "Sosiallaşma prosesi nəyə deyilir?",
+    "question": "Bankların yaradılması və təşkili hansı variantda doğru verilib?",
     "options": [
       {
-        "text": "cəmiyyətin qərarlaşmasına",
+        "text": "Qapalı Səhmdar Cəmiyyəti formasında yaradılır",
         "correct": false
       },
       {
-        "text": "davranış prosesinə",
+        "text": "Açıq və Qapalı Səhmdar Cəmiyyəti formasında yaradılır və fəaliyyət göstərir",
         "correct": false
       },
       {
-        "text": "şəxsiyyətin formalaşmasına",
+        "text": "Qarışıq Səhmdar Cəmiyyəti formasında yaradılır",
+        "correct": false
+      },
+      {
+        "text": "əsas və qeyri məhdud Məsuliyyətli Cəmiyyət formasında yaradılır",
+        "correct": false
+      },
+      {
+        "text": "Açıq Səhmdar Cəmiyyəti formasında yaradılır və fəaliyyət göstərir",
         "correct": true
-      },
-      {
-        "text": "dövlətin meydana gəlməsinə",
-        "correct": false
-      },
-      {
-        "text": "istehsal prosesinə",
-        "correct": false
       }
     ]
   },
   {
     "num": 106,
-    "question": "İnsanın həyatının əzəldən Allah  və ya  varlığın obyektiv   qanunları tərəfindən müəyyən edildiyini söyləyən təlim necə adlanır?",
+    "question": "Fəaliyyət ölçülərinə görə banklar ayrılır:",
     "options": [
       {
-        "text": "kreasionizm",
-        "correct": false
-      },
-      {
-        "text": "ekzistensializm",
-        "correct": false
-      },
-      {
-        "text": "volüntarizm",
-        "correct": false
-      },
-      {
-        "text": "providensializm",
-        "correct": false
-      },
-      {
-        "text": "fatalizm",
+        "text": "kiçik, orta, sistem əhəmiyyətli banklara",
         "correct": true
+      },
+      {
+        "text": "kiçik,səhmdar,kommersiya banklarına",
+        "correct": false
+      },
+      {
+        "text": "nümayəndəlik, səhmdar, iri banklara",
+        "correct": false
+      },
+      {
+        "text": "çox filiallı, az filiallı banklara",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik,mərkəzi,filiallı",
+        "correct": false
       }
     ]
   },
   {
     "num": 107,
-    "question": "Fəaliyyət aktının strukturu hansı elementləri  özündə birləşdirir?",
+    "question": "Bankların mənafeyini  müdafiə etmək üçün ictimai təşkilat kimi yaradılır:",
     "options": [
       {
-        "text": "obyekt, tələbat, maraq, qabiliyyət",
+        "text": "investisiya fondları",
         "correct": false
       },
       {
-        "text": "subyekt, məqsəd, vasitə, predmet, hərəkət, nəticə",
+        "text": "Banklar Assosiasiyası",
         "correct": true
       },
       {
-        "text": "predmet, nəticə, maraq, hərəkət",
+        "text": "Mərkəzi Bankın ərazi idarələri",
         "correct": false
       },
       {
-        "text": "istedad, maraq, tələbat, vasitə",
+        "text": "kredit təşkilatları və investisiya şirkətləri",
         "correct": false
       },
       {
-        "text": "vasitə, tələbat, maraq, istedad",
+        "text": "İpoteka Fondları",
         "correct": false
       }
     ]
   },
   {
     "num": 108,
-    "question": "Elmi biliyin genezisinin ilkin formasını nə təşkil edir?",
+    "question": "Qiymətli kağız:",
     "options": [
       {
-        "text": "problem",
+        "text": "metalıdır",
         "correct": false
       },
       {
-        "text": "hipotez",
+        "text": "plastik kartıdır",
+        "correct": false
+      },
+      {
+        "text": "sahibinin aktividir",
         "correct": true
       },
       {
-        "text": "təxəyyül",
+        "text": "kreditidir",
         "correct": false
       },
       {
-        "text": "anlayış",
-        "correct": false
-      },
-      {
-        "text": "nəzəriyyə",
+        "text": "qızıl ehtiyatıdır",
         "correct": false
       }
     ]
   },
   {
     "num": 109,
-    "question": "Aşağıda göstərilənlərdən hansı bu gün elmin ən mühüm inkişaf qanunauyğunluqlarını təşkil edir?",
+    "question": "Rəqəmsal ödənişlərin sürətli artımını təmin edən sistemdir:",
     "options": [
       {
-        "text": "elmin modernləşdirilməsi",
+        "text": "Bankirlərin Mexanikləşdirilmiş",
         "correct": false
-      },
-      {
-        "text": "idrak vasitələrinin təkmilləşdirilməsi",
-        "correct": false
-      },
-      {
-        "text": "elmin differensiasiyası",
-        "correct": false
-      },
-      {
-        "text": "elmin inteqrasiyası",
-        "correct": false
-      },
-      {
-        "text": "elmin differensiasiyası və inteqrasiyası",
-        "correct": true
       }
     ]
   },
   {
     "num": 110,
-    "question": "Antistiyentizm nədir?",
+    "question": "Rəqəmsal bankçılığın ödəniş vasitəsidir:",
     "options": [
       {
-        "text": "nəzəri biliklərin həddindən  artıq şişirdilməsi",
+        "text": "səs dinamikləri",
         "correct": false
       },
       {
-        "text": "təhsilin rolunun lazımi qədər qiymətləndirilməməsi",
+        "text": "aparıcı terminallar",
         "correct": false
       },
       {
-        "text": "elmin differensiasiyası",
+        "text": "ötürücü terminallar",
         "correct": false
       },
       {
-        "text": "empirik biliklərin həddindən artıq şişirdilməsi",
+        "text": "gücləndirici dinamiklər",
+        "correct": false
+      },
+      {
+        "text": "POS terminallar",
         "correct": true
-      },
-      {
-        "text": "idrak nəzəriyyəsi",
-        "correct": false
       }
     ]
   },
   {
     "num": 111,
-    "question": "İdraki, praktiki-təsirli funksiya  aşağıda göstərilənlərdən hansının funksiyalarına aiddir?",
+    "question": "Kredit təşkilatının başlıca xüsusiyyətlərindən biri onun …. tipli olmasıdır:",
     "options": [
       {
-        "text": "mədəniyyətin",
-        "correct": false
-      },
-      {
-        "text": "elmin",
+        "text": "səhmdar",
         "correct": true
       },
       {
-        "text": "əxlaqın",
+        "text": "mükəmməl",
         "correct": false
       },
       {
-        "text": "incəsənətin",
+        "text": "sindikat",
         "correct": false
       },
       {
-        "text": "dünyagörüşün",
+        "text": "qapalı",
+        "correct": false
+      },
+      {
+        "text": "doğru cavab yoxdur",
         "correct": false
       }
     ]
   },
   {
     "num": 112,
-    "question": "Aşağıdakılardan hansı elmi  biliyin əsas cəhətlərinə aiddir?",
+    "question": "İqtisadiyyatın …. şəraitində bank sistemi fəal inkişaf edir:",
     "options": [
       {
-        "text": "elmi biliyin  sistemləşdirilmiş olması, yoxlana bilmə, sübutayetmə, obyektin tədqiq metodunun dərk edilməsi",
+        "text": "zəif",
         "correct": false
       },
       {
-        "text": "həqiqətin spesifik əsaslandırma üsullarının olması,  təsdiqolma, obyektin tədqiq metodunun dərk mətni, edilməsi, verifikasiya olma",
-        "correct": false
-      },
-      {
-        "text": "verifikasiya ola bilən, təkzib oluna bilən, nəzərilik, obyektin tədqiq metodunun dərk edilməsi",
-        "correct": false
-      },
-      {
-        "text": "elmi biliyin  sistemləşdirilmiş olması, həqiqətin spesifik əsaslandırma üsullarının olması,  dərk edən subyektin xüsusi hazırlığının",
+        "text": "artım",
         "correct": true
+      },
+      {
+        "text": "hiperinflyasiya",
+        "correct": false
+      },
+      {
+        "text": "depressiv",
+        "correct": false
+      },
+      {
+        "text": "böhranlı",
+        "correct": false
       }
     ]
   },
   {
     "num": 113,
-    "question": "Biliyin ilkin səviyyəsini göstərin",
+    "question": "Kommersiya bankı …. :",
     "options": [
       {
-        "text": "mücərrəd bilik",
+        "text": "hökumətin kassiridir",
         "correct": false
       },
       {
-        "text": "praktiki bilik",
+        "text": "hökümətin maliyyə agentidir",
         "correct": false
       },
       {
-        "text": "aprior bilik",
-        "correct": false
-      },
-      {
-        "text": "empirik bilik",
+        "text": "hesablaşma və kreditləşmədə vasitəçidir",
         "correct": true
       },
       {
-        "text": "nəzəri bilik",
+        "text": "bank filiallarına lisenziya verən hüquqi şəxsdir",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliynin struktur bölməsidir",
         "correct": false
       }
     ]
   },
   {
     "num": 114,
-    "question": "L.Morqana görə tarixi proses hansı mərhələlərin ardıcıl əvəzlənməsindən ibarətdir?",
+    "question": "Kommersiya bankı …. :",
     "options": [
       {
-        "text": "Mədəniyyət, sivilizasiya və sosializmin",
+        "text": "Mərkəzi Bankın struktur bölməsidir",
         "correct": false
       },
       {
-        "text": "Totalitarizm, avtoritarizm və demokratiyanın",
+        "text": "dövlətin kassiridir",
         "correct": false
       },
       {
-        "text": "Quldarlıq, feodalizm və kapitalizmin",
+        "text": "sığorta şirkətinin agentidir",
         "correct": false
       },
       {
-        "text": "Barbarlıq, mədəniyyət və sivilizasiyanın",
-        "correct": false
-      },
-      {
-        "text": "Vəhşilik, barbarlıq və sivilizasiyanın",
+        "text": "hesablaşma və kreditləşmədə vasitəçidir",
         "correct": true
+      },
+      {
+        "text": "bank filiallarına lisenziya verən fiziki şəxsdir",
+        "correct": false
       }
     ]
   },
   {
     "num": 115,
-    "question": "Mədəniyyət və sivilizasiyanı kimlər qarşı-qarşıya qoyurdu?",
+    "question": "Mərkəzi Bank kommersiya banklarına lisenziya (xüsusi razılıq) verməkdən imtina edə bilərmi?",
     "options": [
       {
-        "text": "Bekon və Holbax",
+        "text": "imtina edə bilməz",
         "correct": false
       },
       {
-        "text": "Didro və Lametri",
+        "text": "1 illiyinə imtina edə bilər",
         "correct": false
       },
       {
-        "text": "Lametri və Marks",
+        "text": "kommersiya bankı kredit faizini ödəyirsə imtina edə bilməz",
         "correct": false
       },
       {
-        "text": "Didro və Helvetsi",
+        "text": "Milli Məclisin qərarı ilə imtina edə bilər",
         "correct": false
       },
       {
-        "text": "Kant və Şpenqler",
+        "text": "səbəblər göstərilməklə imtina edə bilər",
         "correct": true
       }
     ]
   },
   {
     "num": 116,
-    "question": "Mədəniyyətdə  novatorluğa",
+    "question": "Banknotdur:",
     "options": [
       {
-        "text": "ideoloji  funksiya yerinə  yetirir",
-        "correct": false
-      },
-      {
-        "text": "elmin  inkişafından  asılıdır",
-        "correct": false
-      },
-      {
-        "text": "mühafizəkarlığa gətirib çıxarır",
-        "correct": false
-      },
-      {
-        "text": "mədəniyyətin inkişafını  şərtləndirir",
+        "text": "Mərkəzi Bankın kağız pul formasında tədavülə buraxdığı pul nişanları",
         "correct": true
       },
       {
-        "text": "mədəniyyətin fasiləsizliyini  təmin edir",
+        "text": "dövlət qiymətli kağızları",
+        "correct": false
+      },
+      {
+        "text": "bankın sadə vekseli",
+        "correct": false
+      },
+      {
+        "text": "bankın köçürmə vekseli",
+        "correct": false
+      },
+      {
+        "text": "sertifikatlı banknotlar",
         "correct": false
       }
     ]
   },
   {
     "num": 117,
-    "question": "Mədəniyyətin fasiləsizliyi nədən irəli gəlir?",
+    "question": "Pul hesablaşmaları başlıca olaraq hansı dövriyyəyə əsaslanmalıdır:",
     "options": [
       {
-        "text": "sosial  tərəqiyyə istinad edir",
+        "text": "nağd",
         "correct": false
       },
       {
-        "text": "irsiyyətlə bağlıdır”",
-        "correct": false
-      },
-      {
-        "text": "elmi tərəqqisindən irəli gəlir",
-        "correct": false
-      },
-      {
-        "text": "varislik əlaqələri ilə şərtlənir",
+        "text": "nağdsız",
         "correct": true
       },
       {
-        "text": "yaşayış uğrunda mübarizə ilə şərtlənir",
+        "text": "uzunmüddətli pul dövriyyəsinə",
+        "correct": false
+      },
+      {
+        "text": "qarşılıqlı dövriyyəyə",
+        "correct": false
+      },
+      {
+        "text": "fasiləsiz",
         "correct": false
       }
     ]
   },
   {
     "num": 118,
-    "question": "Mədəniyyətdə  varisliyə hansı uyğundur?",
+    "question": "Xidmət göstərdikləri ərazilərə görə banklar ayrılır:",
     "options": [
       {
-        "text": "üzvi aləmin qanunlarına tabedir",
+        "text": "ştatlar üzrə banklara",
         "correct": false
       },
       {
-        "text": "bioloji xarakter daşıyır",
-        "correct": false
-      },
-      {
-        "text": "siyasi inkişafın məhsuludur",
-        "correct": false
-      },
-      {
-        "text": "irsiyyətdən irəli gəlir",
-        "correct": false
-      },
-      {
-        "text": "sosial məzmun daşıyır",
+        "text": "yerli banklara, regional banklara",
         "correct": true
       }
     ]
   },
   {
     "num": 119,
-    "question": "Varislik əlaqələrini  yaradan nədir?",
+    "question": "Tədavül xərclərinə qənaət etmək, kreditin ....:",
     "options": [
       {
-        "text": "əmək bölgüsüdür",
+        "text": "faizidir",
         "correct": false
       },
       {
-        "text": "iqtisadi  tərəqqidir",
+        "text": "sənədidir",
         "correct": false
       },
       {
-        "text": "ənənələr, tərbiyə və təhsil sistemidir",
+        "text": "mahiyyətidir",
+        "correct": false
+      },
+      {
+        "text": "funksiyasıdır",
         "correct": true
       },
       {
-        "text": "maddi istehsaldır",
-        "correct": false
-      },
-      {
-        "text": "siyasi təssisatlardır",
+        "text": "müqaviləsidir",
         "correct": false
       }
     ]
   },
   {
     "num": 120,
-    "question": "Mədəniyyətdə  ənənələrin roluna aşağıdakılardan hansı uyğundur?",
+    "question": "AZİPS (Real Vaxt Rejimində Banklararası Milli Hesablaşmalar Sistemi) yaranıb:",
     "options": [
       {
-        "text": "inqilabi dəyişikliklər tələb edir",
+        "text": "2020",
         "correct": false
       },
       {
-        "text": "yeniliklərin mənimsənilməsinə yol açır",
+        "text": "2008",
         "correct": false
       },
       {
-        "text": "tərəqqini şərtləndirən amildir",
+        "text": "2007",
         "correct": false
       },
       {
-        "text": "mədəniyyətin  fasiləsizliyini  təmin edir",
+        "text": "2025",
+        "correct": false
+      },
+      {
+        "text": "2001",
         "correct": true
-      },
-      {
-        "text": "mühafizəkarlığın əleyhinədir",
-        "correct": false
       }
     ]
   },
   {
     "num": 121,
-    "question": "Aşağıdakılardan hansı mədəniyyətin sivilizasiyadan fərqini ifadə edir?",
+    "question": "Elektron hesablaşmaları həyata keçirmək üçün istifadə edilən texniki vasitədir:",
     "options": [
       {
-        "text": "rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "iqtisadi tərəqqini hədəf  götürməsi",
-        "correct": false
-      },
-      {
-        "text": "Texnikanın  inkişafına yol açması",
-        "correct": false
-      },
-      {
-        "text": "insanın daxili aləminə  istiqamətlənməsi",
+        "text": "plastik kart",
         "correct": true
       },
       {
-        "text": "Fərdiyyətçilik  prinsiplərini rəhbər tutması",
+        "text": "komisyon kartı",
+        "correct": false
+      },
+      {
+        "text": "etibarlı kart",
+        "correct": false
+      },
+      {
+        "text": "sənəd kartı",
+        "correct": false
+      },
+      {
+        "text": "klassik kart",
         "correct": false
       }
     ]
   },
   {
     "num": 122,
-    "question": "İnsanın öz hərəkətləri və fəaliyyətində tam sərbəst olmasını təbliğ edən baxış necə adlanır?",
+    "question": "Qiymətli kağızların geniş yayılmış formalarından biri hesab olunur:",
     "options": [
       {
-        "text": "materializm",
+        "text": "əsas vəsaitlər",
         "correct": false
       },
       {
-        "text": "idealizm",
-        "correct": false
-      },
-      {
-        "text": "ekzistensializm",
-        "correct": false
-      },
-      {
-        "text": "fatalizm",
-        "correct": false
-      },
-      {
-        "text": "volüntarizm",
+        "text": "istiqraz",
         "correct": true
+      },
+      {
+        "text": "şəxsi vəsait",
+        "correct": false
+      },
+      {
+        "text": "cəlb olunmuş vəsait",
+        "correct": false
+      },
+      {
+        "text": "xüsusi kapital",
+        "correct": false
       }
     ]
   },
   {
     "num": 123,
-    "question": "Şəxsiyyətin məsuliyyəti nədə ifadə olunur?",
+    "question": "Bank krediti, istehlak krediti, ipoteka krediti, beynəlxalq kredit və s. kreditin .....:",
     "options": [
       {
-        "text": "öz ailəsi qarşısında məsuliyyətdə",
+        "text": "sənədidir",
         "correct": false
       },
       {
-        "text": "hüquqi məsuliyyətində",
+        "text": "quruluşudur",
         "correct": false
       },
       {
-        "text": "şəxsiyytin öz hərəkətlərində tam sərbəst olmasında",
-        "correct": false
-      },
-      {
-        "text": "insanın taleyinin  əzəldən müəyyən olunmasında",
-        "correct": false
-      },
-      {
-        "text": "öz hərəkətinin sosial nəticələrini irəlicədən görmək və onlara  görə cavab verə bilməkdə",
+        "text": "formalarıdır",
         "correct": true
+      },
+      {
+        "text": "əsasıdır",
+        "correct": false
+      },
+      {
+        "text": "müddətidir",
+        "correct": false
       }
     ]
   },
   {
     "num": 124,
-    "question": "Insan həyatının həqiqi mənası hansı prosesdə açılır?",
+    "question": "Uzunmüddətli vəsait qoyuluşudur:",
     "options": [
       {
-        "text": "tərbiyə",
+        "text": "mənfəət",
         "correct": false
       },
       {
-        "text": "fəaliyyət",
+        "text": "qiymətli metallar",
+        "correct": false
+      },
+      {
+        "text": "valyuta",
+        "correct": false
+      },
+      {
+        "text": "investisiya",
         "correct": true
       },
       {
-        "text": "təhsil",
-        "correct": false
-      },
-      {
-        "text": "istirahət",
-        "correct": false
-      },
-      {
-        "text": "davranış",
+        "text": "birja",
         "correct": false
       }
     ]
   },
   {
     "num": 125,
-    "question": "İnsanı formalaşdıran əsas amilə  hansı aiddir?",
+    "question": "Forfeytinq və trast kredit təşkilatlarının ...... əməliyyatlarıdır:",
     "options": [
       {
-        "text": "bürclər",
+        "text": "depozit",
         "correct": false
       },
       {
-        "text": "məşqlər",
+        "text": "valyuta",
         "correct": false
       },
       {
-        "text": "çətinliklər",
+        "text": "ipoteka",
         "correct": false
       },
       {
-        "text": "təbiətin qanunları",
+        "text": "sənəd dövriyyəsi",
         "correct": false
       },
       {
-        "text": "tərbiyə",
+        "text": "vasitəçilik",
         "correct": true
       }
     ]
   },
   {
     "num": 126,
-    "question": "Şəxsiyyət nədir?",
+    "question": "Kassa əməliyyatlarına aid gün ərzində rəsmiləşdirilmiş sənəd hesab olunur:",
     "options": [
       {
-        "text": "özünü yüksək dəyərləndirən insan",
-        "correct": false
-      },
-      {
-        "text": "parlaq qabiliyyətləri olan insan",
-        "correct": false
-      },
-      {
-        "text": "məşhur adam",
-        "correct": false
-      },
-      {
-        "text": "insanın sosial siması",
+        "text": "kassa sənədləri",
         "correct": true
       },
       {
-        "text": "güclü xarakterli insan",
+        "text": "məxfi sənədlər",
+        "correct": false
+      },
+      {
+        "text": "təsərrüfat sənədləri",
+        "correct": false
+      },
+      {
+        "text": "debet sənədləri",
+        "correct": false
+      },
+      {
+        "text": "lazımsız sənədlər",
         "correct": false
       }
     ]
   },
   {
     "num": 127,
-    "question": "Hərəkətin formalarının təsnifatını kim təklif etmişdir?",
+    "question": "Mərkəzi Bankın kapital ehtiyatı hansı mənbə hesabına formalaşır:",
     "options": [
       {
-        "text": "Aristotel",
+        "text": "kommersiya banklarının mənfəəti hesabına",
         "correct": false
       },
       {
-        "text": "Engels",
+        "text": "Mərkəzi Bankın illik mənfəətindən ayırmalar hesabına",
         "correct": true
       },
       {
-        "text": "Kant",
+        "text": "büdcə vəsaitlərinin mənfəəti hesabına",
         "correct": false
       },
       {
-        "text": "Platon",
+        "text": "BOKT (Bank Olmayan Kredit Təşkilatılarının) mənfəəti hesabına",
         "correct": false
       },
       {
-        "text": "Hegel",
+        "text": "Banklar Assosiasiyasının mənfəəti hesabına",
         "correct": false
       }
     ]
   },
   {
     "num": 128,
-    "question": "Ontologiya  özündə aşağıdakı hansı məsələləri birləşdirir?",
+    "question": "Mərkəzi Bank müflis ola bilərmi?",
     "options": [
       {
-        "text": "ideyaların mənşəyi",
+        "text": "ola bilər",
         "correct": false
       },
       {
-        "text": "biliyin mənşəyi",
+        "text": "müştərilərin qərarı ilə müflis ola bilər",
         "correct": false
       },
       {
-        "text": "idrakın prinsiplərini",
-        "correct": false
-      },
-      {
-        "text": "anlayış və mühakimələrin mənşəyi",
-        "correct": false
-      },
-      {
-        "text": "dünyanın mənşəyi və  onun universal əlaqələri",
+        "text": "ola bilməz",
         "correct": true
+      },
+      {
+        "text": "Statistika Komitəsinin razılığı ilə müflis ola bilər",
+        "correct": false
+      },
+      {
+        "text": "lisenziyası ləğv edilə bilər",
+        "correct": false
       }
     ]
   },
   {
     "num": 129,
-    "question": "Təbiətin varlığını fəlsəfənin hansı bölməsi öyrənir?",
+    "question": "\"Mərkəzi Bank Haqqında\" redaksiyada olan son Qanun qüvvəyə minmişdir :",
     "options": [
       {
-        "text": "aksiologiya",
+        "text": "2014",
         "correct": false
       },
       {
-        "text": "antropologiya",
+        "text": "2022",
         "correct": false
       },
       {
-        "text": "ontologiya?",
+        "text": "2020",
         "correct": false
       },
       {
-        "text": "naturfəlsəfə",
+        "text": "2004",
         "correct": true
       },
       {
-        "text": "praksiologiya",
+        "text": "2025",
         "correct": false
       }
     ]
   },
   {
     "num": 130,
-    "question": "Zaman anlayışının fəlsəfi mahiyyəti nədən ibarətdir?",
+    "question": "\"Banklar Haqqında\"  redaksiyada olan son  Qanun qüvvəyə minmişdir :",
     "options": [
       {
-        "text": "obyektiv mövcudluq",
+        "text": "2006",
         "correct": false
       },
       {
-        "text": "hadisələrin baş vermə ardıcıllığı və müddəti",
+        "text": "2016",
+        "correct": false
+      },
+      {
+        "text": "2025",
+        "correct": false
+      },
+      {
+        "text": "2024",
+        "correct": false
+      },
+      {
+        "text": "2004",
         "correct": true
-      },
-      {
-        "text": "subyektiv mövcudluq",
-        "correct": false
-      },
-      {
-        "text": "bütün mövcudluq?",
-        "correct": false
-      },
-      {
-        "text": "maddi predmetlərin ölçüsü",
-        "correct": false
       }
     ]
   },
   {
     "num": 131,
-    "question": "Məkan anlayışının fəlsəfi mahiyyəti nədən ibarətdir?",
+    "question": "Əməliyyat gününün axşamı nağd pul və digər qiymətlilərin qəbulunu həyata keçirən kassadır:",
     "options": [
       {
-        "text": "predmetlərin ölçüsü və yerləşmə qaydası",
+        "text": "axşam kassası",
         "correct": true
       },
       {
-        "text": "bütün mövcudluq",
+        "text": "səhər kassası",
         "correct": false
       },
       {
-        "text": "obyektiv mövcudluq",
+        "text": "bank kassası",
         "correct": false
       },
       {
-        "text": "hadisələrin baş vermə ardıcıllığı və müddəti",
+        "text": "sistem kassası",
         "correct": false
       },
       {
-        "text": "subyektiv mövcudluluq",
+        "text": "gündüz kassası",
         "correct": false
       }
     ]
   },
   {
     "num": 132,
-    "question": "Substansiya anlayışının mahiyyəti nədən ibarətdir?",
+    "question": "Kassirin iştirakı olmadan nağd pulların verilməsi və qəbul edilməsi üçün istifadə edilən avtomat qurğudur:",
     "options": [
       {
-        "text": "bütün mövcudluq",
+        "text": "pul sayan qurğu",
         "correct": false
       },
       {
-        "text": "subyektiv mövcudluq?",
-        "correct": false
-      },
-      {
-        "text": "özü-özünün səbəbi olan müstəqil varlıq",
+        "text": "bankomat",
         "correct": true
       },
       {
-        "text": "obyektiv mövcudluq",
+        "text": "bankın pul sayğacı",
         "correct": false
       },
       {
-        "text": "dünyada baş verən dəyişkənlik",
+        "text": "bankın pul sayan aparatı",
+        "correct": false
+      },
+      {
+        "text": "kassirin pul sayan aparatı",
         "correct": false
       }
     ]
   },
   {
     "num": 133,
-    "question": "Varlığın formaları hansı bənddə düzgün qeyd edilmişdir?",
+    "question": "Müştərilərin kassa əməliyyatlarını həyata keçirən şəxsdir:",
     "options": [
       {
-        "text": "təbiət, bitgilər aləmi",
+        "text": "mühafizəçi",
         "correct": false
       },
       {
-        "text": "mənəvi varlıq, insan",
+        "text": "inkasator",
+        "correct": false
+      },
+      {
+        "text": "kassir",
         "correct": true
       },
       {
-        "text": "şüur, mənəvi varlıq",
+        "text": "mühasib",
         "correct": false
       },
       {
-        "text": "materiya, cansız təbiət?",
-        "correct": false
-      },
-      {
-        "text": "cəmiyyət, maddi istehsal",
+        "text": "baş mühasib",
         "correct": false
       }
     ]
   },
   {
     "num": 134,
-    "question": "Varlığın fəlsəfi anlayışının mahiyyəti nədən ibarətdir?",
+    "question": "Vasitəçilik əməliyyatlarına görə banklar müştərilərdən alır:",
     "options": [
       {
-        "text": "varlıq bütün mövcud olanı ifadə edən fəlsəfi kateqoriyadır",
+        "text": "rüblərə bölünən haqq",
+        "correct": false
+      },
+      {
+        "text": "haqq almırlar",
+        "correct": false
+      },
+      {
+        "text": "kredit haqqı",
+        "correct": false
+      },
+      {
+        "text": "komisyon haqq",
         "correct": true
       },
       {
-        "text": "varlıq obyektiv mövcud olanı ifadə edən fəlsəfi kateqoriyadır",
-        "correct": false
-      },
-      {
-        "text": "varlıq dəyişkənliyi bildirən anlayışdır",
-        "correct": false
-      },
-      {
-        "text": "varlıq subyektiv mövcudluğu bildirən anlayışdır",
-        "correct": false
-      },
-      {
-        "text": "varlıq ideyalar aləmini bildirən anlayışdır",
+        "text": "müştərək haqq",
         "correct": false
       }
     ]
   },
   {
     "num": 135,
-    "question": "Varlıq haqqında fəlsəfi təlim necə adlanır?",
+    "question": "Müştərinin tapşırığına əsasən əmlakın etibarlı idarə edilməsi ...... əməliyyatıdır:",
     "options": [
       {
-        "text": "praksiologiya?",
+        "text": "menecment",
         "correct": false
       },
       {
-        "text": "antropologiya",
+        "text": "kredit",
         "correct": false
       },
       {
-        "text": "qnoseologiya",
+        "text": "debet",
         "correct": false
       },
       {
-        "text": "ontologiya",
+        "text": "audit",
+        "correct": false
+      },
+      {
+        "text": "trast",
         "correct": true
-      },
-      {
-        "text": "aksiologiya",
-        "correct": false
       }
     ]
   },
   {
     "num": 136,
-    "question": "Varlığın əbədi və ideal dəyərə malik olduğunu kim təxmin edir?",
+    "question": "Maliyyə və operativ (əməliyyat) lizinq, lizinqin ....:",
     "options": [
       {
-        "text": "Fales",
-        "correct": false
-      },
-      {
-        "text": "Platon",
+        "text": "formalarıdır",
         "correct": true
       },
       {
-        "text": "Protoqor",
+        "text": "mahiyyətidir",
         "correct": false
       },
       {
-        "text": "Heraklit",
+        "text": "məqsədidir",
         "correct": false
       },
       {
-        "text": "Sokrat",
+        "text": "dövriyyəsidir",
+        "correct": false
+      },
+      {
+        "text": "sənədləridir",
         "correct": false
       }
     ]
   },
   {
     "num": 137,
-    "question": "Orta əsr Qərb fəlsəfəsinin ontoloji prinsipi nə idi?",
+    "question": "Lizinq, faktorinq, forfeytinq, trast əməliyyatları kredit təşkilatlarının ...... əməliyyatlarıdır:",
     "options": [
       {
-        "text": "kreasionizm",
+        "text": "investisiya",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik",
         "correct": true
       },
       {
-        "text": "rasionalizm",
+        "text": "depozit",
         "correct": false
       },
       {
-        "text": "formalizm",
+        "text": "klirinq",
         "correct": false
       },
       {
-        "text": "tarixilik",
-        "correct": false
-      },
-      {
-        "text": "vəhy",
+        "text": "sığorta",
         "correct": false
       }
     ]
   },
   {
     "num": 138,
-    "question": "Materiyanın mövcudluq formaları hansılardır?",
+    "question": "Azərbaycan Respublikasının valyutasına aiddir:",
     "options": [
       {
-        "text": "keçmiş və gələcək",
+        "text": "ingilis funt- sterlinqi",
         "correct": false
       },
       {
-        "text": "dəyişkənlik və inkişaf",
+        "text": "dövriyyədə olan Türk lirəsi",
         "correct": false
       },
       {
-        "text": "fasiləsizlik və sonsuzluq",
-        "correct": false
-      },
-      {
-        "text": "məkan və zaman",
+        "text": "dövriyyədə olan və dövriyyədən çıxarılan Mərkəzi Bankın qəpik və manatları",
         "correct": true
       },
       {
-        "text": "təkamül və tənəzzül",
+        "text": "dövriyyədə olan sənədlər",
+        "correct": false
+      },
+      {
+        "text": "dövriyyədə olan qiymətli metallar",
         "correct": false
       }
     ]
   },
   {
     "num": 139,
-    "question": "Varlığın atributu hansıdır?",
+    "question": "11 iyul 2008-ci ildə yaranıb:",
     "options": [
       {
-        "text": "materiya",
+        "text": "FES (Federal Ehtiyat Sistemi)",
         "correct": false
       },
       {
-        "text": "hərəkət",
+        "text": "HÖP (Hökümət Ödəniş Portalı)",
+        "correct": false
+      },
+      {
+        "text": "SWİFT( Ümumdünya Banklararası Maliyyə Telekommunikasiya Sistemi)",
+        "correct": false
+      },
+      {
+        "text": "KÖMİS (Kütləvi Ödənişlər üzrə Mərkəzləşdirilmiş İnformasiya Sistemi)",
         "correct": true
       },
       {
-        "text": "zəka",
-        "correct": false
-      },
-      {
-        "text": "təkamül",
-        "correct": false
-      },
-      {
-        "text": "ideya",
+        "text": "XÖHKS (Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi)",
         "correct": false
       }
     ]
   },
   {
     "num": 140,
-    "question": "Engelsin  təklif etdiyi hərəkət formalarına aid deyil?",
+    "question": "Ödəniş sistemidir:",
     "options": [
       {
-        "text": "fiziki hərəkət",
+        "text": "depozit sistemi",
         "correct": false
       },
       {
-        "text": "biristiqamətli hərəkət",
+        "text": "BVF (Beynəlxalq Valyuta Fondu)",
+        "correct": false
+      },
+      {
+        "text": "FES (Federal Ehtiyat Sistemi)",
+        "correct": false
+      },
+      {
+        "text": "kredit sistemi, pul sistemi",
+        "correct": false
+      },
+      {
+        "text": "AZİPS (Real Vaxt Rejimində Banklararası Milli Hesablaşmalar Sistemi) , XÖHKS (Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi)",
         "correct": true
-      },
-      {
-        "text": "sosial hərəkət",
-        "correct": false
-      },
-      {
-        "text": "mexaniki hərəkət",
-        "correct": false
-      },
-      {
-        "text": "kimyəvi hərəkət",
-        "correct": false
       }
     ]
   },
   {
     "num": 141,
-    "question": "Aşağıdakı təyinatlardan hansı materiyanın mahiyyətini daha dolğun açır?",
+    "question": "Nağdsız hesablaşma üsuludur:",
     "options": [
       {
-        "text": "materiya – fəlsəfi kateqoriyadır",
-        "correct": false
-      },
-      {
-        "text": "materiya – duyğular məcmusudur",
-        "correct": false
-      },
-      {
-        "text": "materiya – hər şeyin əsasını təşkil edir",
-        "correct": false
-      },
-      {
-        "text": "materiya - əsas substansiya, ilkin materiyadır",
-        "correct": false
-      },
-      {
-        "text": "materiya – obyektiv reallıqdır, şüurdan asılı olmayaraq mövcuddur",
+        "text": "klirinq",
         "correct": true
+      },
+      {
+        "text": "subhesab",
+        "correct": false
+      },
+      {
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "trast",
+        "correct": false
+      },
+      {
+        "text": "sığorta",
+        "correct": false
       }
     ]
   },
   {
     "num": 142,
-    "question": "Hərtərəfli inkişaf etmiş harmonik  insan  yetişdirmək aşağıdakılardan hansının əsas  vəzifəsi idi?",
+    "question": "Borc öhdəliyi hesab olunur:",
     "options": [
       {
-        "text": "İntibah mədəniyyətinin",
+        "text": "valyuta",
+        "correct": false
+      },
+      {
+        "text": "veksel",
         "correct": true
       },
       {
-        "text": "Rasionalizm ənənələrinin",
+        "text": "dövriyyə sənədi",
         "correct": false
       },
       {
-        "text": "Industrial cəmiyyətin",
+        "text": "lisenziya",
         "correct": false
       },
       {
-        "text": "Orta əsrlər mədəniyyətinin",
-        "correct": false
-      },
-      {
-        "text": "Qədim yunan mədəniyyətinin",
+        "text": "akkreditiv",
         "correct": false
       }
     ]
   },
   {
     "num": 143,
-    "question": "İnsana  münasibətdə  mədəniyyətə aşağıdakılardan hansı uyğun deyil?",
+    "question": "Kredit təşkilatlarının xüsusi kapitalının funksiyalarını göstərin:",
     "options": [
       {
-        "text": "insanı əhatə edən təbii mühitdir.",
+        "text": "nəzarət, monitorinq",
+        "correct": false
+      },
+      {
+        "text": "depozit, tənzimlənmə",
+        "correct": false
+      },
+      {
+        "text": "müdafiə, operativ, tənzimləmə",
         "correct": true
       },
       {
-        "text": "insan  fəaliyyətinin  məhsuludur.",
+        "text": "pul vəsaiti, depozit",
         "correct": false
       },
       {
-        "text": "insani başlanğıcın inkişaf ölçüsüdür.",
-        "correct": false
-      },
-      {
-        "text": "insanın mövcudluq  məkanıdır",
-        "correct": false
-      },
-      {
-        "text": "yalnız insana xas  olan keyfiyyətdir",
+        "text": "kredit, faktorinq",
         "correct": false
       }
     ]
   },
   {
     "num": 144,
-    "question": "Hansı bənddə mədəniyyətin formaları yanlış göstərilmişdir?",
+    "question": "Kredit təşkilatlarının faiz dərəcələrinin müəyyən edilməsində həlledici rola malikdir:",
     "options": [
       {
-        "text": "ədəbiyyat, rəssamlıq, maldarlıq",
+        "text": "Audit komitəsi",
         "correct": false
       },
       {
-        "text": "Təbiət, qalaktika, yer kürəsi",
+        "text": "Direktor müavini",
+        "correct": false
+      },
+      {
+        "text": "Baş mühasibin müavini",
+        "correct": false
+      },
+      {
+        "text": "Müşahidə Şurası",
         "correct": true
       },
       {
-        "text": "Təhsil, din, incəsənət",
-        "correct": false
-      },
-      {
-        "text": "Incəsənət, fəlsəfə, əkinçilik",
-        "correct": false
-      },
-      {
-        "text": "əkinçilik, sənaye, qusçuluq",
+        "text": "Baş mühasib",
         "correct": false
       }
     ]
   },
   {
     "num": 145,
-    "question": "Tarixi prosesə formasion yanaşma nəyi iddia edir?",
+    "question": "Kredit təşkilatlarına Mərkəzi Bank lisenziyanı (xüsusi razılıq) verir:",
     "options": [
       {
-        "text": "Müxtəlif  sivilizasiyaları bir-biri ilə müqayisə etmək olmaz",
+        "text": "lisenziyanın müddəti 15 ildir",
         "correct": false
       },
       {
-        "text": "Tarixi proses dövrü səciyyə daşıyır",
+        "text": "lisenziyanı 7 il müddətinə verir",
         "correct": false
       },
       {
-        "text": "Tarixin ümumi mənası hər bir xalqın öz taleyini özünün müəyyənləşdirilməsindədir",
+        "text": "lisenziyanın müddəti 3 il olur",
         "correct": false
       },
       {
-        "text": "Tarixi proses dalğavari xarakter daşıyır",
+        "text": "Mərkəzi Bank kredit təşkilatlarına lisenziya vermir",
         "correct": false
       },
       {
-        "text": "Tarixi proses vahid olub ardıcıl  olaraq  bir sıra mərhələlərdən keçir",
+        "text": "müddətsiz",
         "correct": true
       }
     ]
   },
   {
     "num": 146,
-    "question": "Mədəniyyətin fəlsəfi anlayışı üçün aşağıdakılardan hansı uyğundur?",
+    "question": "Mərkəzi Bank:",
     "options": [
       {
-        "text": "“Birinci təbiət”",
-        "correct": false
-      },
-      {
-        "text": "Obyekti hakimiyyət olan siyasi münasibətlərin  məcmusu",
-        "correct": false
-      },
-      {
-        "text": "Insanın təbiətlə şərtlənən davranış qayda və normaları",
-        "correct": false
-      },
-      {
-        "text": "Insan tərəfindən  öz inkişafı üçün yaradılmış maddi və mənəvi dəyərlər məcmusu",
+        "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan edir",
         "correct": true
       },
       {
-        "text": "Ictimai münasibətlər məcmusu",
+        "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan etmək Mərkəzi Bankın lisenziyavermə əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan etmək Mərkəzin Bankın fəaliyyətinə aid deyil",
+        "correct": false
+      },
+      {
+        "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan etmək Mərkəzin Bankın səlahiyyətinə aid deyil",
+        "correct": false
+      },
+      {
+        "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan etmək Mərkəzin Bankın iş prinspinə aid deyil",
         "correct": false
       }
     ]
   },
   {
     "num": 147,
-    "question": "Tarixi determinizm prinsipini seçin:",
+    "question": "Azərbaycan Respublikasının mənafeyini təmsil edir, beynəlxalq kredit təşkilatlarının fəaliyyətində iştirak edir:",
     "options": [
       {
-        "text": "Ictimai hadisələrin bir-birini inkar etməsi",
+        "text": "kredit büroları",
         "correct": false
       },
       {
-        "text": "Ictimai hadisələrin ardıcıllıqla bir-birini şərtləndirməsi",
-        "correct": false
-      },
-      {
-        "text": "Ictimai hadisələrin  ancaq  azadlıqla əlaqələndirilməsi",
-        "correct": false
-      },
-      {
-        "text": "Ictimai hadisələrin bir- biri ilə eyniləşdirilməsi",
-        "correct": false
-      },
-      {
-        "text": "Ictimai hadisələrin ancaq zərurətdən irəli gəlməsi",
+        "text": "Mərkəzi Bank",
         "correct": true
+      },
+      {
+        "text": "kredit təşkilatları",
+        "correct": false
+      },
+      {
+        "text": "bankların nümayəndəlikləri",
+        "correct": false
+      },
+      {
+        "text": "bankların filialları",
+        "correct": false
       }
     ]
   },
   {
     "num": 148,
-    "question": "N.Danilevskinin “mədəni-tarixi tipi”nə deməkdir?",
+    "question": "1992-ci il 7 avqust tarixində ...... ilk Qanun qəbul olunmuşdur:",
     "options": [
       {
-        "text": "Mədəniyyətin spesifikliyini şərtləndirən mənəvi dəyərlər sistemidir",
+        "text": "\"BOKT-lar (Bank Olmayan Kredit Təşkilatı) Haqqında\" Qanun",
         "correct": false
       },
       {
-        "text": "Insanların dinlə şərtlənən norma və davranış qaydalarıdır",
+        "text": "\"Sığorta fəaliyyəti Haqqında\" Qanun",
         "correct": false
       },
       {
-        "text": "Cəmiyyətin mədəniyyətin parçalanması ilə müşayiət olunan  inkişaf mərhələsidir",
-        "correct": false
-      },
-      {
-        "text": "Təsərrüfat, siyasi, dini mədəni elementlərə əsaslanan və müəyyən ikişaf mərhələsini yaşayan mədəniyyətdir",
+        "text": "\"Banklar və bank fəaliyyəti Haqqında\" Qanun",
         "correct": true
       },
       {
-        "text": "Insanların təbiətlə şərtlənən davranış qaydaları və normalarıdır",
+        "text": "\"Depozit Sistemi Haqqında\" Qanun",
+        "correct": false
+      },
+      {
+        "text": "\"Qiymətli Kağızlar Haqqında\" Qanun",
         "correct": false
       }
     ]
   },
   {
     "num": 149,
-    "question": "İctimai  inkişafa formasion yanaşmanın əsası  üçün meyar nədir?",
+    "question": "Nizamnamə kapitalı 1 milyon manat olan kredit təşkilatıdır:",
     "options": [
       {
-        "text": "Bazar münasibətləridir",
+        "text": "XÖHKS (Xırda Ödənişlər üzrə  Hesablaşma Klirinq Sistemi)",
         "correct": false
       },
       {
-        "text": "hakim dəyərlər, norma və qaydalardır",
+        "text": "KÖMİS (Kütləvi Ödənişlər üzrə Mərkəzləşdirilmiş İnformasiya Sistemi)",
         "correct": false
       },
       {
-        "text": "maddi nemətlərin istehsal üsuludur",
+        "text": "BVF (Beynəlxalq Valyuta Fondu)",
+        "correct": false
+      },
+      {
+        "text": "BOKT (Bank Olmayan Kredit Təşkilatı)",
         "correct": true
       },
       {
-        "text": "Məhsuldar qüvvələrin inkişaf səviyyəsidir",
-        "correct": false
-      },
-      {
-        "text": "Mədəniyyətin tipidir",
+        "text": "FES (Federal Ehtiyat Sistemi)",
         "correct": false
       }
     ]
   },
   {
     "num": 150,
-    "question": "Şpenqler sivilizasiyanı necə səciyyələndirir?",
+    "question": "Bank lisenziyasına malik bir və ya bir neçə törəmə bankı olan, fəaliyyəti baş ofisin yerləşdiyi ölkənin bank tənzimlənməsi orqanları tərəfindən tənzimlənən və nəzarət olunan şirkətdir:",
     "options": [
       {
-        "text": "Sivilizasiya mədəniyyətin sinonimidir",
+        "text": "Depozit şirkətləri",
         "correct": false
       },
       {
-        "text": "Sivilizasiya mədəni ənənə və adətləridir",
+        "text": "Sığorta şirkəti",
         "correct": false
       },
       {
-        "text": "Sivilizasiya mədəniyyətin çiçəklənmə dövrüdür",
+        "text": "İnvestisiya şirkəti",
         "correct": false
       },
       {
-        "text": "Sivilizasiya mədəniyyətin yaranma dövrüdür",
+        "text": "Müəssisə və şirkətlər",
         "correct": false
       },
       {
-        "text": "Sivilizasiya mədəniyyətin inkişafında son mərhələdir",
+        "text": "Bank Holdinq şirkəti",
         "correct": true
       }
     ]
   },
   {
     "num": 151,
-    "question": "Hansı paradiqmaya görə bəşəriyyətin vahid tarixi yoxdur, yalnız lokal sivilizasiyalar mövcuddur?",
+    "question": "Pul-kredit tənzimləyicisidir:",
     "options": [
       {
-        "text": "Formasiya paradiqmasına",
-        "correct": false
-      },
-      {
-        "text": "Funksionalist paradiqmaya",
-        "correct": false
-      },
-      {
-        "text": "Sistem paradiqmasına",
-        "correct": false
-      },
-      {
-        "text": "Kulturoloji paradiqmaya",
+        "text": "Mərkəzi Bank",
         "correct": true
       },
       {
-        "text": "Sosial fəaliyyət paradiqmasına",
+        "text": "İxtisaslaşmış banklar",
+        "correct": false
+      },
+      {
+        "text": "Universal banklar",
+        "correct": false
+      },
+      {
+        "text": "Bank Holdinq şirkətləri",
+        "correct": false
+      },
+      {
+        "text": "BOKT-lar (Bank Olmayan Kredit Təşkilatı)",
         "correct": false
       }
     ]
   },
   {
     "num": 152,
-    "question": "İctimai inkişafın təhlilinə formasion yanaşmanın tərəfdarı kim olmuşdur?",
+    "question": "Valyuta məhdudiyyətlərini tətbiq edir:",
     "options": [
       {
-        "text": "N.Danilevski",
+        "text": "Sığorta şirkətləri",
         "correct": false
       },
       {
-        "text": "Toynbi",
-        "correct": false
-      },
-      {
-        "text": "P.Sorokin",
-        "correct": false
-      },
-      {
-        "text": "K.Marks",
+        "text": "Mərkəzi Bank",
         "correct": true
       },
       {
-        "text": "O.Şpenqler",
+        "text": "Kredit təşkilatları",
+        "correct": false
+      },
+      {
+        "text": "Depozit banklar",
+        "correct": false
+      },
+      {
+        "text": "Səhmdar banklar",
         "correct": false
       }
     ]
   },
   {
     "num": 153,
-    "question": "A.Toynbinin fikrincə, sivilizasiyanın yaranması üçün mühitə qarşı cavab reaksiyası necə olmalıdır?",
+    "question": "Kommersiya banklarının öz müştərilərinə (fiziki və hüquqi şəxslərə) göstərdiyi vasitəçilik əməliyyatıdır:",
     "options": [
       {
-        "text": "Birdəfəlik və kəskin olmalıdır",
+        "text": "kredit",
         "correct": false
       },
       {
-        "text": "Mülayim olmalıdır",
+        "text": "depozit",
         "correct": false
       },
       {
-        "text": "Zəif olmalıdır",
-        "correct": false
-      },
-      {
-        "text": "Özündə inersiya qüvvəsi daşımalıdır",
+        "text": "trast",
         "correct": true
       },
       {
-        "text": "Dalğavari olmalıdır",
+        "text": "əmtəə",
+        "correct": false
+      },
+      {
+        "text": "klirinq",
         "correct": false
       }
     ]
   },
   {
     "num": 154,
-    "question": "Sivilizasiya nəyin yetirməsidir?",
+    "question": "Pul dövriyyəsində aşağıdakı hansı növ pul nişanlarından istifadə edilir:",
     "options": [
       {
-        "text": "Eqosentrik  maraqların",
+        "text": "sintetik pullardan",
+        "correct": false
+      },
+      {
+        "text": "lazımsız pullardan",
+        "correct": false
+      },
+      {
+        "text": "yalnız banknot pullardan",
+        "correct": false
+      },
+      {
+        "text": "banknot, metal pullardan",
         "correct": true
       },
       {
-        "text": "Dini dəyərlərin",
-        "correct": false
-      },
-      {
-        "text": "Varlığa estetik münasibətin",
-        "correct": false
-      },
-      {
-        "text": "Bunların heç birinin",
-        "correct": false
-      },
-      {
-        "text": "Antroposentrik dəyərlərin",
+        "text": "yalnız xəzinədarlıq biletlərindən",
         "correct": false
       }
     ]
   },
   {
     "num": 155,
-    "question": "Aşağıdakılardan hansı sivilizasiya üçün səciyyəvidir?",
+    "question": "Beynəlxalq kredit verilir:",
     "options": [
       {
-        "text": "Bunlardan heç biri",
+        "text": "beynəlxalq kredit verilmir",
         "correct": false
       },
       {
-        "text": "Irrasionalizm",
+        "text": "yalnız ikinci ölkənin valyutasında",
         "correct": false
       },
       {
-        "text": "Fərdiyyətçilik prinsipi",
+        "text": "kreditor ölkəsinin, borcalanın ölkəsinin,",
         "correct": true
       },
       {
-        "text": "Humanizm prinsipi",
-        "correct": false
-      },
-      {
-        "text": "Kollektivçilik prinsipi",
+        "text": "yalnız kredit alan ölkənin valyutasında",
         "correct": false
       }
     ]
   },
   {
     "num": 156,
-    "question": "Varlıq terminini fəlsəfəyə kim gətirib?",
+    "question": "Azərbaycanın müasir Bank Sistemi …. tiplidir:",
     "options": [
       {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Parmenid",
+        "text": "bazar",
         "correct": true
       },
       {
-        "text": "Hegel",
+        "text": "keçid",
         "correct": false
       },
       {
-        "text": "Aristotel",
+        "text": "bölüşdürücü",
         "correct": false
       },
       {
-        "text": "Kant",
+        "text": "nəzarət",
+        "correct": false
+      },
+      {
+        "text": "mərkəzləşmiş",
         "correct": false
       }
     ]
   },
   {
     "num": 157,
-    "question": "Varlığın əsas növləri aşağıdakılardan hansılardır?",
+    "question": "Kommersiya bankı ..........funksiyasını yerinə yetirir:",
     "options": [
       {
-        "text": "cəmiyyət və maddi istehsal varlığı",
+        "text": "audit orqanının",
         "correct": false
       },
       {
-        "text": "maddi sistemlərin varlığı",
-        "correct": false
-      },
-      {
-        "text": "təbiət və heyvanat varlığı",
-        "correct": false
-      },
-      {
-        "text": "şüur və mənəvi varlıq",
-        "correct": false
-      },
-      {
-        "text": "maddi və mənəvi varlıq",
+        "text": "maliyyə vasitəçisi",
         "correct": true
+      },
+      {
+        "text": "bank nəzarəti orqanının",
+        "correct": false
+      },
+      {
+        "text": "hökümətin xəzinadarı",
+        "correct": false
+      },
+      {
+        "text": "son instansiya kreditoru",
+        "correct": false
       }
     ]
   },
   {
     "num": 158,
-    "question": "Varlığın sinonimləri aşağıda sadalananlardan hansılardır?",
+    "question": "Kredit təşkilatı yaradılarkən təsisçilər nizamnamə kapitalına köçürə bilərlər:",
     "options": [
       {
-        "text": "qeyri-varlıq və nə isə",
+        "text": "kredit faizini",
         "correct": false
       },
       {
-        "text": "reallıq və gerçəklik",
+        "text": "yalnız qeyri-pul formasında olan əmtəələri",
+        "correct": false
+      },
+      {
+        "text": "yalnız pul vəsaitlərini",
         "correct": true
       },
       {
-        "text": "var olma və yoxluq",
+        "text": "yalnız uçot məlumatlarını",
         "correct": false
       },
       {
-        "text": "nə isə və qeyri-mövcud olma",
-        "correct": false
-      },
-      {
-        "text": "yoxluq və dünya",
+        "text": "yalnız sənədləri",
         "correct": false
       }
     ]
   },
   {
     "num": 159,
-    "question": "Ontologiya nə haqqında təlimdir?",
+    "question": "İxtisaslaşma səviyyəsinə görə banklar ....... bölünür:",
     "options": [
       {
-        "text": "idrak təlimi",
+        "text": "dövlət, səhmdar, xüsusi, özəl və qarışıq banklara",
         "correct": false
       },
       {
-        "text": "varlıq təlimi",
+        "text": "filialsız banklara və çoxfiliallı banklara",
+        "correct": false
+      },
+      {
+        "text": "regional, regionlararası, milli və beynəlxalq banklara",
+        "correct": false
+      },
+      {
+        "text": "universal və ixtisaslaşmış banklara",
         "correct": true
       },
       {
-        "text": "ziddiyyətlər təlimi",
-        "correct": false
-      },
-      {
-        "text": "dəyərlər təlimi",
-        "correct": false
-      },
-      {
-        "text": "inkişaf təlimi",
+        "text": "milli və xarici banklara",
         "correct": false
       }
     ]
   },
   {
     "num": 160,
-    "question": "Ontologiya hansı məsələni özünə daxil edir?",
+    "question": "............ kommersiya bankının funksiyasıdır:",
     "options": [
       {
-        "text": "ziddiyyətlərin mənşəyi və formaları",
+        "text": "kağız pulların emissiyası",
         "correct": false
       },
       {
-        "text": "dünyanın mənşəyi və onun universal əlaqələri",
+        "text": "kredit təşkilatlarının fəaliyyətinə nəzarət",
+        "correct": false
+      },
+      {
+        "text": "pul-kredit siyasətini həyata keçirmək",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın kreditləşdirilməsi",
+        "correct": false
+      },
+      {
+        "text": "müştərilərə hesablaşma kassa xidmətlərinin göstərilməsi",
         "correct": true
-      },
-      {
-        "text": "biliyin mənşəyi",
-        "correct": false
-      },
-      {
-        "text": "şüur və ideyaların mənşəyi",
-        "correct": false
-      },
-      {
-        "text": "anlayış və mühakimələrin mənşəyi",
-        "correct": false
       }
     ]
   },
   {
     "num": 161,
-    "question": "Məkan və zaman kateqoriyalarının anlaşılmasına dair müxtəlif konsepsiyalar hansılardır?",
+    "question": "Rəqəmsal bankların strateji istiqamətidir:",
     "options": [
       {
-        "text": "hissi və rasional",
-        "correct": false
-      },
-      {
-        "text": "dualist və monist",
-        "correct": false
-      },
-      {
-        "text": "substansial və relyasion",
+        "text": "rəqəmsal ödəniş infrastrukturunun",
         "correct": true
       },
       {
-        "text": "metafizik və idealist",
-        "correct": false
-      },
-      {
-        "text": "dualist və materialist",
+        "text": "ödəniş sistemlərinin azalması",
         "correct": false
       }
     ]
   },
   {
     "num": 162,
-    "question": "Materiyanın təşkili səviyyələri hansılardır?",
+    "question": "Qaytarılmaq kreditin....:",
     "options": [
       {
-        "text": "fasiləsiz maddi mühit",
+        "text": "nüfuzudur",
         "correct": false
       },
       {
-        "text": "cansız materiya, canlı və sosial səviyyə",
+        "text": "prinsipidir",
         "correct": true
       },
       {
-        "text": "predmet, yaxud hadisənin təşkili səviyyəsi",
+        "text": "formasıdır",
         "correct": false
       },
       {
-        "text": "mikro- və makroaləm səviyyəsi",
+        "text": "funksiyasıdır",
         "correct": false
       },
       {
-        "text": "elementar hissə və ideyaların təbiəti",
+        "text": "növüdür",
         "correct": false
       }
     ]
   },
   {
     "num": 163,
-    "question": "Materializmə görə fəlsəfənin əsas məsələsi nələr arasındakı münasibəti ifadə edir?",
+    "question": "Mərkəzi Bankın “uçot dərəcəsi”……deməkdir:",
     "options": [
       {
-        "text": "varlıq və təfəkkür",
+        "text": "Mərkəz Bankın kommersiya banklarına",
         "correct": true
-      },
-      {
-        "text": "inam və zəka",
-        "correct": false
-      },
-      {
-        "text": "materiya və ruh",
-        "correct": false
-      },
-      {
-        "text": "şüur və inam",
-        "correct": false
-      },
-      {
-        "text": "varlıq və insan",
-        "correct": false
       }
     ]
   },
   {
     "num": 164,
-    "question": "Monizmin müxtəlif növlərini qeyd edin",
+    "question": "Valyuta siyasətini həyata keçirən və müəyyən edən orqan.......:",
     "options": [
       {
-        "text": "obyektiv və maddi",
+        "text": "Milli Depozit Sistemidir",
         "correct": false
       },
       {
-        "text": "metafizik və dialektik",
+        "text": "Bank Olmayan Kredit Təşkilatıdır (BOKT)",
         "correct": false
       },
       {
-        "text": "empirik və nəzəri",
+        "text": "kommersiya banklarıdır",
         "correct": false
       },
       {
-        "text": "subyektiv və ideal",
-        "correct": false
-      },
-      {
-        "text": "materialist və idealist",
+        "text": "Mərkəzi Bankdır",
         "correct": true
+      },
+      {
+        "text": "sığorta şirkətləridir",
+        "correct": false
       }
     ]
   },
   {
     "num": 165,
-    "question": "Yalnız bir substansiyadan çıxış edən fəlsəfi cərəyan necə adlanır?",
+    "question": "Kredit təşkilatının nizamnamə kapitalında dəyişiklik ... edilir:",
     "options": [
       {
-        "text": "idealizm",
+        "text": "İdarə Heyətinin qərarı ilə",
         "correct": false
       },
       {
-        "text": "monizm",
+        "text": "Muşahidə Şurasının qərarı ilə",
+        "correct": false
+      },
+      {
+        "text": "Auditorlar Palatasının qərarı ilə",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyinin razılığı ilə",
+        "correct": false
+      },
+      {
+        "text": "Səhmdarların Ümumi Yığıncağının qərarı ilə",
         "correct": true
-      },
-      {
-        "text": "dualizm",
-        "correct": false
-      },
-      {
-        "text": "aqnostisizm",
-        "correct": false
-      },
-      {
-        "text": "materializm",
-        "correct": false
       }
     ]
   },
   {
     "num": 166,
-    "question": "Varlığın formaları aşağıdakılardan hansılardır?",
+    "question": "Lizinq əməliyyatında iştirak edə bilər:",
     "options": [
       {
-        "text": "materiya və cismin varlığı",
-        "correct": false
-      },
-      {
-        "text": "insan və ictimai varlıq",
+        "text": "lizinq alan istənilən hüquqi və fiziki şəxs",
         "correct": true
       },
       {
-        "text": "şüur və mənəvi varlıq",
+        "text": "lisenziyası (xüsusi icazə) olmayan banklar",
         "correct": false
       },
       {
-        "text": "cəmiyyət və maddi istehsal varlığı",
+        "text": "hüquqi şəxs olan kredit göndərən",
         "correct": false
       },
       {
-        "text": "təbiət və heyvanat varlığı",
+        "text": "Mərkəzi Bank",
+        "correct": false
+      },
+      {
+        "text": "Gömrük Komitəsinin lisenziyasını alan banklar",
         "correct": false
       }
     ]
   },
   {
     "num": 167,
-    "question": "Orta əsrlər xristian fəlsəfəsində “həqiqi varlıq” nə idi?",
+    "question": "Xidmət göstərdiyi əraziyə görə banklar bölünürlər:",
     "options": [
       {
-        "text": "ideyalar aləmi",
+        "text": "bir və iki pilləli banklara",
         "correct": false
       },
       {
-        "text": "obyektiv varlıq",
-        "correct": false
-      },
-      {
-        "text": "ictimai varlıq",
-        "correct": false
-      },
-      {
-        "text": "Allahın varlığı",
+        "text": "regional, beynəlxalq banklara",
         "correct": true
       },
       {
-        "text": "insan varlığı",
+        "text": "xırda,orta,iri banklara",
+        "correct": false
+      },
+      {
+        "text": "universal və ixtisaslaşmış banklara",
+        "correct": false
+      },
+      {
+        "text": "filialsız və çox filiallı banklara",
         "correct": false
       }
     ]
   },
   {
     "num": 168,
-    "question": "“Qeyri-varlıq” məfhumunun sinonimləri aşağıdakılardan hansılardır?",
+    "question": "Banklarda cəlb olunmuş vəsaitlər hansı əməliyyatlar hesabına səfərbər edilir:",
     "options": [
       {
-        "text": "gerçəklik və reallıq",
+        "text": "bankın vasitəçilik əməliyyatları",
         "correct": false
       },
       {
-        "text": "yoxluq və qeyri-mövcudluq",
+        "text": "bankın hesablaşma əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "bankın passiv əməliyyatları",
         "correct": true
       },
       {
-        "text": "var olma və yoxluq",
+        "text": "bankın aktiv əməliyyatları",
         "correct": false
       },
       {
-        "text": "mövcudluq və gerçəklik",
-        "correct": false
-      },
-      {
-        "text": "varlıq və yoxluq",
+        "text": "bankın kredit əməliyyatları",
         "correct": false
       }
     ]
   },
   {
     "num": 169,
-    "question": "Relyasion konsepsiya məkan və zamanı mahiyyətcə nə hesab edirdi?",
+    "question": "Hüquqi şəxs kimi bankın malik olduğu kapitalın pul ilə ifadəsi:",
     "options": [
       {
-        "text": "Substansiya",
+        "text": "yığım fondu adlanır",
         "correct": false
       },
       {
-        "text": "Münasibət",
+        "text": "ehtiyat fondu adlanır",
+        "correct": false
+      },
+      {
+        "text": "dəyən zərərin ödənilməsi üçün olan vəsaitlər adlanır",
+        "correct": false
+      },
+      {
+        "text": "nizamnamə fondu adlanır",
         "correct": true
       },
       {
-        "text": "Əlamət",
-        "correct": false
-      },
-      {
-        "text": "Kəmiyyət",
-        "correct": false
-      },
-      {
-        "text": "Aksidensiya",
+        "text": "tənzimləmə fondu adlanır",
         "correct": false
       }
     ]
   },
   {
     "num": 170,
-    "question": "Qədim yunan fəlsəfəsi varlığa hansı mövqedən yanaşırdı?",
+    "question": "Kreditə olan tələbin artması faiz dərəcəsini:",
     "options": [
       {
-        "text": "Materializm mövqeyindən",
+        "text": "üzən məzənnə ilə artırır",
         "correct": false
       },
       {
-        "text": "Dualizm mövqeyindən",
+        "text": "ədədi silsilə ilə azaldır",
+        "correct": false
+      },
+      {
+        "text": "həndəsi silsilə ilə bərabərləşdirir",
+        "correct": false
+      },
+      {
+        "text": "azaldır",
+        "correct": false
+      },
+      {
+        "text": "artırır",
         "correct": true
-      },
-      {
-        "text": "İdealizm mövqeyindən",
-        "correct": false
-      },
-      {
-        "text": "Skeptisizm mövqeyindən",
-        "correct": false
-      },
-      {
-        "text": "Monizm mövqeyindən",
-        "correct": false
       }
     ]
   },
   {
     "num": 171,
-    "question": "Yeni dövr fəlsəfəsi materiyanı hansı xüsusiyyətinə görə təyin edirdi?",
+    "question": "Aktiv əməliyyatlar bankların ........artırır?",
     "options": [
       {
-        "text": "faydalı olduğuna görə",
-        "correct": false
-      },
-      {
-        "text": "Allah tərəfindən yaradılmadığına görə",
-        "correct": false
-      },
-      {
-        "text": "ilk başlanğıc olduğuna görə",
-        "correct": false
-      },
-      {
-        "text": "atributuna görə",
+        "text": "gəlirini",
         "correct": true
       },
       {
-        "text": "təcrübə obyekti olmasına görə",
+        "text": "statusunu",
+        "correct": false
+      },
+      {
+        "text": "lisenziyanın ləğv edilməsi təhlükəsini",
+        "correct": false
+      },
+      {
+        "text": "xərcini",
+        "correct": false
+      },
+      {
+        "text": "iflas olmasını",
         "correct": false
       }
     ]
   },
   {
     "num": 172,
-    "question": "Varlığın materiya və formadan törədiyini iddia edən filosof kimdir?",
+    "question": "Mərkəzi Bankın aktiv əməliyyatıdır:",
     "options": [
       {
-        "text": "Platon",
+        "text": "əmanətlərə görə faizlər ödəmək",
         "correct": false
       },
       {
-        "text": "Aristotel",
+        "text": "dövlətin qiymətli kağızlarına qoyuluşlar",
         "correct": true
       },
       {
-        "text": "Dekart",
+        "text": "depozit cəlb etmək",
         "correct": false
       },
       {
-        "text": "Holbax",
+        "text": "istehlak əməliyyatlarını həyata keçirmək",
         "correct": false
       },
       {
-        "text": "Akvinalı Foma",
+        "text": "əhalinin əmanətlərini qaytarmaq",
         "correct": false
       }
     ]
   },
   {
     "num": 173,
-    "question": "Varlığa ilk başlanğıcın əbədi dövranı kimi baxanlar kimlər idi?",
+    "question": "Mərkəzi Bankın kapitalı ibarətdir:",
     "options": [
       {
-        "text": "Yeni dövr filosofları",
-        "correct": false
-      },
-      {
-        "text": "Qədim yunan filosofları",
-        "correct": true
-      },
-      {
-        "text": "İntibah dövrü filosofları",
-        "correct": false
-      },
-      {
-        "text": "Postmodernistlər",
-        "correct": false
-      },
-      {
-        "text": "Orta əsrlərin filosofları",
+        "text": "Mərkəzi Bankın kapital",
         "correct": false
       }
     ]
   },
   {
     "num": 174,
-    "question": "Varlığın formaları arasında hansı münasibətlər mövcuddur?",
+    "question": "Kommersiya banklarının fəaliyyətinin təhlilində xüsusi əhəmiyyətə malikdir:",
     "options": [
       {
-        "text": "relyativ münsibətlər",
+        "text": "milli Məclisin Hesabatları",
         "correct": false
       },
       {
-        "text": "kəmiyyət-keyfiyyət münasibətləri",
+        "text": "auditorlar Palatasının Hesabatları",
         "correct": false
       },
       {
-        "text": "səbəb-nəticə münasibətləri",
+        "text": "əmtəə hesabatları",
         "correct": false
       },
       {
-        "text": "iyerarxik münasibətlər",
+        "text": "maliyyə hesabatları",
         "correct": true
       },
       {
-        "text": "məzmun-forma münasibətləri",
+        "text": "mənfəət norması",
         "correct": false
       }
     ]
   },
   {
     "num": 175,
-    "question": "Sivilizasiya ilk dəfə olaraq öz konkret-tarixi təcəssümünü harada tapdı?",
+    "question": "Trast əməliyyatlarının sifarışçisi kimlər hesab olunur?",
     "options": [
       {
-        "text": "Qədim Hindistanda",
+        "text": "İnvestisiya Təşviqi Fondu",
         "correct": false
       },
       {
-        "text": "Qədim Yunanıstanda",
+        "text": "marketinq sahibiləri",
         "correct": false
       },
       {
-        "text": "Feodalizmdə",
+        "text": "Mərkəzi Bank",
         "correct": false
       },
       {
-        "text": "Industrial cəmiyyətdə tapdı",
+        "text": "sığortaçılar",
+        "correct": false
+      },
+      {
+        "text": "əmlak sahibləri",
         "correct": true
-      },
-      {
-        "text": "Ərəb xilafətində",
-        "correct": false
       }
     ]
   },
   {
     "num": 176,
-    "question": "Tərəqqinin yüksək pilləsini ifadə edən“Sivilizasiya” anlayışının təşəkkül tapmasına aşağıdakılardan  hansı uyğundur?",
+    "question": "Trast əməliyyatlarının icraçıları kimlərdir?",
     "options": [
       {
-        "text": "Alman klassik fəlsəfəsində təşəkkül tapmışdır.",
-        "correct": false
-      },
-      {
-        "text": "Qədim yunanlarda təşəkkül tapmışdır.",
-        "correct": false
-      },
-      {
-        "text": "Qədim romalılarda təşəkkül tapmışdır.",
-        "correct": false
-      },
-      {
-        "text": "Fransız maarifçilərinin əsərlərində təşəkkül tapmışdır.",
+        "text": "etibarlı və peşəkar idarə edənlər",
         "correct": true
       },
       {
-        "text": "Empirizmin nümayəndələrinin əsərlərində təşəkkül tapmışdır.",
+        "text": "kreditorlar",
+        "correct": false
+      },
+      {
+        "text": "auditolar",
+        "correct": false
+      },
+      {
+        "text": "depozitorlar",
+        "correct": false
+      },
+      {
+        "text": "brokerlər",
         "correct": false
       }
     ]
   },
   {
     "num": 177,
-    "question": "İndustrial cəmiyyət mədəniyyətin başlıca funksiyasını nədə görürdü",
+    "question": "Kommersiya banklarının kassa əməliyyatları ......... :",
     "options": [
       {
-        "text": "Harmonik inkişaf edən insan yetişdirməkdə",
+        "text": "AZİPS - əməliyyatıdır",
         "correct": false
       },
       {
-        "text": "Humanizm ideyalarını yaymaqda?",
-        "correct": false
-      },
-      {
-        "text": "Məntiqi təfəkkürü inkişaf etdirməkdə",
-        "correct": false
-      },
-      {
-        "text": "Effektiv metoda malik ambisiyalı şəxsiyyət yetişdirməkdə",
+        "text": "nağd pulların mədaxili və məxaricidir",
         "correct": true
       },
       {
-        "text": "Mömin insan tərbiyə etməkdə",
+        "text": "sənədlərin qeydiyyatdan keçirilməsidir",
+        "correct": false
+      },
+      {
+        "text": "pul siyasəti əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "faktorinq əməliyyatıdır",
         "correct": false
       }
     ]
   },
   {
     "num": 178,
-    "question": "Hərtərəfli inkişaf etmiş insan yetişdirməyi hansı dövr mədəniyyətin əsas vəzifəsi hesab edirdi",
+    "question": "…. banklar öz müştəriləri üçün bütün bank xidmətlərini yerinə yetirir:",
     "options": [
       {
-        "text": "İntibah dövrü",
+        "text": "investisiya",
+        "correct": false
+      },
+      {
+        "text": "innovasiya",
+        "correct": false
+      },
+      {
+        "text": "universal",
         "correct": true
       },
       {
-        "text": "Antik dövr",
+        "text": "ixtisaslaşmış",
         "correct": false
       },
       {
-        "text": "Postindustrializm",
-        "correct": false
-      },
-      {
-        "text": "İndustrializm dövrü",
-        "correct": false
-      },
-      {
-        "text": "Orta əsrlər",
+        "text": "depozit",
         "correct": false
       }
     ]
   },
   {
     "num": 179,
-    "question": "Din mədəniyyətin əsas vəzifəsini nədə görür?",
+    "question": "Kreditə xas olan xassəni göstərin:",
     "options": [
       {
-        "text": "Kamil insan tərbiyə etməkdə",
+        "text": "dəyər xarakterli olması",
         "correct": false
       },
       {
-        "text": "Maddi və mənəvi tələbatlar arasında harmoniya yaratmaqda",
+        "text": "funksional xarakterli olması",
         "correct": false
       },
       {
-        "text": "Gözəlliyi qiymətləndirmək bacarığı tərbiyə etməkdə görür",
+        "text": "uçot xarakterli olması",
         "correct": false
       },
       {
-        "text": "Ruhun xilasına inam və etiqad hissi tərbiyə etməkdə",
+        "text": "ödənişli xarakter daşıması",
         "correct": true
       },
       {
-        "text": "Elmli insan yetişdirməkdə",
+        "text": "əməli xarakter olması",
         "correct": false
       }
     ]
   },
   {
     "num": 180,
-    "question": "Qədim yunanlar mədəniyyətin  ali məqsədini nədə görürdülər?",
+    "question": "Bank lisenziyası verilir:",
     "options": [
       {
-        "text": "Ticarəti və sənəti inkişaf  etdirməkdə",
+        "text": "1 illiyinə",
         "correct": false
       },
       {
-        "text": "Ideal vətəndaş yetişdirməkdə",
+        "text": "8 illiyinə",
+        "correct": false
+      },
+      {
+        "text": "3 il müddətinə",
+        "correct": false
+      },
+      {
+        "text": "5 illiyinə",
+        "correct": false
+      },
+      {
+        "text": "müddətsiz",
         "correct": true
-      },
-      {
-        "text": "Allahlara hörmət hissi tərbiyə etməkdə",
-        "correct": false
-      },
-      {
-        "text": "Yüksək peşəkarlığa malik sənətkar yetişdirməkdə",
-        "correct": false
-      },
-      {
-        "text": "Alim yetişdirməkdə",
-        "correct": false
       }
     ]
   },
   {
     "num": 181,
-    "question": "Siseronun fikrincə mədəniyyət nədir?",
+    "question": "Lizinq kreditinin obyekti kimi çıxış edir:",
     "options": [
       {
-        "text": "Torpağı şumlamaq sənətdir",
-        "correct": false
-      },
-      {
-        "text": "Bədənə qulluq etmək sənətdir",
-        "correct": false
-      },
-      {
-        "text": "Bunların heç biri deyil",
-        "correct": false
-      },
-      {
-        "text": "Dövlət başçısı yetişdirmək sənətdir",
-        "correct": false
-      },
-      {
-        "text": "Insan ağlını tərbiyə edib yetişdirməkdir",
+        "text": "daşınan əmlak",
         "correct": true
+      },
+      {
+        "text": "maliyyə müqaviləsi",
+        "correct": false
+      },
+      {
+        "text": "qiymətli kağızlar",
+        "correct": false
+      },
+      {
+        "text": "valyuta qiymətliləri",
+        "correct": false
+      },
+      {
+        "text": "uçot sənədləri",
+        "correct": false
       }
     ]
   },
   {
     "num": 182,
-    "question": "Mədəniyyət anlayışının bağlı olduğu “kultura” sözünün mənşəyini göstərin:",
+    "question": "Bank sektorunun məcmu kapitalının strukturu  və dinamikasının təhlili üçün  hansı göstəricilərdən istifadə olunur:",
     "options": [
       {
-        "text": "Latın mənşəlidir",
+        "text": "heç bir kapitaldan istifədə olunmur",
+        "correct": false
+      },
+      {
+        "text": "I (əsas) və II (əlavə) dərəcəli kapitaldan",
         "correct": true
       },
       {
-        "text": "Rus mənşəlidir",
+        "text": "investisiya kapitalından",
         "correct": false
       },
       {
-        "text": "İngilis mənşəlidir",
+        "text": "ipoteka kreditindən",
         "correct": false
       },
       {
-        "text": "Ərəb mənşəlidir",
-        "correct": false
-      },
-      {
-        "text": "Yunan mənşəlidir",
+        "text": "bankın əmək haqqlarından",
         "correct": false
       }
     ]
   },
   {
     "num": 183,
-    "question": "Mədəniyyət aşağıdakılardan hansına uyğundur?",
+    "question": "…. görə emissiya, depozit və kommersiya bankları fərqləndirilir:",
     "options": [
       {
-        "text": "Siyasi idarəetmə formasıdır",
+        "text": "quruluş formasına",
         "correct": false
       },
       {
-        "text": "Bunların heç biri deyil",
+        "text": "əməliyyatlarının sayına",
         "correct": false
       },
       {
-        "text": "Fərdiyyətçilik deməkdir",
-        "correct": false
-      },
-      {
-        "text": "Inkişaf  ideyasıdır",
-        "correct": false
-      },
-      {
-        "text": "Fərdi maraqlarla sosial tam arasında harmoniya yaratmaq vasitəsidir",
+        "text": "funksional təyinatına",
         "correct": true
+      },
+      {
+        "text": "filialların səviyyəsinə",
+        "correct": false
+      },
+      {
+        "text": "mülkiyyət hüquqlarına",
+        "correct": false
       }
     ]
   },
   {
     "num": 184,
-    "question": "Mədəniyyətə nə aid deyil:",
+    "question": "Pul çeki icra üçün qəbul edildikdən  sonra çekin nəzarət hissəsi ......:",
     "options": [
       {
-        "text": "İnsanın dəyişdirici-yaradıcı fəaliyyəti",
+        "text": "müştəriyə qaytarılmır",
         "correct": false
       },
       {
-        "text": "Maddi istehsal fəaliyyəti",
+        "text": "vasitəçiyə verilir",
         "correct": false
       },
       {
-        "text": "Toplanmış təcrübəni qoruyub saxlamağın sosial mexanizmləri",
+        "text": "depozitə qoyulur",
         "correct": false
       },
       {
-        "text": "Üzvi aləmin təkamülü",
+        "text": "müştəriyə qaytarılır",
         "correct": true
       },
       {
-        "text": "“insaniləşmiş” və ya “ikinci təbiət”",
+        "text": "çeklə birlikdə sığortaçıya göndərilir",
         "correct": false
       }
     ]
   },
   {
     "num": 185,
-    "question": "İnsanın mövcudluq  mühiti kimi mədəniyyətə nələr daxildir?",
+    "question": "Bank kreditində kreditor kimi çıxış edə bilər:",
     "options": [
       {
-        "text": "Okeanların təki",
-        "correct": false
-      },
-      {
-        "text": "“Vəhşi” və ya “birinci təbiət”",
-        "correct": false
-      },
-      {
-        "text": "Bunların heç biri",
-        "correct": false
-      },
-      {
-        "text": "Günəş sistemi",
-        "correct": false
-      },
-      {
-        "text": "Insana xas olan bütün fəaliyyət formaları",
+        "text": "kredit əməliyyatları aparmaq üçün",
         "correct": true
       }
     ]
   },
   {
     "num": 186,
-    "question": "Mədəniyyəti səciyyələndirən variantı seçin.",
+    "question": "Bankın iş fəaliyyətində müxtəlif texniki və texnologiyanın istifadəsi ilə əlaqədar risk adlanır:",
     "options": [
       {
-        "text": "Mədəniyyət Kainatın təkamül qanunlarına tabe olan təbii prosesdir.",
-        "correct": false
-      },
-      {
-        "text": "Mədəniyyət instinktiv fəaliyyətdir.",
-        "correct": false
-      },
-      {
-        "text": "Mədəniyyət bioloji təkamülün məhsuludur.",
-        "correct": false
-      },
-      {
-        "text": "Mədəniyyət sosial-mənəvi fəaliyyətdir.",
+        "text": "texnoloji risk",
         "correct": true
       },
       {
-        "text": "Mədəniyyət maddi istehsalın göstəricisidir.",
+        "text": "alternativ risk",
+        "correct": false
+      },
+      {
+        "text": "səmərəli risk",
+        "correct": false
+      },
+      {
+        "text": "əmək fəaliyyəti riski",
+        "correct": false
+      },
+      {
+        "text": "ödəniş riski",
         "correct": false
       }
     ]
   },
   {
     "num": 187,
-    "question": "Aşağıdakılardan hansı mədəniyyəti səciyyələndirmir?",
+    "question": "Kredit təşkilatlarına Mərkəzi Bank lisenziyanı (xüsusi razılıq) verir:",
     "options": [
       {
-        "text": "Mədəniyyət insanın maddi-dəyişdirici fəaliyyətidir.",
+        "text": "5 illiyinə verir",
         "correct": false
       },
       {
-        "text": "Mədəniyyət insanın mənəvi yaradıcılıq formalarıdır.",
-        "correct": false
-      },
-      {
-        "text": "Mədəniyyət iqtisadi tərəqqinin formasıdır.",
+        "text": "müddətsiz",
         "correct": true
       },
       {
-        "text": "Mədəniyyət insanda insani başlanğıcın inkişaf  ölçüsüdür.",
+        "text": "10 illiyinə",
         "correct": false
       },
       {
-        "text": "Mədəniyyət dəyərlərin mövcudluq məkanıdır.",
+        "text": "həm müddətli, həm də müddətsiz",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank kredit təşkilatlarına lisenziya vermir",
         "correct": false
       }
     ]
   },
   {
     "num": 188,
-    "question": "Tarixi prosesə təkamül paradiqmasına alternativ müvqedən yanaşma necə adlanır?",
+    "question": "Kredit təşkilatının fəaliyyət xarakteri haqqında ictimaiyyətdə yayılan neqativ təsəvvürün formalaşması ilə əlaqədar yaranan riskdir:",
     "options": [
       {
-        "text": "Formasion yanaşma",
+        "text": "lisenziyanın itirilmə riski",
         "correct": false
       },
       {
-        "text": "Sosioloji yanaşma",
+        "text": "nəticələrin pozulma riski",
         "correct": false
       },
       {
-        "text": "Marksist paradiqma",
-        "correct": false
-      },
-      {
-        "text": "Kulturoloji paradiqma",
+        "text": "işgüzar nüfüzun itirilməsi riski",
         "correct": true
       },
       {
-        "text": "Təbii-elmi yanaşma",
+        "text": "məsuliyyətə cəlb olunma riski",
+        "correct": false
+      },
+      {
+        "text": "likvidliyin itirilmə riski",
         "correct": false
       }
     ]
   },
   {
     "num": 189,
-    "question": "“Varlıq” və “yoxluq” anlayışlarının relyativliyi nə deməkdir?",
+    "question": "Kreditin resurs mənbələri kimi çıxış edir:",
     "options": [
       {
-        "text": "Varlıq anlayışı yoxluğa nəzərən daha məzmunludur",
+        "text": "yalnız xüsusi vəsaitlər",
         "correct": false
       },
       {
-        "text": "Bu anlayışlar biri digərinə nəzərən təyin edilə bilər",
+        "text": "yalnız cəlb edilən vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "dolayı vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "xüsusi və cəlb edilən vəsaitlər",
         "correct": true
       },
       {
-        "text": "Varlıq yoxluğa nəzərən ilk anlayışdır",
-        "correct": false
-      },
-      {
-        "text": "Varlıq anlayışını yoxluqdan kənarda istifadə etmək olmaz.",
-        "correct": false
-      },
-      {
-        "text": "Varlığın həcmi yoxluğa nəzərən daha böyükdür",
+        "text": "faktorinqə verilən vəsaitlər",
         "correct": false
       }
     ]
   },
   {
     "num": 190,
-    "question": "Varlıq anlayışı haqqında aşağıdakılardan hansı doğrudur?",
+    "question": "Kredit təşkilatı yaradılır:",
     "options": [
       {
-        "text": "Varlıq həcminə görə ən yoxsul anlayışdır",
-        "correct": false
-      },
-      {
-        "text": "Varlıq daxilən ziddiyyətsiz anlayışdır.",
-        "correct": false
-      },
-      {
-        "text": "Varlıq məzmunca ən zəngin anlayışdır",
-        "correct": false
-      },
-      {
-        "text": "Varlıq digər anlayışlardan öz məzmununa görə fərqlənir",
-        "correct": false
-      },
-      {
-        "text": "Varlığın məzmunu onu digər anlayışlardan fərqləndirməyə imkan vermir",
+        "text": "ən azı üç hüquqi və ya fiziki şəxs tərəfindən",
         "correct": true
+      },
+      {
+        "text": "ən azı beş hüquqi şəxs tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "son kapitalı ödəmək imkanına",
+        "correct": false
       }
     ]
   },
   {
     "num": 191,
-    "question": "Anlayışın məzmunu ilə həcmi arasındakı münasibəti ifadə edən əlaqə necə adlanır?",
+    "question": "Nağd pul dövriyyəsinin təşkilinin məqsədi:",
     "options": [
       {
-        "text": "düz mütənsiblik qanunu",
-        "correct": false
-      },
-      {
-        "text": "tərs mütənasiblik qanunu",
+        "text": "pul tədavülünün sabitliyini, elastikliyini",
         "correct": true
       },
       {
-        "text": "kafi əsas qanunu",
-        "correct": false
-      },
-      {
-        "text": "ziddiyyətsizlik qanunu",
-        "correct": false
-      },
-      {
-        "text": "relyativlik qanunu",
+        "text": "nağdsız pulların emissiyasını təmin etməkdir",
         "correct": false
       }
     ]
   },
   {
     "num": 192,
-    "question": "Anlayışın məzmunu nəyə deyilir?",
+    "question": "Kommersiya bankının şöbəsi kredit verə bilərmi?",
     "options": [
       {
-        "text": "Anlayışın ifadə etdiyi obyektlərin mühüm əlamətlərinin məcmusu",
+        "text": "şöbə Mərkəzi Bankda razılığı olduqda kredit verə bilər",
         "correct": false
       },
       {
-        "text": "Anlayışın ifadə etdiyi obyektlər üçün ortaq əlamətlərin məcmusu",
+        "text": "şöbə kredit verə bilməz",
         "correct": true
       },
       {
-        "text": "Anlayışın əhatə etdiyi predmetlər çoxluğu",
+        "text": "şöbənin rəhbərinin icazəsi olduqda kredit verə bilər",
         "correct": false
       },
       {
-        "text": "Anlayışın istifadə edildiyi situasiyalar çoxluğu",
+        "text": "şöbə kredit verə bilər",
         "correct": false
       },
       {
-        "text": "Bir obyekti digərindən fərqləndirən əlamətlərin məcmusu",
+        "text": "şöbədə pul vəsaiti olduqda kredit verə bilər",
         "correct": false
       }
     ]
   },
   {
     "num": 193,
-    "question": "Obyekti səciyyələndirən xüsusiyyətləri ən ümumi formada ifadə edən kateqoriyalar hansılardır?",
+    "question": "Kreditin prinsipidir:",
     "options": [
       {
-        "text": "materiya, şüur, kəmiyyət",
+        "text": "bölüşdürücülük",
         "correct": false
       },
       {
-        "text": "məkan, zaman, keyfiyyət",
+        "text": "nəzarətçilik",
+        "correct": false
+      },
+      {
+        "text": "faizin ödənilməsi (ödənişlik)",
         "correct": true
       },
       {
-        "text": "səbəb, məkan, nəticə",
+        "text": "idarəçilik",
         "correct": false
       },
       {
-        "text": "hərəkət, sükunət, kütlə",
-        "correct": false
-      },
-      {
-        "text": "varlıq, idrak, fəaliyyət",
+        "text": "sərbəstlik",
         "correct": false
       }
     ]
   },
   {
     "num": 194,
-    "question": "Aşağıdakılardan hansı materiyanın mahiyyətini düzgün açır?",
+    "question": "Təklif edilən ifadələrdən kreditin funksiyasını ayırın:",
     "options": [
       {
-        "text": "materiya – fəlsəfi kateqoriyadır",
+        "text": "müvəqqəti azad vəsaitlərin səfərbər",
         "correct": false
       },
       {
-        "text": "materiya – duyğuların məcmusudur",
-        "correct": false
-      },
-      {
-        "text": "materiya – varlığın əsasını təşkil edir",
-        "correct": false
-      },
-      {
-        "text": "materiya - substansiyadır",
-        "correct": false
-      },
-      {
-        "text": "materiya – insana təsir edərək, onda duyğular oyadır",
+        "text": "yenidənbölgü funksiyası",
         "correct": true
       }
     ]
   },
   {
     "num": 195,
-    "question": "Varlığın formalarına aşağıdakılardan hansılar daxil deyil?",
+    "question": "Bank ssudalarının verilməsi hansı sənəd ilə rəsimləşdirilir:",
     "options": [
       {
-        "text": "Insanın varlığı və sosial varlıq",
+        "text": "zəmanət və himayədarlıqla",
         "correct": false
       },
       {
-        "text": "Materiya və cismin varlığı",
+        "text": "müştərinin icazəsi ilə",
+        "correct": false
+      },
+      {
+        "text": "sənəd dövriyyəsi ilə",
+        "correct": false
+      },
+      {
+        "text": "kreditin ödənilməsi risqinin sığortalanması ilə",
+        "correct": false
+      },
+      {
+        "text": "yalnız kredit müqaviləsi ilə",
         "correct": true
-      },
-      {
-        "text": "İnsanın varlığı və mənəvi varlıq",
-        "correct": false
-      },
-      {
-        "text": "Təbiətin varlığı və insanın varlığı",
-        "correct": false
-      },
-      {
-        "text": "Təbiətin varlığı və sosial varlıq",
-        "correct": false
       }
     ]
   },
   {
     "num": 196,
-    "question": "İnsanın tənhalığa məhkum  olduğunu söyləyən  fəlsəfi cərəyanı göstərin",
+    "question": "Bank kreditində kreditor kimi çıxış edə bilər:",
     "options": [
       {
-        "text": "praqmatizm",
+        "text": "Banklar Assosiasiyası",
         "correct": false
       },
       {
-        "text": "Freydizm",
+        "text": "fiziki şəxslər",
         "correct": false
       },
       {
-        "text": "volyuntarizm",
+        "text": "Sığorta Təşkilatları",
         "correct": false
       },
       {
-        "text": "Ekzistentializm",
+        "text": "kredit əməliyyatlarını aparmaq üçün",
         "correct": true
-      },
-      {
-        "text": "Marksizm",
-        "correct": false
       }
     ]
   },
   {
     "num": 197,
-    "question": "Həyatın mənası,  həyat və ölüm problemi  hansı  fəlsəfi cərəyanın   mərkəzi problemlərindən biridir?",
+    "question": "Sintetik uçot məlumatlarından istifadə olunur:",
     "options": [
       {
-        "text": "Marksizmin",
+        "text": "ilkin pul hesablaşma sənədlərinin ümumiləşdirilməsində",
         "correct": false
       },
       {
-        "text": "Bekon",
-        "correct": false
-      },
-      {
-        "text": "Rasionalizmin",
-        "correct": false
-      },
-      {
-        "text": "ezistensializmin",
-        "correct": true
-      },
-      {
-        "text": "Aristotelizmin",
+        "text": "bankın daxili fəaliyyəti haqqında",
         "correct": false
       }
     ]
   },
   {
     "num": 198,
-    "question": "Fəlsəfi biliyin bir  istiqaməti kimi \"elm fəlsəfəsi\"nin   qərarlaşması ilə bağlı aşağıdakılardan hansı doğrudur?",
+    "question": "Hazırda manat təmin edilir:",
     "options": [
       {
-        "text": "Marksizm fəlsəfəsində",
+        "text": "ərazi banklarının bütün aktivləri ilə",
         "correct": false
       },
       {
-        "text": "Yeni Dövrdə",
+        "text": "təsərrüfat subyektlərinin əmtəə qiymətlilərinin ehtiyatları ilə",
         "correct": false
       },
       {
-        "text": "İntibah dövründə",
-        "correct": false
-      },
-      {
-        "text": "XX əsrin ikinci yarısında",
+        "text": "Mərkəzi Bankın  aktivləri ilə",
         "correct": true
       },
       {
-        "text": "Orta əsrlərdə",
+        "text": "dövlət büdcəsinin bütün gəlirləri ilə",
+        "correct": false
+      },
+      {
+        "text": "xəzinədarlığın mədaxili ilə",
         "correct": false
       }
     ]
   },
   {
     "num": 199,
-    "question": "Fəlsəfənin  metafizika ilə eyniləşdirən cərəyanı göstərin",
+    "question": "Emissiya və pul tədavülü mexanizmi dedikdə … başa düşülür:",
     "options": [
       {
-        "text": "ekzistentializm",
+        "text": "emissiya mərkəzi və ölkənin inkasso xidməti",
         "correct": false
       },
       {
-        "text": "neofreydizm",
+        "text": "pulun hazırlanması texnologiyası",
         "correct": false
       },
       {
-        "text": "Freydizm",
+        "text": "banknot və xırda pulların kəsilməsi texnologiyasını həyata keçirmək",
         "correct": false
       },
       {
-        "text": "pozitivizm",
+        "text": "pulların dövriyyəyə buraxılması",
         "correct": true
       },
       {
-        "text": "fenomenologiya",
+        "text": "ölkənin emissiya mərkəzi və hesablaşma kassa mərkəzi",
         "correct": false
       }
     ]
   },
   {
     "num": 200,
-    "question": "\" Dildən düzgün  istifadə edilməməsi psevdoproblemlər yaradır” tezisini müdafiə edən cərəyanı göstərin",
+    "question": "Kommersiya banklarının aktiv əməliyyatı..........deməkdir:",
     "options": [
       {
-        "text": "neofreydizm",
+        "text": "bankın yalnız cəlb edilmiş vəsaitlərdən istifadə edilməsi",
         "correct": false
       },
       {
-        "text": "obyektiv idealism",
+        "text": "faktorinq əməliyyatı deməkdir",
         "correct": false
       },
       {
-        "text": "Ekzistentializm",
-        "correct": false
-      },
-      {
-        "text": "Neopozitivizm",
-        "correct": true
-      },
-      {
-        "text": "Marksizm",
+        "text": "bankın ehtiyat fondundan olan",
         "correct": false
       }
     ]
   },
   {
     "num": 201,
-    "question": "Husserl bu cərəyanlardan hansının əsasını qoymuşdur?",
+    "question": "Valyuta bazarının iştirakçısıdır ........:",
     "options": [
       {
-        "text": "hermenevtika",
-        "correct": false
-      },
-      {
-        "text": "psixoanaliz",
-        "correct": false
-      },
-      {
-        "text": "personalizm",
-        "correct": false
-      },
-      {
-        "text": "fenomenologiya",
+        "text": "valyuta əməliyyatlarını yerinə yetirmək səlahiyyəti olan müvəkkil banklar",
         "correct": true
       },
       {
-        "text": "obyektiv idealizm",
+        "text": "lisenziyası olmayan lombardlar",
+        "correct": false
+      },
+      {
+        "text": "Pul tədavülü şirkətləri",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın icazəsi ilə bütün sığorta təşkilatları",
+        "correct": false
+      },
+      {
+        "text": "Banklar Assosiasiyasının bütün şöbələri",
         "correct": false
       }
     ]
   },
   {
     "num": 202,
-    "question": "Həyat fəlsəfəsinin  nümayəndəsini göstərin",
+    "question": "Valyuta bazarının subyektlərini göstərin:",
     "options": [
       {
-        "text": "Junq",
+        "text": "lizinq şirkətləri",
         "correct": false
       },
       {
-        "text": "Freyd",
-        "correct": false
-      },
-      {
-        "text": "Kamyu",
-        "correct": false
-      },
-      {
-        "text": "Nitşe",
+        "text": "banklar və birjalar",
         "correct": true
       },
       {
-        "text": "Fromm",
+        "text": "Statistika Komitəsi",
+        "correct": false
+      },
+      {
+        "text": "trast şirkətləri",
+        "correct": false
+      },
+      {
+        "text": "faktorinq firmaları",
         "correct": false
       }
     ]
   },
   {
     "num": 203,
-    "question": "Fəlsəfənin  XX əsrdə ortaya çıxan sahələrindən birini göstərin",
+    "question": "...... əməliyyatları pul siyasətinin əməliyyat hədəflərinin reallaşması məqsədi ilə dövriyyədə olan pul kütləsinin tənzimlənməsi və banklararası pul bazarında faiz dərəcələrinə təsir etmək məqsədi ilə Mərkəzi Bank tərəfindən həyata keçirilir:",
     "options": [
       {
-        "text": "strukturalizm",
+        "text": "investisiya və faktorinq əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "lizinq əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "açıq bazar əməliyyatları",
         "correct": true
       },
       {
-        "text": "antropoloji materializm",
+        "text": "Mərkəzi Bankın valyuta əməliyyatları",
         "correct": false
       },
       {
-        "text": "subyektiv  idealizm",
-        "correct": false
-      },
-      {
-        "text": "obyektiv idealizm",
-        "correct": false
-      },
-      {
-        "text": "nominalizm",
+        "text": "kredit və trast əməliyyatları",
         "correct": false
       }
     ]
   },
   {
     "num": 204,
-    "question": "Qeyr-klassik cərəyanlardan \"anlama\"nı idrakın metodu kimi qəbul edən cərəyanı göstərin",
+    "question": "......xarici dövlətlərin hökumətlərinə bank xidmətləri göstərə bilər:",
     "options": [
       {
-        "text": "strukturalizm",
+        "text": "Banklar Assosasiyası",
         "correct": false
       },
       {
-        "text": "fenomenologiya",
+        "text": "Dövlət Statistika Komitəsi",
         "correct": false
       },
       {
-        "text": "nominalizm",
+        "text": "Maliyyə Nazirliyi",
         "correct": false
       },
       {
-        "text": "personalizm",
-        "correct": false
-      },
-      {
-        "text": "Həyat fəlsəfəsi",
+        "text": "Mərkəzi Bank",
         "correct": true
+      },
+      {
+        "text": "İqtisadiyyat Nazirliyi",
+        "correct": false
       }
     ]
   },
   {
     "num": 205,
-    "question": "“Fəlsəfə göydən yerə enməli  və insan həyatının praktik problemlərini həll etməlidir “ tezisini irəli sürən təlim hansıdır?",
+    "question": "Mərkəzi Bankın …. funksiyası banknot buraxılışına inhisardan və ölkədə pul tədavülünün tənzimlənməsindən ibarətdir:",
     "options": [
       {
-        "text": "pozitivizm",
+        "text": "informasiya",
         "correct": false
       },
       {
-        "text": "praqmatizm",
+        "text": "nəzarət",
+        "correct": false
+      },
+      {
+        "text": "inflyasiya",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik",
+        "correct": false
+      },
+      {
+        "text": "emissiya",
         "correct": true
-      },
-      {
-        "text": "personalizm",
-        "correct": false
-      },
-      {
-        "text": "Freydizm",
-        "correct": false
-      },
-      {
-        "text": "fenomenologiya",
-        "correct": false
       }
     ]
   },
   {
     "num": 206,
-    "question": "Fəlsəfənin  özünəməxsusluğu nədən ibarətdir?",
+    "question": "Qanunvericiliyə əsasən Azərbaycan Respublikasının Mərkəzi Bankının Kollegial Orqanı və Ali İdarəetmə Orqanı ….:",
     "options": [
       {
-        "text": "fəlsəfə  konkret  elmi məlumatlara əsaslanır",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfə dünyanın  mənəvi mənimsəmə üsulunu bildirir",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfə öz  prinsip və  nəticələrini bəyan edir",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfə həqiqət  və yanlışlığın nisbətini  müəyyən edir",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfə məntiqi-nəzəri  yolla özünün  müddəa və prinsiplərini  əsaslandırır",
+        "text": "İdarə Heyətidir",
         "correct": true
+      },
+      {
+        "text": "bank nəzarəti komitəsidir",
+        "correct": false
+      },
+      {
+        "text": "Milli Bank Şurasıdır",
+        "correct": false
+      },
+      {
+        "text": "Direktorlar Şurasıdır",
+        "correct": false
+      },
+      {
+        "text": "Audit Komitəsidir",
+        "correct": false
       }
     ]
   },
   {
     "num": 207,
-    "question": "Mənəviyyatın  qiymətləndirici – imperativ funksiyasının mahiyyəti nədən ibarətdir?",
+    "question": "Milli Ödəniş Sisteminin arxitekturasının ikinci mühüm elementi olan Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi (XÖHKS) istifadəyə verilmişdir:",
     "options": [
       {
-        "text": "mənəvi əxlaqın  dəyərləndirmə, norma və qaydalarının  formalaşması",
+        "text": "2003",
         "correct": false
       },
       {
-        "text": "mənəvi qayda, norma  və prinsiplərin  insan əxlaqının  digər formaları  ilə  qarşılıqlı əlaqəsi",
-        "correct": false
-      },
-      {
-        "text": "insan  və cəmiyyətin inkişafının  ən insanpərvər  və perspektiv  yollarının axtarışı",
-        "correct": false
-      },
-      {
-        "text": "insan  davranışının tənzimetməsi  və fərdin davranışının  özünütənzimetməsi üsulu",
-        "correct": false
-      },
-      {
-        "text": "ictimai həyatın  hər bir təzahürünün  “ xeyir” və “şər”baxımından qiymətləndirilməsi",
+        "text": "2002",
         "correct": true
+      },
+      {
+        "text": "1990",
+        "correct": false
+      },
+      {
+        "text": "2025",
+        "correct": false
+      },
+      {
+        "text": "2021",
+        "correct": false
       }
     ]
   },
   {
     "num": 208,
-    "question": "Mənəviyyatın mövcudluğu  və inkişafının  subyekti  hansı təsisatdır?",
+    "question": "\"İpoteka Haqqında\" Qanun qəbul edilmişdir:",
     "options": [
       {
-        "text": "istehsalat  kollektivləri",
+        "text": "2024",
         "correct": false
       },
       {
-        "text": "cəmiyyətdə belə  bir təsisat yoxdur",
+        "text": "2020",
+        "correct": false
+      },
+      {
+        "text": "2005",
         "correct": true
       },
       {
-        "text": "siyasi partiya  və təşkilatlar",
+        "text": "2023",
         "correct": false
       },
       {
-        "text": "ayrı-ayrı  şəxsiyyət",
-        "correct": false
-      },
-      {
-        "text": "dövlət təşkilatları  və müəssisələri",
+        "text": "2001",
         "correct": false
       }
     ]
   },
   {
     "num": 209,
-    "question": "Fantaziya  və xəyal hansı üçün daha səciyyəvidir?",
+    "question": "Kredit təşkilatlarının hüquqi statusunu müəyyən edən:",
     "options": [
       {
-        "text": "insan mənəviyyatının",
+        "text": "Milli Depozit Sistemi haqqında Qanunvericilikdir",
         "correct": false
       },
       {
-        "text": "dünyanın  mənimsəməsi  üsulu kimi  elmin",
+        "text": "ölkə parlamentidir",
         "correct": false
       },
       {
-        "text": "insan  əməyinin",
+        "text": "ölkə Prezidentidir",
         "correct": false
       },
       {
-        "text": "dünyanın mənimsəməsi  üsulu kimi incəsənətin",
+        "text": "Banklar haqqında Qanunvericilikdir",
         "correct": true
       },
       {
-        "text": "istehsalat-təsərrüfatçılıq  fəaliyyətinin",
+        "text": "Mərkəzi Bankdır",
         "correct": false
       }
     ]
   },
   {
     "num": 210,
-    "question": "Elm nəyin informasiya bazasından birini təşkil edir?",
+    "question": "\"Trast\" ifadəsi nə deməkdir:",
     "options": [
       {
-        "text": "dünyagörüşün",
+        "text": "kredit",
+        "correct": false
+      },
+      {
+        "text": "hesablaşma",
+        "correct": false
+      },
+      {
+        "text": "qiymətli kağızlar",
+        "correct": false
+      },
+      {
+        "text": "birja",
+        "correct": false
+      },
+      {
+        "text": "etibar etmə",
         "correct": true
-      },
-      {
-        "text": "psixologiyanın",
-        "correct": false
-      },
-      {
-        "text": "iqtisadiyyatın",
-        "correct": false
-      },
-      {
-        "text": "hüququn",
-        "correct": false
-      },
-      {
-        "text": "incəsənətin",
-        "correct": false
       }
     ]
   },
   {
     "num": 211,
-    "question": "Elmin proqnostik funksiyasının  artmasının  səbəbi nədir?",
+    "question": "Bank menecmentinin əsas prinsiplərindən biridir:",
     "options": [
       {
-        "text": "siyasətin, iqtisadiyyatın, elmin inkişaf  templərinin artması",
-        "correct": false
-      },
-      {
-        "text": "elmin maddi və mənəvi amilləri",
-        "correct": false
-      },
-      {
-        "text": "müasir qlobal problemlərin  bəşəriyyət üçün yaratdığı təhlükə",
+        "text": "heyətin səmərəli təşkili və ondan səmərəli istifadə",
         "correct": true
       },
       {
-        "text": "insanın şüurlu  varlıq  kimi  özünəməxsusluğu",
+        "text": "bank texnologiyalarının səmərəsizliyini yoxlamaq",
         "correct": false
       },
       {
-        "text": "iqtisadiyyat və istehsalın  artması",
+        "text": "bank fəaliyyətində nəticələrin göstəricilərinin uçotunu aparmaq",
+        "correct": false
+      },
+      {
+        "text": "daxili uçotun vəziyyətini müəyyənləşdirmək",
+        "correct": false
+      },
+      {
+        "text": "bankın hesab planına riayət edilməsi",
         "correct": false
       }
     ]
   },
   {
     "num": 212,
-    "question": "Anlayış, kateqoriya və qanunlar şəklində dünyanı nə əks etdirir?",
+    "question": "Depozit, ssuda və banklararası kredit üzrə faizlər… … müəyyənləşdirilir:",
     "options": [
       {
-        "text": "hisslər emosiyalar",
+        "text": "kredit idarələrinin sayına görə",
         "correct": false
       },
       {
-        "text": "istehsal, insan əməyi",
-        "correct": false
-      },
-      {
-        "text": "insanın təxəyyülü, onun fantaziyası,",
-        "correct": false
-      },
-      {
-        "text": "elm, elmi yaradıcılıq",
+        "text": "iqtisadiyyatın ümumi vəziyyətinə görə",
         "correct": true
       },
       {
-        "text": "fərziyyə, intuisiya",
+        "text": "lisenziya faizinə görə",
+        "correct": false
+      },
+      {
+        "text": "kreditin formalarına görə",
+        "correct": false
+      },
+      {
+        "text": "maliyyə təşkilatlarının sayına görə",
         "correct": false
       }
     ]
   },
   {
     "num": 213,
-    "question": "Mənəvi dəyələrdə nə ifadə olunur?",
+    "question": "Emissiya nədir?",
     "options": [
       {
-        "text": "ancaq bir qrup insan yarada biləcək bir şey",
-        "correct": false
-      },
-      {
-        "text": "ancaq insan zəkasına tabe olan",
-        "correct": false
-      },
-      {
-        "text": "maddi-əşyavi aləm",
-        "correct": false
-      },
-      {
-        "text": "şüurun məhsulu olan fantaziya",
-        "correct": false
-      },
-      {
-        "text": "insanın ictimai təbiəti, onun mövcud olma  şəraiti",
+        "text": "tədavülə pul nişanlarının,",
         "correct": true
       }
     ]
   },
   {
     "num": 214,
-    "question": "Mənəvi tələbatlar  maddi tələbatardan  nə ilə fərqlənir?",
+    "question": "Kommersiya bankı bu fəaliyyət ilə məşğul ola bilməz :",
     "options": [
       {
-        "text": "insan onlara təsadüf nəticəsində  malik olmuşdur",
+        "text": "vasitəçilik əməliyyatları ilə",
         "correct": false
       },
       {
-        "text": "insan onlara təlqin nəticəsində olmuşdur",
+        "text": "depozit qəbul etmək ilə",
         "correct": false
       },
       {
-        "text": "insan onlara fövqəltəbii nurlanma ilə  malik olmuşdur",
+        "text": "kredit vermək ilə",
         "correct": false
       },
       {
-        "text": "insan onları anadangəlmə   əldə etməmişdir",
+        "text": "topdan satış ticarət ilə",
         "correct": true
       },
       {
-        "text": "insan onlara əmək prosesində  malik olmuşdur",
+        "text": "investisiya fəaliyyəti ilə",
         "correct": false
       }
     ]
   },
   {
     "num": 215,
-    "question": "Mənəvi tələbatın ödənilməsi  nəyin strukturuna  aiddir?",
+    "question": "Kommersiya banklarının resurslarını göstərin:",
     "options": [
       {
-        "text": "sosial sistemin  və münasibətlərin",
+        "text": "hesabdan silinən vəsaitlər",
         "correct": false
       },
       {
-        "text": "cəmiyyətin bütün tələbatların",
+        "text": "yalnız cəlb olunmuş vəsaitlər",
         "correct": false
       },
       {
-        "text": "siyasi sistem və münasibətlərin",
+        "text": "yalnız şəxsi vəsaitlər",
         "correct": false
       },
       {
-        "text": "cəmiyyətin mənəvi həyatının",
+        "text": "yalnız mənfəətə cəlb olunmuş vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "xüsusi kapital və cəlb edilmiş vəsaitlər",
         "correct": true
-      },
-      {
-        "text": "istehsalat-təsərrüfatçılıq  fəaliyyətinin",
-        "correct": false
       }
     ]
   },
   {
     "num": 216,
-    "question": "M.Veberin fikrincə  vətəndaş  cəmiyyətinin mahiyyəti nədən ibarətdir?",
+    "question": "Azərbaycan Respublikasında ilk milli valyuta nə vaxt tədavülə buraxılıb?",
     "options": [
       {
-        "text": "iqtisadi  inkişafın  strategiyasının  müəyyənləşdirilməsində",
-        "correct": false
-      },
-      {
-        "text": "siyasətin, iqtisadiyyatın və mədəniyyətin qovuşmasında",
-        "correct": false
-      },
-      {
-        "text": "maddi və mənəvi amillərin  birləşməsində",
-        "correct": false
-      },
-      {
-        "text": "hakimiyyət, cəmiyyət və insanın  optimal  şəkildə uygunlaşması",
+        "text": "1992-ci ildə",
         "correct": true
       },
       {
-        "text": "dövlət və şəxsiyyətin  funksiyalarının  bölünməsində",
+        "text": "1993-cü ildə",
+        "correct": false
+      },
+      {
+        "text": "1994-cü ildə",
+        "correct": false
+      },
+      {
+        "text": "2025-ci ildə",
+        "correct": false
+      },
+      {
+        "text": "2024-cü ildə",
         "correct": false
       }
     ]
   },
   {
     "num": 217,
-    "question": "Hakimiyyətə iradənin olmasını, canlı olan hər şeyin  özünütəsdiqə can atdığını deyən filosofu göstərin",
+    "question": "….kreditlər hökumətlərarası razılaşmaya əsaslanır:",
     "options": [
       {
-        "text": "Şopenhauer",
+        "text": "banklararası",
         "correct": false
       },
       {
-        "text": "Engels",
-        "correct": false
-      },
-      {
-        "text": "Marx",
-        "correct": false
-      },
-      {
-        "text": "Nitşe",
+        "text": "dövlətlərarası",
         "correct": true
       },
       {
-        "text": "Kont",
+        "text": "ipotekada olan",
+        "correct": false
+      },
+      {
+        "text": "kommersiyada olan",
+        "correct": false
+      },
+      {
+        "text": "ölkədaxili",
         "correct": false
       }
     ]
   },
   {
     "num": 218,
-    "question": "Yeni dövr fəlsəfəsi nə ilə  sıx  bağlı idi?",
+    "question": "İpoteka kreditində kreditin qaytarılmasına zəmanət kimi çıxış edir:",
     "options": [
       {
-        "text": "ekologiya ilə",
+        "text": "qiymətli kağızların girovu",
         "correct": false
       },
       {
-        "text": "dinlə",
+        "text": "bankın girovu",
         "correct": false
       },
       {
-        "text": "incəsənətlə",
-        "correct": false
-      },
-      {
-        "text": "Elmlə",
+        "text": "mənzilin, yaşayış yerinin girovu",
         "correct": true
       },
       {
-        "text": "ideologiya ilə",
+        "text": "qiymətli metalların girovu",
+        "correct": false
+      },
+      {
+        "text": "sənədlərin girovu",
         "correct": false
       }
     ]
   },
   {
     "num": 219,
-    "question": "Sərhəd situasiyası anlayışı  hansı cərəyanda mühüm yer tutur",
+    "question": "Veksel əsasən …….. istifadə edilir:",
     "options": [
       {
-        "text": "Fenomenologiyada",
+        "text": "bank müqaviləsinə",
         "correct": false
       },
       {
-        "text": "Personalizmdə",
+        "text": "fiziki şəxslərə və emissiya",
         "correct": false
       },
       {
-        "text": "Praqmatizmdə",
-        "correct": false
-      },
-      {
-        "text": "Strukturalizmdə",
-        "correct": false
-      },
-      {
-        "text": "Ekzistensializmdə",
+        "text": "iri maliyyə-ticarət sövdələşmələrinə, topdan satış ticarətə",
         "correct": true
       }
     ]
   },
   {
     "num": 220,
-    "question": "Haydeggerin irəli sürdüyü anlayışı göstərin",
+    "question": "Müştərinin cari hesabındaki qalıq nəyi göstərir:",
     "options": [
       {
-        "text": "ölümə doğru varlıq",
+        "text": "bankın ödəniş qabiliyyətini",
+        "correct": false
+      },
+      {
+        "text": "bankın Mərkəzi Banka ödəyəcəyi məbləği",
+        "correct": false
+      },
+      {
+        "text": "müştərinin banka borcununun olmamasını",
+        "correct": false
+      },
+      {
+        "text": "müştərinin tərəfdaşlarına olan borcunu",
+        "correct": false
+      },
+      {
+        "text": "müştərinin sərbəst pul vəsaitlərinin olmasını",
         "correct": true
-      },
-      {
-        "text": "məyusluğa doğru varlıq",
-        "correct": false
-      },
-      {
-        "text": "Allaha doğru varlıq",
-        "correct": false
-      },
-      {
-        "text": "xoşbəxtliyə doğru varlıq",
-        "correct": false
-      },
-      {
-        "text": "həyata doğru varlıq",
-        "correct": false
       }
     ]
   },
   {
     "num": 221,
-    "question": "J.P.Sartra görə insana münasibətdə hansı doğrudur?",
+    "question": "Kommersiya banklarının cəlb etdiyi vəsaitdir.......:",
     "options": [
       {
-        "text": "mahiyyət mövcudluqdan əvvəldir",
-        "correct": false
-      },
-      {
-        "text": "mahiyyət və mövcudluq eyniyyət təşkil edir",
-        "correct": false
-      },
-      {
-        "text": "dübyaın reallığının inkar edilməsi",
-        "correct": false
-      },
-      {
-        "text": "Mövcudluq mahiyyətdən əvvəldir",
+        "text": "banklararası kredit",
         "correct": true
       },
       {
-        "text": "varlıq şüuru şərtləndirir",
+        "text": "bankın emissiya gəliri",
+        "correct": false
+      },
+      {
+        "text": "bölüşdürülməmiş mənfəət",
+        "correct": false
+      },
+      {
+        "text": "nizamnamə kapitalı",
+        "correct": false
+      },
+      {
+        "text": "ehtiyat fondu",
         "correct": false
       }
     ]
   },
   {
     "num": 222,
-    "question": "Ekzistensializm insanla bağlı baxışlarını  aşağıdakılardan hansı əks etdirir",
+    "question": "Kommersiya banklarının pul resurslarının artırılmasına yönəldilən əməliyyatdır:",
     "options": [
       {
-        "text": "insan Allaha bənzər yaradılmış  və onun taleyini də Allahın iradəsi şərtləndirir",
+        "text": "aktiv əməliyyatlar",
         "correct": false
       },
       {
-        "text": "həyatımızda hər şey təsadüfidir, buna görə də suyun axarı ilə üzmək və ümidlə yaşamaq lazımdır",
+        "text": "Mərkəzi Bankın dövlətə verdiyi kredit əməliyyatları",
         "correct": false
       },
       {
-        "text": "insanın davranışlarını bizim bilmədiyimiz qeyri-şüuri istəklər şərtləndirir",
-        "correct": false
-      },
-      {
-        "text": "insan azadlığa və hər şeyə görə məsuliyyət daşımağa  məhkumdur",
-        "correct": true
-      },
-      {
-        "text": "insanın həyatı taledən, qismətdən asılıdır",
+        "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT)",
         "correct": false
       }
     ]
   },
   {
     "num": 223,
-    "question": "”Ekzistensiya” termini  tərcümədə hansı mənanı verir",
+    "question": "Müştərinin kredit üzrə öz borcunu vaxtında və tam ödəmək qabiliyyətidir.....:",
     "options": [
       {
-        "text": "idrak",
+        "text": "ödəmə qabiliyyətinin olmaması",
         "correct": false
       },
       {
-        "text": "məhəbbət",
+        "text": "hesablaşma qabiliyyətliliyi",
         "correct": false
       },
       {
-        "text": "dövretmə",
-        "correct": false
-      },
-      {
-        "text": "inkişaf",
-        "correct": false
-      },
-      {
-        "text": "mövcudluq",
+        "text": "ödəmə qabiliyyətinin olması",
         "correct": true
+      },
+      {
+        "text": "risklilik qabiliyyətliliyi",
+        "correct": false
+      },
+      {
+        "text": "mübadilə qabiliyyətliliyi",
+        "correct": false
       }
     ]
   },
   {
     "num": 224,
-    "question": "Müasir Qərb fəlsəfəsində irraisonalist cərəyanı göstərin",
+    "question": "Azərbaycan Respublikasının Bank Sistemi neçə pilləlidir?",
     "options": [
       {
-        "text": "praqmaizm",
+        "text": "üç pilləlidir",
         "correct": false
       },
       {
-        "text": "neopozitivizm",
+        "text": "pillələrin sayı maliyyə sisteminin inkişaf səviyyəsindən asılıdır",
         "correct": false
       },
       {
-        "text": "strukturalizm",
+        "text": "bir pilləlidir",
         "correct": false
       },
       {
-        "text": "ekzistensializm",
-        "correct": true
-      },
-      {
-        "text": "marksizm",
+        "text": "üç pilləlidir (banklar, qeyri-bank maliyyə",
         "correct": false
       }
     ]
   },
   {
     "num": 225,
-    "question": "Müasir Qərb fəlsəfəsinin cərəyanını göstərin",
+    "question": "Kredit təşkilatının filialı hansı əməliyyatları apara bilər?",
     "options": [
       {
-        "text": "aqnostisizm",
-        "correct": false
-      },
-      {
-        "text": "Buddizm",
-        "correct": false
-      },
-      {
-        "text": "tomizm",
-        "correct": false
-      },
-      {
-        "text": "praqmatizm",
+        "text": "kredit təşkilatının lisenziyasında",
         "correct": true
-      },
-      {
-        "text": "patristika",
-        "correct": false
       }
     ]
   },
   {
     "num": 226,
-    "question": "Müasir fəlsəfənin materialist cərəyanı hansıdır?",
+    "question": "İpoteka dedikdə nə başa düşülür?",
     "options": [
       {
-        "text": "fenomenologiya",
-        "correct": false
-      },
-      {
-        "text": "neotomizm",
-        "correct": false
-      },
-      {
-        "text": "praqmatizm",
-        "correct": false
-      },
-      {
-        "text": "ekzistensializm",
-        "correct": false
-      },
-      {
-        "text": "marksizm",
+        "text": "mənzillərin, yaşayış sahələrinin girov qoyulması",
         "correct": true
+      },
+      {
+        "text": "sənədin girov qoyulması",
+        "correct": false
+      },
+      {
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "vəsaitin girov qoyulması",
+        "correct": false
+      },
+      {
+        "text": "faktorinq",
+        "correct": false
       }
     ]
   },
   {
     "num": 227,
-    "question": "Pozitivizmin banisi kimdir?",
+    "question": "Kommersiya bankının başlıca xüsusiyyətlərindən biri onların …. tipli olmasıdır:",
     "options": [
       {
-        "text": "Kont",
+        "text": "qapalı",
+        "correct": false
+      },
+      {
+        "text": "səhmdar",
         "correct": true
       },
       {
-        "text": "Marks",
+        "text": "böhranlı",
         "correct": false
       },
       {
-        "text": "Nitsşe",
+        "text": "sistem əhəmiyyətli",
         "correct": false
       },
       {
-        "text": "Husserl",
-        "correct": false
-      },
-      {
-        "text": "Berqson",
+        "text": "qarışıq",
         "correct": false
       }
     ]
   },
   {
     "num": 228,
-    "question": "A.Şopenhauerə görə dünyanın ilk əsasını nə təşkil edir?",
+    "question": "Hüquqi və fiziki şəxslər tərəfindən nağdsız hesablaşmalar aşağıdakıların köməyi ilə icra olunur:",
     "options": [
       {
-        "text": "dünya ruhu",
+        "text": "bank sənədlərinin",
         "correct": false
       },
       {
-        "text": "həyat",
+        "text": "sığorta təşkilatlarının",
         "correct": false
       },
       {
-        "text": "atman",
-        "correct": false
-      },
-      {
-        "text": "iradə",
+        "text": "kommersiya banklarının",
         "correct": true
       },
       {
-        "text": "hakimiyyət əzmi",
+        "text": "ərazi idarələrinin",
+        "correct": false
+      },
+      {
+        "text": "Milli Depozit Sisteminin",
         "correct": false
       }
     ]
   },
   {
     "num": 229,
-    "question": "İradəni həyat və idrakın əsas prinsipi  kimi qiymətləndirən kim olmuşdur?",
+    "question": "Kommersiya bankları müştərilərin hesabları üzrə əməliyyatları nəyə əsasən həyata keçirir:",
     "options": [
       {
-        "text": "O.Şpenqler",
+        "text": "hesab-qaiməyə əsasən",
         "correct": false
       },
       {
-        "text": "Zimmel",
+        "text": "uyğunluq sertifikatına əsasən",
         "correct": false
       },
       {
-        "text": "Şopenhauer",
+        "text": "Auditorlar Palatasının verdiyi sənədlərə əsasən",
+        "correct": false
+      },
+      {
+        "text": "hesablaşma sənədlərinə əsasən",
         "correct": true
       },
       {
-        "text": "Diltey",
-        "correct": false
-      },
-      {
-        "text": "Haydegger",
+        "text": "Mərkəzi Bankın verdiyi icazəyə əsasən",
         "correct": false
       }
     ]
   },
   {
     "num": 230,
-    "question": "”Həyat fəlsəfəsi”niun nümayəndələrini göstərin",
+    "question": "Banklar arasında qarşılıqlı tələblər üzrə hesablaşmalar:",
     "options": [
       {
-        "text": "Lokk",
-        "correct": false
-      },
-      {
-        "text": "Fixte",
-        "correct": false
-      },
-      {
-        "text": "Popper",
-        "correct": false
-      },
-      {
-        "text": "Nitsşe",
-        "correct": true
-      },
-      {
-        "text": "Hegel",
+        "text": "eyni hesablaşma - kassa mərkəzində",
         "correct": false
       }
     ]
   },
   {
     "num": 231,
-    "question": "İntuisiyanı dünyanı anlamanın yeganə vasitəsi olduğunu bildirən fəlsəfi cərəyan hansı məktəbə mənsubdur?",
+    "question": "Banklar müştərilərin hesabı üzrə əməliyyatları nəyə əsasən həyata keçirir:",
     "options": [
       {
-        "text": "neorasionalizmə",
-        "correct": false
-      },
-      {
-        "text": "pozitivizmə",
-        "correct": false
-      },
-      {
-        "text": "həyat fəlsəfəsinə",
+        "text": "hesablaşma sənədlərinə əsasən",
         "correct": true
       },
       {
-        "text": "fenomenologiyaya",
+        "text": "vençur müqaviləsinə əsasən",
         "correct": false
       },
       {
-        "text": "praqmatizmə",
+        "text": "pul hesablaşmalarına əsasən",
+        "correct": false
+      },
+      {
+        "text": "banklar arasında razılıq olmalıdır",
+        "correct": false
+      },
+      {
+        "text": "müştərilər arasında bağlanan pul vəsaitinə əsasən",
         "correct": false
       }
     ]
   },
   {
     "num": 232,
-    "question": "İdrakda zəkanın rolunu inkar edən və ya onu məhdudlaşdıran, ön plana iradəni, hissi seyri,  intuisiyanı çəkən  fəlsəfi mövqe necə adlanır?",
+    "question": "Emissiya bankları kimlərə xidmət göstərir?",
     "options": [
       {
-        "text": "rasionalizm",
+        "text": "bank nümayəndəliklərinə",
         "correct": false
       },
       {
-        "text": "stiyentizm",
-        "correct": false
-      },
-      {
-        "text": "skeptisizm",
-        "correct": false
-      },
-      {
-        "text": "irrasionalizm",
+        "text": "hökümətə və kredit təşkilatlarına",
         "correct": true
       },
       {
-        "text": "empirizm",
+        "text": "bank holdinqlərinə",
+        "correct": false
+      },
+      {
+        "text": "trast şirkətlərinə",
+        "correct": false
+      },
+      {
+        "text": "sığorta şirkətlərinə",
         "correct": false
       }
     ]
   },
   {
     "num": 233,
-    "question": "İntuisionizmə görə (A.Berqson) varlığa adekvat olan idraki qabiliyyət hansıdır",
+    "question": "Mərkəzi Bankın aktiv əməliyyatlarına aiddir:",
     "options": [
       {
-        "text": "təfəkkür",
+        "text": "istehlak əməliyyatlarını həyata keçirmək",
         "correct": false
       },
       {
-        "text": "induksiya",
+        "text": "əhalinin əmanətlərini qaytarmaq",
         "correct": false
       },
       {
-        "text": "duyğu",
-        "correct": false
-      },
-      {
-        "text": "instuisiya",
+        "text": "hökümətə və banklara verilən kreditlər",
         "correct": true
       },
       {
-        "text": "iradə",
+        "text": "əmanətlərə görə faizlər ödəmək",
+        "correct": false
+      },
+      {
+        "text": "lisenziya verilməsi əməliyyatları",
         "correct": false
       }
     ]
   },
   {
     "num": 234,
-    "question": "Həyat fəlsəfəsi nümayəndələri varlığın əsas xüsusiyyətini nədə görürdülər",
+    "question": "Lizinq ifadəsi nədir?",
     "options": [
       {
-        "text": "materiyada",
+        "text": "pul vəsaiti",
         "correct": false
       },
       {
-        "text": "arasıkəsilməz  strukturunda",
+        "text": "razılıq",
         "correct": false
       },
       {
-        "text": "onun mükəmməl bitkinliyində",
+        "text": "kredit",
         "correct": false
       },
       {
-        "text": "arasıkəsilməz bütöv axında",
+        "text": "daşınan əmlakın icarəsi",
         "correct": true
       },
       {
-        "text": "təfəkkürdə",
+        "text": "icazə",
         "correct": false
       }
     ]
   },
   {
     "num": 235,
-    "question": "Qeyri-klassik istiqamətin (həyat fəlsəfəsi, intutivizm, ekzistensializm) nümayəndələri klassik fəlsəfənin hansı əsas xüsusiyyətini tənqid edirlər",
+    "question": "Kommersiya banklarının nizamnamə kapitalı ........ vəsaitdir:",
     "options": [
       {
-        "text": "realizmini",
+        "text": "banklararası bazarda əldə olunan",
         "correct": false
       },
       {
-        "text": "induktivizmini",
+        "text": "bankın balansdan kənar öhdəlikləri olan",
         "correct": false
       },
       {
-        "text": "apriorizmini",
+        "text": "aktiv və passivlərdə olan",
         "correct": false
       },
       {
-        "text": "rasionalizmini",
+        "text": "Mərkəzi Bankın kommersiya banklarına verdiyi vəsaitdir",
+        "correct": false
+      },
+      {
+        "text": "bankın yarandığı zaman formalaşan ilkin kapitalın minimum miqdarıdır",
         "correct": true
-      },
-      {
-        "text": "empirizmini",
-        "correct": false
       }
     ]
   },
   {
     "num": 236,
-    "question": "Postpozitivizmə kimlər aiddir?",
+    "question": "Passiv əməliyyatlar bankın......... formalaşdırır:",
     "options": [
       {
-        "text": "M.Fuko, J.Derrida, J.Liotar",
-        "correct": false
-      },
-      {
-        "text": "O.Kont, HSpenser, EMax",
-        "correct": false
-      },
-      {
-        "text": "A.Berqson, KJaspers, MHaydegger",
-        "correct": false
-      },
-      {
-        "text": "İ.Lakatos, P.Feyerabend, T.Kun",
+        "text": "xərclərini",
         "correct": true
       },
       {
-        "text": "M.Şlik, O.Neyrat, R.Karnap",
+        "text": "statusunu",
+        "correct": false
+      },
+      {
+        "text": "əlavə gəlirini",
+        "correct": false
+      },
+      {
+        "text": "pulu qiymətdən salır",
+        "correct": false
+      },
+      {
+        "text": "gəlirini",
         "correct": false
       }
     ]
   },
   {
     "num": 237,
-    "question": "Siyasi rejim olan demokratiyanın  səbəb və nəticəsi nədir?",
+    "question": "Kreditin prinsipidir:",
     "options": [
       {
-        "text": "Cəmiyyətdə iqtisadi və təsərrüfatçılıq  fəliyyəti",
+        "text": "borcu saxlamaq",
         "correct": false
       },
       {
-        "text": "sosial birliyin  üzvü olan fərdin  özünüdərki",
-        "correct": false
-      },
-      {
-        "text": "geniş insan kütləsinin  psixoloji durumu",
-        "correct": false
-      },
-      {
-        "text": "vətəndaş cəmiyyəti  və  hüququ dövlət",
+        "text": "qaytarılmaq",
         "correct": true
       },
       {
-        "text": "tərbiyyə  və maarifçilk  fəaliyyəti",
+        "text": "bankların əsas əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "bankların passiv əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "borc verməmək",
         "correct": false
       }
     ]
   },
   {
     "num": 238,
-    "question": "Hakim rejim  tərəfindən  qəbul etdirilən  rəsmi ideologiyanın  hökmranlığı  hansı siyasi  rejimin  xüsusyyətidir?",
+    "question": "Pul hesablaşmaları başlıca olaraq hansı dövriyyəyə əsaslanmalıdır:",
     "options": [
       {
-        "text": "avtoritarizm",
+        "text": "fasiləsiz",
         "correct": false
       },
       {
-        "text": "plutokratiya",
+        "text": "uzunmüddətli pul dövriyyəsinə",
         "correct": false
       },
       {
-        "text": "timokratiya",
-        "correct": false
-      },
-      {
-        "text": "totаlitarizm",
+        "text": "nağdsız",
         "correct": true
       },
       {
-        "text": "demokratiya",
+        "text": "nağd",
+        "correct": false
+      },
+      {
+        "text": "qarşılıqlı dövriyyə",
         "correct": false
       }
     ]
   },
   {
     "num": 239,
-    "question": "Ərazi vahidlərinin  separatizmə  meylliliyini  dövlət quruluşunun  hansı forması  azaldır?",
+    "question": "Kreditin prinsipidir:",
     "options": [
       {
-        "text": "konfederasiya",
+        "text": "kredit müqaviləsi",
         "correct": false
       },
       {
-        "text": "federasiya",
+        "text": "bank hesabı müqaviləsi",
         "correct": false
       },
       {
-        "text": "avtokratiya",
+        "text": "müştərinin vaxtı keçmiş borcunun olması",
         "correct": false
       },
       {
-        "text": "unitar dövlət",
+        "text": "qaytarılmaq",
         "correct": true
       },
       {
-        "text": "monarxiya",
+        "text": "mal-material qiymətliləri",
         "correct": false
       }
     ]
   },
   {
     "num": 240,
-    "question": "Sosial baxımdan təhlükəli  konfliktlərin qarşısının  alınması  və aradan   götürülməsi  hansı ictimai  institutun  vəzifəsinə  aid edilir?",
+    "question": "Banklar funksional səlahiyyət statusuna görə bölünürlər:",
     "options": [
       {
-        "text": "bütün cəmiyyətin",
+        "text": "regional, regionlararası, beynəlxalq banklara",
         "correct": false
       },
       {
-        "text": "aparıcı siyasi partiyanın",
+        "text": "açıq və qapalı banklara",
         "correct": false
       },
       {
-        "text": "qeyri-dövlət birliklərin  və assosiyasiyaların",
+        "text": "kicik, orta, iri banklara",
         "correct": false
       },
       {
-        "text": "dövlətin",
+        "text": "Bank Olmayan Kredit Təşkilatlarına (BOKT)",
+        "correct": false
+      },
+      {
+        "text": "emissiya və kommersiya banklarına",
         "correct": true
-      },
-      {
-        "text": "ictimai təşkilat  və siyasi partiyaların",
-        "correct": false
       }
     ]
   },
   {
     "num": 241,
-    "question": "Legitim zor tətbiq  etməklə    bir sinifin  digəri  üzərində  hökmranlığını  kim dövlət kimi qiymətləndirir?",
+    "question": "Bank Olmayan Kredit Təşkilatlarının (BOKT)  fəaliyyəti ...... tərəfindən tənzimlənir:",
     "options": [
       {
-        "text": "Makiavelli",
-        "correct": false
-      },
-      {
-        "text": "M.Veber",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
-        "correct": false
-      },
-      {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Marks",
+        "text": "Mərkəzi Bank",
         "correct": true
+      },
+      {
+        "text": "Maliyyə Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "kommersiya bankları",
+        "correct": false
+      },
+      {
+        "text": "Banklar Assosasiyası",
+        "correct": false
+      },
+      {
+        "text": "Milli Depozit Sistemi",
+        "correct": false
       }
     ]
   },
   {
     "num": 242,
-    "question": "Burjua –liberalist  ideologiyasının  tənqidçiləri sırasında kim islahatçılığın  tərəfdarı olmuşdur?",
+    "question": "Kreditin funksiyasını göstərin:",
     "options": [
       {
-        "text": "F.Engels",
+        "text": "vaxta qənaət",
         "correct": false
       },
       {
-        "text": "K.Marks",
-        "correct": false
-      },
-      {
-        "text": "S. Hantinqton",
-        "correct": false
-      },
-      {
-        "text": "Bakunin",
-        "correct": false
-      },
-      {
-        "text": "E.Berk",
+        "text": "tədavül xərclərinə qənaət",
         "correct": true
+      },
+      {
+        "text": "hesablara qənaət",
+        "correct": false
+      },
+      {
+        "text": "resursa qənaət",
+        "correct": false
+      },
+      {
+        "text": "kapitala qənaət",
+        "correct": false
       }
     ]
   },
   {
     "num": 243,
-    "question": "Burjua liberalizminin  tənqidçisi kimdir?",
+    "question": "Bank qarşısında öhdəliyin vaxtında və ya tam icra olunmaması nəticəsində yaranan ... riskdir?",
     "options": [
       {
-        "text": "N. Makiavelli, J.-J. Russo, ŞMonteskye",
+        "text": "kapital riski",
         "correct": false
       },
       {
-        "text": "Herder, Hegel, Feyerbax",
+        "text": "strateji risk",
         "correct": false
       },
       {
-        "text": "L.Uayt, O.Kont, Q.Tarel",
-        "correct": false
-      },
-      {
-        "text": "E.Berk, K.Marks ,F.Engels",
+        "text": "kredit riski",
         "correct": true
       },
       {
-        "text": "T.Kun, M.Veber, İ. Lakatoş",
+        "text": "valyuta riski",
+        "correct": false
+      },
+      {
+        "text": "sənəd riski",
         "correct": false
       }
     ]
   },
   {
     "num": 244,
-    "question": "İnsan hüquqları haqqında   ümumi  bəyannamə (1948-ci il) nəyin əsasını təşkil edir?",
+    "question": "…. banklar öz müştəriləri üçün bütün bank xidmətlərini yerinə yetirir:",
     "options": [
       {
-        "text": "Cəmiyyətin  inkişafının  maddi  şərtlərinin",
+        "text": "səmərəli",
         "correct": false
       },
       {
-        "text": "Yeni iqtisadi  proqramların  işlənməsinin",
+        "text": "investisiya",
         "correct": false
       },
       {
-        "text": "Cəmiyyətin  inkişafının  dövlət  proqramının",
+        "text": "depozit",
         "correct": false
       },
       {
-        "text": "Liberal-demokratik ideologiyanın",
+        "text": "universal",
         "correct": true
       },
       {
-        "text": "Ekoloji  hərəkatın",
+        "text": "ixtisaslaşmış",
         "correct": false
       }
     ]
   },
   {
     "num": 245,
-    "question": "Siyasi şüur nəyin əsasını təşkil edir?",
+    "question": "Emissiya mexanizmi dedikdə … başa düşülür:",
     "options": [
       {
-        "text": "Sinif, sosial qrup  və ayrı-ayrı şəxslərin   siyasi  davranışının",
+        "text": "pulun hazırlanması texnologiyası",
+        "correct": false
+      },
+      {
+        "text": "emissiya mərkəzi və ölkənin inkasso xidməti",
+        "correct": false
+      },
+      {
+        "text": "ölkənin emissiya mərkəzi və hesablaşma kassa mərkəzi",
+        "correct": false
+      },
+      {
+        "text": "banknot və xırda pulların kəsilməsi texnologiyasını həyata keçirmək",
+        "correct": false
+      },
+      {
+        "text": "pulların dövriyyəyə buraxılması",
         "correct": true
-      },
-      {
-        "text": "Millət  və xalqların  mənəvi  mədəniyyətinin",
-        "correct": false
-      },
-      {
-        "text": "Dövlət, siyasi partiya  və təşkilatların   ideoloji  həyatının",
-        "correct": false
-      },
-      {
-        "text": "Müxtəlif  ictimai  qrup və təsisatların  sosial statusunun",
-        "correct": false
-      },
-      {
-        "text": "Ictimai   həyatın  maddi  münasibətlərin",
-        "correct": false
       }
     ]
   },
   {
     "num": 246,
-    "question": "Siyasi həyata  mənəvi  mədəniyyətin  təsir etmə  amillərindən  biri nədir?",
+    "question": "Bankların mənafeyini müdafiə etmək üçün yaradılır:",
     "options": [
       {
-        "text": "əmək tərbiyəsi",
-        "correct": false
-      },
-      {
-        "text": "Mənəvi  və  sosial sferaların  qarşılıqlı  təsiri",
-        "correct": false
-      },
-      {
-        "text": "Iqtisadi  mədəniyyətin  formalaşması",
-        "correct": false
-      },
-      {
-        "text": "ayrı-ayrı fərdlərin  sosiallaşması  və  formalaşması",
+        "text": "Banklar Assosiasiyası",
         "correct": true
       },
       {
-        "text": "Maarifçilik  fəaliyyətinin  tərbiyə  fəaliyyəti  üzərində  prioriteti",
+        "text": "Maliyyə İnstitutları",
+        "correct": false
+      },
+      {
+        "text": "kommersiya bankları",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatları (BOKT)",
+        "correct": false
+      },
+      {
+        "text": "Auditorlar Palatası",
         "correct": false
       }
     ]
   },
   {
     "num": 247,
-    "question": "Ancaq  legitimliyi  təqdirdə  siyasi hakimiyyətin  sabit  olması haqqında  fikir  kimə  məxsusdur?",
+    "question": "Qiymətli kağızlar bazarı neçə yerə bölünür:",
     "options": [
       {
-        "text": "K.Marks",
-        "correct": false
-      },
-      {
-        "text": "O.Kont",
-        "correct": false
-      },
-      {
-        "text": "M.Veber",
-        "correct": false
-      },
-      {
-        "text": "S.Lipset",
+        "text": "iki yerə: ilkin bazar, ikinci bazar",
         "correct": true
       },
       {
-        "text": "L.Uayt",
+        "text": "iki yerə: ikinci bazar, birja bazarı",
+        "correct": false
+      },
+      {
+        "text": "üç yerə:  valyuta bazarı, qiymətli kağızlar",
         "correct": false
       }
     ]
   },
   {
     "num": 248,
-    "question": "Siyasi fəlsəfənin ən mühüm problemi hansıdır?",
+    "question": "Kredit təşkilatının öz öhdəliklərini tam yerinə yetirməməklə əlaqədar itkilərin yaranma riskidir:",
     "options": [
       {
-        "text": "əmək münasibətlərinin  uzlaşdırılmaması",
+        "text": "fəaliyyət riski",
         "correct": false
       },
       {
-        "text": "Insanın tələbatları ilə bağlı olan problem",
+        "text": "bazar riski",
         "correct": false
       },
       {
-        "text": "Siyasi ideologiyanın olmaması",
-        "correct": false
-      },
-      {
-        "text": "Maddi və ideal arasında  ziddiyyət",
-        "correct": false
-      },
-      {
-        "text": "Hakimiyyət problemi",
+        "text": "likvidlik riski",
         "correct": true
+      },
+      {
+        "text": "əməliyyat riski",
+        "correct": false
+      },
+      {
+        "text": "sənəd riski",
+        "correct": false
       }
     ]
   },
   {
     "num": 249,
-    "question": "Sitayişin təyinatı nədən ibarətdir?",
+    "question": "Passiv əməliyyatların aparılmasında məqsəd:",
     "options": [
       {
-        "text": "insanların dini  şüurunun formalaşması və  inkişafı",
+        "text": "faiz borcunun formalaşmasıdır",
         "correct": false
       },
       {
-        "text": "simvolik hərəkətlər  vasitəsilə  təxəyyül edilən yaxud real mövcud  olan",
+        "text": "əmtəə borcunun formalaşmasıdır",
         "correct": false
       },
       {
-        "text": "xüsusi mənəvi ab-havanın formalaşması",
+        "text": "son kapitalın formalaşmasıdır",
         "correct": false
       },
       {
-        "text": "dindarların birləşməsi, dini ideologiyanın yaranması",
-        "correct": false
-      },
-      {
-        "text": "obyektlərə təsir etmə  cəhdi",
+        "text": "xüsusi kapitalın və resursların formalaşmasıdır",
         "correct": true
+      },
+      {
+        "text": "kapitalın azalmasıdır",
+        "correct": false
       }
     ]
   },
   {
     "num": 250,
-    "question": "Neopozitivizmə görə fəlsəfənin predmetini nə təşkil edir?",
+    "question": "...... ölkədə pul kütləsinin və bank sisteminin likvidliyinin tənzimlənməsində istifadə olunan pul siyasəti alətidir:",
     "options": [
       {
-        "text": "mənəvi həyat və əxlaq təşkil edir",
+        "text": "bankın rüblük kassasında olan vəsaitlər",
         "correct": false
       },
       {
-        "text": "dərk edən insan",
+        "text": "məcburi olmayan ehtiyat norması",
         "correct": false
       },
       {
-        "text": "dil və ilk növbədə, elm dili",
+        "text": "bankın gündəlik kassasında olan vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın kommersiya banklarına verdiyi lisenziya",
+        "correct": false
+      },
+      {
+        "text": "məcburi ehtiyat normaları",
         "correct": true
-      },
-      {
-        "text": "mənəvi varlıq kimi düşünülən cəmiyyət",
-        "correct": false
-      },
-      {
-        "text": "bioloji növ kimi insan,",
-        "correct": false
       }
     ]
   },
   {
     "num": 251,
-    "question": "Praqmatizmdə U.Ceymsin universal təcrübə, “şüur axını”, \"plüralist kainat\" təlimi başqa cür necə adlanır?",
+    "question": "XÖHKS-(Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi) fəaliyyət göstərir:",
     "options": [
       {
-        "text": "radikal empirizm",
+        "text": "2002",
         "correct": true
       },
       {
-        "text": "radikal koqnitivizm",
+        "text": "2025",
         "correct": false
       },
       {
-        "text": "radikal antroposentrizm",
+        "text": "2019",
         "correct": false
       },
       {
-        "text": "radikal rasionalizm",
+        "text": "2023",
         "correct": false
       },
       {
-        "text": "radikal avtoritarizm",
+        "text": "2018",
         "correct": false
       }
     ]
   },
   {
     "num": 252,
-    "question": "Praqmatizmdə “Pirsin prinsipi” hansıdır?",
+    "question": "Mərkəzi Bank məcburi ehtiyat normasını qaldırdıqda kommersiya banklarının kredit potensialı …:",
     "options": [
       {
-        "text": "predmet haqqında bizim ideyamız onun simvolik ifadəsidir",
+        "text": "artır",
         "correct": false
       },
       {
-        "text": "predmet haqqında bizim ideyamız onun doğurduğu hissi təəssüratlar haqqında ideyadır",
+        "text": "azalır",
         "correct": true
       },
       {
-        "text": "predmet haqqında bizim ideyamız onun rasional qavrayışıdır",
+        "text": "dəyişməz qalır",
         "correct": false
       },
       {
-        "text": "predmet haqqında bizim ideyamız onun ideal surətidir",
+        "text": "bərabərləşir",
         "correct": false
       },
       {
-        "text": "“predmet haqqında bizim ideyamız onun əhəmiyyət daşıdığını bildirən“ kimi səslənir",
+        "text": "həndəsi silsilə ilə qalxır",
         "correct": false
       }
     ]
   },
   {
     "num": 253,
-    "question": "Praqmatizim Ç. Pirsə gorə nəyi ifadə edir?",
+    "question": "\"Milli Bank\" ifadəsi nə zamandan  \"Mərkəzi Bank\" ifadəsi ilə əvəz edilmişdir?",
     "options": [
       {
-        "text": "“Ziddiyətin ruhunu”",
+        "text": "12 mart 2018",
         "correct": false
       },
       {
-        "text": "“məntiqin ruhunu”",
+        "text": "26 iyun 2025",
         "correct": false
       },
       {
-        "text": "“laboratoriya ruhunu”",
+        "text": "18 mart 2009",
         "correct": true
       },
       {
-        "text": "“İstehsal ruhunu”",
+        "text": "31 dekabr 2008",
         "correct": false
       },
       {
-        "text": "“həyatın ruhunu”",
+        "text": "16 oktyabr 1991",
         "correct": false
       }
     ]
   },
   {
     "num": 254,
-    "question": "Praqmatizmin əsası kimlər tərəfindən qoyulmuşdur?",
+    "question": "Azərbaycan Respublikasında ilk milli valyuta nə vaxt tədavülə buraxılıb?",
     "options": [
       {
-        "text": "E. Fromm, R Yaspers, M Haydegger tərəfindən qoyulmuşdur",
+        "text": "1994-ci ildə",
         "correct": false
       },
       {
-        "text": "B. Rassel, L Vitgenşteyn, B Kroçe",
-        "correct": false
-      },
-      {
-        "text": "MŞlik, R Karnap, K Gödel",
-        "correct": false
-      },
-      {
-        "text": "H. Reyhenbax, K Hempel",
-        "correct": false
-      },
-      {
-        "text": "Ç. Pirs, UCeyms, C Dyui",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 255,
-    "question": "Müasir qərb fəlsəfəsinin antissientist cərəyanlarında linqvistik dönüş kimin adı ilə bağlıdır?",
-    "options": [
-      {
-        "text": "A.Kamyunun",
-        "correct": false
-      },
-      {
-        "text": "Q. Marselin adı ilə bağlıdır",
-        "correct": false
-      },
-      {
-        "text": "K. Yaspersin",
-        "correct": false
-      },
-      {
-        "text": "E. Husserlin",
-        "correct": false
-      },
-      {
-        "text": "M. Haydeggerin",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 256,
-    "question": "Müasir qərb fəlsəfəsinin ssientist cərəyanlarında linqvistik dönüşün təşəkkülündə həlledici rol kimə məxsusdur?",
-    "options": [
-      {
-        "text": "T.Kuna məxsusdur",
-        "correct": false
-      },
-      {
-        "text": "R. Karnapa",
-        "correct": false
-      },
-      {
-        "text": "B. Rasselə",
-        "correct": false
-      },
-      {
-        "text": "L.Vitgenşteynə",
-        "correct": true
-      },
-      {
-        "text": "K .Popperə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 257,
-    "question": "Müasir Qərb fəlsəfəsinin antissientist məktəblərinə hansılar daxildir?",
-    "options": [
-      {
-        "text": "fenomenologiya, ekzistensializm, strukturalizm aiddir",
-        "correct": false
-      },
-      {
-        "text": "praqmatizm, ekzistensializm, frankfurt məktəbi",
-        "correct": false
-      },
-      {
-        "text": "ekzistensializm, hermenevtika, strukturalizm",
-        "correct": false
-      },
-      {
-        "text": "hermenevtika, personalizm, postmodernizm",
-        "correct": true
-      },
-      {
-        "text": "“həyat fəlsəfəsi”, analitik fəlsəfə, praqmatizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 258,
-    "question": "Müasir Qərb fəlsəfəsində ssientist istiqamətə hansılar aiddir?",
-    "options": [
-      {
-        "text": "praqmatizm, neopozitivizm, strukturalizm",
-        "correct": true
-      },
-      {
-        "text": "personalizm, postmodernizm, frankfurt məktəbi",
-        "correct": false
-      },
-      {
-        "text": "hermenevtika, “həyat fəlsəfəsi”, ekzistensializm",
-        "correct": false
-      },
-      {
-        "text": "postmodernizm, analitik fəlsəfə, strukturalizm",
-        "correct": false
-      },
-      {
-        "text": "elm fəlsəfəsi, personalizm, postmodernizm aiddir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 259,
-    "question": "İnsana eksiztensialist yanaşma üçün aşağıdakılardan hansı səciyyəvidir?",
-    "options": [
-      {
-        "text": "“insanın səylərinə baxmayaraq, hər şey son nəticədə ondan deyil, taledən asıldır”",
-        "correct": false
-      },
-      {
-        "text": "“insanın mövcudluğunun dəyəri, onun nəaliyyətidir” müddəası səciyyəvidir",
-        "correct": false
-      },
-      {
-        "text": "“həyatda hər şey təsadüf üzündən baş verir, buna görə də bəxtin gətirməsinə bel bağlamaq lazımdır”",
-        "correct": false
-      },
-      {
-        "text": "“insanın əməlləri heç də həmişə dərk edilməyən şüursuz istəklərlə şərtlənir”",
-        "correct": false
-      },
-      {
-        "text": "\"insan azadlığa və öz əməllərinə görə cavabdehlik daşımağa məhkumdur”",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 260,
-    "question": "İnsanın azadlığı, onun atılması və tənhalığı, sərhəd situasiyaları haqqında müddəalar hansı cərəyanda özünə yer almışdır?",
-    "options": [
-      {
-        "text": "praqmatizmdə əsaslandırılmışdır",
-        "correct": false
-      },
-      {
-        "text": "psixoanalizdə",
-        "correct": false
-      },
-      {
-        "text": "ekzistensializmdə",
-        "correct": true
-      },
-      {
-        "text": "strukturalizmdə",
-        "correct": false
-      },
-      {
-        "text": "neopozitivizmdə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 261,
-    "question": "Ekzistensialistlərin diqqət mərkəzində olan varlıq forması hansıdır?",
-    "options": [
-      {
-        "text": "mütləq ruhdur",
-        "correct": false
-      },
-      {
-        "text": "sosial varlıqdır",
-        "correct": false
-      },
-      {
-        "text": "axirət dünyasıdır",
-        "correct": false
-      },
-      {
-        "text": "təbiətin varlığıdır",
-        "correct": false
-      },
-      {
-        "text": "insanın fərdi mövcudluğudur",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 262,
-    "question": "Falsifikasiya prinsipinin mahiyyəti nədən ibarətdir?",
-    "options": [
-      {
-        "text": "biliyin doğruluğu onun obyektiv reallığa uyğunluğu ilə müəyyənləşir",
-        "correct": false
-      },
-      {
-        "text": "biliyin doğruluğu onun məntiqi ziddiyətsizliyindəndir",
-        "correct": false
-      },
-      {
-        "text": "elmi bilik öz təsdiqini təcrübədə tapır",
-        "correct": false
-      },
-      {
-        "text": "biliyin doğruluğu onun fəlsəfi paradiqmalara uyğunluğu ilə müəyyən olunur",
-        "correct": false
-      },
-      {
-        "text": "elmi nəzəriyyələr təkzib olunanadək həqiqidir",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 263,
-    "question": "İncəsənət əsərlərinin  təyinatı  nədir?",
-    "options": [
-      {
-        "text": "elmi müəyyənlik",
-        "correct": false
-      },
-      {
-        "text": "psixoloji  tarazlıq",
-        "correct": false
-      },
-      {
-        "text": "maddi müstəqillik",
-        "correct": false
-      },
-      {
-        "text": "estetik həzzalma",
-        "correct": true
-      },
-      {
-        "text": "sosial ədalət",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 264,
-    "question": "İnsanın  sosiallaşmasını  nə təmin edir?",
-    "options": [
-      {
-        "text": "insanda siyasi, estetik xüsusiyyətlərin  formalaşması",
-        "correct": false
-      },
-      {
-        "text": "insanda iqtisadi mədəniyyətin formalaşması",
-        "correct": false
-      },
-      {
-        "text": "təxəyyülün inkişafı",
-        "correct": false
-      },
-      {
-        "text": "insanda  elmi yaradıcılğa  qabiliyyətin formalaşması",
-        "correct": false
-      },
-      {
-        "text": "insanda mənəvi  mədəniyyətin formalaşması",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 265,
-    "question": "Tarixi materializmə   əsasən  siyasətin  mahiyyəti  necə ifadə olunur?",
-    "options": [
-      {
-        "text": "tərbiyyə və maarifçiliyin  eyniləşdirilməsi kimi",
-        "correct": false
-      },
-      {
-        "text": "iqtisadi-təsərrüfatçılıq  fəaliyyətində  vergi tutulmasının  prioriteti kimi",
-        "correct": false
-      },
-      {
-        "text": "iqtisadiyyat  və sosial  sferanın  vəhdəti kimi",
-        "correct": false
-      },
-      {
-        "text": "əməyə tələbatın  mütləqləşdirilməsi kimi",
-        "correct": false
-      },
-      {
-        "text": "iqtisadi  baris üzərində üstqurum kimi",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 266,
-    "question": "“Bir sinfin digərini istismar etmə maşını” kimi  dövləti səciyyələndirən  kimdir?",
-    "options": [
-      {
-        "text": "T.Hobbs",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
-        "correct": false
-      },
-      {
-        "text": "A.Toynbi",
-        "correct": false
-      },
-      {
-        "text": "K.Marks və F.engels",
-        "correct": true
-      },
-      {
-        "text": "B.Spinoza",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 267,
-    "question": "Elmin özünəməxsusluğu nədə özünü göstərir?",
-    "options": [
-      {
-        "text": "Mənəvi fəallıq kimi təzahür etməsində",
-        "correct": false
-      },
-      {
-        "text": "Təbiətin təsvir və izah edilməsində",
-        "correct": false
-      },
-      {
-        "text": "Cəmiyyətin  təsvir və izah edilməsində",
-        "correct": false
-      },
-      {
-        "text": "Həm biliklər sistemi, həm də sabit sosial institut kimi çıxış etməsində",
-        "correct": true
-      },
-      {
-        "text": "Insanın təsvir və izah edilməsində",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 268,
-    "question": "Vətəndaş cəmiyyəti ideyasını kim ilk dəfə olaraq irəli sürmüşdür?",
-    "options": [
-      {
-        "text": "K.Marks",
-        "correct": false
-      },
-      {
-        "text": "C.Lokk",
-        "correct": false
-      },
-      {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Siseron",
-        "correct": true
-      },
-      {
-        "text": "Ş.Monteskye",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 269,
-    "question": "Mərkəz və əyalət arasında qanunvericilik hakimiyyətinin bölüşdürülməsi hansı ictimai-siyasi səciyyə daşıyan nəzəri məsələni ifadə edir?",
-    "options": [
-      {
-        "text": "Mərkəzləşmə",
-        "correct": false
-      },
-      {
-        "text": "Inzibatçılıq",
-        "correct": false
-      },
-      {
-        "text": "Siyasi rejim",
-        "correct": false
-      },
-      {
-        "text": "Siyasi sistem",
-        "correct": false
-      },
-      {
-        "text": "Dövlət quruluşu",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 270,
-    "question": "“Asiya istehsal üsulu” problemini kim işləyib hazırlamışdı?",
-    "options": [
-      {
-        "text": "Marks",
-        "correct": true
-      },
-      {
-        "text": "Hegel",
-        "correct": false
-      },
-      {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Makiavelli",
-        "correct": false
-      },
-      {
-        "text": "Russo",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 271,
-    "question": "Siyasi şüurun səviyyələri hansılardır?",
-    "options": [
-      {
-        "text": "Spesifik, müəyyənedici",
-        "correct": false
-      },
-      {
-        "text": "Mədəni, humanitar",
-        "correct": false
-      },
-      {
-        "text": "Aksioloji, praksioloji",
-        "correct": false
-      },
-      {
-        "text": "Neytral, konformist",
-        "correct": false
-      },
-      {
-        "text": "Adi-gündəlik, nəzəri",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 272,
-    "question": "Cəmiyyətin siyasi həyatı nəyin əsasında qurulur?",
-    "options": [
-      {
-        "text": "müxtəlif təşkilat və təşkilatların əlaqələri əsasında",
-        "correct": false
-      },
-      {
-        "text": "Insanların maddi fəaliyyəti əsasında",
-        "correct": false
-      },
-      {
-        "text": "Ayrı-ayrı fərdlərin yaradıcılığı əsasında",
-        "correct": false
-      },
-      {
-        "text": "müxtəlif sosial qüvvələrin siyasi fəaliyyəti əsasında",
-        "correct": true
-      },
-      {
-        "text": "əxlaq mədəniyyəti əsasında",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 273,
-    "question": "Dini təşkil edən əsas elementlər hansılardır?",
-    "options": [
-      {
-        "text": "Dini idrak, dini fəaliyyət, dini təqlidetmə",
-        "correct": false
-      },
-      {
-        "text": "Dini hafizə, dini əhval-ruhiyyə, dini qavrayış",
-        "correct": false
-      },
-      {
-        "text": "Dini şüur, dini pərəstiş, dini təşkilatlar",
-        "correct": true
-      },
-      {
-        "text": "Dini rassionallıq, dini empirizm, dini relyativizm",
-        "correct": false
-      },
-      {
-        "text": "Dini etika, dini estetika, dini hüquq",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 274,
-    "question": "Estetikliyin yaranmasının  obyektiv əsası nədə təzahür edir?",
-    "options": [
-      {
-        "text": "Qanunçuluq, elmlilik, praqmatiklik",
-        "correct": false
-      },
-      {
-        "text": "Məhsuldarlıq, maddilik, mənəvilik",
-        "correct": false
-      },
-      {
-        "text": "Ölçü, harmoniya, simmetriya, tamlıq",
-        "correct": true
-      },
-      {
-        "text": "Rasionallıq, praktiklik,",
-        "correct": false
-      },
-      {
-        "text": "Sabitlik, varislik, ardıcıllıq",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 275,
-    "question": "İncəsənətin əsas funksiyası hansıdır?",
-    "options": [
-      {
-        "text": "Tərbiyəvi",
-        "correct": false
-      },
-      {
-        "text": "Aksioloji",
-        "correct": false
-      },
-      {
-        "text": "Memorial",
-        "correct": false
-      },
-      {
-        "text": "Idrakı",
-        "correct": false
-      },
-      {
-        "text": "Estetik",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 276,
-    "question": "Elmi dünyagörüşü hansı cəhətlərə malikdir?",
-    "options": [
-      {
-        "text": "Mənəvilik, qlobal səciyyə daşıması",
-        "correct": false
-      },
-      {
-        "text": "Təqlidilik, mütənasiblik",
-        "correct": false
-      },
-      {
-        "text": "Sabitlik, dayanıqlılıq,varislik",
-        "correct": false
-      },
-      {
-        "text": "Tələbatlara uyğunluq, ardıcıllıq",
-        "correct": false
-      },
-      {
-        "text": "Obyektivlik, sistemlilik, məntiqilik",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 277,
-    "question": "Elmin əsas aparıcı funksiyası hansıdır?",
-    "options": [
-      {
-        "text": "sosial yaddaş",
-        "correct": false
-      },
-      {
-        "text": "dünya görüşü",
-        "correct": false
-      },
-      {
-        "text": "əməli-praktiki",
-        "correct": false
-      },
-      {
-        "text": "proqnostik",
-        "correct": false
-      },
-      {
-        "text": "izahedici",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 278,
-    "question": "Struktur baxımından mənəvi istehsalın hansı əsas növləri fərqləndirilir?",
-    "options": [
-      {
-        "text": "Hüquqi, texniki, psixoloji",
-        "correct": false
-      },
-      {
-        "text": "Ekoloji, fizioloji",
-        "correct": false
-      },
-      {
-        "text": "Sosial ,siyasi",
-        "correct": false
-      },
-      {
-        "text": "Elmi, estetik, dini",
-        "correct": true
-      },
-      {
-        "text": "Rasional, irrasional, empirik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 279,
-    "question": "Cəmiyyətin mənəvi həyatının strukturunu təşkil edən əsas ünsürlər hansılardır?",
-    "options": [
-      {
-        "text": "Ictimai rəy, ictimai sorğu",
-        "correct": false
-      },
-      {
-        "text": "Mənəvi tələbat, mənəvi dəyərlər, mənəvi tələbatın ödənilməsi",
-        "correct": true
-      },
-      {
-        "text": "Insan beyini, şüur",
-        "correct": false
-      },
-      {
-        "text": "Təxəyyül, hafizə",
-        "correct": false
-      },
-      {
-        "text": "Intuisiya, fərziyyə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 280,
-    "question": "M.Haydegger insan varlığının ekzistensiya kimi situativliyini nədə görür?",
-    "options": [
-      {
-        "text": "insanın mövcudluğu və mahiyyətini cəmiyyətin müəyyn etməsində",
-        "correct": false
-      },
-      {
-        "text": "insanın mövcudluğu və mahiyyətinin iqtisadiyyatın səviyyəsi ilə şərtlənməsində",
-        "correct": false
-      },
-      {
-        "text": "insanın mövcudluğu və mahiyyətinin Allah tərəfindən təyin olunmasında",
-        "correct": false
-      },
-      {
-        "text": "insanın \"dünyada varlıq\" olmasında",
-        "correct": true
-      },
-      {
-        "text": "insanın mövcudluğu və mahiyyətinin təbiət tərəfindən müəyyən olunmasında",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 281,
-    "question": "M.Haydegger insanın varlığını necə səciyyələndirir",
-    "options": [
-      {
-        "text": "təbiətin bir parçası kimi",
-        "correct": false
-      },
-      {
-        "text": "sosial varlıq kimi",
-        "correct": false
-      },
-      {
-        "text": "onun mədəniyyətdəki mövcudluğu kimi",
-        "correct": false
-      },
-      {
-        "text": "onun cismani mövcudluğu kimi",
-        "correct": false
-      },
-      {
-        "text": "ölümə doğru, yoxluğa doğru istiqamətlənmiş varlıq kimi",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 282,
-    "question": "M.Haydeggerə görə insanın şeylər aləmindəki mövcudluğu onda hansı təəssüratlar doğurur",
-    "options": [
-      {
-        "text": "qüssə, ümidsizlik",
-        "correct": false
-      },
-      {
-        "text": "laqeydlik, biganəlik",
-        "correct": false
-      },
-      {
-        "text": "instniktlər, impluslar",
-        "correct": false
-      },
-      {
-        "text": "qorxu, narahatlıq",
-        "correct": true
-      },
-      {
-        "text": "sevinc, məmnunluq",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 283,
-    "question": "J.P.Sartr azadlığı necə başa düşür?",
-    "options": [
-      {
-        "text": "azadlıq dərk edilmiş zərurətdir",
-        "correct": false
-      },
-      {
-        "text": "azadlıq insanın öz təbiətinə uyğun yaşamasıdır",
-        "correct": false
-      },
-      {
-        "text": "azadlıq insanın məhkum olduğu və məsuliyyət daşıdığı seçimdir",
-        "correct": true
-      },
-      {
-        "text": "azadlıq insanın öz borcunu dərk edərək yaşamasıdır",
-        "correct": false
-      },
-      {
-        "text": "azadlıq müəyyən edilmiş normalara könüllü surətdə riayət etməkdir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 284,
-    "question": "J.P.Sartr insan varlığının özünəməxsusluğunu nədə görür?",
-    "options": [
-      {
-        "text": "insanın mövcudluğu və mahiyyəti Allah tərəfindən müəyyənləşdirilir",
-        "correct": false
-      },
-      {
-        "text": "insanın mövcudluğu və mahiyyəti iqtisadiyyatın səviyyəsi ilə şərtlənir",
-        "correct": false
-      },
-      {
-        "text": "insanın mövcudluğu və mahiyyəti təbiətlə şərtlənir",
-        "correct": false
-      },
-      {
-        "text": "insanın mövcudluğu onun mahiyyətindən qabaq gəlir",
-        "correct": true
-      },
-      {
-        "text": "insanın mahiyyəti cəmiyyət tərəfindən müəyyənləşdirilir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 285,
-    "question": "Praqmatizm elmi necə başa düşür?",
-    "options": [
-      {
-        "text": "predmetlərin mahiyyəti haqqında yeni bilik əldə etmək prosesi kimi",
-        "correct": false
-      },
-      {
-        "text": "dünyagörüşünün əsasını təşkil edən biliklər sistemi kimi?",
-        "correct": false
-      },
-      {
-        "text": "analiz vasitəsi ilə dünyanı dərketmə üsulu kimi",
-        "correct": false
-      },
-      {
-        "text": "insanın biliklərin faydalılığına olan kollektiv inamı",
-        "correct": true
-      },
-      {
-        "text": "səhih və sübut olunmuş biliklər sistemi kimi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 286,
-    "question": "İntibah dövrünə xas olan fəlsəfi dünyagörüşdə hansı ideya daha çox inkişaf etmişdir?",
-    "options": [
-      {
-        "text": "Təkamülçülük",
-        "correct": false
-      },
-      {
-        "text": "Humanizm",
-        "correct": true
-      },
-      {
-        "text": "Islamçılıq",
-        "correct": false
-      },
-      {
-        "text": "Teosentizm",
-        "correct": false
-      },
-      {
-        "text": "Kosmopolitisizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 287,
-    "question": "Bu əsərlərdən hansı Əl Qəzaliyə məxsusdur?",
-    "options": [
-      {
-        "text": "”Kateqoriyalarda Aristotelin məqsədinə dair”",
-        "correct": false
-      },
-      {
-        "text": "“Fəzilətli şəhərəhlinin görüşləri”",
-        "correct": false
-      },
-      {
-        "text": "“Filosofların özünü təkzib”",
-        "correct": true
-      },
-      {
-        "text": "“Platon və Aristotelin əsərlərində ümumilik”",
-        "correct": false
-      },
-      {
-        "text": "“Fəlsəfənin riyaziyyat elmi ilə əldə edilməsinə dair”",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 288,
-    "question": "Kəlam nəyə əsaslanır?",
-    "options": [
-      {
-        "text": "Kəlam təlimi dinin normativ əsaslarına söykənir",
-        "correct": true
-      },
-      {
-        "text": "Qədim yunan filosoflarının əsərlərinə",
-        "correct": false
-      },
-      {
-        "text": "Sufi ədəbiyyatına",
-        "correct": false
-      },
-      {
-        "text": "Hürufilk ideyalarına",
-        "correct": false
-      },
-      {
-        "text": "Hədislərə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 289,
-    "question": "İslam mədəniyyətində atomistikanı qəbul edən kimlərdir?",
-    "options": [
-      {
-        "text": "Qədərilər",
-        "correct": false
-      },
-      {
-        "text": "İsmaililər",
-        "correct": false
-      },
-      {
-        "text": "Cəbrilər",
-        "correct": false
-      },
-      {
-        "text": "Əşərilər",
-        "correct": true
-      },
-      {
-        "text": "Sufilər",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 290,
-    "question": "Fərabiyə görə, fəlsəfə  nə haqqında elmdir?",
-    "options": [
-      {
-        "text": "İdrak haqqında təlimdir.",
-        "correct": false
-      },
-      {
-        "text": "İlahi və elmi biliklərin qarşılıqlı əlaqəsidir.",
-        "correct": false
-      },
-      {
-        "text": "Səbəblər haqqında elmdir.",
-        "correct": true
-      },
-      {
-        "text": "Varlığın ümumi xassələri haqqında elmdir.",
-        "correct": false
-      },
-      {
-        "text": "Allah haqqında elmdir.",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 291,
-    "question": "Əl-Kindi fəlsəfənin hansı növlərinin fərqləndirirdi?",
-    "options": [
-      {
-        "text": "Dini və elmi",
-        "correct": false
-      },
-      {
-        "text": "Rasional və irrasional",
-        "correct": false
-      },
-      {
-        "text": "Səmavi və dünyəvi",
-        "correct": false
-      },
-      {
-        "text": "Nəzəri və praktiki",
-        "correct": true
-      },
-      {
-        "text": "Elmi və qeyri-elmi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 292,
-    "question": "Sufi qnoseologiyasında hansı idraka üstünlük verilir?",
-    "options": [
-      {
-        "text": "Rasional və Elmi",
-        "correct": false
-      },
-      {
-        "text": "Rasional və ezoterik",
-        "correct": false
-      },
-      {
-        "text": "Hissi və Empirik",
-        "correct": false
-      },
-      {
-        "text": "İrrasionalvə Ezoterik",
-        "correct": true
-      },
-      {
-        "text": "Hissi və məntiqi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 293,
-    "question": "XIX – XX əsrrin əvvəlləri Azərbaycan fəlsəfəsi üçün hansı problemlər səciyyəvidir?",
-    "options": [
-      {
-        "text": "Etikavəestetikaproblemləri",
-        "correct": false
-      },
-      {
-        "text": "Ontolojiproblemlər",
-        "correct": false
-      },
-      {
-        "text": "İdrakproblemləri",
-        "correct": false
-      },
-      {
-        "text": "Sosial - siyasiməsələlər",
-        "correct": true
-      },
-      {
-        "text": "Antropolojiməsələlər",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 294,
-    "question": "Siyasi fenomen olaraq,  demokratiya harada yaranmışdır?",
-    "options": [
-      {
-        "text": "Qədim Misir",
-        "correct": false
-      },
-      {
-        "text": "Qədim Çin",
-        "correct": false
-      },
-      {
-        "text": "Qədim Roma",
-        "correct": false
-      },
-      {
-        "text": "Qədim Yunanıstan",
-        "correct": true
-      },
-      {
-        "text": "Qədim Babilistan",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 295,
-    "question": "Əsas siyasi  rejim növlərinin adlarını göstərin",
-    "options": [
-      {
-        "text": "Monarxiya, teokratiya",
-        "correct": false
-      },
-      {
-        "text": "Plutokratiya, timokratiya",
-        "correct": false
-      },
-      {
-        "text": "Oxlokratiya, sentrizm",
-        "correct": false
-      },
-      {
-        "text": "Totalitarizm, avtoritarizm, demokratiya",
-        "correct": true
-      },
-      {
-        "text": "Faşizm, kommunizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 296,
-    "question": "Siyasi rejim adı  altında nə başa düşülür?",
-    "options": [
-      {
-        "text": "Siyasi sistemin fəaliyyət  göstərməsi mexanizmi",
-        "correct": false
-      },
-      {
-        "text": "Dövlət hakimiyyətinin siyasi partiyalarla  vəhdət təşkil etməsi",
-        "correct": false
-      },
-      {
-        "text": "Siyasi sistemin ünsürü olan siyasi partiyaların inkişafı",
-        "correct": false
-      },
-      {
-        "text": "Dövlət hakimiyyətinin həyata keçirilməsinin üsul və vasitələrinin məcmusu",
-        "correct": true
-      },
-      {
-        "text": "Siyasi sistemin ünsürləri arasındakı əlaqələr",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 297,
-    "question": "Xalqın  hakimiyyətə sahib çıxması  hansı idarəetmə üsulu ilə bağlıdır?",
-    "options": [
-      {
-        "text": "avtokratiya",
-        "correct": false
-      },
-      {
-        "text": "timokratiya",
-        "correct": false
-      },
-      {
-        "text": "oxlokratiya",
-        "correct": false
-      },
-      {
-        "text": "respublika",
-        "correct": true
-      },
-      {
-        "text": "plutokratiya",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 298,
-    "question": "Monarxiya,  idarəetmə forması olaraq, nəyi bildirir?",
-    "options": [
-      {
-        "text": "Hərbi və mülki şəxslərin  birgə hakimiyyətini",
-        "correct": false
-      },
-      {
-        "text": "Bir qrup siyasi həmfikirlərin hökmranlığını",
-        "correct": false
-      },
-      {
-        "text": "Ayrı-ayrı siniflərin nümayəndələrinin hakimiyyəti həyata keçirməsini",
-        "correct": false
-      },
-      {
-        "text": "Yüksək intellektə malik olan şəxslərin kollektiv idarəçiliyini",
-        "correct": false
-      },
-      {
-        "text": "Hakim sülaləni təmsil edən bir şəxsin əlində cəmləşdirilmiş hakimiyyəti",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 299,
-    "question": "Cəmiyyətin siyasi sisteminin əsas və aparıcı rol oynayan ünsürü nədir?",
-    "options": [
-      {
-        "text": "Siyasi partiya",
-        "correct": false
-      },
-      {
-        "text": "Dövlət",
-        "correct": true
-      },
-      {
-        "text": "Ictimai-siyasi hərəkat",
-        "correct": false
-      },
-      {
-        "text": "Bəşər övladı",
-        "correct": false
-      },
-      {
-        "text": "Kollektiv",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 300,
-    "question": "Cəmiyyətin siyasi sisteminin əsas tərkib hissələri hansılardır?",
-    "options": [
-      {
-        "text": "Ayrı-ayrı insanlar və qruplar",
-        "correct": false
-      },
-      {
-        "text": "Millətlər, etnik qruplar",
-        "correct": false
-      },
-      {
-        "text": "Dövlət, siyasi partiyalar, digər  ictimai və siyasi qurumlar",
-        "correct": true
-      },
-      {
-        "text": "Ictimai təbəqələr silklər",
-        "correct": false
-      },
-      {
-        "text": "Siniflər, sosial qruplar",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 301,
-    "question": "Müasir cəmiyyətin siyasi həyatında əsas ideoloji istiqamətlər hansılardır?",
-    "options": [
-      {
-        "text": "Marksizm, maoizm, sosializm",
-        "correct": false
-      },
-      {
-        "text": "Siyasi idealizm, plyuralizm",
-        "correct": false
-      },
-      {
-        "text": "Mərkəzçilik, anarxizm",
-        "correct": false
-      },
-      {
-        "text": "Mühafizəkarlıq, radikalizm, liberal-demokratizm",
-        "correct": true
-      },
-      {
-        "text": "Mərkəzçilik, kosmopolitizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 302,
-    "question": "Siyasəti səciyyələndirən  cəhətləri göstərin",
-    "options": [
-      {
-        "text": "Ardıcıllıq, davamlılıq",
-        "correct": false
-      },
-      {
-        "text": "Optimizm, obyektivizm, praqmatizm",
-        "correct": false
-      },
-      {
-        "text": "Determinlik, relyativizm",
-        "correct": false
-      },
-      {
-        "text": "Universallıq, ümumilik, hər bir ictimai sahəyə təsir etmək",
-        "correct": true
-      },
-      {
-        "text": "Mütənasiblik, mənəvilik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 303,
-    "question": "Siyasət mahiyyət etibarıilə nədir?",
-    "options": [
-      {
-        "text": "Maddi dəyərlərin istehsalının təzahürüdür",
-        "correct": false
-      },
-      {
-        "text": "Cəmiyyətin müxtəlif sahəlrinin tənzim edilməsi və idarə olunmasıdır",
-        "correct": true
-      },
-      {
-        "text": "Yaradıcılığın inkişafı üçün səy göstərilməsidir",
-        "correct": false
-      },
-      {
-        "text": "Ayrı-ayrı məsələlərin təcrübədən keçirilməsidir",
-        "correct": false
-      },
-      {
-        "text": "Müxtəlif əlaqələr və münasibətlərin inkişafı üçün xidmət göstərilməsidir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 304,
-    "question": "Pozitivizmə qarşı reaksiya ilk növbədə Qərbin sosial və humanitar elmlərində  hansı cərəyanlarının yayılmasında  özünü biruzə verdi?",
-    "options": [
-      {
-        "text": "Rassionalizm və sensualizm",
-        "correct": false
-      },
-      {
-        "text": "Industrializm və postindustrializm",
-        "correct": false
-      },
-      {
-        "text": "Biheviorizm və hermenevtika",
-        "correct": false
-      },
-      {
-        "text": "Neokantçılıq və neoplatonizm",
-        "correct": false
-      },
-      {
-        "text": "Postbiheviorizm və postpozitivizm",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 305,
-    "question": "Pozitivist metodologiyasının təsdiqlənməsində  Qərbin sosial elmində geniş vüsət almış hansı hadisə mühüm rol oynadı?",
-    "options": [
-      {
-        "text": "Qlobalistika",
-        "correct": false
-      },
-      {
-        "text": "Elmi-texniki tərəqqi",
-        "correct": false
-      },
-      {
-        "text": "Sinergetik yanaşma",
-        "correct": false
-      },
-      {
-        "text": "\"Biheviorist\" və ya \"bihevioral\" inqilab",
-        "correct": true
-      },
-      {
-        "text": "Antiqlobalizm hərəkatı",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 306,
-    "question": "Sosial elmləri təbiətşünaslığın nümunəsi əsasında yenidən qurmağa çağıran cərəyan hansıdır?",
-    "options": [
-      {
-        "text": "Rassionalizm",
-        "correct": false
-      },
-      {
-        "text": "Sinergetika",
-        "correct": false
-      },
-      {
-        "text": "Neokantçılıq",
-        "correct": false
-      },
-      {
-        "text": "Ekzistensializm",
-        "correct": false
-      },
-      {
-        "text": "Pozitivizm",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 307,
-    "question": "Humanitar elmlərin  müstəqilliyini  müdafiə edən, amma təbiət elmlərini onlar üçün nümunə sayan  məşhur alman tədqiqatçısı kimdir?",
-    "options": [
-      {
-        "text": "R.Dekart",
-        "correct": false
-      },
-      {
-        "text": "T. Hobbs",
-        "correct": false
-      },
-      {
-        "text": "J.Lametri",
-        "correct": false
-      },
-      {
-        "text": "V.Vindеlbаnd",
-        "correct": false
-      },
-      {
-        "text": "V.Diltey",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 308,
-    "question": "Fəlsəfi-dini hərəkat olan hürufilik  nə vaxt  meydana çıxmışdır?",
-    "options": [
-      {
-        "text": "X - XI əsrlərdə",
-        "correct": false
-      },
-      {
-        "text": "XI-XII əsrlərdə",
-        "correct": false
-      },
-      {
-        "text": "XIV –XV əsrlərdə",
-        "correct": true
-      },
-      {
-        "text": "XII-XIII əsrlərdə",
-        "correct": false
-      },
-      {
-        "text": "VIII-IX əsrlərdə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 309,
-    "question": "Şərq peripatetiklərinə görə ilk səbəbdən emanasiya prosesində  ilk yaranan nədir?",
-    "options": [
-      {
-        "text": "Əqldir",
-        "correct": true
-      },
-      {
-        "text": "İşıqdır",
-        "correct": false
-      },
-      {
-        "text": "Cəmiyyətdir",
-        "correct": false
-      },
-      {
-        "text": "Hisslərdir",
-        "correct": false
-      },
-      {
-        "text": "Təbiətdir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 310,
-    "question": "Sufizm hansı istiqamətlərdə inkişaf  edirdi?",
-    "options": [
-      {
-        "text": "Monoteist və dualist",
-        "correct": false
-      },
-      {
-        "text": "Panteist və dualist",
-        "correct": false
-      },
-      {
-        "text": "Politeist və dualist",
-        "correct": false
-      },
-      {
-        "text": "Ateist və panteist",
-        "correct": false
-      },
-      {
-        "text": "Mötədil (monoteist) və ifrat (panteist)",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 311,
-    "question": "Azərbaycanda Romantizm cərəyanının nümayəndəsini göstərin",
-    "options": [
-      {
-        "text": "N.Tusi",
-        "correct": false
-      },
-      {
-        "text": "A.Bakıxanov",
-        "correct": false
-      },
-      {
-        "text": "Məhəmməd Hadi",
-        "correct": true
-      },
-      {
-        "text": "N.Nərimanov",
-        "correct": false
-      },
-      {
-        "text": "M.F Axundov",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 312,
-    "question": "“Əsrarül-mələkut” əsərinin  müəllifi kimdir?",
-    "options": [
-      {
-        "text": "A.Bakıxanov",
-        "correct": true
-      },
-      {
-        "text": "N.Tusi",
-        "correct": false
-      },
-      {
-        "text": "M.Hadi",
-        "correct": false
-      },
-      {
-        "text": "M.F Axundov",
-        "correct": false
-      },
-      {
-        "text": "N.Nərimanov",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 313,
-    "question": "Azərbaycan maarifçiliyinin fərqləndirici xüsusiyyəti hansıdır?",
-    "options": [
-      {
-        "text": "Fəlsəfi akademizm sosial, bədii ideyalarla əvəzlənir.",
-        "correct": false
-      },
-      {
-        "text": "Sosial iştirakçılıq ideyalarının təbliği mühüm yer tutur.",
-        "correct": false
-      },
-      {
-        "text": "Sosial siyasi məqamlar önə çəkilir.",
-        "correct": false
-      },
-      {
-        "text": "Ateizm əsas yer tutmuşdurş",
-        "correct": false
-      },
-      {
-        "text": "Deizm inkişaf edir, dini və elmi biliklər çulğalaşır",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 314,
-    "question": "Zarvanizmin səciyyəvi cəhəti hansıdır?",
-    "options": [
-      {
-        "text": "Rasionalizm və məntqi təfəkkürə üstünlük veriır.",
-        "correct": false
-      },
-      {
-        "text": "Zərdüştilik fəlsəfəsindən qaynaqlanan dini-mistik və fəlsəfi təlimdir",
-        "correct": true
-      },
-      {
-        "text": "Telelogiya və fatalizm ideyalarının tərəfdarıdır.",
-        "correct": false
-      },
-      {
-        "text": "Pantezmin vəhdətül - vücud təlmini qəbul edir.",
-        "correct": false
-      },
-      {
-        "text": "Ortadoksal islam fəlsəfəsi ideyalarını əsaslandırır.",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 315,
-    "question": "Fərabiyə görə Metafizika nə haqqında elmdir?",
-    "options": [
-      {
-        "text": "İdrak haqqında",
-        "correct": false
-      },
-      {
-        "text": "Teologiya haqqında",
-        "correct": false
-      },
-      {
-        "text": "Təbiət haqqında",
-        "correct": false
-      },
-      {
-        "text": "İlk başlanğıclar haqqında",
-        "correct": true
-      },
-      {
-        "text": "Məntiq haqqında",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 316,
-    "question": "Kəlam fəlsəfəsinin ilk nümayəndələri kimlər idi?",
-    "options": [
-      {
-        "text": "Əşərilər",
-        "correct": false
-      },
-      {
-        "text": "Sufilər",
-        "correct": false
-      },
-      {
-        "text": "Şərq aristotelçiləri",
-        "correct": false
-      },
-      {
-        "text": "Mötəzililər",
-        "correct": true
-      },
-      {
-        "text": "Mütəkəllimlər",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 317,
-    "question": "Müsəlman din fəlsəfəsi necə adlanır?",
-    "options": [
-      {
-        "text": "Mötəzilizm",
-        "correct": false
-      },
-      {
-        "text": "Fatalizm",
-        "correct": false
-      },
-      {
-        "text": "Qəza-qədər təlimi",
-        "correct": false
-      },
-      {
-        "text": "Kəlam",
-        "correct": true
-      },
-      {
-        "text": "Şərq peripatetizmi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 318,
-    "question": "Aşağıdakılardan hansı müsəlman din fəlsəfəsinin meydana çıxmasını şərtləndirən səbəblərdən biridir?",
-    "options": [
-      {
-        "text": "Fəlsəfi məsələlər ətrafında gedən mübahisələr",
-        "correct": false
-      },
-      {
-        "text": "Əxlaqi məsələlər ətrafında gedən mübahisələr",
-        "correct": false
-      },
-      {
-        "text": "İlahiyyatçılar arasındakı mübahisələr",
-        "correct": true
-      },
-      {
-        "text": "İdeoloji məsələlərə dair fikir ayrılıqları",
-        "correct": false
-      },
-      {
-        "text": "Elmi məsələlər ətrafında gedən mübahisələr",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 319,
-    "question": "Antik fəlsəfənin Suriya təmsiçiləri üçün hansı məsələlər daha önəmli idi?",
-    "options": [
-      {
-        "text": "İdeoloji məsələlər.",
-        "correct": false
-      },
-      {
-        "text": "Estetik məsələr",
-        "correct": false
-      },
-      {
-        "text": "Fəlsəfi məsələlər",
-        "correct": true
-      },
-      {
-        "text": "Sosial-siyasi məsələlər",
-        "correct": false
-      },
-      {
-        "text": "İlahiyyat məsələləri",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 320,
-    "question": "İsgəndəriyyə ilahiyyat məktəbi hansı problemlərlə məşğul olurdu?",
-    "options": [
-      {
-        "text": "Neoplatonizmin inkişafı ilə.",
-        "correct": false
-      },
-      {
-        "text": "Əxlaqi-etik problemlərlə",
-        "correct": false
-      },
-      {
-        "text": "Elmi-fəlsəfi problemlərlə",
-        "correct": false
-      },
-      {
-        "text": "Xristian ilahiyyatını nəzəri cəhətdən sistemləşdirməklə",
-        "correct": true
-      },
-      {
-        "text": "Sosial-siyasi problemlərlə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 321,
-    "question": "Orta əsrlər müsəlman şərq fəlsəfəsinin əsas mənbələri aşağıdakılardan hansılardır?",
-    "options": [
-      {
-        "text": "Patristika və Aristotelin fəlsəfəsi",
-        "correct": false
-      },
-      {
-        "text": "Neoplatonizm və realizm",
-        "correct": false
-      },
-      {
-        "text": "Qurani-kərim və qədim yunan fəlsəfəsi",
-        "correct": true
-      },
-      {
-        "text": "Qurani-kərim və buddizm",
-        "correct": false
-      },
-      {
-        "text": "İslam dini və çarvakların fəlsəfəsi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 322,
-    "question": "Mötəzilizm nəyi inkar edirdi?",
-    "options": [
-      {
-        "text": "İnsanın öz əməllərinə görə məsuliyyət daşıdığını",
-        "correct": false
-      },
-      {
-        "text": "Quranın yaranma olduğunu",
-        "correct": false
-      },
-      {
-        "text": "İradə azadlığını",
-        "correct": false
-      },
-      {
-        "text": "Allahın atributlarının əksəriyyətini",
-        "correct": true
-      },
-      {
-        "text": "Sözlərin nisbi səciyyə daşıdığını",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 323,
-    "question": "Orta əsrlər müsəlman Şərq fəlsəfəsinin yaranma səbəblərindən biri aşağıdakılardan hansıdır?",
-    "options": [
-      {
-        "text": "Elmin inkişaf səviyyəsi",
-        "correct": false
-      },
-      {
-        "text": "Ticarətin inkişafı",
-        "correct": false
-      },
-      {
-        "text": "Rasionalizm ənənələrinin yüksık inkişaf səviyyəsi",
-        "correct": false
-      },
-      {
-        "text": "Dini məsələlər ətrafında gedən mübahisələr",
-        "correct": true
-      },
-      {
-        "text": "Əmtəə-pul münasibətlərinin inkişafı",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 324,
-    "question": "Əl-Kindiyə görə fəlsəfə nə haqqında bilik verir?",
-    "options": [
-      {
-        "text": "materiya haqqında",
-        "correct": false
-      },
-      {
-        "text": "təfəkkür haqqında",
-        "correct": false
-      },
-      {
-        "text": "fəaliyyət haqqında",
-        "correct": false
-      },
-      {
-        "text": "mövcudluq haqqında",
-        "correct": true
-      },
-      {
-        "text": "təbiət haqqında",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 325,
-    "question": "Hansı cərəyanın nümayəndələri  elmi həm təbii,  həm də sosial  aləmin sirlərinin qapısını aça bilən bir qüvvə kimi qiymətləndirirdilər?",
-    "options": [
-      {
-        "text": "Sensualistlər",
-        "correct": false
-      },
-      {
-        "text": "Rasionalistlər",
-        "correct": true
-      },
-      {
-        "text": "Neokantçılar",
-        "correct": false
-      },
-      {
-        "text": "Aqnostiklər",
-        "correct": false
-      },
-      {
-        "text": "Marksistlər",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 326,
-    "question": "İnsanın maşın kimi səciyyələndirildiyi \"Leviafan\" əsərinin müəllifi hansı filosofdur?",
-    "options": [
-      {
-        "text": "V.Diltey",
-        "correct": false
-      },
-      {
-        "text": "V.Vindеlbаnd",
-        "correct": false
-      },
-      {
-        "text": "J.Lametri",
-        "correct": false
-      },
-      {
-        "text": "R.Dekart",
-        "correct": false
-      },
-      {
-        "text": "T. Hobbs",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 327,
-    "question": "Sosiallıq anlayışına olan əsas yanaşmaları təhlil edərək,  özünün \"hadisəli yanaşma\" adlndırdığı mövqeyini təklif edən filosof hansıdır?",
-    "options": [
-      {
-        "text": "İ .Kant",
-        "correct": false
-      },
-      {
-        "text": "K Marks",
-        "correct": false
-      },
-      {
-        "text": "V.Vindеlbаnd",
-        "correct": false
-      },
-      {
-        "text": "K.Tsiolkovski",
-        "correct": false
-      },
-      {
-        "text": "Y.Reznik",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 328,
-    "question": "Elmin inkişafının hansı mərhələsi  metodoloji plüralizm dövrü kimi nəzərdən keçirilir?",
-    "options": [
-      {
-        "text": "Postmodernist mərhələ",
-        "correct": false
-      },
-      {
-        "text": "Neopozitivist mərhələ",
-        "correct": false
-      },
-      {
-        "text": "Klassik mərhələ",
-        "correct": false
-      },
-      {
-        "text": "Qeyri-klassik mərhələ",
-        "correct": false
-      },
-      {
-        "text": "Postneoklassik mərhələ",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 329,
-    "question": "Hansı idrakın məzmununda həqiqi biliklər ilə dəyərlər - mənalar məqamı və subyektivlik üzvi surətdə birləşir?",
-    "options": [
-      {
-        "text": "Elmi idrakın",
-        "correct": false
-      },
-      {
-        "text": "Rassional idrakın",
-        "correct": false
-      },
-      {
-        "text": "Hissi idrakın",
-        "correct": false
-      },
-      {
-        "text": "Sosial idrakın",
-        "correct": true
-      },
-      {
-        "text": "Adi gündəlik idrakın",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 330,
-    "question": "“Cəmiyyətdə hеç bir оbyеktiv qаnun yоxdur  çünki burаdаkı bütün hаdisələr fərdi, təkrаrоlunmаz xаrаktеr dаşıyır” fikri hansı filosoflara məxsusdur?",
-    "options": [
-      {
-        "text": "Platona və Aristotelə",
-        "correct": false
-      },
-      {
-        "text": "K. Marks və F. Engelsə",
-        "correct": false
-      },
-      {
-        "text": "Kant və Hegelə",
-        "correct": false
-      },
-      {
-        "text": "Sokrata və Demokritə",
-        "correct": false
-      },
-      {
-        "text": "V.Vindеlbаnd və H.Rikkеrtə",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 331,
-    "question": "V.Vindеlbаnd və H.Rikkеrt hansı filosofun davamçılarıdır?",
-    "options": [
-      {
-        "text": "Sokratın",
-        "correct": false
-      },
-      {
-        "text": "Feyerbaxın",
-        "correct": false
-      },
-      {
-        "text": "Hegelin",
-        "correct": false
-      },
-      {
-        "text": "Kantın",
-        "correct": true
-      },
-      {
-        "text": "Aristotelin",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 332,
-    "question": "Neokantçılar “ruh haqqında elmlər\"də “ruh” deyərkən nəyi nəzərdə tuturdular?",
-    "options": [
-      {
-        "text": "Elə ruhu",
-        "correct": false
-      },
-      {
-        "text": "Şüuru",
-        "correct": false
-      },
-      {
-        "text": "Psixikanı",
-        "correct": false
-      },
-      {
-        "text": "Insanla bağlı hər şeyi",
-        "correct": false
-      },
-      {
-        "text": "Mədəniyyətlə bağlı hər şeyi",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 333,
-    "question": "Hansı məktəbin nümayəndələri elmi idrakı “təbiət haqqında elmlər\"  və “ruh haqqında elmlər\"  deyə iki sahəyə bölürdülər?",
-    "options": [
-      {
-        "text": "Rassionalistlər",
-        "correct": false
-      },
-      {
-        "text": "Neopozitivistlər",
-        "correct": false
-      },
-      {
-        "text": "Sensualistlər",
-        "correct": false
-      },
-      {
-        "text": "Neokantçılar",
-        "correct": true
-      },
-      {
-        "text": "Ekzistensialistlər",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 334,
-    "question": "Elmlərin təbiət haqqında  və insan, cəmiyyət, mədəniyyət haqqında  elmlər kimi bölgüsü hansı dövrdə gerçəkləşdi?",
-    "options": [
-      {
-        "text": "XX əsrin əvvəllərində",
-        "correct": false
-      },
-      {
-        "text": "XVIII əsrin sonlarında",
-        "correct": false
-      },
-      {
-        "text": "XVII əsrin ortalarında",
-        "correct": false
-      },
-      {
-        "text": "XX əsrin ikinci yarısında",
-        "correct": false
-      },
-      {
-        "text": "XIX əsrin sonlarında",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 335,
-    "question": "Hazırda yeni informasiya texnologiyalarının  tətbiqi  şəraitində hansı reallıq qlobal miqyas alır?",
-    "options": [
-      {
-        "text": "heç biri",
-        "correct": false
-      },
-      {
-        "text": "panteist reallıq",
-        "correct": false
-      },
-      {
-        "text": "obyektiv reallıq",
-        "correct": false
-      },
-      {
-        "text": "sosial reallıq",
-        "correct": false
-      },
-      {
-        "text": "subyektiv reallıq",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 336,
-    "question": "Kompüter texnologiyaları insanın inkişafında hansı problemləri yaradır?",
-    "options": [
-      {
-        "text": "insanın daxili aləminin formalaşmasında konkret sosial reallığın rolunun azalmasına səbəb olur",
-        "correct": true
-      },
-      {
-        "text": "əksinə, insanı daha da mükəmməlləşdirir",
-        "correct": false
-      },
-      {
-        "text": "insanın daxili aləminin formalaşmasında ailə tərbiyəsinin rolunun azalmasına səbəb olur",
-        "correct": false
-      },
-      {
-        "text": "insanın daxili aləminin formalaşmasında tədrisin rolunun azalmasına səbəb olur",
-        "correct": false
-      },
-      {
-        "text": "insanın daxili aləminin  formalaşmasında virtual reallığın rolunun azalmasına səbəb olur",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 337,
-    "question": "T. Kun  paradiqma anlayışını necə izah edir?",
-    "options": [
-      {
-        "text": "“Paradiqma sosial reallığın inqilabi şəkildə dəyişdirilməsidir”",
-        "correct": false
-      },
-      {
-        "text": "“Paradiqma elmin qarşısında  duran problemlərə müəyyən baxış və reaksiya üsuludur”",
-        "correct": true
-      },
-      {
-        "text": "“Paradiqma - ən önəmli fəlsəfi kateqoriyadır”",
-        "correct": false
-      },
-      {
-        "text": "“Paradiqma - gerçəliyin ən mühüm əlamətlərini ifadə edən anlayışlar sistemidir”",
-        "correct": false
-      },
-      {
-        "text": "“Paradiqma ziddiyyətsiz nəzəriyyələr məntiqidir”",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 338,
-    "question": "Qərb sosiologiyasında bu gün müasir sosial reallığı bu və ya digər dərəcədə izah edən \"Kommunikativ hərəkətlər” nəzəriyyəsinin müəllifi kimdir?",
-    "options": [
-      {
-        "text": "E. Giddens",
-        "correct": false
-      },
-      {
-        "text": "Y.Habermas",
-        "correct": true
-      },
-      {
-        "text": "N.Luman",
-        "correct": false
-      },
-      {
-        "text": "G.Zimmel",
-        "correct": false
-      },
-      {
-        "text": "M. Veber",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 339,
-    "question": "Qərb sosiologiyasında bu gün müasir sosial reallığı bu və ya digər dərəcədə izah edən \"Sosial sistemlər nəzəriyyəsi\"nin müəllifi kimdir?",
-    "options": [
-      {
-        "text": "Q.Zimmel",
-        "correct": false
-      },
-      {
-        "text": "M .Veber",
-        "correct": false
-      },
-      {
-        "text": "E.Dürkheym",
-        "correct": false
-      },
-      {
-        "text": "N.Luman",
-        "correct": false
-      },
-      {
-        "text": "T. Parsons",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 340,
-    "question": "Mütəkəllimlər kimlər idi?",
-    "options": [
-      {
-        "text": "Peripatetiklərə rəğbət göstərənlər",
-        "correct": false
-      },
-      {
-        "text": "Dini azadfikirlilik tərəfdarları",
-        "correct": false
-      },
-      {
-        "text": "Sufilərin ardıcılları",
-        "correct": false
-      },
-      {
-        "text": "Dini ehkamlara mühafizəkar mövqedən yanaşan ilahiyyatçılar",
-        "correct": true
-      },
-      {
-        "text": "Mötəzilizmin tərəfdarları",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 341,
-    "question": "Kəlam nədir?",
-    "options": [
-      {
-        "text": "İslam ilahiyyatı, ortadoksal dini fəlsəfi sistemdir",
-        "correct": true
-      },
-      {
-        "text": "Quranı təfsir edən ədəbiyyatdır",
-        "correct": false
-      },
-      {
-        "text": "Sufi ədəbiyyatıdır",
-        "correct": false
-      },
-      {
-        "text": "Hədislər külliyyatıdır",
-        "correct": false
-      },
-      {
-        "text": "bədii fəlsəfi fikir istiqamətidir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 342,
-    "question": "Mötəziliyin əsasını hansı prinsiplər təşkil edir?",
-    "options": [
-      {
-        "text": "qədərin dəyişməzliyi, quranın əzəli olması",
-        "correct": false
-      },
-      {
-        "text": "Quranın dəyişməzliyi",
-        "correct": false
-      },
-      {
-        "text": "vicdan azadlığı, ilahi iradə",
-        "correct": false
-      },
-      {
-        "text": "ilahi ədalət, təkallahlılıq",
-        "correct": true
-      },
-      {
-        "text": "Allah kəlam atributuna malikdir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 343,
-    "question": "Fərabinin xidmətini göstərin:",
-    "options": [
-      {
-        "text": "empiriizmin banisidir",
-        "correct": false
-      },
-      {
-        "text": "İslam ilahiyyatı ilə sufizmi barışdırmışdır.",
-        "correct": false
-      },
-      {
-        "text": "ortodoksal islam fəlsəfəsini yaratmışdır",
-        "correct": false
-      },
-      {
-        "text": "Şərqdə Aristotel təlimini şərh etmişdir",
-        "correct": true
-      },
-      {
-        "text": "sufizmi inkişaf etdirmişdir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 344,
-    "question": "Aşağıdakılardan hansılar Şərq peripatetizminin nümayəndələridir?",
-    "options": [
-      {
-        "text": "əl-Kindi, əl-Farabi",
-        "correct": true
-      },
-      {
-        "text": "Miyanəçi, Sührəvərdi",
-        "correct": false
-      },
-      {
-        "text": "Nəsimi, Nəimi",
-        "correct": false
-      },
-      {
-        "text": "əl-Qazali, ər-Razi",
-        "correct": false
-      },
-      {
-        "text": "İbn-Sina, Biruni",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 345,
-    "question": "Şərq fəlsəfəsində emanasiya nəzəriyyəsi hansı cərəyan üçün səciyyəvidir?",
-    "options": [
-      {
-        "text": "Panteizm",
-        "correct": false
-      },
-      {
-        "text": "Hürufilik",
-        "correct": false
-      },
-      {
-        "text": "Sufizm",
-        "correct": false
-      },
-      {
-        "text": "İşraqilik",
-        "correct": true
-      },
-      {
-        "text": "Peripatetizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 346,
-    "question": "Təsəvvüf nədir?",
-    "options": [
-      {
-        "text": "Xüsusi növ bilikdir",
-        "correct": false
-      },
-      {
-        "text": "Qərbdə Şərq fəlsəfəsi bu adla tanınır",
-        "correct": false
-      },
-      {
-        "text": "Nəzəri biliklər sistemidir",
-        "correct": false
-      },
-      {
-        "text": "Sufizmin başqa bir adıdır.",
-        "correct": true
-      },
-      {
-        "text": "İdrak mərhələsidir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 347,
-    "question": "Şərq Peripatetizmi üçün səciyyəvi olan cavab variantını seçin:",
-    "options": [
-      {
-        "text": "Şərq Peripatetizmi orta əsrlər Şərq fəlsəfəsində yunan fəlsəfəsi və xüsusilə, Aristotel ideyalarına əsaslanaraq ateizmi təbliğ edir.",
-        "correct": false
-      },
-      {
-        "text": "Mistik dini fəlsəfi cərəyandır.",
-        "correct": false
-      },
-      {
-        "text": "İslam şəriəti və Qurani-kərimi antik yunan fəlsəfəsi və Aristotelə uyğunlaşdırmağa cəhd etmişdir.",
-        "correct": false
-      },
-      {
-        "text": "Sünnə hüquq təlimlərinin eklektik sintezidir.",
-        "correct": false
-      },
-      {
-        "text": "Aristotel təlimindən qaynaqlanmış cərəyandır.",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 348,
-    "question": "İşraqilik fəlsəfəsinin banisi kimdir?",
-    "options": [
-      {
-        "text": "Məhəmməd Hadi",
-        "correct": false
-      },
-      {
-        "text": "M.F Axundov",
-        "correct": false
-      },
-      {
-        "text": "Əbülhəsən Bəhmənyar",
-        "correct": false
-      },
-      {
-        "text": "A.Bakıxanov",
-        "correct": false
-      },
-      {
-        "text": "Şihabəddin Yəhya Sührəvərdi",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 349,
-    "question": "Aşağıda göstərilən cavab variantlarından hansı İşraqilik təlimi üçün səciyyəvidir?",
-    "options": [
-      {
-        "text": "6 –cı əsrdə Azərbaycanda yaranmış ictimai fəlsəfi fikir hərəkatıdır.",
-        "correct": false
-      },
-      {
-        "text": "Zərdüştiliyin əsasında yaranmış, Maniçilik və Məzdəizm ideyalarının davamıdır",
-        "correct": false
-      },
-      {
-        "text": "İşraqilikdə işıq və qaranlıq anlayışları əsas yer tutur Xeyirlə Şər, işıqla zülmətin mübarizəsi təsvir olunur.",
-        "correct": false
-      },
-      {
-        "text": "İşraqilik fəlsəfəsində islama uyğunlaşdırılmış yeni bir emanasiya nəzəriyyəsi yaradılmışdır",
-        "correct": true
-      },
-      {
-        "text": "İşraqilik XIV-XV əsrlərdə meydana çıxmış hürufilik sufizm və ismaililikdən qaynaqlanan fəlsəfi-dini mistik hərəkatdır.",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 350,
-    "question": "Orta əsrlərdə Azərbaycan fəlsəfəsində peripatetizmin nümayəndələri kimlərdir?",
-    "options": [
-      {
-        "text": "Məhəmməd Ərdəbili, Əfzələddin Xünəci",
-        "correct": false
-      },
-      {
-        "text": "M.Füzuli, S.Urməvi, Y.Qarabaği",
-        "correct": false
-      },
-      {
-        "text": "Eynəlqüzat Miyanəci, Əbubəkr Bərdəi",
-        "correct": false
-      },
-      {
-        "text": "Ə.Bəhmənyar, S. Urməvi, N.Tusi",
-        "correct": true
-      },
-      {
-        "text": "N.Gəncəvi, N Tusi, Ə.Ş.Sührəverdi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 351,
-    "question": "Orta əsrlər Azərbaycan fəlsəfəsinin əsas cərəyanları hansılardır?",
-    "options": [
-      {
-        "text": "ortadoksal islam fəlsəfəsi, maarifçilik",
-        "correct": false
-      },
-      {
-        "text": "Qızılbaşlıq, məzdəizm",
-        "correct": false
-      },
-      {
-        "text": "hürufilik, romantizm",
-        "correct": false
-      },
-      {
-        "text": "Peripatetizm, işraqilik, hürufilik",
-        "correct": true
-      },
-      {
-        "text": "işraqilik, Bəktaşilik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 352,
-    "question": "Azərbaycanda islama qədərki fəlsəfi təlimlər aşağıdakılardan hansılardır?",
-    "options": [
-      {
-        "text": "Maniçilik, İşraqilik, Zarvanizm",
-        "correct": false
-      },
-      {
-        "text": "Panteizm, əxilik və abdalizm",
-        "correct": false
-      },
-      {
-        "text": "Xürrəmilik hürufilik",
-        "correct": false
-      },
-      {
-        "text": "Məzdəkilik, Zarvanizm, Maniçilik",
-        "correct": true
-      },
-      {
-        "text": "Alban xristianlığı, Zarvanizm, sufizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 353,
-    "question": "İbn-Sina hansı bilik növlərini fərqləndirir?",
-    "options": [
-      {
-        "text": "praktiki və nəzəri",
-        "correct": true
-      },
-      {
-        "text": "tətbiqi və fundamental",
-        "correct": false
-      },
-      {
-        "text": "dini və elmi",
-        "correct": false
-      },
-      {
-        "text": "ezoterik və məntiqi",
-        "correct": false
-      },
-      {
-        "text": "rasional və irrasional",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 354,
-    "question": "Sufizmi İslam şəriətinə uyğunlaşdıran filosofu göstərin:",
-    "options": [
-      {
-        "text": "Bəhmənyar",
-        "correct": false
-      },
-      {
-        "text": "М.Hallac",
-        "correct": false
-      },
-      {
-        "text": "ibn Rəşd",
-        "correct": false
-      },
-      {
-        "text": "Qəzali",
-        "correct": true
-      },
-      {
-        "text": "İbn Haldun",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 355,
-    "question": "Paradiqma anlayışını elmə hansı filosof gətirib?",
-    "options": [
-      {
-        "text": "Aristotel",
-        "correct": false
-      },
-      {
-        "text": "Kun",
-        "correct": true
-      },
-      {
-        "text": "Paton",
-        "correct": false
-      },
-      {
-        "text": "Kant",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 356,
-    "question": "Paradiqma sözü yunancadan tərcümədə nə deməkdir?",
-    "options": [
-      {
-        "text": "nəzəriyyə",
-        "correct": false
-      },
-      {
-        "text": "təlim",
-        "correct": false
-      },
-      {
-        "text": "nümunə",
-        "correct": true
-      },
-      {
-        "text": "idrak",
-        "correct": false
-      },
-      {
-        "text": "təcrübə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 357,
-    "question": "Subyektlə  obyektin dixotomiyası  nəyin hesabına aradan qaldırılır?",
-    "options": [
-      {
-        "text": "işlək qanunların",
-        "correct": false
-      },
-      {
-        "text": "təbiət qanunlarının",
-        "correct": false
-      },
-      {
-        "text": "hüquqi qanunların",
-        "correct": false
-      },
-      {
-        "text": "insanın fəaliyyətinin",
-        "correct": false
-      },
-      {
-        "text": "subyektin şəхsi təcrübəsinin",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 358,
-    "question": "Materiyanın ali hərəkət forması kimi ən mürəkkəb idrak obyekti hansıdır?",
-    "options": [
-      {
-        "text": "siyasət",
-        "correct": false
-      },
-      {
-        "text": "təbiət",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfə",
-        "correct": false
-      },
-      {
-        "text": "din",
-        "correct": false
-      },
-      {
-        "text": "cəmiyyət",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 359,
-    "question": "Qərb sosiologiyasında \"sosial mobillik\" və ya \"inteqral sosiologiya\" nəzəriyyəsinin müəllifi kimdir?",
-    "options": [
-      {
-        "text": "E. Giddens",
-        "correct": false
-      },
-      {
-        "text": "E.Dürkheym",
-        "correct": false
-      },
-      {
-        "text": "N.Luman",
-        "correct": false
-      },
-      {
-        "text": "P. Sorokin",
-        "correct": true
-      },
-      {
-        "text": "G.Zimmel",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 360,
-    "question": "Sosial idrakın ontoloji tərəfi dedikdə nə başa düşülür?",
-    "options": [
-      {
-        "text": "Sosial idrakın ontoloji tərəfi sosial fəlsəfənin inkişaf qanunauyğunluqlarını və tendensiyalarını izah edir.",
-        "correct": false
-      },
-      {
-        "text": "Sosial idrakın ontoloji tərəfi bütövlükdə fəlsəfənin inкişaf qanunauyğunluqlarını və tendensiyalarını izah edir",
-        "correct": false
-      },
-      {
-        "text": "Sosial idrakın ontoloji tərəfi insan şəxsiyyətini, onun inkişafının qanunauyğunluqlarını və tendensiyalarını izah edir",
-        "correct": false
-      },
-      {
-        "text": "Sosial idrakın ontoloji tərəfi cəmiyyətin varlığını, onun inkişafının qanunauyğunluqlarını və tendensiyalarını izah edir.",
-        "correct": true
-      },
-      {
-        "text": "Sosial idrakın ontoloji tərəfi təbiətin varlığını, onun inkişafının qanunauyğunluqlarını və tendensiyalarını izah edir.",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 361,
-    "question": "Sosial idrakın aksioloji tərəfi dedikdə nə başa düşülür?",
-    "options": [
-      {
-        "text": "ictimai təzahürlərin idrakı",
-        "correct": false
-      },
-      {
-        "text": "sosial idrakın təbiəti",
-        "correct": false
-      },
-      {
-        "text": "subyektin şəxsi təcrübəsi",
-        "correct": false
-      },
-      {
-        "text": "sоsial idrakda ictimai praktikanın rоlu",
-        "correct": false
-      },
-      {
-        "text": "dəyər yanaşması",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 362,
-    "question": "Cəmiyyətin оbyektiv qanunlarını qəbul etməyən filоsоflar aşağıdakılardan hansılardır?",
-    "options": [
-      {
-        "text": "F.Bekon və R.Dekart",
-        "correct": false
-      },
-      {
-        "text": "V.Arşinov və A.Pançenko",
-        "correct": false
-      },
-      {
-        "text": "K.Marks və F.Engels",
-        "correct": false
-      },
-      {
-        "text": "V.Vindelband və Q.Rikkert",
-        "correct": true
-      },
-      {
-        "text": "Ş.Mоnteskyö və P.Çaadayev",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 363,
-    "question": "Cəmiyyətin və insan fəaliyyətinin  əsası kimi \"mütləq ideya\" faktоrunu hansı filosof irəli sürmüşdür?",
-    "options": [
-      {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Feyerbax",
-        "correct": false
-      },
-      {
-        "text": "ŞMоnteskyö",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
-        "correct": true
-      },
-      {
-        "text": "EFrоmm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 364,
-    "question": "Cəmiyyətin və insan fəaliyyətinin əsası kimi \"ilahi niyyət\" faktоrunu hansı filosof irəli sürmüşdür?",
-    "options": [
-      {
-        "text": "E.Frоmm",
-        "correct": false
-      },
-      {
-        "text": "Akvinalı Foma",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
-        "correct": false
-      },
-      {
-        "text": "Müqəddəs Avqustin",
-        "correct": true
-      },
-      {
-        "text": "P.Çaadayev",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 365,
-    "question": "Cəmiyyətin və insan fəaliyyətinin  əsası kimi \"sоsial xarakter\" faktоrunu hansı filosof irəli sürmüşdür?",
-    "options": [
-      {
-        "text": "ŞMоnteskyö",
-        "correct": false
-      },
-      {
-        "text": "Platоn",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
-        "correct": false
-      },
-      {
-        "text": "Aristotel",
-        "correct": false
-      },
-      {
-        "text": "E.Frоmm",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 366,
-    "question": "Cəmiyyətin və insan fəaliyyətinin əsası kimi ədalət prinsipini hansı filosof irəli sürmüşdür?",
-    "options": [
-      {
-        "text": "E.Frоmm",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
-        "correct": false
-      },
-      {
-        "text": "Müqəddəs Avqustin",
-        "correct": false
-      },
-      {
-        "text": "Platоn",
-        "correct": true
-      },
-      {
-        "text": "Kant",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 367,
-    "question": "Qərb sosiologiyasında bu gün müasir sosial reallığı bu və ya digər dərəcədə izah edən \"Strukturasiya nəzəriyyəsi\"nin müəllifi kimdir?",
-    "options": [
-      {
-        "text": "E/Dürkheym",
-        "correct": false
-      },
-      {
-        "text": "M. Veber",
-        "correct": false
-      },
-      {
-        "text": "G.Zimmel",
-        "correct": false
-      },
-      {
-        "text": "E. Giddens",
-        "correct": true
-      },
-      {
-        "text": "N/Luman",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 368,
-    "question": "Sоsial idrakın subyektindən danışarkən hansı amil nəzərə alınmalıdır?",
-    "options": [
-      {
-        "text": "insanın fərd olması",
-        "correct": false
-      },
-      {
-        "text": "obyektivlik faktoru",
-        "correct": false
-      },
-      {
-        "text": "şüurluluq faktoru",
-        "correct": false
-      },
-      {
-        "text": "intellekt",
-        "correct": false
-      },
-      {
-        "text": "şəxsiyyət faktoru",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 369,
-    "question": "Qərb sosiologiyasında bu gün müasir sosial reallığı bu və ya digər dərəcədə izah edən \"özüreferent sistemlər nəzəriyyəsi\"nin müəllifi kimdir?",
-    "options": [
-      {
-        "text": "P Sorokin",
-        "correct": false
-      },
-      {
-        "text": "M Veber",
-        "correct": false
-      },
-      {
-        "text": "N.Luman",
-        "correct": true
-      },
-      {
-        "text": "QZimmel",
-        "correct": false
-      },
-      {
-        "text": "E.Dürkheym",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 370,
-    "question": "Sosial gerçəklik dedikdə nə başa düşülür?",
-    "options": [
-      {
-        "text": "elm",
-        "correct": false
-      },
-      {
-        "text": "bütün aləm",
-        "correct": false
-      },
-      {
-        "text": "təbiət",
-        "correct": false
-      },
-      {
-        "text": "cəmiyyət",
-        "correct": true
-      },
-      {
-        "text": "sosial təsisatlar",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 371,
-    "question": "Aşağıdakılardan hansı sosial idrakın subyektidir?",
-    "options": [
-      {
-        "text": "cəmiyyət",
-        "correct": false
-      },
-      {
-        "text": "insanların maraqları:",
-        "correct": false
-      },
-      {
-        "text": "qrup",
-        "correct": false
-      },
-      {
-        "text": "insan",
-        "correct": true
-      },
-      {
-        "text": "sosial gerçəklik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 372,
-    "question": "Sоsial idrakın оbyekti ilə bağlı çətinliklərin əsas səbəbi nədir?",
-    "options": [
-      {
-        "text": "təbiətin açılmamış sirləri",
-        "correct": false
-      },
-      {
-        "text": "cəmiyyətin dərkinin qeyri-mümkün olması",
-        "correct": false
-      },
-      {
-        "text": "insasnların mədəni cəhətdən geri qalması",
-        "correct": false
-      },
-      {
-        "text": "cəmiyyətin çоxtərəfliliyi və müxtəlif keyfiyyətliliyi",
-        "correct": true
-      },
-      {
-        "text": "ictimai şüurun formaları",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 373,
-    "question": "“İkili həqiqət” konsepsiyasının  müəllifini göstərin:",
-    "options": [
-      {
-        "text": "əl-Kindi",
-        "correct": false
-      },
-      {
-        "text": "İbn-Sina",
-        "correct": false
-      },
-      {
-        "text": "əl-Farabi",
-        "correct": false
-      },
-      {
-        "text": "İbn Rüşd",
-        "correct": true
-      },
-      {
-        "text": "əl-Qəzali",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 374,
-    "question": "Şərq peripatetiklərinə görə ilk səbəbdən emanasiya prosesində  ilk yaranan nədir?–03",
-    "options": [
-      {
-        "text": "hisslərdir",
-        "correct": false
-      },
-      {
-        "text": "işıqdır",
-        "correct": false
-      },
-      {
-        "text": "təbiətdir",
-        "correct": false
-      },
-      {
-        "text": "əqldir",
-        "correct": true
-      },
-      {
-        "text": "cəmiyyətdir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 375,
-    "question": "Əbülhəsən Bəhmənyar varlığı hansı növlərə bölürdü?",
-    "options": [
-      {
-        "text": "canlı və cansız",
-        "correct": false
-      },
-      {
-        "text": "substansiya və substrata",
-        "correct": false
-      },
-      {
-        "text": "maddi və mənəvi",
-        "correct": false
-      },
-      {
-        "text": "maddi və ideal",
-        "correct": false
-      },
-      {
-        "text": "vacib və mümkün",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 376,
-    "question": "Orta əsrlər fəlsəfəsinə görə insanda ağıl və iradə nəyə xidmət edir?",
-    "options": [
-      {
-        "text": "Dünyanı dərk etməyə",
-        "correct": false
-      },
-      {
-        "text": "Elmin inkişafına",
-        "correct": false
-      },
-      {
-        "text": "Təbiətə uyğunlaşmaya",
-        "correct": false
-      },
-      {
-        "text": "Cəmiyyətə inteqrasiya olunmağa",
-        "correct": false
-      },
-      {
-        "text": "İnsan azadlığına",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 377,
-    "question": "Aşağıdakılardan hansı fatalizmi səciyyələndir?",
-    "options": [
-      {
-        "text": "Caduya inam",
-        "correct": false
-      },
-      {
-        "text": "Dünyanın sonun inam",
-        "correct": false
-      },
-      {
-        "text": "Dialektika",
-        "correct": false
-      },
-      {
-        "text": "Alın yazısına inam",
-        "correct": true
-      },
-      {
-        "text": "Rasionalizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 378,
-    "question": "Dini dünyagörüşü üçün səciyyəvi olmayanı göstərin:",
-    "options": [
-      {
-        "text": "Teosentrizm",
-        "correct": false
-      },
-      {
-        "text": "Esxatologiya",
-        "correct": false
-      },
-      {
-        "text": "Fatalizm",
-        "correct": false
-      },
-      {
-        "text": "Kosmosentrizm",
-        "correct": true
-      },
-      {
-        "text": "Kreasionizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 379,
-    "question": "Orta əsrlər fəlsəfəsi hansı ideyanların təməlini qoydu?",
-    "options": [
-      {
-        "text": "Maarifçilik ideyalarının",
-        "correct": false
-      },
-      {
-        "text": "Naturfəlsəfi ideyaların",
-        "correct": false
-      },
-      {
-        "text": "Mexanisizmin",
-        "correct": false
-      },
-      {
-        "text": "Humanizm ideyalarının",
-        "correct": true
-      },
-      {
-        "text": "Antroposentrizmin",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 380,
-    "question": "Aşağıdakılardan hansı “kilsə ataları” fəlsəfəsinin nümayəndəsidir?",
-    "options": [
-      {
-        "text": "Akvinalı Foma",
-        "correct": false
-      },
-      {
-        "text": "Uilyam Okkam",
-        "correct": false
-      },
-      {
-        "text": "Kuzalı Nikolay",
-        "correct": false
-      },
-      {
-        "text": "Qriqori Nisski",
-        "correct": true
-      },
-      {
-        "text": "Duns Skott",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 381,
-    "question": "Aşağıdakılardan hansı dünyanın Allah tərəfindən heçdən yaradıldığını iddia etmir?",
-    "options": [
-      {
-        "text": "Monoteizm",
-        "correct": false
-      },
-      {
-        "text": "Sxolastika",
-        "correct": false
-      },
-      {
-        "text": "Patristika",
-        "correct": false
-      },
-      {
-        "text": "Dualizm",
-        "correct": true
-      },
-      {
-        "text": "Kreasionizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 382,
-    "question": "Aşağıdakılardan hansı Orta əsrlər fəlsəfəsi üçün səciyyəvi deyil?",
-    "options": [
-      {
-        "text": "Nominalizm",
-        "correct": false
-      },
-      {
-        "text": "Kreasionizm",
-        "correct": false
-      },
-      {
-        "text": "Fatalizm",
-        "correct": false
-      },
-      {
-        "text": "Rasionalizm",
-        "correct": true
-      },
-      {
-        "text": "Realizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 383,
-    "question": "Avqustin insanda nəyi kəşf etdi?",
-    "options": [
-      {
-        "text": "etik rasionalizmi",
-        "correct": false
-      },
-      {
-        "text": "məntiqi təfəkkürü",
-        "correct": false
-      },
-      {
-        "text": "daxili “Mən”in mövcudluğunu",
-        "correct": true
-      },
-      {
-        "text": "harmoniya hissini",
-        "correct": false
-      },
-      {
-        "text": "qürur hissini",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 384,
-    "question": "Orta əsrlər fəlsəfəsində insanın mahiyyətini ifadə edən anlayışları göstərin",
-    "options": [
-      {
-        "text": "hərəkət və inkişaf",
-        "correct": false
-      },
-      {
-        "text": "böyümə və çoxalma",
-        "correct": false
-      },
-      {
-        "text": "sükunət və harmoniya",
-        "correct": false
-      },
-      {
-        "text": "səbr və etiqad",
-        "correct": false
-      },
-      {
-        "text": "ağıl və iradə",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 385,
-    "question": "Xristianlığın Avropada yayılmasında hansı faktor önəmli rol oynadı?",
-    "options": [
-      {
-        "text": "bütpərəstliyin ziddiyyətləri",
-        "correct": false
-      },
-      {
-        "text": "ilahiyyatçıların şəxsi nümunəsi",
-        "correct": false
-      },
-      {
-        "text": "xristianlığın bu dünyada insanlara xoş gün-güzəran vəd etməsi",
-        "correct": false
-      },
-      {
-        "text": "bu dinin yoxsulluğa qarşı mübarızəsi",
-        "correct": false
-      },
-      {
-        "text": "kilsədaxili təşkilatlanmanın yüksək səviyyəsi",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 386,
-    "question": "Xristian kilsəsi bir-biri ilə qanlı müharıbələr edən barbar çarlıqlar arasında hansı missiyanı yerinə yetirirdi?",
-    "options": [
-      {
-        "text": "haqqın divanı funksiasını",
-        "correct": false
-      },
-      {
-        "text": "maarifçilik missiyasını",
-        "correct": false
-      },
-      {
-        "text": "sülhyaratma missiyasını",
-        "correct": true
-      },
-      {
-        "text": "allahın elçisi funksiyasını",
-        "correct": false
-      },
-      {
-        "text": "xoşməramlı səfir funksiyasını",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 387,
-    "question": "Orta əsr Qərb  fəlsəfəsində həqiqi varlıq aşağıdakılardan hansıdır?",
-    "options": [
-      {
-        "text": "dövlətdir",
-        "correct": false
-      },
-      {
-        "text": "ideyalar aləmidir",
-        "correct": false
-      },
-      {
-        "text": "insandır",
-        "correct": false
-      },
-      {
-        "text": "Allahdır",
-        "correct": true
-      },
-      {
-        "text": "cəmiyyətdir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 388,
-    "question": "Xristianlığa görə əmək nəyə xidmət edir?",
-    "options": [
-      {
-        "text": "Dini inkişaf etdirməyə",
-        "correct": false
-      },
-      {
-        "text": "Cənnətə düşməyə",
-        "correct": false
-      },
-      {
-        "text": "Tanrıya qovuşmağa",
-        "correct": false
-      },
-      {
-        "text": "Insanın günahını yumağa",
-        "correct": true
-      },
-      {
-        "text": "Müqəddəslik zirvəsinə yüksəlməyə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 389,
-    "question": "Var-dövlətin artmasını Allaha xoş gedən əməl sayan hansıdır?",
-    "options": [
-      {
-        "text": "Islahatçılıq",
-        "correct": false
-      },
-      {
-        "text": "Katolisizm",
-        "correct": false
-      },
-      {
-        "text": "Pravoslavlıq",
-        "correct": false
-      },
-      {
-        "text": "Protestantizm",
-        "correct": true
-      },
-      {
-        "text": "Yunan-katolisizmi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 390,
-    "question": "Orta əsrlər fəlsəfəsi hansı prinsipdən çıxış edirdi?",
-    "options": [
-      {
-        "text": "estetizm",
-        "correct": false
-      },
-      {
-        "text": "humanizm",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "teosentrizm",
-        "correct": true
-      },
-      {
-        "text": "kosmosentrizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 391,
-    "question": "Akvinalı Foma kimdir?",
-    "options": [
-      {
-        "text": "Orta əsr filosofu",
-        "correct": true
-      },
-      {
-        "text": "Industrializm dövrünün filosofu",
-        "correct": false
-      },
-      {
-        "text": "Postmodernist",
-        "correct": false
-      },
-      {
-        "text": "Antik dövr filosofu",
-        "correct": false
-      },
-      {
-        "text": "İntibah filosofu",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 392,
-    "question": "Orta əsrlər fəlsəfəsində universalilərin fərdi şüurda mövcud olduğunu hansı təlim bəyan edirdi?",
-    "options": [
-      {
-        "text": "ehkamçılıq",
-        "correct": false
-      },
-      {
-        "text": "realizm",
-        "correct": false
-      },
-      {
-        "text": "universalizm",
-        "correct": false
-      },
-      {
-        "text": "nominalizm",
-        "correct": true
-      },
-      {
-        "text": "konseptualizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 393,
-    "question": "Sоsial idrakın spesifikası nədədir?",
-    "options": [
-      {
-        "text": "burada оbyekt rоlunda cəmiyyət çıxış edir",
-        "correct": false
-      },
-      {
-        "text": "heç bir spesifikası yoxdur, adi idrakdır",
-        "correct": false
-      },
-      {
-        "text": "burada obyekt rolunda insanın təfəkkürü çıxış edir",
-        "correct": false
-      },
-      {
-        "text": "burada оbyekt rоlunda idrak subyektlərinin özlərinin fəaliyyəti çıxış edir",
-        "correct": true
-      },
-      {
-        "text": "burada оbyekt rоlunda bütün aləm çıxış edir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 394,
-    "question": "Sosial idrakın obyekti dedikdə nə başa düşülür?",
-    "options": [
-      {
-        "text": "insan",
-        "correct": false
-      },
-      {
-        "text": "təbiət",
-        "correct": false
-      },
-      {
-        "text": "cəmiyyət",
-        "correct": true
-      },
-      {
-        "text": "fəlsəfə",
-        "correct": false
-      },
-      {
-        "text": "bütün aləm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 395,
-    "question": "Qnoseologiyada mənasına görə həqiqətin əksi olan anlayış hansıdır?",
-    "options": [
-      {
-        "text": "təsəvvür",
-        "correct": false
-      },
-      {
-        "text": "mühakimə",
-        "correct": false
-      },
-      {
-        "text": "təbliğat",
-        "correct": false
-      },
-      {
-        "text": "yalan",
-        "correct": true
-      },
-      {
-        "text": "qavrayış",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 396,
-    "question": "Həqiqət dərk edən subyektdən asılı olmaması baxımından hansı xüsusiyyətə malikdir?",
-    "options": [
-      {
-        "text": "subyektivdir",
-        "correct": false
-      },
-      {
-        "text": "obyektivdir",
-        "correct": true
-      },
-      {
-        "text": "konkretdir",
-        "correct": false
-      },
-      {
-        "text": "mücərrəddir",
-        "correct": false
-      },
-      {
-        "text": "mütləqdir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 397,
-    "question": "Din fəlsəfəsinə görə həqiqətin meyarı nədir?",
-    "options": [
-      {
-        "text": "təcrübə",
-        "correct": false
-      },
-      {
-        "text": "eksperiment",
-        "correct": false
-      },
-      {
-        "text": "intuisiya",
-        "correct": false
-      },
-      {
-        "text": "vəhy",
-        "correct": true
-      },
-      {
-        "text": "zəka",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 398,
-    "question": "Həqiqi və praktiki faydalı həqiqətlərin əldə edilməsi metodu kimi Dekart nəyi göstərirdi?",
-    "options": [
-      {
-        "text": "dialektik metodu",
-        "correct": false
-      },
-      {
-        "text": "hissi seyri",
-        "correct": false
-      },
-      {
-        "text": "deduksiyanı",
-        "correct": true
-      },
-      {
-        "text": "intuisiyanı",
-        "correct": false
-      },
-      {
-        "text": "induksiyanı",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 399,
-    "question": "F.Bekon hansı konsepsiyanın tərəfdarı idi?",
-    "options": [
-      {
-        "text": "həqiqətin  nisbiliyi konsepsiyasının",
-        "correct": false
-      },
-      {
-        "text": "koherent həqiqət konsepsiyasının",
-        "correct": false
-      },
-      {
-        "text": "praqmatik həqiqət konsepsiyasının",
-        "correct": false
-      },
-      {
-        "text": "uyğunluq konsepsiyasının",
-        "correct": true
-      },
-      {
-        "text": "həqiqətin mütləqliyi konsepsiyasının",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 400,
-    "question": "Dekart həqiqətin meyarını nədə görürdü?",
-    "options": [
-      {
-        "text": "Müqəddəs kitablarda",
-        "correct": false
-      },
-      {
-        "text": "Sxolastikadan alınmış biliklərdə",
-        "correct": false
-      },
-      {
-        "text": "Təcrübədə  yoxlamadan keçmiş biliklərdə",
-        "correct": false
-      },
-      {
-        "text": "biliyin aşkar şübhəsizliyində",
-        "correct": true
-      },
-      {
-        "text": "Idrakın predmeti ilə üst-üstə düşən biliklərdə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 401,
-    "question": "Əsaslandırılması zəruri olan bilik necə adlanır?",
-    "options": [
-      {
-        "text": "nəzəriyyə",
-        "correct": false
-      },
-      {
-        "text": "mühakimə",
-        "correct": false
-      },
-      {
-        "text": "anlayış",
-        "correct": false
-      },
-      {
-        "text": "hipotez",
-        "correct": true
-      },
-      {
-        "text": "əqli nəticə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 402,
-    "question": "Həqiqətin bilavasitə məntiqi arqumentlərə müraciət etmədən  dərki edilməsi necə adlanır?",
-    "options": [
-      {
-        "text": "intuisiya",
-        "correct": true
-      },
-      {
-        "text": "seyr",
-        "correct": false
-      },
-      {
-        "text": "intellekt",
-        "correct": false
-      },
-      {
-        "text": "qavrayış",
-        "correct": false
-      },
-      {
-        "text": "müşahidə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 403,
-    "question": "Həqiqətinn praqmatik konsepsiyasına görə həqiqət nədir?",
-    "options": [
-      {
-        "text": "Biliyin həqiqiliyinə əsaslandırılmış inam",
-        "correct": false
-      },
-      {
-        "text": "biliyin gerçəkliyə uyğun gəlməsi",
-        "correct": false
-      },
-      {
-        "text": "alimlər arasında razılaşmadır",
-        "correct": false
-      },
-      {
-        "text": "Problemlərin uğurlu həllində köməklik eüdən faydalı bir şey",
-        "correct": true
-      },
-      {
-        "text": "əvəlki biliklərə uyğun gələn elmi fəaliyyət məhsulu",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 404,
-    "question": "Koherentlik nədir?",
-    "options": [
-      {
-        "text": "Biliyin təkzibedilməzliyi",
-        "correct": false
-      },
-      {
-        "text": "biliyin yeni problemləri qoymaq qabiliyyəti",
-        "correct": false
-      },
-      {
-        "text": "Biliyin estetik cazibəliyi",
-        "correct": false
-      },
-      {
-        "text": "biliyin daxil olduğu nəzəriyyə ilə uzlaşması",
-        "correct": true
-      },
-      {
-        "text": "Yoxlanılmış biliyikdən istifadə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 405,
-    "question": "Nəzəriyyə ilə empirik fakt arasındakı ziddiyyət necə adlanır?",
-    "options": [
-      {
-        "text": "biliyin verifikasiyası",
-        "correct": false
-      },
-      {
-        "text": "biliyin rasionallşaması",
-        "correct": false
-      },
-      {
-        "text": "biliyin falsifikasiyası",
-        "correct": true
-      },
-      {
-        "text": "nəzəriyyə və təcrübənin konqruentliyi",
-        "correct": false
-      },
-      {
-        "text": "biliyin aprobasiyası",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 406,
-    "question": "Ziddiyətsizlik elmiliyin hansı meyarına aiddir?",
-    "options": [
-      {
-        "text": "estetik",
-        "correct": false
-      },
-      {
-        "text": "praqmatik",
-        "correct": false
-      },
-      {
-        "text": "etik",
-        "correct": false
-      },
-      {
-        "text": "məntiqi",
-        "correct": true
-      },
-      {
-        "text": "empirik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 407,
-    "question": "Mütləqlik, nisbilik, obyektivlik, konkretlilik nəyin  xassələridir?",
-    "options": [
-      {
-        "text": "materiyanın",
-        "correct": false
-      },
-      {
-        "text": "məkanın",
-        "correct": false
-      },
-      {
-        "text": "həqiqətin",
-        "correct": true
-      },
-      {
-        "text": "zamanın",
-        "correct": false
-      },
-      {
-        "text": "hipotezin",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 408,
-    "question": "Dünya haqqında mötəbər bilik əldə etməyin mümkün olmadığını vurğulayqan cərəyan hansıdır?",
-    "options": [
-      {
-        "text": "ateizm",
-        "correct": false
-      },
-      {
-        "text": "naturalizm",
-        "correct": false
-      },
-      {
-        "text": "empirizm",
-        "correct": false
-      },
-      {
-        "text": "skeptisizm",
-        "correct": true
-      },
-      {
-        "text": "rasioanlzim",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 409,
-    "question": "Praktikanın idrak prosesində rolu hansıdır?",
-    "options": [
-      {
-        "text": "Praktika ətraf aləmin dəyişdirilməsinə yönəlmiş fəaliyyətdir?",
-        "correct": false
-      },
-      {
-        "text": "Praktika təbiətin dəyişdirilməsinə yönəlmiş mənəvi fəaliyyətidir",
-        "correct": false
-      },
-      {
-        "text": "Praktika idrakın  mənbəyi və həqiqətin meyarıdır",
-        "correct": true
-      },
-      {
-        "text": "Praktika bilik əldə etməyə yönəlmiş elmi eksperimentdir",
-        "correct": false
-      },
-      {
-        "text": "Praktika bilik əldə etməyə yönəlmiş maddi fəaliyyətidir",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 410,
-    "question": "Marksisit fəlsəfə həqiqətin meyarını nədə görür?",
-    "options": [
-      {
-        "text": "Etiqadda",
-        "correct": false
-      },
-      {
-        "text": "Intuisiyada",
-        "correct": false
-      },
-      {
-        "text": "Ağılda",
-        "correct": false
-      },
-      {
-        "text": "Hisslərdə",
-        "correct": false
-      },
-      {
-        "text": "Praktikada",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 411,
-    "question": "Məzmunu insandan asılı olmayan bilik necə adlanır?",
-    "options": [
-      {
-        "text": "Subyektiv həqiqət",
-        "correct": false
-      },
-      {
-        "text": "Intuitiv həqiqət?",
-        "correct": false
-      },
-      {
-        "text": "Mütləq həqiqət",
-        "correct": false
-      },
-      {
-        "text": "Obyektiv həqiqət",
-        "correct": true
-      },
-      {
-        "text": "Nisbi həqiqət",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 412,
-    "question": "Orta əsrlər Avropa fəlsəfəsində başlıca ideyaların səciyyəsini göstərin:",
-    "options": [
-      {
-        "text": "antroposentrizmvəhumanizmideyaları",
-        "correct": false
-      },
-      {
-        "text": "Nominalizm, realizmvənaturfəlsəfə",
-        "correct": false
-      },
-      {
-        "text": "Panteizm, naturfəlsəfə, skeptsizm",
-        "correct": false
-      },
-      {
-        "text": "Teosentrizm, Sxolastika, apologetika",
-        "correct": true
-      },
-      {
-        "text": "peripatetizm, heliosentrizm, stosizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 413,
-    "question": "Xristianlıq  Roma imperiyasının süqutunun qarşısını niyə ala bilmədi?",
-    "options": [
-      {
-        "text": "həddən artıq zəif olduğuna görə",
-        "correct": false
-      },
-      {
-        "text": "humanizmdən uzaq olduğuna görə",
-        "correct": false
-      },
-      {
-        "text": "bu dünyanı dəyərsizləşdirdiyinə görə",
-        "correct": true
-      },
-      {
-        "text": "bütpərəstlərə tolerant münasibətinə görə",
-        "correct": false
-      },
-      {
-        "text": "“iki həqiqət” konsepsiyasını dəstəklədiyinə görə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 414,
-    "question": "Teosentrizmə görə mütləq varlıq aşağıdakılardan hansıdır?",
-    "options": [
-      {
-        "text": "təbiətdir",
-        "correct": false
-      },
-      {
-        "text": "insandır",
-        "correct": false
-      },
-      {
-        "text": "kürə formasındadır",
-        "correct": false
-      },
-      {
-        "text": "hər şeyə qadir olan fövqəltəbii başlanğıcdır",
-        "correct": true
-      },
-      {
-        "text": "sonludur",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 415,
-    "question": "Aşağıdakılardan hansı dini dünyagörüşünün səciyyəvi cəhətini ifadə edir?",
-    "options": [
-      {
-        "text": "rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "kosmosentrizm",
-        "correct": false
-      },
-      {
-        "text": "antroposentrizm",
-        "correct": false
-      },
-      {
-        "text": "kreasionizm",
-        "correct": true
-      },
-      {
-        "text": "humanizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 416,
-    "question": "Nominalizm və realizm cərəyanları hansı dövrün fəlsəfəsinə aiddir?",
-    "options": [
-      {
-        "text": "Industrial  fəlsəfə",
-        "correct": false
-      },
-      {
-        "text": "İntibah fəlsəfəsi",
-        "correct": false
-      },
-      {
-        "text": "Antik fəlsəfə",
-        "correct": false
-      },
-      {
-        "text": "Orta əsr fəlsəfəsi",
-        "correct": true
-      },
-      {
-        "text": "Postmodern",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 417,
-    "question": "Tarixin gedişinin və insanın taleyinin Allah tərəfindən şərtləndiyini bəyan edən  prinsip necə adlanır?",
-    "options": [
-      {
-        "text": "monoteizm",
-        "correct": false
-      },
-      {
-        "text": "fideizm",
-        "correct": false
-      },
-      {
-        "text": "kreasionizm",
-        "correct": false
-      },
-      {
-        "text": "fatalizm",
-        "correct": true
-      },
-      {
-        "text": "monizm.",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 418,
-    "question": "Orta əsrlər fəlsəfəsində universalilərin fərdi şüurdan asılı olmayaraq mövcud olduğunu hansı təlim bəyan edirdi?",
-    "options": [
-      {
-        "text": "nominalizm",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm.",
-        "correct": false
-      },
-      {
-        "text": "doqmatizm",
-        "correct": false
-      },
-      {
-        "text": "realizm",
-        "correct": true
-      },
-      {
-        "text": "patristika",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 419,
-    "question": "Nominalizm Orta əsrlər fəlsəfəsində hansı ənənələrin davamçısıdır ?",
-    "options": [
-      {
-        "text": "peripatetizm",
-        "correct": false
-      },
-      {
-        "text": "Bibliya",
-        "correct": true
-      },
-      {
-        "text": "işraqilik",
-        "correct": false
-      },
-      {
-        "text": "kreasionizm",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 420,
-    "question": "Patristika xristianlığı sistemləşdirmək üçün hansı fəlsəfi cərəyana istinad edirdi?",
-    "options": [
-      {
-        "text": "peripatetizmə",
-        "correct": false
-      },
-      {
-        "text": "idealizmə",
-        "correct": false
-      },
-      {
-        "text": "skeptisizmə",
-        "correct": false
-      },
-      {
-        "text": "rasionalizmə",
-        "correct": false
-      },
-      {
-        "text": "neoplatonizmə",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 421,
-    "question": "Qərb mədəniyyətinin dünyagörüşü əsasını nə təşkil edirdi?",
-    "options": [
-      {
-        "text": "iudaizm",
-        "correct": false
-      },
-      {
-        "text": "elm",
-        "correct": false
-      },
-      {
-        "text": "incəsənət",
-        "correct": false
-      },
-      {
-        "text": "xristianlıq",
-        "correct": true
-      },
-      {
-        "text": "bütpərəstlik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 422,
-    "question": "Xristianlığın Allahın mahiyyəti haqqında təlimi özündə hansı ənənələri birləşdirir?",
-    "options": [
-      {
-        "text": "rasionalizmi",
-        "correct": false
-      },
-      {
-        "text": "magiyanı",
-        "correct": false
-      },
-      {
-        "text": "zərdüştlük ənənələrini",
-        "correct": false
-      },
-      {
-        "text": "iudaizm və antik fəlsəfə ənənələrini",
-        "correct": true
-      },
-      {
-        "text": "bütpərəstlik ənənələrini",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 423,
-    "question": "Orta əsrlər fəlsəfəsinin səciyyəvi cəhəti aşağıdakılardan hansıdır?",
-    "options": [
-      {
-        "text": "ssientizm",
-        "correct": false
-      },
-      {
-        "text": "humanizm",
-        "correct": false
-      },
-      {
-        "text": "kosmosentrizm",
-        "correct": false
-      },
-      {
-        "text": "antroposentrizm",
-        "correct": false
-      },
-      {
-        "text": "sxolastika",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 424,
-    "question": "Məntiqi təhlilə maraq, teologiyaya tabe olma   kimi cəhətlər aşağıdakılardan hansına məxsusdur?",
-    "options": [
-      {
-        "text": "aqnostisizmə",
-        "correct": false
-      },
-      {
-        "text": "mistikaya",
-        "correct": false
-      },
-      {
-        "text": "rasionalizmə",
-        "correct": false
-      },
-      {
-        "text": "sxolastikaya",
-        "correct": true
-      },
-      {
-        "text": "empirizmə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 425,
-    "question": "Sxolastika nədir?",
-    "options": [
-      {
-        "text": "Allahın mənşəyi haqqında təlim",
-        "correct": false
-      },
-      {
-        "text": "Allahın mahiyyətinin dərkində zəkanın rolunu inkar edən fəlsəfə",
-        "correct": false
-      },
-      {
-        "text": "idrak nəzəriyyəsi",
-        "correct": false
-      },
-      {
-        "text": "elmin mənşəyi haqqında təlim",
-        "correct": false
-      },
-      {
-        "text": "məntiqi-qnoseoloji problemlərin  üstünlüyü ilə seçilən   fəlsəfi düşüncə tipi",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 426,
-    "question": "Aşağıda göstərilən filosoflardan hansı patristikanın görkəmli nümayəndəsidir?",
-    "options": [
-      {
-        "text": "Kuzanski",
-        "correct": false
-      },
-      {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Aristotel",
-        "correct": false
-      },
-      {
-        "text": "Avqustin",
-        "correct": true
-      },
-      {
-        "text": "Siseron",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 427,
-    "question": "Esxatologiya nədir?",
-    "options": [
-      {
-        "text": "varlıq haqqında təlim",
-        "correct": false
-      },
-      {
-        "text": "insanın mənşəyi haqqında təlim",
-        "correct": false
-      },
-      {
-        "text": "dünyanın sonu haqqında təlim",
-        "correct": true
-      },
-      {
-        "text": "cəmiyyətin mənşəyi haqqında təlim",
-        "correct": false
-      },
-      {
-        "text": "dəyərlər haqqında təlim",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 428,
-    "question": "Allahın  mahiyyəti haqqında dini təlimlər məcmusuna nə deyilir?",
-    "options": [
-      {
-        "text": "fenomenologiya",
-        "correct": false
-      },
-      {
-        "text": "monadologiya",
-        "correct": false
-      },
-      {
-        "text": "antroposentrizm",
-        "correct": false
-      },
-      {
-        "text": "teologiya",
-        "correct": true
-      },
-      {
-        "text": "ontologiya",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 429,
-    "question": "Orta əsrlərdə fəlsəfə nəyə tabe etdirilmişdi?",
-    "options": [
-      {
-        "text": "etikaya",
-        "correct": false
-      },
-      {
-        "text": "dövlətə",
-        "correct": false
-      },
-      {
-        "text": "elmə",
-        "correct": false
-      },
-      {
-        "text": "psixologiyaya",
-        "correct": false
-      },
-      {
-        "text": "ilahiyyata",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 430,
-    "question": "Postindustrial cəmiyyətdə dəyərin əsas mənbəyini nə təşkil edir?",
-    "options": [
-      {
-        "text": "əmək",
-        "correct": false
-      },
-      {
-        "text": "kənd təsərrüfatı",
-        "correct": false
-      },
-      {
-        "text": "muzdlu iş qüvvəsi",
-        "correct": false
-      },
-      {
-        "text": "nəzəri bilik",
-        "correct": true
-      },
-      {
-        "text": "kapital",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 431,
-    "question": "«Davamlı inkişaf konsepsiyası” adlı sənəd harada  imzalanmışdır?",
-    "options": [
-      {
-        "text": "Londonda",
-        "correct": false
-      },
-      {
-        "text": "Parisdə",
-        "correct": false
-      },
-      {
-        "text": "Berndə",
-        "correct": false
-      },
-      {
-        "text": "Rio-de-Janeyroda",
-        "correct": true
-      },
-      {
-        "text": "Romada",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 432,
-    "question": "«İnkişafın hədləri» əsərində hansı problemlər nəzərdən keçirilmişdir?",
-    "options": [
-      {
-        "text": "mədəni",
-        "correct": false
-      },
-      {
-        "text": "əxlaqi",
-        "correct": false
-      },
-      {
-        "text": "qlobal",
-        "correct": true
-      },
-      {
-        "text": "ekoloji",
-        "correct": false
-      },
-      {
-        "text": "ekzistensial",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 433,
-    "question": "Qloballaşmanı sosial reallığa, eləcə də insanlara gələcək təsiri aspektində  öyrənən elm hansıdır?",
-    "options": [
-      {
-        "text": "antropologiya",
-        "correct": false
-      },
-      {
-        "text": "etnoqrafiya",
-        "correct": false
-      },
-      {
-        "text": "etnologiya",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfə",
-        "correct": true
-      },
-      {
-        "text": "mədəni antropologiya",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 434,
-    "question": "İnformasiya hansı cəmiyyətin inkişafının əsasında durur?",
-    "options": [
-      {
-        "text": "antik cəmiyyətin",
-        "correct": false
-      },
-      {
-        "text": "industrial cəmiyyətin",
-        "correct": false
-      },
-      {
-        "text": "sinfi cəmiyyətin",
-        "correct": false
-      },
-      {
-        "text": "postindustrial cəmiyyətin",
-        "correct": true
-      },
-      {
-        "text": "ənənəvi cəmiyyətin",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 435,
-    "question": "Postindustrial cəmiyyətin inkişafının əsasında duran əsas amili göstərin",
-    "options": [
-      {
-        "text": "əxlaq",
-        "correct": false
-      },
-      {
-        "text": "dövlət",
-        "correct": false
-      },
-      {
-        "text": "siyasət",
-        "correct": false
-      },
-      {
-        "text": "informasiya",
-        "correct": true
-      },
-      {
-        "text": "mədəniyyət",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 436,
-    "question": "Canlı orqanizmlərin ətraf mühitlə qarşılıqlı təsirlərini öyrənən elm hansıdır?",
-    "options": [
-      {
-        "text": "ekologiya",
-        "correct": true
-      },
-      {
-        "text": "biologiya",
-        "correct": false
-      },
-      {
-        "text": "sosiologiya",
-        "correct": false
-      },
-      {
-        "text": "psixologiya",
-        "correct": false
-      },
-      {
-        "text": "biokimya",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 437,
-    "question": "Ekologiya terminini ilk dəfə istifadə edən alimi göstərin",
-    "options": [
-      {
-        "text": "Habermas",
-        "correct": false
-      },
-      {
-        "text": "Engels",
-        "correct": false
-      },
-      {
-        "text": "Marks",
-        "correct": false
-      },
-      {
-        "text": "Huk",
-        "correct": false
-      },
-      {
-        "text": "Hekkel",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 438,
-    "question": "Ümumdünya Davos Forumunda hər il kimlər toplaşır?",
-    "options": [
-      {
-        "text": "İqtisadi qloballaşmanın  əlehdarları",
-        "correct": false
-      },
-      {
-        "text": "Bunlardan heç biri",
-        "correct": false
-      },
-      {
-        "text": "Mədəni qloballaşmanın tərəfdarları",
-        "correct": false
-      },
-      {
-        "text": "İqtisadi qloballaşmanın  tərəfdarları",
-        "correct": true
-      },
-      {
-        "text": "Siyasi qloballaşmanın tərəfdarları",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 439,
-    "question": "J.Forrester nəyin banisi olmuşdur?",
-    "options": [
-      {
-        "text": "qlobal problemlərin",
-        "correct": false
-      },
-      {
-        "text": "Qlobal fəlakətlərin",
-        "correct": false
-      },
-      {
-        "text": "qlobal istiləşmənin",
-        "correct": false
-      },
-      {
-        "text": "qlobal böhranın",
-        "correct": false
-      },
-      {
-        "text": "qlobal proqnozlaşdırmanın",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 440,
-    "question": "Qloballaşma nəticəsində dünyanın 8 mədəni-etniki sivilizasiyanın münaqişə səhnəsinə çevriləcəyini kim söyləmişdi?",
-    "options": [
-      {
-        "text": "A.Peççei",
-        "correct": false
-      },
-      {
-        "text": "E.Pestel",
-        "correct": false
-      },
-      {
-        "text": "M.Mesarovic",
-        "correct": false
-      },
-      {
-        "text": "S.Hantinqton",
-        "correct": true
-      },
-      {
-        "text": "D.Medouz",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 441,
-    "question": "S.Hantinqton qloballaşmanı  necə səciyyələndirirdi?",
-    "options": [
-      {
-        "text": "qlobal iqtisadi artım dövrü kimi",
-        "correct": false
-      },
-      {
-        "text": "ənənəvi siyasi qaydaların dağılması dövrü kimi",
-        "correct": false
-      },
-      {
-        "text": "mədəniyyət və ənənələrin dağılması kimi",
-        "correct": false
-      },
-      {
-        "text": "mültimədəni cəmiyyət dövrü kimi",
-        "correct": true
-      },
-      {
-        "text": "qlobal problemlərin kəskinləşməsi kimi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 442,
-    "question": "“Roma klubu” nə vaxt yaradılmışdır?",
-    "options": [
-      {
-        "text": "1988-ci ildə",
-        "correct": false
-      },
-      {
-        "text": "2008-ci ildə",
-        "correct": false
-      },
-      {
-        "text": "1998-ci ildə",
-        "correct": false
-      },
-      {
-        "text": "1968-ci ildə",
-        "correct": true
-      },
-      {
-        "text": "1978-ci ildə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 443,
-    "question": "“Roma klubu” nədir?",
-    "options": [
-      {
-        "text": "Roma fəlsəfəsini öyrənən cəmiyyət",
-        "correct": false
-      },
-      {
-        "text": "Fəlsəfi cərəyan",
-        "correct": false
-      },
-      {
-        "text": "Platonun akademiyası",
-        "correct": false
-      },
-      {
-        "text": "müasir dövrün ən kəskin problemlərinin təhlili üçün yaradılmış  beynəlxalq ictimai təşkilat",
-        "correct": true
-      },
-      {
-        "text": "Roma futbol komandası",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 444,
-    "question": "U.Bek hansı konsepsiyasının müəllifi olmuşdur?",
-    "options": [
-      {
-        "text": "texnotron cəmiyyət",
-        "correct": false
-      },
-      {
-        "text": "Kapitalizm cəmiyyəti",
-        "correct": false
-      },
-      {
-        "text": "istehlak cəmiyyəti",
-        "correct": false
-      },
-      {
-        "text": "Informasiya cəmiyyəti",
-        "correct": false
-      },
-      {
-        "text": "Risk cəmiyyəti",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 445,
-    "question": "«Davamlı inkişaf konsepsiyası” adlı sənəd nə vaxt imzalanmışdır?",
-    "options": [
-      {
-        "text": "2001-cu ildə",
-        "correct": false
-      },
-      {
-        "text": "1990-cı ildə",
+        "text": "2024-ci ildə",
         "correct": false
       },
       {
@@ -11560,4935 +6218,10711 @@ const QUESTIONS = [
         "correct": true
       },
       {
-        "text": "2003-ci ildə",
+        "text": "1993-ci ildə",
         "correct": false
       }
     ]
   },
   {
-    "num": 446,
-    "question": "Qloballaşmanı sosial reallığa, eləcə də insanlara gələcək təsiri aspektində  öyrənən elm hansıdır?",
+    "num": 255,
+    "question": "Azərbaycan Respublikasının manatı yeganə  valyuta kimi nə vaxtdan istifadə olunur?",
     "options": [
       {
-        "text": "əxlaq",
+        "text": "1997-ci ildən",
         "correct": false
       },
       {
-        "text": "iqtisadiyyat",
+        "text": "2025-ci ildən",
         "correct": false
       },
       {
-        "text": "sosiologiya",
+        "text": "2000-ci ildən",
         "correct": false
       },
       {
-        "text": "fəlsəfə",
+        "text": "1995 ci ildən",
+        "correct": false
+      },
+      {
+        "text": "1994-ci ildən",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 256,
+    "question": "Bir kommersiya bankı digər kommersiya bankının müştərisi ola bilərmi ?",
+    "options": [
+      {
+        "text": "ola bilər",
         "correct": true
       },
       {
-        "text": "hüquq",
+        "text": "ola bilməz",
+        "correct": false
+      },
+      {
+        "text": "Milli Məclisin icazəsi ilə ola bilər",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT) icazəsi ilə ola bilər",
+        "correct": false
+      },
+      {
+        "text": "Auditor Palatasının icazəsi ilə ola bilər",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 257,
+    "question": "Kütləvi Ödənişlər üzrə Mərkəzləşdirilmiş İnformasiya Sistemi (KÖMİS) yaranıb:",
+    "options": [
+      {
+        "text": "30 sentyabr 2019",
+        "correct": false
+      },
+      {
+        "text": "11 iyul 2008",
+        "correct": true
+      },
+      {
+        "text": "15 iyul 2009",
+        "correct": false
+      },
+      {
+        "text": "5 dekabr 2006",
+        "correct": false
+      },
+      {
+        "text": "20 dekabr 2025",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 258,
+    "question": "Subyektin hüquqi şəxs kimi tanınması üçün ..... olmalıdır:",
+    "options": [
+      {
+        "text": "mal alışı və satışı müqaviləsi",
+        "correct": false
+      },
+      {
+        "text": "lisenziyası",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatında hesabının olması",
+        "correct": true
+      },
+      {
+        "text": "Mərkəzi Bankın razılığı",
+        "correct": false
+      },
+      {
+        "text": "banklarla hesabatı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 259,
+    "question": "Depozit əməliyyatlarını kim yerinə yetirə bilər?",
+    "options": [
+      {
+        "text": "yalnız Kredit İttifaqları",
+        "correct": false
+      },
+      {
+        "text": "Banklar Assosiasiyası",
+        "correct": false
+      },
+      {
+        "text": "Kredit İttifaqları və Bank Olmayan Kredit Təşkilatları(BOKT)",
+        "correct": false
+      },
+      {
+        "text": "Kommersiya bankları",
+        "correct": true
+      },
+      {
+        "text": "Səhmdar Cəmiyyətlər",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 260,
+    "question": "Məcburi ehtiyatların səviyyəsi müəyyən edilir:",
+    "options": [
+      {
+        "text": "bankın fəaliyyəti növündən asılı olaraq",
+        "correct": false
+      },
+      {
+        "text": "bank fəaliyyətinin keyfiyyətindən asılı olaraq",
+        "correct": false
+      },
+      {
+        "text": "bankın müxtəlif sənədlərinin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 261,
+    "question": "AR Mərkəzi Bankı neçənci ildə yaranmışdır?",
+    "options": [
+      {
+        "text": "1992",
+        "correct": true
+      },
+      {
+        "text": "2000",
+        "correct": false
+      },
+      {
+        "text": "1998",
+        "correct": false
+      },
+      {
+        "text": "2025",
+        "correct": false
+      },
+      {
+        "text": "2002",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 262,
+    "question": "Ödəniş tapşırığı bank tərəfindən icraya qəbul edilir:",
+    "options": [
+      {
+        "text": "müştərinin yazılı zəmanəti olduqda",
+        "correct": false
+      },
+      {
+        "text": "hesabda kifayət qədər vəsait olduqda",
+        "correct": true
+      },
+      {
+        "text": "ödəyicinin vaxtı keçmiş borcu olmadıqda",
+        "correct": false
+      },
+      {
+        "text": "hesabda vəsait olmadıqda",
+        "correct": false
+      },
+      {
+        "text": "müştərinin müraciəti gecikdikdə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 263,
+    "question": "Banklarda müxbir hesablar açılır:",
+    "options": [
+      {
+        "text": "Hesablama Palatasının göstərişi ilə",
+        "correct": false
+      },
+      {
+        "text": "bələdiyyələrin göstərişi ilə",
+        "correct": false
+      },
+      {
+        "text": "banklararası razılaşma əsasında",
+        "correct": true
+      },
+      {
+        "text": "Maliyyə Nazirliyinin göstərişi ilə",
+        "correct": false
+      },
+      {
+        "text": "Banklar Assosiasiyasının göstərişi ilə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 264,
+    "question": "Nizamnamə kapitalı nədir?",
+    "options": [
+      {
+        "text": "çatışmayan kapitaldır",
+        "correct": false
+      },
+      {
+        "text": "əlavə kapitaldır",
+        "correct": false
+      },
+      {
+        "text": "borc kapitalıdır",
+        "correct": false
+      },
+      {
+        "text": "bank yarandığı anda yaradılan ilkin kapitaldır",
+        "correct": true
+      },
+      {
+        "text": "sonradan əldə edilən kapitaldır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 265,
+    "question": "Kommersiya bankı:",
+    "options": [
+      {
+        "text": "filiallara lisenziya verən təşkilatdır",
+        "correct": false
+      },
+      {
+        "text": "pul-kredit siyasətini həyata keçirən orqandır",
+        "correct": false
+      },
+      {
+        "text": "maddi istehsal sferası məhsulunu",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 266,
+    "question": "Kommersiya bankının hansı mülkiyyət  formasında yaradılmasına baxmayaraq, onlar.......:",
+    "options": [
+      {
+        "text": "müstəqildir",
+        "correct": true
+      },
+      {
+        "text": "Milli Depozit Sisteminə hesabat verirlər",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərdən asılıdır",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın İdarə Heyətindən asılıdır",
+        "correct": false
+      },
+      {
+        "text": "Prezidentə hesabat verməlidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 267,
+    "question": "Lizinq verən ... şəxsdir:",
+    "options": [
+      {
+        "text": "Auditorlar Palatasından olan",
+        "correct": false
+      },
+      {
+        "text": "öz vəsaiti və borc vəsaiti hesabına əldə edilən əmlakı lizinq alana təqdim edən",
+        "correct": true
+      },
+      {
+        "text": "Beynəlxalq Valyuta Fondundan (BVF) cəlb olunmuş vəsait hesabına mülkiyyət əldə edən",
+        "correct": false
+      },
+      {
+        "text": "yalnız cəlb olunmuş vəsait hesabına əmlak əldə edib başqasına təqdim edən",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın işçiləri olan",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 268,
+    "question": "…. görə emissiya, depozit və kommersiya banklarını fərqləndirirlər:",
+    "options": [
+      {
+        "text": "təşkilati formasına",
+        "correct": false
+      },
+      {
+        "text": "filialların sayına",
+        "correct": false
+      },
+      {
+        "text": "funksional təyinatına",
+        "correct": true
+      },
+      {
+        "text": "mülkiyyət formasına",
+        "correct": false
+      },
+      {
+        "text": "əməliyyatlarının xarakterinə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 269,
+    "question": "Bank sektorunun məcmu kapitalının strukturu  və dinamikasının təhlili üçün  hansı göstəricilərdən istifadə olunur:",
+    "options": [
+      {
+        "text": "heç bir kapitaldan istifədə olunmur",
+        "correct": false
+      },
+      {
+        "text": "nizamnamə kapitalından",
+        "correct": false
+      },
+      {
+        "text": "bankın əmək haqqlarından",
+        "correct": false
+      },
+      {
+        "text": "I (əsas) və II (əlavə) dərəcəli kapitaldan",
+        "correct": true
+      },
+      {
+        "text": "ipoteka kreditindən",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 270,
+    "question": "Mərkəzi Bankın mənfəəti",
+    "options": [
+      {
+        "text": "nağdsız ödənişlər hesabına formalaşır",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərə verdiyi kreditlər hesabına formalaşır",
+        "correct": false
+      },
+      {
+        "text": "lizinq faizləri hesabına formalaşır",
+        "correct": false
+      },
+      {
+        "text": "dondurulmuş vəsaitlər hesabına formalaşır",
+        "correct": false
+      },
+      {
+        "text": "fəaliyyətindən əldə etdiyi gəlirlər hesabına formalaşır",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 271,
+    "question": "İnvestisiya nə deməkdir?",
+    "options": [
+      {
+        "text": "mənfəət əldə etmək məqsədi ilə uzunmüddətli vəsait qoyuluşudur",
+        "correct": true
+      },
+      {
+        "text": "borc əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "ödəniş əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "zərər əldə etmək məqsədi ilə qısamüddətli vəsait qoyuluşudur",
+        "correct": false
+      },
+      {
+        "text": "gələcəkdə mənfəət əldə etmək üçün klirinq əməliyyatıdır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 272,
+    "question": "Maliyyə bazarlarını tənzimləyən nəzarət orqanı hansıdır?",
+    "options": [
+      {
+        "text": "xüsusi banklar",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
+        "text": "dövlət idarələri",
+        "correct": false
+      },
+      {
+        "text": "sənaye bankları",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatı (BOKT)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 273,
+    "question": "Kreditin prinsiplərini göstərin:",
+    "options": [
+      {
+        "text": "yalnız məqsədli xarakter daşıması",
+        "correct": false
+      },
+      {
+        "text": "müddətlilik,ödənişlik,lizinq,faktorinq",
+        "correct": false
+      },
+      {
+        "text": "qaytarılmaq, müddədlilik, təminatlılıq, ödənişlik, məqsədlilik",
+        "correct": true
+      },
+      {
+        "text": "yalnız %-ni ödəmək",
+        "correct": false
+      },
+      {
+        "text": "yalnız qaytarılmaq",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 274,
+    "question": "Bankın cari fəaliyyəti zamanı meydana çıxan itkilər .... hesabına ödənilir:",
+    "options": [
+      {
+        "text": "ictimai təminatlı fondu",
+        "correct": false
+      },
+      {
+        "text": "bank filialının fondu",
+        "correct": false
+      },
+      {
+        "text": "İpoteka Fondu",
+        "correct": false
+      },
+      {
+        "text": "ehtiyat fondu",
+        "correct": true
+      },
+      {
+        "text": "sığorta fondu",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 275,
+    "question": "Nağd pul dövriyyəsi:",
+    "options": [
+      {
+        "text": "yararsız pulların tədavüldən çxarılmasıdır",
+        "correct": false
+      },
+      {
+        "text": "tədavüldən nağd pulların çıxarılması və emissiyasıdır",
+        "correct": false
+      },
+      {
+        "text": "tədavülə nağdsız pulların emissiyasıdır",
+        "correct": false
+      },
+      {
+        "text": "nağd pulların nağdsız pullara keçməsidir",
+        "correct": false
+      },
+      {
+        "text": "nağd pul nişanlarının tədavülüdür",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 276,
+    "question": "Alıcı ona xidmət göstərən bank depozitində olan vəsait və ya bankın zəmanəti ilə  satıcının ərazisində yerləşən malın dəyərinin, ödəyicinin (alıcının) müəyyən etdiyi şərtlərlə ödənilməsinə dair verdiyi  tapşırığa əsasən hesablaşmanın aparıldığı forma ……adlanır:",
+    "options": [
+      {
+        "text": "akkreditiv",
+        "correct": true
+      },
+      {
+        "text": "inkasso",
+        "correct": false
+      },
+      {
+        "text": "çeklərlə hesablaşma",
+        "correct": false
+      },
+      {
+        "text": "ödəniş tapşırığı",
+        "correct": false
+      },
+      {
+        "text": "veksel",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 277,
+    "question": "Banklar nağdsız hesablaşmaları və pul köçürmələrini ......... həyata keçirirlər:",
+    "options": [
+      {
+        "text": "Mərkəzi Bankın qəbul etdiyi",
+        "correct": true
+      },
+      {
+        "text": "Maliyyə Nazirliyinin göstərişinə uyğun olaraq",
+        "correct": false
+      },
+      {
+        "text": "auditor xidmətinə uyğun olaraq",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 278,
+    "question": "Mərkəzi Bankın daxili audit bölməsi həyata keçirir:",
+    "options": [
+      {
+        "text": "İdarə Heyəti üzvlərinin fəaliyyətinə nəzarət edir",
+        "correct": false
+      },
+      {
+        "text": "rüblük maliyyə hesabatını təsdiq edir",
+        "correct": false
+      },
+      {
+        "text": "struktur bölmələrinin auditini həyata keçirir",
+        "correct": true
+      },
+      {
+        "text": "bank rəhbərini təyin edir",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın İdarə Heyətinin fəaliyyətinə nəzarət edir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 279,
+    "question": "Nağdsız hesablaşma sisteminin sabit işləməsini təmin etmək, onların fəaliyyətini təşkil etmək, əlaqələndirmək və nəzarət etmək …səlahiyyətindədir:",
+    "options": [
+      {
+        "text": "Hesablama Palatasının",
+        "correct": false
+      },
+      {
+        "text": "Milli Depozit Sisteminin",
+        "correct": false
+      },
+      {
+        "text": "faktorinq firmalarının",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın",
+        "correct": true
+      },
+      {
+        "text": "Klirinq Mərkəzinin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 280,
+    "question": "Mərkəzi Bankın kapitalı ibarətdir:",
+    "options": [
+      {
+        "text": "Mərkəzi Bankın verdiyi kreditlərə görə faizlərdən",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərin vəsaitlərindən",
+        "correct": false
+      },
+      {
+        "text": "dövlət büdcəsinin kapitalından",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın kapital və sənəd ehtiyatından",
+        "correct": false
+      },
+      {
+        "text": "nizamnamə fondu və kapital ehtiyatından",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 281,
+    "question": "Kreditləşmənin son instansiya kreditoru qismində Mərkəzi Bank ...... :",
+    "options": [
+      {
+        "text": "ödəmə qabiliyyətinin qısa müddətli pozulması  və likvidlik çatışmazlığı ilə  üzləşmiş banklara kredit verə bilər",
+        "correct": true
+      },
+      {
+        "text": "kritik vəziyyətlərdə istehsal müəssisələrinə kreditlər verir",
+        "correct": false
+      },
+      {
+        "text": "vətəndaşlara istehlak kreditləri verir",
+        "correct": false
+      },
+      {
+        "text": "vətəndaşlara lizinq krediti verir",
+        "correct": false
+      },
+      {
+        "text": "maliyyə çətinliyi çəkən milli müəssisələri kreditləşdirir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 282,
+    "question": "Bankların mənafeyini müdafiə edir:",
+    "options": [
+      {
+        "text": "Xəzinədarlıq",
+        "correct": false
+      },
+      {
+        "text": "Banklar Assosiasiyası",
+        "correct": true
+      },
+      {
+        "text": "Sığorta Kompaniyaları",
+        "correct": false
+      },
+      {
+        "text": "Kredit İttifaqları",
+        "correct": false
+      },
+      {
+        "text": "İnvestisiya Fondları",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 283,
+    "question": "Bank Sisteminə aid edilir:",
+    "options": [
+      {
+        "text": "lizinq şirkətləri",
+        "correct": false
+      },
+      {
+        "text": "Bank Assosiasiyaları",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank və kredit təşkilatları",
+        "correct": true
+      },
+      {
+        "text": "faktorinq şirkətləri",
+        "correct": false
+      },
+      {
+        "text": "bank birlikləri və bank büroları",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 284,
+    "question": "Mərkəzi Bank ona məxsus əmlakın:",
+    "options": [
+      {
+        "text": "ödəyicisidir",
+        "correct": false
+      },
+      {
+        "text": "müvəqqəti sahibidir",
+        "correct": false
+      },
+      {
+        "text": "müvəqqəti təsisçisidir",
+        "correct": false
+      },
+      {
+        "text": "sahibidir",
+        "correct": true
+      },
+      {
+        "text": "daimi icarədarıdır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 285,
+    "question": "Mərkəzi Bankın iqtisadiyyatdakı məqsədi müəyyən edilir:",
+    "options": [
+      {
+        "text": "vergi xidmətinin təşkili ilə",
+        "correct": false
+      },
+      {
+        "text": "bankların səmərəsiz fəaliyyəti ilə",
+        "correct": false
+      },
+      {
+        "text": "dövlət büdcəsindəki limitin tənzimlənməsi ilə",
+        "correct": false
+      },
+      {
+        "text": "sığorta işinin təşkili ilə",
+        "correct": false
+      },
+      {
+        "text": "qiymətlərin sabitliyinin təmin edilməsi ilə",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 286,
+    "question": "Bankın səhmdarı ola bilərlər:",
+    "options": [
+      {
+        "text": "heç biri",
+        "correct": true
+      },
+      {
+        "text": "siyasi partiyalar",
+        "correct": false
+      },
+      {
+        "text": "qeyri-kommersiya təşkilatları",
+        "correct": false
+      },
+      {
+        "text": "ictimai fondlar",
+        "correct": false
+      },
+      {
+        "text": "ictimai birliklər",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 287,
+    "question": "Kommersiya bankının yaradılmasında minimum neçə təsisçi iştirak edə bilər ?",
+    "options": [
+      {
+        "text": "heç kəs iştirak etmir",
+        "correct": false
+      },
+      {
+        "text": "3 təsisçi",
+        "correct": true
+      },
+      {
+        "text": "5 təsisçi",
+        "correct": false
+      },
+      {
+        "text": "2 təsisçi",
+        "correct": false
+      },
+      {
+        "text": "1 təsisçi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 288,
+    "question": "Bazar riskinə aid olmayan riski seçin ......:",
+    "options": [
+      {
+        "text": "kapital riski",
+        "correct": false
+      },
+      {
+        "text": "xarici valyuta riski",
+        "correct": false
+      },
+      {
+        "text": "əməliyyat riski",
+        "correct": true
+      },
+      {
+        "text": "əmtəə-mal riski",
+        "correct": false
+      },
+      {
+        "text": "pul riski",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 289,
+    "question": "Bankın aktivlərində olan artımı maliyyələşdirə bilməməsi və öz öhdəliklərinin vaxtı-vaxtında yerinə yetirə bilməməsi ....:",
+    "options": [
+      {
+        "text": "valyuta riskidir",
+        "correct": false
+      },
+      {
+        "text": "faiz dərəcəsi riskidir",
+        "correct": false
+      },
+      {
+        "text": "əmtəə-mal riskidir",
+        "correct": false
+      },
+      {
+        "text": "likvidlik riskidir",
+        "correct": true
+      },
+      {
+        "text": "kapital riskidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 290,
+    "question": "Mərkəzi Bankın əməliyyatları.....bölünür:",
+    "options": [
+      {
+        "text": "dondurulmuş əməliyyatlara",
+        "correct": false
+      },
+      {
+        "text": "sadə və çətin əməliyyatlara",
+        "correct": false
+      },
+      {
+        "text": "investisiya əməliyyatlarına",
+        "correct": false
+      },
+      {
+        "text": "REPO əməliyyatlarına",
+        "correct": false
+      },
+      {
+        "text": "aktiv və passiv əməliyyatlara",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 291,
+    "question": "Rəqəmsal bankçılıq bank  müştərisinə ...rejimində bank funksiyalarına giriş imkanı verir:",
+    "options": [
+      {
+        "text": "7/24",
+        "correct": true
+      },
+      {
+        "text": "7/8",
+        "correct": false
+      },
+      {
+        "text": "7/7",
+        "correct": false
+      },
+      {
+        "text": "7/12",
+        "correct": false
+      },
+      {
+        "text": "7/5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 292,
+    "question": "Rəqəmsal bankçılığın ödəniş alətidir:",
+    "options": [
+      {
+        "text": "SOS terminalları",
+        "correct": false
+      },
+      {
+        "text": "bank kartları",
+        "correct": true
+      },
+      {
+        "text": "bilet kartları",
+        "correct": false
+      },
+      {
+        "text": "ötürücü kartlar",
+        "correct": false
+      },
+      {
+        "text": "keçid kartları",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 293,
+    "question": "Emissiya balansı tərtib edilir:",
+    "options": [
+      {
+        "text": "ərazi idaləri və kommersiya bankları ilə birgə",
+        "correct": false
+      },
+      {
+        "text": "SWİFT tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank tərəfindən",
+        "correct": true
+      },
+      {
+        "text": "Milli Depozit Sistemi tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyi tərəfindən",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 294,
+    "question": "Malgöndərəndən ödəniş tələbnamələrinin alınması əməliyyatıdır:",
+    "options": [
+      {
+        "text": "lizinq",
+        "correct": false
+      },
+      {
+        "text": "trast",
+        "correct": false
+      },
+      {
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "faktorinq",
+        "correct": true
+      },
+      {
+        "text": "kredit",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 295,
+    "question": "Bankların xərclərini təhlil edərkən ən böyük..... hesab olunur?",
+    "options": [
+      {
+        "text": "gəlir xərcləri",
+        "correct": false
+      },
+      {
+        "text": "əmtəə xərcləri",
+        "correct": false
+      },
+      {
+        "text": "əmək haqqı xərcləri",
+        "correct": false
+      },
+      {
+        "text": "investisiya xərcləri",
+        "correct": false
+      },
+      {
+        "text": "faiz xərcləri",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 296,
+    "question": "Audit Komitəsi:",
+    "options": [
+      {
+        "text": "bankı idarə edən orqanlardan biridir",
+        "correct": true
+      },
+      {
+        "text": "bank əməkdaşlarına əmək haqqı verən orqandır",
+        "correct": false
+      },
+      {
+        "text": "banka nəzarət edən orqanlardan biridir",
+        "correct": false
+      },
+      {
+        "text": "bank monitorinqini həyata keçirən orqandır",
+        "correct": false
+      },
+      {
+        "text": "banka lisenziya verən orqandır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 297,
+    "question": "Kredit təşkilatlarını lisenziyalaşdırır:",
+    "options": [
+      {
+        "text": "Mərkəzi Bank  Bank Assosiasiyası ilə birlikdə",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
+        "text": "Milli Depozit Sistemi",
+        "correct": false
+      },
+      {
+        "text": "Banklar Assosasiyası",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 298,
+    "question": "Mərkəzi Bankın hesabat ilinin mənfəəti ilk növbədə yönəldilir:",
+    "options": [
+      {
+        "text": "kommersiya banklarının nizamnamə kapitalına",
+        "correct": false
+      },
+      {
+        "text": "Dövlət Büdcəsinin formalaşmasına",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın kapital ehtiyatlarının formalaşmasına",
+        "correct": true
+      },
+      {
+        "text": "maddi maraq fondunun yaradılmasına",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərin depozitlərinə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 299,
+    "question": "Mərkəzi Bankın hesabat ilinin mənfəəti ilk növbədə yönəldilir:",
+    "options": [
+      {
+        "text": "maddi maraq fondunun yaradılmasına",
+        "correct": false
+      },
+      {
+        "text": "keçən ilki itkilərin ödənilməsinə",
+        "correct": false
+      },
+      {
+        "text": "dövlət büdcəsinin formalaşmasına",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın kapital ehtiyatlarının formalaşmasına",
+        "correct": true
+      },
+      {
+        "text": "işçi heyətinin mükafatlandırılmasına",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 300,
+    "question": "Emissiya balansı tərtib edilir:",
+    "options": [
+      {
+        "text": "kommersiya banklarının filialları tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Milli Depozit Sistemi tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyi tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "ərazi idaləri və kommersiya bankları ilə birgə",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank tərəfindən",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 301,
+    "question": "Bankların mənafeyini  müdafiə etmək üçün ictimai təşkilat kimi yaradılır:",
+    "options": [
+      {
+        "text": "Banklar Assosiasiyası",
+        "correct": true
+      },
+      {
+        "text": "kredit təşkilatları və investisya şirkətləri",
+        "correct": false
+      },
+      {
+        "text": "İpoteka Fondları",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın ərazi idarələri",
+        "correct": false
+      },
+      {
+        "text": "investisiya fondları",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 302,
+    "question": "Bu və ya digər bank əməliyyatlarını yerinə yetirmək hüququ olan kredit təşkilatıdır:",
+    "options": [
+      {
+        "text": "bank birlikləri",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatları (BOKT)",
+        "correct": true
+      },
+      {
+        "text": "sığorta kompaniyaları",
+        "correct": false
+      },
+      {
+        "text": "bankların şöbələri",
+        "correct": false
+      },
+      {
+        "text": "Bank Assosasiyaları",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 303,
+    "question": "Fəaliyyət ölçülərinə görə banklar ayrılır:",
+    "options": [
+      {
+        "text": "nümayəndəlik,səhmdar,iri",
+        "correct": false
+      },
+      {
+        "text": "çox filiallı,az filiallı",
+        "correct": false
+      },
+      {
+        "text": "kiçik, orta, sistem əhəmiyyətli banklar",
+        "correct": true
+      },
+      {
+        "text": "kiçik,səhmdar,kommersiya",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik,mərkəzi,filiallı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 304,
+    "question": "Həcminə görə kredit ayrılır:",
+    "options": [
+      {
+        "text": "yalnız iri məbləğli kreditlər",
+        "correct": false
+      },
+      {
+        "text": "yalnız orta məbləğli kreditlər",
+        "correct": false
+      },
+      {
+        "text": "sonsuz kreditlər",
+        "correct": false
+      },
+      {
+        "text": "iri kreditlər, orta kreditlər,kiçik kreditlər, mikro kreditlər",
+        "correct": true
+      },
+      {
+        "text": "yalnız xırda məbləğli kreditlər",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 305,
+    "question": "Hüquqi şəxs kimi bankın malik olduğu kapitalın pul ilə ifadəsi:",
+    "options": [
+      {
+        "text": "ehtiyat fondu adlanır",
+        "correct": false
+      },
+      {
+        "text": "yığım fondu adlanır",
+        "correct": false
+      },
+      {
+        "text": "tənzimləmə fondu adlanır",
+        "correct": false
+      },
+      {
+        "text": "dəyən zərərin ödənilməsi üçün olan vəsaitlər adlanır",
+        "correct": false
+      },
+      {
+        "text": "nizamnamə kapitalı adlanır",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 306,
+    "question": "Dövriyyəyə pulun buraxılmasında və tədavüldən çıxarılmasında pulun miqdarı:",
+    "options": [
+      {
+        "text": "artıb və ya azala bilər",
+        "correct": true
+      },
+      {
+        "text": "sıfıra bərabər olur",
+        "correct": false
+      },
+      {
+        "text": "hər zaman artır",
+        "correct": false
+      },
+      {
+        "text": "hər zaman azalır",
+        "correct": false
+      },
+      {
+        "text": "sabit qalır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 307,
+    "question": "Nağdsız pul dövriyyəsinin nağd dövriyyə ilə müqayisədə tədavül xərcləri:",
+    "options": [
+      {
+        "text": "olduqca çoxdur",
+        "correct": false
+      },
+      {
+        "text": "olduqca azdır",
+        "correct": true
+      },
+      {
+        "text": "mövcud deyildir",
+        "correct": false
+      },
+      {
+        "text": "həddindən çoxdur",
+        "correct": false
+      },
+      {
+        "text": "sıfıra bərabərdir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 308,
+    "question": "Bazar iqtisadiyyatlı ölkələrdə Bank Sistemi ola bilər:",
+    "options": [
+      {
+        "text": "yalnız bir pilləli",
+        "correct": false
+      },
+      {
+        "text": "minimum on üç pilləli",
+        "correct": false
+      },
+      {
+        "text": "iki pilləli",
+        "correct": true
+      },
+      {
+        "text": "həm bir pilləli həm on dörd pilləli",
+        "correct": false
+      },
+      {
+        "text": "belə ölkələrdə bank sistemi olmur",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 309,
+    "question": "Bazar iqtisadiyyatlı ölkələrdə Bank Sistemi ola bilər:",
+    "options": [
+      {
+        "text": "pillələrin sayı yoxdur",
+        "correct": false
+      },
+      {
+        "text": "on dörd pilləli",
+        "correct": false
+      },
+      {
+        "text": "bir pilləli",
+        "correct": false
+      },
+      {
+        "text": "iki pilləli",
+        "correct": true
+      },
+      {
+        "text": "səkkiz pilləli",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 310,
+    "question": "Cəlb olunmuş vəsaitlər hansı əməliyyatlar hesabına səfərbər edilir",
+    "options": [
+      {
+        "text": "bankın vasitəçilik əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "trast əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "mənfəət əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "bankın aktiv əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "bankın passiv əməliyyatları",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 311,
+    "question": "Ödəniş xidməti təchizatçıları tərəfindən göstərilən xidmət necə adlanır?",
+    "options": [
+      {
+        "text": "ekvayrinq",
+        "correct": true
+      },
+      {
+        "text": "emissiya",
+        "correct": false
+      },
+      {
+        "text": "krosslaşdırma",
+        "correct": false
+      },
+      {
+        "text": "yaddaş plastik kartları",
+        "correct": false
+      },
+      {
+        "text": "köçürmə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 312,
+    "question": "Bankın təsisçilərinin təsis yığıncağında ....... iştirak etdikdə səlahiyyətli sayılır:",
+    "options": [
+      {
+        "text": "digər kredit təşkilatları",
+        "correct": false
+      },
+      {
+        "text": "bütün təsisçilər və ya onların nümayəndələri",
+        "correct": true
+      },
+      {
+        "text": "dövlət orqanları",
+        "correct": false
+      },
+      {
+        "text": "bütün işçilər",
+        "correct": false
+      },
+      {
+        "text": "müştərilər iştirak etdikdə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 313,
+    "question": "Azərbaycan Respublikasında fəaliyyət göstərən kredit təşkilatlarında xarici bank kapitalının iştirak limitini müəyyən edir:",
+    "options": [
+      {
+        "text": "Maliyyə Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "bankların əməkdaşları",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
+        "text": "Banklar Assosiasiyası",
+        "correct": false
+      },
+      {
+        "text": "Nazirlər Kabineti",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 314,
+    "question": "Azərbaycan Respublikası Mərkəzi Bankının nizamnamə fondu ....... təşkil edir:",
+    "options": [
+      {
+        "text": "500 mlrd. manat",
+        "correct": false
+      },
+      {
+        "text": "100 mln. manat",
+        "correct": false
+      },
+      {
+        "text": "500 min. manat",
+        "correct": false
+      },
+      {
+        "text": "500 mln. manat",
+        "correct": true
+      },
+      {
+        "text": "50 mln. manat",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 315,
+    "question": "Banknot nədir?",
+    "options": [
+      {
+        "text": "ölkənin Mərkəzi Bankı tərəfindən buraxılan çeklərdir",
+        "correct": false
+      },
+      {
+        "text": "plastik kartdır",
+        "correct": false
+      },
+      {
+        "text": "Milli Ödəniş Sistemidir",
+        "correct": false
+      },
+      {
+        "text": "depozitdir",
+        "correct": false
+      },
+      {
+        "text": "kağız pullardır",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 316,
+    "question": "İxtisaslaşmış banklar  hansı növ əməliyyat üzrə ixtisaslaşır?",
+    "options": [
+      {
+        "text": "bank əməliyyatlarının məhdud növü üzrə ixtisaslaşır",
+        "correct": true
+      },
+      {
+        "text": "fasiləli fəaliyyət göstərirlər",
+        "correct": false
+      },
+      {
+        "text": "düzgün cavab yoxdur",
+        "correct": false
+      },
+      {
+        "text": "fasiləsiz fəaliyyət göstərirlər",
+        "correct": false
+      },
+      {
+        "text": "bütün bank əməliyyatlarını həyata keçirirlər",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 317,
+    "question": "İstehlak kreditinin formasını göstərin:",
+    "options": [
+      {
+        "text": "xalq istehlakı mallarının istehsalı üçün verilən kredit",
+        "correct": false
+      },
+      {
+        "text": "bank müəssisəyə ssuda vermir",
+        "correct": false
+      },
+      {
+        "text": "sənaye müəssisəsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 318,
+    "question": "Bankın filialı yerinə yetirə bilər:",
+    "options": [
+      {
+        "text": "yalnız sənəd vermə əməliyyatlarını",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatına verilən",
+        "correct": true
+      },
+      {
+        "text": "yalnız əmtəə mübadiləsi əməliyyatlarını",
+        "correct": false
+      },
+      {
+        "text": "lisenziya əməliyyatlarını",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 319,
+    "question": "Aşağıdakılardan hansı Bank Sisteminin ünsürü deyil:",
+    "options": [
+      {
+        "text": "Bank Olmayan Kredit Təşkilatı (BOKT)",
+        "correct": false
+      },
+      {
+        "text": "kommersiya bankları",
+        "correct": false
+      },
+      {
+        "text": "emissiya bankları",
+        "correct": false
+      },
+      {
+        "text": "xəzinədarlıq",
+        "correct": true
+      },
+      {
+        "text": "poçt müəssisələri",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 320,
+    "question": "Bazar tipli Bank Sistemini bölüşdürücü bank sistemindən fərqləndirən nədir:",
+    "options": [
+      {
+        "text": "bankların mülkiyyət formalarına",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 321,
+    "question": "Bank Sistemi …. məcmusudur:",
+    "options": [
+      {
+        "text": "beynəlxalq kredit təşkilatlarının",
+        "correct": false
+      },
+      {
+        "text": "ölkədə pul tədavülünün",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 322,
+    "question": "Faktorinqin formalarını göstərin:",
+    "options": [
+      {
+        "text": "kredit və faktorinq",
+        "correct": false
+      },
+      {
+        "text": "malgöndərənin faktorinqi və malalanın faktorinqi",
+        "correct": true
+      },
+      {
+        "text": "depozit və faktorinq",
+        "correct": false
+      },
+      {
+        "text": "investisiya və faktorinq",
+        "correct": false
+      },
+      {
+        "text": "lizinq və faktorinq",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 323,
+    "question": "Trast əməliyyatı nə deməkdir?",
+    "options": [
+      {
+        "text": "qiymətli kağızların idarə olunması",
+        "correct": false
+      },
+      {
+        "text": "əmlakın idarə olunması",
+        "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
+      },
+      {
+        "text": "pul vasitələrinin idarə olunması",
+        "correct": false
+      },
+      {
+        "text": "daşınan əmlakın idarə olunması",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 324,
+    "question": "Bankların vasitəçilik əməliyyatlarıdır:",
+    "options": [
+      {
+        "text": "lizinq",
+        "correct": false
+      },
+      {
+        "text": "faktorinq",
+        "correct": false
+      },
+      {
+        "text": "forfeytinq",
+        "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
+      },
+      {
+        "text": "trast",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 325,
+    "question": "Bankların vasitəçilik əməliyyatlarını göstərin:",
+    "options": [
+      {
+        "text": "avans",
+        "correct": false
+      },
+      {
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "investisiya",
+        "correct": false
+      },
+      {
+        "text": "kredit",
+        "correct": false
+      },
+      {
+        "text": "trast",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 326,
+    "question": "Aşağıdakı qiymətli kağızlardan hansı nağdsız hesablaşmalarda hesablaşma sənədi kimi isitfadə olunur:",
+    "options": [
+      {
+        "text": "çek",
+        "correct": true
+      },
+      {
+        "text": "səhm",
+        "correct": false
+      },
+      {
+        "text": "istiqraz",
+        "correct": false
+      },
+      {
+        "text": "varrant",
+        "correct": false
+      },
+      {
+        "text": "konossament",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 327,
+    "question": "Qiymətli kağızdır:",
+    "options": [
+      {
+        "text": "metal pullar",
+        "correct": false
+      },
+      {
+        "text": "depozit sertifikatı",
+        "correct": true
+      },
+      {
+        "text": "qiymətli metallar",
+        "correct": false
+      },
+      {
+        "text": "kredit",
+        "correct": false
+      },
+      {
+        "text": "plastik kartlar",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 328,
+    "question": "Likvidlik dedikdə ........ başa düşülür:",
+    "options": [
+      {
+        "text": "bankın İdarə Heyəti qarşısındakı bacarığı",
+        "correct": false
+      },
+      {
+        "text": "bankın İnvestisiya Şirkətlərinin qarşısındakı fəaliyyət bacarığı",
+        "correct": false
+      },
+      {
+        "text": "bankın Müşahidə Şurası qarşısındakı bacarığı",
+        "correct": false
+      },
+      {
+        "text": "bankın əmanətçilərinin və digər borcluların",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 329,
+    "question": "Veksel və çekdəki verilmə imzası … adlanır:",
+    "options": [
+      {
+        "text": "konosament",
+        "correct": false
+      },
+      {
+        "text": "inkasso",
+        "correct": false
+      },
+      {
+        "text": "trasslaşdırma",
+        "correct": false
+      },
+      {
+        "text": "indossament",
+        "correct": true
+      },
+      {
+        "text": "krosslaşdırma",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 330,
+    "question": "Qiymət riskini göstərin:",
+    "options": [
+      {
+        "text": "bankın dəyişmə riski",
+        "correct": false
+      },
+      {
+        "text": "depozitin dəyişmə riski",
+        "correct": false
+      },
+      {
+        "text": "həyatın dəyişmə riski",
+        "correct": false
+      },
+      {
+        "text": "pulun dəyişmə riski",
+        "correct": false
+      },
+      {
+        "text": "% dərəcəsinin dəyişmə riski",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 331,
+    "question": "Qiymətli kağızlar bazarının məqsədi....?",
+    "options": [
+      {
+        "text": "sərbəst maliyyə resurslarını səfərbər etməkdir",
+        "correct": true
+      },
+      {
+        "text": "inflyasiyaya təsir etməkdir",
+        "correct": false
+      },
+      {
+        "text": "bank yaratmaqdır",
+        "correct": false
+      },
+      {
+        "text": "əmək haqqı verməkdir",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatları (BOKT) yaratmaqdır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 332,
+    "question": "Səhmdar Cəmiyyət nədir?",
+    "options": [
+      {
+        "text": "fiziki və hüquqi şəxslərin sazişi",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 333,
+    "question": "Faktorinq əməliyyatı zamanı müştəri ödəniş etmək hüququnu güzəştə gedir ........:",
+    "options": [
+      {
+        "text": "dövlətə",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Banka",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilərə",
+        "correct": true
+      },
+      {
+        "text": "sığorta kompaniyalarına",
+        "correct": false
+      },
+      {
+        "text": "vergi orqanlarına",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 334,
+    "question": "Operativ lizinqin müqavilə müddəti başa çatdıqda:",
+    "options": [
+      {
+        "text": "mülkiyyət hüququnun keçməsi mümkün deyil",
+        "correct": false
+      },
+      {
+        "text": "lizinq əşyasının bir hissəsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 335,
+    "question": "Kommersiya bankının kredit əməliyyatları ............. ilə əlaqəlidir:",
+    "options": [
+      {
+        "text": "müştərilərə pul vəsaitlərin əvəzsiz ötürülməsi",
+        "correct": false
+      },
+      {
+        "text": "qaytarılma müddətini müəyyən",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 336,
+    "question": ".......... kommersiya bankının funksiyasıdır:",
+    "options": [
+      {
+        "text": "müştərilərə hesablaşma-kassa xidmətlərinin göstərilməsi",
+        "correct": true
+      },
+      {
+        "text": "sığorta təşkilatlarının fəaliyyətinə nəzarət",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın kreditləşdirilməsi",
+        "correct": false
+      },
+      {
+        "text": "banknot emissiyası",
+        "correct": false
+      },
+      {
+        "text": "poçt filiallarının fəaliyyətinə nəzarət",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 337,
+    "question": "Banklar müştərilərin hesabları üzrə əməliyyatları nəyə əsasən həyata keçirir:",
+    "options": [
+      {
+        "text": "gömrük sənədlərinə əsasən",
+        "correct": false
+      },
+      {
+        "text": "hesablaşma sənədlərinə əsasən",
+        "correct": true
+      },
+      {
+        "text": "nəqliyyat sənədlərinə əsasən",
+        "correct": false
+      },
+      {
+        "text": "uyğunluq sertifikatına əsasən",
+        "correct": false
+      },
+      {
+        "text": "hesab-qaiməyə əsasən",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 338,
+    "question": "Kredit təşkilatının buraxdığı səhmlər hansı qurum tərəfindən dövlət qeydiyyatına alınır ?",
+    "options": [
+      {
+        "text": "İqtisadiyyat Nazirliyyi",
+        "correct": false
+      },
+      {
+        "text": "kommersiya bankları",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
+        "text": "Nazirlər Kabineti",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 339,
+    "question": "Səhmdar Cəmiyyətlər neçə formada yaradılır və hansılardır?",
+    "options": [
+      {
+        "text": "yalnız qapalı tipli",
+        "correct": false
+      },
+      {
+        "text": "bank formasında və açıq tipli formada",
+        "correct": false
+      },
+      {
+        "text": "qarışıq formada, açıq formada, qapalı formada",
+        "correct": false
+      },
+      {
+        "text": "2 formada: açıq və qapalı tipli",
+        "correct": true
+      },
+      {
+        "text": "yalnız açıq tipli",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 340,
+    "question": "Kommersiya banklarının resurslarını göstərin:",
+    "options": [
+      {
+        "text": "hesabdan silinən vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "yalnız şəxsi vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "yalnız mənfəətə cəlb olunmuş vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "yalnız cəlb olunmuş vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "şəxsi(xüsusi) vəsaitlər, cəlb olunmuş vəsaitlər",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 341,
+    "question": "İpoteka krediti kreditin........:",
+    "options": [
+      {
+        "text": "formasıdır",
+        "correct": true
+      },
+      {
+        "text": "uçotudur",
+        "correct": false
+      },
+      {
+        "text": "müddətidir",
+        "correct": false
+      },
+      {
+        "text": "növüdür",
+        "correct": false
+      },
+      {
+        "text": "prinsipidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 342,
+    "question": "Mərkəzi Bank müflis elan oluna bilərmi?",
+    "options": [
+      {
+        "text": "müflis elan edilə bilər",
+        "correct": false
+      },
+      {
+        "text": "müflis elan edilə bilməz",
+        "correct": true
+      },
+      {
+        "text": "müflis elan olunmaq Mərkəzi Bankın funksiyasıdır",
+        "correct": false
+      },
+      {
+        "text": "lisenziyası ləğv edilə bilməz",
+        "correct": false
+      },
+      {
+        "text": "lisenziyası ləğv edilə bilər",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 343,
+    "question": "Banknot emissiyası Mərkəzi Bankın..... əməliyyatıdır:",
+    "options": [
+      {
+        "text": "məzənnə",
+        "correct": false
+      },
+      {
+        "text": "uçot",
+        "correct": false
+      },
+      {
+        "text": "passiv",
+        "correct": true
+      },
+      {
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "aktiv",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 344,
+    "question": "Azərbaycan Respublikasında bank fəaliyəti ilə məşğul olmaqdan ötrü lisensiyanı kim verir:",
+    "options": [
+      {
+        "text": "Statistika Komitəsi",
+        "correct": false
+      },
+      {
+        "text": "İqtisadiyyat Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "Milli Məclis",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
+        "text": "Nazirlər Kabineti",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 345,
+    "question": "Bank menecmentinin əsas vəzifəsi hesab edilir:",
+    "options": [
+      {
+        "text": "müştərinin istəyinə görə hesablaşmaları aparmaq",
+        "correct": false
+      },
+      {
+        "text": "bankın likvidliyini hesablamaq",
+        "correct": false
+      },
+      {
+        "text": "dəyəri olmayan, istifadə edilməyən",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 346,
+    "question": "Bank fəaliyyətinin planlaşdırılması prosesi banka nəyi müəyyənləşdirməyə imkan verir?",
+    "options": [
+      {
+        "text": "bankın məqsədini, vəzifələrini, strategiya və taktikasını",
+        "correct": true
+      },
+      {
+        "text": "müştərilərin tələblərinin yerinə yetirilməsini",
+        "correct": false
+      },
+      {
+        "text": "kreditləşmə prosesinin müqavilə əsasında aparılmasını",
+        "correct": false
+      },
+      {
+        "text": "ödəniş sisteminin məqsədyönümlülüyünü",
+        "correct": false
+      },
+      {
+        "text": "bank fəaliyyətinin əlaqələndirilməsini",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 347,
+    "question": "Bank personalının idarə edilməsinin funksional həlqəsidir:",
+    "options": [
+      {
+        "text": "kadrların seçilib yerləşdirilməsi siyasəti",
+        "correct": false
+      },
+      {
+        "text": "əməyin ödəniş formalarının olmaması",
+        "correct": false
+      },
+      {
+        "text": "əmək intizamı vəziyyəti",
+        "correct": false
+      },
+      {
+        "text": "əmək ödənişlərinin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 348,
+    "question": "Bankın qeyri-qənaətbəxş idarə edilmə əlamətidir:",
+    "options": [
+      {
+        "text": "bank məhsulları haqqında geniş məlumat sistemini yaratmaq",
+        "correct": false
+      },
+      {
+        "text": "kreditləşmə prinsiplərini əldə rəhbər tutmaq",
+        "correct": false
+      },
+      {
+        "text": "kredit və depozitlərin müddətlərinə əməl etməmək",
+        "correct": true
+      },
+      {
+        "text": "personalın idarə edilməsi",
+        "correct": false
+      },
+      {
+        "text": "müştərilərin tələblərinin ödənilməsinə istinad etmək",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 349,
+    "question": "Bank sferasında differensial xidmət nəyə əsaslanır?",
+    "options": [
+      {
+        "text": "risk-menecmentin tələblərinə",
+        "correct": false
+      },
+      {
+        "text": "bankın müştərilərlə qarşılıqlı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 350,
+    "question": "Marketinq xidmətinin fəaliyyətinə aiddir:",
+    "options": [
+      {
+        "text": "tədbirlərin həyata keçirilməsinin hazırlanması",
+        "correct": false
+      },
+      {
+        "text": "bank rəhbərliyinə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 351,
+    "question": "Bank menecmentinin əsas prinsiplərindən biridir:",
+    "options": [
+      {
+        "text": "heyyətin səmərəli təşkili və ondan səmərəli istifadə",
+        "correct": true
+      },
+      {
+        "text": "daxili uçotun vəziyyətini müəyyənləşdirmək",
+        "correct": false
+      },
+      {
+        "text": "bankın əməliyyatlarını həyata keçirmək",
+        "correct": false
+      },
+      {
+        "text": "bank texnologiyalarının səmərəsizliyi",
+        "correct": false
+      },
+      {
+        "text": "bank fəaliyyətinin nəticələri və göstəricilərinin uçotu",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 352,
+    "question": "Faktor- vasitəçi rolunda çıxış edə bilər:",
+    "options": [
+      {
+        "text": "Mərkəzi Bankın faktorinq idarəsi",
+        "correct": false
+      },
+      {
+        "text": "bankın faktorinq bölməsi",
+        "correct": true
+      },
+      {
+        "text": "bankın uçot şöbəsi",
+        "correct": false
+      },
+      {
+        "text": "bankın kredit şöbəsi",
+        "correct": false
+      },
+      {
+        "text": "bankın baş mühasibi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 353,
+    "question": "Vasitəçilik əməliyyatı hesab edilir:",
+    "options": [
+      {
+        "text": "kassa əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "ipoteka",
+        "correct": false
+      },
+      {
+        "text": "forfeytinq",
+        "correct": true
+      },
+      {
+        "text": "kredit",
+        "correct": false
+      },
+      {
+        "text": "investisiya",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 354,
+    "question": "Bankın vasitəçilik əməliyyatı hesab edilir:",
+    "options": [
+      {
+        "text": "maliyyə əməliyyatı",
+        "correct": false
+      },
+      {
+        "text": "kreditlərin rəsmiləşdirilməsi əməliyyatı",
+        "correct": false
+      },
+      {
+        "text": "kreditləşmə obyektlərinin müəyyən olunma əməliyyatı",
+        "correct": false
+      },
+      {
+        "text": "faktorinq əməliyyatı",
+        "correct": true
+      },
+      {
+        "text": "bankda hesabların açılması əməliyyatı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 355,
+    "question": "Bankın trast şöbələri öz xidmətinə görə alırlar:",
+    "options": [
+      {
+        "text": "günəmuzd əmək haqqı",
+        "correct": false
+      },
+      {
+        "text": "status",
+        "correct": false
+      },
+      {
+        "text": "differensial əmək haqqı",
+        "correct": false
+      },
+      {
+        "text": "lisenziya",
+        "correct": false
+      },
+      {
+        "text": "komisyon mükafat",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 356,
+    "question": "Lizinq alanların aldıqları kredit....... formasında olur:",
+    "options": [
+      {
+        "text": "əmlak",
+        "correct": true
+      },
+      {
+        "text": "nağd pul",
+        "correct": false
+      },
+      {
+        "text": "pul",
+        "correct": false
+      },
+      {
+        "text": "nağdsız pul",
+        "correct": false
+      },
+      {
+        "text": "veksel",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 357,
+    "question": "Bankın vasitəçilik əməliyyatına daxildir:",
+    "options": [
+      {
+        "text": "kredit qabiliyyətini müəyyən etmək əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "trast əməliyyatları",
+        "correct": true
+      },
+      {
+        "text": "blank əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "tibet əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "investisiya əməliyyatları",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 358,
+    "question": "Kommersiya banklarının vasitəçilik əməliyyatıdır:",
+    "options": [
+      {
+        "text": "sığorta əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "sahələrin kreditləşdirilməsi",
+        "correct": false
+      },
+      {
+        "text": "lizinq əməliyyatları",
+        "correct": true
+      },
+      {
+        "text": "investisiya əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "kənd təsərrüfatının kreditləşdirilməsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 359,
+    "question": "Vasitəçilik əməliyyatıdır:",
+    "options": [
+      {
+        "text": "balans",
+        "correct": false
+      },
+      {
+        "text": "kredit",
+        "correct": false
+      },
+      {
+        "text": "sığorta əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "forfeytinq",
+        "correct": true
+      },
+      {
+        "text": "istehlak əməliyyatları",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 360,
+    "question": "Bankların faiz gəlirlərinin təhlilinə aiddir:",
+    "options": [
+      {
+        "text": "qiymətli kağızlar üzrə gəlirlərin təhlili",
+        "correct": false
+      },
+      {
+        "text": "komisyon gəlirlərə görə təhlil",
+        "correct": false
+      },
+      {
+        "text": "kreditlər üzrə gəlirlərin təhlili",
+        "correct": false
+      },
+      {
+        "text": "valyutalar üzrə gəlirlərin təhlili",
+        "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 361,
+    "question": "Bank aktivlərinin təhlili dedikdə...........nə başa düşülür:",
+    "options": [
+      {
+        "text": "hamısı",
+        "correct": true
+      },
+      {
+        "text": "bank resurslarının məbləği",
+        "correct": false
+      },
+      {
+        "text": "bank resurslarının müddəti",
+        "correct": false
+      },
+      {
+        "text": "bank resurslarından istifadə edilməsi",
+        "correct": false
+      },
+      {
+        "text": "bank resurslarının məqsədi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 362,
+    "question": "Kommersiya banklarının II dərəcəli kapitalı .....kapitaldır:",
+    "options": [
+      {
+        "text": "I və II dərəcəli kapitalın vəsaitləri olan",
+        "correct": false
+      },
+      {
+        "text": "əlavə",
+        "correct": true
+      },
+      {
+        "text": "sonuncu",
+        "correct": false
+      },
+      {
+        "text": "ilkin",
+        "correct": false
+      },
+      {
+        "text": "ilkin və sonuncu",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 363,
+    "question": "Bankın filialı ......:",
+    "options": [
+      {
+        "text": "bank lisenziyası verən şöbədir",
+        "correct": false
+      },
+      {
+        "text": "bankın öhdəliklərinə görə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 364,
+    "question": "Kommersiya banklarının nizamnamə kapitalının minimum həcmi.......:",
+    "options": [
+      {
+        "text": "500 mln. manatdır",
+        "correct": false
+      },
+      {
+        "text": "10 mln. manatdır",
+        "correct": false
+      },
+      {
+        "text": "40 mln. manatdır",
+        "correct": false
+      },
+      {
+        "text": "50 mln. manatdır",
+        "correct": true
+      },
+      {
+        "text": "məhdudiyyət qoyulmur",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 365,
+    "question": "Bankın Nizamnamə kapitalında dəyişiklik ... edilir:",
+    "options": [
+      {
+        "text": "Muşahidə Şurasının qərarı ilə",
+        "correct": false
+      },
+      {
+        "text": "Auditorlar Palatasının qərarı ilə",
+        "correct": false
+      },
+      {
+        "text": "İdarə Heyətinin qərarı ilə",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyinin razılığı ilə",
+        "correct": false
+      },
+      {
+        "text": "Səhmdarların Ümumi Yığıncağının qərarı ilə",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 366,
+    "question": "Kommersiya bankları ……üzrə əməliyyatları yerinə yetirirlər:",
+    "options": [
+      {
+        "text": "yalnız kredit əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "uçot dərəcəsini müəyyənləşdirirlər",
+        "correct": false
+      },
+      {
+        "text": "yalnız fiziki şəxslərin pul",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 367,
+    "question": "Kommersiya banklarının strateji vəzifələrini müəyyən edir:",
+    "options": [
+      {
+        "text": "Mərkəzi Bankın İdarə Heyəti",
+        "correct": false
+      },
+      {
+        "text": "Səhmdarların Ümumi Yığıncağı",
+        "correct": true
+      },
+      {
+        "text": "Kredit Komitəsi",
+        "correct": false
+      },
+      {
+        "text": "Bankın İdarə Heyəti",
+        "correct": false
+      },
+      {
+        "text": "Audit Komitəsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 368,
+    "question": "Kommersiya bankının funksiyasıdır:",
+    "options": [
+      {
+        "text": "sənəd dövriyyəsini həyata keçirmək",
+        "correct": false
+      },
+      {
+        "text": "Milli Məclisə hesabat vermək",
+        "correct": false
+      },
+      {
+        "text": "vəsaitlərin cəlb edilməsi",
+        "correct": true
+      },
+      {
+        "text": "emissiya bankıdır",
+        "correct": false
+      },
+      {
+        "text": "banklar bankıdır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 369,
+    "question": "Kommersiya banklarının nizamnamə kapitalı yaradılır:",
+    "options": [
+      {
+        "text": "bankın yaranma anında Mərkəzi Bankın vəsaiti hesabına",
+        "correct": false
+      },
+      {
+        "text": "bank yarandıqdan sonra təsisçilər tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "büdcə vəsaiti hesabına",
+        "correct": false
+      },
+      {
+        "text": "bankın yaranması anında təsisçilərin vəsaiti hesabına",
+        "correct": true
+      },
+      {
+        "text": "bankın yaranma anında dövlət vəsaiti hesabına",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 370,
+    "question": "Kommersiya banklarının funksiyasıdır:",
+    "options": [
+      {
+        "text": "Milli Məclisə hesabat vermək",
+        "correct": false
+      },
+      {
+        "text": "Prezidentə hesabat vermək",
+        "correct": false
+      },
+      {
+        "text": "banknot emissiyası",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyinə hesabat vermək",
+        "correct": false
+      },
+      {
+        "text": "müştərilərə hesablaşma-kassa xidməti göstərmək",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 371,
+    "question": "Kommersiya bankı ………:",
+    "options": [
+      {
+        "text": "fiziki və hüquqi şəxslərin kreditorudur",
+        "correct": true
+      },
+      {
+        "text": "depozit siyasətini müəyyən edir",
+        "correct": false
+      },
+      {
+        "text": "dövlətin xəzinədarıdır",
+        "correct": false
+      },
+      {
+        "text": "regional kassa hesablaşma mərkəzidir",
+        "correct": false
+      },
+      {
+        "text": "dövlətin pul siyasətini müəyyən edir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 372,
+    "question": "Daxili audit necə fəaliyyət göstərir?",
+    "options": [
+      {
+        "text": "monetar",
+        "correct": false
+      },
+      {
+        "text": "müstəqil",
+        "correct": true
+      },
+      {
+        "text": "qanundan kənar",
+        "correct": false
+      },
+      {
+        "text": "qərəzli",
+        "correct": false
+      },
+      {
+        "text": "asılı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 373,
+    "question": "Daxili auditin məqsədi:",
+    "options": [
+      {
+        "text": "aşkar edilmiş nöqsanların aradan",
+        "correct": true
+      },
+      {
+        "text": "investisiya əməliyyatlarını həyata keçirməkdir",
+        "correct": false
+      },
+      {
+        "text": "bank lisenziyası verməkdir",
+        "correct": false
+      },
+      {
+        "text": "depozit cəlb etməkdir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 374,
+    "question": "Daxili auditin prinsiplərini seçin:",
+    "options": [
+      {
+        "text": "peşəkarlıq",
+        "correct": false
+      },
+      {
+        "text": "davamlılıq",
+        "correct": false
+      },
+      {
+        "text": "tərəfsizlik",
+        "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
+      },
+      {
+        "text": "müstəqillik",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 375,
+    "question": "Bankın marketinq prosesi bir sıra mərhələlərdən ibarətdir:",
+    "options": [
+      {
+        "text": "maliyyə bazarının kompleks tətbiqi",
+        "correct": false
+      },
+      {
+        "text": "istehlakçıların konkret bank",
+        "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 376,
+    "question": "İri məbləğli ödənişlərin köçürülməsi sistemidir:",
+    "options": [
+      {
+        "text": "AZİPS",
+        "correct": true
+      },
+      {
+        "text": "kredit sistemi",
+        "correct": false
+      },
+      {
+        "text": "XÖHKS",
+        "correct": false
+      },
+      {
+        "text": "HÖP",
+        "correct": false
+      },
+      {
+        "text": "depozit sistemi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 377,
+    "question": "Mərkəzi Bankın pul siyasəti alətidir:",
+    "options": [
+      {
+        "text": "açıq bazarda əməliyyatların aparılması",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatlarının yenidən maliyyələşdirilməsi",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatları üçün",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 378,
+    "question": "Manatın xarici valyutalara nisbətdə rəsmi məzənnəsini mütəmadi müəyyən edir və elan edir:",
+    "options": [
+      {
+        "text": "kommersiya bankları",
+        "correct": false
+      },
+      {
+        "text": "maliyyə idarələri",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
+        "text": "SWİFT",
+        "correct": false
+      },
+      {
+        "text": "BOKT-lar (Bank Olmayan Kredit Təşkilatı)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 379,
+    "question": "\"Milli Bank\" ifadəsi nə zamandan \"Mərkəzi Bank\" ifadəsi ilə əvəz olunmuşdur:",
+    "options": [
+      {
+        "text": "1990",
+        "correct": false
+      },
+      {
+        "text": "2023",
+        "correct": false
+      },
+      {
+        "text": "2020",
+        "correct": false
+      },
+      {
+        "text": "2009",
+        "correct": true
+      },
+      {
+        "text": "2000",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 380,
+    "question": "Kütləvi Ödənişlər üzrə Mərkəzləşdirilmiş İnformasiya Sistemidir:",
+    "options": [
+      {
+        "text": "HÖP",
+        "correct": false
+      },
+      {
+        "text": "AZİPS",
+        "correct": false
+      },
+      {
+        "text": "SWİFT",
+        "correct": false
+      },
+      {
+        "text": "AÖS",
+        "correct": false
+      },
+      {
+        "text": "KÖMİS",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 381,
+    "question": "…. nağd pul nişanlarının emissiyasında inhisarçı hüquqa malikdir:",
+    "options": [
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
+        "text": "Auditorlar Palatası",
+        "correct": false
+      },
+      {
+        "text": "Vergilər Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "Parlament",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 382,
+    "question": "Bank passivlərinin təhlilində bir qayda olaraq....kapitalın təhlilinə xüsusi yer verilir:",
+    "options": [
+      {
+        "text": "istehlak",
+        "correct": false
+      },
+      {
+        "text": "məcmu",
+        "correct": true
+      },
+      {
+        "text": "trast",
+        "correct": false
+      },
+      {
+        "text": "ipoteka",
+        "correct": false
+      },
+      {
+        "text": "risk",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 383,
+    "question": "Banklarda maliyyə təhlilinin əsas məlumat mənbəyini təşkil edən sənədlər hansılardır:",
+    "options": [
+      {
+        "text": "xarici normativ sənədlər",
+        "correct": false
+      },
+      {
+        "text": "daxili normativ sənədlər",
+        "correct": false
+      },
+      {
+        "text": "maliyyə,mühasibat və statistik hesabatlar",
+        "correct": true
+      },
+      {
+        "text": "təsis sənədləri",
+        "correct": false
+      },
+      {
+        "text": "biznes planlar",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 384,
+    "question": "Banklar və Bank Olmayan Kredit Təşkilatları (BOKT) ölkə ərazisində hesablaşmaların aparılmasından ötrü biri digərində … … hesablar açırlar:",
+    "options": [
+      {
+        "text": "loro",
+        "correct": false
+      },
+      {
+        "text": "xəzinə",
+        "correct": false
+      },
+      {
+        "text": "veksel",
+        "correct": false
+      },
+      {
+        "text": "müxbir",
+        "correct": true
+      },
+      {
+        "text": "büdcə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 385,
+    "question": "Mərkəzi Bankın əsas resurs mənbəyidir:",
+    "options": [
+      {
+        "text": "lizinq faizləri",
+        "correct": false
+      },
+      {
+        "text": "nağdsız ödənişlər",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərə verdiyi kreditlər",
+        "correct": false
+      },
+      {
+        "text": "dondurulmuş vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "banknot emissiyası",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 386,
+    "question": "Mərkəzi Bankın nizamnamə fondu ........ təşkil edir:",
+    "options": [
+      {
+        "text": "500 mln.manat",
+        "correct": true
+      },
+      {
+        "text": "500 min manat",
+        "correct": false
+      },
+      {
+        "text": "5 mln.manat",
+        "correct": false
+      },
+      {
+        "text": "25 mln.dollar",
+        "correct": false
+      },
+      {
+        "text": "8 mln.manat",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 387,
+    "question": "Manat necə valyutadır:",
+    "options": [
+      {
+        "text": "ehtiyat",
+        "correct": false
+      },
+      {
+        "text": "qismən konvertasiya olunan",
+        "correct": true
+      },
+      {
+        "text": "açıq",
+        "correct": false
+      },
+      {
+        "text": "qapalı",
+        "correct": false
+      },
+      {
+        "text": "tam dönərli",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 388,
+    "question": "O hansı valyutadır ki, yalnız bir ölkənin hüdudları çərçivəsində fəalliyət göstərir və heç bir xarici valyutaya dəyişdirilmir:",
+    "options": [
+      {
+        "text": "dünya pulu",
+        "correct": false
+      },
+      {
+        "text": "açıq valyuta",
+        "correct": false
+      },
+      {
+        "text": "qapalı valyuta",
+        "correct": true
+      },
+      {
+        "text": "qismən konvertasiya olunan",
+        "correct": false
+      },
+      {
+        "text": "ehtiyat valyutası",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 389,
+    "question": "Akkreditivin müsbət cəhəti:",
+    "options": [
+      {
+        "text": "bank hesabında olan vəsaitin çoxluğudur",
+        "correct": false
+      },
+      {
+        "text": "malgöndərənə ödəmənin yerinə",
+        "correct": true
+      },
+      {
+        "text": "fazilərin ödənilməsinin tezliyidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 390,
+    "question": "Çek kitabçalarının blank formaları müəyyən edilir:",
+    "options": [
+      {
+        "text": "rezidentlər tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "auditorlar tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Sığorta təşkilatları tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "İqtisadiyyat Nazirliyi tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank tərəfindən",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 391,
+    "question": "Bank tərəfindən ödəyicidən ödəmə tapşırığı icra üçün qəbul edilir, yalnız:",
+    "options": [
+      {
+        "text": "ödəyicinin hesabında vəsaiti olduğu halda",
+        "correct": true
+      },
+      {
+        "text": "ödəyici vəsaiti başqasına verdikdə",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın İdarəçiliyinin ödəmə üçün razılığı əsasında",
+        "correct": false
+      },
+      {
+        "text": "ödəyici kommersiya təşkilatı olduğu halda",
+        "correct": false
+      },
+      {
+        "text": "benefisiar bankın razılığı ilə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 392,
+    "question": "Mənfəət əldə etmək üçün bankların öz xüsusi vəsaitlərindən və cəlb olunmuş vəsaitlərdən istifadə etməsi .........:",
+    "options": [
+      {
+        "text": "lizinq əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "aktiv əməliyyatdır",
+        "correct": true
+      },
+      {
+        "text": "aktiv və passiv əməliyyatdır",
+        "correct": false
+      },
+      {
+        "text": "passiv əməliyyatdır",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik əməliyyatıdır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 393,
+    "question": "Banklarda I dərəcəli kapital hesab edilir:",
+    "options": [
+      {
+        "text": "əlavə kapital,sonradan yaradılan əlavə kapital",
+        "correct": false
+      },
+      {
+        "text": "II dərəcəli kapital və son kapital",
+        "correct": false
+      },
+      {
+        "text": "əsas kapital",
+        "correct": true
+      },
+      {
+        "text": "sonradan yaranan kapital",
+        "correct": false
+      },
+      {
+        "text": "əsas və II dərəcəli kapital",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 394,
+    "question": "Banklarda depozit əməliyyatları hansı vəsaitlər hesab olunur?",
+    "options": [
+      {
+        "text": "bankın dövriyyəsində olan vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "müştərilərin borcu olan vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "bankların fiziki və hüquqi şəxslərə verdikləri kreditlər",
+        "correct": false
+      },
+      {
+        "text": "cəlb edilmiş vəsaitlər",
+        "correct": true
+      },
+      {
+        "text": "bank masasında olan vəsaitlər",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 395,
+    "question": "Qeyri-kommersiya təşkilatları bankın səhmdarı ola bilərlər?",
+    "options": [
+      {
+        "text": "Nazirlər Kabinetinin razılığı ilə ola bilər",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirinin razılığı ilə ola bilər",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın razılığı ilə ola bilər",
+        "correct": false
+      },
+      {
+        "text": "Sığorta İdarəsinin icazasi ilə ola bilər",
+        "correct": false
+      },
+      {
+        "text": "ola bilməzlər",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 396,
+    "question": "Kommersiya banklarına lisenziyanı (xüsusi icazə) kim verir?",
+    "options": [
+      {
+        "text": "Azərbaycan Respublikasının Mərkəzi Bankı",
+        "correct": true
+      },
+      {
+        "text": "Beynəlxalq Bank",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "Banklar Assosiasiyası",
+        "correct": false
+      },
+      {
+        "text": "bankın nümayəndəliyi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 397,
+    "question": "Bank lisenziyası nədir və kim tərəfindən verilir:",
+    "options": [
+      {
+        "text": "xüsusi razılıqdır və Mərkəzi Bank tərəfindən verilir",
+        "correct": true
+      },
+      {
+        "text": "xüsusi razılıqdır yalnız",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 398,
+    "question": "Bank lisenziyası ləğv edilə bilərmi?",
+    "options": [
+      {
+        "text": "kredit bürosunun qərarı ilə ləğv edilə bilər",
+        "correct": false
+      },
+      {
+        "text": "beş illiyinə ləğv edilə bilər",
+        "correct": false
+      },
+      {
+        "text": "ləğv edilə bilər",
+        "correct": true
+      },
+      {
+        "text": "ləğv edilə bilməz",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatlarının",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 399,
+    "question": "Nağdsız hesablaşma sistemlərinin sabit işləməsini təmin etmək, onların fəaliyyətini təşkil etmək, əlaqələndirmək və nəzarət etmək ……səlahiyyətindədir:",
+    "options": [
+      {
+        "text": "kommersiya banklarının",
+        "correct": false
+      },
+      {
+        "text": "Milli Depozit Sisteminin",
+        "correct": false
+      },
+      {
+        "text": "Hesablama Palatasının",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın",
+        "correct": true
+      },
+      {
+        "text": "Klirinq Mərkəzinin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 400,
+    "question": "Mərkəzi Bankın balansının passiv maddəsidir:",
+    "options": [
+      {
+        "text": "ehtiyatda olan nağd pul kütləsi",
+        "correct": false
+      },
+      {
+        "text": "qiymətli metallar",
+        "correct": false
+      },
+      {
+        "text": "qiymətli kağızlar",
+        "correct": false
+      },
+      {
+        "text": "qeyri-rezidentlərin hesablarında",
+        "correct": false
+      },
+      {
+        "text": "dövriyyədə olan nağd pul kütləsi",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 401,
+    "question": "Kredit təşkilatlarının yenidən maliyyələşdirilməsi:",
+    "options": [
+      {
+        "text": "Mərkəzi Bankın pul siyasəti alətidir",
+        "correct": true
+      },
+      {
+        "text": "Mərkəzi Bankın uçot əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın nəzarət etməsidir",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın əsas məqsədidir",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın təşkilati funksiyasıdır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 402,
+    "question": "Mərkəzi Bankın yenidən maliyyələşmə əməliyyatı ...:",
+    "options": [
+      {
+        "text": "infliyasiya siyasəti alətidir",
+        "correct": false
+      },
+      {
+        "text": "pul siyasəti alətidir",
+        "correct": true
+      },
+      {
+        "text": "istehlak krediti alətidir",
+        "correct": false
+      },
+      {
+        "text": "kontokorrent kredit siyasəti alətidir",
+        "correct": false
+      },
+      {
+        "text": "dövriyyə krediti siyasəti alətidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 403,
+    "question": "Banknot emissiyası ……xarakteri daşıyır:",
+    "options": [
+      {
+        "text": "fiskal",
+        "correct": false
+      },
+      {
+        "text": "büdcə",
+        "correct": false
+      },
+      {
+        "text": "kredit",
+        "correct": true
+      },
+      {
+        "text": "təmənnalı",
+        "correct": false
+      },
+      {
+        "text": "maliyyə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 404,
+    "question": "Mərkəzi Bankın pul kütləsinin artırılmasına yönəldilən siyasəti necə adlanır:",
+    "options": [
+      {
+        "text": "kommersion",
+        "correct": false
+      },
+      {
+        "text": "restruksion",
+        "correct": false
+      },
+      {
+        "text": "devalvasion",
+        "correct": false
+      },
+      {
+        "text": "ekspansionist",
+        "correct": true
+      },
+      {
+        "text": "investision",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 405,
+    "question": "Azərbaycan Respublikası Mərkəzi Bankının nizamnamə kapitalı və əmlakı ............. mülkiyyətidir:",
+    "options": [
+      {
+        "text": "özəl",
+        "correct": false
+      },
+      {
+        "text": "müştərək",
+        "correct": false
+      },
+      {
+        "text": "səhmdar",
+        "correct": false
+      },
+      {
+        "text": "xüsusi",
+        "correct": false
+      },
+      {
+        "text": "dövlət",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 406,
+    "question": ".......Azərbaycan Respublikası Mərkəzi Bankının fəaliyyət məqsədi deyil:",
+    "options": [
+      {
+        "text": "fiziki şəxslərin kreditləşdirilməsi",
+        "correct": true
+      },
+      {
+        "text": "manatın möhkəmliyinin təmin edilməsi",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatlarının kreditləşdirilməsi",
+        "correct": false
+      },
+      {
+        "text": "manatın dayanıqlığının təmin edilməsi",
+        "correct": false
+      },
+      {
+        "text": "uçot dərəcəsinin müəyyən edilməsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 407,
+    "question": "Açıq bazar əməliyatları Mərkəzi Bankın …. üzrə fəaliyyətidir:",
+    "options": [
+      {
+        "text": "nağd pulların alqı satqısı",
+        "correct": false
+      },
+      {
+        "text": "qiymətli kağızların alqı satqısı",
+        "correct": true
+      },
+      {
+        "text": "əmtəələrin alqı satqısı",
+        "correct": false
+      },
+      {
+        "text": "valyutaların alqı satqısı",
+        "correct": false
+      },
+      {
+        "text": "plastik kartların alqı satqısı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 408,
+    "question": "Kredit təşkilatlarındakı yaranmış vəziyyətin qiymətləndirilməsindən ötrü Mərkəzi Bank onların fəaliyyətini ….:",
+    "options": [
+      {
+        "text": "sənədləşdirir",
+        "correct": false
+      },
+      {
+        "text": "sanksiyalaşdırır",
+        "correct": false
+      },
+      {
+        "text": "monitorinq edir",
+        "correct": true
+      },
+      {
+        "text": "lisenziyalaşdırır",
+        "correct": false
+      },
+      {
+        "text": "ciddi xəbərdarlıq edir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 409,
+    "question": "Azərbaycan Respublikasının Mərkəzi Bankının kapitalı …. hesabına formalaşır:",
+    "options": [
+      {
+        "text": "əhalinin vəsaitləri",
+        "correct": false
+      },
+      {
+        "text": "fərdi şəxslərin passiv vəsaitləri",
+        "correct": false
+      },
+      {
+        "text": "əmtəə emissiyası yolu ilə",
+        "correct": false
+      },
+      {
+        "text": "dövlətin vəsaitləri",
+        "correct": true
+      },
+      {
+        "text": "kommersiya banklarının fondlarının vəsaitləri",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 410,
+    "question": "Pul kütləsinin ən likvid hissəsi:",
+    "options": [
+      {
+        "text": "xarici valyutada olan depozitlərdir",
+        "correct": false
+      },
+      {
+        "text": "virtual pullardır",
+        "correct": false
+      },
+      {
+        "text": "kvazi pullardır",
+        "correct": false
+      },
+      {
+        "text": "nağdsız pullardır",
+        "correct": false
+      },
+      {
+        "text": "nağd pullardır",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 411,
+    "question": "Bankda pul saxlanan yer necə adlanır?",
+    "options": [
+      {
+        "text": "kassa qovşağı",
+        "correct": true
+      },
+      {
+        "text": "kassa stolu",
+        "correct": false
+      },
+      {
+        "text": "şkaf",
+        "correct": false
+      },
+      {
+        "text": "mədaxil,məxaric kassası",
+        "correct": false
+      },
+      {
+        "text": "kassa məkanı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 412,
+    "question": "Kassa sənədlərini imzalayan məsul şəxslərin imza nümunələri kassa işçilərində olmalıdırmı?",
+    "options": [
+      {
+        "text": "olmamalıdır",
+        "correct": false
+      },
+      {
+        "text": "olmalıdır",
+        "correct": true
+      },
+      {
+        "text": "göstəriş olduqda",
+        "correct": false
+      },
+      {
+        "text": "olmaya da bilər",
+        "correct": false
+      },
+      {
+        "text": "istisna hallarda",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 413,
+    "question": "Dövriyyə kassasından ehtiyat fonduna vəsait köçürülməsi:",
+    "options": [
+      {
+        "text": "Mərkəzi Bankın yazılı sifarişi ilə həyata keçirilir",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın yazılı sərəncamı əsasında həyata keçirilir",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatları tərəfindən sərbəst həyata keçirilir",
+        "correct": true
+      },
+      {
+        "text": "Sığorta Təşkilatlarının icazəsi ilə həyata keçirilir",
+        "correct": false
+      },
+      {
+        "text": "Nazirlər Kabinetinin razılığı olmalıdır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 414,
+    "question": "Beynəlxalq kredit kreditin.....:",
+    "options": [
+      {
+        "text": "müqaviləsidir",
+        "correct": false
+      },
+      {
+        "text": "depozitidir",
+        "correct": false
+      },
+      {
+        "text": "prinsipidir",
+        "correct": false
+      },
+      {
+        "text": "formasıdır",
+        "correct": true
+      },
+      {
+        "text": "müddətidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 415,
+    "question": "Lizinq əməliyyatlarının iştirakçılarını göstərin:",
+    "options": [
+      {
+        "text": "İpoteka Fondu və lizinq alan",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": false
+      },
+      {
+        "text": "faktorinq şirkəti,ipoteka fondları",
+        "correct": false
+      },
+      {
+        "text": "trast şirkəti və investisiya idarələri",
+        "correct": false
+      },
+      {
+        "text": "lizinq verən, lizinq alan, satıcı",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 416,
+    "question": "Loro hesab nədir?",
+    "options": [
+      {
+        "text": "Bank Olmayan Kredit Təşkilatlarındakı (BOKT) hesablar",
+        "correct": false
+      },
+      {
+        "text": "milli kredit təşkilatlarında fiziki şəxslərin hesabları",
+        "correct": false
+      },
+      {
+        "text": "kommersiya banklarının Mərkəzi Bankdakı hesabları",
+        "correct": false
+      },
+      {
+        "text": "milli kredit təşkilatlarında",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 417,
+    "question": "Nostro hesab nədir?",
+    "options": [
+      {
+        "text": "fiziki şəxslərin Mərkəzi Bankda olan hesabları",
+        "correct": false
+      },
+      {
+        "text": "kommersiya banklarının Mərkəzi Bankda olan hesabları",
+        "correct": false
+      },
+      {
+        "text": "fiziki və hüquqi şəxslərin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 418,
+    "question": "Kredit təşkilatlarının nizamnamə kapitalının həcmi.....manatdır:",
+    "options": [
+      {
+        "text": "100.mln",
+        "correct": false
+      },
+      {
+        "text": "200.mln",
+        "correct": false
+      },
+      {
+        "text": "50.mln",
+        "correct": true
+      },
+      {
+        "text": "500.mln",
+        "correct": false
+      },
+      {
+        "text": "1.mln",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 419,
+    "question": "Mərkəzi Banklar kommersiya banklarından …. hüququnun alınması yolu ilə meydana gəlmişlər:",
+    "options": [
+      {
+        "text": "müəssisə və təşkilatların kreditləşdirilməsi",
+        "correct": false
+      },
+      {
+        "text": "müvəqqəti sərbəst pul vəsaitlərinin toplanması",
+        "correct": false
+      },
+      {
+        "text": "hesablaşmaların aparılması",
+        "correct": false
+      },
+      {
+        "text": "banknot emissiyası",
+        "correct": true
+      },
+      {
+        "text": "depozit əməliyyatlarının aparılması",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 420,
+    "question": "Azərbaycan Respublikasının Mərkəzi Bankının kapitalı …. hesabına formalaşır:",
+    "options": [
+      {
+        "text": "əhalinin ianələri",
+        "correct": false
+      },
+      {
+        "text": "iqtisadi sahələrə verdiyi kredit hesabına",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın ödədiyi vergilər hesabına",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərin vəsaitləri",
+        "correct": false
+      },
+      {
+        "text": "dövlətin vəsaitləri",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 421,
+    "question": "Kredit təşkilatlarındakı yaranmış vəziyyətin qiymətləndirilməsindən ötrü Mərkəzi Bank onların fəaliyyətini ….:",
+    "options": [
+      {
+        "text": "monitorinq edir",
+        "correct": true
+      },
+      {
+        "text": "tənzimləyir",
+        "correct": false
+      },
+      {
+        "text": "lisenziyanı ləğv edir",
+        "correct": false
+      },
+      {
+        "text": "sanksiyalaşdırır",
+        "correct": false
+      },
+      {
+        "text": "lisenziyalaşdırır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 422,
+    "question": "Mərkəzi Bankın əsas müştəriləri kimlərdir:",
+    "options": [
+      {
+        "text": "kənd təsərrüfatı sahələri",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatları",
+        "correct": true
+      },
+      {
+        "text": "xarici vətəndaşlar",
+        "correct": false
+      },
+      {
+        "text": "kooperativ təşkilatlar",
+        "correct": false
+      },
+      {
+        "text": "dövlət əhəmiyyətli iri sənaye müəssisələri",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 423,
+    "question": "Azərbaycan Respublikası Mərkəzi Bankının nizamnamə kapitalı və əmlakı ........... mülkiyyətidir:",
+    "options": [
+      {
+        "text": "özəl",
+        "correct": false
+      },
+      {
+        "text": "müştərək",
+        "correct": false
+      },
+      {
+        "text": "dövlət",
+        "correct": true
+      },
+      {
+        "text": "Maliyyə Nazirliyinin",
+        "correct": false
+      },
+      {
+        "text": "səhmdar",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 424,
+    "question": "Mərkəzi Bankın passiv əməliyyatıdır:",
+    "options": [
+      {
+        "text": "kassa əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "hesablaşmaların təşkili",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərin hesablarına qoyuluşlar",
+        "correct": false
+      },
+      {
+        "text": "banknot emissiyası",
+        "correct": true
+      },
+      {
+        "text": "banklara qısa müddətli ssuda verilməsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 425,
+    "question": "Azərbaycan Respublikasında bank fəaliyəti ilə məşğul olmaqdan ötrü lisensiyanı kim verir:",
+    "options": [
+      {
+        "text": "Milli Məclis",
+        "correct": false
+      },
+      {
+        "text": "Sığorta Şirkətləri",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "İqtisadiyyat Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 426,
+    "question": "Mərkəzi Bank …. rolunu oynayır:",
+    "options": [
+      {
+        "text": "dövlətin maliyyə agenti",
+        "correct": true
+      },
+      {
+        "text": "vətəndaşların kreditləşməsi",
+        "correct": false
+      },
+      {
+        "text": "trast əməliyyatlarını həyata keçirmək",
+        "correct": false
+      },
+      {
+        "text": "müəssisələrin kreditoru",
+        "correct": false
+      },
+      {
+        "text": "ölkənin lizinq mərkəzi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 427,
+    "question": "Mərkəzi Bankın pul siyasəti alətidir:",
+    "options": [
+      {
+        "text": "fiziki şəxslərə kredit verilməsi",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik əməliyyatlarının",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 428,
+    "question": "Mərkəzi Bankın aktiv əməliyyatı dedikdə nə başa düşülür?",
+    "options": [
+      {
+        "text": "öz vəsaitlərini itirmək başa düşülür",
+        "correct": false
+      },
+      {
+        "text": "öz vəsaitlərini fiziki",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 429,
+    "question": "Mərkəzi Bank öz xərclərini nəyin hesabına ödəyir?",
+    "options": [
+      {
+        "text": "trast vəsaitləri hesabına",
+        "correct": false
+      },
+      {
+        "text": "lisenziya hesabına görə",
+        "correct": false
+      },
+      {
+        "text": "vətəndaşların vəsaiti hesabına",
+        "correct": false
+      },
+      {
+        "text": "öz gəlirləri hesabına",
+        "correct": true
+      },
+      {
+        "text": "fiziki şəxslərə verdiyi kreditlər hesabına",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 430,
+    "question": "Ölkənin emissiya mərkəzidir:",
+    "options": [
+      {
+        "text": "universal bank",
+        "correct": false
+      },
+      {
+        "text": "bankın filialı",
+        "correct": false
+      },
+      {
+        "text": "bankın nümayəndəliyi",
+        "correct": false
+      },
+      {
+        "text": "ixtisaslaşmış bank",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 431,
+    "question": "Mərkəzi Bankın passiv əməliyyatlarını göstərin:",
+    "options": [
+      {
+        "text": "yalnız banknot emissiyası",
+        "correct": false
+      },
+      {
+        "text": "kommersiya banklarına sığorta xidməti göstərmək",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik əməliyyatlarını",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 432,
+    "question": "Müddətlilik kreditin........:",
+    "options": [
+      {
+        "text": "statusudur",
+        "correct": false
+      },
+      {
+        "text": "prinsipidir",
+        "correct": true
+      },
+      {
+        "text": "sənədidir",
+        "correct": false
+      },
+      {
+        "text": "funksiyasıdır",
+        "correct": false
+      },
+      {
+        "text": "istifadəsidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 433,
+    "question": "Rəqəmsal bankların strateji istiqamətidir:",
+    "options": [
+      {
+        "text": "rəqəmsal ödəniş infrastrukturunun",
+        "correct": true
+      },
+      {
+        "text": "ödəniş infrastrukurunun mexanikləşdirilməsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 434,
+    "question": "Qeyd olunanlardan hansı rəqəmsal iş yeridir:",
+    "options": [
+      {
+        "text": "evdən işləmək",
+        "correct": false
+      },
+      {
+        "text": "kənar rayondan işləmək",
+        "correct": false
+      },
+      {
+        "text": "məzuniyyətdə olarkən işləmək",
+        "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
+      },
+      {
+        "text": "istirahətdə olarkən işləmək",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 435,
+    "question": "Rəqəmsal bankçılıq .... məqsədi daşıyır:",
+    "options": [
+      {
+        "text": "bütün əməliyyatların modernləşməsi",
+        "correct": false
+      },
+      {
+        "text": "bütün əməliyyatların təkmilləşməsi",
+        "correct": false
+      },
+      {
+        "text": "bütün əməliyyatların mexanikləşməsi",
+        "correct": false
+      },
+      {
+        "text": "bütün əməliyyatların təhlil olunması",
+        "correct": false
+      },
+      {
+        "text": "bütün əməliyyatların rəqəmsallaşması",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 436,
+    "question": "Rəqəmsal bankçılığın növlərindən olan ağıllı dinamikalardandır:",
+    "options": [
+      {
+        "text": "Google Home",
+        "correct": true
+      },
+      {
+        "text": "Google APP",
+        "correct": false
+      },
+      {
+        "text": "Pod Google",
+        "correct": false
+      },
+      {
+        "text": "Amazon Pod",
+        "correct": false
+      },
+      {
+        "text": "Apple Pod",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 437,
+    "question": "Rəqəmsal bankçılığı ümumiləşdirən parametrlərdir:",
+    "options": [
+      {
+        "text": "modernləşmə",
+        "correct": false
+      },
+      {
+        "text": "onlayn bankçılıq və mobil bankçılıq",
+        "correct": true
+      },
+      {
+        "text": "mobil bankçılıq və təkamül yenilənməsi",
+        "correct": false
+      },
+      {
+        "text": "onlayn bankçılıq və mexanikləşmə",
+        "correct": false
+      },
+      {
+        "text": "mobil bankçılıq və müasirləşmə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 438,
+    "question": "Rəqəmsal inkişafın əsas məqsədlərindən biridir:",
+    "options": [
+      {
+        "text": "iqtisadi subyektlərdə aktivlərin formalaşdırılmasıdır",
+        "correct": false
+      },
+      {
+        "text": "bank menecmentinin təkmilləşdirilməsidir",
+        "correct": false
+      },
+      {
+        "text": "iqtisadi subyektlərin fəaliyyətinin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 439,
+    "question": "Rəqəmsal bankçılıq ənənəvi bank xidmətlərinin ...:",
+    "options": [
+      {
+        "text": "kodlaşdırılmasıdır",
+        "correct": false
+      },
+      {
+        "text": "beynəlmilləşməsidir",
+        "correct": false
+      },
+      {
+        "text": "mexanikləşdirilməsidir",
+        "correct": false
+      },
+      {
+        "text": "avtomatlaşdırılmasıdır",
+        "correct": true
+      },
+      {
+        "text": "şifrələnməsidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 440,
+    "question": "Kassa əməliyyatı hesab olunur:",
+    "options": [
+      {
+        "text": "kassa əməliyyatları bankların faktorinq əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "kassa əməliyyatları bankların trast əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "banklar öz müştəriləri ilə audit əməliyyatlarını həyata keçirir",
+        "correct": false
+      },
+      {
+        "text": "banklar öz müştəriləri ilə sənədləşmə",
+        "correct": false
+      },
+      {
+        "text": "banklar öz müştəriləri ilə nağd hesablaşmalar həyata keçirir",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 441,
+    "question": "Mərkəzi Bankın …. funksiyası banknot buraxılışına inhisardan və ölkədə pul tədavülünün tənzimlənməsindən ibarətdir:",
+    "options": [
+      {
+        "text": "emissiya",
+        "correct": true
+      },
+      {
+        "text": "nəzarət",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik",
+        "correct": false
+      },
+      {
+        "text": "informasiya",
+        "correct": false
+      },
+      {
+        "text": "bölüşdürücü",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 442,
+    "question": "Mərkəzi Bankın pul siyasəti alətidir:",
+    "options": [
+      {
+        "text": "hesablaşmalara nəzarət",
+        "correct": false
+      },
+      {
+        "text": "xüsusi kapitala nəzarət",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik əməliyyatlarının",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 443,
+    "question": "Pul islahatı dedikdə nə başa düşülür:",
+    "options": [
+      {
+        "text": "qızılın pul funksiyası rolunu itirməsi prosesi",
+        "correct": false
+      },
+      {
+        "text": "kağız pulların metal pulları dövriyyədən",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 444,
+    "question": "Pul islahatı zamanı köhnə pul nişanlarının yenisi ilə əvəz olunması:",
+    "options": [
+      {
+        "text": "yalnız milli valyutanın revolvasiyası zamanı baş verir",
+        "correct": false
+      },
+      {
+        "text": "baş vermir",
+        "correct": false
+      },
+      {
+        "text": "yalnız milli valyutanın devolvasiyası zamanı baş verir",
+        "correct": false
+      },
+      {
+        "text": "baş verir",
+        "correct": true
+      },
+      {
+        "text": "Mərkəzi Bank kommersiya",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 445,
+    "question": "Valyuta birjasında ...... əməliyyatları həyata keçirilir:",
+    "options": [
+      {
+        "text": "kredit",
+        "correct": false
+      },
+      {
+        "text": "borc",
+        "correct": false
+      },
+      {
+        "text": "pul sistemi",
+        "correct": false
+      },
+      {
+        "text": "forfeytinq",
+        "correct": false
+      },
+      {
+        "text": "valyuta",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 446,
+    "question": "Azərbaycan Respublikasında əsas Valyuta Nəzarəti Orqanı ......:",
+    "options": [
+      {
+        "text": "Mərkəzi Bankdır",
+        "correct": true
+      },
+      {
+        "text": "Auditorlar Palatasıdır",
+        "correct": false
+      },
+      {
+        "text": "Nazirlər Kabinetidir",
+        "correct": false
+      },
+      {
+        "text": "Vergilər Nazirliyidir",
+        "correct": false
+      },
+      {
+        "text": "Dövlət Gömrük Komitəsidir",
         "correct": false
       }
     ]
   },
   {
     "num": 447,
-    "question": "Dünyanı  olduğu kimi əks etdirən bilik necə adlanır?",
+    "question": "Valyuta bazarının iştirakçısı hesab edilir:",
     "options": [
       {
-        "text": "Illuziya",
+        "text": "İpoteka Fondları",
         "correct": false
       },
       {
-        "text": "Yanılma",
-        "correct": false
-      },
-      {
-        "text": "Yalan",
-        "correct": false
-      },
-      {
-        "text": "Həqiqət",
+        "text": "Mərkəzi Bank",
         "correct": true
       },
       {
-        "text": "Fantaziya?",
+        "text": "Sığorta Təşkilatları",
+        "correct": false
+      },
+      {
+        "text": "xəzinədarlıq",
+        "correct": false
+      },
+      {
+        "text": "lombardlar",
         "correct": false
       }
     ]
   },
   {
     "num": 448,
-    "question": "Həqiqəti birbaşa dərk etmə qabiliyyəti necə adlanır?",
+    "question": "Banklar arasında qarşılıqlı tələblər üzrə hesablaşmalar:",
     "options": [
       {
-        "text": "Duyğu",
+        "text": "yalnız Bank Olmayan Kredit Təşkilatlarının (BOKT)",
         "correct": false
       },
       {
-        "text": "Intellekt",
-        "correct": false
-      },
-      {
-        "text": "Qavrayış",
-        "correct": false
-      },
-      {
-        "text": "Müşahidə",
-        "correct": false
-      },
-      {
-        "text": "Intuisiya",
+        "text": "məhdudiyyətsiz mümkündür",
         "correct": true
       }
     ]
   },
   {
     "num": 449,
-    "question": "Predmeti tam həcmdə əks etdirməyən həqiqət necə adlanır?",
+    "question": "Malgöndərənin razılığı olmadan dəyişdirilə və ya ləğv edilə bilməyən akkreditiv necə adlanır:",
     "options": [
       {
-        "text": "Obyektiv həqiqət",
+        "text": "geri çağırılan",
         "correct": false
       },
       {
-        "text": "Intuitiv həqiqət",
+        "text": "klassik",
         "correct": false
       },
       {
-        "text": "Mütləq həqiqət",
+        "text": "indossamentli",
         "correct": false
       },
       {
-        "text": "Nisbi həqiqət",
+        "text": "geri çağırılmayan",
         "correct": true
       },
       {
-        "text": "Subyektiv həqiqət",
+        "text": "orderli",
         "correct": false
       }
     ]
   },
   {
     "num": 450,
-    "question": "Dekart həqiqətin meyarını nədə görür?",
+    "question": "Akkreditiv üzrə nağd pulun ödənilməsi:",
     "options": [
       {
-        "text": "Idrakın obyektinə biliyin uyğun gəlməsində",
+        "text": "bank rəhbərinin razılığı ilə mümkündür",
         "correct": false
       },
       {
-        "text": "Sxolastik fəlsəfədə",
+        "text": "Milli Depozit Sisteminin icazəsi ilə mümkündür",
         "correct": false
       },
       {
-        "text": "Təcrübədə yoxlmaqda",
+        "text": "müştərinin razılığı ilə mümkündür",
         "correct": false
       },
       {
-        "text": "Müqəddəs yazılarda",
+        "text": "Banklar Assosiasiyasının razılığı ilə mümkündür",
         "correct": false
       },
       {
-        "text": "Biliyin zəkada şübhə oyatmamasında",
+        "text": "mümkün deyil",
         "correct": true
       }
     ]
   },
   {
     "num": 451,
-    "question": "İkili həqiqət haqqında təlimin mahiyyəti nədən ibarətdir?",
+    "question": "Mərkəzi Bankın passiv əməliyyatı dedikdə nə başa düşülür?",
     "options": [
       {
-        "text": "Etiqad və biliklə Aallah dərk edilir.",
-        "correct": false
-      },
-      {
-        "text": "Etiqadın həqiqiliyi dinin əsasıdır.",
-        "correct": false
-      },
-      {
-        "text": "Ağılın həqiqəti elmin əsasıdır.",
-        "correct": false
-      },
-      {
-        "text": "Etiqad və bilik bir-birini tamamlayır.",
+        "text": "kapital bazasını formalaşdıran əməliyyatlar başa düşülür",
         "correct": true
       },
       {
-        "text": "Etiqad və biılik bir-birini istisna edir.",
+        "text": "öz vəsaitlərini itirmək başa düşülür",
+        "correct": false
+      },
+      {
+        "text": "öz vəsaitlərini özündə saxlamaq başa düşülür",
+        "correct": false
+      },
+      {
+        "text": "öz vəsaitlərini gizlətmək",
+        "correct": false
+      },
+      {
+        "text": "öz vəsaitlərini beynəlxalq vətəndaşlara satmaq başa düşülür",
         "correct": false
       }
     ]
   },
   {
     "num": 452,
-    "question": "“Falsifikasiya” prinsipi hansında elmi biliyin kriterisidir?",
+    "question": "Mərkəzi Bank öz xərclərini həyata keçirir:",
     "options": [
       {
-        "text": "B.Rasselin nəzəriyyəsində",
+        "text": "Milli Məclisin vəsaitləri hesabına",
         "correct": false
       },
       {
-        "text": "R.Karnapın nəzəriyyəsində",
-        "correct": false
-      },
-      {
-        "text": "M.Haydeggerin nəzəriyyəsində",
-        "correct": false
-      },
-      {
-        "text": "K.Popperin nəzəriyyəsində",
+        "text": "öz gəlirləri hesabına",
         "correct": true
       },
       {
-        "text": "L.Vitgenşteynin nəzəriyyəsində",
+        "text": "fiziki şəxslərin gəlirlərindən gələn vəsaitlər hesabına",
+        "correct": false
+      },
+      {
+        "text": "lisenziya verərkən aldığı faiz hesabına",
+        "correct": false
+      },
+      {
+        "text": "büdcə vəsaiti hesabına",
         "correct": false
       }
     ]
   },
   {
     "num": 453,
-    "question": "Verifikasiya prinsipi nədən ibarətdir?",
+    "question": "Azərbaycan Respublikasının Mərkəzi Bankı bütövlükdə kimin mülkiyyətindədir?",
     "options": [
       {
-        "text": "Elmi biliyi qeyri-elmi hökmlərdən ayırmaq vasitəsidir.",
+        "text": "fiziki şəxslərin",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT)",
+        "correct": false
+      },
+      {
+        "text": "dövlətin",
         "correct": true
       },
       {
-        "text": "Elmi biliklə dini etiqadı ayırma vasitəsidir.",
+        "text": "kommersiya banklarının",
         "correct": false
       },
       {
-        "text": "Təbiətşünaslığı humanitar elmlərdən ayırmağın kriterisidir.",
-        "correct": false
-      },
-      {
-        "text": "Biliyin həqiqilik dərəcəsini müəyyənləşdirmək prinsipidir.",
-        "correct": false
-      },
-      {
-        "text": "Rasionalizmlə empirizm arasında  demarkasiya (ayırma) prinsipidir.",
+        "text": "fiziki və hüquqi şəxslərin",
         "correct": false
       }
     ]
   },
   {
     "num": 454,
-    "question": "Məntiqi pozitivistlər həqiqət anlayışı  əvəzinə nədən istifadə edirdilər?",
+    "question": "Mənfəət əldə etmək Mərkəzi Bankın əsas məqsədidirmi :",
     "options": [
       {
-        "text": "Qismən yerdəyişmə anlayışından",
+        "text": "mənfəəti əhaliyə vermək Mərkəzi Bankın məqsədidir",
         "correct": false
       },
       {
-        "text": "Qismən əvəz etmə anlayışından",
-        "correct": false
-      },
-      {
-        "text": "Qismən təkzib etmə anlayışından",
-        "correct": false
-      },
-      {
-        "text": "Qismən təsdiqlənmə anlayışından",
+        "text": "mənfəət əldə etmək Mərkəzi Bankın",
         "correct": true
       },
       {
-        "text": "Qismən istisna etmə anlayışından",
+        "text": "mənfəət əldə etmək Mərkəzi Bankın əsas məqsədidir",
+        "correct": false
+      },
+      {
+        "text": "mənfəəti yarı bölmək Mərkəzi Bankın məqsədidir",
         "correct": false
       }
     ]
   },
   {
     "num": 455,
-    "question": "XX əsrin elm fəlsəfəsində həqiqət problemi hansı baxımdan nəzərdən keçirilməyə başlandı?",
+    "question": "Mərkəzi Bankın funksiyası deyildir:",
     "options": [
       {
-        "text": "Mücərrəd bir anlayış kimi",
+        "text": "valyuta nəzarətini həyata keçirtmək",
         "correct": false
       },
       {
-        "text": "Biliyin gerçəkliyə münasibəti baxımından",
+        "text": "pul kütləsinə nəzarət",
         "correct": false
       },
       {
-        "text": "Tədqiqatçıların subyektiv  xüsusiyyətlərindən asılı bir anlayış kimi",
+        "text": "manatın sabitliyini qorumaq",
         "correct": false
       },
       {
-        "text": "Ideal modellərin qurulması problemi kimi",
+        "text": "tədiyə balansını tərtib etmək",
         "correct": false
       },
       {
-        "text": "Biliyin ayrı-ayrı elementlərinə münasibətdə",
+        "text": "iqtisadiyyatın real sektorunun kreditləşdirilməsi",
         "correct": true
       }
     ]
   },
   {
     "num": 456,
-    "question": "Həqiqətin praqmatik konsepsiyası nəyi həqiqət hesab edir?",
+    "question": "Mərkəzi Bankın pul siyasəti alətidir:",
     "options": [
       {
-        "text": "məntiqi cəhətdən ziddiyyətsiz biliyi",
-        "correct": false
-      },
-      {
-        "text": "Səsvermə ilə qəbul edilmiş biliyi",
-        "correct": false
-      },
-      {
-        "text": "Eksperimental olaraq yoxlanmış biliyi",
-        "correct": false
-      },
-      {
-        "text": "Insana fayda gətirən biliyi",
+        "text": "açıq bazar əməliyyatları",
         "correct": true
       },
       {
-        "text": "Müşahidə vasitəsi ilə təsdiqlənən biliyi",
+        "text": "xüsusi kapitala nəzarət",
+        "correct": false
+      },
+      {
+        "text": "lisenziyanı ləğv etmək",
+        "correct": false
+      },
+      {
+        "text": "lisenziya vermək",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərə kredit vermək",
         "correct": false
       }
     ]
   },
   {
     "num": 457,
-    "question": "Koherent nəzəriyyəyə görə həqiqət nədir?",
+    "question": "Bankın fəaliyyəti dövründə baş verən itgiləri aradan qaldırmağa imkan verir və stabilliyi qoruyur:",
     "options": [
       {
-        "text": "Daxilən ziddiyyətsiz bilikdir",
+        "text": "zərərdəymə fondu",
         "correct": false
       },
       {
-        "text": "Biliyin öz tərkib hissələri üzrə diferrensiasiya edilməsidir",
-        "correct": false
-      },
-      {
-        "text": "Xüsusi biliyin daha ümumi biliklə əlaqələndirilməsidir",
-        "correct": false
-      },
-      {
-        "text": "Biliyin daha ümumi bilik sistemi ilə zidiyyətsizliyidir",
+        "text": "ehtiyat fondu",
         "correct": true
       },
       {
-        "text": "Daha ümumi bilikdən məntiqi nəticə kimi alınan bilikdir",
+        "text": "bank fondu",
+        "correct": false
+      },
+      {
+        "text": "kredit fondu",
+        "correct": false
+      },
+      {
+        "text": "depozit fondu",
         "correct": false
       }
     ]
   },
   {
     "num": 458,
-    "question": "Həqiqətin” korrespondent”(uyğunluq) nəzəriyyəsinin banisi kimdir?",
+    "question": "Xarici bankların yerli filiallarını lisenziyalaşdırır:",
     "options": [
       {
-        "text": "Demokrit",
+        "text": "Mərkəzi Bankın xarici əməkdaşları",
         "correct": false
       },
       {
-        "text": "Parmenid",
+        "text": "xarici bankların Mərkəzi Bankları",
         "correct": false
       },
       {
-        "text": "Marks",
-        "correct": false
-      },
-      {
-        "text": "Dekart",
-        "correct": false
-      },
-      {
-        "text": "Aristotel",
+        "text": "Mərkəzi Bank",
         "correct": true
+      },
+      {
+        "text": "xarici bankların rəhbərləri",
+        "correct": false
+      },
+      {
+        "text": "bank birlikləri",
+        "correct": false
       }
     ]
   },
   {
     "num": 459,
-    "question": "Həqiqətin meyarı nədir?",
+    "question": "Kredit təşkilatları hansı Qanuna əsasən fəaliyyət göstərir:",
     "options": [
       {
-        "text": "Insanların praktik fəaliyyətidir",
+        "text": "Milli Depozit Sistemi haqqında Qanuna əsasən",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatları (BOKT) haqqında Qanuna əsasən",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank haqqında Qanuna əsasən",
+        "correct": false
+      },
+      {
+        "text": "Banklar haqqında Qanuna əsasən",
         "correct": true
       },
       {
-        "text": "Insanın intuisiyasıdır",
-        "correct": false
-      },
-      {
-        "text": "Onun isbatıdır",
-        "correct": false
-      },
-      {
-        "text": "Alimlərin nüfuzlu rəyidir",
-        "correct": false
-      },
-      {
-        "text": "Ümumi razılaşmalardır",
+        "text": "Bankların idarə edilməsi haqqında Qanuna əsasən",
         "correct": false
       }
     ]
   },
   {
     "num": 460,
-    "question": "Biliyin sübut  edilməsinin əsas üsulları hansılardır?",
+    "question": "Bank Sisteminin II pilləsini təşkil edən kredit təşkilatlarına lisenziyanı(razılıq) kim verir:",
     "options": [
       {
-        "text": "Səsvermədir",
+        "text": "Mərkəzi Bankın ərazi idarələri",
         "correct": false
       },
       {
-        "text": "Bunların heç biri deyil",
+        "text": "bank filialı",
         "correct": false
       },
       {
-        "text": "Ona əyani forma verməkdir",
+        "text": "Milli Məclis",
         "correct": false
       },
       {
-        "text": "Mütəxəssislərin fikirlərinə müraciət etməkdir",
+        "text": "bank şirkətləri",
         "correct": false
       },
       {
-        "text": "Eksperimental təsdiq və məntiqi əsaslandırmadır",
+        "text": "Mərkəzi Bank",
         "correct": true
       }
     ]
   },
   {
     "num": 461,
-    "question": "Həqiqətin sübut edilməsi nədir?",
+    "question": "Nağdsız pul dövriyyəsi nağd dövriyyə ilə müqayisədə tədavül xərcləri:",
     "options": [
       {
-        "text": "Onun cəlbediciliyidir.",
-        "correct": false
-      },
-      {
-        "text": "mövcud nəzəriyyələr çərçivəsində təkzib olunmazlığı deməkdir.",
-        "correct": false
-      },
-      {
-        "text": "əksəriyyətin onunla razılaşmasıdır.",
-        "correct": false
-      },
-      {
-        "text": "Həqiqətlə onun obyekti arasında uyğunluğun  aşkarlanmasıdır.",
+        "text": "olduqca azdır",
         "correct": true
       },
       {
-        "text": "Onun faydalılığının üzə çıxmasıdır.",
+        "text": "müəyyən edilmiş limitdən çoxdur",
+        "correct": false
+      },
+      {
+        "text": "mövcud deyildir",
+        "correct": false
+      },
+      {
+        "text": "olduqca çoxdur",
+        "correct": false
+      },
+      {
+        "text": "sıfıra bərabərdir",
         "correct": false
       }
     ]
   },
   {
     "num": 462,
-    "question": "Konkret həqiqət nədir?",
+    "question": "Kağız pullar emissiya edilərək onlar tədavülə … … təqdim edilir:",
     "options": [
       {
-        "text": "riyazi forma verilmiş bilikdir.",
+        "text": "lizinqə verilərək",
         "correct": false
       },
       {
-        "text": "dəqiq verilmiş şərtlər daxilində konkret əşyalar haqqında bilikdir",
-        "correct": false
-      },
-      {
-        "text": "əyani həqiqətdir",
-        "correct": false
-      },
-      {
-        "text": "təfərrüatlı təsvirdir",
-        "correct": false
-      },
-      {
-        "text": "obyekti və onun dərk edilmə sərhədləri müəyyənləşmiş həqiqətdir",
+        "text": "təmənnasız",
         "correct": true
+      },
+      {
+        "text": "icarəyə verilərək",
+        "correct": false
+      },
+      {
+        "text": "ödəmə əsasında",
+        "correct": false
+      },
+      {
+        "text": "kreditə verilərək",
+        "correct": false
       }
     ]
   },
   {
     "num": 463,
-    "question": "Teosentrizmə görə vrlığın yaradıcı başlanğıcı aşağıdakılardan hansıdır?",
+    "question": "Pul kütləsi göstəricilərinin artım istiqamətini müəyyən edir:",
     "options": [
       {
-        "text": "Allahdır",
+        "text": "Milli Depozit Sistemi",
+        "correct": false
+      },
+      {
+        "text": "Nazirlər Kabineti",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
         "correct": true
       },
       {
-        "text": "təbiətdir",
+        "text": "Milli Məclis",
         "correct": false
       },
       {
-        "text": "insandır",
-        "correct": false
-      },
-      {
-        "text": "cəmiyyətdir",
-        "correct": false
-      },
-      {
-        "text": "kosmosdur",
+        "text": "Maliyyə Nazirliyi",
         "correct": false
       }
     ]
   },
   {
     "num": 464,
-    "question": "Orta əsr fəlsəfəsinin cərəyanı olan realizm üçün hansı təlim səciyyəvidir?",
+    "question": "Nağd pulların ilkin emissiyası haradan başlayır:",
     "options": [
       {
-        "text": "dəyərlər haqqında təlim",
+        "text": "Bank Olmayan Kredit Təşkilatlarından (BOKT)",
         "correct": false
       },
       {
-        "text": "təkcələrin real mövcudluğu haqqında təlim",
+        "text": "ticarət şəbəkələrindən",
         "correct": false
       },
       {
-        "text": "idrak haqqında təlim",
+        "text": "əməliyyat kassalarından",
         "correct": false
       },
       {
-        "text": "ümumi anlayışların real mövcudluğu haqqında təlim",
+        "text": "Mərkəzi Bankın ərazi idarələrindən",
         "correct": true
       },
       {
-        "text": "varlıq haqqında təlim",
+        "text": "axşam kassalarından",
         "correct": false
       }
     ]
   },
   {
     "num": 465,
-    "question": "Aşağıdakılardan hansı din üçün səciyyəvidir?",
+    "question": "Pul dövriyyəsində aşağıdakı hansı növ pul nişanlarından istifadə edilir:",
     "options": [
       {
-        "text": "kosmosentrizm",
+        "text": "yalnız xəzinədarlıq biletləri",
         "correct": false
       },
       {
-        "text": "rasionalizm",
+        "text": "xəzinədarlıq biletləri, xırda pullar",
         "correct": false
       },
       {
-        "text": "əfsunçuluq",
+        "text": "yalnız qiymətli metallar",
         "correct": false
       },
       {
-        "text": "antroposentrizm",
+        "text": "pul əvəzediciləri",
         "correct": false
       },
       {
-        "text": "ehkamçılıq",
+        "text": "banknot, metal pullar",
         "correct": true
       }
     ]
   },
   {
     "num": 466,
-    "question": "Realizm Orta əsrlər fəlsəfəsində hansı ənənələrin davamçısıdır?",
+    "question": "Akkreditiv hesablaşma formasının çatışmayan cəhəti:",
     "options": [
       {
-        "text": "mistisizm ənənələrinin",
+        "text": "bankdan kredit alınmasıdır",
         "correct": false
       },
       {
-        "text": "kreasionizm ənənələrinin",
-        "correct": false
-      },
-      {
-        "text": "hind fəlsəfəsi ənənələrinin",
-        "correct": false
-      },
-      {
-        "text": "antik (Qədim Yunan) fəlsəfə ənənələrinin",
-        "correct": true
-      },
-      {
-        "text": "məntiqi empirizm ənənələrinin",
+        "text": "müəyyən məbləğin avans",
         "correct": false
       }
     ]
   },
   {
     "num": 467,
-    "question": "Patristika hansı tələbatdan meydana gəldi?",
+    "question": "Nağdsız hesablaşmaların aparılmasından ötrü emitent və benefisiarlar üçün zəruri şərt kimi mövcud olmalıdır:",
     "options": [
       {
-        "text": "bütpərəstliklə barışmaq istəyindən",
+        "text": "depozit hesabları",
         "correct": false
       },
       {
-        "text": "kilsənin strukturunu təkmilləşdirmək zərurətindən",
-        "correct": false
-      },
-      {
-        "text": "dini mərasımləri qaydaya salmaq tələbatından",
-        "correct": false
-      },
-      {
-        "text": "dini təlimi əsaslandıraraq sitemləşdirmək zərurətindən",
+        "text": "bank hesabı",
         "correct": true
       },
       {
-        "text": "kilsənin tarixini yazmaq zərurətindən",
+        "text": "dövriyyə kassasının limiti",
+        "correct": false
+      },
+      {
+        "text": "bank müqaviləsi,lisenziya və depozit",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın xüsusi icazəsi",
         "correct": false
       }
     ]
   },
   {
     "num": 468,
-    "question": "Orta əsrlər dünyaqgörüşü fəlsəfənin hansı funksiyasını, faktiki olaraq, inkar edirdi?",
+    "question": "Nağdsız hesablaşmalar aparılır:",
     "options": [
       {
-        "text": "ontoloji",
+        "text": "pul vəsaitinin alıcısı və ödəyicisinin qəbzləri əsasında",
         "correct": false
       },
       {
-        "text": "dünyagörüşü",
-        "correct": false
-      },
-      {
-        "text": "aksioloji",
-        "correct": false
-      },
-      {
-        "text": "qnoseoloji",
-        "correct": true
-      },
-      {
-        "text": "metodololi",
+        "text": "pul vəsaitinin alıcısı və ödəyicisi",
         "correct": false
       }
     ]
   },
   {
     "num": 469,
-    "question": "Xristian ilahiyyatının əsaslarını qoymuş “Kilsə atalarının” fəlsəfəsi necə adlanır?",
+    "question": "Bir qayda olaraq Mərkəzi Bankın müştəriləridirlər:",
     "options": [
       {
-        "text": "metafizika",
+        "text": "Milli Məclis",
         "correct": false
       },
       {
-        "text": "sxolastika",
+        "text": "fiziki şəxslər",
         "correct": false
       },
       {
-        "text": "apologetika",
+        "text": "Hesablama Palatası",
         "correct": false
       },
       {
-        "text": "patristika",
+        "text": "kredit təşkilatları",
         "correct": true
       },
       {
-        "text": "dialektika",
+        "text": "Statistika Komitəsi",
         "correct": false
       }
     ]
   },
   {
     "num": 470,
-    "question": "Dünyanın Allah tərəfindən heçdən yaradıldığını  bəyan edən  dünyagörüş necə adlanır?",
+    "question": "Azərbaycan Respublikası Mərkəzi Bankı hesabat verir:",
     "options": [
       {
-        "text": "dualizm",
+        "text": "Hesablama Palatasına",
         "correct": false
       },
       {
-        "text": "dialektika",
+        "text": "fiziki şəxslərə",
         "correct": false
       },
       {
-        "text": "monizm",
+        "text": "Maliyyə Nazirliyinə",
         "correct": false
       },
       {
-        "text": "monoteizm",
+        "text": "heç kimə hesabat vermir",
         "correct": false
       },
       {
-        "text": "kreasionizm",
+        "text": "Azərbaycan Respublikasının Prezidentinə",
         "correct": true
       }
     ]
   },
   {
     "num": 471,
-    "question": "Orta əsrlər fəlsəfəsinin dünyagörüşü əsasını nə təşkil edirdi?",
+    "question": "Kredit təşkilatlarının yenidən maliyyələşdirilməsi ........:",
     "options": [
       {
-        "text": "rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "kosmosentrizm",
-        "correct": false
-      },
-      {
-        "text": "antroposentrizm",
-        "correct": false
-      },
-      {
-        "text": "teosentrizm",
+        "text": "Mərkəzi Bankın pul siyasəti alətidir",
         "correct": true
       },
       {
-        "text": "skeptisizm",
+        "text": "Mərkəzi Bankın banklara nəzarət etməsidir",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın lisenziya verilməsi əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın əsas məqsədidir",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın təşkilati funksiyasıdır",
         "correct": false
       }
     ]
   },
   {
     "num": 472,
-    "question": "Orta əsr fəlsəfəsində universalilərin əzəli mövcud olduğunu hansı təlim inkar edirdi?",
+    "question": "Banklar və Bank Olmayan Kredit Təşkilatları (BOKT) ölkə ərazisində hesablaşmaların aparılmasından ötrü biri digərində ….. hesablar açırlar:",
     "options": [
       {
-        "text": "konseptualizm",
+        "text": "büdcə",
         "correct": false
       },
       {
-        "text": "ehkamçılıq",
-        "correct": false
-      },
-      {
-        "text": "realizm",
-        "correct": false
-      },
-      {
-        "text": "universalizm",
-        "correct": false
-      },
-      {
-        "text": "nominalizm",
+        "text": "müxbir",
         "correct": true
+      },
+      {
+        "text": "debet",
+        "correct": false
+      },
+      {
+        "text": "xəzinə",
+        "correct": false
+      },
+      {
+        "text": "faktorinq",
+        "correct": false
       }
     ]
   },
   {
     "num": 473,
-    "question": "Orta əsr fəlsəfəsi hansı problеmlərlə məşğul olurdu?",
+    "question": "Müasir Bank Sisteminin yaranma prinsipidir:",
     "options": [
       {
-        "text": "elm problemləri ilə",
-        "correct": false
-      },
-      {
-        "text": "dini problemləri ilə",
-        "correct": true
-      },
-      {
-        "text": "cəmiyyət problemləri ilə",
-        "correct": false
-      },
-      {
-        "text": "idrak problemləri ilə",
-        "correct": false
-      },
-      {
-        "text": "təbiət problemləri ilə",
+        "text": "bütün pul əməliyyatlarının",
         "correct": false
       }
     ]
   },
   {
     "num": 474,
-    "question": "Yunan fəlsəfəsinin ilk məktəblərindən fəlsəfənin mücərrəd təfəkkürə yüksəlişi yolunda ciddi addımları kimlər atdı?",
+    "question": "Kommersiya bankının kassa əməliyyatları ......... :",
     "options": [
       {
-        "text": "Heraklit və sofistlər",
+        "text": "AZİPS - əməliyyatıdır",
         "correct": false
       },
       {
-        "text": "Atomistlər və Sokrat",
+        "text": "pul siyasəti əməliyyatıdır",
         "correct": false
       },
       {
-        "text": "Pifaqorçular və sofistlər",
+        "text": "faktorinq əməliyyatıdır",
         "correct": false
       },
       {
-        "text": "Pifaqorçular və Eleya məktəbi",
+        "text": "nağd pulların qəbulu və verilməsidir",
         "correct": true
       },
       {
-        "text": "Heraklit və Milet məktəbi",
+        "text": "sənədlərin qeydiyyatdan keçirilməsidir",
         "correct": false
       }
     ]
   },
   {
     "num": 475,
-    "question": "Yunan fəlsəfəsinin ilk məktəbləri nəyin güclü təsiri altında idi?",
+    "question": "........ əməliyyatları hüquqi və fiziki şəxslərin sərbəst pul vəsaitlərinin banklar və başqa kredit təşkilatları tərəfindən cəlb edilməsi əməliyyatlarıdır:",
     "options": [
       {
-        "text": "Elmin",
+        "text": "sığorta",
         "correct": false
       },
       {
-        "text": "İncəsənətin",
+        "text": "lizinq",
         "correct": false
       },
       {
-        "text": "Dinin",
+        "text": "ipoteka",
         "correct": false
       },
       {
-        "text": "Mifologiyanın",
+        "text": "investisiya",
+        "correct": false
+      },
+      {
+        "text": "depozit",
         "correct": true
-      },
-      {
-        "text": "Siyasətin",
-        "correct": false
       }
     ]
   },
   {
     "num": 476,
-    "question": "Qədim Yunanıstanda fəlsəfənin meydana çıxmasıına hansı təlim əhəmiyyətli dərəcədə təsir göstərmişdir?",
+    "question": "Ödəniş tələbnamə tapşırıqları:",
     "options": [
       {
-        "text": "Buddizm təlimi",
-        "correct": false
-      },
-      {
-        "text": "Nirvana təlimi",
-        "correct": false
-      },
-      {
-        "text": "Zərdüştilik təlimi",
-        "correct": false
-      },
-      {
-        "text": "Vedaların təlimi",
-        "correct": false
-      },
-      {
-        "text": "Dörd ünsür təlimi",
+        "text": "nağdsız hesablaşmaların formasıdır",
         "correct": true
+      },
+      {
+        "text": "nağdsız hesablaşmaların dondurulmasıdır",
+        "correct": false
+      },
+      {
+        "text": "nağdsız hesablaşmaların dövriyyədən çıxarılmasıdır",
+        "correct": false
+      },
+      {
+        "text": "nağdsız hesablaşmaların lisenziyasıdır",
+        "correct": false
+      },
+      {
+        "text": "nağdsız hesablaşmaların siyahıya alınmasıdır",
+        "correct": false
       }
     ]
   },
   {
     "num": 477,
-    "question": "Daosizm hansı elmi prinsipin başlanğıcını qoydu?",
+    "question": "Kommersiya banklarının funksiyasıdır:",
     "options": [
       {
-        "text": "Dünyanın vəhdəti prinsipinin",
+        "text": "pul-kredit siyasətini həyata keçirmək",
         "correct": false
       },
       {
-        "text": "Təkamül prinsipinin",
-        "correct": false
-      },
-      {
-        "text": "Təbii seçmə prinsipinin",
-        "correct": false
-      },
-      {
-        "text": "Qanunuyğunluq prinsipinin",
+        "text": "kreditləşmədə vasitəçilik",
         "correct": true
       },
       {
-        "text": "Ziddiyyətsizlik prinsipinin",
+        "text": "lisenziya vermək",
+        "correct": false
+      },
+      {
+        "text": "banknot emissiyası",
+        "correct": false
+      },
+      {
+        "text": "lisenziyanı ləğv etmək",
         "correct": false
       }
     ]
   },
   {
     "num": 478,
-    "question": "Daosizm dünyanı izha edərkən nədən çıxış edirdi?",
+    "question": "Kredit təşkilatının fəaliyyət prinsiplərindən biri onların .....fəaliyyət göstərməsidir:",
     "options": [
       {
-        "text": "Təbii səbəblərdən",
+        "text": "qanunsuz",
+        "correct": false
+      },
+      {
+        "text": "asılı",
+        "correct": false
+      },
+      {
+        "text": "müstəqil",
         "correct": true
       },
       {
-        "text": "Dini təsəvvürlərdən",
+        "text": "qərəzli",
         "correct": false
       },
       {
-        "text": "Fantastik varlıqlara inamdan",
-        "correct": false
-      },
-      {
-        "text": "Mifoloji ənənələrdən",
-        "correct": false
-      },
-      {
-        "text": "Adət-ənənələrdən",
+        "text": "dövlət tipli",
         "correct": false
       }
     ]
   },
   {
     "num": 479,
-    "question": "Konfusiyə görə ləyaqətli yaşamağı təmin edən nədir?",
+    "question": "Ödəyicinin vekselin ödəməsinə razılığı necə adlanır:",
     "options": [
       {
-        "text": "Var-dövlət",
+        "text": "spot",
         "correct": false
       },
       {
-        "text": "Biliklər yiyələnmək",
+        "text": "indossoment",
         "correct": false
       },
       {
-        "text": "Möminlik",
+        "text": "opsion",
         "correct": false
       },
       {
-        "text": "Ənənə və normalara hörmət",
+        "text": "aksept",
         "correct": true
       },
       {
-        "text": "Güc və hakimiyyət",
+        "text": "inkasso",
         "correct": false
       }
     ]
   },
   {
     "num": 480,
-    "question": "Rasionalizm ənənələrinin əsası Qədim Çində hansı məktəb tərəfindən qoyuldu?",
+    "question": "İnvestisiya fəaliyyətinin maliyyələşdirilməsində alternativ yollardan biri ...... maliyyələşdirilməsidir:",
     "options": [
       {
-        "text": "Legizm",
+        "text": "sığorta təşkilatlarının",
         "correct": false
       },
       {
-        "text": "Adlar məktəbi",
+        "text": "kreditin",
         "correct": false
       },
       {
-        "text": "Daosizm",
+        "text": "Mərkəzi Bankın dövlət tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT)",
+        "correct": false
+      },
+      {
+        "text": "vençur",
         "correct": true
-      },
-      {
-        "text": "Konfusiçilik",
-        "correct": false
-      },
-      {
-        "text": "Moizm",
-        "correct": false
       }
     ]
   },
   {
     "num": 481,
-    "question": "Qədim hind fəlsəfəsin hansı məktəbi rasionalizm ənənələrinin möhkəmlənməsində böyük rol oynadı?",
+    "question": "İnvestisiya şirkəti ....... şəxsdir:",
     "options": [
       {
-        "text": "Çarvaklar-lokayatlar",
+        "text": "hüquqi",
         "correct": true
       },
       {
-        "text": "Mimansa",
+        "text": "bələdiyyə və dövlət mülkiyyətinə əsaslanan",
         "correct": false
       },
       {
-        "text": "Buddizm",
+        "text": "Milli Depozit Sistemindən icazə almaq istəyən",
         "correct": false
       },
       {
-        "text": "Yoqa",
+        "text": "fiziki",
         "correct": false
       },
       {
-        "text": "Vayşeşika",
+        "text": "müddətli fəaliyyət göstərən",
         "correct": false
       }
     ]
   },
   {
     "num": 482,
-    "question": "Qədim hind fəlsəfəsində ortodoksal məktəblər üçün hansı funksiya daha önəmli idi?",
+    "question": "Bank emitent kimi çıxış etdikdə:",
     "options": [
       {
-        "text": "Evristik funksiya",
+        "text": "başqalarının qiymətli kağızlarını istifadə edir",
         "correct": false
       },
       {
-        "text": "Metodoloji funksiya",
-        "correct": false
-      },
-      {
-        "text": "İdraki funksiya",
-        "correct": false
-      },
-      {
-        "text": "Aksioloji funksiya",
-        "correct": false
-      },
-      {
-        "text": "İdeoloji funksiya",
+        "text": "öz qiymətli kağızlarını buraxır",
         "correct": true
+      },
+      {
+        "text": "öz qiymətli kağızlarını satın alır",
+        "correct": false
+      },
+      {
+        "text": "başqalarının qiymətli kağızlarını satın alır",
+        "correct": false
+      },
+      {
+        "text": "başqalarının qiymətli kağızlarını satır",
+        "correct": false
       }
     ]
   },
   {
     "num": 483,
-    "question": "Postindustrial cəmiyyətin inkişafını şərtləndirən əsas amil hansıdır?",
+    "question": "Konvertasiya.......deyilir:",
     "options": [
       {
-        "text": "siyasət",
+        "text": "bir bankın digərinə dəyişdirilməsinə",
         "correct": false
       },
       {
-        "text": "xidmətlər",
+        "text": "pulun dəfinəyə çevrilməsinə",
         "correct": false
       },
       {
-        "text": "maddi istehsal",
-        "correct": false
-      },
-      {
-        "text": "informasiya",
+        "text": "bir valyuta növünün digərinə dəyişdirilməsinə",
         "correct": true
       },
       {
-        "text": "ekologiya",
+        "text": "nağd pulun nağdsız pula çevrilməsinə",
+        "correct": false
+      },
+      {
+        "text": "pulun kreditə çevrilməsinə",
         "correct": false
       }
     ]
   },
   {
     "num": 484,
-    "question": "Canlı orqanizmlərin ətraf mühitlə qarşılıqlı təsirlərini öyrənən elm hansıdır?",
+    "question": "Portfel investisiyası əməliyyatları bankların ...... apardığı əməliyyatdır:",
     "options": [
       {
-        "text": "geologiya",
+        "text": "depozit ilə",
         "correct": false
       },
       {
-        "text": "sosial ekologiya",
+        "text": "kreditlə",
         "correct": false
       },
       {
-        "text": "biologiya",
+        "text": "müqavilə ilə",
         "correct": false
       },
       {
-        "text": "ekologiya",
+        "text": "qiymətli kağızlarla",
         "correct": true
       },
       {
-        "text": "biokimya",
+        "text": "ipoteka ilə",
         "correct": false
       }
     ]
   },
   {
     "num": 485,
-    "question": "Ekologiya terminini ilk dəfə istifadə edən alman bioloqu kimdir?",
+    "question": "Bankların investisiya əməliyyatları:",
     "options": [
       {
-        "text": "Hekkel",
+        "text": "vəsait qoyuluşu prosesi ilə",
         "correct": true
       },
       {
-        "text": "Engels",
+        "text": "hesablaşmaların sürətləndirilməsidir",
         "correct": false
       },
       {
-        "text": "Darvin",
+        "text": "lisenziya vermək əməliyyatıdır",
         "correct": false
       },
       {
-        "text": "Vernadski",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
+        "text": "kredit resurslarının formalaşmasıdır",
         "correct": false
       }
     ]
   },
   {
     "num": 486,
-    "question": "Təbiətin cəmiyyətin  həyat sferasına daxil edilmiş  hissəsi necə adlanır",
+    "question": "İnvestor hansı investisiya fəaliyyətini həyata keçirir ?",
     "options": [
       {
-        "text": "iqtisadiyyat",
-        "correct": false
-      },
-      {
-        "text": "istehsal",
-        "correct": false
-      },
-      {
-        "text": "təbii mühit",
-        "correct": false
-      },
-      {
-        "text": "maddi  mühit",
-        "correct": false
-      },
-      {
-        "text": "coğrafi mühit",
+        "text": "investisiya fəaliyyətini maliyyələşdirir",
         "correct": true
+      },
+      {
+        "text": "klirinq əməliyyatlarını həyata keçirir",
+        "correct": false
+      },
+      {
+        "text": "banklara vəsait cəlb edir",
+        "correct": false
+      },
+      {
+        "text": "depozit əməliyyatlarını həyata keçirir",
+        "correct": false
+      },
+      {
+        "text": "kommunikasiya işlərini yerinə yetirir",
+        "correct": false
       }
     ]
   },
   {
     "num": 487,
-    "question": "Fəlsəfə tarixində təbiətlə insanı vahid bir tam kimi götürən dövr hansı olmuşdur?",
+    "question": "İnvestisiya krediti rəsmiləşdirilərkən əsasən girov kimi çıxış edir .......:",
     "options": [
       {
-        "text": "orta əsrlər",
+        "text": "yola salınmış mallar",
         "correct": false
       },
       {
-        "text": "kapitalizm",
-        "correct": false
-      },
-      {
-        "text": "postmodern",
-        "correct": false
-      },
-      {
-        "text": "modern",
-        "correct": false
-      },
-      {
-        "text": "antik",
+        "text": "daşınmaz əmlak",
         "correct": true
+      },
+      {
+        "text": "plastik kartlar",
+        "correct": false
+      },
+      {
+        "text": "investisiya sənədləri",
+        "correct": false
+      },
+      {
+        "text": "yolda olan mallar",
+        "correct": false
       }
     ]
   },
   {
     "num": 488,
-    "question": "İnsanı əhatə edən rəngarəng aləm necə adlanır?",
+    "question": "İqtisadiyyatın inzibati amirlik idarəetmə sistemi şəraitində …. bank sistemi fəaliyyət göstərirdi:",
     "options": [
       {
-        "text": "kosmos",
+        "text": "keçid",
         "correct": false
       },
       {
-        "text": "biosfer",
+        "text": "dəyişkən",
         "correct": false
       },
       {
-        "text": "təbiət",
+        "text": "bölüşdürücü",
         "correct": true
       },
       {
-        "text": "litosfer",
+        "text": "bazar",
         "correct": false
       },
       {
-        "text": "stratosfer",
+        "text": "sərbəst",
         "correct": false
       }
     ]
   },
   {
     "num": 489,
-    "question": "Müasir dünyada müharibə və sülh,  demoqrafik və ekoloji problemlər necə adlanır?",
+    "question": "Bazar iqtisadiyyatında Bank Sistemi neçə pilləli olur?",
     "options": [
       {
-        "text": "milli problemlər",
+        "text": "1",
         "correct": false
       },
       {
-        "text": "lokal problemlər",
+        "text": "9",
         "correct": false
       },
       {
-        "text": "ümumbəşəri problemlər",
+        "text": "16",
         "correct": false
       },
       {
-        "text": "siyasi problemlər",
-        "correct": false
-      },
-      {
-        "text": "qlobal problemlər",
+        "text": "2",
         "correct": true
+      },
+      {
+        "text": "12",
+        "correct": false
       }
     ]
   },
   {
     "num": 490,
-    "question": "Qlobal problemlər hansı problemlərdir?",
+    "question": "Bankların xüsusi kapitalının funksiyalarını göstərin:",
     "options": [
       {
-        "text": "beynəlxaıq terrorçuluqla mübarizə problemləridir",
+        "text": "faktorinq, operativ, trast",
         "correct": false
       },
       {
-        "text": "yalnız inkişaf  etməkdə olan və eləcə də keçmiş sosialist ölkələrinə xas olan problemlərdir",
+        "text": "yalnız kredit riskləri",
         "correct": false
       },
       {
-        "text": "həlli tapılmayan problemlərdir",
+        "text": "depozit, kredit, vasitəçilik",
         "correct": false
       },
       {
-        "text": "bəşəriyyətin mövcudluğuna təhlükə yaradan problemlərdir",
+        "text": "müdafiə, kredit, borc",
+        "correct": false
+      },
+      {
+        "text": "müdafiə, operativ, tənzimləmə",
         "correct": true
-      },
-      {
-        "text": "ekoloji problemlərdir",
-        "correct": false
       }
     ]
   },
   {
     "num": 491,
-    "question": "Fəlsəfi cərəyan kimi futurologiya nəyi öyrənir?",
+    "question": "SSRİ Dövlət Bankı neçə pilləli idi:",
     "options": [
       {
-        "text": "siyasətin gələcəyini",
-        "correct": false
-      },
-      {
-        "text": "iqtisadiyyatın gələcəyini",
-        "correct": false
-      },
-      {
-        "text": "elmin gələcəyini",
-        "correct": false
-      },
-      {
-        "text": "bəşəriyyətin gələcəyini",
+        "text": "1",
         "correct": true
       },
       {
-        "text": "ailənin gələcəyini",
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "3",
         "correct": false
       }
     ]
   },
   {
     "num": 492,
-    "question": "«İnkişafın hədləri” əsərində hansı problemlər nəzərdən keçirilmişdir?",
+    "question": "BOKT (Bank Olmayan Kredit Təşkilatı)......:",
     "options": [
       {
-        "text": "siyasi problemlər",
+        "text": "publik hüquqi şəxsdir",
         "correct": false
       },
       {
-        "text": "elmi problemlər",
-        "correct": false
-      },
-      {
-        "text": "ekoloji problemlər",
-        "correct": false
-      },
-      {
-        "text": "iqtisadi problemlər",
-        "correct": false
-      },
-      {
-        "text": "bəşəriyyətin qlobal problemləri",
+        "text": "öz vəsaiti hesabına yalnız pul",
         "correct": true
+      },
+      {
+        "text": "yalnız hüquqi şəxslərdən depozit qəbul edə bilər",
+        "correct": false
+      },
+      {
+        "text": "depozit cəlb etməklə kredit verə bilər",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın vəsaiti hesabına kredit verə bilər",
+        "correct": false
       }
     ]
   },
   {
     "num": 493,
-    "question": "Müəyyən ərazidə yaşayan  heyvanlar  və bitkilərin  əlaqəsi, onların bir-birinə  və yaşadıqları mühitə münasibətlərini  öyrənən elm necə adlanır?",
+    "question": "Bank Olmayan Kredit Təşkilatları(BOKT) kimin verdiyi lisenziyaya əsasən fəaliyyət göstərə bilər?",
     "options": [
       {
-        "text": "Biologiya",
+        "text": "bank filialının",
         "correct": false
       },
       {
-        "text": "Etnoqrafiya",
+        "text": "Milli Məclisin",
         "correct": false
       },
       {
-        "text": "Etika",
-        "correct": false
-      },
-      {
-        "text": "Ekologiya",
+        "text": "Mərkəzi Bankın",
         "correct": true
       },
       {
-        "text": "Ekonometrika",
+        "text": "kommersiya bankının",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyinin",
         "correct": false
       }
     ]
   },
   {
     "num": 494,
-    "question": "Qlobal orta sinfin tərkibinə kimlər daxildir?",
+    "question": "İki pilləli Bank Sisteminin ikinci pilləsində hansı bank dayanır?",
     "options": [
       {
-        "text": "hüquqşünaslar, fəhlələr, alimlər",
+        "text": "Mərkəzi Banklar",
         "correct": false
       },
       {
-        "text": "müəllimlər, həkimlər, hüquqşünaslar",
+        "text": "Mərkəzi Bankın ərazi idarələri",
         "correct": false
       },
       {
-        "text": "biznesmenlər, proqramçılar, menecerlər",
+        "text": "emissiya bankları",
+        "correct": false
+      },
+      {
+        "text": "kommersiya bankları",
         "correct": true
       },
       {
-        "text": "fəhlələr, qulluqçular, miqrantlar",
-        "correct": false
-      },
-      {
-        "text": "müəllimlər, həkimlər, miqrantlar",
+        "text": "heç biri",
         "correct": false
       }
     ]
   },
   {
     "num": 495,
-    "question": "İqtisadi qloballaşmanın  tərəfdarları  hər il  harada görüşürlər?",
+    "question": "Bank Olmayan Kredit Təşkilatları (BOKT) Bank Sisteminin neçənci pilləsində dayanır?",
     "options": [
       {
-        "text": "Ümumdünya  Kiyev  Forumunda",
+        "text": "I pilləsində",
         "correct": false
       },
       {
-        "text": "Ümumdünya  Nyu-York  Forumunda",
+        "text": "III pilləsində",
         "correct": false
       },
       {
-        "text": "Ümumdünya Davos Forumunda",
+        "text": "heç birində",
+        "correct": false
+      },
+      {
+        "text": "I və II pilləsində",
+        "correct": false
+      },
+      {
+        "text": "II pilləsində",
         "correct": true
-      },
-      {
-        "text": "Ümumdünya  Roma  Forumunda",
-        "correct": false
-      },
-      {
-        "text": "Ümumdünya  Moskva  Forumunda",
-        "correct": false
       }
     ]
   },
   {
     "num": 496,
-    "question": "Elmdə “qlobalistika” termini nə vaxt yarandı?",
+    "question": "Mülkiyyətinə görə ayrılan bankları göstərin:",
     "options": [
       {
-        "text": "XIX əsrin sonunda",
-        "correct": false
-      },
-      {
-        "text": "XXI əsrdə",
-        "correct": false
-      },
-      {
-        "text": "XX əsrin 90-cı illərində",
-        "correct": false
-      },
-      {
-        "text": "XX əsrin 60-70-ci illərin sərhəddində",
+        "text": "dövlət, səhmdar,korporativ",
         "correct": true
       },
       {
-        "text": "XX əsrin 40-cı illərində",
+        "text": "korporativ,mərkəzi,kommersiya",
+        "correct": false
+      },
+      {
+        "text": "1 pilləli, 2 pilləli, 3 pilləli",
         "correct": false
       }
     ]
   },
   {
     "num": 497,
-    "question": "Qloballaşmanın mənfi tərəflərini tədqiqatçılar nə ilə əlaqələndirirlər?",
+    "question": "Banklarda əməliyyat jurnalının aparılmasında məqsəd:",
     "options": [
       {
-        "text": "ekoloji problemlərin  kəskinləşməsi ilə",
+        "text": "bank daxili əməliyyatların uçotunu aparmaqdır",
         "correct": false
       },
       {
-        "text": "mənəviyyatın tənəzzülü ilə",
-        "correct": false
-      },
-      {
-        "text": "müharibə təhlükəsinin artması ilə",
-        "correct": false
-      },
-      {
-        "text": "ABŞ-n bütün dünyaya zorla qəbul etdirdiyi qloballaşma modeli ilə",
+        "text": "cari ilin əməliyyatları üzrə qalıqların çıxarılmasıdır",
         "correct": true
       },
       {
-        "text": "demoqrafik problemlərin kəskinləşməsi ilə",
+        "text": "hesablar üzrə balansı müəyyənləşdirməkdir",
+        "correct": false
+      },
+      {
+        "text": "balansdan kənar hesablar üzrə qalıq çıxarmaqdır",
+        "correct": false
+      },
+      {
+        "text": "əməliyyatları sintetik uçotda əks etdirməkdir",
         "correct": false
       }
     ]
   },
   {
     "num": 498,
-    "question": "Aşağıdakılardan hansında ekoloji təhlükənin mahiyyəti düzgün ifadə edilməmişdir?",
+    "question": "Nağdsız hesablaşma sistemi olub qarşılıqlı ödənişlərin üzləşməsinə əsaslanır......:",
     "options": [
       {
-        "text": "torpağın məhsuldarlığının azalmasında",
+        "text": "lizinq",
         "correct": false
       },
       {
-        "text": "parnik effektinin artmasında",
+        "text": "ekvayrinq",
         "correct": false
       },
       {
-        "text": "təbii suların çirkləndirilməsində",
-        "correct": false
-      },
-      {
-        "text": "siyasətin zor gücünə həyata keçirilməsində",
+        "text": "klirinq",
         "correct": true
       },
       {
-        "text": "insanın fəaliyyəti nəticəsində flora və faunanın məhv olmasında",
+        "text": "investisiya",
+        "correct": false
+      },
+      {
+        "text": "anderraytinq",
         "correct": false
       }
     ]
   },
   {
     "num": 499,
-    "question": "Əbədi həqiqət anlayışını aşağıdakılardan hansı ifadə edir?",
+    "question": "Kassir iş yerini müvəqətti tərk etdikdə pul və qiymətliləri açıqda saxlaya bilərmi?",
     "options": [
       {
-        "text": "heç vaxt dəyişməyəcək hökmdür",
+        "text": "bəli saxlaya bilər",
         "correct": false
       },
       {
-        "text": "dəyişilməz nöqteyi-nəzərdir",
+        "text": "çantasında saxlaya bilər",
         "correct": false
       },
       {
-        "text": "idrak obyektində dəyişməz olana uyğundur",
+        "text": "stolun daxilində saxlaya bilər",
+        "correct": false
+      },
+      {
+        "text": "saxlaya bilməz",
         "correct": true
       },
       {
-        "text": "zamanın dönməzliyi ilə şərtlənir",
-        "correct": false
-      },
-      {
-        "text": "nəsillərin təcrübəsi ilə təsdiqlənir",
+        "text": "açıq seyfdə saxlaya bilər",
         "correct": false
       }
     ]
   },
   {
     "num": 500,
-    "question": "Nisbi həqiqət nədir?",
+    "question": "İnkasso sərəncamları ilə hesablaşmalar zamanı borclunun (ödəyicinin ) bank hesabına xidmət göstərən bank (icraçı bank) ödənişi ödəyicinin bank hesabından ..... qaydada (ödəyicinin sərəncamı olmadan) həyata keçirir:",
     "options": [
       {
-        "text": "Ehtimali hökmdür",
+        "text": "növbəsiz",
         "correct": false
       },
       {
-        "text": "Zamanca dəyişilən fikirdir",
+        "text": "növbəli",
         "correct": false
       },
       {
-        "text": "Mümkün olan həqiqətdir",
+        "text": "müddətli",
         "correct": false
       },
       {
-        "text": "Natamam və qeyri-dəqiq bilikdir",
+        "text": "müddətsiz",
+        "correct": false
+      },
+      {
+        "text": "mübahisəsiz",
         "correct": true
-      },
-      {
-        "text": "Insanın keçici maraqları ilə şərtlənən bilikdir",
-        "correct": false
       }
     ]
   },
   {
     "num": 501,
-    "question": "Mütləq həqiqət nədir?",
+    "question": "İnvestisiyanın formalarını göstərin:",
     "options": [
       {
-        "text": "rədd edilməz fikirdir",
-        "correct": false
-      },
-      {
-        "text": "qeyri-məhdud həqiqətdir",
-        "correct": false
-      },
-      {
-        "text": "təkzibolunmaz hökmdür",
-        "correct": false
-      },
-      {
-        "text": "bitkin və dəqiq bilikdir",
+        "text": "portfel və birbaşa investisiya",
         "correct": true
       },
       {
-        "text": "qəti hökmdür",
+        "text": "uzunmüddətli və qısamüddətli investisiya",
+        "correct": false
+      },
+      {
+        "text": "yalnız portfel investisiyası",
+        "correct": false
+      },
+      {
+        "text": "birbaşa və son investisiya",
+        "correct": false
+      },
+      {
+        "text": "kredit və faktorinq",
         "correct": false
       }
     ]
   },
   {
     "num": 502,
-    "question": "Obyektiv həqiqət nə ilə şərtlənir?",
+    "question": "Bank Olmayan Kredit Təşkilatı (BOKT) :",
     "options": [
       {
-        "text": "Xarici (kənar) amillərlə şərtlənir",
+        "text": "dilerdir",
         "correct": false
       },
       {
-        "text": "ətraf  aləmlə şərtlənir",
-        "correct": false
-      },
-      {
-        "text": "Dərk edən insanın maddi maraqları ilə şərtlənir",
-        "correct": false
-      },
-      {
-        "text": "Dərk edən şəxsin orqanizmi ilə şərtlənir",
-        "correct": false
-      },
-      {
-        "text": "Idrak obyekti ilə şərtlənir",
+        "text": "hüquqi şəxsdir",
         "correct": true
+      },
+      {
+        "text": "əmanət bankıdır",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxsdir",
+        "correct": false
+      },
+      {
+        "text": "investordur",
+        "correct": false
       }
     ]
   },
   {
     "num": 503,
-    "question": "Yanılma nədir?",
+    "question": "Emissiya mərkəzidir:",
     "options": [
       {
-        "text": "əlverişli olmayan yanaşmadır",
+        "text": "vergi orqanları",
         "correct": false
       },
       {
-        "text": "bilərəkdən formalaşdırılan səhv nöqteyi-nəzər",
+        "text": "Banklar Assosiasiyası",
         "correct": false
       },
       {
-        "text": "yad fikirdir",
-        "correct": false
-      },
-      {
-        "text": "Idrak obyektinə uyğun gəlməyən mühakimədir",
+        "text": "Mərkəzi Bank",
         "correct": true
       },
       {
-        "text": "əsaslandırılmamış mühakimədir",
+        "text": "sığorta təşkilatları",
+        "correct": false
+      },
+      {
+        "text": "depozit bankları",
         "correct": false
       }
     ]
   },
   {
     "num": 504,
-    "question": "Həqiqət aşağıdakılardan hansıdır?",
+    "question": "Kredit ifadəsinin izahı nədir?",
     "options": [
       {
-        "text": "Avtoritetin fikridir",
+        "text": "sazişdir",
         "correct": false
       },
       {
-        "text": "Hamının razılaşdığı mühakimədir",
+        "text": "depozitdir",
         "correct": false
       },
       {
-        "text": "Zamanın müqəddəsləşdirdiyi ənənədir",
+        "text": "girovdur,verilən vəsaitin qaytarılmamasıdır",
         "correct": false
       },
       {
-        "text": "Dalanın sonundakı işıqdır",
-        "correct": false
-      },
-      {
-        "text": "İdrak obyektinə uyğun gələn mühakimədir",
+        "text": "etibar edirəm,inanıram",
         "correct": true
+      },
+      {
+        "text": "faktorinq",
+        "correct": false
       }
     ]
   },
   {
     "num": 505,
-    "question": "Həqiqətin aksioloji aspekti onu necə səciyyələndirir?",
+    "question": "Gələcəkdə gəlir götürmək məqsədilə uzunmüddətli sərmayə yatırımıdır:",
     "options": [
       {
-        "text": "biliyin təkzib olunmazlığı kimi",
+        "text": "ipoteka əməliyyatları",
         "correct": false
       },
       {
-        "text": "fayda gətirən bilik kimi",
+        "text": "trast əməliyyatları",
         "correct": false
       },
       {
-        "text": "varlığın xassəsi kimi",
+        "text": "klirinq əməliyyatları",
         "correct": false
       },
       {
-        "text": "yüksək mənəvi-əxlaqi dəyər kimi",
+        "text": "Mərkəzi Bankın kommersiya",
+        "correct": false
+      },
+      {
+        "text": "investisiya",
         "correct": true
-      },
-      {
-        "text": "biliyin gerçəkliyə uyğunluğu kimi",
-        "correct": false
       }
     ]
   },
   {
     "num": 506,
-    "question": "Həqiqətin qnoseoloji aspekti onu necə səciyyələndirir?",
+    "question": "Birbaşa investisiya dedikdə ......vəsait qoyuluşu başa düşülür:",
     "options": [
       {
-        "text": "Məntiqi mühakimələrin nəticəsi kimi",
+        "text": "müəssisələrin nizamnamə kapitalına",
         "correct": false
       },
       {
-        "text": "Biliyin mövcud nəzəriyyələr çərçivəsində təkzib olunmazlığı kimi.",
+        "text": "nizamnamə kapitalının artırılmasına",
         "correct": false
       },
       {
-        "text": "Əksəriyyətin rəyini ifadə etmə forması kimi",
-        "correct": false
-      },
-      {
-        "text": "Biliyin xassəsi kimi",
-        "correct": true
-      },
-      {
-        "text": "Biliyin faydalılığı kimi",
+        "text": "investisiya obyektlərinin",
         "correct": false
       }
     ]
   },
   {
     "num": 507,
-    "question": "Bir predmetə xas olan  bəzi xüsusiyyətlərin buna oxşar digər predmetə  fikrən köçürülməsinə nə deyilir?",
+    "question": "Adətən investisiya məqsədləri üçün hansı bank ssudaları istifadə edilir:",
     "options": [
       {
-        "text": "ümumiləşdirmə",
+        "text": "istehlak",
         "correct": false
       },
       {
-        "text": "sintez",
-        "correct": false
-      },
-      {
-        "text": "abstraksiya",
-        "correct": false
-      },
-      {
-        "text": "analogiya",
+        "text": "uzunmüddətli",
         "correct": true
       },
       {
-        "text": "modelləşdirmə",
+        "text": "ticarət",
+        "correct": false
+      },
+      {
+        "text": "orta müddətli",
+        "correct": false
+      },
+      {
+        "text": "qısamüddətli və bir günlük kredit",
         "correct": false
       }
     ]
   },
   {
     "num": 508,
-    "question": "Mücərrəd biliklərin inteqrasiyası necə adlanır?",
+    "question": "Bank kreditində borcalan qismində çıxış edirlər:",
     "options": [
       {
-        "text": "eyniləşdirmə",
+        "text": "yalnız fiziki şəxslər",
         "correct": false
       },
       {
-        "text": "analogiya",
+        "text": "bank ilə müqaviləsi olmayan şəxslər",
         "correct": false
       },
       {
-        "text": "təhlil",
-        "correct": false
-      },
-      {
-        "text": "korrelyasiya",
-        "correct": false
-      },
-      {
-        "text": "sintez",
+        "text": "hüquqi və fiziki şəxslər",
         "correct": true
+      },
+      {
+        "text": "dövləti təmsil etməyən orqanlar",
+        "correct": false
+      },
+      {
+        "text": "yalnız hüquqi şəxslər",
+        "correct": false
       }
     ]
   },
   {
     "num": 509,
-    "question": "Ayrı-ayrı müddəalardan  daha ümumi xarakterli müddəalara keçid nə adlanır?",
+    "question": "Müasir iqtisadiyyatda kreditin daha çox yayılmış forması hansıdır:",
     "options": [
       {
-        "text": "abstraksiya",
+        "text": "faktorinq krediti",
         "correct": false
       },
       {
-        "text": "analogiya",
+        "text": "forfeytinq krediti",
         "correct": false
       },
       {
-        "text": "deduksiya",
+        "text": "lizinq",
         "correct": false
       },
       {
-        "text": "induksiya",
+        "text": "bank krediti",
         "correct": true
       },
       {
-        "text": "modelləşdirmə",
+        "text": "trast krediti",
         "correct": false
       }
     ]
   },
   {
     "num": 510,
-    "question": "Nəzəri  idraka aiddir",
+    "question": "Dövlət kreditinin əlamətidir:",
     "options": [
       {
-        "text": "ölçü",
+        "text": "qısamüddətli qiymətli kağızlardan istifadə olunması",
         "correct": false
       },
       {
-        "text": "müşahidə",
+        "text": "kreditin yalnız pul formasında verilməsi",
         "correct": false
       },
       {
-        "text": "sınaq",
+        "text": "veksellərin emissiyasının olması",
         "correct": false
       },
       {
-        "text": "induksiya",
+        "text": "dövlət kreditor kimi iştirak etmir",
+        "correct": false
+      },
+      {
+        "text": "dövlətin həm kreditor,həm borclu kimi iştirakı",
         "correct": true
-      },
-      {
-        "text": "analogiya",
-        "correct": false
       }
     ]
   },
   {
     "num": 511,
-    "question": "Şüur vasitəsilə  varlığın  tərəf və  əlaqələrinin əks etdirilməsinə nə deyilir?",
+    "question": "Daşınmaz əmlaka görə uzunmüddətli kreditin növünü göstərin:",
     "options": [
       {
-        "text": "anlama",
-        "correct": false
-      },
-      {
-        "text": "praktika",
-        "correct": false
-      },
-      {
-        "text": "introspeksiya",
-        "correct": false
-      },
-      {
-        "text": "refleksiya",
-        "correct": false
-      },
-      {
-        "text": "dərketmə",
+        "text": "ipoteka",
         "correct": true
+      },
+      {
+        "text": "tədiyyə",
+        "correct": false
+      },
+      {
+        "text": "faktorinq",
+        "correct": false
+      },
+      {
+        "text": "beynəlxalq",
+        "correct": false
+      },
+      {
+        "text": "lizinq",
+        "correct": false
       }
     ]
   },
   {
     "num": 512,
-    "question": "Bu cərəyana görə, dünyanı dərk etmək üçün əsas vasitə zəkadır",
+    "question": "Beynəlxalq kredit verilir:",
     "options": [
       {
-        "text": "intuitivizm",
+        "text": "plastik kartlarla",
         "correct": false
       },
       {
-        "text": "empirizm",
-        "correct": false
-      },
-      {
-        "text": "metafizika",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm",
+        "text": "kreditor ölkənin, borcalanın ölkəsinin, üçüncü ölkənin",
         "correct": true
       },
       {
-        "text": "neopozitivizm",
+        "text": "yalnız dönərli olmayan valyuta ilə",
         "correct": false
       }
     ]
   },
   {
     "num": 513,
-    "question": "İnsanın  problemin  həlli yolları və şərtlərini bilmədən  onu həll etmək qabiliyyəti necə adlanır?",
+    "question": "Beynəlxalq kreditin fərqləndirici xüsusiyyəti:",
     "options": [
       {
-        "text": "anlama",
-        "correct": false
-      },
-      {
-        "text": "refleksiya",
-        "correct": false
-      },
-      {
-        "text": "intellekt",
-        "correct": false
-      },
-      {
-        "text": "intuisiya",
-        "correct": true
-      },
-      {
-        "text": "praktika",
+        "text": "sövdələşmədə hər hansı bir",
         "correct": false
       }
     ]
   },
   {
     "num": 514,
-    "question": "Şeylərin  mənasının dərki  prosesi necə adlanır?",
+    "question": "Bank Qanunvericiliyi kommersiya banklarına icazə vermir:",
     "options": [
       {
-        "text": "bilik",
+        "text": "müştərilərə hesablaşma-kassa xidməti göstərmək",
         "correct": false
       },
       {
-        "text": "retrospeksiya",
+        "text": "kredit fəaliyyətini",
         "correct": false
       },
       {
-        "text": "anlama",
+        "text": "hesablar üzrə əməliyyat aparmaq",
+        "correct": false
+      },
+      {
+        "text": "ticarətlə məşğul olmaq",
         "correct": true
       },
       {
-        "text": "introspeksiya",
-        "correct": false
-      },
-      {
-        "text": "intuisiya",
+        "text": "kreditləşmədə vasitəçilik etmək",
         "correct": false
       }
     ]
   },
   {
     "num": 515,
-    "question": "İnsanın  mahiyyəti  deyil,  yalnız hadisələri dərk  etdiyini iddia edənlər  kimlərdir?",
+    "question": "Mərkəzi Bankın daxili audit bölməsi həyata keçirir:",
     "options": [
       {
-        "text": "Deistlər",
+        "text": "Mərkəzi Bankın İdarə Heyətinin fəaliyyətini nizamlaşdırır",
         "correct": false
       },
       {
-        "text": "dogmatiklər",
+        "text": "İdarə Heyətinin üzvlərini işdən çıxarır",
         "correct": false
       },
       {
-        "text": "apologetlər",
+        "text": "illik maliyyə hesabatını təsdiq edir",
         "correct": false
       },
       {
-        "text": "aqnostiklər",
+        "text": "bölmə rəhbərini təyin edir",
+        "correct": false
+      },
+      {
+        "text": "struktur bölmələrinin auditini həyata keçirir",
         "correct": true
-      },
-      {
-        "text": "qnostiklər",
-        "correct": false
       }
     ]
   },
   {
     "num": 516,
-    "question": "Dünyanın dərkedilənliyini inkar edirlər",
+    "question": "Bankın funksional təyinatıdır:",
     "options": [
       {
-        "text": "materialistlər",
-        "correct": false
-      },
-      {
-        "text": "ateistlər",
-        "correct": false
-      },
-      {
-        "text": "ekzistensialistlər",
-        "correct": false
-      },
-      {
-        "text": "Aqnostiklər",
+        "text": "depozit",
         "correct": true
       },
       {
-        "text": "teistlər",
+        "text": "deflyasiya",
+        "correct": false
+      },
+      {
+        "text": "inflyasiya",
+        "correct": false
+      },
+      {
+        "text": "tranzit",
+        "correct": false
+      },
+      {
+        "text": "devalvasiya",
         "correct": false
       }
     ]
   },
   {
     "num": 517,
-    "question": "Aqnostisizm aşağıdakılardan hansıdır?",
+    "question": "Kredit Təşkilatları İttifaqı və Assosiasiyaları:",
     "options": [
       {
-        "text": "varlıq haqqında təlim",
+        "text": "yalnız kassa əməliyyatlarını yerinə yetirə bilərlər",
         "correct": false
       },
       {
-        "text": "dəyərlər  haqqında təlim",
-        "correct": false
-      },
-      {
-        "text": "2 0-ci əsr fəlsəfəsində cərəyan",
-        "correct": false
-      },
-      {
-        "text": "Obyektiv dünyanın mahiyyətinin dərkedilənliyini  inkar edən  təlim",
+        "text": "bank əməliyyatlarını yerinə yetirə bilməzlər",
         "correct": true
       },
       {
-        "text": "Allah haqqında  təlim",
+        "text": "yalnız hesablaşma əməliyyatlarını yerinə yetirə bilərlər",
+        "correct": false
+      },
+      {
+        "text": "yalnız depozit və ssuda əməliyyatlarını yerinə yetirə bilərlər",
+        "correct": false
+      },
+      {
+        "text": "istənilən bank əməliyyatlarını yerinə yetirə bilərlər",
         "correct": false
       }
     ]
   },
   {
     "num": 518,
-    "question": "Brahmanlar nəyi əsaslandırmağa çalışırdılar?",
+    "question": "Kommersiya banklarının əsas məqsədidir:",
     "options": [
       {
-        "text": "Vedaları zənginləşdirmək zərurətini",
+        "text": "bank yaratmaq",
         "correct": false
       },
       {
-        "text": "Dünyanın tək Allah tərəfindən yaradılmasını",
+        "text": "lisenziya vermək",
         "correct": false
       },
       {
-        "text": "Dünyada təbbii qanunların müvcudluğunu",
-        "correct": false
-      },
-      {
-        "text": "İnsanların kastalara bölünməsinin dəyişməzliyini",
+        "text": "mənfəət əldə etmək",
         "correct": true
       },
       {
-        "text": "Nirvana anlayışını",
+        "text": "bankları ləğv etmək",
+        "correct": false
+      },
+      {
+        "text": "xərc əldə etmək",
         "correct": false
       }
     ]
   },
   {
     "num": 519,
-    "question": "Qədim Hindistanda ali varna kimlərdən ibarət idi?",
+    "question": "Bütün bank əməliyyatlarını hansı banklar yerinə yetirir?",
     "options": [
       {
-        "text": "Sənətkarlardan",
+        "text": "heç biri",
         "correct": false
       },
       {
-        "text": "Vayşilərdən",
+        "text": "orta",
         "correct": false
       },
       {
-        "text": "Kşatrilərdən",
+        "text": "iri",
         "correct": false
       },
       {
-        "text": "Brahmanlardan",
+        "text": "universal",
         "correct": true
       },
       {
-        "text": "Şudralardan",
+        "text": "kiçik",
         "correct": false
       }
     ]
   },
   {
     "num": 520,
-    "question": "Vedaların hansı hissəsi fəlsəfənin meydana çıxmasında əsas rol oynadı?",
+    "question": "Aşağıdakılardan hansı Bank Sisteminin ikinci pilləsində yerləşir?",
     "options": [
       {
-        "text": "Riqveda",
+        "text": "kredit büroları",
         "correct": false
       },
       {
-        "text": "Aranyaklar",
+        "text": "Qiymətli Kağızlar Bazarı",
         "correct": false
       },
       {
-        "text": "Samhitlər",
+        "text": "Mərkəzi Bank",
         "correct": false
       },
       {
-        "text": "Brahmanlar",
+        "text": "sığorta təşkilatları",
         "correct": false
       },
       {
-        "text": "Upanişadlar",
+        "text": "kommersiya bankları",
         "correct": true
       }
     ]
   },
   {
     "num": 521,
-    "question": "Platona görə ruh insanı nəyə qovuşdurmağa çalışır?",
+    "question": "Bank Olmayan Kredit Təşkilatları (BOKT) Bank Sisteminin hansı pilləsində yerləşir?",
     "options": [
       {
-        "text": "İdeyalar aləminə",
-        "correct": false
-      },
-      {
-        "text": "Təbiətə",
-        "correct": false
-      },
-      {
-        "text": "Materiyaya",
-        "correct": false
-      },
-      {
-        "text": "Xeyirə",
+        "text": "ikinci pilləsində",
         "correct": true
       },
       {
-        "text": "O dünyaya",
+        "text": "üçüncü pilləsində",
+        "correct": false
+      },
+      {
+        "text": "birinci pilləsində",
+        "correct": false
+      },
+      {
+        "text": "dövlət pilləsində",
+        "correct": false
+      },
+      {
+        "text": "hökümət pilləsində",
         "correct": false
       }
     ]
   },
   {
     "num": 522,
-    "question": "Qədim yunan fəlsəfəsinin ilk məktəbləri üçün aşağıdakılardan hansı səciyyəvi idi?",
+    "question": "\"Bank\" termini nə deməkdir?",
     "options": [
       {
-        "text": "Sosial fəlsəfə",
+        "text": "stul",
         "correct": false
       },
       {
-        "text": "Əxlaq fəlsəfəsi",
-        "correct": false
-      },
-      {
-        "text": "Təsərrüfat fəlsəfəsi",
-        "correct": false
-      },
-      {
-        "text": "İnsan mövzusu",
-        "correct": false
-      },
-      {
-        "text": "Naturfəlsəfə",
+        "text": "masa,stol",
         "correct": true
+      },
+      {
+        "text": "kətil",
+        "correct": false
+      },
+      {
+        "text": "oturacaq",
+        "correct": false
+      },
+      {
+        "text": "kreslo",
+        "correct": false
       }
     ]
   },
   {
     "num": 523,
-    "question": "Sokratın anlayış haqqında təlimi aşağıdakılardan hansına qarşı yönəlmişdi?",
+    "question": "Hesablaşmalar sahəsində əsas nəzarət edən orqan kimdir:",
     "options": [
       {
-        "text": "Parmenidə qarşı",
+        "text": "Maliyyə Nazirliyi",
         "correct": false
       },
       {
-        "text": "Heraklitə qarşı",
+        "text": "Vergilər Nazirliyi",
         "correct": false
       },
       {
-        "text": "Pifaqorçulara qarşı",
-        "correct": false
-      },
-      {
-        "text": "Sofistlərə qarşı",
+        "text": "Mərkəzi Bank",
         "correct": true
       },
       {
-        "text": "Atomistlərə qarşı",
+        "text": "Hesablama Palatası",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Aparat",
         "correct": false
       }
     ]
   },
   {
     "num": 524,
-    "question": "Çarvaklar hansı ənənələrin formalaşmasında mühüm rol oynadılar?",
+    "question": "Kreditin prinsipləridir:",
     "options": [
       {
-        "text": "İdealizm ənənələrinin",
+        "text": "faizini ödəmə",
         "correct": false
       },
       {
-        "text": "İlahi vəhy ənənələrinin",
+        "text": "təminatlıq",
         "correct": false
       },
       {
-        "text": "Dünyanı mifoloji təsəvvürlərə uyğun izah etmə ənənələrinin",
+        "text": "qaytarılmaq",
         "correct": false
       },
       {
-        "text": "Dünyanı kreasionizm prinsipi üzrə izah etmə ənənələrinin",
-        "correct": false
-      },
-      {
-        "text": "Dünyanı təbii-rasional səbəblərlə izah etmə ənənələrinin",
+        "text": "hamısı",
         "correct": true
+      },
+      {
+        "text": "məqsədlilik",
+        "correct": false
       }
     ]
   },
   {
     "num": 525,
-    "question": "“Dünyanın əsasında qeyri-müəyyən, sonsüz, daim dəyişən, konkret forması olmayan “apeyron” durur” – fikri hansı filosofa məxsusdur?",
+    "question": "…. görə dövlət,səhmdar, xüsusi və qarışıq bankları fərqləndirirlər:",
     "options": [
       {
-        "text": "Heraklit",
+        "text": "ərazi əlamətinə",
         "correct": false
       },
       {
-        "text": "Anaksimen",
+        "text": "fəaliyyət miqyaslarına",
         "correct": false
       },
       {
-        "text": "Fales",
+        "text": "əməliyyatların xarakterinə",
         "correct": false
       },
       {
-        "text": "Zenon",
+        "text": "əməliyyatların həcminə",
         "correct": false
       },
       {
-        "text": "Anaksimandr",
+        "text": "mülkiyyət formasına",
         "correct": true
       }
     ]
   },
   {
     "num": 526,
-    "question": "Aristotel tərəfindən əsası qoyulmuş məktəb necə adlanır?",
+    "question": "Səhm neçənci dərəcəli qiymətli kağız növü hesab edilir?",
     "options": [
       {
-        "text": "Milet məktəbi",
-        "correct": false
-      },
-      {
-        "text": "Akademiya",
-        "correct": false
-      },
-      {
-        "text": "Atomizm məktəbi",
-        "correct": false
-      },
-      {
-        "text": "Eleya məktəbi",
-        "correct": false
-      },
-      {
-        "text": "Likey",
+        "text": "I dərəcəli",
         "correct": true
+      },
+      {
+        "text": "IV dərəcəli",
+        "correct": false
+      },
+      {
+        "text": "III dərəcəli",
+        "correct": false
+      },
+      {
+        "text": "II dərəcəli",
+        "correct": false
+      },
+      {
+        "text": "dərəcəsizdir",
+        "correct": false
       }
     ]
   },
   {
     "num": 527,
-    "question": "Aşağıdakılardan hansı konfusiçiliyin əsas problemlərini təşkil edir?",
+    "question": "Qiymətli kağız növüdür:",
     "options": [
       {
-        "text": "Humanizm",
+        "text": "ipoteka,maliyyə",
         "correct": false
       },
       {
-        "text": "Metodoloji məsələlər",
-        "correct": false
-      },
-      {
-        "text": "Ontoloji məsələlər",
-        "correct": false
-      },
-      {
-        "text": "Sosial-etik məsələlər",
+        "text": "istiqraz, səhm",
         "correct": true
       },
       {
-        "text": "Məntiqi məsələlər",
+        "text": "faktorinq,forfeytinq",
+        "correct": false
+      },
+      {
+        "text": "kredit, borc",
+        "correct": false
+      },
+      {
+        "text": "depozit,uçot",
         "correct": false
       }
     ]
   },
   {
     "num": 528,
-    "question": "Obyektiv həqiqətin varlığını sübut edərkən Platon hansı fəlsəfi təlimə istinad edirdi?",
+    "question": "Törəmə qiymətli kağız növüdür:",
     "options": [
       {
-        "text": "Demokritin atomlar haqqında təliminə",
+        "text": "bank, svop, opsion",
         "correct": false
       },
       {
-        "text": "Zenonun aporiyalarına",
+        "text": "kredit, əmtəə, investisiya, fyuçers, opsion",
         "correct": false
       },
       {
-        "text": "Sokratın anlayış haqqında təliminə",
+        "text": "fyuçers, opsion, svop",
         "correct": true
       },
       {
-        "text": "Parmenidin təliminə",
+        "text": "səhm, depozit, fyuçers, svop",
         "correct": false
       },
       {
-        "text": "Sofistlərin təliminə",
+        "text": "manat, svop, opsion, fyuçers",
         "correct": false
       }
     ]
   },
   {
     "num": 529,
-    "question": "Kimlər fəlsəfənin mücərrəd təfəkkürə yüksəlişi yolunda mühüm mərhələ təşkil edirdi?",
+    "question": "Kreditin hansı formasında o, pul formasında verilir və pul formasında qaytarılır:",
     "options": [
       {
-        "text": "Efesli Heraklit və Protaqor",
+        "text": "qarışıq",
         "correct": false
       },
       {
-        "text": "Milet məktəbinin nümayəndələri",
+        "text": "əmtəə-pul",
         "correct": false
       },
       {
-        "text": "Anaksaqor və Orfiklər",
+        "text": "əmtəə",
         "correct": false
       },
       {
-        "text": "Empedokl və Homer",
-        "correct": false
-      },
-      {
-        "text": "Pifaqorçular",
+        "text": "bank",
         "correct": true
+      },
+      {
+        "text": "dünya",
+        "correct": false
       }
     ]
   },
   {
     "num": 530,
-    "question": "Ədədləri birinci, hər predmetin əsası saymaqla, maddi aləmi ikinci hesab edənlər kimlərdir?",
+    "question": "…kreditinin köməyilə kapitalın iqtisadiyyat sahələri arasında axını baş verir:",
     "options": [
       {
-        "text": "aristotelçilər",
+        "text": "mülki",
         "correct": false
       },
       {
-        "text": "atomistlər",
+        "text": "ipoteka",
         "correct": false
       },
       {
-        "text": "sofistlər",
+        "text": "kommersiya",
         "correct": false
       },
       {
-        "text": "pifaqorçular",
+        "text": "istehlak",
+        "correct": false
+      },
+      {
+        "text": "bank",
         "correct": true
-      },
-      {
-        "text": "stoiklər",
-        "correct": false
       }
     ]
   },
   {
     "num": 531,
-    "question": "Platonun fikrincə hiss üzvlərimizlə qavranılan dünya:",
+    "question": "Kreditin funksiyasını qeyd edin:",
     "options": [
       {
-        "text": "İdeyalar aləminin səbəbidir.",
-        "correct": false
-      },
-      {
-        "text": "Həqiqi varlıqdır",
-        "correct": false
-      },
-      {
-        "text": "İdeyalar aləmindən asılıdır",
+        "text": "yenidənbölgü",
         "correct": true
       },
       {
-        "text": "Dəyişməzdir",
+        "text": "riskli",
         "correct": false
       },
       {
-        "text": "Mahiyyətlər aləmidir",
+        "text": "bərabərləşdirici",
+        "correct": false
+      },
+      {
+        "text": "nəzarət",
+        "correct": false
+      },
+      {
+        "text": "sosial",
         "correct": false
       }
     ]
   },
   {
     "num": 532,
-    "question": "Aporiyaları ilə məşhur olan qədim yunan filosofu kimdir?",
+    "question": "Borc faizi kimdən kimə gedir:",
     "options": [
       {
-        "text": "Efesli Heraklit",
+        "text": "borcalandan krediti üçüncü şəxsə təqdim edənə",
         "correct": false
       },
       {
-        "text": "Aqraqantlı Empedokl",
-        "correct": false
-      },
-      {
-        "text": "Stagirli Aristotel",
-        "correct": false
-      },
-      {
-        "text": "Eleyli Zenon",
+        "text": "borcalandan kreditora",
         "correct": true
       },
       {
-        "text": "Miletli Fales",
+        "text": "kreditordan borcalana",
+        "correct": false
+      },
+      {
+        "text": "üçüncü şəxslərə",
+        "correct": false
+      },
+      {
+        "text": "qarantiya edəndən zəmanətçiyə",
         "correct": false
       }
     ]
   },
   {
     "num": 533,
-    "question": "Antik yunan fəlsəfəsinin hansı inkişaf mərhələləri vardır?",
+    "question": "Kreditin mahiyyətinin daha doğru ifadəsini göstərin:",
     "options": [
       {
-        "text": "qeyri-klassik, romamərhələsi",
+        "text": "kredit-pul vəsaiti olmayan vəsaitdir",
         "correct": false
       },
       {
-        "text": "sokrataqədərki, roma mərhələsi, sofistika",
+        "text": "kredit-vaxtında qaytarılmalı olmayan vəsaitdir",
         "correct": false
       },
       {
-        "text": "sokrataqədərki, klassik, ellinizm",
-        "correct": true
-      },
-      {
-        "text": "ellinizm, roma mərhələsi, erkən klassika",
-        "correct": false
-      },
-      {
-        "text": "klassik, qeyri-klassik mərhələ, ellinizm",
+        "text": "kredit-iqtisadiyyatda pul vəsaitlərinin yarısını",
         "correct": false
       }
     ]
   },
   {
     "num": 534,
-    "question": "Hind fəlsəfəsində qeyri-ortodoksal fəlsəfi məktəblər hansılardır?",
+    "question": "Kredit vasitəsi ilə.......bölüşdürülür:",
     "options": [
       {
-        "text": "Vadenta, Sankxaya, Yoqa",
+        "text": "əmtəə qiymətliləri",
         "correct": false
       },
       {
-        "text": "Yoqa, Vaşeşika, Mimansa",
+        "text": "ancaq əmtəələr və pul vəsaitləri",
         "correct": false
       },
       {
-        "text": "Buddizm, Niyaya, Yoqa",
+        "text": "inkişafın əvvəlki dövrlərində yaradılmış qiymətlilər",
         "correct": false
       },
       {
-        "text": "Caynizm, Sankxaya, Lokayata",
-        "correct": false
-      },
-      {
-        "text": "Caynizm, Buddizm, Lokayata- Çarvak",
+        "text": "müvəqqəti azad olan dəyər",
         "correct": true
+      },
+      {
+        "text": "əsas vəsaitlər",
+        "correct": false
       }
     ]
   },
   {
     "num": 535,
-    "question": "“Nirvana” anlayışı hansı fəlsəfi cərəyana məxsusdur?",
+    "question": "Təklif edilən ifadələrdən kreditin funksiyasını ayırın:",
     "options": [
       {
-        "text": "sufizmə",
+        "text": "vaxtında qaytarılmaq",
         "correct": false
       },
       {
-        "text": "çarvaklar-lokayatlara",
+        "text": "müvəqqəti azad vəsaitlərin səfərbər olunması",
         "correct": false
       },
       {
-        "text": "konfusiçiliyə",
+        "text": "təkrar istehsal",
         "correct": false
       },
       {
-        "text": "buddizmə",
+        "text": "optimallaşdırma",
+        "correct": false
+      },
+      {
+        "text": "yenidənbölgü funksiyası",
         "correct": true
-      },
-      {
-        "text": "caynizmə",
-        "correct": false
       }
     ]
   },
   {
     "num": 536,
-    "question": "Qədim Çin fəlsəfəsində hadisələrin qanunauyğun gedişi haqqında ideyaları hansı məktəb irəli sürmüşdür?",
+    "question": "Qaytarılmaq kreditin …:",
     "options": [
       {
-        "text": "adlar məktəbi",
-        "correct": false
-      },
-      {
-        "text": "moizm",
-        "correct": false
-      },
-      {
-        "text": "daosizm",
+        "text": "prinsipidir",
         "correct": true
       },
       {
-        "text": "legizm",
+        "text": "faizidir",
         "correct": false
       },
       {
-        "text": "konfusiçilik",
+        "text": "funksiyasıdır",
+        "correct": false
+      },
+      {
+        "text": "roludur",
+        "correct": false
+      },
+      {
+        "text": "təyinatıdır",
         "correct": false
       }
     ]
   },
   {
     "num": 537,
-    "question": "Fəlsəfə qloballaşmanı hansı aspektdə nəzərdən keçirir",
+    "question": "Nağd pul tədavülünün idarə edilməsi:",
     "options": [
       {
-        "text": "iqtisadi aspektdə",
-        "correct": false
-      },
-      {
-        "text": "geosiyasi aspektdə",
-        "correct": false
-      },
-      {
-        "text": "ekoloji aspektdə",
-        "correct": false
-      },
-      {
-        "text": "sosial reallığa, eləcə də insanlara gələcək təsiri aspektində",
-        "correct": true
-      },
-      {
-        "text": "psixoloji aspektdə",
+        "text": "qeyri mərkəzləşdirilmiş",
         "correct": false
       }
     ]
   },
   {
     "num": 538,
-    "question": "Qloballaşma prosesləri hansı sahədə daha sürətlə cərəyan edir?",
+    "question": "Banklar bankıdır:",
     "options": [
       {
-        "text": "siyasətdə",
+        "text": "universal bank",
         "correct": false
       },
       {
-        "text": "insanların şüurunda",
+        "text": "ixtisaslaşmış bank",
         "correct": false
       },
       {
-        "text": "sosial sahədə",
-        "correct": false
-      },
-      {
-        "text": "iqtisadiyyatda",
+        "text": "Mərkəzi Bank",
         "correct": true
       },
       {
-        "text": "mədəniyyətdə",
+        "text": "Bank Olmayan Kredit Təşkilatı (BOKT)",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatları",
         "correct": false
       }
     ]
   },
   {
     "num": 539,
-    "question": "Qloballaşmanı sosiumun sistemli transformasiyası kimi səciyyələndirən tədqiqatçılar diqqəti  onun hansı  aspekti üzərində cəmləşdirirlər?",
+    "question": "Kommersiya banklarının ....... əməliyyatları müştərilərə borc vəsaitlərinin verilməsi ilə əlaqədardır:",
     "options": [
       {
-        "text": "psixoloji",
+        "text": "birja",
         "correct": false
       },
       {
-        "text": "iqtisadi",
+        "text": "trast",
         "correct": false
       },
       {
-        "text": "mədəni",
+        "text": "faktorinq və lizinq",
         "correct": false
       },
       {
-        "text": "siyasi",
+        "text": "kredit",
         "correct": true
       },
       {
-        "text": "ekoloji",
+        "text": "anderraytinq",
         "correct": false
       }
     ]
   },
   {
     "num": 540,
-    "question": "Aşağıdakılardan hansı müharibənin  klassik tərifinə uyğundur?",
+    "question": "Borc verilmə prosesində bank kreditinin sövdələşmə obyektidir:",
     "options": [
       {
-        "text": "Müharibə bir dövlətin digər dövlətə hücum  etməsidir",
+        "text": "bankın kassası",
         "correct": false
       },
       {
-        "text": "Müharibə bir çox nəsillərin böyük zəhmətlərinin nəticələrinin məhv edilməsidir",
+        "text": "dövlət mal-material qiymətliləri",
         "correct": false
       },
       {
-        "text": "Müharibə dövlətlər  arasında münaqişədir",
+        "text": "bankın statusu",
         "correct": false
       },
       {
-        "text": "Müharibə dövlətlər, siniflər, xalqlar,  millətlər arasında mütəşəkkil silahlı mübarizədir.",
+        "text": "vaxtı keçmiş borclar",
+        "correct": false
+      },
+      {
+        "text": "pul vəsaitləri",
         "correct": true
-      },
-      {
-        "text": "Müharibə ərazi uğrunda mübarizədir",
-        "correct": false
       }
     ]
   },
   {
     "num": 541,
-    "question": "«Ekologiya» elmi nəyi öyrənir?",
+    "question": "Universal bank nədir?",
     "options": [
       {
-        "text": "dünya okeanının vəziyyətini",
-        "correct": false
-      },
-      {
-        "text": "atmosferin vəziyyətini",
-        "correct": false
-      },
-      {
-        "text": "ərzaq problemlərini",
-        "correct": false
-      },
-      {
-        "text": "müasir dövrün demoqrafik problemlərini",
-        "correct": false
-      },
-      {
-        "text": "müəyyən ərazidə yaşayan heyvanlar və bitkilərin əlaqəsi, onların bir-birinə və yaşadıqları mühitə münasibətlərini",
+        "text": "bütün bank əməliyyatlarını yerinə yetirir",
         "correct": true
+      },
+      {
+        "text": "yalnız bir əməliyyat üzrə formalaşır",
+        "correct": false
+      },
+      {
+        "text": "heç bir bank əməliyyatını yerinə yetirmir",
+        "correct": false
+      },
+      {
+        "text": "bank deyil",
+        "correct": false
+      },
+      {
+        "text": "yalnız vasitəçilik əməliyyatlarını yerinə yetirir",
+        "correct": false
       }
     ]
   },
   {
     "num": 542,
-    "question": "Qlobal proqnozlaşdırmanın banisi kim olmuşdur?",
+    "question": "Ssuda (borc) faizinin mövcud olmasının zəruri bazası:",
     "options": [
       {
-        "text": "D.Medouz",
+        "text": "icarə münasibətləridir",
         "correct": false
       },
       {
-        "text": "M.Mesarovic",
-        "correct": false
-      },
-      {
-        "text": "E.Pestel",
-        "correct": false
-      },
-      {
-        "text": "J.Forrester",
+        "text": "kredit münasibətləridir",
         "correct": true
       },
       {
-        "text": "A.Peççei",
+        "text": "maliyyə münasibətləridir",
+        "correct": false
+      },
+      {
+        "text": "sığorta münasibətləridir",
+        "correct": false
+      },
+      {
+        "text": "riskli münasibətləridir",
         "correct": false
       }
     ]
   },
   {
     "num": 543,
-    "question": "«Ekologiya» termini ilk dəfə 1866-cı ildə  kim tərəfindən işlədilmişdir?",
+    "question": "Kredit təşkilatında əməliyyat gününün müddəti ……tərəfindən müəyyən edilir:",
     "options": [
       {
-        "text": "E.Pestel",
+        "text": "Mərkəzi Bankın baş mühasibi",
         "correct": false
       },
       {
-        "text": "D.Medouz",
+        "text": "Mərkəzi Bank",
         "correct": false
       },
       {
-        "text": "A.Peççei",
-        "correct": false
-      },
-      {
-        "text": "Ernst Hekkel",
+        "text": "kredit təşkilatının özü",
         "correct": true
       },
       {
-        "text": "M.Mesarovic",
+        "text": "Mərkəzi Bankın əməkdaşları",
+        "correct": false
+      },
+      {
+        "text": "bankın müdür müavini",
         "correct": false
       }
     ]
   },
   {
     "num": 544,
-    "question": "Bəşəriyyətin qlobal problemləri  hansı əsərdə nəzərdən keçirilmişdir?",
+    "question": "Sintetik uçotun vəzifəsidir:",
     "options": [
       {
-        "text": "«Qanunların ruhu haqqında»",
-        "correct": false
-      },
-      {
-        "text": "“Bizim gələcəyimiz”",
-        "correct": false
-      },
-      {
-        "text": "“Ruhun fenomenologiyası”",
-        "correct": false
-      },
-      {
-        "text": "«İnkişafın hədləri»",
-        "correct": true
-      },
-      {
-        "text": "«Elmi inqilabların strukturu”",
+        "text": "idarəetmə qərarlarının qəbulu",
         "correct": false
       }
     ]
   },
   {
     "num": 545,
-    "question": "Elmi təhlil istiqaməti kimi bəşəriyyətin gələcəyi fəlsəfənin  hansı sahəsinin məzmununu təşkil edir?",
+    "question": "Banklarda mühasibat uçotu neçə gündən bir aparılmalıdır:",
     "options": [
       {
-        "text": "ontologiyanın",
+        "text": "üç gündən bir",
         "correct": false
       },
       {
-        "text": "qlobalistikanın",
+        "text": "ayda bir dəfə",
         "correct": false
       },
       {
-        "text": "aksiologiyanın",
+        "text": "iki gündən bir",
         "correct": false
       },
       {
-        "text": "futurologiyanın",
+        "text": "5 gündən bir",
+        "correct": false
+      },
+      {
+        "text": "fasiləsiz",
         "correct": true
-      },
-      {
-        "text": "qnoseologiyanın",
-        "correct": false
       }
     ]
   },
   {
     "num": 546,
-    "question": "BMT-nin  1992-ci ildə Rio-de-Janeyroda  çağırılmış konfransında hansı sənəd  imzalanmışdır?",
+    "question": "Bankın gündəlik balansı onu tərtib edən əməliyyatçı, baş mühasib və ... tərəfindən imzalanır?",
     "options": [
       {
-        "text": "“Artımın hədləri”",
-        "correct": false
-      },
-      {
-        "text": "“Ədalət naminə səfərbərlik”",
-        "correct": false
-      },
-      {
-        "text": "“Bizim gələcəyimiz”",
-        "correct": false
-      },
-      {
-        "text": "«Davamlı inkişaf konsepsiyası”",
+        "text": "bank rəhbəri",
         "correct": true
       },
       {
-        "text": "“Planetin dostları”",
+        "text": "baş mühasibin müavini",
+        "correct": false
+      },
+      {
+        "text": "mühafizəçi",
+        "correct": false
+      },
+      {
+        "text": "mühasib",
+        "correct": false
+      },
+      {
+        "text": "şöbə rəisi",
         "correct": false
       }
     ]
   },
   {
     "num": 547,
-    "question": "“Antiqlobalizm” hərəkatının məqsədi nədir?",
+    "question": "Bank tərəfindən aparılmış gündəlik əməliyyatlar bankın hansı hesabat formasında ... əks olunmalıdır?",
     "options": [
       {
-        "text": "cinayətkarlıqla mübarizə aparmaq",
+        "text": "bankın köməkçi mühasibat jurnalında",
         "correct": false
       },
       {
-        "text": "yeni informasiya texnologiyalarını inkişaf etdirmək",
-        "correct": false
-      },
-      {
-        "text": "demoqrafik problemləri həll etmək",
-        "correct": false
-      },
-      {
-        "text": "varlı ölkələrdə cəmləşmiş maddi vəsait və ehtiyatları yenidən bölüşdürərək, ədaləti bərpa etmək",
+        "text": "bankın gündəlik balansında",
         "correct": true
       },
       {
-        "text": "miqrasiyaların qarşısını almaq",
+        "text": "bankın kassa dəftərində",
+        "correct": false
+      },
+      {
+        "text": "bankın məxaric sənədində",
+        "correct": false
+      },
+      {
+        "text": "bankın mədaxil sənədində",
         "correct": false
       }
     ]
   },
   {
     "num": 548,
-    "question": "S.Hantinqtona görə, qloballaşma aşağıdakılardan hansıdır?",
+    "question": "Uçot siyasəti müəyyən edir:",
     "options": [
       {
-        "text": "qlobal iqtisadi artım dövrüdür",
+        "text": "bankda kredit əməliyyatının əsaslarını",
         "correct": false
       },
       {
-        "text": "qlobal problemlərin kəskinləşməsi dövrüdür",
+        "text": "bankda auditor xidmətinin əsaslarını",
         "correct": false
       },
       {
-        "text": "mədəniyyət və ənənələrin dağılmasıdır",
+        "text": "bankda qiymətli kağızlarla olan əməliyyatların əsaslarını",
         "correct": false
       },
       {
-        "text": "dünyanın nisbətən kiçik sistemlərin – mədəni-etnik  sivilizasiyaların münaqişə arenasına çevrilməsi prosesidir",
+        "text": "bankda mühasibat uçotunun",
         "correct": true
-      },
-      {
-        "text": "ənənəvi siyasi qaydaların dağılması dövrüdür",
-        "correct": false
       }
     ]
   },
   {
     "num": 549,
-    "question": "“Risk cəmiyyəti” konsepsiyasının müəllifi kimdir?",
+    "question": "Mühasibat uçotunun aparılmasına , qanunvericiliyə riayət olunmasına ........ məsuliyyət daşıyır:",
     "options": [
       {
-        "text": "H.Şumann",
+        "text": "investorlar",
         "correct": false
       },
       {
-        "text": "S.Hantinqton",
+        "text": "kreditorlar",
         "correct": false
       },
       {
-        "text": "F.Nuşeler",
+        "text": "bələdiyyələr",
         "correct": false
       },
       {
-        "text": "H.Martin",
-        "correct": false
-      },
-      {
-        "text": "U.Bek",
+        "text": "bank rəhbərliyi və baş mühasib",
         "correct": true
+      },
+      {
+        "text": "auditorlar",
+        "correct": false
       }
     ]
   },
   {
     "num": 550,
-    "question": "İqtisadi sferada qloballaşma prosesi nə ilə səciyyələnir?",
+    "question": "Baş mühasib gündəlik olaraq yoxlamalıdır:",
     "options": [
       {
-        "text": "dövlətlərin qarşılıqlı faydalı iqtisadi əməkdaşlığı ilə",
+        "text": "kredit əməliyyatlarını",
         "correct": false
       },
       {
-        "text": "kapital axınının artması ilə",
+        "text": "auditor fəaliyyətini",
         "correct": false
       },
       {
-        "text": "sosial yönümlü iqtisadiyyatın formalaşması ilə",
+        "text": "sənədlərin kəsilməsini",
         "correct": false
       },
       {
-        "text": "dövlətlərin iqtisadi müstəqilliyinin artması ilə",
+        "text": "bankın acılıb bağlanmasını",
         "correct": false
       },
       {
-        "text": "iqtisadi proseslərin milli dövlətlərin çərçivələrindən kənara çıxması ilə",
+        "text": "kassa əməliyyatlarının yekununu",
         "correct": true
       }
     ]
   },
   {
     "num": 551,
-    "question": "Praktikanın idrak prosesində rolu hansıdır?",
+    "question": "Müştərinin kredit üzrə öz borcunu vaxtında və tam ödəmək qabiliyyətidir.....:",
     "options": [
       {
-        "text": "praktika təbiətin dəyişdirilməsinə yönəlmiş mənəvi fəaliyyətdir",
-        "correct": false
-      },
-      {
-        "text": "praktika ətraf aləmin dəyişdirilməsinə yönəlmiş maddi fəaliyyətdir?",
-        "correct": false
-      },
-      {
-        "text": "praktika bilik əldə etməyə yönəlmiş maddi fəaliyyətdir",
-        "correct": false
-      },
-      {
-        "text": "praktika idrakın mənbəyi və həqiqətin meyarıdır",
+        "text": "ödəmə qabiliyyətinin olması",
         "correct": true
       },
       {
-        "text": "praktika bilik əldə etməyə yönəlmiş elmi eksperimentdir",
+        "text": "mübadilə qabiliyyətliliyi",
+        "correct": false
+      },
+      {
+        "text": "risklilik qabiliyyətliliyi",
+        "correct": false
+      },
+      {
+        "text": "ödəmə qabiliyyətinin olmamması",
+        "correct": false
+      },
+      {
+        "text": "hesablaşma qabiliyyətliliyi",
         "correct": false
       }
     ]
   },
   {
     "num": 552,
-    "question": "Predmetin təbii şəraitdə passiv öyrənilməsi necə adlanır?",
+    "question": "Müəssisənin kredit qabiliyyətidir:",
     "options": [
       {
-        "text": "sintez",
+        "text": "resursları artırmaq",
         "correct": false
       },
       {
-        "text": "müşahidə",
+        "text": "kredit alıb geri qaytarmaq",
         "correct": true
       },
       {
-        "text": "deduksiya",
+        "text": "kredit riskini azaltmaq",
         "correct": false
       },
       {
-        "text": "modelləşdirmə?",
+        "text": "kredit almamaq",
         "correct": false
       },
       {
-        "text": "analiz",
+        "text": "kreditin faizinin olmaması",
         "correct": false
       }
     ]
   },
   {
     "num": 553,
-    "question": "İdrak prosesini idarə edən prinsiplərin, üsul və qaydaların məcmusu necə adlanır?",
+    "question": "Kredit sözünü izah edin:",
     "options": [
       {
-        "text": "intuisiya",
+        "text": "faktorinq",
         "correct": false
       },
       {
-        "text": "təxəyyül?",
+        "text": "bank",
         "correct": false
       },
       {
-        "text": "ağıl",
-        "correct": false
-      },
-      {
-        "text": "hisslər",
-        "correct": false
-      },
-      {
-        "text": "metodlar",
+        "text": "inanıram, etibar edirəm",
         "correct": true
+      },
+      {
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "klirinq",
+        "correct": false
       }
     ]
   },
   {
     "num": 554,
-    "question": "Elmi idrakın hansı səviyyəsi təcrübi faktları ünmumiləşdirərək konsepsiyalar hazırlayır?",
+    "question": "Müddətinə görə kredit ayrılır:",
     "options": [
       {
-        "text": "eksperimental",
+        "text": "yalnız qısamüddətli",
         "correct": false
       },
       {
-        "text": "induktiv",
+        "text": "müddətsiz",
         "correct": false
       },
       {
-        "text": "intuitiv?",
+        "text": "yalnız uzunmüddətli",
         "correct": false
       },
       {
-        "text": "empirik",
-        "correct": false
-      },
-      {
-        "text": "nəzəri",
+        "text": "qısamüddətli, ortamüddətli, uzunmüddətli",
         "correct": true
+      },
+      {
+        "text": "yalnız ortamüddətli",
+        "correct": false
       }
     ]
   },
   {
     "num": 555,
-    "question": "Elmi idrakın hansı səviyyəsinin əsasını təcrübə təşkil edir?",
+    "question": "Kreditin formalarını göstərin:",
     "options": [
       {
-        "text": "deduktiv",
+        "text": "yalnız istehlak",
         "correct": false
       },
       {
-        "text": "intuitiv?",
+        "text": "depozit və klirinq",
         "correct": false
       },
       {
-        "text": "nəzəri",
+        "text": "faktorinq və forfeytinq",
         "correct": false
       },
       {
-        "text": "empirik",
+        "text": "yalnız ipoteka",
+        "correct": false
+      },
+      {
+        "text": "istehlak, ipoteka və s.",
         "correct": true
-      },
-      {
-        "text": "mücərrəd",
-        "correct": false
       }
     ]
   },
   {
     "num": 556,
-    "question": "Məzmunu insandan asılı olmayan bilik necə adlanır?",
+    "question": "Kredit əməliyyatları nəticəsində .....:",
     "options": [
       {
-        "text": "mütləq həqiqət",
-        "correct": false
-      },
-      {
-        "text": "intuitiv həqiqət",
-        "correct": false
-      },
-      {
-        "text": "nisbi həqiqət",
-        "correct": false
-      },
-      {
-        "text": "subyektiv həqiqət",
-        "correct": false
-      },
-      {
-        "text": "obyektiv həqiqət",
+        "text": "bankların kredit portfeli formalaşır",
         "correct": true
+      },
+      {
+        "text": "bankların faktorinq əməliyyatı formalaşır",
+        "correct": false
+      },
+      {
+        "text": "bankların lizinq əməliyyatı formalaşır",
+        "correct": false
+      },
+      {
+        "text": "banklara lisenziya verilir",
+        "correct": false
+      },
+      {
+        "text": "bankların heç bir əməliyyatı formalaşmır",
+        "correct": false
       }
     ]
   },
   {
     "num": 557,
-    "question": "Rasional idrakın hansı formaları mövcuddur?",
+    "question": "Kredit ........ xarakteri daşıyır:",
     "options": [
       {
-        "text": "nəzəriyyə, duyğu, təsəvvür?",
+        "text": "depozit",
         "correct": false
       },
       {
-        "text": "mühakimə, qavrayış, anlayış",
-        "correct": false
-      },
-      {
-        "text": "qavrayış, təsəvvür, mühakimə",
-        "correct": false
-      },
-      {
-        "text": "anlayış, mühakimə, əqli-nəticə",
+        "text": "borc",
         "correct": true
       },
       {
-        "text": "mühakimə, qavrayış, təsəvvür",
+        "text": "kommersiya",
+        "correct": false
+      },
+      {
+        "text": "pul sistemi",
+        "correct": false
+      },
+      {
+        "text": "investisiya",
         "correct": false
       }
     ]
   },
   {
     "num": 558,
-    "question": "Hissi idrakın hansı formaları mövcuddur?",
+    "question": "Bankın faiz dərəcəsi hesablanır ......:",
     "options": [
       {
-        "text": "qavrayış, təsəvvür, mühakimə",
+        "text": "bankın xərcinə əsasən",
         "correct": false
       },
       {
-        "text": "duyğu, qavrayış, anlayış",
+        "text": "bankın gəlirinə əsasən",
         "correct": false
       },
       {
-        "text": "nəzəriyyə, duyğu, təsəvvür?",
-        "correct": false
-      },
-      {
-        "text": "təsəvvür, mühkimə, anlayış",
-        "correct": false
-      },
-      {
-        "text": "duyğu, qavrayış, təsəvvür",
+        "text": "kreditin məbləğinə görə",
         "correct": true
+      },
+      {
+        "text": "müştərilərin istəyinə görə",
+        "correct": false
+      },
+      {
+        "text": "kreditin təminatına görə",
+        "correct": false
       }
     ]
   },
   {
     "num": 559,
-    "question": "Elmi idrakın səviyyələrini seçin",
+    "question": "Bank borclu qismində çıxış edir:",
     "options": [
       {
-        "text": "təbii-elmi və humanitar",
+        "text": "öz səhmlərini reallaşdırdıqda",
         "correct": false
       },
       {
-        "text": "induktiv və deduktiv",
+        "text": "lisenziya ləğv edildikdə",
         "correct": false
       },
       {
-        "text": "analitik və sintetik",
+        "text": "bank bağlandıqda",
         "correct": false
       },
       {
-        "text": "empirik və nəzəri",
+        "text": "vəsaitləri cəlb etdikdə",
         "correct": true
       },
       {
-        "text": "hissi və rasional",
+        "text": "bank açıldıqda",
         "correct": false
       }
     ]
   },
   {
     "num": 560,
-    "question": "Məntiqi idrak  alətinə çevirən kim olmuşdu?",
+    "question": "Kreditləşmə prosesində rəhbər tutulan prinsiplərdən biridir:",
     "options": [
       {
-        "text": "Platon",
+        "text": "yetərlilik",
         "correct": false
       },
       {
-        "text": "Heraklit",
+        "text": "likvidlik",
         "correct": false
       },
       {
-        "text": "Protoqor",
+        "text": "bölüşdürücülük",
         "correct": false
       },
       {
-        "text": "Aristotel",
+        "text": "istifadəçilik",
+        "correct": false
+      },
+      {
+        "text": "müddətlilik",
         "correct": true
-      },
-      {
-        "text": "Sokrat",
-        "correct": false
       }
     ]
   },
   {
     "num": 561,
-    "question": "Orta əsrlər Qərb fəlsəfəsinin qnoseoloji prinsipi nədir?",
+    "question": "Kreditin formalarını göstərin:",
     "options": [
       {
-        "text": "formalizm",
-        "correct": false
-      },
-      {
-        "text": "tarixilik",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "vəhy",
+        "text": "hamısı",
         "correct": true
       },
       {
-        "text": "kreasionizm",
+        "text": "beynəlxalq kredit",
+        "correct": false
+      },
+      {
+        "text": "bank krediti",
+        "correct": false
+      },
+      {
+        "text": "dövlət krediti",
+        "correct": false
+      },
+      {
+        "text": "ipoteka krediti",
         "correct": false
       }
     ]
   },
   {
     "num": 562,
-    "question": "Elmi idrakın empirik və nəzəri səviyyələrinin universal metodu hansılardır?",
+    "question": "Subhesab - bu .........:",
     "options": [
       {
-        "text": "ideallaşdırma və formalaşdırma",
+        "text": "Mərkəzi Banka verilən hesabdır",
         "correct": false
       },
       {
-        "text": "ölçmə, müqayisə və aksiomatik metod",
-        "correct": false
-      },
-      {
-        "text": "müşahidə, eksperiment və müqayisə",
-        "correct": false
-      },
-      {
-        "text": "abstraktlaşdırma, ümumiləşdirmə və analogiya",
-        "correct": false
-      },
-      {
-        "text": "analiz və sintez, induksiya və deduksiya",
+        "text": "analitik hesab məlumatlarını özündə əks etdirməklə",
         "correct": true
+      },
+      {
+        "text": "loro hesabdır",
+        "correct": false
+      },
+      {
+        "text": "Müşahidə Şurasına verilən hesabdır",
+        "correct": false
       }
     ]
   },
   {
     "num": 563,
-    "question": "Elmi idrakın nəzəri səviyyəsinin metodları aşağıdakılardan hansılardır?",
+    "question": "Sintetik hesab - bu..........:",
     "options": [
       {
-        "text": "ideallaşdırma və tarixilik və məntiqi təhlil metodu",
-        "correct": false
-      },
-      {
-        "text": "hipotez və nəzəriyyə",
-        "correct": false
-      },
-      {
-        "text": "müşahidə və eksperiment",
-        "correct": false
-      },
-      {
-        "text": "ölçmə və müqayisə",
-        "correct": false
-      },
-      {
-        "text": "abstraktdan konkretə yüksəlmə və aksiomatik metod",
+        "text": "aktivlərin,öhdəliklərin, gəlirlərin,",
         "correct": true
       }
     ]
   },
   {
     "num": 564,
-    "question": "Elmi idrakın empirik səviyyəsinin metodları aşağıdakılardan hansılardır?",
+    "question": "Bank uçotu özündə ..... əks etdirir:",
     "options": [
       {
-        "text": "induksiya və deduksiya",
+        "text": "yol çeklərini və sənədləşmə əməliyyatlarını",
         "correct": false
       },
       {
-        "text": "analiz və sintez",
+        "text": "qiymətli kağızları",
         "correct": false
       },
       {
-        "text": "ümumiləşdirmə və abstraktlaşdırma",
+        "text": "bank sənədlərini",
         "correct": false
       },
       {
-        "text": "müqayisə və ölçmə",
+        "text": "",
         "correct": true
-      },
-      {
-        "text": "ideallaşdırma və eksperiment",
-        "correct": false
       }
     ]
   },
   {
     "num": 565,
-    "question": "Fəlsəfədə deduksiya hansı məna kəsb edir?",
+    "question": "Kütləvi Ödənişlər üzrə Mərkəzləşdirilmiş İnformasiya Sistemidir:",
     "options": [
       {
-        "text": "idrak metodu olub tədqiq edilən obyektin məqsədyönlü qavranılmasıdır",
+        "text": "Milli Depozit Sistemi",
         "correct": false
       },
       {
-        "text": "təfəkkür metodu olub ümumidən xüsusiyə keçiddir",
+        "text": "AZİPS",
+        "correct": false
+      },
+      {
+        "text": "Milli Kredit Sistemi",
+        "correct": false
+      },
+      {
+        "text": "XÖHKS",
+        "correct": false
+      },
+      {
+        "text": "KÖMİS",
         "correct": true
-      },
-      {
-        "text": "idrak metodu olub predmetin dərk edilməsi məqsədilə fikrən hissələrə ayrılmasıdır",
-        "correct": false
-      },
-      {
-        "text": "təfəkkür metodu olub xüsusidən ümumiyə keçiddir",
-        "correct": false
-      },
-      {
-        "text": "idrak metodu olub tədqiq olunan obyektlərin oxşar və fərqli cəhətlərinin aşkara çıxarılmasıdır",
-        "correct": false
       }
     ]
   },
   {
     "num": 566,
-    "question": "Fəlsəfədə induksiya hansı məna kəsb edir?",
+    "question": "Bankın passiv əməliyyatıdır:",
     "options": [
       {
-        "text": "idrak metodu olub tədqiq edilən hadisənin hissələrinin fikrən birləşdirilməsidir",
-        "correct": false
-      },
-      {
-        "text": "təfəkkür metodu olub xüsusidən ümumiyə keçiddir",
+        "text": "əmanətlərin qəbulu",
         "correct": true
       },
       {
-        "text": "idrak metodu olub predmetin dərk edilməsi məqsədilə fikrən hissələrə bölünməsidir",
+        "text": "«Nostro» hesablarının yaradılması",
         "correct": false
       },
       {
-        "text": "təfəkkür metodu olub ümumidən xüsusiyə keçiddir",
+        "text": "«Loro» hesablarının yaradılması",
         "correct": false
       },
       {
-        "text": "predmetlərin bəzi oxşar əlamətlərinə görə oxşarlığıdır",
+        "text": "cari hesabların açılması",
+        "correct": false
+      },
+      {
+        "text": "faizlərin hesablanması",
         "correct": false
       }
     ]
   },
   {
     "num": 567,
-    "question": "Aşağıdakılardan hansı Hind fəlsəfəsinin qeyri-ortodoksal məktəbidir?",
+    "question": "Bank resursu deyildir:",
     "options": [
       {
-        "text": "yoqa",
+        "text": "bankın kapitalı",
         "correct": false
       },
       {
-        "text": "vedanta",
-        "correct": false
-      },
-      {
-        "text": "vayşeşika",
-        "correct": false
-      },
-      {
-        "text": "buddizm",
+        "text": "əmək haqqı fondu",
         "correct": true
       },
       {
-        "text": "mimansa",
+        "text": "borc vəsaitləri",
+        "correct": false
+      },
+      {
+        "text": "ehtiyatlar",
+        "correct": false
+      },
+      {
+        "text": "cəlb olunmuş vəsaitlər",
         "correct": false
       }
     ]
   },
   {
     "num": 568,
-    "question": "“İnsan hər bir varlığın ölçüsüdür”  kəlamı kimə məxsusdur?",
+    "question": "Bankın yaradılmasının ilkin şərtidir:",
     "options": [
       {
-        "text": "Protaqora",
+        "text": "lizinq əməliyyatlarının yerinə yetirilməsi",
+        "correct": false
+      },
+      {
+        "text": "əhalinin vəsaitlərinin cəlb olunması",
+        "correct": false
+      },
+      {
+        "text": "təsisçi payının formalaşması",
         "correct": true
       },
       {
-        "text": "Sokrata",
+        "text": "qiymətli kağızların satın alınması",
         "correct": false
       },
       {
-        "text": "Kanta",
-        "correct": false
-      },
-      {
-        "text": "Marksa",
-        "correct": false
-      },
-      {
-        "text": "Platona",
+        "text": "Müşahidə Şurasının qərarı",
         "correct": false
       }
     ]
   },
   {
     "num": 569,
-    "question": "Klassik dövr Qədim Yunan fəlsəfəsinin nümayəndələri kimlərdir?",
+    "question": "Bankın Təsis Yığıncağında ......... iştirak etdikdə səlahiyyətli sayılır:",
     "options": [
       {
-        "text": "Sokrat, Platon, Aristotel",
+        "text": "75 faiz təsisçi",
+        "correct": false
+      },
+      {
+        "text": "95 faiz təsisçi",
+        "correct": false
+      },
+      {
+        "text": "1 faiz təsisçi",
+        "correct": false
+      },
+      {
+        "text": "bütün təsisçilər",
         "correct": true
       },
       {
-        "text": "Fales, Anaksimandr, Anaksimen",
-        "correct": false
-      },
-      {
-        "text": "Demokrit, Heraklit, Platon",
-        "correct": false
-      },
-      {
-        "text": "Protaqor, Zenon, Epikur",
-        "correct": false
-      },
-      {
-        "text": "Ksenofon, Parmenid, Pifaqor",
+        "text": "sadə səs çoxluğu olduqda",
         "correct": false
       }
     ]
   },
   {
     "num": 570,
-    "question": "Afinada təsis edilmiş fəlsəfi məktəb “Akademiya” kim tərəfindən yaradılmışdır?",
+    "question": "Bank Olmayan Kredit Təşkilatlarına (BOKT) hüquqi və fiziki şəxslərdən əmanət cəlb etmək ...:",
     "options": [
       {
-        "text": "Aristotel",
+        "text": "nizamnamə (şərikli) kapitalın 30% həcmində olar",
         "correct": false
       },
       {
-        "text": "Pifaqor",
+        "text": "qadağan deyil",
         "correct": false
       },
       {
-        "text": "Sokrat",
+        "text": "nizamnamə (şərikli) kapitalın 50% həcmində olar",
         "correct": false
       },
       {
-        "text": "Platon",
+        "text": "nizamnamə (şərikli) kapitalı həcmində olar",
+        "correct": false
+      },
+      {
+        "text": "qadağandır",
         "correct": true
-      },
-      {
-        "text": "Demokrit",
-        "correct": false
       }
     ]
   },
   {
     "num": 571,
-    "question": "Atomizm təliminin nümayəndəsi kimdir?",
+    "question": "Banklararası kredit üzrə sövdələşmə aparılır:",
     "options": [
       {
-        "text": "Heraklit",
-        "correct": false
-      },
-      {
-        "text": "Anaksimandr",
-        "correct": false
-      },
-      {
-        "text": "Aristotel",
-        "correct": false
-      },
-      {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Demokrit",
+        "text": "banklararası bazarda",
         "correct": true
+      },
+      {
+        "text": "bank ssudaları bazarında",
+        "correct": false
+      },
+      {
+        "text": "ipoteka bazarında",
+        "correct": false
+      },
+      {
+        "text": "valyuta bazarında və sığorta təşkilatlarında",
+        "correct": false
+      },
+      {
+        "text": "qiymətli kağızlar bazarında",
+        "correct": false
       }
     ]
   },
   {
     "num": 572,
-    "question": "Milet məktəbinin  nümayəndələri kimlərdir?",
+    "question": "Mərkəzi Bank məqsədinə nail olmaq üçün bu funksiyanı yerinə yetirir:",
     "options": [
       {
-        "text": "Platon, Heraklit, Demokrit",
+        "text": "fiziki şəxslərin əmanətlərini depozitə cəlb edir",
         "correct": false
       },
       {
-        "text": "Protoqor, Pifaqor, Sokrat",
-        "correct": false
-      },
-      {
-        "text": "Epikur, Dioqen, Fales",
-        "correct": false
-      },
-      {
-        "text": "Fales, Anaksimandr, Anaksimen",
+        "text": "dövlətin pul və valyuta siyasətini",
         "correct": true
       },
       {
-        "text": "Sokrat, Zenon, Aristotel",
+        "text": "fiziki şəxslərə kredit verir",
+        "correct": false
+      },
+      {
+        "text": "trast şirkətlərinə lisenziya verir",
+        "correct": false
+      },
+      {
+        "text": "Bank Assosiasiyalarına kredit verir və onların fəaliyyətini həyata keçirir",
         "correct": false
       }
     ]
   },
   {
     "num": 573,
-    "question": "Vedaların biliciləri kimlər hesab olunurdu?",
+    "question": "Gələcəkdə daha çox gəlir götürmək məqsədilə uzunmüddətli sərmayə yatırımıdır:",
     "options": [
       {
-        "text": "Caynilər",
+        "text": "lizinq",
         "correct": false
       },
       {
-        "text": "Vayişlər",
+        "text": "trast",
         "correct": false
       },
       {
-        "text": "Kşatrilər",
-        "correct": false
-      },
-      {
-        "text": "Brahmanlar",
+        "text": "investisiya",
         "correct": true
       },
       {
-        "text": "Şudralar",
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "kredit",
         "correct": false
       }
     ]
   },
   {
     "num": 574,
-    "question": "Aşağıdakı fikirlərdən hansı Heraklitə aid deyil?",
+    "question": "Bir bankın digər banka verdiyi kredit......adlanır:",
     "options": [
       {
-        "text": "Təbiətdə inkişaf və dəyişmə “loqos” vasitəsilə baş verir.",
+        "text": "istehlak krediti",
         "correct": false
       },
       {
-        "text": "Bütün mövcudatın əbədi, maddi əsası oddur.",
+        "text": "fiziki şəxslərin banklara verdiyi kredit",
         "correct": false
       },
       {
-        "text": "Hər şey mübarizə vasitəsilə zərurətdən baş verir.",
+        "text": "hökümətlərarası kredit",
         "correct": false
       },
       {
-        "text": "Əksliklərin mübarizəsi bütün mövcudatın, hərəkətin, inkişafın mənbəyidir.",
-        "correct": false
-      },
-      {
-        "text": "Vahid Allah dünyada baş verən bütün hadisə və prosesləri görür, duyur və eşidir.",
+        "text": "banklararası kredit",
         "correct": true
+      },
+      {
+        "text": "dövlətlərarası kredit",
+        "correct": false
       }
     ]
   },
   {
     "num": 575,
-    "question": "Aşağıda göstərilənlərdən biri Platonun “ideyalar aləminə” xas əlamət deyil:",
+    "question": "Mənfəət əldə etmək məqsədi ilə yaradılır..... :",
     "options": [
       {
-        "text": "İdeya hərəkətsizdir",
+        "text": "bank birləşmələri",
         "correct": false
       },
       {
-        "text": "İdeyalar əsl mahiyyətdir",
+        "text": "Banklar Assosiasiyaları",
         "correct": false
       },
       {
-        "text": "İdeya dəyişməzdir",
+        "text": "Auditorlar Palatası",
         "correct": false
       },
       {
-        "text": "İdeyalar maddi dünyadan asılıdır",
+        "text": "Milli Depozit Sistemi",
+        "correct": false
+      },
+      {
+        "text": "kommersiya bankları",
         "correct": true
-      },
-      {
-        "text": "İdeyalar gerçək varlıqdır",
-        "correct": false
       }
     ]
   },
   {
     "num": 576,
-    "question": "Qədim Hind fəlsəfəsinin ortodoksal məktəblərinin aparıcı mövzusunu nə təşkil edirdi?",
+    "question": "Restrukturizasiya nə deməkdir:",
     "options": [
       {
-        "text": "məişət məsələləri",
-        "correct": false
-      },
-      {
-        "text": "ontoloji problemlər",
-        "correct": false
-      },
-      {
-        "text": "qnoseoloji problemlər",
-        "correct": false
-      },
-      {
-        "text": "insan-cəmiyyət mövzusu",
+        "text": "göstərilənlərin hamısı",
         "correct": true
       },
       {
-        "text": "təbiət",
+        "text": "bankların hüquqi-təşkilati formalarının yeniləşməsi",
+        "correct": false
+      },
+      {
+        "text": "bankların sağlamlaşdırılması",
+        "correct": false
+      },
+      {
+        "text": "fəaliyyət qabiliyyəti olmayan bankların ləğvi",
+        "correct": false
+      },
+      {
+        "text": "bankların birləşdirilməsi",
         "correct": false
       }
     ]
   },
   {
     "num": 577,
-    "question": "Kim ilk dəfə insanı mənəvi varlıq kimi fəlsəfənin mərkəzi probleminə çevirmişdi?",
+    "question": "Pul-kredit siyasəti aləti kimi məcburi ehtiyatlardan Mərkəzi Bank istifadə edir:",
     "options": [
       {
-        "text": "Sokrat",
+        "text": "öz itgilərinin ödənilməsində",
+        "correct": false
+      },
+      {
+        "text": "bankın likvidliyinin nizamlaşdırılmasında",
         "correct": true
       },
       {
-        "text": "Zenon",
+        "text": "bankın ləğvi xərclərinin ödəniləmsində",
         "correct": false
       },
       {
-        "text": "Platon",
+        "text": "tədavüldəki pul kütləsinin az olmasında",
         "correct": false
       },
       {
-        "text": "Protaqor",
-        "correct": false
-      },
-      {
-        "text": "Aristotel",
+        "text": "əmanətçılərin itgilərdən sığortalanmasında",
         "correct": false
       }
     ]
   },
   {
     "num": 578,
-    "question": "“Hər şey axır, hər şey dəyişilir” kəlamı  kimə məxsusdur?",
+    "question": "......əməliyyatlar resurs bazasının formalaşdırılması məqsədilə bankların vəsait cəlb etmək əməliyyatlarıdır:",
     "options": [
       {
-        "text": "Demokritə",
+        "text": "aktiv",
         "correct": false
       },
       {
-        "text": "Platona",
+        "text": "trast",
         "correct": false
       },
       {
-        "text": "Kanta",
-        "correct": false
-      },
-      {
-        "text": "Heraklitə",
+        "text": "passiv",
         "correct": true
       },
       {
-        "text": "Hegelə",
+        "text": "komisyon-vasitəçilik",
+        "correct": false
+      },
+      {
+        "text": "balansdan kənar",
         "correct": false
       }
     ]
   },
   {
     "num": 579,
-    "question": "Dao terminin mənası nədir?",
+    "question": "Banklar - bank fəaliyyətini Mərkəzi Bankın verdiyi . . . əsasında həyata keçirə bilər?",
     "options": [
       {
-        "text": "Itaət",
+        "text": "müddətli razılıq",
         "correct": false
       },
       {
-        "text": "Təbii yol",
+        "text": "şifahi razılıq",
+        "correct": false
+      },
+      {
+        "text": "protokol razılaşması",
+        "correct": false
+      },
+      {
+        "text": "xüsusi razılıq (lisenziya)",
         "correct": true
       },
       {
-        "text": "Tərbiyə",
-        "correct": false
-      },
-      {
-        "text": "Məna",
-        "correct": false
-      },
-      {
-        "text": "Təlim",
+        "text": "müddətli lisenziya",
         "correct": false
       }
     ]
   },
   {
     "num": 580,
-    "question": "Mifologiya icma daxilində hansı başlıca funksiyanı yerinə yetirirdi?",
+    "question": "Mərkəzi Bankın əmlakı:",
     "options": [
       {
-        "text": "İdraki funksiyanı",
+        "text": "Vergilər Nazirliyinindir",
         "correct": false
       },
       {
-        "text": "Aksioloji funksiyanı",
+        "text": "fiziki və hüquqi şəxslərindir",
         "correct": false
       },
       {
-        "text": "İnzibati funksiyanı",
+        "text": "Bank Olmayan Kredit Təşkilatınındır (BOKT)",
         "correct": false
       },
       {
-        "text": "Tənzimləmə funksiyasını",
+        "text": "Milli Məclisindir",
+        "correct": false
+      },
+      {
+        "text": "dövlətindir",
         "correct": true
-      },
-      {
-        "text": "Metodoloji funksiyanı",
-        "correct": false
       }
     ]
   },
   {
     "num": 581,
-    "question": "İbtidai şüurun sinkretizmini göstərin:",
+    "question": "Ölkənin baş bankı olan Mərkəzi Bankın marağındadır:",
     "options": [
       {
-        "text": "Maddi və mənəvinin fərqləndirilməsi",
+        "text": "kredit təşkilatlarının lisenziyasının ləğv edilməsi",
         "correct": false
       },
       {
-        "text": "Fərqli olanların bir-birinə qovuşuq kimi dərk edilməsi",
-        "correct": true
-      },
-      {
-        "text": "Fərdi olanla sosial olanın fərqləndirilməsi",
+        "text": "hesablaşma sisteminin mərkəzləşdirilməsi",
         "correct": false
       },
       {
-        "text": "Təbiətlə insan arasındakı fərqin dərk edilməsi",
-        "correct": false
-      },
-      {
-        "text": "Dünyanın subyekt və obyektə bölünməsi",
+        "text": "milli pul vahidinin və onun",
         "correct": false
       }
     ]
   },
   {
     "num": 582,
-    "question": "Dini şüurun əsasını nə təşkil edir?",
+    "question": "Mərkəzi Bankın fəaliyyətinin əsas məqsədi ... təmin edilməsidir?",
     "options": [
       {
-        "text": "Miflər",
+        "text": "iqtisadiyyatın real sektorunun kreditləşdirilməsinin",
         "correct": false
       },
       {
-        "text": "Əqidə",
-        "correct": false
-      },
-      {
-        "text": "İdeallar",
-        "correct": false
-      },
-      {
-        "text": "Etiqad",
+        "text": "qiymətlərin sabitliyinin",
         "correct": true
       },
       {
-        "text": "Bilik",
+        "text": "bank risklərnin qarşısını alınmasının",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərin kreditləşməsinin",
+        "correct": false
+      },
+      {
+        "text": "dövriyyə sənədlərinin",
         "correct": false
       }
     ]
   },
   {
     "num": 583,
-    "question": "İnsanın mütləq biliyə olan tələbatını ödəmə vasitələri hansılardır?",
+    "question": "Mərkəzi Bank öz fəaliyyəti barəsində hesabat verir:",
     "options": [
       {
-        "text": "Elm və incəsənət",
+        "text": "İcra Hakimiyyətinə",
         "correct": false
       },
       {
-        "text": "Din və mifologiya",
+        "text": "Milli Depozit Sisteminə",
         "correct": false
       },
       {
-        "text": "Elm və din",
-        "correct": false
-      },
-      {
-        "text": "Fəlsəfə və din",
+        "text": "Azərbaycan Respublikasının Prezidentinə",
         "correct": true
       },
       {
-        "text": "Elm və fəlsəfə",
+        "text": "fiziki şəxslərə",
+        "correct": false
+      },
+      {
+        "text": "xarici bankların vətəndaşlarına",
         "correct": false
       }
     ]
   },
   {
     "num": 584,
-    "question": "Aşağıdakılardan hansı elmin funksiyalarına daxil deyil?",
+    "question": "Faktorinq,trast,forfeytinq bankların........əməliyyatıdır:",
     "options": [
       {
-        "text": "Canlı aləmin təkamülünü öyrənmək",
+        "text": "depozit",
         "correct": false
       },
       {
-        "text": "Kainatın mənşəyini araşdırmaq",
+        "text": "uçot",
         "correct": false
       },
       {
-        "text": "Atmosfer proseslərini proqnozlaşdırmaq",
+        "text": "investisiya",
         "correct": false
       },
       {
-        "text": "Mikroaləm proseslərini tədqiq etmək",
-        "correct": false
-      },
-      {
-        "text": "Xeyir və şər arasında seçim etmək",
+        "text": "vasitəçilik",
         "correct": true
+      },
+      {
+        "text": "lombard",
+        "correct": false
       }
     ]
   },
   {
     "num": 585,
-    "question": "Aşağıdakılardan hansılar elmi biliyin formalaşması üçün vacibdir?",
+    "question": "Pul nişanlarının tədavülə buraxılması və tədavüldən çıxarılması üzrə müstəsna hüquqa malik qurum kim müəyyən olunmuşdur?",
     "options": [
       {
-        "text": "Müqəddəs yazılar",
+        "text": "Bank Respublika",
         "correct": false
       },
       {
-        "text": "Əxlaq təlimləri",
+        "text": "Maliyyə Nazirliyi",
         "correct": false
       },
       {
-        "text": "Mifoloji təsəvvürlər",
+        "text": "Kapital bank",
         "correct": false
       },
       {
-        "text": "Müşahidə və təcrübə",
+        "text": "Banklar Assosiasiyası",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
         "correct": true
-      },
-      {
-        "text": "Siyasi doktrinalar",
-        "correct": false
       }
     ]
   },
   {
     "num": 586,
-    "question": "Aşağıdakılardan hansı dünyagörüşünə uyğundur?",
+    "question": "Mərkəzi Bankın fəaliyyətinin əsas məqsədi ... götürmək deyildir:",
     "options": [
       {
-        "text": "Dini biliklər",
-        "correct": false
-      },
-      {
-        "text": "Ümumiləşmiş biliklər",
+        "text": "mənfəət",
         "correct": true
       },
       {
-        "text": "Peşə bilikləri",
+        "text": "ehtiyyat pulu",
         "correct": false
       },
       {
-        "text": "Konkret-elmi biliklər",
+        "text": "borc",
         "correct": false
       },
       {
-        "text": "Siyasi biliklər",
+        "text": "pul dəsti",
+        "correct": false
+      },
+      {
+        "text": "son vəsait",
         "correct": false
       }
     ]
   },
   {
     "num": 587,
-    "question": "Dünyanın dərk edilən olduğunu inkar edənlər hansı mövqeyin tərəfdarlarıdır?",
+    "question": "Bank Sistemi üzərində tənzimləyici və nəzarətedici səlahiyyətlər hansı orqana aiddir?",
     "options": [
       {
-        "text": "Optimizm",
+        "text": "Maliyyə Nazirliyinə",
         "correct": false
       },
       {
-        "text": "Materializm",
-        "correct": false
-      },
-      {
-        "text": "Deizm",
-        "correct": false
-      },
-      {
-        "text": "falsifikasionizm",
-        "correct": false
-      },
-      {
-        "text": "Aqnostisizm",
+        "text": "Mərkəzi Banka",
         "correct": true
+      },
+      {
+        "text": "Banklar Assosiasiyasına",
+        "correct": false
+      },
+      {
+        "text": "Kapital Banka",
+        "correct": false
+      },
+      {
+        "text": "Beynəlxalq Banka",
+        "correct": false
       }
     ]
   },
   {
     "num": 588,
-    "question": "Dünya birliyi qarşısında duran  kəskin kompleks problemlər  necə adlanır?",
+    "question": "Dövriyyəyə pulun buraxılmasında pulun miqdarı:",
     "options": [
       {
-        "text": "beynəlmiləl problemlər",
+        "text": "hər zaman artır",
         "correct": false
       },
       {
-        "text": "beynəlxalq problemlər",
+        "text": "sıfıra bərabər olur",
         "correct": false
       },
       {
-        "text": "qitə problemləri",
-        "correct": false
-      },
-      {
-        "text": "qlobal problemlər",
+        "text": "artıb və ya azala bilər",
         "correct": true
       },
       {
-        "text": "regional  problemlər",
+        "text": "hər zaman azalır",
+        "correct": false
+      },
+      {
+        "text": "sabit qalır",
         "correct": false
       }
     ]
   },
   {
     "num": 589,
-    "question": "Bəşəriyyətin iqtisadi intreqrasiyası, ölkə və regionların bir-birindən asılılığının artmasi necə adlanır?",
+    "question": "Azərbaycan banklarının buraxdığı çeklər ….. dövr edə bilər:",
     "options": [
       {
-        "text": "ideolojiləşmə",
+        "text": "keçmiş SSRİ Respublikalarında",
         "correct": false
       },
       {
-        "text": "beynəlmiləşmə",
+        "text": "MDB dövlətlərində",
         "correct": false
       },
       {
-        "text": "regionallşama",
+        "text": "Rusiya və Belorusiyada",
         "correct": false
       },
       {
-        "text": "informasiyalaşma",
-        "correct": false
-      },
-      {
-        "text": "qloballaşma",
+        "text": "yalnız ölkə ərazisində",
         "correct": true
+      },
+      {
+        "text": "Avropa ölkələrində",
+        "correct": false
       }
     ]
   },
   {
     "num": 590,
-    "question": "1968-ci ildə müasir dövrün ən kəskin problemlərini təhlili üçün yaradılmış  beynəlxalq ictimai təşkilat necə adlanır?",
+    "question": "Çek kitabçalarının blank formalarını müəyyən edir:",
     "options": [
       {
-        "text": "Париs клубu",
+        "text": "Milli Məclis",
         "correct": false
       },
       {
-        "text": "Roma klubu",
+        "text": "Maliyyə Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "İqtisadiyyat Nazirliyi",
+        "correct": false
+      },
+      {
+        "text": "Xəzinədarlıq",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
         "correct": true
-      },
-      {
-        "text": "London klubu",
-        "correct": false
-      },
-      {
-        "text": "Bilderberq klubu",
-        "correct": false
-      },
-      {
-        "text": "Fransa klubu",
-        "correct": false
       }
     ]
   },
   {
     "num": 591,
-    "question": "“Roma klubu” birliyi  öz sıralarında  kimləri  birləşdirir?",
+    "question": "Bankların müxbir hesabları açılır:",
     "options": [
       {
-        "text": "antik incəsənət sevərləri",
-        "correct": false
-      },
-      {
-        "text": "Roma futbol azarkeşlərini",
-        "correct": false
-      },
-      {
-        "text": "Roma filosoflarını",
-        "correct": false
-      },
-      {
-        "text": "müasir dövrün qlobal problemlərini araşdıran alimləri",
+        "text": "banklararası müqavilələr əsasında",
         "correct": true
       },
       {
-        "text": "Roma politoloqlarını",
+        "text": "bələdiyyələrin göstərişi əsasında",
+        "correct": false
+      },
+      {
+        "text": "Milli Depozit Sisteminin qərarı ilə",
+        "correct": false
+      },
+      {
+        "text": "Maliyyə Nazirliyinin göstərişi əsasında",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın göstərişi əsasında",
         "correct": false
       }
     ]
   },
   {
     "num": 592,
-    "question": "Bu təlimin tərəfdarlarına görə, elmi-texniki tərəqqi etik nihilizmin artmasına səbəb olur:",
+    "question": "Kommersiya banklarının passiv əməliyyatlarına aiddir:",
     "options": [
       {
-        "text": "freydizm",
+        "text": "daxili auditin maliyyə yoxlamaları",
         "correct": false
       },
       {
-        "text": "pozitivizm",
-        "correct": false
-      },
-      {
-        "text": "liberalizm",
-        "correct": false
-      },
-      {
-        "text": "antistiyentizm",
-        "correct": true
-      },
-      {
-        "text": "stiyentizm",
+        "text": "Mərkəzi Bankın kommersiya",
         "correct": false
       }
     ]
   },
   {
     "num": 593,
-    "question": "Elmin müəyyən inkişaf mərhələsində elmi tədqiqatın  modeli  kimi çıxış edən elmi nəzəriyyəni göstərin",
+    "question": "Kreditin funksiyalarını göstərin:",
     "options": [
       {
-        "text": "nəzəriyyə",
+        "text": "faizə qənaət",
         "correct": false
       },
       {
-        "text": "təlim",
+        "text": "gəlirlərə qənaət",
         "correct": false
       },
       {
-        "text": "ideologiya",
-        "correct": false
-      },
-      {
-        "text": "paradiqma",
+        "text": "tədavül xərclərinə qənaət",
         "correct": true
       },
       {
-        "text": "doktrina",
+        "text": "sənədlərə qənaət",
+        "correct": false
+      },
+      {
+        "text": "zamana qənaət",
         "correct": false
       }
     ]
   },
   {
     "num": 594,
-    "question": "Elmi nəzəriyyənin elementini göstərin",
+    "question": "Müvəqqəti istifadə üçün qaytarılma, müddətlilik və ödənişli olmaqla verilən pul kapitalı … adlanır:",
     "options": [
       {
-        "text": "abstraksiya",
+        "text": "sığorta",
         "correct": false
       },
       {
-        "text": "maddi obyektlərin təsviri",
+        "text": "kommersiya",
         "correct": false
       },
       {
-        "text": "ayrı-ayrı  faktlar",
+        "text": "tərəfdaşlıq",
         "correct": false
       },
       {
-        "text": "fundamental anlayışlar və prinsiplər",
+        "text": "borc",
         "correct": true
       },
       {
-        "text": "eksperiment",
+        "text": "maliyyə",
         "correct": false
       }
     ]
   },
   {
     "num": 595,
-    "question": "Elmi biliyin öyrənilən  obyektin   mahiyyəti haqqında tam  təsəvvürlər verən  təşkili  formasını gösətrin",
+    "question": "Gəlir və xərclərin gündəlik dəyişən nisbətini əks etdirən balans nəyə əsasən tərtib edilir:",
     "options": [
       {
-        "text": "fərziyyə",
+        "text": "hər hansı bir dövrə görə",
         "correct": false
       },
       {
-        "text": "problem",
+        "text": "sintetik əməliyyatlara görə",
         "correct": false
       },
       {
-        "text": "fakt",
+        "text": "hər hansı bir mühitə görə",
         "correct": false
       },
       {
-        "text": "nəzəriyyə",
+        "text": "hər hansı bir müddətə görə",
+        "correct": false
+      },
+      {
+        "text": "gündəlik balansa",
         "correct": true
-      },
-      {
-        "text": "ümumiləşdirmə",
-        "correct": false
       }
     ]
   },
   {
     "num": 596,
-    "question": "Elmi biliklərin fərqləndirici xüsusiyyətlərindən birini göstərin",
+    "question": "Mərkəzi Bankın məqsədini göstərin:",
     "options": [
       {
-        "text": "davamlılığı",
+        "text": "fiziki şəxslərə xidmət göstərmək",
         "correct": false
       },
       {
-        "text": "mütləqliyi",
+        "text": "kommersiya banklarına lisenziya vermək",
         "correct": false
       },
       {
-        "text": "həqiqətəbənzərlik",
+        "text": "faktorinq əməliyyatlarını həyata keçirtmək",
         "correct": false
       },
       {
-        "text": "subyektivlik",
-        "correct": false
-      },
-      {
-        "text": "yoxlanıla bilməsi",
+        "text": "öz səlahiyyətləri çərçivəsində",
         "correct": true
       }
     ]
   },
   {
     "num": 597,
-    "question": "Müasir elmi və texnoloji tərəqqinin  xüsusiyyətini göstərin",
+    "question": "Bankların pul və kapital bazarında fəaliyyəti ........:",
     "options": [
       {
-        "text": "kütləvi  maşın istehsalı",
+        "text": "qarışıq fəaliyyətdir",
         "correct": false
       },
       {
-        "text": "sadalananlardan heç biri",
-        "correct": false
-      },
-      {
-        "text": "elektrik enerjisindən  geniş istifadə",
-        "correct": false
-      },
-      {
-        "text": "elmi nəzəriyyənin əsasında yeni texnologiyaların inkişafı",
+        "text": "peşakar fəaliyyətdir",
         "correct": true
       },
       {
-        "text": "sənayenin  avtomatlaşdırılması",
+        "text": "qeyri-peşakar fəaliyyətdir",
+        "correct": false
+      },
+      {
+        "text": "könüllü fəaliyyətdir",
+        "correct": false
+      },
+      {
+        "text": "həvəskar fəaliyyətdir",
         "correct": false
       }
     ]
   },
   {
     "num": 598,
-    "question": "Hansı cərəyan elmi bilikləri ən yüksək mədəni dəyər hesab edir?",
+    "question": "Banklar hansı səhm buraxmaq hüququna malikdir:",
     "options": [
       {
-        "text": "stiyentizm",
+        "text": "müəyyən edilməyən qiymətli kağızlar",
+        "correct": false
+      },
+      {
+        "text": "yalnız nominal dəyəri olmayan səhm",
+        "correct": false
+      },
+      {
+        "text": "adi və imtiyazlı səhm",
         "correct": true
       },
       {
-        "text": "antistiyentizm",
+        "text": "qiymətli kağızlar buraxmaq hüququ yoxdur",
         "correct": false
       },
       {
-        "text": "volyuntarizm",
-        "correct": false
-      },
-      {
-        "text": "nigilizm",
-        "correct": false
-      },
-      {
-        "text": "neopozitivizm",
+        "text": "yalnız adi səhm",
         "correct": false
       }
     ]
   },
   {
     "num": 599,
-    "question": "Hansı  dövrdə elm ictimai həyatın bütün sahələrinin inkişafını   müəyyənləşdirən amilə çevrilir",
+    "question": "Səhmlər ...... qərarı ilə buraxılır:",
     "options": [
       {
-        "text": "XYII əsrin  ilk elmi inqilabı  zamanı",
+        "text": "Müşahidə Şurasının",
         "correct": false
       },
       {
-        "text": "orta əsrlərdə",
+        "text": "bankın müştərisinin",
         "correct": false
       },
       {
-        "text": "böyük coğrafi kəşflər  dövründə",
+        "text": "Maliyyə Nazirliyinin",
         "correct": false
       },
       {
-        "text": "postsənaye cəmiyyətində",
+        "text": "Səhmdarların Ümumi Yığıncağının",
         "correct": true
       },
       {
-        "text": "aqrar cəmiyyətdə",
+        "text": "Səhmdar Cəmiyyətin və Auditorun",
         "correct": false
       }
     ]
   },
   {
     "num": 600,
-    "question": "Müasir  cəmiyyətin  məhsuldar qüvvələrinə nələr daxildir?",
-    "options": [
-      {
-        "text": "istehlak münasibətləri",
-        "correct": false
-      },
-      {
-        "text": "sinfi münasibətlər",
-        "correct": false
-      },
-      {
-        "text": "kredit təşkilatları",
-        "correct": false
-      },
-      {
-        "text": "bölgü münasibətləri",
-        "correct": false
-      },
-      {
-        "text": "elmi biliklər",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 601,
-    "question": "Empirik biliklərin həddindən artıq şişirdilməsinə nə deyilir?",
-    "options": [
-      {
-        "text": "pozitivizm",
-        "correct": true
-      },
-      {
-        "text": "postpozitivizm",
-        "correct": false
-      },
-      {
-        "text": "antistiyentizm",
-        "correct": false
-      },
-      {
-        "text": "stiyentizm",
-        "correct": false
-      },
-      {
-        "text": "praqmatizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 602,
-    "question": "Elmdə problemliliyin mütləqləşdirilməsinə nə deyilir",
-    "options": [
-      {
-        "text": "ziddiyyətlilik",
-        "correct": false
-      },
-      {
-        "text": "stiyentizm",
-        "correct": false
-      },
-      {
-        "text": "praqmatizm",
-        "correct": false
-      },
-      {
-        "text": "problematizm",
-        "correct": true
-      },
-      {
-        "text": "rasionalizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 603,
-    "question": "Anlayışlar, qanunlar, nəzəriyyələr nəyin məhsuludur?",
-    "options": [
-      {
-        "text": "riyaziyyatın",
-        "correct": false
-      },
-      {
-        "text": "tarixin",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfənin",
-        "correct": false
-      },
-      {
-        "text": "elmin",
-        "correct": true
-      },
-      {
-        "text": "hüququn",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 604,
-    "question": "Hər  hansı bir  predmet  oblastında sistemləşdirilmiş bilik necə adlanır?",
-    "options": [
-      {
-        "text": "Konsepsiya",
-        "correct": false
-      },
-      {
-        "text": "Nəzəriyyə",
-        "correct": true
-      },
-      {
-        "text": "Epistema",
-        "correct": false
-      },
-      {
-        "text": "Hipotez",
-        "correct": false
-      },
-      {
-        "text": "Təlim",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 605,
-    "question": "Təbiət elmlərinin  və texniki biliklərin  ən yüksək mədəni dəyərə malik olduğunu bəyan edən dünyagörüş hansıdır?",
-    "options": [
-      {
-        "text": "empirizm",
-        "correct": false
-      },
-      {
-        "text": "Praqmatizm",
-        "correct": false
-      },
-      {
-        "text": "Texnisizm",
-        "correct": false
-      },
-      {
-        "text": "Stiyentizm",
-        "correct": true
-      },
-      {
-        "text": "Antistiyentizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 606,
-    "question": "Materialist sensualizminin nümayəndəsi aşağıda sadalananlardan hansıdır?",
-    "options": [
-      {
-        "text": "D.Didro",
-        "correct": false
-      },
-      {
-        "text": "R.Dekart",
-        "correct": false
-      },
-      {
-        "text": "C.Lokk",
-        "correct": true
-      },
-      {
-        "text": "İ.Kant",
-        "correct": false
-      },
-      {
-        "text": "P.Holbax",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 607,
-    "question": "Yeni dövr fəlsəfəsidə empirizmin nbanisi kimdir?",
-    "options": [
-      {
-        "text": "F.Bekon",
-        "correct": true
-      },
-      {
-        "text": "K.Helvetsi",
-        "correct": false
-      },
-      {
-        "text": "R.Dekart",
-        "correct": false
-      },
-      {
-        "text": "B.Spinoza",
-        "correct": false
-      },
-      {
-        "text": "Q.Leybnits",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 608,
-    "question": "“Özündə şey” Kantda hansı məna daşıyır?",
-    "options": [
-      {
-        "text": "başqaları üçün bağlı olan şəxsiyyət",
-        "correct": false
-      },
-      {
-        "text": "forma",
-        "correct": false
-      },
-      {
-        "text": "qanun",
-        "correct": false
-      },
-      {
-        "text": "hadisə",
-        "correct": false
-      },
-      {
-        "text": "şeylərin gizli mənası",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 609,
-    "question": "“Özündə şey” anlayışını elmə kim daxil edib?",
-    "options": [
-      {
-        "text": "Hegel",
-        "correct": false
-      },
-      {
-        "text": "Feyerbax",
-        "correct": false
-      },
-      {
-        "text": "Kant",
-        "correct": true
-      },
-      {
-        "text": "Fixte",
-        "correct": false
-      },
-      {
-        "text": "Marks",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 610,
-    "question": "Zəkanı idrakın əsasına qoyan təlim necə adlanır?",
-    "options": [
-      {
-        "text": "aqnostisizm",
-        "correct": false
-      },
-      {
-        "text": "empirizm",
-        "correct": false
-      },
-      {
-        "text": "skeptisizm",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm",
-        "correct": true
-      },
-      {
-        "text": "sensualizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 611,
-    "question": "Qnoseologiya nədir?",
-    "options": [
-      {
-        "text": "dəyərlər təlimi",
-        "correct": false
-      },
-      {
-        "text": "varlıq təlimi",
-        "correct": false
-      },
-      {
-        "text": "materiya haqqında təlim",
-        "correct": false
-      },
-      {
-        "text": "inkişaf haqqında təlim",
-        "correct": false
-      },
-      {
-        "text": "idrak təlimi",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 612,
-    "question": "“Aqnostisizm” nə anlamına gəlir?",
-    "options": [
-      {
-        "text": "yalnız dini biliyin həqiqiliyi haqqında təsəvvür",
-        "correct": false
-      },
-      {
-        "text": "biliyin natamamlığı və dəyişkənliyi",
-        "correct": false
-      },
-      {
-        "text": "idrakın gerçəkliyi tam və adekvat şəkildə əks etdirməsi haqqında təlim",
-        "correct": false
-      },
-      {
-        "text": "dünyanın dərkedilməzliyi haqqında təlim",
-        "correct": true
-      },
-      {
-        "text": "idrakın xalis simvolik xarakter daşıması haqqında təsəvvür",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 613,
-    "question": "Hisslərə əsaslanan idrak hansıdır?",
-    "options": [
-      {
-        "text": "əyani idrak",
-        "correct": false
-      },
-      {
-        "text": "gündəlik idrak",
-        "correct": false
-      },
-      {
-        "text": "intuitiv idrak",
-        "correct": false
-      },
-      {
-        "text": "rasional idrak",
-        "correct": false
-      },
-      {
-        "text": "hissi idrak",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 614,
-    "question": "İdrak prosesinə başlanğıc verən nələrdir?",
-    "options": [
-      {
-        "text": "duyğu və anlayış",
-        "correct": false
-      },
-      {
-        "text": "eksperiment və əqli-nəticə",
-        "correct": false
-      },
-      {
-        "text": "təsəvvür və müşahidə",
-        "correct": false
-      },
-      {
-        "text": "obyekt və subyekt",
-        "correct": true
-      },
-      {
-        "text": "qavrayış və mühakimə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 615,
-    "question": "İdrak prosesinin səviyyələri hansılardır?",
-    "options": [
-      {
-        "text": "eksperimental və nəzəri",
-        "correct": false
-      },
-      {
-        "text": "hissi və rasional",
-        "correct": true
-      },
-      {
-        "text": "nəzəri və hissi",
-        "correct": false
-      },
-      {
-        "text": "empirik və nəzəri",
-        "correct": false
-      },
-      {
-        "text": "empirik və rasional",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 616,
-    "question": "\"Yaşamaq - həzz almaqdır \" tezisini irəli sürən cərəyan",
-    "options": [
-      {
-        "text": "asketizm",
-        "correct": false
-      },
-      {
-        "text": "rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "dutilitarizm",
-        "correct": false
-      },
-      {
-        "text": "gedonizm",
-        "correct": true
-      },
-      {
-        "text": "praqmatizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 617,
-    "question": "Asketizmin  tərəfdarları nəyi təbliğ edirlər?",
+    "question": "Bankın mənfəətliliyinin təhlilində hansı elementlərə mütləq səviyyədə diqqət yetirmək lazımdır:",
     "options": [
       {
         "text": "düzgün cavab yoxdur",
         "correct": false
       },
       {
-        "text": "yaşamaqdan həzz almağı",
+        "text": "yalnız passivlərin səviyyəsinə",
         "correct": false
       },
       {
-        "text": "hər şeydən faydalanmağı",
+        "text": "yalnız gəlirlər səviyyəsinə",
         "correct": false
       },
       {
-        "text": "maddi olan hər şeydən imtina etməyi",
+        "text": "passivlərin tərkibinə",
+        "correct": false
+      },
+      {
+        "text": "gəlirlər və xərclərin səviyyəsinə",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 601,
+    "question": "Trast əməliyyatıdır .....:",
+    "options": [
+      {
+        "text": "bankların aktiv əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "bankların passiv əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "kommersiya banklarının qeyri-kommersiya",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 602,
+    "question": "Passiv əməliyyat nəticəsində ........:",
+    "options": [
+      {
+        "text": "hesablaşmalar ləngiyir",
+        "correct": false
+      },
+      {
+        "text": "bankın resursları artır",
         "correct": true
       },
       {
-        "text": "altruizmi",
+        "text": "hesablaşmalar bərabərləşir",
+        "correct": false
+      },
+      {
+        "text": "bankın resursları azalır",
+        "correct": false
+      },
+      {
+        "text": "bankın fəaliyyəti dayanır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 603,
+    "question": "Depozit əməliyyatının subyektidir:",
+    "options": [
+      {
+        "text": "əmtəələr",
+        "correct": false
+      },
+      {
+        "text": "faktorinq şöbələri",
+        "correct": false
+      },
+      {
+        "text": "banklar və müştərilər",
+        "correct": true
+      },
+      {
+        "text": "yalnız bankın işçiləri",
+        "correct": false
+      },
+      {
+        "text": "statistika şöbələri",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 604,
+    "question": "Mərkəzləşdirilmiş kredit bazarının subyektləridir .......:",
+    "options": [
+      {
+        "text": "kredit bürolarının ərazi idarələri",
+        "correct": false
+      },
+      {
+        "text": "sığorta şirkətlərinin agentləri",
+        "correct": false
+      },
+      {
+        "text": "sığorta təşkilatları",
+        "correct": false
+      },
+      {
+        "text": "banklar",
+        "correct": true
+      },
+      {
+        "text": "Statistika Komitəsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 605,
+    "question": "Bankın mənfəəti hesabına yaradılır ......:",
+    "options": [
+      {
+        "text": "aktivlər",
+        "correct": false
+      },
+      {
+        "text": "bank sənədləri",
+        "correct": false
+      },
+      {
+        "text": "passivlər və xərclər",
+        "correct": false
+      },
+      {
+        "text": "aktiv və passivlər",
+        "correct": false
+      },
+      {
+        "text": "ehtiyatlar",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 606,
+    "question": "Banklar tərəfindən ehtiyatlar ....... məqsədilə yaradılır:",
+    "options": [
+      {
+        "text": "Bank Olmayan Kredit Təşkilatlarına",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 607,
+    "question": "Bank kapitalının yaradılması, tamamlanması və resurs bazasının formalaşması əməliyyatıdır:",
+    "options": [
+      {
+        "text": "kredit əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "passiv əməliyyatlar",
+        "correct": true
+      },
+      {
+        "text": "faktorinq əməliyyatları",
+        "correct": false
+      },
+      {
+        "text": "aktiv əməliyyatlar",
+        "correct": false
+      },
+      {
+        "text": "investisiya əməliyyatları",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 608,
+    "question": "Bankın xüsusi kapitalının funksiyasıdır:",
+    "options": [
+      {
+        "text": "bölünmə",
+        "correct": false
+      },
+      {
+        "text": "birləşdirici",
+        "correct": false
+      },
+      {
+        "text": "operativ",
+        "correct": true
+      },
+      {
+        "text": "hesablaşma",
+        "correct": false
+      },
+      {
+        "text": "yenidənyaranma",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 609,
+    "question": "Kommersiya bankının resurslarına daxildir:",
+    "options": [
+      {
+        "text": "yalnız bankın əlavə kapitalı",
+        "correct": false
+      },
+      {
+        "text": "yalnız silinmiş olan vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "qalıq vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "xüsusi kapital və cəlb olunmuş vəsaitlər",
+        "correct": true
+      },
+      {
+        "text": "Dövlət Büdcəsinin vəsaitləri",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 610,
+    "question": "Depozit əməliyyatının obyektidir:",
+    "options": [
+      {
+        "text": "banklararası bazardakı sənədlərin dövriyyəsi",
+        "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatlarındakı (BOKT) pul vəsaitləri",
+        "correct": false
+      },
+      {
+        "text": "bankdan götürülən pul vəsaitləri",
+        "correct": false
+      },
+      {
+        "text": "xəzinə öhdəlikləri",
+        "correct": false
+      },
+      {
+        "text": "banka qoyulan pul vəsaitləri",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 611,
+    "question": "Fiziki şəxslərin vəsaitlərini ...... cəlb edə bilərlər:",
+    "options": [
+      {
+        "text": "İqtisadiyyat Nazirliyindən icazəsi olan banklar",
+        "correct": false
+      },
+      {
+        "text": "Azərbaycan Respublikası Hökumətindən",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 612,
+    "question": "Bankların cəlb olunan vəsaitlərinin depozit mənbəyinə daxildir:",
+    "options": [
+      {
+        "text": "birjadan gələn gəlirlər",
+        "correct": false
+      },
+      {
+        "text": "əhalinin əmanətləri",
+        "correct": true
+      },
+      {
+        "text": "investisiya vəsaitləri",
+        "correct": false
+      },
+      {
+        "text": "sığorta təşkilatlarının verdiyi kreditlər",
+        "correct": false
+      },
+      {
+        "text": "pulların dəyişdirilməsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 613,
+    "question": "Pul yığımı ola bilər:",
+    "options": [
+      {
+        "text": "nağd və nağdsız formada",
+        "correct": true
+      },
+      {
+        "text": "yalnız nağd formada",
+        "correct": false
+      },
+      {
+        "text": "yalnız nağdsız formada",
+        "correct": false
+      },
+      {
+        "text": "yalnız dövlətin qiymətli",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 614,
+    "question": "Valyuta sferasında stabilliyin kəskin ziddiyyəti dedikdə.....başa düşülür:",
+    "options": [
+      {
+        "text": "kredit böhranı",
+        "correct": false
+      },
+      {
+        "text": "sənəd böhranı",
+        "correct": false
+      },
+      {
+        "text": "əmtəə böhranı",
+        "correct": false
+      },
+      {
+        "text": "valyuta böhranı",
+        "correct": true
+      },
+      {
+        "text": "bank böhranı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 615,
+    "question": "Kredit vasitəsilə nə bölüşdürülür:",
+    "options": [
+      {
+        "text": "yalnlz əmtəələr və plastik kartlar",
+        "correct": false
+      },
+      {
+        "text": "istehsal və tədavül sferasında olan dəyər",
+        "correct": false
+      },
+      {
+        "text": "əmlak",
+        "correct": false
+      },
+      {
+        "text": "inkişafın əvvəlki",
+        "correct": false
+      },
+      {
+        "text": "müvəqqəti azad olan dəyər",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 616,
+    "question": "Borc faizi kimdən kimə gedir:",
+    "options": [
+      {
+        "text": "borcalandan kreditora",
+        "correct": true
+      },
+      {
+        "text": "qarantiya edəndən zəmanətçiyə",
+        "correct": false
+      },
+      {
+        "text": "üçüncü şəxslərə",
+        "correct": false
+      },
+      {
+        "text": "borcalandan krediti qarantiya edənə",
+        "correct": false
+      },
+      {
+        "text": "kreditordan borcalana",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 617,
+    "question": "Kreditin funksiyasını qeyd edin:",
+    "options": [
+      {
+        "text": "ipoteka",
+        "correct": false
+      },
+      {
+        "text": "yenidənbölgü",
+        "correct": true
+      },
+      {
+        "text": "riskli",
+        "correct": false
+      },
+      {
+        "text": "nəzarət",
+        "correct": false
+      },
+      {
+        "text": "sosial",
         "correct": false
       }
     ]
   },
   {
     "num": 618,
-    "question": "Həyat mənasını hər şeydən  faydalanmaqda görən cərəyanı göstərin",
+    "question": "…..kreditinin başlıca təyinatı əhalinin istehlak tələbinin ödənilməsidir:",
     "options": [
       {
-        "text": "asketizm",
+        "text": "depozit",
         "correct": false
       },
       {
-        "text": "volyuntarizm",
+        "text": "ipoteka",
         "correct": false
       },
       {
-        "text": "evdemonizm",
-        "correct": false
-      },
-      {
-        "text": "gedonizm",
-        "correct": false
-      },
-      {
-        "text": "utilitarizm",
+        "text": "istehlak",
         "correct": true
+      },
+      {
+        "text": "əmtəə",
+        "correct": false
+      },
+      {
+        "text": "kommersiya",
+        "correct": false
       }
     ]
   },
   {
     "num": 619,
-    "question": "Həyatın mənası sualı insanı, əsasən, nəyə görə narahat edir?",
+    "question": "…..kreditinin köməyilə kapitalın iqtisadiyyat sahələri arasında axını baş verir:",
     "options": [
       {
-        "text": "filosof olduğuna görə",
+        "text": "mülki",
         "correct": false
       },
       {
-        "text": "zəif olduğuna görə",
+        "text": "istehlak",
         "correct": false
       },
       {
-        "text": "tənha olduğuna görə",
+        "text": "kommersiya",
         "correct": false
       },
       {
-        "text": "fani olduğuna görə",
+        "text": "bank",
         "correct": true
       },
       {
-        "text": "alim olduğuna görə",
+        "text": "ipoteka",
         "correct": false
       }
     ]
   },
   {
     "num": 620,
-    "question": "\" Məqsəd  vasitəyə bəraət qazandırır \" tezisini hansı təlim  irəli sürür?",
+    "question": "Mənfəət əldə etmək məqsədi ilə yaradılır..... :",
     "options": [
       {
-        "text": "rasionalizm",
+        "text": "Mərkəzi Bank",
         "correct": false
       },
       {
-        "text": "providensializm",
+        "text": "Beynəlxalq Valyuta Mərkəzləri",
         "correct": false
       },
       {
-        "text": "hedonizm",
+        "text": "banklararası kredit sistemi",
         "correct": false
       },
       {
-        "text": "asketizm",
+        "text": "Mərkəzi Bankın ərazi idarələri",
         "correct": false
       },
       {
-        "text": "praqmatizm",
+        "text": "kommersiya bankları",
         "correct": true
       }
     ]
   },
   {
     "num": 621,
-    "question": "İnsanı  fəaliyyətin  subyekti kimi  xarakterizə edən  anlayışı göstərin",
+    "question": "Beynəlxalq kreditin fərqləndirici xüsusiyyəti:",
     "options": [
       {
-        "text": "fərdiyyət",
+        "text": "sözdələşmədə Dünya Bankının iştirakıdır",
         "correct": false
       },
       {
-        "text": "tarixi şəxsiyyət",
+        "text": "sövdələşmədə hər hansı bir fiziki şəxslərin mütləq iştirakıdır",
         "correct": false
       },
       {
-        "text": "qəhrəman",
+        "text": "sövdələşmədə Beynəlxalq Valyuta Fondunun mütləq iştirakıdır",
         "correct": false
       },
       {
-        "text": "Şəxsiyyət",
-        "correct": true
-      },
-      {
-        "text": "fərd",
+        "text": "sövdələşmədə hər hansı bir",
         "correct": false
       }
     ]
   },
   {
     "num": 622,
-    "question": "Insanın mahiyyətini  biolojiləşdirən cərəyanı  göstərin",
+    "question": "Bank krediti verilir:",
     "options": [
       {
-        "text": "ekzistentializm",
+        "text": "pul kisəsi şəklində",
         "correct": false
       },
       {
-        "text": "Darvinizm",
-        "correct": false
-      },
-      {
-        "text": "fenomenologiya",
-        "correct": false
-      },
-      {
-        "text": "Sosial-darvinizm",
+        "text": "yalnız pul formasında",
         "correct": true
       },
       {
-        "text": "Marksizm",
+        "text": "yalnız avadanlıq şəklində",
+        "correct": false
+      },
+      {
+        "text": "yalnız əmtəə formasında",
+        "correct": false
+      },
+      {
+        "text": "yalnız uçot formasında",
         "correct": false
       }
     ]
   },
   {
     "num": 623,
-    "question": "İnsanın istənilən hərəkətini  əvvəlcədən müəyyən edilmiş bir hadisə kimi götürən təlim necə adlanır?",
+    "question": "Veksel, banknot və çek pulun ……. növünə aiddir:",
     "options": [
       {
-        "text": "rasionalizm",
+        "text": "kağız",
         "correct": false
       },
       {
-        "text": "volyuntarizm",
+        "text": "real",
         "correct": false
       },
       {
-        "text": "fatalizm",
+        "text": "kredit",
         "correct": true
       },
       {
-        "text": "praqmatizm",
+        "text": "dünya pulu",
         "correct": false
       },
       {
-        "text": "Nigilizm",
+        "text": "metal",
         "correct": false
       }
     ]
   },
   {
     "num": 624,
-    "question": "Növün tək  bir nümayəndəsi kimi  insan nədir?",
+    "question": "Ölkə ərazisində mal və xidmətlər üzrə ödəmələr ….. yerinə yetirilir:",
     "options": [
       {
-        "text": "fərdiyyətdir",
+        "text": "xarici valyuta və rubl ilə",
         "correct": false
       },
       {
-        "text": "şəxsiyyətdir",
+        "text": "beynəlxalq hesablaşma pul vahidi ilə",
         "correct": false
       },
       {
-        "text": "fərddir",
+        "text": "xarici valyutada",
+        "correct": false
+      },
+      {
+        "text": "yalnız milli valyutada",
         "correct": true
       },
       {
-        "text": "adamdır",
-        "correct": false
-      },
-      {
-        "text": "vətəndaşdır",
+        "text": "SDR ilə",
         "correct": false
       }
     ]
   },
   {
     "num": 625,
-    "question": "Qərb fəlsəfəsində insanı  öz düşüncələrinin   mərkəzinə qoyan  ilk filosof kim olmuşdur?",
+    "question": "Nağd pul dövriyyəsi …….. gəlirlərinin böyük hissəsinin əldə edilməsi və xərclənməsinə xidmət edir:",
     "options": [
       {
-        "text": "de Heraklit",
+        "text": "ərazi üzrə hökümət orqanlarının",
         "correct": false
       },
       {
-        "text": "Avqustin",
+        "text": "kommersiya banklarının",
         "correct": false
       },
       {
-        "text": "F. Akvinski",
+        "text": "Mərkəzi Bankın",
         "correct": false
       },
       {
-        "text": "Sokrat",
+        "text": "təsərrüfat subyektlərinin",
+        "correct": false
+      },
+      {
+        "text": "əhalinin",
         "correct": true
-      },
-      {
-        "text": "Kant",
-        "correct": false
       }
     ]
   },
   {
     "num": 626,
-    "question": "İnsanı  təbiətin bir  element kimi  götürən  və   onun heyvanlarla birgə eyni qanunlara  tabe olduğunu iddia edən cərəyan necə adlanır?",
+    "question": "Bütün müəssisə və təşkilatlar özlərinin nağd pul vəsaitlərini saxlamalıdırlar:",
     "options": [
       {
-        "text": "rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "sosiologizm",
-        "correct": false
-      },
-      {
-        "text": "naturalizm",
+        "text": "kredit təşkilatlarında",
         "correct": true
       },
       {
-        "text": "humanizm",
+        "text": "Maliyyə Nazirliyində",
         "correct": false
       },
       {
-        "text": "pozitivizm",
+        "text": "sığorta təşkilatlarında",
+        "correct": false
+      },
+      {
+        "text": "xəzinədarlıqda",
+        "correct": false
+      },
+      {
+        "text": "Beynəlxalq Valyuta Fondunda",
         "correct": false
       }
     ]
   },
   {
     "num": 627,
-    "question": "Maddi və mənəvi nemətlərin  yaradılması istiqamətində  insanın məqsədyönlü fəaliyyəti necə adlanır?",
+    "question": "Veksel …:",
     "options": [
       {
-        "text": "davranış",
+        "text": "qiymətli kağız və tədavül vasitəsidir",
         "correct": false
       },
       {
-        "text": "yaradıcılıq",
-        "correct": false
-      },
-      {
-        "text": "layihələşdir",
-        "correct": false
-      },
-      {
-        "text": "əmək",
-        "correct": true
-      },
-      {
-        "text": "fəallıq",
+        "text": "borc öhdəliyi, müvəqqəti",
         "correct": false
       }
     ]
   },
   {
     "num": 628,
-    "question": "Dünyanın dərk edilən olduğunu qəbul edənlər hansı mövqedən çıxış edirlər?",
+    "question": "Nağdsız hesablaşmaların aparılmasından ötrü emitent və benefisiarlar üçün zəruri şərt kimi mövcud olmalıdır:",
     "options": [
       {
-        "text": "Materializm",
+        "text": "bank müqaviləsi",
         "correct": false
       },
       {
-        "text": "Optimizm",
+        "text": "dövriyyə kassasının limiti",
+        "correct": false
+      },
+      {
+        "text": "bank hesabları",
         "correct": true
       },
       {
-        "text": "İdealizm",
+        "text": "Mərkəzi Bankın xüsusi icazəsi",
         "correct": false
       },
       {
-        "text": "Fallibilizm",
-        "correct": false
-      },
-      {
-        "text": "Aqnostisizm",
+        "text": "depozit hesabları",
         "correct": false
       }
     ]
   },
   {
     "num": 629,
-    "question": "Aşağıdakılardan hansı “fəlsəfə” sözünün qədim yunan dilindən tərcüməsidir?",
+    "question": "Hüquqi və fiziki şəxslər tərəfindən nağdsız hesablaşmalar aşağıdakıların köməyi ilə icra olunur:",
     "options": [
       {
-        "text": "Elmə məhəbbət",
+        "text": "bankın ərazi idarələrinin",
         "correct": false
       },
       {
-        "text": "Miflərə məhəbbət",
+        "text": "Maliyyə Nazirliyinin rəsmi icazəsi olduqda",
         "correct": false
       },
       {
-        "text": "İnsana məhəbbət",
+        "text": "SWIFT tərəfindən",
         "correct": false
       },
       {
-        "text": "Müdrikliyə məhəbbət",
+        "text": "kommersiya banklarının",
         "correct": true
       },
       {
-        "text": "Vətənə məhəbbət",
+        "text": "sığorta təşkilatlarının",
         "correct": false
       }
     ]
   },
   {
     "num": 630,
-    "question": "Fəlsəfə dünyagörüşünün  hansı  səviyyəsinə  daxildir?",
+    "question": "Akkreditiv üzrə nağd pulun ödənilməsi:",
     "options": [
       {
-        "text": "mifoloji",
+        "text": "Mərkəzi Bankın razılığı ilə mümkündür",
         "correct": false
       },
       {
-        "text": "emosional",
+        "text": "bank emitentin razılığı ilə mümkündür",
         "correct": false
       },
       {
-        "text": "elmi",
+        "text": "mümkündür",
         "correct": false
       },
       {
-        "text": "adi-gündəlik",
+        "text": "istisna hallarda mümkündür",
         "correct": false
       },
       {
-        "text": "nəzəri",
+        "text": "mümkün deyil",
         "correct": true
       }
     ]
   },
   {
     "num": 631,
-    "question": "Dünyagörüşünün əsas məsələsi aşağıdakılardan hansıdır?",
+    "question": "Bank tərəfindən ödəyicidən ödəmə tapşırığı icra üçün qəbul edilir, yalnız:",
     "options": [
       {
-        "text": "biliyin gercəkliyə  münasibəti məsələsi",
+        "text": "benefisiar bankın razılığı ilə",
         "correct": false
       },
       {
-        "text": "son məqsədlər  haqqında məsələ",
-        "correct": false
-      },
-      {
-        "text": "ilk başlanğıclar haqqında məsələ",
-        "correct": false
-      },
-      {
-        "text": "insanın dünyaya münasibəti məsələsi",
-        "correct": true
-      },
-      {
-        "text": "dünyanın dərk edilənliyi məsələsi",
+        "text": "vəsaiti ödəyən və vəsaiti",
         "correct": false
       }
     ]
   },
   {
     "num": 632,
-    "question": "Bunlardan hansı  fəlsəfənin  predmetinə  daxildir?",
+    "question": "Bankın müştərisi hansı məbləğə çek yaza bilər:",
     "options": [
       {
-        "text": "biliyin eksperimental təsdiqi",
+        "text": "məbləğ məhdudlaşdırırlmır",
         "correct": false
       },
       {
-        "text": "mürrəkkəb sistemlərin  idarə edilməsi",
-        "correct": false
-      },
-      {
-        "text": "elmi nəzəriyyənin  qurulması metodları",
-        "correct": false
-      },
-      {
-        "text": "biliyin gercəkliyə  münasibəti məsələsi",
+        "text": "bank hesabındakı hesabda olan vəsait həcmində",
         "correct": true
       },
       {
-        "text": "biliyin riyazi  əsaslandırılması",
+        "text": "müştərinin istəyinə uyğun məbləğdə",
+        "correct": false
+      },
+      {
+        "text": "1000 manata bölünən istənilən məbləğdə",
+        "correct": false
+      },
+      {
+        "text": "yalnız malgöndərənə olan borcu məbləğində",
         "correct": false
       }
     ]
   },
   {
     "num": 633,
-    "question": "Aşağıdakılardan hansı fəlsəfənin  meydana  gəlməsi  üçün  zəruri şərt idi?",
+    "question": "Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemində (XÖHKS) hesablaşmalar hansı valyutada aparılır?",
     "options": [
       {
-        "text": "vaxtı hesablama sisteminin  yaradılması",
+        "text": "rubl ilə",
         "correct": false
       },
       {
-        "text": "əkinçiliyin meydana çıxması",
+        "text": "lari ilə",
         "correct": false
       },
       {
-        "text": "qədim demokratiya nümunələrinin  meydana çıxması",
-        "correct": false
-      },
-      {
-        "text": "tayfa birliklərinin  təşəkkül tapması",
-        "correct": false
-      },
-      {
-        "text": "əqli  əməyin fiziki əməkdən  ayrılması",
+        "text": "milli valyuta ilə",
         "correct": true
+      },
+      {
+        "text": "marka ilə",
+        "correct": false
+      },
+      {
+        "text": "dollar ilə",
+        "correct": false
       }
     ]
   },
   {
     "num": 634,
-    "question": "Aşağıdakıların hansı ilk fəlsəfi təlimləri səciyyələndirir?",
+    "question": "Ödəniş tapşırığı tərtib edilir:",
     "options": [
       {
-        "text": "qədim eposlar",
+        "text": "Mərkəzi Bank tərəfindən",
         "correct": false
       },
       {
-        "text": "miflərin nizamsız yığımı",
+        "text": "satıcı tərəfindən",
         "correct": false
       },
       {
-        "text": "dünya haqqında astronomik  təsəvvürlər",
+        "text": "inzibati orqanlar tərəfindən",
         "correct": false
       },
       {
-        "text": "dünya haqqında mifik təsəvvürlərin rasionallaşması",
+        "text": "ödəyici tərəfindən",
         "correct": true
       },
       {
-        "text": "konkret- elmi  nəzəriyyələr",
+        "text": "baş idarə tərəfindən",
         "correct": false
       }
     ]
   },
   {
     "num": 635,
-    "question": "Fəlsəfi təhsil mütəxəssisdə hansı keyfiyyəti tərbiyə edir?",
+    "question": "Daşınmaz əmlaka görə uzunmüddətli kreditin növünü göstərin:",
     "options": [
       {
-        "text": "əməksevərlik",
+        "text": "bank",
         "correct": false
       },
       {
-        "text": "bunların hamısını",
+        "text": "istehlak",
+        "correct": false
+      },
+      {
+        "text": "benəlxalq",
+        "correct": false
+      },
+      {
+        "text": "sığorta",
+        "correct": false
+      },
+      {
+        "text": "ipoteka",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 636,
+    "question": "Dövlət kreditinin əlamətidir:",
+    "options": [
+      {
+        "text": "dövlətin həm kreditor,həm borclu kimi iştirakı",
+        "correct": true
+      },
+      {
+        "text": "müəssisələrin borclu kimi iştirakı",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərin borclu kimi iştirakı",
+        "correct": false
+      },
+      {
+        "text": "ərazilərin kreditor qismində iştirakı",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatlarının borclu kimi iştirakı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 637,
+    "question": "Müasir iqtisadiyyatda kreditin daha çox yayılmış forması hansıdır:",
+    "options": [
+      {
+        "text": "pul vəsaiti krediti",
+        "correct": false
+      },
+      {
+        "text": "bank krediti",
+        "correct": true
+      },
+      {
+        "text": "lizinq",
+        "correct": false
+      },
+      {
+        "text": "əvəzsiz kredit",
+        "correct": false
+      },
+      {
+        "text": "sənəd dövriyyəsinə verilən kredit",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 638,
+    "question": "Valyuta məzənnələrindəki dəyişikliklərə görə yaranan riskdir.....:",
+    "options": [
+      {
+        "text": "faiz dərəcəsi riski",
+        "correct": false
+      },
+      {
+        "text": "likvidlik riski",
+        "correct": false
+      },
+      {
+        "text": "valyuta riski",
+        "correct": true
+      },
+      {
+        "text": "kapital riski",
+        "correct": false
+      },
+      {
+        "text": "əmtəə-mal riski",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 639,
+    "question": "Kapitalın və digər qiymətli kağızların qiymətinin dəyişməsi nəticəsində yaranan riskdir:",
+    "options": [
+      {
+        "text": "likvidlik riski",
+        "correct": false
+      },
+      {
+        "text": "valyuta riski",
+        "correct": false
+      },
+      {
+        "text": "əmtəə-mal riski",
+        "correct": false
+      },
+      {
+        "text": "kapital riski",
+        "correct": true
+      },
+      {
+        "text": "faiz dərəcəsi riski",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 640,
+    "question": "Faiz dərəcəsinin dəyişməsi nəticəsində yaranan riskdir.... :",
+    "options": [
+      {
+        "text": "əmtəə-mal riski",
+        "correct": false
+      },
+      {
+        "text": "likvidlik riski",
+        "correct": false
+      },
+      {
+        "text": "kapital riski",
+        "correct": false
+      },
+      {
+        "text": "valyuta riski",
+        "correct": false
+      },
+      {
+        "text": "faiz dərəcəsi riski",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 641,
+    "question": "Bazar riskinə aid olmayan riski seçin ......:",
+    "options": [
+      {
+        "text": "reputasiya riski",
+        "correct": true
+      },
+      {
+        "text": "xarici valyuta riski",
+        "correct": false
+      },
+      {
+        "text": "kapital riski",
+        "correct": false
+      },
+      {
+        "text": "əmtəə-mal riski",
+        "correct": false
+      },
+      {
+        "text": "faiz dərəcəsi riski",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 642,
+    "question": "Bazar riskinə aid olmayan riski seçin ......:",
+    "options": [
+      {
+        "text": "əmtəə-mal riski",
+        "correct": false
+      },
+      {
+        "text": "əməliyyat riski",
+        "correct": true
+      },
+      {
+        "text": "xarici valyuta riski",
+        "correct": false
+      },
+      {
+        "text": "faiz dərəcəsi riski",
+        "correct": false
+      },
+      {
+        "text": "kapital riski",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 643,
+    "question": "Xarici valyuta kursunun uğursuz dəyişməsi nəticəsində kredit təşkilatında itkilərin yaranma riskidir:",
+    "options": [
+      {
+        "text": "bazar riski",
+        "correct": false
+      },
+      {
+        "text": "sövdələşmə riski",
+        "correct": false
+      },
+      {
+        "text": "məzənnə riski",
+        "correct": true
+      },
+      {
+        "text": "likvidlik riski",
+        "correct": false
+      },
+      {
+        "text": "əməliyyat riski",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 644,
+    "question": "Nağd pul dövriyyəsi dedikdə.....başa düşülür:",
+    "options": [
+      {
+        "text": "nağd pul nişanlarının fasiləli hərəkəti",
+        "correct": false
+      },
+      {
+        "text": "nağd pul nişanlarının istifadə edilməməsi",
+        "correct": false
+      },
+      {
+        "text": "nağd pul nişanlarının dondurulması",
+        "correct": false
+      },
+      {
+        "text": "nağd pul nişanlarının fasiləsiz hərəkəti",
+        "correct": true
+      },
+      {
+        "text": "nağd pul nişanlarının rüblük hərəkəti",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 645,
+    "question": "Kommersiya bankları ............ funksiyasını yerinə yetirir:",
+    "options": [
+      {
+        "text": "vəsaitlərin depozitlərə toplanılması",
+        "correct": true
+      },
+      {
+        "text": "hökümətin bankiri",
+        "correct": false
+      },
+      {
+        "text": "dövlətin emissiya mərkəzi",
+        "correct": false
+      },
+      {
+        "text": "hökumətin kassiri və Milli Depozit Sisteminin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 646,
+    "question": "Mərkəzi Bankın pul siyasəti alətidir:",
+    "options": [
+      {
+        "text": "açıq bazarda əməliyyatların aparılması",
+        "correct": true
+      },
+      {
+        "text": "kommersiya banklarına lisenziyaların verilməsi",
+        "correct": false
+      },
+      {
+        "text": "fiziki şəxslərin hesablarına nəzarət etmək",
+        "correct": false
+      },
+      {
+        "text": "akkreditivlərə nəzarət etmək",
+        "correct": false
+      },
+      {
+        "text": "lizinq əməliyyatlarının həyata keçirilməsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 647,
+    "question": "Kredit təşkilatlarının yenidən maliyyələşdirilməsi:",
+    "options": [
+      {
+        "text": "Mərkəzi Bankın son məqsədidir",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın pul siyasəti alətidir",
+        "correct": true
+      },
+      {
+        "text": "Mərkəzi Bankın hüquqi funksiyasıdır",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın sənədləşmə əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın lisenziya vermə əməliyyatıdır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 648,
+    "question": "……krediti formasında borcalanlar qismində fiziki şəxslər, kreditorlar qismində isə kredit idarələri və ticarət təşkilatları çıxış edir:",
+    "options": [
+      {
+        "text": "beynəlxalq",
+        "correct": false
+      },
+      {
+        "text": "mülki",
+        "correct": false
+      },
+      {
+        "text": "istehlak",
+        "correct": true
+      },
+      {
+        "text": "debet",
+        "correct": false
+      },
+      {
+        "text": "valyuta",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 649,
+    "question": "Hansı plastik kart üzrə hesab sahibi bankın ona təqdim etdiyi vəsaitlərdən yalnız ona müəyyən etdiyi limit çərçivəsində hesablaşma yerinə yetirə bilər:",
+    "options": [
+      {
+        "text": "icazəli kart",
+        "correct": false
+      },
+      {
+        "text": "qalıq kartı",
+        "correct": false
+      },
+      {
+        "text": "limitli kart",
+        "correct": false
+      },
+      {
+        "text": "kredit kartı",
+        "correct": true
+      },
+      {
+        "text": "maqnit kartı",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 650,
+    "question": "Nağd pulların ilkin emissiyası haradan başlayır:",
+    "options": [
+      {
+        "text": "axşam kassalarından",
+        "correct": false
+      },
+      {
+        "text": "ticarət şəbəkələrindən",
+        "correct": false
+      },
+      {
+        "text": "depozit kassalarından",
+        "correct": false
+      },
+      {
+        "text": "depozit əməliyyatlarından",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın ərazi idarələrindən",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 651,
+    "question": "Nağd pulun dövriyyəsi......təşkil edilərək həyata keçirilir :",
+    "options": [
+      {
+        "text": "Mərkəzi Bank və kommersiya bankları vasitəsi ilə",
+        "correct": true
+      },
+      {
+        "text": "müştərilər tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "BOKT-lar (Bank Olmayan Kredit Təşkilatı) tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Milli Məclis tərəfindən",
+        "correct": false
+      },
+      {
+        "text": "Auditorlar Palatası tərəfindən",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 652,
+    "question": "Nağd pul tədavülü üçün Mərkəzi Bank......:",
+    "options": [
+      {
+        "text": "pul nişanlarına olan tələbatı müəyyənləşdirir",
+        "correct": false
+      },
+      {
+        "text": "pul nişanlarının ehtiyatını yaradır",
+        "correct": false
+      },
+      {
+        "text": "kredit təşkilatları tərəfindən pulun saxlanılması",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 653,
+    "question": "Pul saxlanılan yer hansı texniki tələblərə cavab verməlidir :",
+    "options": [
+      {
+        "text": "siqnalizasiya qurğuları ilə təchiz olunmalıdır",
+        "correct": false
+      },
+      {
+        "text": "alt hissədə boşluq və ya zirzəmi olmamalıdır",
+        "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
+      },
+      {
+        "text": "oda davamlı dəmir seyflərlə təchiz olunmalıdır",
+        "correct": false
+      },
+      {
+        "text": "təhlükəsizlik tədbirlərinə cavab verməlidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 654,
+    "question": "İnkassasiya nədir :",
+    "options": [
+      {
+        "text": "nağd pulların müştəriyə verilməsidir",
+        "correct": false
+      },
+      {
+        "text": "faktorinq əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "nağd pul və digər qiymətlilərin",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 655,
+    "question": "Akkreditiv üzrə fəaliyyət müddəti və hesablaşma qaydası ….... müəyyən edilir:",
+    "options": [
+      {
+        "text": "Maliyyə Nazirliyi ilə",
+        "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankı ilə",
+        "correct": false
+      },
+      {
+        "text": "Vergilər Nazirliyi ilə",
+        "correct": false
+      },
+      {
+        "text": "Hesablama Palatası ilə",
+        "correct": false
+      },
+      {
+        "text": "ödəyici və satıcı arasındakı müqavilə ilə",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 656,
+    "question": "Beynəlxalq hesablaşmalar kimin vasitəsilə aparılır?",
+    "options": [
+      {
+        "text": "kommersiya banklarının",
+        "correct": true
+      },
+      {
+        "text": "valyuta birjalarının",
+        "correct": false
+      },
+      {
+        "text": "lizinq şirkətlərinin",
+        "correct": false
+      },
+      {
+        "text": "investisiya fondlarının",
+        "correct": false
+      },
+      {
+        "text": "investisiya şirkətlərinin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 657,
+    "question": "Nağdsız hesablaşmaların formalarına aiddir:",
+    "options": [
+      {
+        "text": "ödəniş tapşırıqları,ödəniş-tələbnamə",
+        "correct": true
+      },
+      {
+        "text": "bank sənədləri ilə hesablaşmalar",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 658,
+    "question": "Ödəniş tapşırığı bank tərəfindən icraya qəbul edilir:",
+    "options": [
+      {
+        "text": "müştərinin banka borcu olmadıqda",
+        "correct": false
+      },
+      {
+        "text": "müştərinin xəbəri olduqda",
+        "correct": false
+      },
+      {
+        "text": "hesabda kifayət qədər vəsait olduqda",
+        "correct": true
+      },
+      {
+        "text": "hesabda vəsait olmadıqda",
+        "correct": false
+      },
+      {
+        "text": "müştəri vaxtı keçmiş borcunu ödədikdə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 659,
+    "question": "Pul dövriyyəsi .......ayrılır:",
+    "options": [
+      {
+        "text": "yalnız nağd pul dövriyyəsinə",
+        "correct": false
+      },
+      {
+        "text": "yalnız nağdsız pul dövriyyəsinə",
+        "correct": false
+      },
+      {
+        "text": "nağdsız və qısamüddətli pul dövriyyəsinə",
+        "correct": false
+      },
+      {
+        "text": "nağd və nağdsız pul dövriyyəsinə",
+        "correct": true
+      },
+      {
+        "text": "nağd və uzunmüddətli pul dövriyyəsinə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 660,
+    "question": "Aksept nədir?",
+    "options": [
+      {
+        "text": "ödəyicinin birja əməliyyatıdır",
+        "correct": false
+      },
+      {
+        "text": "ödəyicinin sənədinin olmamasıdır",
+        "correct": false
+      },
+      {
+        "text": "ödəyicinin vəsaiti",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 661,
+    "question": "SWİFT- nədir?",
+    "options": [
+      {
+        "text": "Ümumidünya Banklararası",
+        "correct": true
+      },
+      {
+        "text": "Ümumidünya Vergi Sistemi",
+        "correct": false
+      },
+      {
+        "text": "Ümumidünya Məlumat Sistemi",
+        "correct": false
+      },
+      {
+        "text": "Ölkələrarası Depozit Sistemi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 662,
+    "question": "Kredit təşkilatının hüquqi normativ aktlarının və bağlanılmış müqavilələrin tələblərinə riayət etməməsi ilə əlaqədar yaranan itkilər hansı risk qrupuna daxildir:",
+    "options": [
+      {
+        "text": "kənar risk",
+        "correct": false
+      },
+      {
+        "text": "hüquqi risk",
+        "correct": true
+      },
+      {
+        "text": "işgüzarlığın itirilmə riski",
+        "correct": false
+      },
+      {
+        "text": "strateji risk",
+        "correct": false
+      },
+      {
+        "text": "potensial risk",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 663,
+    "question": "Bankın strategiyasının müəyyənləşdirilməsi haqqında qərar qəbul edilərkən buraxılan səhvlərlə əlaqədar bankda itkilərin yaranma riskidir:",
+    "options": [
+      {
+        "text": "uzunmüddətli risk",
+        "correct": false
+      },
+      {
+        "text": "qısa müddətli risk",
+        "correct": false
+      },
+      {
+        "text": "strateji risk",
+        "correct": true
+      },
+      {
+        "text": "mütərəqqi risk",
+        "correct": false
+      },
+      {
+        "text": "faktiki risk",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 664,
+    "question": "Kredit təşkilatının xarici valyutalarda açdığı mövqe üzrə xarici valyuta kurslarının əlverişsiz dəyişilməsi ilə əlaqədar itkilər riski necə adlanır?",
+    "options": [
+      {
+        "text": "fond riski",
+        "correct": false
+      },
+      {
+        "text": "kredit riski",
+        "correct": false
+      },
+      {
+        "text": "faiz riski",
+        "correct": false
+      },
+      {
+        "text": "valyuta riski",
+        "correct": true
+      },
+      {
+        "text": "hesablaşma riski",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 665,
+    "question": "Kredit təşkilatının aktivləri, passivləri və balansdan kənar alətləri üzrə faiz dərəcələrinin əlverişsiz dəyişikliyi ilə əlaqədar yaranan itkilər riskidir:",
+    "options": [
+      {
+        "text": "fond riski",
+        "correct": false
+      },
+      {
+        "text": "valyuta riski",
+        "correct": false
+      },
+      {
+        "text": "trast riski",
+        "correct": false
+      },
+      {
+        "text": "kredit riski",
+        "correct": false
+      },
+      {
+        "text": "faiz riski",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 666,
+    "question": "Bazarda faiz dərəcələrinin, valyuta məzənnələrinin, qiymətli kağızların və əmtəələrin dəyərində baş verən dəyişikliklərlə əlaqadar yaranan … riskdir?",
+    "options": [
+      {
+        "text": "bazar riski",
+        "correct": true
+      },
+      {
+        "text": "strateji risk",
+        "correct": false
+      },
+      {
+        "text": "əməliyyat riskləri",
+        "correct": false
+      },
+      {
+        "text": "hüquq riski",
+        "correct": false
+      },
+      {
+        "text": "kredit riski",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 667,
+    "question": "Bank kreditində sövdələşmə obyekti kimi nə çıxış edir:",
+    "options": [
+      {
+        "text": "istehsal vasitələri",
+        "correct": false
+      },
+      {
+        "text": "pul vəsaitləri",
+        "correct": true
+      },
+      {
+        "text": "qiymətli metallar",
+        "correct": false
+      },
+      {
+        "text": "əsas vəsaitlər",
+        "correct": false
+      },
+      {
+        "text": "əmtəə material dəyərliləri",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 668,
+    "question": "Adətən investisiya məqsədləri üçün hansı bank ssudaları istifadə edilir:",
+    "options": [
+      {
+        "text": "istehlak",
+        "correct": false
+      },
+      {
+        "text": "ortamüddətli və overdraft",
+        "correct": false
+      },
+      {
+        "text": "uzunmüddətli",
+        "correct": true
+      },
+      {
+        "text": "iki günlük kredit",
+        "correct": false
+      },
+      {
+        "text": "ticarət",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 669,
+    "question": "…...krediti icarə müqaviləsinə əsaslanır və avadanlığın qalıq dəyəri ilə alınması hüququ verir:",
+    "options": [
+      {
+        "text": "beynəlxalq",
+        "correct": false
+      },
+      {
+        "text": "təsərrüfat",
+        "correct": false
+      },
+      {
+        "text": "ipoteka",
+        "correct": false
+      },
+      {
+        "text": "lizinq",
+        "correct": true
+      },
+      {
+        "text": "kommersiya",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 670,
+    "question": "……kreditinin əhəmiyyəti odur ki, o, istehsalın modernləşməsinə, elmi - texniki nailiyyətlərin istehsalda tətbiqinə imkan yaradır:",
+    "options": [
+      {
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "dövlət",
+        "correct": false
+      },
+      {
+        "text": "tədiyyə",
+        "correct": false
+      },
+      {
+        "text": "ipoteka",
+        "correct": false
+      },
+      {
+        "text": "lizinq",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 671,
+    "question": "Kreditin hansı formasında o, pul formasında verilir və pul formasında qaytarılır:",
+    "options": [
+      {
+        "text": "bank",
+        "correct": true
+      },
+      {
+        "text": "beynəlxalq",
+        "correct": false
+      },
+      {
+        "text": "dünya",
+        "correct": false
+      },
+      {
+        "text": "əmtəə",
+        "correct": false
+      },
+      {
+        "text": "əmtəə-pul",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 672,
+    "question": "Hansı valyuta məhdudiyyət olmadan istənilən xarici valyutaya dəyişdirilir:",
+    "options": [
+      {
+        "text": "qapalı valyuta",
+        "correct": false
+      },
+      {
+        "text": "sərbəst konvertasiya olunan",
+        "correct": true
+      },
+      {
+        "text": "konvertasiya olunmayan",
+        "correct": false
+      },
+      {
+        "text": "qismən konvertasiya olunan",
+        "correct": false
+      },
+      {
+        "text": "cari hesablar üzrə konvertasiya olunan",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 673,
+    "question": "Dəst nədir :",
+    "options": [
+      {
+        "text": "eyni nominal dəyərdən olan 100 (yüz) vərəqdən",
+        "correct": true
+      },
+      {
+        "text": "100 ( yüz) vərəqdən ibarət əskinazları saxlayan kassadır",
+        "correct": false
+      },
+      {
+        "text": "pulların yenilənməsidir",
+        "correct": false
+      },
+      {
+        "text": "pulların ləğv edilməsidir",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 674,
+    "question": "Banderol nədir :",
+    "options": [
+      {
+        "text": "pul dəstini saxlamaq üçün açardır",
+        "correct": false
+      },
+      {
+        "text": "pul dəstələrini bağlamaq üçün Mərkəzi Bank",
+        "correct": true
+      },
+      {
+        "text": "Mərkəzi Bankın pulları saxlamaq kassasıdır",
+        "correct": false
+      },
+      {
+        "text": "möhürdür",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 675,
+    "question": "Forfeytinq əməliyyatı bankın.......əməliyyatıdır:",
+    "options": [
+      {
+        "text": "kredit",
+        "correct": false
+      },
+      {
+        "text": "şəxsi",
+        "correct": false
+      },
+      {
+        "text": "sürətli köçürmə",
+        "correct": false
+      },
+      {
+        "text": "qeyri-depozit",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 676,
+    "question": "Trast əməliyyatı bankın.......əməliyyatıdır:",
+    "options": [
+      {
+        "text": "vasitəçilik",
+        "correct": true
+      },
+      {
+        "text": "əmtəə",
+        "correct": false
+      },
+      {
+        "text": "hesablaşma",
+        "correct": false
+      },
+      {
+        "text": "deponlaşdırma",
+        "correct": false
+      },
+      {
+        "text": "sənədləşmə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 677,
+    "question": "Faktorinq əməliyyatı bankın.......əməliyyatıdır:",
+    "options": [
+      {
+        "text": "kredit",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilik",
+        "correct": true
+      },
+      {
+        "text": "kassa",
+        "correct": false
+      },
+      {
+        "text": "depozit",
+        "correct": false
+      },
+      {
+        "text": "sənədləşmə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 678,
+    "question": "Lizinqin formalarını göstərin:",
+    "options": [
+      {
+        "text": "yalnız operativ",
+        "correct": false
+      },
+      {
+        "text": "yenidənbölgü və müddətlilik",
+        "correct": false
+      },
+      {
+        "text": "operativ,maliyyə",
+        "correct": true
+      },
+      {
+        "text": "operativ və dəqiqlik",
+        "correct": false
+      },
+      {
+        "text": "maliyyə və lizinq",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 679,
+    "question": "Kredit əməliyyatları zamanı......:",
+    "options": [
+      {
+        "text": "bankın xüsusi əməliyyatı formalaşır",
+        "correct": false
+      },
+      {
+        "text": "bankın ehtiyat əməliyyatı formalaşır",
+        "correct": false
+      },
+      {
+        "text": "bankın investisiya portfeli formalaşır",
+        "correct": false
+      },
+      {
+        "text": "bankın kredit portfeli formalaşır",
+        "correct": true
+      },
+      {
+        "text": "bankın lizinq əməliyyatı formalaşır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 680,
+    "question": "Faktorinq əməliyyatı zamanı müştəri ödəniş etmək hüququnu güzəştə gedir ........ :",
+    "options": [
+      {
+        "text": "investorlara",
+        "correct": false
+      },
+      {
+        "text": "heç kimə",
+        "correct": false
+      },
+      {
+        "text": "vergi işçilərinə",
+        "correct": false
+      },
+      {
+        "text": "Auditor Palatasına",
+        "correct": false
+      },
+      {
+        "text": "vasitəçilərə",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 681,
+    "question": "Faktorinq zamanı faktor firma müştəriyə ........ :",
+    "options": [
+      {
+        "text": "malların dəyərinin vaxtından",
+        "correct": true
+      },
+      {
+        "text": "vaxtında ödənilməmiş malların dəyərini ödəmir",
+        "correct": false
+      },
+      {
+        "text": "sənədləri kartotekada saxlamaq hüququ verir",
+        "correct": false
+      },
+      {
+        "text": "kreditin ödənilməsi üzrə güzəştli şərait yaradır",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 682,
+    "question": "Trast əməliyyatıdır .....:",
+    "options": [
+      {
+        "text": "fiziki şəxslərin kommersiya",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 683,
+    "question": "Açıq bazar əməliyatları Mərkəzi Bankın …. üzrə fəaliyyətidir:",
+    "options": [
+      {
+        "text": "əhalinin kreditləşdirilməsi",
+        "correct": false
+      },
+      {
+        "text": "kommersiya banklarına lisenziya vermək",
+        "correct": false
+      },
+      {
+        "text": "qiymətli kağızların alqı-satqısı",
+        "correct": true
+      },
+      {
+        "text": "kommersiya banklarının hesablarının azaldılması",
+        "correct": false
+      },
+      {
+        "text": "kommersiya banklarının kreditləşdirilməsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 684,
+    "question": "Pul dövriyyəsinin əsas hissəsini hansı dövriyyə təşkil edir?",
+    "options": [
+      {
+        "text": "yalnız uzunmüddətli dövriyyə",
+        "correct": false
+      },
+      {
+        "text": "qısamüddətli dövriyyə",
+        "correct": false
+      },
+      {
+        "text": "qeyri-müəyyən dövriyyə",
+        "correct": false
+      },
+      {
+        "text": "nağdsız",
+        "correct": true
+      },
+      {
+        "text": "1 ilə qədər olan pul dövriyyəsi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 685,
+    "question": "Mərkəzi Bankın passiv əməliyyatı dedikdə nə başa düşülür?",
+    "options": [
+      {
+        "text": "öz vəsaitlərini itirmək",
+        "correct": false
+      },
+      {
+        "text": "öz vəsaitlərini özündə saxlamaq",
+        "correct": false
+      },
+      {
+        "text": "öz vəsaitlərini digər kredit təşkilatlarına satmaq",
+        "correct": false
+      },
+      {
+        "text": "öz vəsaitlərini beynəlxalq vətəndaşlara satmaq",
+        "correct": false
+      },
+      {
+        "text": "kapital bazasını formalaşdıran",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "num": 686,
+    "question": "XÖHKS- nədir?",
+    "options": [
+      {
+        "text": "Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi",
+        "correct": true
+      },
+      {
+        "text": "Xarici Ödənişlər üzrə Hesablaşma Konvertasiya Sistemi",
+        "correct": false
+      },
+      {
+        "text": "Ödənişlər üzrə Hesablaşma Klirinq Sistemi",
+        "correct": false
+      },
+      {
+        "text": "Valyuta sistemi",
+        "correct": false
+      },
+      {
+        "text": "Xırda Ödənişlər üzrə Hesablaşma Kredit Sistemi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 687,
+    "question": "Bankda cari hesabın açılması nə ilə rəsmiləşdirilir:",
+    "options": [
+      {
+        "text": "lisenziyanın mövcudluğu ilə",
+        "correct": false
+      },
+      {
+        "text": "bank hesabı müqaviləsinin bağlanması ilə",
+        "correct": true
+      },
+      {
+        "text": "borc sənədləri ilə",
+        "correct": false
+      },
+      {
+        "text": "xüsusi razılıq hesabının açılması ilə",
+        "correct": false
+      },
+      {
+        "text": "kredit münasibətlərinin qurulması qaydası ilə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 688,
+    "question": "Kreditin formasıdır:",
+    "options": [
+      {
+        "text": "dünya",
+        "correct": false
+      },
+      {
+        "text": "rayon",
+        "correct": false
+      },
+      {
+        "text": "beynəlxalq",
+        "correct": true
+      },
+      {
+        "text": "ərazi",
+        "correct": false
+      },
+      {
+        "text": "ölkə",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 689,
+    "question": "Kreditin formasıdır:",
+    "options": [
+      {
+        "text": "əməkdaş krediti",
+        "correct": false
+      },
+      {
+        "text": "audit krediti",
+        "correct": false
+      },
+      {
+        "text": "bankın ərazi krediti",
+        "correct": false
+      },
+      {
+        "text": "bank krediti",
+        "correct": true
+      },
+      {
+        "text": "təşkilat krediti",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "num": 690,
+    "question": "Kreditin prinsipidir:",
+    "options": [
+      {
+        "text": "qiymətləndirmək",
+        "correct": false
+      },
+      {
+        "text": "kreditin müddəti olmur",
         "correct": false
       },
       {
@@ -16496,1729 +16930,65 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "intizamlılıq",
+        "text": "sistemlilik",
         "correct": false
       },
       {
-        "text": "tənqidi yanaşma və müstəqillik",
+        "text": "müddətlilik",
         "correct": true
-      }
-    ]
-  },
-  {
-    "num": 636,
-    "question": "Qədim filosoflar,  ilk növbədə,  nələr haqqında  düşünürdülər?",
-    "options": [
-      {
-        "text": "Günəş  sisteminin  mənşəyi haqqında",
-        "correct": false
-      },
-      {
-        "text": "kəmiyyət  anlayışı haqqında",
-        "correct": false
-      },
-      {
-        "text": "şifahi xalq  ədəbiyyatı haqqında",
-        "correct": false
-      },
-      {
-        "text": "dünyanın mənşəyi və mahiyyəti üzərində",
-        "correct": true
-      },
-      {
-        "text": "Dünyanın  tək Allah tərəfindən  heçdən yaradılması  barədə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 637,
-    "question": "Aşağıdakılardan hansı fəlsəfənin predmetini tam şəkildə əhatə edir?",
-    "options": [
-      {
-        "text": "Cəmiyyət",
-        "correct": false
-      },
-      {
-        "text": "Iqtisadi sistem",
-        "correct": false
-      },
-      {
-        "text": "Təbiət",
-        "correct": false
-      },
-      {
-        "text": "Insanın psixik həyatı",
-        "correct": false
-      },
-      {
-        "text": "Bütöv bir tam kimi baxılan dünya",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 638,
-    "question": "İlk dəfə olaraq “Filosof” terminini  kim işlətmişdir?",
-    "options": [
-      {
-        "text": "Protaqor",
-        "correct": false
-      },
-      {
-        "text": "Aristotel",
-        "correct": false
-      },
-      {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Parmenid",
-        "correct": false
-      },
-      {
-        "text": "Pifaqor",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 639,
-    "question": "Aşağıdakıların hansı fəlsəfəni dindən fərqləndirir?",
-    "options": [
-      {
-        "text": "Insanın mütləq(bitkin) həqiqətə olan tələbatını qarşılaması",
-        "correct": false
-      },
-      {
-        "text": "İnsanın mənəvi tələbatlarına istiqamətlənməsi",
-        "correct": false
-      },
-      {
-        "text": "Dünyagörüşünə səmtlənməksi",
-        "correct": false
-      },
-      {
-        "text": "Konkret təcrübə və müşahidənin hüdudlarını aşmasıqda",
-        "correct": false
-      },
-      {
-        "text": "Dünyanı rasional şəkildə anlaması",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 640,
-    "question": "Fəlsəfənin hansı bölməsi ilk başlanğıclar təlimi ilə bağlıdır?",
-    "options": [
-      {
-        "text": "Aksiologiya",
-        "correct": false
-      },
-      {
-        "text": "Təbiət fəlsəfəsi",
-        "correct": false
-      },
-      {
-        "text": "Qnoseologiya",
-        "correct": false
-      },
-      {
-        "text": "Ontologiya",
-        "correct": true
-      },
-      {
-        "text": "Sosial fəlsəfə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 641,
-    "question": "Fəlsəfə elmdən nə ilə fərqlənir?",
-    "options": [
-      {
-        "text": "Dünyanın dərk edilməsinin rasional üsulu ilə",
-        "correct": false
-      },
-      {
-        "text": "Dünyanın anlayışlarda inikası ilə",
-        "correct": false
-      },
-      {
-        "text": "Biliyin sistemliyi və əsaslandırılması ilə",
-        "correct": false
-      },
-      {
-        "text": "Biliyin insana istiqamətlənməsi ilə",
-        "correct": true
-      },
-      {
-        "text": "Həqiqəti əldə etmək cəhdi ilə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 642,
-    "question": "Fəlsəfə ilə elm arasında ümumi cəhət aşağıdakılardan hansıdır?",
-    "options": [
-      {
-        "text": "fövqəltəbii qüvvələrə inam",
-        "correct": false
-      },
-      {
-        "text": "Biliklərin təcrübədə  yoxlanması",
-        "correct": false
-      },
-      {
-        "text": "Biliyin insanın fərdi mövcudluğu ilə əlaqələndirilməsi",
-        "correct": false
-      },
-      {
-        "text": "Rasional-məntiqi tədqiqat metodları",
-        "correct": true
-      },
-      {
-        "text": "Biliyin praktik faydalılığı",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 643,
-    "question": "Fəlsəfənin dünyagörüşü funksiyası nədən ibarətdir?",
-    "options": [
-      {
-        "text": "Dəyərlərin öyrənilməsi və əsaslandırılmasından",
-        "correct": false
-      },
-      {
-        "text": "Idrakın metod və prinsiplərini işləyib hazıramaqdan",
-        "correct": false
-      },
-      {
-        "text": "Elmi nəzəriyyənin məntiqi təhlilindən",
-        "correct": false
-      },
-      {
-        "text": "Dünyagörüşünü sistemləşdirmək və əsaslandırmaqdan",
-        "correct": true
-      },
-      {
-        "text": "Mədəniyyətin mahiyətini təhlil etməkdən",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 644,
-    "question": "Aşağıdakılardan hansı elmin əsas funksiyalarından biri deyil?",
-    "options": [
-      {
-        "text": "metodlardan istifadə etməsi",
-        "correct": false
-      },
-      {
-        "text": "həqiqətə can atma",
-        "correct": false
-      },
-      {
-        "text": "təcrübədə təkzib edilməsi",
-        "correct": false
-      },
-      {
-        "text": "təcrübədə təsdiqlənməsi",
-        "correct": false
-      },
-      {
-        "text": "humanizmə təşviq etmə",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 645,
-    "question": "Fəlsəfə ilə elmin  düzgün qarşılıqlı nisbətini göstərin:",
-    "options": [
-      {
-        "text": "fəlsəfə ilə elmin  bir-biri ilə əlaqəsi yoxdur",
-        "correct": false
-      },
-      {
-        "text": "heç bir variant düzgün deyil",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfə elmdir",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfə - elmin nəzəriyyəsidir",
-        "correct": false
-      },
-      {
-        "text": "fəlsəfə elmin metodologoyası kimi çıxış edir",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 646,
-    "question": "Qərb fəlsəfəsinin mədəniyyət sistemində təbiət elmlərinin rolunu mütləqləşdirən cərəyan necə adlanır?",
-    "options": [
-      {
-        "text": "pozitivizm",
-        "correct": false
-      },
-      {
-        "text": "praqmatizm",
-        "correct": false
-      },
-      {
-        "text": "ekzistensializm",
-        "correct": false
-      },
-      {
-        "text": "stiyentizm",
-        "correct": true
-      },
-      {
-        "text": "neotomizm",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 647,
-    "question": "Falsifikasiya prinsipinin müəllifini göstərin:",
-    "options": [
-      {
-        "text": "Lakatos",
-        "correct": false
-      },
-      {
-        "text": "Vitqenşteyn",
-        "correct": false
-      },
-      {
-        "text": "Hantinqton",
-        "correct": false
-      },
-      {
-        "text": "Popper",
-        "correct": true
-      },
-      {
-        "text": "Kun",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 648,
-    "question": "Elmi paradiqmanın əvəz olunması necə adlanır?",
-    "options": [
-      {
-        "text": "elmi praktika",
-        "correct": false
-      },
-      {
-        "text": "elmi sensasiya",
-        "correct": false
-      },
-      {
-        "text": "elmi təkamül",
-        "correct": false
-      },
-      {
-        "text": "elmi inqilab",
-        "correct": true
-      },
-      {
-        "text": "elmi fiksiya",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 649,
-    "question": "Elmin metodologiyasında  “paradiqma” anlayışını formulə etmiş mütəfəkkir kim olmuşdur?",
-    "options": [
-      {
-        "text": "Hantinqton",
-        "correct": false
-      },
-      {
-        "text": "Popper",
-        "correct": false
-      },
-      {
-        "text": "Lakatos",
-        "correct": false
-      },
-      {
-        "text": "Kun",
-        "correct": true
-      },
-      {
-        "text": "Vitqenşteyn",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 650,
-    "question": "T.Kun elmin metodologiyasında hansı anlayışı formulə etmişdi?",
-    "options": [
-      {
-        "text": "model",
-        "correct": false
-      },
-      {
-        "text": "nəzəriyyə",
-        "correct": false
-      },
-      {
-        "text": "paradiqma",
-        "correct": true
-      },
-      {
-        "text": "təlim",
-        "correct": false
-      },
-      {
-        "text": "konsepsiya",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 651,
-    "question": "T.Kun hansı konsepsiyanın müəllifi olmuşdur?",
-    "options": [
-      {
-        "text": "elmi inqilabların tarixi",
-        "correct": false
-      },
-      {
-        "text": "elmi inqilabların gedişi",
-        "correct": false
-      },
-      {
-        "text": "elmi inqilabların xüsusiyyətləri",
-        "correct": false
-      },
-      {
-        "text": "elmi inqilabların strukturu",
-        "correct": true
-      },
-      {
-        "text": "elmi inqilablarn mənşəyi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 652,
-    "question": "Elmi inqilabların strukturu konsepsiyasının müəllifi kimdir?",
-    "options": [
-      {
-        "text": "Hantinqton",
-        "correct": false
-      },
-      {
-        "text": "Lakatos",
-        "correct": false
-      },
-      {
-        "text": "Popper",
-        "correct": false
-      },
-      {
-        "text": "Kun",
-        "correct": true
-      },
-      {
-        "text": "Vitqenşteyn",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 653,
-    "question": "Elmin situasiyaların proqnozlaşdırılması ilə bağlı olan funksiyası necə adlanır?",
-    "options": [
-      {
-        "text": "aksioloji",
-        "correct": false
-      },
-      {
-        "text": "praktiki",
-        "correct": false
-      },
-      {
-        "text": "humanist",
-        "correct": false
-      },
-      {
-        "text": "proqnostik",
-        "correct": true
-      },
-      {
-        "text": "praksioloji",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 654,
-    "question": "Elmin gerçəkliyin  dərkinin metod və  qaydalar sistemini təmsil edən funksiyası hansıdır?",
-    "options": [
-      {
-        "text": "praktiki",
-        "correct": true
-      },
-      {
-        "text": "aksiomatik",
-        "correct": false
-      },
-      {
-        "text": "praksioloji",
-        "correct": false
-      },
-      {
-        "text": "humanist",
-        "correct": false
-      },
-      {
-        "text": "aksioloji",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 655,
-    "question": "Aşağıda göstərilənlərdən hansı elmin funksiyalarına aiddir",
-    "options": [
-      {
-        "text": "izahedici",
-        "correct": true
-      },
-      {
-        "text": "praksioloji",
-        "correct": false
-      },
-      {
-        "text": "aksiomatik",
-        "correct": false
-      },
-      {
-        "text": "humanist",
-        "correct": false
-      },
-      {
-        "text": "aksioloji",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 656,
-    "question": "Gerçəkliyin  qanunauyğun tərəflərinin mücərrəd-məntiqi  anlayışlar, kateqoriyalar və s  formasında   sistemləşdirilmiş şəkildə dərkinə nə deyilir?",
-    "options": [
-      {
-        "text": "fəlsəfə",
-        "correct": false
-      },
-      {
-        "text": "fizika",
-        "correct": false
-      },
-      {
-        "text": "nəzəriyyə",
-        "correct": false
-      },
-      {
-        "text": "məntiq",
-        "correct": false
-      },
-      {
-        "text": "elm",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 657,
-    "question": "Mənəvi istehsal sahəsi kimi elmin əsas məhsulu nədir?",
-    "options": [
-      {
-        "text": "həqiqət",
-        "correct": false
-      },
-      {
-        "text": "sosial norma və mədəni nümunələr",
-        "correct": false
-      },
-      {
-        "text": "institutlar  və universitetlər",
-        "correct": false
-      },
-      {
-        "text": "anlayışlar, qanunlar, nəzəriyyələr",
-        "correct": true
-      },
-      {
-        "text": "cəmiyyətin məhsuldar qüvvələri",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 658,
-    "question": "Problematizm nə deməkdir?",
-    "options": [
-      {
-        "text": "elmi biliyin genezisinin birinci forması",
-        "correct": false
-      },
-      {
-        "text": "dünyanın dərkedilənliyinin inkar edilməsi",
-        "correct": false
-      },
-      {
-        "text": "çətinlik, maneə",
-        "correct": false
-      },
-      {
-        "text": "elmdə problemliliyin mütləqləşdirilməsi",
-        "correct": true
-      },
-      {
-        "text": "hər bir bilik sahəsində elmiliyin meyarı",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 659,
-    "question": "Əsil alimi xarakterizə edən nədir?",
-    "options": [
-      {
-        "text": "elmə məhəbbət",
-        "correct": false
-      },
-      {
-        "text": "dərketməyə can atma",
-        "correct": false
-      },
-      {
-        "text": "mücərrəd təfəkkür və  yaradıcı təxəyyül qabiliyyəti, peşə bilikləri",
-        "correct": true
-      },
-      {
-        "text": "həqiqəti qoruma",
-        "correct": false
-      },
-      {
-        "text": "şöhrətpərəstlik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 660,
-    "question": "Biliklər sistemi kimi nəzəriyyənin məntiqi strukturuna nə daxildir?",
-    "options": [
-      {
-        "text": "prinsiplər, postulatlar, aksiomlar",
-        "correct": false
-      },
-      {
-        "text": "obyektin  element, əlaqə və tərəflərinin qarşılıqlı təsir qanunları",
-        "correct": false
-      },
-      {
-        "text": "köhnə və yeni nəzəriyyə",
-        "correct": false
-      },
-      {
-        "text": "əsas anlayışlar və kateqoriyalar",
-        "correct": true
-      },
-      {
-        "text": "məntiq  qanunları və qaydaları",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 661,
-    "question": "Elmi rasionallıq və onun cəmiyyətdə rolu problemi ilə kim məşğul olmuşdu?",
-    "options": [
-      {
-        "text": "Marks, Engels, Lenin",
-        "correct": false
-      },
-      {
-        "text": "sadalananlardan heç biri",
-        "correct": false
-      },
-      {
-        "text": "antik filosoflar",
-        "correct": false
-      },
-      {
-        "text": "Berqson, Qusserl, Veber",
-        "correct": true
-      },
-      {
-        "text": "Kant, Fixte, Şellinq",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 662,
-    "question": "Elmlə istehsalatın qarşılıqlı təsirlərində XIX  əsrdə başlamış  mərhələni Marks necə adlandırmışdı?",
-    "options": [
-      {
-        "text": "texnoloji inqilab",
-        "correct": false
-      },
-      {
-        "text": "istehsalatın elmi qabaqlaması",
-        "correct": false
-      },
-      {
-        "text": "elmin cəmiyyətin bilavasitə məhsuldar qüvvəsinə çevrilməsi prosesi",
-        "correct": true
-      },
-      {
-        "text": "istehsalat inqilabı",
-        "correct": false
-      },
-      {
-        "text": "elmi inqilab",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 663,
-    "question": "Fərdilik nədir?",
-    "options": [
-      {
-        "text": "insanın təbiəti",
-        "correct": false
-      },
-      {
-        "text": "insanın bioloji keyfiyyətləri",
-        "correct": false
-      },
-      {
-        "text": "insanın psixologiyası",
-        "correct": false
-      },
-      {
-        "text": "bir fərdi digər fərdlərdən fərqləndirən cəhətlər",
-        "correct": true
-      },
-      {
-        "text": "insanın sosial keyfiyyətləri",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 664,
-    "question": "Humanizmi, insanın hərtərəfli inkişafını tərənnüm edən dövr hansıdır?",
-    "options": [
-      {
-        "text": "postindustrializm",
-        "correct": false
-      },
-      {
-        "text": "Yeni Dövr",
-        "correct": false
-      },
-      {
-        "text": "İntibah",
-        "correct": true
-      },
-      {
-        "text": "orta əsrlər",
-        "correct": false
-      },
-      {
-        "text": "Antik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 665,
-    "question": "İnsanı Allah tərəfindən təyin olunmuş dünya nizamının bir hissəsi kimi nəzərdən keçirən dövr hansıdır?",
-    "options": [
-      {
-        "text": "postindustrializm",
-        "correct": false
-      },
-      {
-        "text": "Maarifçilik",
-        "correct": false
-      },
-      {
-        "text": "antik",
-        "correct": false
-      },
-      {
-        "text": "Yeni Dövr",
-        "correct": false
-      },
-      {
-        "text": "orta əsrlər",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 666,
-    "question": "Sosiallığı insanı heyvandan fərqləndirən  əsas cəhət kimi nəzərdən keçirən antik filosofu kim olmuşdur?",
-    "options": [
-      {
-        "text": "Protaqor",
-        "correct": false
-      },
-      {
-        "text": "Sokrat",
-        "correct": false
-      },
-      {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Qorqiy",
-        "correct": false
-      },
-      {
-        "text": "Aristotel",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 667,
-    "question": "İnsanın mövcudluğu mütləq nizam və kosmos kimi qavranılan  münasibətlər sistemində  nəzərdən keçirilən dövr hansıdır?",
-    "options": [
-      {
-        "text": "postindustrializm",
-        "correct": false
-      },
-      {
-        "text": "Maarifçilik",
-        "correct": false
-      },
-      {
-        "text": "orta əsrlər",
-        "correct": false
-      },
-      {
-        "text": "Yeni Dövr",
-        "correct": false
-      },
-      {
-        "text": "antik",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 668,
-    "question": "Freyd insan varlığının ən mühüm amili kimi nəyi nəzərdən keçirirdi?",
-    "options": [
-      {
-        "text": "iqtisadiyyatı",
-        "correct": false
-      },
-      {
-        "text": "siyasəti",
-        "correct": false
-      },
-      {
-        "text": "əməyi",
-        "correct": false
-      },
-      {
-        "text": "hüququ",
-        "correct": false
-      },
-      {
-        "text": "təhtəl şüuru",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 669,
-    "question": "Təhtəl-şüuru insanın varlığının  ən mühüm amili  kimi nəzərdən keçirən kim olmuşdur?",
-    "options": [
-      {
-        "text": "Marks",
-        "correct": false
-      },
-      {
-        "text": "Engels",
-        "correct": false
-      },
-      {
-        "text": "Freyd",
-        "correct": true
-      },
-      {
-        "text": "Darvin",
-        "correct": false
-      },
-      {
-        "text": "Lenin",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 670,
-    "question": "Engels antropogenezin hansı nəzəriyyəsinin nümayəndəsi olmuşdur?",
-    "options": [
-      {
-        "text": "iqtisadi",
-        "correct": false
-      },
-      {
-        "text": "siyasi",
-        "correct": false
-      },
-      {
-        "text": "psixoloji",
-        "correct": false
-      },
-      {
-        "text": "əxlaqi",
-        "correct": false
-      },
-      {
-        "text": "əmək",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 671,
-    "question": "Antropoqenezin əmək nəzəriyyəsinin nümayəndəsi kimdir?",
-    "options": [
-      {
-        "text": "Darvin",
-        "correct": false
-      },
-      {
-        "text": "Freyd",
-        "correct": false
-      },
-      {
-        "text": "Lenin",
-        "correct": false
-      },
-      {
-        "text": "Engels",
-        "correct": true
-      },
-      {
-        "text": "Marks",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 672,
-    "question": "F.Engelsə görə, insanın tarixi varlığı və inkişafının əsasında duran fəaliyyət hansıdır?",
-    "options": [
-      {
-        "text": "oyun",
-        "correct": false
-      },
-      {
-        "text": "iqtisadi",
-        "correct": false
-      },
-      {
-        "text": "fikri",
-        "correct": false
-      },
-      {
-        "text": "əmək",
-        "correct": true
-      },
-      {
-        "text": "siyasi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 673,
-    "question": "İnsanla cəmiyyətin  bir-biri ilə qarşılıqlı bağlı olan  qərarlaşma prosesi necə adlanır?",
-    "options": [
-      {
-        "text": "sosiogenez",
-        "correct": false
-      },
-      {
-        "text": "antropoqenez",
-        "correct": false
-      },
-      {
-        "text": "ontogenez",
-        "correct": false
-      },
-      {
-        "text": "filogenez",
-        "correct": false
-      },
-      {
-        "text": "antropososiogenez",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 674,
-    "question": "İnsanı təbiətin bir hissəsi, hissi-cismani varlıq kimi səciyyələndirən alman klassik fəlsəfəsinin nümayəndəsi kimdir?",
-    "options": [
-      {
-        "text": "Şellinq",
-        "correct": false
-      },
-      {
-        "text": "Hegel",
-        "correct": false
-      },
-      {
-        "text": "Fixte",
-        "correct": false
-      },
-      {
-        "text": "Feyerbax",
-        "correct": true
-      },
-      {
-        "text": "Kant",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 675,
-    "question": "Münasibətlər və şüurlu fəaliyyət subyekti kimi insan kimdir?",
-    "options": [
-      {
-        "text": "fərdilikdir",
-        "correct": false
-      },
-      {
-        "text": "növdür",
-        "correct": false
-      },
-      {
-        "text": "insandır",
-        "correct": false
-      },
-      {
-        "text": "fərddir",
-        "correct": false
-      },
-      {
-        "text": "şəxsiyyətdir",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 676,
-    "question": "İnsanı sosial keyfiyyətlərin toplusu kimi səciyyələndirən anlayış hansıdır?",
-    "options": [
-      {
-        "text": "fərd",
-        "correct": false
-      },
-      {
-        "text": "insan",
-        "correct": false
-      },
-      {
-        "text": "növ",
-        "correct": false
-      },
-      {
-        "text": "fərdilik",
-        "correct": false
-      },
-      {
-        "text": "şəxsiyyət",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 677,
-    "question": "Bu fərdi digər fərdlərdən fərqləndirən cəhətlər toplusuna nə deyilir?",
-    "options": [
-      {
-        "text": "fərd",
-        "correct": false
-      },
-      {
-        "text": "şəxsiyyət",
-        "correct": false
-      },
-      {
-        "text": "insan",
-        "correct": false
-      },
-      {
-        "text": "fərdilik",
-        "correct": true
-      },
-      {
-        "text": "növ",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 678,
-    "question": "Bəşər övladının tək nümayəndəsi necə adlanır?",
-    "options": [
-      {
-        "text": "fərdilik",
-        "correct": false
-      },
-      {
-        "text": "şəxsiyyət",
-        "correct": false
-      },
-      {
-        "text": "insan",
-        "correct": false
-      },
-      {
-        "text": "fərd",
-        "correct": true
-      },
-      {
-        "text": "növ",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 679,
-    "question": "Sofistlər insanla bağlı hansı tezisi irəli sürmüşdülər?",
-    "options": [
-      {
-        "text": "“insan fərdi keyfiyyətlərin toplusudur”",
-        "correct": false
-      },
-      {
-        "text": "“insan ictimai varlıqdır”",
-        "correct": false
-      },
-      {
-        "text": "“insan sosial keyfiyyətlərin məcmusudur”",
-        "correct": false
-      },
-      {
-        "text": "“insan təbiətin bir hissəsidir”",
-        "correct": false
-      },
-      {
-        "text": "“İnsan hər şeyin ölçüsüdür”",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 680,
-    "question": "“İnsan hər şeyin ölçüsüdür” tezisini irəli sürən filosof kimlərə mənsubdur?",
-    "options": [
-      {
-        "text": "modernistlərə",
-        "correct": false
-      },
-      {
-        "text": "marksistlərə",
-        "correct": false
-      },
-      {
-        "text": "ekzistensialistlərə",
-        "correct": false
-      },
-      {
-        "text": "sofistlərə",
-        "correct": true
-      },
-      {
-        "text": "pozitivistlərə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 681,
-    "question": "”İnsan hər şeyin ölçüsüdür” tezisinin antik müəllifi kimdir",
-    "options": [
-      {
-        "text": "Aristotel",
-        "correct": false
-      },
-      {
-        "text": "Platon",
-        "correct": false
-      },
-      {
-        "text": "Sokrat",
-        "correct": false
-      },
-      {
-        "text": "Qorqiy",
-        "correct": false
-      },
-      {
-        "text": "Protaqor",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 682,
-    "question": "Dekart insanın mahiyyətini nədə görürdü",
-    "options": [
-      {
-        "text": "bacarığında",
-        "correct": false
-      },
-      {
-        "text": "xarakterində",
-        "correct": false
-      },
-      {
-        "text": "iradəsində",
-        "correct": false
-      },
-      {
-        "text": "ağıl və zəkasında",
-        "correct": true
-      },
-      {
-        "text": "tərbiyəsində",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 683,
-    "question": "«İnsanların azad, şüurlu fəaliyyəti onların başlıca əlamətini təşkil edir” tezisi kimə məxsusdur?",
-    "options": [
-      {
-        "text": "İ.Kanta",
-        "correct": false
-      },
-      {
-        "text": "Sokrata",
-        "correct": false
-      },
-      {
-        "text": "Ç.Darvinə",
-        "correct": false
-      },
-      {
-        "text": "К.Маркsa",
-        "correct": true
-      },
-      {
-        "text": "Hegelə",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 684,
-    "question": "“Azadlıq dərk olunmuş zərurətdir” tezisi kimə məxsusdur?",
-    "options": [
-      {
-        "text": "Hegelə",
-        "correct": false
-      },
-      {
-        "text": "Yaspersə",
-        "correct": false
-      },
-      {
-        "text": "Engelsə",
-        "correct": false
-      },
-      {
-        "text": "Spinozaya",
-        "correct": true
-      },
-      {
-        "text": "Marksa",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 685,
-    "question": "İnsanın şəxsiyyətə çevrilməsi necə baş verir?",
-    "options": [
-      {
-        "text": "təhsil prosesində  baş verir",
-        "correct": false
-      },
-      {
-        "text": "özünüdərk  prosesində baş verir",
-        "correct": false
-      },
-      {
-        "text": "oyun prosesində baş verir",
-        "correct": false
-      },
-      {
-        "text": "söhbət prosesində baş verir",
-        "correct": false
-      },
-      {
-        "text": "fəaliyyət prosesində baş verir",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 686,
-    "question": "Dünya haqqında biliklərin qazanılması fəlsəfənin hansı funksiyasına aiddir?",
-    "options": [
-      {
-        "text": "Metodoloji",
-        "correct": false
-      },
-      {
-        "text": "Dünyagörüşü",
-        "correct": false
-      },
-      {
-        "text": "Tənqidi",
-        "correct": false
-      },
-      {
-        "text": "Idraki",
-        "correct": true
-      },
-      {
-        "text": "Evristik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 687,
-    "question": "İdrak metodları və prinsiplərinin işlənib hazırlanmasında fəlsəfənin hansı funksiyası özünü göstərir?",
-    "options": [
-      {
-        "text": "Tənqidi",
-        "correct": false
-      },
-      {
-        "text": "Dünyagörüşü",
-        "correct": false
-      },
-      {
-        "text": "Metodoloji",
-        "correct": true
-      },
-      {
-        "text": "Idraki",
-        "correct": false
-      },
-      {
-        "text": "Evristik",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 688,
-    "question": "Fəlsəfənin idrak prosesinin mənşəyini və mahiyyətini öyrənən bölməsi necə adlanır?",
-    "options": [
-      {
-        "text": "Naturfəlsəfə",
-        "correct": false
-      },
-      {
-        "text": "Antropologiya",
-        "correct": false
-      },
-      {
-        "text": "Ontologiya",
-        "correct": false
-      },
-      {
-        "text": "Qnoseologiya",
-        "correct": true
-      },
-      {
-        "text": "Prakisologiya",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 689,
-    "question": "Dini şüurun mövcudluq üsulu aşağıdakılardan hansıdır?",
-    "options": [
-      {
-        "text": "Məntiqi təfəkkürdür",
-        "correct": false
-      },
-      {
-        "text": "Ayin və mərasimlərdir",
-        "correct": false
-      },
-      {
-        "text": "Mövhumatdır",
-        "correct": false
-      },
-      {
-        "text": "Etiqaddır",
-        "correct": true
-      },
-      {
-        "text": "Duygulardır",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 690,
-    "question": "Fəlsəfənin metafizika kimi mümkünlüyünü hansı cərəyan inkar edirdi?",
-    "options": [
-      {
-        "text": "İdealizm",
-        "correct": false
-      },
-      {
-        "text": "Ekzistensializm",
-        "correct": false
-      },
-      {
-        "text": "Pozitivizm",
-        "correct": true
-      },
-      {
-        "text": "Rasionalizm",
-        "correct": false
-      },
-      {
-        "text": "Paraqmatizm",
-        "correct": false
       }
     ]
   },
   {
     "num": 691,
-    "question": "Aşağıdakılardan hansı XIX əsrin II yarısında fəlsəfənin inkar edilməsini şərtləndirən səbəb deyil?",
+    "question": "Kreditin prinsipini göstərin:",
     "options": [
       {
-        "text": "Yeni dövr rasionalizmi",
-        "correct": false
-      },
-      {
-        "text": "Fəlsəfənin metafizika kimi dərk edilməsi",
-        "correct": false
-      },
-      {
-        "text": "Metafizik sistemlər arasındakı ziddiyyətlər",
-        "correct": false
-      },
-      {
-        "text": "Sənaye cəmiyyətinin qərarlaşması",
+        "text": "qaytarılma",
         "correct": true
       },
       {
-        "text": "Konkret elmlərin fəlsəfədən ayrılması",
+        "text": "sövdələşmə",
+        "correct": false
+      },
+      {
+        "text": "hesablaşma",
+        "correct": false
+      },
+      {
+        "text": "sənədləşmə",
+        "correct": false
+      },
+      {
+        "text": "mərkəzləşmə",
         "correct": false
       }
     ]
   },
   {
     "num": 692,
-    "question": "Miflərin rasionallaşması prosesi hansı əsas ideyalara söykənirdi?",
+    "question": "Kreditin prinsipini göstərin:",
     "options": [
       {
-        "text": "Dünyanın tək Allah tərəfindən yaradılmasına",
+        "text": "depozit",
         "correct": false
       },
       {
-        "text": "geosentrizm və antroposentrizm ideyalarına",
-        "correct": false
-      },
-      {
-        "text": "Tale və “qəza-qədər” ideyalarına",
-        "correct": false
-      },
-      {
-        "text": "“ilk başlanğıclar” və “səbəbiyyət” ideyalarına",
+        "text": "ödənişlik (faizi ödəmək)",
         "correct": true
       },
       {
-        "text": "Inkişaf və tərəqqi ideyalarına",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 693,
-    "question": "Fəlsəfi təlim ilk dəfə hansı formada meydana çıxmışdır?",
-    "options": [
-      {
-        "text": "Adət-ənənələrin ümumiləşmiş ifadəsi kimi",
+        "text": "sənəd dövriyyəsi",
         "correct": false
       },
       {
-        "text": "Sosial-siyasi elm kimi",
+        "text": "yenidənbölgü",
         "correct": false
       },
       {
-        "text": "Ilk astronomik-fiziki elm kimi",
-        "correct": false
-      },
-      {
-        "text": "Incəsənətin ilk forması kimi",
-        "correct": false
-      },
-      {
-        "text": "Nəzəriyyənin ilk forması kimi",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 694,
-    "question": "Dünyagörüşünün strukturunda nəyin önə çıxması fəlsəfənin yaranmasına gətirib çıxardı?",
-    "options": [
-      {
-        "text": "Təkallahlığın",
-        "correct": false
-      },
-      {
-        "text": "Emosiyaların",
-        "correct": false
-      },
-      {
-        "text": "Ideologiyanın",
-        "correct": false
-      },
-      {
-        "text": "Məntiqi təfəkkürün",
-        "correct": true
-      },
-      {
-        "text": "Siyasi münasibətlərin",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 695,
-    "question": "Aşağıdakılardan hansı mifoloji dünyagörüşünün dağılmasının səbəbi deyil?",
-    "options": [
-      {
-        "text": "əmək alətlərinin təkmilləşməsi",
-        "correct": false
-      },
-      {
-        "text": "adət-ənənələrin nüfuzdan düşməsi",
-        "correct": false
-      },
-      {
-        "text": "ibtidai insanın əmək vərdişlərinin inkişafı",
-        "correct": false
-      },
-      {
-        "text": "ətraf aləmin canlılaşdırılması",
-        "correct": true
-      },
-      {
-        "text": "əmək bölgüsünün inkişafı",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 696,
-    "question": "Mifoloji dünyagörüşü öz gücünü nədən alırdı?",
-    "options": [
-      {
-        "text": "Insanın emosiyalarından",
-        "correct": false
-      },
-      {
-        "text": "Bədii yaradıcılıqdan",
-        "correct": false
-      },
-      {
-        "text": "Məntiqi təfəkkürdən",
-        "correct": false
-      },
-      {
-        "text": "Adət-ənənələrin nüfuzundan",
-        "correct": true
-      },
-      {
-        "text": "Tək Allaha inamdan",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 697,
-    "question": "“Hilozoizm” hansı dünyagörüşü forması üçün səciyyəvidir?",
-    "options": [
-      {
-        "text": "Idealist",
-        "correct": false
-      },
-      {
-        "text": "Praqmatik",
-        "correct": false
-      },
-      {
-        "text": "Dini",
-        "correct": false
-      },
-      {
-        "text": "Mifoloji?",
-        "correct": true
-      },
-      {
-        "text": "Elmi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 698,
-    "question": "İnsanı konkret müşahidə və təcrübə hüdudlarını aşıb keçməyə vadar edən nədir?",
-    "options": [
-      {
-        "text": "Obrazlı düşünmə qabiliyyətidir",
-        "correct": false
-      },
-      {
-        "text": "Maddi  nemətlərə bağlılığıdır",
-        "correct": false
-      },
-      {
-        "text": "Bioloji varlığıdır",
-        "correct": false
-      },
-      {
-        "text": "Mənəvi-əxlaqi varlığıdır",
-        "correct": true
-      },
-      {
-        "text": "Şüuru və məntiqi təfəkkürüdür",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "num": 699,
-    "question": "Biliyə mənəvi-etik (əxlaqi) münasibət necə xarakter daşıyır?",
-    "options": [
-      {
-        "text": "Psixoloji",
-        "correct": false
-      },
-      {
-        "text": "Konkret-elmi",
-        "correct": false
-      },
-      {
-        "text": "Məntiqi",
-        "correct": false
-      },
-      {
-        "text": "Siyasi",
-        "correct": false
-      },
-      {
-        "text": "Dini-fəlsəfi",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 700,
-    "question": "Din və və fəlsəfə insanın hansı köklü tələbatından qaynaqlanırlar?",
-    "options": [
-      {
-        "text": "Təbiət hadisələrini dərk etmək",
-        "correct": false
-      },
-      {
-        "text": "Şan-şöhrət qazanmaq",
-        "correct": false
-      },
-      {
-        "text": "Maddi durumunu yaxşılaşdırmaq",
-        "correct": false
-      },
-      {
-        "text": "Gözəlliyi sevmək",
-        "correct": false
-      },
-      {
-        "text": "Tamamlanmış (mütləq) biliyə can atmaq",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "num": 701,
-    "question": "İlk başlanğıclar haqqında təlim nəyin predmetinə daxildir?",
-    "options": [
-      {
-        "text": "Fizikanın",
-        "correct": false
-      },
-      {
-        "text": "Ontologiyanın",
-        "correct": true
-      },
-      {
-        "text": "Qnoseologiyanın",
-        "correct": false
-      },
-      {
-        "text": "Sosial fəlsəfənin",
-        "correct": false
-      },
-      {
-        "text": "Aksiologiyanın",
+        "text": "bank əməliyyatı",
         "correct": false
       }
     ]
   }
-]
+];

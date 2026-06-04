@@ -1,3 +1,16 @@
+function getRandomQuestions(questions, start, end, count = 50) {
+    let filtered = questions.slice(start - 1, end);
+
+    // qarışdır
+    for (let i = filtered.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
+    }
+
+    count = Math.min(count, filtered.length);
+
+    return filtered.slice(0, count);
+}
 const MAX_QUESTION = 700;
 const availableCount = Math.min(MAX_QUESTION, QUESTIONS.length);
 
@@ -37,26 +50,29 @@ function init() {
   restartBtn.addEventListener('click', resetApp);
 }
 
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+
+
+function isValidQuestion(question) {
+  if (!Array.isArray(question.options) || question.options.length < 2) {
+    return false;
   }
+
+  const nonEmptyText = question.options.every((option) => typeof option.text === 'string' && option.text.trim().length > 0);
+  const correctCount = question.options.filter((option) => option.correct === true).length;
+
+  return nonEmptyText && correctCount === 1;
 }
 
 function selectQuestionsByRange(questions, start, end) {
   // Filter questions in the specified range
-  const filtered = questions.filter((item) => item.num >= start && item.num <= end);
+  const filtered = questions.filter((item) => item.num >= start && item.num <= end && isValidQuestion(item));
   
-  // Always shuffle the questions randomly
-  shuffleArray(filtered);
-  
-  // If more than 50 questions, randomly select 50
+  // If more than 50 questions, select first 50
   if (filtered.length > 50) {
     return filtered.slice(0, 50);
   }
   
-  // Otherwise return all questions in the range (already shuffled)
+  // Otherwise return all questions in the range
   return filtered;
 }
 
@@ -79,7 +95,7 @@ function startExam() {
     return;
   }
 
-  currentQuestions = selectQuestionsByRange(QUESTIONS, start, end);
+  currentQuestions = selectQuestionsByRange(QUESTIONS, start, end, 50);
   if (!currentQuestions.length) {
     alert('Seçdiyiniz aralıqda sual yoxdur.');
     return;
@@ -109,14 +125,65 @@ function loadQuestion() {
   prevBtn.disabled = currentIndex === 0;
   prevBtn.classList.remove('hidden');
 
+  // Check if this question has already been answered
+  const result = results.find((r) => r.num === current.num);
+  const correctIndex = current.options.findIndex((o) => o.correct);
+  const brokenQuestion = correctIndex === -1 || current.options.length === 0;
+
   current.options.forEach((option, index) => {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'option-button';
     button.textContent = option.text;
-    button.addEventListener('click', () => selectAnswer(index));
+
+    if (result) {
+      // Question already answered - show the result
+      button.disabled = true;
+
+      if (index === correctIndex) {
+        button.classList.add('correct');
+      }
+
+      if (option.text === result.selected && !result.isCorrect) {
+        button.classList.add('incorrect');
+      }
+
+      // Restore feedback
+      if (result.isCorrect) {
+        feedback.textContent = 'Düzgün cavab!';
+        feedback.classList.add('correct');
+      } else {
+        feedback.textContent = `Yanlış cavab. Düzgün cavab: ${result.correct}`;
+        feedback.classList.add('wrong');
+      }
+
+      // Show next button if not already answered
+      if (currentIndex < currentQuestions.length - 1) {
+        nextBtn.classList.remove('hidden');
+      } else {
+        nextBtn.textContent = 'Nəticəni gör';
+        nextBtn.classList.remove('hidden');
+      }
+    } else if (brokenQuestion) {
+      button.disabled = true;
+    } else {
+      // Question not answered yet - allow selection
+      button.addEventListener('click', () => selectAnswer(index));
+    }
+
     optionsContainer.appendChild(button);
   });
+
+  if (brokenQuestion && !result) {
+    feedback.textContent = 'Bu sual üçün düzgün cavab təyin edilməyib. Növbəti sual üçün davam edin.';
+    feedback.classList.add('wrong');
+    if (currentIndex < currentQuestions.length - 1) {
+      nextBtn.classList.remove('hidden');
+    } else {
+      nextBtn.textContent = 'Nəticəni gör';
+      nextBtn.classList.remove('hidden');
+    }
+  }
 }
 
 function selectAnswer(selectedIndex) {
@@ -127,9 +194,14 @@ function selectAnswer(selectedIndex) {
   }
 
   const correctIndex = current.options.findIndex((o) => o.correct);
+  if (correctIndex === -1) {
+    feedback.textContent = 'Bu sual üçün düzgün cavab təyin edilməyib.';
+    feedback.classList.add('wrong');
+    return;
+  }
+
   const correctText = current.options[correctIndex].text;
   const selectedOption = current.options[selectedIndex];
-  const selectedButton = optionButtons[selectedIndex];
 
   optionButtons.forEach((btn, index) => {
     btn.disabled = true;
@@ -142,12 +214,13 @@ function selectAnswer(selectedIndex) {
   });
 
   const isCorrect = selectedIndex === correctIndex;
+
   results.push({
     num: current.num,
     question: current.question,
     selected: selectedOption.text,
     correct: correctText,
-    isCorrect,
+    isCorrect: isCorrect,
   });
 
   if (isCorrect) {
