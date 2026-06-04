@@ -21,11 +21,27 @@ while i < len(lines):
                 qtext += ' ' + lines[i].strip()
             i += 1
         opts = []
-        while i < len(lines) and re.match(r'^[•√]', lines[i].strip()):
+        while i < len(lines):
             line = lines[i].strip()
-            correct = line.startswith('√')
-            option_text = line[1:].strip()
-            opts.append({'text': option_text, 'correct': correct})
+            if re.match(r'^(\d+)\.\s*', line):
+                break
+            if not line:
+                i += 1
+                continue
+            option_match = re.match(r'^([•√])\s*(.*)$', line)
+            if option_match:
+                correct = option_match.group(1) == '√'
+                option_text = option_match.group(2).strip()
+                opts.append({'text': option_text, 'correct': correct})
+            elif opts:
+                opts[-1]['text'] += ' ' + line
+            else:
+                embedded = re.search(r'[•√]', line)
+                if embedded:
+                    marker = line[embedded.start()]
+                    option_text = line[embedded.start()+1:].strip()
+                    correct = marker == '√'
+                    opts.append({'text': option_text, 'correct': correct})
             i += 1
         if opts:
             questions.append({'num': num, 'question': qtext.strip(), 'options': opts})

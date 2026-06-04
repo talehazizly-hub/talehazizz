@@ -561,7 +561,15 @@
           "correct": false
         },
         {
-          "text": "qiymətli kağızlar bazarında peşəkar",
+          "text": "qiymətli kağızlar bazarında peşəkar fəaliyyətə və əlavə lisenziyaya malikdir",
+          "correct": false
+        },
+        {
+          "text": "bütün bank əməliyyatlarını həyata keçirir",
+          "correct": true
+        },
+        {
+          "text": "investisiya fondlarını tənzimləyir",
           "correct": false
         }
       ]
@@ -839,8 +847,16 @@
           "correct": false
         },
         {
-          "text": "öz müştəriləri ilə nağd pul",
+          "text": "öz müştəriləri ilə nağd pul hesablaşmalarını həyata keçirən",
           "correct": true
+        },
+        {
+          "text": "öz müştəriləri ilə nağdsız pul hesablaşmalarını həyata keçirən",
+          "correct": false
+        },
+        {
+          "text": "lisenziya",
+          "correct": false
         }
       ]
     },
@@ -991,7 +1007,11 @@
           "correct": false
         },
         {
-          "text": "bankların Maliyyə Nazirliyində",
+          "text": "bankların Maliyyə Nazirliyində açılan hesabları vasitəsi ilə aparılır",
+          "correct": false
+        },
+        {
+          "text": "lizinq şirkətlərinin müxbir hesabları vasitəsi ilə aparılır",
           "correct": false
         }
       ]
@@ -1079,8 +1099,24 @@
       "question": "Opsion ................ :",
       "options": [
         {
-          "text": "qabaqcadan razılaşdırılmış qiymətə,",
+          "text": "qabaqcadan razılaşdırılmış qiymətə, müəyyən olunmuş tarixə valyuta alqı-satqısına hüquq verən kontraktdır",
           "correct": true
+        },
+        {
+          "text": "öhdəçilikdir",
+          "correct": false
+        },
+        {
+          "text": "müəyyən edilməyən tarixə valyuta alqı satqısına hüquq verən kontraktdır",
+          "correct": false
+        },
+        {
+          "text": "mütləq reallaşmadır",
+          "correct": false
+        },
+        {
+          "text": "depozitdir",
+          "correct": false
         }
       ]
     },
@@ -1309,7 +1345,11 @@
           "correct": false
         },
         {
-          "text": "Mərkəzi Bankın",
+          "text": "Mərkəzi Bankın qərarına əsasən 3 yerə ayrılır",
+          "correct": false
+        },
+        {
+          "text": "yalnız universal",
           "correct": false
         }
       ]
@@ -1345,8 +1385,24 @@
       "question": "Rezident ifadəsinə daxildir:",
       "options": [
         {
-          "text": "Azərbaycan Respublikasında daimi",
+          "text": "Azərbaycan Respublikasında daimi yaşayış yerinə malik olmayan şəxslər",
           "correct": false
+        },
+        {
+          "text": "Azərbaycanda yaşamış xarici rezidentlər",
+          "correct": false
+        },
+        {
+          "text": "xarici turistlər",
+          "correct": false
+        },
+        {
+          "text": "xarici qonaqlar",
+          "correct": false
+        },
+        {
+          "text": "Azərbaycan Respublikasında daimi yaşayış yerinə malik olan şəxslər",
+          "correct": true
         }
       ]
     },
@@ -1415,8 +1471,16 @@
           "correct": false
         },
         {
-          "text": "dövlətin pul və valyuta siyasətini",
+          "text": "dövlətin pul və valyuta siyasətini müəyyən edir və həyata keçirir",
           "correct": true
+        },
+        {
+          "text": "trast şirkətlərinə kredit verir",
+          "correct": false
+        },
+        {
+          "text": "fiziki şəxslərə kredit verir",
+          "correct": false
         }
       ]
     },
@@ -1555,7 +1619,23 @@
       "question": "Səhm buraxmaq yolu ilə banklar:",
       "options": [
         {
-          "text": "qiymətli kağızlarla əməliyyat",
+          "text": "qiymətli kağızlarla əməliyyat aparmaq hüququ əldə etmirlər",
+          "correct": false
+        },
+        {
+          "text": "nizamnamə kapitalını formalaşdırırlar",
+          "correct": true
+        },
+        {
+          "text": "qiymətli kağızlar bazarında iştirak etmirlər",
+          "correct": false
+        },
+        {
+          "text": "bank fəaliyyətinə lisenziya alırlar",
+          "correct": false
+        },
+        {
+          "text": "valyuta bazarında iştirak edirlər",
           "correct": false
         }
       ]
@@ -1599,8 +1679,16 @@
           "correct": false
         },
         {
-          "text": "kommersiya banklarının aktiv",
+          "text": "kommersiya banklarının aktiv əməliyyatlarının genişləndirilməsidir",
           "correct": true
+        },
+        {
+          "text": "kassadakı nağd pulun dəyərdən düşməsidir",
+          "correct": false
+        },
+        {
+          "text": "sənəd dövriyyəsinin sürətləndirilməsidir",
+          "correct": false
         }
       ]
     },
@@ -1843,8 +1931,24 @@
       "question": "Azərbaycan Respublikası Mərkəzi Bankının fəaliyyətinə dair yoxlama ...........tərəfindən aparılır:",
       "options": [
         {
-          "text": "Azərbaycan Respublikasının",
+          "text": "Azərbaycan Respublikasının Prezidenti tərəfindən təyin olunmuş auditor",
           "correct": true
+        },
+        {
+          "text": "Sığorta Təşkilatları",
+          "correct": false
+        },
+        {
+          "text": "fiziki şəxslər",
+          "correct": false
+        },
+        {
+          "text": "Maliyyə Nazirliyi",
+          "correct": false
+        },
+        {
+          "text": "kredit büroları",
+          "correct": false
         }
       ]
     },
@@ -1879,8 +1983,24 @@
       "question": "Lizinq mahiyyətcə:",
       "options": [
         {
-          "text": "lizinq verənin lizinq alana",
+          "text": "lizinq verənin lizinq alana avadanlığı icarəyə verməsidir",
           "correct": true
+        },
+        {
+          "text": "bankın banka verdiyi kreditdir",
+          "correct": false
+        },
+        {
+          "text": "lizinq alana verilən ipoteka kreditidir",
+          "correct": false
+        },
+        {
+          "text": "lizinq alana verilən sənəddir",
+          "correct": false
+        },
+        {
+          "text": "lizinq verənə verilən sənəd kreditidir",
+          "correct": false
         }
       ]
     },
@@ -2305,8 +2425,24 @@
       "question": "Analitik hesab nədir?",
       "options": [
         {
-          "text": "hesabın daxilindəki məlumatların",
+          "text": "hesabın daxilindəki məlumatların təfsilatı ilə açıqlanmasını təmin edən hesabdır",
           "correct": true
+        },
+        {
+          "text": "sintetik yoxlanmadır",
+          "correct": false
+        },
+        {
+          "text": "kredit hesablarının yoxlanmasıdır",
+          "correct": false
+        },
+        {
+          "text": "audit xidmətinin yoxlanmasıdır",
+          "correct": false
+        },
+        {
+          "text": "plastik kartların yoxlanmasıdır",
+          "correct": false
         }
       ]
     },
@@ -2315,7 +2451,23 @@
       "question": "Mühasibat uçotunun aparılmasında bank ..... təmin etməlidir:",
       "options": [
         {
-          "text": "hesabat dövrü ərzində həyata keçirilən əməliyyatların",
+          "text": "hesabat dövrü ərzində həyata keçirilən əməliyyatların qiymətləndirilməsinin əks olunmasını təmin edən uçot siyasətinin dəyişməz qalmasını",
+          "correct": false
+        },
+        {
+          "text": "bankın, müştərilərin pullarının və maddi qiymətlilərinin qorunmasını",
+          "correct": false
+        },
+        {
+          "text": "kapital qoyuluşu üzrə uçotun və xərclərin uçotunun bir-birindən fərqlənməsini",
+          "correct": false
+        },
+        {
+          "text": "hamısı",
+          "correct": true
+        },
+        {
+          "text": "hesablama metoduna uyğun olaraq gəlir və xərclərin aid olduğu hesabat dövrünə aid edilməsini",
           "correct": false
         }
       ]
@@ -2471,7 +2623,7 @@
           "correct": false
         },
         {
-          "text": "nağd pulların və digər qiymətlilərin",
+          "text": "nağd pulların və digər qiymətlilərin qəbulu, verilməsi, saxlanması və qorunması",
           "correct": true
         }
       ]
@@ -2545,8 +2697,12 @@
           "correct": false
         },
         {
-          "text": "bank daxili audit - bankın daxili nəzarət və",
+          "text": "bank daxili audit - bankın daxili nəzarət və bank risklərinin idarə edilməsi sistemlərinin səmərəliyini artırmaq məqsədi ilə yaradılmışdır",
           "correct": true
+        },
+        {
+          "text": "lizinq əməliyyatlarına nəzarət etmək xidmətidir",
+          "correct": false
         }
       ]
     },
@@ -2659,7 +2815,23 @@
       "question": "Rəqəmsal ödənişlərin sürətli artımını təmin edən sistemdir:",
       "options": [
         {
-          "text": "Bankirlərin Mexanikləşdirilmiş",
+          "text": "Bankirlərin Mexanikləşdirilmiş qarşılıqlı Ödəmə Sistemi (BMÖS)",
+          "correct": false
+        },
+        {
+          "text": "Bankirlərin Modernləşdirilməsi Ödəmə Sistemi (BMÖS)",
+          "correct": false
+        },
+        {
+          "text": "Bankirlərin Mərkəzləşdirilmiş Ödəmə Sistemi (BMÖS)",
+          "correct": false
+        },
+        {
+          "text": "Bankların Avtomatlaşdırılması Klirinq Sistemi (BAKS)",
+          "correct": true
+        },
+        {
+          "text": "Bankirlərin Vahid Ödəmə Sistemi (BVÖS)",
           "correct": false
         }
       ]
@@ -2881,8 +3053,20 @@
           "correct": false
         },
         {
-          "text": "yerli banklara, regional banklara",
+          "text": "yerli banklara, regional banklara milli banklar, beynəlxalq banklara",
           "correct": true
+        },
+        {
+          "text": "yalnız rayon banklarına",
+          "correct": false
+        },
+        {
+          "text": "yalnız şəhərdaxili banklara",
+          "correct": false
+        },
+        {
+          "text": "qarışıq banklar, kəndlərarası banklara",
+          "correct": false
         }
       ]
     },
@@ -3839,8 +4023,12 @@
           "correct": false
         },
         {
-          "text": "kreditor ölkəsinin, borcalanın ölkəsinin,",
+          "text": "kreditor ölkəsinin, borcalanın ölkəsinin, üçüncü ölkənin valyutalarında və ya beynəlxalq pul vahidlərində",
           "correct": true
+        },
+        {
+          "text": "yalnız kredit verən ölkənin valyutasında",
+          "correct": false
         }
       ]
     },
@@ -3983,8 +4171,20 @@
           "correct": false
         },
         {
-          "text": "rəqəmsal ödəniş infrastrukturunun",
+          "text": "rəqəmsal ödəniş infrastrukturunun əhatə dairəsinin genişləndirilməsi",
           "correct": true
+        },
+        {
+          "text": "ödəniş sisteminin bloklanması",
+          "correct": false
+        },
+        {
+          "text": "ödəniş infrastrukurunun mexanikləşdirilməsi",
+          "correct": false
+        },
+        {
+          "text": "ödəniş sisteminin uyğunlaşdırılması",
+          "correct": false
         }
       ]
     },
@@ -4019,8 +4219,24 @@
       "question": "Mərkəzi Bankın “uçot dərəcəsi”……deməkdir:",
       "options": [
         {
-          "text": "Mərkəz Bankın kommersiya banklarına",
+          "text": "Mərkəz Bankın kommersiya banklarına verdiyi kreditə görə faiz dərəcəsi",
           "correct": true
+        },
+        {
+          "text": "qiymətli kağızların girovu zamanı diskont dərəcəsi",
+          "correct": false
+        },
+        {
+          "text": "problemli kreditlərə görə faiz dərəcəsi",
+          "correct": false
+        },
+        {
+          "text": "məcburi ehtiyatların müəyyən edilməsi",
+          "correct": false
+        },
+        {
+          "text": "kommersiya banklarının ssuda faizinin məhdudlaşdırılması",
+          "correct": false
         }
       ]
     },
@@ -4263,7 +4479,23 @@
       "question": "Mərkəzi Bankın kapitalı ibarətdir:",
       "options": [
         {
-          "text": "Mərkəzi Bankın kapital",
+          "text": "Mərkəzi Bankın kapital ehtiyatından və verdiyi lisenziyaların sayından",
+          "correct": false
+        },
+        {
+          "text": "dövlət büdcəsindən verilən vəsaitdən",
+          "correct": false
+        },
+        {
+          "text": "nizamnamə fondu və kapital ehtiyatlarından",
+          "correct": true
+        },
+        {
+          "text": "yalnız ianə kapitalından",
+          "correct": false
+        },
+        {
+          "text": "verdiyi kreditlərə görə faizlərdən",
           "correct": false
         }
       ]
@@ -4559,8 +4791,24 @@
       "question": "Bank kreditində kreditor kimi çıxış edə bilər:",
       "options": [
         {
-          "text": "kredit əməliyyatları aparmaq üçün",
+          "text": "kredit əməliyyatları aparmaq üçün lisenziyası olan kredit - maliyyə təşkilatları",
           "correct": true
+        },
+        {
+          "text": "müvəqqəti sərbəst pul vəsaitinə malik olan amma lisenziyası olmayan maliyyə idarələri",
+          "correct": false
+        },
+        {
+          "text": "yalnız sığorta və investisiya şirkətləri",
+          "correct": false
+        },
+        {
+          "text": "poçt müəssisələri",
+          "correct": false
+        },
+        {
+          "text": "lizinq şirkətləri",
+          "correct": false
         }
       ]
     },
@@ -4681,7 +4929,15 @@
           "correct": true
         },
         {
-          "text": "son kapitalı ödəmək imkanına",
+          "text": "son kapitalı ödəmək imkanına malik olan fərdi şəxs tərəfindən",
+          "correct": false
+        },
+        {
+          "text": "Mərkəzi Bankın dəstəyi ilə",
+          "correct": false
+        },
+        {
+          "text": "dövlət dəstəyi olan istənilən hüquqi şəxs tərəfindən",
           "correct": false
         }
       ]
@@ -4695,8 +4951,20 @@
           "correct": false
         },
         {
-          "text": "pul tədavülünün sabitliyini, elastikliyini",
+          "text": "pul tədavülünün sabitliyini, elastikliyini və dayanıqlığını təmin etməkdir",
           "correct": true
+        },
+        {
+          "text": "nağdsız pul tədavülünü bütövlükdə əvəz etməkdir",
+          "correct": false
+        },
+        {
+          "text": "vahid emissiya mərkəzi yaratmaqdır",
+          "correct": false
+        },
+        {
+          "text": "nağdsız pulların tətbiqini atrırmaqdır",
+          "correct": false
         }
       ]
     },
@@ -4761,7 +5029,19 @@
           "correct": true
         },
         {
-          "text": "müvəqqəti azad vəsaitlərin səfərbər",
+          "text": "müvəqqəti azad vəsaitlərin səfərbər olunması və fazilərin hesablanma funksiyası",
+          "correct": false
+        },
+        {
+          "text": "vaxtında qaytarılmaq və lisenziya vermək funksiyası",
+          "correct": false
+        },
+        {
+          "text": "optimallaşdırma və sistemləşdirmə funksiyası",
+          "correct": false
+        },
+        {
+          "text": "təkrar istehsal  funksiyası",
           "correct": false
         }
       ]
@@ -4809,8 +5089,12 @@
           "correct": false
         },
         {
-          "text": "kredit əməliyyatlarını aparmaq üçün",
+          "text": "kredit əməliyyatlarını aparmaq üçün lisenziyası olan kredit-maliyyə təşkilatları",
           "correct": true
+        },
+        {
+          "text": "valyuta mərkəzləri",
+          "correct": false
         }
       ]
     },
@@ -4823,8 +5107,20 @@
           "correct": false
         },
         {
-          "text": "bankın daxili fəaliyyəti haqqında",
+          "text": "bankın daxili fəaliyyəti haqqında hesablaşmaların ümumiləşdirilməsində",
           "correct": false
+        },
+        {
+          "text": "mühasibat hesablarının nəzarətində",
+          "correct": false
+        },
+        {
+          "text": "kadrların fəallığının təhlilində",
+          "correct": false
+        },
+        {
+          "text": "bank fəaliyyətinin təhlili və idarə olunmasında",
+          "correct": true
         }
       ]
     },
@@ -4893,8 +5189,16 @@
           "correct": false
         },
         {
-          "text": "bankın ehtiyat fondundan olan",
+          "text": "bankın ehtiyat fondundan olan cəlb edilən vəsaitlərdən istifadə edilməsi",
           "correct": false
+        },
+        {
+          "text": "bankın yalnız öz xüsusi vəsaitlərindən cəlb edilməsi",
+          "correct": false
+        },
+        {
+          "text": "mənfəət əldə etmək üçün bankın öz xüsusi vəsaitlərindən və cəlb edilmiş vəsaitlərdən istifadə edilməsi",
+          "correct": true
         }
       ]
     },
@@ -5215,8 +5519,24 @@
       "question": "Emissiya nədir?",
       "options": [
         {
-          "text": "tədavülə pul nişanlarının,",
+          "text": "tədavülə pul nişanlarının, qiymətli kağızların  buraxılmasıdır",
           "correct": true
+        },
+        {
+          "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT) fəaliyyətidir",
+          "correct": false
+        },
+        {
+          "text": "dövriyyəyə sənədlərin buraxılmasıdır",
+          "correct": false
+        },
+        {
+          "text": "kommersiya banklarının vasitəçilik əməliyyatlarıdır",
+          "correct": false
+        },
+        {
+          "text": "dövriyyəyə metalların buraxılmasıdır",
+          "correct": false
         }
       ]
     },
@@ -5363,7 +5683,15 @@
           "correct": false
         },
         {
-          "text": "fiziki şəxslərə və emissiya",
+          "text": "fiziki şəxslərə və emissiya banklarına",
+          "correct": false
+        },
+        {
+          "text": "bank ticarətinə",
+          "correct": false
+        },
+        {
+          "text": "xəzinədarlıq əməliyyatlarına",
           "correct": false
         }
       ]
@@ -5433,7 +5761,15 @@
           "correct": false
         },
         {
-          "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT)",
+          "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT) cəlb etdiyi vəsaitlərdə olan əməliyyatlar",
+          "correct": false
+        },
+        {
+          "text": "passiv əməliyyatlar",
+          "correct": true
+        },
+        {
+          "text": "zərərli əməliyyatlar",
           "correct": false
         }
       ]
@@ -5481,8 +5817,12 @@
           "correct": false
         },
         {
-          "text": "üç pilləlidir (banklar, qeyri-bank maliyyə",
+          "text": "üç pilləlidir (banklar, qeyri-bank maliyyə institutları və müxtəlif kompaniyalar)",
           "correct": false
+        },
+        {
+          "text": "iki pilləlidir (Mərkəzi Bank və kredit təşkilatları)",
+          "correct": true
         }
       ]
     },
@@ -5491,8 +5831,24 @@
       "question": "Kredit təşkilatının filialı hansı əməliyyatları apara bilər?",
       "options": [
         {
-          "text": "kredit təşkilatının lisenziyasında",
+          "text": "kredit təşkilatının lisenziyasında göstərilən bütün əməliyyatları",
           "correct": true
+        },
+        {
+          "text": "Mərkəzi Bankın fiziki şəxslərə kreditlərin verilməsi əməliyyatlarını",
+          "correct": false
+        },
+        {
+          "text": "lisenziyada nəzərdə tutulmayan əməliyyatları",
+          "correct": false
+        },
+        {
+          "text": "heç bir əməliyyatlar apara bilməz",
+          "correct": false
+        },
+        {
+          "text": "sənədləşmə əməliyyatlarını",
+          "correct": false
         }
       ]
     },
@@ -5605,8 +5961,24 @@
       "question": "Banklar arasında qarşılıqlı tələblər üzrə hesablaşmalar:",
       "options": [
         {
-          "text": "eyni hesablaşma - kassa mərkəzində",
+          "text": "eyni hesablaşma - kassa mərkəzində xidmət göstərən banklar arasında mümkündür",
           "correct": false
+        },
+        {
+          "text": "mümkün deyil",
+          "correct": false
+        },
+        {
+          "text": "fiziki şəxslərin icazəsi olmalıdır",
+          "correct": false
+        },
+        {
+          "text": "yalnız müxtəlif ərazidə fəaliyyət göstərən banklar arasında mümkündür",
+          "correct": false
+        },
+        {
+          "text": "məhdudiyyətsiz mümkündür",
+          "correct": true
         }
       ]
     },
@@ -6039,7 +6411,15 @@
           "correct": false
         },
         {
-          "text": "üç yerə:  valyuta bazarı, qiymətli kağızlar",
+          "text": "üç yerə:  valyuta bazarı, qiymətli kağızlar bazarı, kredit bazarı",
+          "correct": false
+        },
+        {
+          "text": "üç yerə: ikinci bazar, bank bazarı,kredit bazarı",
+          "correct": false
+        },
+        {
+          "text": "üç yerə: ilkin bazar, valyuta bazarı, pul bazarı",
           "correct": false
         }
       ]
@@ -6369,8 +6749,16 @@
           "correct": false
         },
         {
-          "text": "bankın müxtəlif sənədlərinin",
+          "text": "bankın müxtəlif sənədlərinin səviyyəsindən asılı olaraq",
           "correct": false
+        },
+        {
+          "text": "bankın statusuna görə",
+          "correct": false
+        },
+        {
+          "text": "bankın cəlb etdiyi depozit və əmanətlərin həcmindən asılı olaraq",
+          "correct": true
         }
       ]
     },
@@ -6491,7 +6879,15 @@
           "correct": false
         },
         {
-          "text": "maddi istehsal sferası məhsulunu",
+          "text": "maddi istehsal sferası məhsulunu istehsal edən kommersiya təşkilatıdır",
+          "correct": false
+        },
+        {
+          "text": "maliyyə xidmətləri təqdim edən spesifik hüquqi şəxsdir",
+          "correct": true
+        },
+        {
+          "text": "bazar iqtisadiyyatı şəraitində banknot emissiyasını həyata keçirən orqandır",
           "correct": false
         }
       ]
@@ -6795,8 +7191,16 @@
           "correct": false
         },
         {
-          "text": "Mərkəzi Bankın qəbul etdiyi",
+          "text": "Mərkəzi Bankın qəbul etdiyi normativ aktlara uyğun olaraq",
           "correct": true
+        },
+        {
+          "text": "vətəndaşlıq aktlarına uyğun olaraq",
+          "correct": false
+        },
+        {
+          "text": "Banklar Assosiasiyasının təlimatına uyğun olaraq",
+          "correct": false
         }
       ]
     },
@@ -7827,7 +8231,15 @@
           "correct": false
         },
         {
-          "text": "sənaye müəssisəsi",
+          "text": "sənaye müəssisəsi tərəfindən təsərrüfat ehtiyaclarına verilən kredit",
+          "correct": false
+        },
+        {
+          "text": "məişət texnikası alınması üçün fiziki şəxslərə bankdan verilən kredit",
+          "correct": true
+        },
+        {
+          "text": "bir bankın digər banka verdiyi kredit",
           "correct": false
         }
       ]
@@ -7849,8 +8261,12 @@
           "correct": false
         },
         {
-          "text": "kredit təşkilatına verilən",
+          "text": "kredit təşkilatına verilən lisenziyada göstərilən bütün əməliyyatları",
           "correct": true
+        },
+        {
+          "text": "lisenziyanı ləğv etmə əməliyyatlarını",
+          "correct": false
         }
       ]
     },
@@ -7885,8 +8301,24 @@
       "question": "Bazar tipli Bank Sistemini bölüşdürücü bank sistemindən fərqləndirən nədir:",
       "options": [
         {
-          "text": "bankların mülkiyyət formalarına",
+          "text": "bankların mülkiyyət formalarına məhdudiyyətlərin qoyulması",
           "correct": false
+        },
+        {
+          "text": "bankların mülkiyyət formalarının eyniliyi",
+          "correct": false
+        },
+        {
+          "text": "yalnız dövlət banklarının fəaliyyətinin mümkünlüyü",
+          "correct": false
+        },
+        {
+          "text": "yalnız xarici kapitallı bankların olması",
+          "correct": false
+        },
+        {
+          "text": "bankların mülkiyyət formalarının müxtəlifliyi",
+          "correct": true
         }
       ]
     },
@@ -7899,8 +8331,20 @@
           "correct": false
         },
         {
-          "text": "ölkədə pul tədavülünün",
+          "text": "ölkədə pul tədavülünün təşkilinin forma və metodlarının",
           "correct": false
+        },
+        {
+          "text": "maliyyə nəzarət orqanlarının",
+          "correct": false
+        },
+        {
+          "text": "emissiya banklarının və lizinq şirkətlərinin",
+          "correct": false
+        },
+        {
+          "text": "Mərkəzi Bank və kredit təşkilatlarının",
+          "correct": true
         }
       ]
     },
@@ -8077,8 +8521,12 @@
           "correct": false
         },
         {
-          "text": "bankın əmanətçilərinin və digər borcluların",
+          "text": "bankın əmanətçilərinin və digər borcluların qarşısında öhdəliklərini yerinə yetirmək bacarığı",
           "correct": true
+        },
+        {
+          "text": "pul itkisidir",
+          "correct": false
         }
       ]
     },
@@ -8165,8 +8613,24 @@
       "question": "Səhmdar Cəmiyyət nədir?",
       "options": [
         {
-          "text": "fiziki və hüquqi şəxslərin sazişi",
+          "text": "fiziki və hüquqi şəxslərin sazişi əsasında yaradılan müəssisədir",
           "correct": true
+        },
+        {
+          "text": "bankın faktorinq bölməsidir",
+          "correct": false
+        },
+        {
+          "text": "banknotlardır",
+          "correct": false
+        },
+        {
+          "text": "Mərkəzi Bankın ərazi idarələridir",
+          "correct": false
+        },
+        {
+          "text": "Bank Olmayan Kredit Təşkilatlardır (BOKT)",
+          "correct": false
         }
       ]
     },
@@ -8205,7 +8669,19 @@
           "correct": false
         },
         {
-          "text": "lizinq əşyasının bir hissəsi",
+          "text": "lizinq əşyasının bir hissəsi lizinq verənə qaytarılır",
+          "correct": false
+        },
+        {
+          "text": "lizinq əmlakı lizinq verənə qaytarılır",
+          "correct": true
+        },
+        {
+          "text": "lizinq əşyasının yalnız 30% lizinq verənə qaytarılır",
+          "correct": false
+        },
+        {
+          "text": "lizinq əmlakı lizinq verənə hədiyyə edilir",
           "correct": false
         }
       ]
@@ -8219,7 +8695,19 @@
           "correct": false
         },
         {
-          "text": "qaytarılma müddətini müəyyən",
+          "text": "qaytarılma müddətini müəyyən etmədən vəsaitlərin ötürülməsi",
+          "correct": false
+        },
+        {
+          "text": "bank zəmanətlərinin verilməsi",
+          "correct": false
+        },
+        {
+          "text": "qaytarılmaq şərti ilə borcalana vəsaitlərin verilməsi",
+          "correct": true
+        },
+        {
+          "text": "bank akkreditivinin verilməsi",
           "correct": false
         }
       ]
@@ -8471,8 +8959,16 @@
           "correct": false
         },
         {
-          "text": "dəyəri olmayan, istifadə edilməyən",
+          "text": "dəyəri olmayan, istifadə edilməyən pulların uçotunu aparmaq",
           "correct": false
+        },
+        {
+          "text": "kreditin təminatına görə hesabları aparmaq",
+          "correct": false
+        },
+        {
+          "text": "bankın likvidliyini qorumaq",
+          "correct": true
         }
       ]
     },
@@ -8519,8 +9015,12 @@
           "correct": false
         },
         {
-          "text": "əmək ödənişlərinin",
+          "text": "əmək ödənişlərinin həvəsləndirici sisteminin olmaması",
           "correct": false
+        },
+        {
+          "text": "əməyin ödənilməsi və həvəsləndirilməsi",
+          "correct": true
         }
       ]
     },
@@ -8559,8 +9059,20 @@
           "correct": false
         },
         {
-          "text": "bankın müştərilərlə qarşılıqlı",
+          "text": "bankın müştərilərlə qarşılıqlı münasibətlərinin müqavilə xarakterliliyinə",
           "correct": false
+        },
+        {
+          "text": "bank fəaliyyətinin xüsusiliyinə",
+          "correct": false
+        },
+        {
+          "text": "bank məhsullarının abstraktlığına",
+          "correct": false
+        },
+        {
+          "text": "bank fəaliyyətinin universallığına",
+          "correct": true
         }
       ]
     },
@@ -8573,7 +9085,19 @@
           "correct": false
         },
         {
-          "text": "bank rəhbərliyinə",
+          "text": "bank rəhbərliyinə təkliflərin işlənib hazırlanması",
+          "correct": false
+        },
+        {
+          "text": "bütün cavablar düzdür",
+          "correct": true
+        },
+        {
+          "text": "bank xidmətləri bazarının təhlili",
+          "correct": false
+        },
+        {
+          "text": "marketinq planının hazırlanması",
           "correct": false
         }
       ]
@@ -8899,7 +9423,19 @@
           "correct": false
         },
         {
-          "text": "bankın öhdəliklərinə görə",
+          "text": "bankın öhdəliklərinə görə məsuliyyət daşıyan bölmədir",
+          "correct": false
+        },
+        {
+          "text": "kommersiya banklarına sənəd verən bölmədir",
+          "correct": false
+        },
+        {
+          "text": "bank lisenziyasında nəzərdə tutulmuş fəaliyyət növlərini yerinə yetirən bölmədir",
+          "correct": true
+        },
+        {
+          "text": "Maliyyə Nazirliyinin verdiyi səlahiyyət daxilində fəaliyyət göstərən bölmədir",
           "correct": false
         }
       ]
@@ -8969,7 +9505,15 @@
           "correct": false
         },
         {
-          "text": "yalnız fiziki şəxslərin pul",
+          "text": "yalnız fiziki şəxslərin pul vəsaitlərinin əmanətə cəlb edilməsi",
+          "correct": false
+        },
+        {
+          "text": "fiziki və hüquqi şəxslərin pul vəsaitlərinin əmanətə cəlb edilməsi",
+          "correct": true
+        },
+        {
+          "text": "yalnız faktorinq əməliyyatları",
           "correct": false
         }
       ]
@@ -9147,8 +9691,12 @@
           "correct": false
         },
         {
-          "text": "aşkar edilmiş nöqsanların aradan",
+          "text": "aşkar edilmiş nöqsanların aradan qaldırılması və tövsiyyələri işləyib hazırlamaqdır",
           "correct": true
+        },
+        {
+          "text": "kredit cəlb etməkdir",
+          "correct": false
         }
       ]
     },
@@ -9191,7 +9739,15 @@
           "correct": true
         },
         {
-          "text": "istehlakçıların konkret bank",
+          "text": "istehlakçıların konkret bank xidmətinə olan tələbinin öyrənilməsi",
+          "correct": false
+        },
+        {
+          "text": "marketinqin planlaşdırılması",
+          "correct": false
+        },
+        {
+          "text": "reklam",
           "correct": false
         }
       ]
@@ -9235,7 +9791,15 @@
           "correct": false
         },
         {
-          "text": "kredit təşkilatları üçün",
+          "text": "kredit təşkilatları üçün məcburi ehtiyatların müəyyən edilməsi",
+          "correct": false
+        },
+        {
+          "text": "hamısı",
+          "correct": true
+        },
+        {
+          "text": "faiz dərəcələrinin müəyyən edilməsi",
           "correct": false
         }
       ]
@@ -9539,8 +10103,16 @@
           "correct": false
         },
         {
-          "text": "malgöndərənə ödəmənin yerinə",
+          "text": "malgöndərənə ödəmənin yerinə yetirilməsi üçün zəmanətin verilməsidir",
           "correct": true
+        },
+        {
+          "text": "ödənişin real vaxt rejimində olmasıdır",
+          "correct": false
+        },
+        {
+          "text": "sövdələşmənin tərtibatının qeyri-müəyyənliyidir",
+          "correct": false
         }
       ]
     },
@@ -9735,7 +10307,19 @@
           "correct": true
         },
         {
-          "text": "xüsusi razılıqdır yalnız",
+          "text": "xüsusi razılıqdır yalnız Banklar Assosiasiyası tərəfindən verilir",
+          "correct": false
+        },
+        {
+          "text": "xüsusi razılıqdır BOKT(Bank Olmayan Kredit Təşkilatı) tərəfindən verilir",
+          "correct": false
+        },
+        {
+          "text": "xüsusi razılıqdır Milli Məclis tərəfindən verilir",
+          "correct": false
+        },
+        {
+          "text": "xüsusi razılıqdır Beynəlxalq Bank tərəfindən verilir",
           "correct": false
         }
       ]
@@ -9761,7 +10345,7 @@
           "correct": true
         },
         {
-          "text": "Bank Olmayan Kredit Təşkilatlarının",
+          "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT) qərarı ilə ləğv edilə bilər",
           "correct": false
         }
       ]
@@ -9813,7 +10397,7 @@
           "correct": true
         },
         {
-          "text": "qeyri-rezidentlərin hesablarında",
+          "text": "qeyri-rezidentlərin hesablarında yerləşdirilən xarici valytutada olan vəsaitlər",
           "correct": false
         }
       ]
@@ -10225,8 +10809,12 @@
           "correct": false
         },
         {
-          "text": "milli kredit təşkilatlarında",
+          "text": "milli kredit təşkilatlarında xarici bankların hesabları",
           "correct": true
+        },
+        {
+          "text": "kommersiya banklarının liro hesabları",
+          "correct": false
         }
       ]
     },
@@ -10243,7 +10831,15 @@
           "correct": false
         },
         {
-          "text": "fiziki və hüquqi şəxslərin",
+          "text": "fiziki və hüquqi şəxslərin Bank Olmayan Kredit Təşkilatlarında (BOKT) mövcud olan hesabları",
+          "correct": false
+        },
+        {
+          "text": "xarici banklarda milli bankların mövcud olan bank hesabı",
+          "correct": true
+        },
+        {
+          "text": "kommersiya banklarının kassa hesabı",
           "correct": false
         }
       ]
@@ -10491,7 +11087,19 @@
           "correct": false
         },
         {
-          "text": "vasitəçilik əməliyyatlarının",
+          "text": "vasitəçilik əməliyyatlarının həyata keçirilməsinə nəzarət",
+          "correct": false
+        },
+        {
+          "text": "xüsusi kapitala nəzarət",
+          "correct": false
+        },
+        {
+          "text": "açıq bazarda əməliyyatların aparılması",
+          "correct": true
+        },
+        {
+          "text": "hesablaşmalara nəzarət",
           "correct": false
         }
       ]
@@ -10505,7 +11113,19 @@
           "correct": false
         },
         {
-          "text": "öz vəsaitlərini fiziki",
+          "text": "öz vəsaitlərini fiziki şəxslərə vermək başa düşülür",
+          "correct": false
+        },
+        {
+          "text": "öz vəsaitlərinin ləğvi başa düşülür",
+          "correct": false
+        },
+        {
+          "text": "öz resurslarının yerləşdirilməsi başa düşülür",
+          "correct": true
+        },
+        {
+          "text": "öz vəsaitlərini gizlətmək başa düşülür",
           "correct": false
         }
       ]
@@ -10575,7 +11195,15 @@
           "correct": false
         },
         {
-          "text": "vasitəçilik əməliyyatlarını",
+          "text": "vasitəçilik əməliyyatlarını həyata keçirmək, banknot emissiyası",
+          "correct": false
+        },
+        {
+          "text": "banknot emissiyası, kommersiya banklarının vəsaitlərinin xəzinədarlığa qəbulu, xüsusi kapitalın yaradılması üçün aparılan əməliyyatlar",
+          "correct": true
+        },
+        {
+          "text": "fiziki şəxslərə xidmət göstərmək",
           "correct": false
         }
       ]
@@ -10615,8 +11243,20 @@
           "correct": false
         },
         {
-          "text": "rəqəmsal ödəniş infrastrukturunun",
+          "text": "rəqəmsal ödəniş infrastrukturunun əhatə dairəsinin genişləndirilməsi",
           "correct": true
+        },
+        {
+          "text": "ödəniş sisteminin təkmilləşdirilməsi",
+          "correct": false
+        },
+        {
+          "text": "ödəniş sisteminin uyğunlaşdırılması",
+          "correct": false
+        },
+        {
+          "text": "ödəniş sistemlərinin modernləşməsi",
+          "correct": false
         }
       ]
     },
@@ -10737,7 +11377,15 @@
           "correct": false
         },
         {
-          "text": "iqtisadi subyektlərin fəaliyyətinin",
+          "text": "iqtisadi subyektlərin fəaliyyətinin insanlar üçün əlçatanlığın olmamasıdır",
+          "correct": false
+        },
+        {
+          "text": "rəqəmsal dünyanın üstünlüklərinin və imkanlarının bütün müştərilər üçün əlçatan olmasıdır",
+          "correct": true
+        },
+        {
+          "text": "iqtisadi subyektlərin fəaliyyətinin modernləşdirilməsidir",
           "correct": false
         }
       ]
@@ -10789,7 +11437,7 @@
           "correct": false
         },
         {
-          "text": "banklar öz müştəriləri ilə sənədləşmə",
+          "text": "banklar öz müştəriləri ilə sənədləşmə əməliyyatları həyata keçirir",
           "correct": false
         }
       ]
@@ -10833,7 +11481,15 @@
           "correct": false
         },
         {
-          "text": "vasitəçilik əməliyyatlarının",
+          "text": "vasitəçilik əməliyyatlarının həyata keçirilməsinə nəzarət",
+          "correct": false
+        },
+        {
+          "text": "açıq bazarda əməliyyatların aparılması",
+          "correct": true
+        },
+        {
+          "text": "kreditləşmə limitinin müəyyən edilməsi",
           "correct": false
         }
       ]
@@ -10847,8 +11503,20 @@
           "correct": false
         },
         {
-          "text": "kağız pulların metal pulları dövriyyədən",
+          "text": "kağız pulların metal pulları dövriyyədən sıxışdırıb çıxarmaq üzrə dövlətin uzun müddətli siyasəti",
           "correct": false
+        },
+        {
+          "text": "metal pulların dövriyyəsini çoxaltmaq",
+          "correct": false
+        },
+        {
+          "text": "yeni dizaynlı pul nişanlarının emissiyasını dayandırmaq",
+          "correct": false
+        },
+        {
+          "text": "ölkənin pul sisteminin qismən və ya tamamilə dəyişdirilməsi",
+          "correct": true
         }
       ]
     },
@@ -10873,7 +11541,7 @@
           "correct": true
         },
         {
-          "text": "Mərkəzi Bank kommersiya",
+          "text": "Mərkəzi Bank kommersiya banklarına icazə verdikdə baş verir",
           "correct": false
         }
       ]
@@ -10965,7 +11633,19 @@
           "correct": true
         },
         {
-          "text": "yalnız Bank Olmayan Kredit Təşkilatlarının (BOKT)",
+          "text": "yalnız Bank Olmayan Kredit Təşkilatlarının (BOKT) icazəsi ilə mümkündür",
+          "correct": false
+        },
+        {
+          "text": "Mərkəzi Bankın xüsusi icazəsi olmalıdır",
+          "correct": false
+        },
+        {
+          "text": "yalnız eyni ərazidə fəaliyyət göstərən banklar arasında mümkündür",
+          "correct": false
+        },
+        {
+          "text": "mümkün deyil",
           "correct": false
         }
       ]
@@ -11117,8 +11797,12 @@
           "correct": false
         },
         {
-          "text": "mənfəət əldə etmək Mərkəzi Bankın",
+          "text": "mənfəət əldə etmək Mərkəzi Bankın əsas məqsədi deyil",
           "correct": true
+        },
+        {
+          "text": "mənfəəti kommersiya bankları arasında bölüşdürmək Mərkəzi Bankın məqsədidir",
+          "correct": false
         }
       ]
     },
@@ -11417,7 +12101,19 @@
           "correct": false
         },
         {
-          "text": "müəyyən məbləğin avans",
+          "text": "müəyyən məbləğin avans qaydada qaytarılmasıdır",
+          "correct": false
+        },
+        {
+          "text": "hesablaşma əməliyyatlarının yerinə yetirilmə tezliyi və sadəliyidir",
+          "correct": false
+        },
+        {
+          "text": "akkreditivin fəaliyyət müddətində alıcının vəsaitinin təsərrüfat dövriyyəsindən çıxarılmasıdır",
+          "correct": true
+        },
+        {
+          "text": "Mərkəzi Bankdan akkreditiv hesablaşma formasının aparılması üçün xüsusi razılığın alınmasıdır",
           "correct": false
         }
       ]
@@ -11457,7 +12153,19 @@
           "correct": false
         },
         {
-          "text": "pul vəsaitinin alıcısı və ödəyicisi",
+          "text": "pul vəsaitinin alıcısı və ödəyicisi tərəfindən müəyyən olunmuş qaydada",
+          "correct": false
+        },
+        {
+          "text": "bankın ləğv edilmiş sənədləri əsasında",
+          "correct": false
+        },
+        {
+          "text": "müəyyən forma və standarta malik hesablaşma sənədləri əsasında",
+          "correct": true
+        },
+        {
+          "text": "vəsaitin alıcısı, ödəyicisi və kommersiya bankları tərəfindən müstəqil qaydada",
           "correct": false
         }
       ]
@@ -11571,8 +12279,24 @@
       "question": "Müasir Bank Sisteminin yaranma prinsipidir:",
       "options": [
         {
-          "text": "bütün pul əməliyyatlarının",
+          "text": "bütün pul əməliyyatlarının banklar vasitəsilə aparılması",
           "correct": false
+        },
+        {
+          "text": "bank fəaliyyətinin tamamilə dövlət tərəfindən tənzimlənməsi",
+          "correct": false
+        },
+        {
+          "text": "bank nəzarətinin geniş vüsət alması",
+          "correct": false
+        },
+        {
+          "text": "Demokratik Mərkəziyyət",
+          "correct": false
+        },
+        {
+          "text": "bank işində dövlət inhisarının olmaması",
+          "correct": true
         }
       ]
     },
@@ -11879,8 +12603,12 @@
           "correct": false
         },
         {
-          "text": "vəsait qoyuluşu prosesi ilə",
+          "text": "vəsait qoyuluşu prosesi ilə gələcəkdə gəlir əldə etməyin vəhdətidir",
           "correct": true
+        },
+        {
+          "text": "pul çıxartmaq əməliyyatıdır",
+          "correct": false
         }
       ]
     },
@@ -12061,7 +12789,7 @@
           "correct": false
         },
         {
-          "text": "öz vəsaiti hesabına yalnız pul",
+          "text": "öz vəsaiti hesabına yalnız pul formasında kredit verə bilər",
           "correct": true
         }
       ]
@@ -12157,8 +12885,16 @@
           "correct": false
         },
         {
-          "text": "dövlət, səhmdar,korporativ",
+          "text": "dövlət, səhmdar,korporativ , xüsusi, qarışıq, bələdiyyə",
           "correct": true
+        },
+        {
+          "text": "bir pilləli,xüsusi,səhmdar",
+          "correct": false
+        },
+        {
+          "text": "kommersiya,emissiya",
+          "correct": false
         }
       ]
     },
@@ -12391,7 +13127,7 @@
           "correct": true
         },
         {
-          "text": "Mərkəzi Bankın kommersiya",
+          "text": "Mərkəzi Bankın kommersiya banklarına verdiyi kreditlər",
           "correct": false
         }
       ]
@@ -12409,7 +13145,15 @@
           "correct": false
         },
         {
-          "text": "investisiya obyektlərinin",
+          "text": "investisiya obyektlərinin bazar qiymətlərinin artımına",
+          "correct": false
+        },
+        {
+          "text": "real kapitala",
+          "correct": true
+        },
+        {
+          "text": "bank hesablarına",
           "correct": false
         }
       ]
@@ -12557,8 +13301,16 @@
           "correct": false
         },
         {
-          "text": "kreditor ölkənin, borcalanın ölkəsinin, üçüncü ölkənin",
+          "text": "kreditor ölkənin, borcalanın ölkəsinin, üçüncü ölkənin valyutalarında və ya beynəlxalq pul vahidlərində",
           "correct": true
+        },
+        {
+          "text": "ancaq dördüncü ölkənin valyutasında",
+          "correct": false
+        },
+        {
+          "text": "beynəlxalq kredit olmur",
+          "correct": false
         }
       ]
     },
@@ -12567,7 +13319,23 @@
       "question": "Beynəlxalq kreditin fərqləndirici xüsusiyyəti:",
       "options": [
         {
-          "text": "sövdələşmədə hər hansı bir",
+          "text": "sövdələşmədə hər hansı bir dövlətin Mərkəzi Bankının iştirakıdır",
+          "correct": false
+        },
+        {
+          "text": "sövdələşmədə hər hansı bir dövlətin iştirakının olmamasıdır",
+          "correct": false
+        },
+        {
+          "text": "borcalan və borc verənin müxtəlif ölkələrə mənsub olmasıdır",
+          "correct": true
+        },
+        {
+          "text": "sövdələşmədə Dünya Bankının iştirakıdır",
+          "correct": false
+        },
+        {
+          "text": "sövdələşmədə Beynəlxalq Valyuta Fondunun mütləq iştirakıdır",
           "correct": false
         }
       ]
@@ -13079,7 +13847,15 @@
           "correct": false
         },
         {
-          "text": "kredit-iqtisadiyyatda pul vəsaitlərinin yarısını",
+          "text": "kredit-iqtisadiyyatda pul vəsaitlərinin yarısını qaytarılmaqla yenidən bölüşdürülmə formasıdır",
+          "correct": false
+        },
+        {
+          "text": "kredit - borc pul vəsaitlərinin qaytarılmaq, müddətlilik,ödənişlik şərtləri ilə kreditorla borclu arasındakı iqtisadi münasibətdir",
+          "correct": true
+        },
+        {
+          "text": "kredit-faktorinq əməliyyatıdır",
           "correct": false
         }
       ]
@@ -13167,7 +13943,23 @@
       "question": "Nağd pul tədavülünün idarə edilməsi:",
       "options": [
         {
-          "text": "qeyri mərkəzləşdirilmiş",
+          "text": "qeyri mərkəzləşdirilmiş qaydada həyata keçirilir",
+          "correct": false
+        },
+        {
+          "text": "Mərkəzi Bank haqqında Qanunda nəzərdə tutulmuş qaydada həyata keçirilir",
+          "correct": true
+        },
+        {
+          "text": "hər bir təsərrüfat subyekti tərəfindən sərbəst həyata keçirilir",
+          "correct": false
+        },
+        {
+          "text": "mikrosəviyyədə idarə olunur",
+          "correct": false
+        },
+        {
+          "text": "təbii şəkildə baş verir",
           "correct": false
         }
       ]
@@ -13333,7 +14125,23 @@
       "question": "Sintetik uçotun vəzifəsidir:",
       "options": [
         {
-          "text": "idarəetmə qərarlarının qəbulu",
+          "text": "idarəetmə qərarlarının qəbulu üçün sintetik uçotdan istifadə edilməsi",
+          "correct": false
+        },
+        {
+          "text": "analitik uçot məlumatlarının balansda əks etdirilməsi",
+          "correct": false
+        },
+        {
+          "text": "analitik uçot əməliyyatları üzrə dəqiq məlumatların əldə edilməsi",
+          "correct": false
+        },
+        {
+          "text": "analitik uçot məlumatlarının sintetik hesablar üzrə ümumiləşdirilməsi",
+          "correct": true
+        },
+        {
+          "text": "analitik uçot sənədlərində pul vəsaitlərinin, qiymətlilərin mövcudluğu və hərəkətinə nəzarət edilməsi",
           "correct": false
         }
       ]
@@ -13433,8 +14241,12 @@
           "correct": false
         },
         {
-          "text": "bankda mühasibat uçotunun",
+          "text": "bankda mühasibat uçotunun formalaşdırılması və açıqlanmasının əsaslarını",
           "correct": true
+        },
+        {
+          "text": "bankda vasitəçilik əməliyyatının əsaslarını",
+          "correct": false
         }
       ]
     },
@@ -13793,8 +14605,12 @@
           "correct": false
         },
         {
-          "text": "analitik hesab məlumatlarını özündə əks etdirməklə",
+          "text": "analitik hesab məlumatlarını özündə əks etdirməklə sintetik hesabın daxilindəki məlumatların təfsilatı ilə açıqlanmasını təmin edən  hesabdır",
           "correct": true
+        },
+        {
+          "text": "kommersiya bankının İdarə Heyətinə verilən hesabdır",
+          "correct": false
         }
       ]
     },
@@ -13803,8 +14619,24 @@
       "question": "Sintetik hesab - bu..........:",
       "options": [
         {
-          "text": "aktivlərin,öhdəliklərin, gəlirlərin,",
+          "text": "aktivlərin,öhdəliklərin, gəlirlərin, xərclərin debeti və krediti üzrə dövriyyələrin ümumiləşdirilməsinə xidmət edən hesabdır",
           "correct": true
+        },
+        {
+          "text": "qarşılıqlı hesabdır",
+          "correct": false
+        },
+        {
+          "text": "qarışıq hesabdır",
+          "correct": false
+        },
+        {
+          "text": "qapalı hesabdır",
+          "correct": false
+        },
+        {
+          "text": "zərərli hesabdır",
+          "correct": false
         }
       ]
     },
@@ -13825,8 +14657,12 @@
           "correct": false
         },
         {
-          "text": "",
+          "text": " kredit təşkilatlarında uçot işinin təşkili və əməliyyatların aparılması qaydalarını",
           "correct": true
+        },
+        {
+          "text": "depozitləri",
+          "correct": false
         }
       ]
     },
@@ -14033,7 +14869,7 @@
           "correct": false
         },
         {
-          "text": "dövlətin pul və valyuta siyasətini",
+          "text": "dövlətin pul və valyuta siyasətini müəyyən edir və həyata keçirir",
           "correct": true
         }
       ]
@@ -14259,7 +15095,15 @@
           "correct": false
         },
         {
-          "text": "milli pul vahidinin və onun",
+          "text": "milli pul vahidinin və onun kursunun xarici valyutalara nisbətdə aşağı düşməsi",
+          "correct": false
+        },
+        {
+          "text": "pul tədavülünün idarə olunması",
+          "correct": true
+        },
+        {
+          "text": "kredit təşkilatlarının sayının ixtisar edilməsi",
           "correct": false
         }
       ]
@@ -14533,8 +15377,20 @@
           "correct": false
         },
         {
-          "text": "Mərkəzi Bankın kommersiya",
+          "text": "Mərkəzi Bankın kommersiya banklarına lisenziya verilməsinin ləğv edilməsi",
           "correct": false
+        },
+        {
+          "text": "Mərkəzi Bankın kommersiya banklarına lisenziya verilməsi",
+          "correct": false
+        },
+        {
+          "text": "bankların nağdsız əməliyyatlarının dövriyyəsinə nəzarət etməsi",
+          "correct": false
+        },
+        {
+          "text": "fiziki və hüquqi şəxslərin vəsaitlərinin cəlb edilməsi",
+          "correct": true
         }
       ]
     },
@@ -14633,8 +15489,12 @@
           "correct": false
         },
         {
-          "text": "öz səlahiyyətləri çərçivəsində",
+          "text": "öz səlahiyyətləri çərçivəsində qiymətlərin sabitliyinin təmin edilməsidir",
           "correct": true
+        },
+        {
+          "text": "trast əməliyyatlarını həyata keçirtmək",
+          "correct": false
         }
       ]
     },
@@ -14755,8 +15615,16 @@
           "correct": false
         },
         {
-          "text": "kommersiya banklarının qeyri-kommersiya",
+          "text": "kommersiya banklarının qeyri-kommersiya təşkilatlarına göstərdiyi etibar etməmə xidməti",
           "correct": false
+        },
+        {
+          "text": "sığorta şirkətlərinə pul köçürmək xidməti",
+          "correct": false
+        },
+        {
+          "text": "kommersiya banklarının öz müştərilərinə göstərdiyi etibar etmə xidməti",
+          "correct": true
         }
       ]
     },
@@ -14869,7 +15737,23 @@
       "question": "Banklar tərəfindən ehtiyatlar ....... məqsədilə yaradılır:",
       "options": [
         {
-          "text": "Bank Olmayan Kredit Təşkilatlarına",
+          "text": "Bank Olmayan Kredit Təşkilatlarına (BOKT) pul vəsaitlərini ödəmək üçün",
+          "correct": false
+        },
+        {
+          "text": "lisenziya verilməsi",
+          "correct": false
+        },
+        {
+          "text": "yeni avadanlığın alınması",
+          "correct": false
+        },
+        {
+          "text": "aktivlər üzrə mümkün zərərlərin ödənilməsi",
+          "correct": true
+        },
+        {
+          "text": "bank işçilərinə əmək haqqının verilməsi",
           "correct": false
         }
       ]
@@ -14987,8 +15871,20 @@
           "correct": false
         },
         {
-          "text": "Azərbaycan Respublikası Hökumətindən",
+          "text": "Azərbaycan Respublikası Hökumətindən icazəsi olan Kredit İttifaqları",
           "correct": false
+        },
+        {
+          "text": "Banklar Assosiasiyası",
+          "correct": false
+        },
+        {
+          "text": "bazarda 3 ildən çox iştirak edən banklar",
+          "correct": false
+        },
+        {
+          "text": "Mərkəzi Bankın lisenziyasını alan banklar",
+          "correct": true
         }
       ]
     },
@@ -15035,7 +15931,11 @@
           "correct": true
         },
         {
-          "text": "yalnız dövlətin qiymətli",
+          "text": "yalnız dövlətin qiymətli kağızlarına investisiya yolu ilə",
+          "correct": false
+        },
+        {
+          "text": "sənəd toplamaq yolu ilə",
           "correct": false
         }
       ]
@@ -15087,7 +15987,7 @@
           "correct": true
         },
         {
-          "text": "inkişafın əvvəlki",
+          "text": "inkişafın əvvəlki dövrlərində yaradılmış qiymətlilər",
           "correct": false
         }
       ]
@@ -15239,8 +16139,12 @@
           "correct": false
         },
         {
-          "text": "sövdələşmədə hər hansı bir",
+          "text": "sövdələşmədə hər hansı bir dövlətin Mərkəzi Bankının iştirakıdır",
           "correct": false
+        },
+        {
+          "text": "borcalan və borc verənin müxtəlif ölkələrə mənsub olmasıdır",
+          "correct": true
         }
       ]
     },
@@ -15383,7 +16287,19 @@
           "correct": false
         },
         {
-          "text": "borc öhdəliyi, müvəqqəti",
+          "text": "borc öhdəliyi, müvəqqəti tədavül və tədiyə vasitəsidir",
+          "correct": false
+        },
+        {
+          "text": "borc öhdəliyidir",
+          "correct": true
+        },
+        {
+          "text": "pul vekselidir",
+          "correct": false
+        },
+        {
+          "text": "borc öhdəliyi və sonsuz ödəniş vasitəsidir",
           "correct": false
         }
       ]
@@ -15475,7 +16391,19 @@
           "correct": false
         },
         {
-          "text": "vəsaiti ödəyən və vəsaiti",
+          "text": "vəsaiti ödəyən və vəsaiti qəbul edən tərəf eyni bankda xidmət göstərirsə",
+          "correct": false
+        },
+        {
+          "text": "Mərkəzi Bankın idarəçiliyinin ödəmə üçün razılığı əsasında",
+          "correct": false
+        },
+        {
+          "text": "ödəyicinin hesabında vəsaiti olduğu halda",
+          "correct": true
+        },
+        {
+          "text": "ödəyici kommersiya təşkilatı olduğu halda",
           "correct": false
         }
       ]
@@ -15835,7 +16763,11 @@
           "correct": true
         },
         {
-          "text": "hökumətin kassiri və Milli Depozit Sisteminin",
+          "text": "hökumətin kassiri və Milli Depozit Sisteminin vəsaitlərinin cəlb edilməsi",
+          "correct": false
+        },
+        {
+          "text": "banklar bankı",
           "correct": false
         }
       ]
@@ -16009,7 +16941,15 @@
           "correct": false
         },
         {
-          "text": "kredit təşkilatları tərəfindən pulun saxlanılması",
+          "text": "kredit təşkilatları tərəfindən pulun saxlanılması və inkassasiya qaydalarını müəyyən edir",
+          "correct": false
+        },
+        {
+          "text": "hamısı",
+          "correct": true
+        },
+        {
+          "text": "pul nişanlarının istehsalını təşkil edir",
           "correct": false
         }
       ]
@@ -16053,8 +16993,16 @@
           "correct": false
         },
         {
-          "text": "nağd pul və digər qiymətlilərin",
+          "text": "nağd pul və digər qiymətlilərin olduğu yerdən təyinat yerinə daşınılmasıdır",
           "correct": true
+        },
+        {
+          "text": "lisenziya verilməsidir",
+          "correct": false
+        },
+        {
+          "text": "bankın məqsədidir",
+          "correct": false
         }
       ]
     },
@@ -16119,8 +17067,20 @@
           "correct": false
         },
         {
-          "text": "ödəniş tapşırıqları,ödəniş-tələbnamə",
+          "text": "ödəniş tapşırıqları,ödəniş-tələbnamə tapşırıqları,inkasso sərəncamları üzrə hesablaşmalar",
           "correct": true
+        },
+        {
+          "text": "metal pullar və inkasso sərəncamları",
+          "correct": false
+        },
+        {
+          "text": "depozitlər, kreditlər",
+          "correct": false
+        },
+        {
+          "text": "kağız pullar və metal pullar",
+          "correct": false
         }
       ]
     },
@@ -16189,7 +17149,15 @@
           "correct": false
         },
         {
-          "text": "ödəyicinin vəsaiti",
+          "text": "ödəyicinin vəsaiti olmadıqda aparılan əməliyyatdır",
+          "correct": false
+        },
+        {
+          "text": "ödəyicinin tələb olunan ödənişləri həyata keçirməsinə razılıq deməkdir",
+          "correct": true
+        },
+        {
+          "text": "ödəyicinin razılığı olmadan aparılan əməliyyatdır",
           "correct": false
         }
       ]
@@ -16211,8 +17179,12 @@
           "correct": false
         },
         {
-          "text": "Ümumidünya Banklararası",
+          "text": "Ümumidünya Banklararası Maliyyə Telekomunikasiya Sistemi",
           "correct": true
+        },
+        {
+          "text": "Ölkələrarası Beynəlxalq Valyuta Sistemi",
+          "correct": false
         }
       ]
     },
@@ -16519,8 +17491,12 @@
           "correct": false
         },
         {
-          "text": "eyni nominal dəyərdən olan 100 (yüz) vərəqdən",
+          "text": "eyni nominal dəyərdən olan 100 (yüz) vərəqdən ibarət əskinazların banderol ilə bağlanılmasıdır",
           "correct": true
+        },
+        {
+          "text": "pulların möhürüdür",
+          "correct": false
         }
       ]
     },
@@ -16541,8 +17517,12 @@
           "correct": false
         },
         {
-          "text": "pul dəstələrini bağlamaq üçün Mərkəzi Bank",
+          "text": "pul dəstələrini bağlamaq üçün Mərkəzi Bank tərəfindən təsdiq edilmiş vahid formalı kağız lentdir",
           "correct": true
+        },
+        {
+          "text": "pul vəsaitlərini saymaq üçün testdir",
+          "correct": false
         }
       ]
     },
@@ -16719,8 +17699,12 @@
           "correct": false
         },
         {
-          "text": "malların dəyərinin vaxtından",
+          "text": "malların dəyərinin vaxtından əvvəl ödənilməsi formasında maliyyələşdirir",
           "correct": true
+        },
+        {
+          "text": "yola salınmış malların dəyərinin ödənilməsi müddətini uzadır",
+          "correct": false
         }
       ]
     },
@@ -16729,7 +17713,23 @@
       "question": "Trast əməliyyatıdır .....:",
       "options": [
         {
-          "text": "fiziki şəxslərin kommersiya",
+          "text": "fiziki şəxslərin kommersiya təşkilatlarına göstərdiyi sənədləşmə xidməti",
+          "correct": false
+        },
+        {
+          "text": "kommersiya banklarının digər banklara göstərdikləri sənədləşmə xidməti",
+          "correct": false
+        },
+        {
+          "text": "qeyri-bank kredit təşkilatlarının öz müştərilərinə göstərdiyi hesablaşma xidməti",
+          "correct": false
+        },
+        {
+          "text": "kredit təşkilatılarının öz müştərilərinə göstərdiyi etibar etmə əməliyyatı",
+          "correct": true
+        },
+        {
+          "text": "kredit ittifaqlarına yardım etmək",
           "correct": false
         }
       ]
@@ -16807,7 +17807,7 @@
           "correct": false
         },
         {
-          "text": "kapital bazasını formalaşdıran",
+          "text": "kapital bazasını formalaşdıran əməliyyatlar",
           "correct": true
         }
       ]
