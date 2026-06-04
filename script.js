@@ -1,16 +1,3 @@
-function getRandomQuestions(questions, start, end, count = 50) {
-    let filtered = questions.slice(start - 1, end);
-
-    // qarışdır
-    for (let i = filtered.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
-    }
-
-    count = Math.min(count, filtered.length);
-
-    return filtered.slice(0, count);
-}
 const MAX_QUESTION = 700;
 const availableCount = Math.min(MAX_QUESTION, QUESTIONS.length);
 
@@ -92,7 +79,7 @@ function startExam() {
     return;
   }
 
-  currentQuestions = selectQuestionsByRange(QUESTIONS, start, end, 50);
+  currentQuestions = selectQuestionsByRange(QUESTIONS, start, end);
   if (!currentQuestions.length) {
     alert('Seçdiyiniz aralıqda sual yoxdur.');
     return;
@@ -122,49 +109,12 @@ function loadQuestion() {
   prevBtn.disabled = currentIndex === 0;
   prevBtn.classList.remove('hidden');
 
-  // Check if this question has already been answered
-  const result = results.find((r) => r.num === current.num);
-
   current.options.forEach((option, index) => {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'option-button';
     button.textContent = option.text;
-
-    if (result) {
-      // Question already answered - show the result
-      button.disabled = true;
-      const correctIndex = current.options.findIndex((o) => o.correct);
-
-      if (index === correctIndex) {
-        button.classList.add('correct');
-      }
-
-      if (option.text === result.selected && !result.isCorrect) {
-        button.classList.add('incorrect');
-      }
-
-      // Restore feedback
-      if (result.isCorrect) {
-        feedback.textContent = 'Düzgün cavab!';
-        feedback.classList.add('correct');
-      } else {
-        feedback.textContent = `Yanlış cavab. Düzgün cavab: ${result.correct}`;
-        feedback.classList.add('wrong');
-      }
-
-      // Show next button if not already answered
-      if (currentIndex < currentQuestions.length - 1) {
-        nextBtn.classList.remove('hidden');
-      } else {
-        nextBtn.textContent = 'Nəticəni gör';
-        nextBtn.classList.remove('hidden');
-      }
-    } else {
-      // Question not answered yet - allow selection
-      button.addEventListener('click', () => selectAnswer(index));
-    }
-
+    button.addEventListener('click', () => selectAnswer(index));
     optionsContainer.appendChild(button);
   });
 }
