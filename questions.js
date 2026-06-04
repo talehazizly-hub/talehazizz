@@ -4,10 +4,6 @@ const QUESTIONS = [
     "question": "Nağdsız hesablaşma formasıdır:",
     "options": [
       {
-        "text": "akkreditiv",
-        "correct": true
-      },
-      {
         "text": "aksept",
         "correct": false
       },
@@ -22,6 +18,10 @@ const QUESTIONS = [
       {
         "text": "birja",
         "correct": false
+      },
+      {
+        "text": "akkreditiv",
+        "correct": true
       }
     ]
   },
@@ -34,16 +34,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "faiz dərəcəsi riski",
-        "correct": true
-      },
-      {
         "text": "likvidlik riski",
         "correct": false
       },
       {
         "text": "əməliyyat riski",
         "correct": false
+      },
+      {
+        "text": "faiz dərəcəsi riski",
+        "correct": true
       },
       {
         "text": "bank riski",
@@ -94,12 +94,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "tənzimləmə",
-        "correct": true
-      },
-      {
         "text": "qeyri-müəyyən operativlik",
         "correct": false
+      },
+      {
+        "text": "tənzimləmə",
+        "correct": true
       }
     ]
   },
@@ -107,6 +107,10 @@ const QUESTIONS = [
     "num": 5,
     "question": "Bankın kredit potensialının artırılması yolları:",
     "options": [
+      {
+        "text": "cəlb olunmuş vəsaitlərin həcminin artırılmasıdır",
+        "correct": true
+      },
       {
         "text": "tələblərin minimal ehtiyatlarının artırılmamasıdır",
         "correct": false
@@ -122,10 +126,6 @@ const QUESTIONS = [
       {
         "text": "sənəd dövriyyəsinin sürətlənməsidir",
         "correct": false
-      },
-      {
-        "text": "cəlb olunmuş vəsaitlərin həcminin artırılmasıdır",
-        "correct": true
       }
     ]
   },
@@ -164,10 +164,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "ipoteka kreditidir",
-        "correct": true
-      },
-      {
         "text": "beynəlxalq kreditidir",
         "correct": false
       },
@@ -178,6 +174,10 @@ const QUESTIONS = [
       {
         "text": "overdraft kreditidir",
         "correct": false
+      },
+      {
+        "text": "ipoteka kreditidir",
+        "correct": true
       }
     ]
   },
@@ -194,12 +194,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "pul",
-        "correct": true
-      },
-      {
         "text": "əmtəə",
         "correct": false
+      },
+      {
+        "text": "pul",
+        "correct": true
       },
       {
         "text": "qiymət",
@@ -211,6 +211,10 @@ const QUESTIONS = [
     "num": 9,
     "question": "Nağdsız pul dövriyyəsində mal və pul vəsaitlərinin qarşılıqlı hərəkəti:",
     "options": [
+      {
+        "text": "heç zaman baş vermir",
+        "correct": true
+      },
       {
         "text": "həmişə baş verir",
         "correct": false
@@ -224,10 +228,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "heç zaman baş vermir",
-        "correct": true
-      },
-      {
         "text": "sövdələşmə subyektlərinin razılığı əsasında baş verir",
         "correct": false
       }
@@ -237,6 +237,10 @@ const QUESTIONS = [
     "num": 10,
     "question": "Bankın kassasından nağd pul ... əsasında verilir:",
     "options": [
+      {
+        "text": "pul çekləri və kassa məxaric orderləri",
+        "correct": true
+      },
       {
         "text": "şəxsi çeki",
         "correct": false
@@ -252,10 +256,6 @@ const QUESTIONS = [
       {
         "text": "veksel",
         "correct": false
-      },
-      {
-        "text": "pul çekləri və kassa məxaric orderləri",
-        "correct": true
       }
     ]
   },
@@ -264,16 +264,16 @@ const QUESTIONS = [
     "question": "Bank menecmentinin məqsədi müəyyən edilir:",
     "options": [
       {
-        "text": "bankın idarə olunması məqsədləri ilə",
-        "correct": true
-      },
-      {
         "text": "bankın mənfəətliliyi ilə",
         "correct": false
       },
       {
         "text": "bankın likvidliyi ilə",
         "correct": false
+      },
+      {
+        "text": "bankın idarə olunması məqsədləri ilə",
+        "correct": true
       },
       {
         "text": "bankın ödəmə qabiliyyətliliyi ilə",
@@ -294,16 +294,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "yeni filiallar və şöbələr  açmaq yolu ilə öz fəaliyyət miqyasını genişləndirmək",
-        "correct": true
-      },
-      {
         "text": "hesablaşmaların azaldılması",
         "correct": false
       },
       {
         "text": "filiallarla qarşılıqlı münasibəti kəsmək",
         "correct": false
+      },
+      {
+        "text": "yeni filiallar və şöbələr  açmaq yolu ilə öz fəaliyyət miqyasını genişləndirmək",
+        "correct": true
       },
       {
         "text": "rentabellik səviyyəsini aşağı salmaq və azaltmaq",
@@ -316,16 +316,16 @@ const QUESTIONS = [
     "question": "Kommersiya banklarının nizamnamə kapitalının həcmi.....manatdır:",
     "options": [
       {
+        "text": "50 mln",
+        "correct": true
+      },
+      {
         "text": "500 mln",
         "correct": false
       },
       {
         "text": "100 mln",
         "correct": false
-      },
-      {
-        "text": "50 mln",
-        "correct": true
       },
       {
         "text": "1 mln",
@@ -342,6 +342,10 @@ const QUESTIONS = [
     "question": "Bağlama nədir:",
     "options": [
       {
+        "text": "eyni nominal dəyərdən olan 10 (on) ədəd dəstdən (1000) vərəq ibarət əskinazların bağlanmasıdır",
+        "correct": true
+      },
+      {
         "text": "əskinazların möhürlənməsidir",
         "correct": false
       },
@@ -352,10 +356,6 @@ const QUESTIONS = [
       {
         "text": "əskinazların Mərkəzi Bankdan alınmasıdır",
         "correct": false
-      },
-      {
-        "text": "eyni nominal dəyərdən olan 10 (on) ədəd dəstdən (1000) vərəq ibarət əskinazların bağlanmasıdır",
-        "correct": true
       },
       {
         "text": "əskinazların xərclənməsidir",
@@ -372,6 +372,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "nağd pul,qiymətli kağızlar,qiymətli metallar,daş-qaşlar,zinət əşyalarıdır, xarici valyuta vəsaitləridir",
+        "correct": true
+      },
+      {
         "text": "trast əməliyyatıdır",
         "correct": false
       },
@@ -382,10 +386,6 @@ const QUESTIONS = [
       {
         "text": "kredit pullardır",
         "correct": false
-      },
-      {
-        "text": "nağd pul,qiymətli kağızlar,qiymətli metallar,daş-qaşlar,zinət əşyalarıdır, xarici valyuta vəsaitləridir",
-        "correct": true
       }
     ]
   },
@@ -394,12 +394,12 @@ const QUESTIONS = [
     "question": "İnternet bankçılıq ... əhəmiyyətli dərəcədə şərait yaradır:",
     "options": [
       {
-        "text": "nağdsız ödənişlərə",
-        "correct": true
-      },
-      {
         "text": "qalıq ödənişlərinə",
         "correct": false
+      },
+      {
+        "text": "nağdsız ödənişlərə",
+        "correct": true
       },
       {
         "text": "idxal ödənişlərinə",
@@ -454,12 +454,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hamısı",
-        "correct": true
-      },
-      {
         "text": "ödənişlik-(% faizini ödəmə)",
         "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
       },
       {
         "text": "qaytarılmaq",
@@ -472,6 +472,10 @@ const QUESTIONS = [
     "question": "Pul banderolu nədir?",
     "options": [
       {
+        "text": "pul dəstlərini bağlamaq üçün Mərkəzi Bank tərəfindən təsdiq edilmiş vahid formalı lentdir",
+        "correct": true
+      },
+      {
         "text": "pulları saxlamaq üçün xüsusi yerdir",
         "correct": false
       },
@@ -482,10 +486,6 @@ const QUESTIONS = [
       {
         "text": "eyni nominal dəyərdən olan əskinaz toplusudur",
         "correct": false
-      },
-      {
-        "text": "pul dəstlərini bağlamaq üçün Mərkəzi Bank tərəfindən təsdiq edilmiş vahid formalı lentdir",
-        "correct": true
       },
       {
         "text": "pul bağlamaq üçün 5 tərəfli lentdir",
@@ -506,16 +506,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "lizinq alan istənilən hüquqi və fiziki şəxs",
+        "correct": true
+      },
+      {
         "text": "hüquqi şəxs olan kredit göndərən",
         "correct": false
       },
       {
         "text": "Mərkəzi Bank",
         "correct": false
-      },
-      {
-        "text": "lizinq alan istənilən hüquqi və fiziki şəxs",
-        "correct": true
       }
     ]
   },
@@ -523,10 +523,6 @@ const QUESTIONS = [
     "num": 21,
     "question": "Banklarda cəlb olunmuş vəsaitlər hansı əməliyyatlar hesabına səfərbər edilir:",
     "options": [
-      {
-        "text": "bankın passiv əməliyyatları",
-        "correct": true
-      },
       {
         "text": "mənfəət əməliyyatları",
         "correct": false
@@ -538,6 +534,10 @@ const QUESTIONS = [
       {
         "text": "trast əməliyyatları",
         "correct": false
+      },
+      {
+        "text": "bankın passiv əməliyyatları",
+        "correct": true
       },
       {
         "text": "bankın aktiv əməliyyatları",
@@ -576,12 +576,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bütün bank əməliyyatlarını həyata keçirir",
-        "correct": true
-      },
-      {
         "text": "heç bir bank əməliyyatını həyata keçirmir",
         "correct": false
+      },
+      {
+        "text": "bütün bank əməliyyatlarını həyata keçirir",
+        "correct": true
       },
       {
         "text": "kommersiya banklarını lisenziyalaşdırır",
@@ -606,12 +606,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qoyuluşların təhlükəsizliyi və onların artımıdır",
-        "correct": true
-      },
-      {
         "text": "vəsaitlərin ödəncliyini təmin etməməkdir",
         "correct": false
+      },
+      {
+        "text": "qoyuluşların təhlükəsizliyi və onların artımıdır",
+        "correct": true
       }
     ]
   },
@@ -632,12 +632,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "klirinq, depozit",
-        "correct": false
-      },
-      {
         "text": "xarici valyuta, qiymətli metallar və s.",
         "correct": true
+      },
+      {
+        "text": "klirinq, depozit",
+        "correct": false
       }
     ]
   },
@@ -646,12 +646,12 @@ const QUESTIONS = [
     "question": "Əməliyyat günü ərzində kassa əməliyyatlarının həyata keçirildiyi kassadır:",
     "options": [
       {
-        "text": "gündüz kassası",
-        "correct": true
-      },
-      {
         "text": "gizli mədaxil kassası",
         "correct": false
+      },
+      {
+        "text": "gündüz kassası",
+        "correct": true
       },
       {
         "text": "gizli məxaric kassası",
@@ -676,16 +676,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "maliyyə riskləri,funksional risklər, xarici risklər",
-        "correct": true
-      },
-      {
         "text": "yalnız müştərilərin vəsaitlərinin riskləri",
         "correct": false
       },
       {
         "text": "qapalı və açıq risklər",
         "correct": false
+      },
+      {
+        "text": "maliyyə riskləri,funksional risklər, xarici risklər",
+        "correct": true
       },
       {
         "text": "bank riskləri, depozit riskləri",
@@ -706,16 +706,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "SWİFT(Beynəlxalq Maliyyə Telekommunikasiya Sistemi)",
-        "correct": true
-      },
-      {
         "text": "AZİPS(Real Vaxt Rejimində işləyən Banklararası Milli Hesablaşma Sistemi)",
         "correct": false
       },
       {
         "text": "HÖP(Hökümət Ödəniş Portalı)",
         "correct": false
+      },
+      {
+        "text": "SWİFT(Beynəlxalq Maliyyə Telekommunikasiya Sistemi)",
+        "correct": true
       }
     ]
   },
@@ -732,12 +732,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit müqaviləsinin müddəti bitdikdən sonra",
-        "correct": false
-      },
-      {
         "text": "Müqavilə şərtləri əsasında",
         "correct": true
+      },
+      {
+        "text": "kredit müqaviləsinin müddəti bitdikdən sonra",
+        "correct": false
       },
       {
         "text": "bankın verdiyi ssudalardan faizlərin tutulması yolu ilə",
@@ -776,16 +776,16 @@ const QUESTIONS = [
     "question": "Azərbaycan Respublikası Prezidentinin 2018-ci il 6 sentyabr tarixli sərəncamı ilə 2018-2020-ci illərdə Azərbaycan Respublikası rəqəmsal ödənişlərin genişləndirilməsi  üzrə Dövlət Programı çərçivəsində Mərkəzi Bank tərəfindən yaradılmışdır:",
     "options": [
       {
-        "text": "Ani Ödənişlər Sistemi",
-        "correct": true
-      },
-      {
         "text": "SWİFT Sistemi",
         "correct": false
       },
       {
         "text": "KÖMİS Sistemi",
         "correct": false
+      },
+      {
+        "text": "Ani Ödənişlər Sistemi",
+        "correct": true
       },
       {
         "text": "AZİPS Sistemi",
@@ -806,16 +806,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Qanunvericiliklə müəyyən edilmiş qaydaya əsasən icazə verilir",
-        "correct": true
-      },
-      {
         "text": "fiziki şəxslər icazə verdikdə mümkündür",
         "correct": false
       },
       {
         "text": "hesablaşma kassa mərkəzi tərəfindən icazə verildiyi zaman mümkündür",
         "correct": false
+      },
+      {
+        "text": "Qanunvericiliklə müəyyən edilmiş qaydaya əsasən icazə verilir",
+        "correct": true
       },
       {
         "text": "fiziki şəxslər tərəfindən müəssisəyə icazə verildikdə mümkündür",
@@ -854,12 +854,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "pulun kreditə çevrilməsinə",
-        "correct": false
-      },
-      {
         "text": "bir valyuta növünün digərinə dəyişdirilməsinə",
         "correct": true
+      },
+      {
+        "text": "pulun kreditə çevrilməsinə",
+        "correct": false
       },
       {
         "text": "pulun dəfinəyə çevrilməsinə",
@@ -898,10 +898,6 @@ const QUESTIONS = [
     "question": "Mərkəzi Bankın əsas resurs mənbəyidir:",
     "options": [
       {
-        "text": "banknot emissiyası",
-        "correct": true
-      },
-      {
         "text": "hesablara vəsaitləri köçürmək",
         "correct": false
       },
@@ -912,6 +908,10 @@ const QUESTIONS = [
       {
         "text": "banknot ekspansiyası",
         "correct": false
+      },
+      {
+        "text": "banknot emissiyası",
+        "correct": true
       },
       {
         "text": "sərbəst vəsaitlər",
@@ -928,10 +928,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "\"Banklar Haqqında\" Azərbaycan Respublikasının Qanununa əsasən",
-        "correct": true
-      },
-      {
         "text": "Bank Olmayan Kredit Təşkilatları (BOKT) Haqqında Qanuna əsasən",
         "correct": false
       },
@@ -942,6 +938,10 @@ const QUESTIONS = [
       {
         "text": "\"Qiymətli Kağızlar Haqqında\" Qanuna əsasən",
         "correct": false
+      },
+      {
+        "text": "\"Banklar Haqqında\" Azərbaycan Respublikasının Qanununa əsasən",
+        "correct": true
       }
     ]
   },
@@ -976,16 +976,16 @@ const QUESTIONS = [
     "question": "Banklar arasında hesablaşmalar:",
     "options": [
       {
+        "text": "Müxbir hesablar vasitəsi ilə aparılır",
+        "correct": true
+      },
+      {
         "text": "Xəzinədarlıq hesabları üzrə aparılır",
         "correct": false
       },
       {
         "text": "depozit hesabları üzrə aparılır",
         "correct": false
-      },
-      {
-        "text": "Müxbir hesablar vasitəsi ilə aparılır",
-        "correct": true
       },
       {
         "text": "bankların Maliyyə Nazirliyində",
@@ -997,6 +997,10 @@ const QUESTIONS = [
     "num": 40,
     "question": "Bank hesablarının növləridir:",
     "options": [
+      {
+        "text": "cari hesablar, cari subhesablar, əmanət hesabları, müxbir hesablar",
+        "correct": true
+      },
       {
         "text": "məbləğ hesabları, müxbir hesablar",
         "correct": false
@@ -1012,10 +1016,6 @@ const QUESTIONS = [
       {
         "text": "əsas və cari hesablar, kredit hesablar",
         "correct": false
-      },
-      {
-        "text": "cari hesablar, cari subhesablar, əmanət hesabları, müxbir hesablar",
-        "correct": true
       }
     ]
   },
@@ -1024,16 +1024,16 @@ const QUESTIONS = [
     "question": "Kommersiya banklarının yaradılması və təşkili hansı variantda doğru verilib?",
     "options": [
       {
-        "text": "Açıq Səhmdar Cəmiyyəti formasında yaradılır və fəaliyyət göstərir",
-        "correct": true
-      },
-      {
         "text": "Qarışıq Səhmdar Cəmiyyəti formasında yaradılır",
         "correct": false
       },
       {
         "text": "Qapalı Səhmdar Cəmiyyəti formasında yaradılır",
         "correct": false
+      },
+      {
+        "text": "Açıq Səhmdar Cəmiyyəti formasında yaradılır və fəaliyyət göstərir",
+        "correct": true
       },
       {
         "text": "Açıq və Qapalı Səhmdar Cəmiyyəti formasında yaradılır və fəaliyyət göstərir",
@@ -1054,12 +1054,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "AZİPS",
-        "correct": true
-      },
-      {
         "text": "SVOP",
         "correct": false
+      },
+      {
+        "text": "AZİPS",
+        "correct": true
       },
       {
         "text": "BOKT",
@@ -1090,16 +1090,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
         "text": "bankların müştəriləri",
         "correct": false
       },
       {
         "text": "Universal banklar",
         "correct": false
-      },
-      {
-        "text": "Mərkəzi Bank",
-        "correct": true
       },
       {
         "text": "İxtisaslaşmış banklar",
@@ -1111,6 +1111,10 @@ const QUESTIONS = [
     "num": 45,
     "question": "Kredit təşkilatlarının Ali İdarəetmə Orqanı ...... Ümumi Yığıncağıdır:",
     "options": [
+      {
+        "text": "Təsisçilərin",
+        "correct": true
+      },
       {
         "text": "müştərilərin",
         "correct": false
@@ -1126,10 +1130,6 @@ const QUESTIONS = [
       {
         "text": "İdarə Heyyətinin",
         "correct": false
-      },
-      {
-        "text": "Təsisçilərin",
-        "correct": true
       }
     ]
   },
@@ -1138,12 +1138,12 @@ const QUESTIONS = [
     "question": "AZİPS -də(Real Vaxt Rejimində Banklararası Milli Hesablaşmalar Sistemi) hesablaşmalar hansı valyutada aparılır?",
     "options": [
       {
-        "text": "milli və xarici",
-        "correct": true
-      },
-      {
         "text": "yalnız dollar və rubl ilə",
         "correct": false
+      },
+      {
+        "text": "milli və xarici",
+        "correct": true
       },
       {
         "text": "yalnız rubl ilə",
@@ -1168,10 +1168,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "riskli vəsait qoyuluşudur",
-        "correct": true
-      },
-      {
         "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT) riskli olmayan əməliyyatıdır",
         "correct": false
       },
@@ -1182,6 +1178,10 @@ const QUESTIONS = [
       {
         "text": "rezidentlərin etibarlı vəsait qoyuluşudur",
         "correct": false
+      },
+      {
+        "text": "riskli vəsait qoyuluşudur",
+        "correct": true
       }
     ]
   },
@@ -1198,12 +1198,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "riskli vəsait qoyuluşudur",
-        "correct": true
-      },
-      {
         "text": "rezidentlərin etibarlı vəsait qoyuluşudur",
         "correct": false
+      },
+      {
+        "text": "riskli vəsait qoyuluşudur",
+        "correct": true
       },
       {
         "text": "Bank Olmayan Kredit Təşkilatlarının (BOKT) riskli omayan əməliyyatıdır",
@@ -1224,12 +1224,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "gizli hesab",
-        "correct": false
-      },
-      {
         "text": "\"Nostro\" hesab",
         "correct": true
+      },
+      {
+        "text": "gizli hesab",
+        "correct": false
       },
       {
         "text": "hesablaşma hesabı",
@@ -1254,12 +1254,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "mənfəət əldə etmək",
-        "correct": false
-      },
-      {
         "text": "uçot-ssuda əməliyyatları, qızıl və valyuta ehtiyatlarının idarə olunması və s.",
         "correct": true
+      },
+      {
+        "text": "mənfəət əldə etmək",
+        "correct": false
       }
     ]
   },
@@ -1294,6 +1294,10 @@ const QUESTIONS = [
     "question": "İxtisaslaşma səviyyəsinə görə banklar ayrılır:",
     "options": [
       {
+        "text": "universal və ixtisaslaşmış",
+        "correct": true
+      },
+      {
         "text": "yalnız ixtisaslaşmış",
         "correct": false
       },
@@ -1304,10 +1308,6 @@ const QUESTIONS = [
       {
         "text": "Mərkəzi Bankın",
         "correct": false
-      },
-      {
-        "text": "universal və ixtisaslaşmış",
-        "correct": true
       }
     ]
   },
@@ -1320,12 +1320,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "regional, regionlararası, milli və beynəlxalq banklara",
-        "correct": false
-      },
-      {
         "text": "universal və ixtisaslaşmış banklara",
         "correct": true
+      },
+      {
+        "text": "regional, regionlararası, milli və beynəlxalq banklara",
+        "correct": false
       },
       {
         "text": "xarici kapitallı banklara",
@@ -1364,12 +1364,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "sərbəstlik",
-        "correct": false
-      },
-      {
         "text": "faizin ödənilməsi (ödənişlik)",
         "correct": true
+      },
+      {
+        "text": "sərbəstlik",
+        "correct": false
       }
     ]
   },
@@ -1377,10 +1377,6 @@ const QUESTIONS = [
     "num": 56,
     "question": "Nağdsız dövriyyə … dövriyyəsini əhatə edir:",
     "options": [
-      {
-        "text": "əmtəə və qeyri əmtəə dövriyyəsini",
-        "correct": true
-      },
       {
         "text": "əsas kommersiya ödənişlərinin",
         "correct": false
@@ -1392,6 +1388,10 @@ const QUESTIONS = [
       {
         "text": "yalnız qeyri-əmtəə",
         "correct": false
+      },
+      {
+        "text": "əmtəə və qeyri əmtəə dövriyyəsini",
+        "correct": true
       },
       {
         "text": "kassa",
@@ -1430,16 +1430,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "cari bazar məzənnəsi ilə bir valyutanın digəri ilə satın alınmasıdır",
-        "correct": true
-      },
-      {
         "text": "bir valyutanın digərinə bölünməsidir",
         "correct": false
       },
       {
         "text": "bir valyutanın digərinə klirinq edilməsidir",
         "correct": false
+      },
+      {
+        "text": "cari bazar məzənnəsi ilə bir valyutanın digəri ilə satın alınmasıdır",
+        "correct": true
       }
     ]
   },
@@ -1456,12 +1456,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kənar şəxslərin təşəbbüsü ilə",
-        "correct": false
-      },
-      {
         "text": "tərəflərdən birinin təşəbbüsü ilə",
         "correct": true
+      },
+      {
+        "text": "kənar şəxslərin təşəbbüsü ilə",
+        "correct": false
       },
       {
         "text": "Mərkəzi Bankın təşəbbüsü ilə",
@@ -1473,6 +1473,10 @@ const QUESTIONS = [
     "num": 60,
     "question": "Kredit üçün xarakterik olan nədir:",
     "options": [
+      {
+        "text": "istifadəyə görə ödəniş",
+        "correct": true
+      },
       {
         "text": "qaytarılan olmaması",
         "correct": false
@@ -1488,10 +1492,6 @@ const QUESTIONS = [
       {
         "text": "münasibətlərin əvəzsiz olması",
         "correct": false
-      },
-      {
-        "text": "istifadəyə görə ödəniş",
-        "correct": true
       }
     ]
   },
@@ -1500,16 +1500,16 @@ const QUESTIONS = [
     "question": "Kommersiya bankının passiv əməliyyatıdır .......:",
     "options": [
       {
-        "text": "depozit",
-        "correct": true
-      },
-      {
         "text": "sənədləşmə",
         "correct": false
       },
       {
         "text": "innovasiya",
         "correct": false
+      },
+      {
+        "text": "depozit",
+        "correct": true
       },
       {
         "text": "faktorinq",
@@ -1530,10 +1530,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "fiziki şəxslərə",
-        "correct": true
-      },
-      {
         "text": "yalnız bankın səhmdarlarının filiallarına",
         "correct": false
       },
@@ -1544,6 +1540,10 @@ const QUESTIONS = [
       {
         "text": "trast şirkətinin filialına",
         "correct": false
+      },
+      {
+        "text": "fiziki şəxslərə",
+        "correct": true
       }
     ]
   },
@@ -1574,12 +1574,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Bank Olmayan Kredit Təşkilatları (BOKT)",
-        "correct": true
-      },
-      {
         "text": "bank filiallarının filialları",
         "correct": false
+      },
+      {
+        "text": "Bank Olmayan Kredit Təşkilatları (BOKT)",
+        "correct": true
       }
     ]
   },
@@ -1592,12 +1592,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kommersiya banklarının aktiv",
-        "correct": true
-      },
-      {
         "text": "inkassasiya fəaliyyətinin yaxşılaşdırılmasıdır",
         "correct": false
+      },
+      {
+        "text": "kommersiya banklarının aktiv",
+        "correct": true
       }
     ]
   },
@@ -1606,16 +1606,16 @@ const QUESTIONS = [
     "question": "Kommersiya banklarının aktiv əməliyyatlarına aiddir:",
     "options": [
       {
-        "text": "kredit əməliyyatları, investisiya əməliyyatları və s.",
-        "correct": true
-      },
-      {
         "text": "yalnız kassa əməliyyatları",
         "correct": false
       },
       {
         "text": "kredit əməliyyatları,passiv əməliyyatlar,kassa əməliyyatları",
         "correct": false
+      },
+      {
+        "text": "kredit əməliyyatları, investisiya əməliyyatları və s.",
+        "correct": true
       },
       {
         "text": "yalnız investisiya əməliyyatları",
@@ -1666,12 +1666,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "İdarə Heyəti, Mərkəzi Aparat, Ərazi İdarələri",
-        "correct": true
-      },
-      {
         "text": "Bank Olmayan Kredit Təşkilatları (BOKT)",
         "correct": false
+      },
+      {
+        "text": "İdarə Heyəti, Mərkəzi Aparat, Ərazi İdarələri",
+        "correct": true
       },
       {
         "text": "fiziki şəxslər, auditorlar",
@@ -1684,6 +1684,10 @@ const QUESTIONS = [
     "question": "Kommersiya bankının passiv əməliyyatlarına ............. aiddir:",
     "options": [
       {
+        "text": "vəsaitlərin cəlb edilməsi",
+        "correct": true
+      },
+      {
         "text": "müştərilərə sənəd xidmətinin göstərilməsi",
         "correct": false
       },
@@ -1694,10 +1698,6 @@ const QUESTIONS = [
       {
         "text": "trast əməliyyatları",
         "correct": false
-      },
-      {
-        "text": "vəsaitlərin cəlb edilməsi",
-        "correct": true
       },
       {
         "text": "kreditlərin verilməsi",
@@ -1714,6 +1714,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "mənfəət əldə etmək",
+        "correct": true
+      },
+      {
         "text": "səhmdarlara dividend ödəmək",
         "correct": false
       },
@@ -1724,10 +1728,6 @@ const QUESTIONS = [
       {
         "text": "müəssisələrə kassa xidməti göstərməmək",
         "correct": false
-      },
-      {
-        "text": "mənfəət əldə etmək",
-        "correct": true
       }
     ]
   },
@@ -1736,16 +1736,16 @@ const QUESTIONS = [
     "question": "Qiymətli kağızlara aid edilir:",
     "options": [
       {
-        "text": "hamısı",
-        "correct": true
-      },
-      {
         "text": "sertifikatlar",
         "correct": false
       },
       {
         "text": "veksellər",
         "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
       },
       {
         "text": "istiqrazlar",
@@ -1766,10 +1766,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müxtəlif iqtisadi subyektlər",
-        "correct": true
-      },
-      {
         "text": "qeyri Bank Olmayan Kredit Təşkilatları (BOKT)",
         "correct": false
       },
@@ -1780,6 +1776,10 @@ const QUESTIONS = [
       {
         "text": "bankın kredit idarəsi",
         "correct": false
+      },
+      {
+        "text": "müxtəlif iqtisadi subyektlər",
+        "correct": true
       }
     ]
   },
@@ -1796,16 +1796,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bankın filiallarına lisenziya vermək",
-        "correct": true
-      },
-      {
         "text": "dövri olaraq bankın hesabatını müzakirə etmək",
         "correct": false
       },
       {
         "text": "bankın nizamnaməsini qəbul etmək",
         "correct": false
+      },
+      {
+        "text": "bankın filiallarına lisenziya vermək",
+        "correct": true
       }
     ]
   },
@@ -1813,6 +1813,10 @@ const QUESTIONS = [
     "num": 74,
     "question": "Kapital qoyuluşunun maliyyələşdirmə mənbəələrinə .....aiddir?",
     "options": [
+      {
+        "text": "hamısı",
+        "correct": true
+      },
       {
         "text": "bələdiyyə vəsaitləri",
         "correct": false
@@ -1824,10 +1828,6 @@ const QUESTIONS = [
       {
         "text": "pensiya fondunun vəsaitləri",
         "correct": false
-      },
-      {
-        "text": "hamısı",
-        "correct": true
       },
       {
         "text": "dövlət büdcə vəsaitləri",
@@ -1850,12 +1850,12 @@ const QUESTIONS = [
     "question": "Mərkəzi Bankın passiv əməliyyatıdır:",
     "options": [
       {
-        "text": "banknot emissiyası",
-        "correct": true
-      },
-      {
         "text": "əhaliyə kredit verilməsi",
         "correct": false
+      },
+      {
+        "text": "banknot emissiyası",
+        "correct": true
       },
       {
         "text": "banklara qısa müddətli ssuda verilməsi",
@@ -1886,16 +1886,16 @@ const QUESTIONS = [
     "question": "Kredit təşkilatının buraxdığı səhmlər hansı qurum tərəfindən dövlət qeydiyyatına alınır ?",
     "options": [
       {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
         "text": "kommersiya bankları",
         "correct": false
       },
       {
         "text": "Maliyyə Nazirliyi",
         "correct": false
-      },
-      {
-        "text": "Mərkəzi Bank",
-        "correct": true
       },
       {
         "text": "Nazirlər Kabineti",
@@ -1912,6 +1912,10 @@ const QUESTIONS = [
     "question": "Banklar…. görə universal və ixtisaslaşmış banklara bölünürlər:",
     "options": [
       {
+        "text": "ixtisaslaşma səviyyəsinə görə",
+        "correct": true
+      },
+      {
         "text": "mülkiyyət növünə",
         "correct": false
       },
@@ -1922,10 +1926,6 @@ const QUESTIONS = [
       {
         "text": "fəaliyyət miqyaslarına",
         "correct": false
-      },
-      {
-        "text": "ixtisaslaşma səviyyəsinə görə",
-        "correct": true
       },
       {
         "text": "sayına görə",
@@ -1946,16 +1946,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
         "text": "Banklar Assosiasiyası tərəfindən",
         "correct": false
       },
       {
         "text": "Maliyyə Nazirliyi tərəfindən",
         "correct": false
-      },
-      {
-        "text": "Mərkəzi Bank",
-        "correct": true
       }
     ]
   },
@@ -1994,10 +1994,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müstəqildir",
-        "correct": true
-      },
-      {
         "text": "Prezidentə hesabat verməlidir",
         "correct": false
       },
@@ -2008,6 +2004,10 @@ const QUESTIONS = [
       {
         "text": "Auditorlar Palatasına hesabat verir",
         "correct": false
+      },
+      {
+        "text": "müstəqildir",
+        "correct": true
       }
     ]
   },
@@ -2024,16 +2024,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "istehlak",
-        "correct": true
-      },
-      {
         "text": "kommersiya",
         "correct": false
       },
       {
         "text": "blank",
         "correct": false
+      },
+      {
+        "text": "istehlak",
+        "correct": true
       }
     ]
   },
@@ -2054,12 +2054,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "inkassator",
-        "correct": true
-      },
-      {
         "text": "mühafizəçi",
         "correct": false
+      },
+      {
+        "text": "inkassator",
+        "correct": true
       }
     ]
   },
@@ -2080,12 +2080,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Universal Banklar",
-        "correct": false
-      },
-      {
         "text": "Banklar Assosasiyası",
         "correct": true
+      },
+      {
+        "text": "Universal Banklar",
+        "correct": false
       }
     ]
   },
@@ -2093,10 +2093,6 @@ const QUESTIONS = [
     "num": 86,
     "question": "Nağd pul və digər qiymətlilərin daşınması prosesi adlanır :",
     "options": [
-      {
-        "text": "inkassasiya",
-        "correct": true
-      },
       {
         "text": "deflyasiya",
         "correct": false
@@ -2112,6 +2108,10 @@ const QUESTIONS = [
       {
         "text": "inflyasiya",
         "correct": false
+      },
+      {
+        "text": "inkassasiya",
+        "correct": true
       }
     ]
   },
@@ -2124,16 +2124,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "restruksion",
-        "correct": true
-      },
-      {
         "text": "investision",
         "correct": false
       },
       {
         "text": "inflyasion",
         "correct": false
+      },
+      {
+        "text": "restruksion",
+        "correct": true
       },
       {
         "text": "sibsidion",
@@ -2154,12 +2154,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "əhalinin pul gəlirlərinin",
-        "correct": true
-      },
-      {
         "text": "lizinq",
         "correct": false
+      },
+      {
+        "text": "əhalinin pul gəlirlərinin",
+        "correct": true
       },
       {
         "text": "forfeytinq",
@@ -2172,6 +2172,10 @@ const QUESTIONS = [
     "question": "Banklar tərəfindən vəsaitin cəlb edilməsi əməliyyatıdır:",
     "options": [
       {
+        "text": "passiv",
+        "correct": true
+      },
+      {
         "text": "emissiya",
         "correct": false
       },
@@ -2182,10 +2186,6 @@ const QUESTIONS = [
       {
         "text": "faktorinq",
         "correct": false
-      },
-      {
-        "text": "passiv",
-        "correct": true
       },
       {
         "text": "klirinq",
@@ -2206,16 +2206,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "mənfəət",
+        "correct": true
+      },
+      {
         "text": "ipoteka əməliyyatları",
         "correct": false
       },
       {
         "text": "lizinq əməliyyatı",
         "correct": false
-      },
-      {
-        "text": "mənfəət",
-        "correct": true
       }
     ]
   },
@@ -2224,16 +2224,16 @@ const QUESTIONS = [
     "question": "Depozit dedikdə ... başa düşülür:",
     "options": [
       {
-        "text": "fiziki və hüquqi şəxslərin banka vəsait qoyuluşları",
-        "correct": true
-      },
-      {
         "text": "yalnız fiziki şəxslərin gəlirləri",
         "correct": false
       },
       {
         "text": "yalnız hüquqi şəxslərin gəlirləri",
         "correct": false
+      },
+      {
+        "text": "fiziki və hüquqi şəxslərin banka vəsait qoyuluşları",
+        "correct": true
       },
       {
         "text": "sığorta gəlirləri",
@@ -2322,10 +2322,6 @@ const QUESTIONS = [
     "question": "Təklif edilən ifadələrdən kreditin funksiyasını ayırın:",
     "options": [
       {
-        "text": "yenidənbölgü funksiyası",
-        "correct": true
-      },
-      {
         "text": "təkrar istehsal",
         "correct": false
       },
@@ -2336,6 +2332,10 @@ const QUESTIONS = [
       {
         "text": "müvəqqəti azad vəsaitlərin səfərbər olunması",
         "correct": false
+      },
+      {
+        "text": "yenidənbölgü funksiyası",
+        "correct": true
       },
       {
         "text": "optimallaşdırma",
@@ -2404,16 +2404,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "debet kartları",
+        "correct": true
+      },
+      {
         "text": "super kartlar",
         "correct": false
       },
       {
         "text": "müddətsiz kartlar",
         "correct": false
-      },
-      {
-        "text": "debet kartları",
-        "correct": true
       },
       {
         "text": "əmtəə kartları",
@@ -2438,12 +2438,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bankların filialları",
-        "correct": false
-      },
-      {
         "text": "Mərkəzi Bank",
         "correct": true
+      },
+      {
+        "text": "bankların filialları",
+        "correct": false
       }
     ]
   },
@@ -2451,10 +2451,6 @@ const QUESTIONS = [
     "num": 101,
     "question": "Kommersiya banklarının kassa əməliyyatıdır:",
     "options": [
-      {
-        "text": "nağd pulların və digər qiymətlilərin",
-        "correct": true
-      },
       {
         "text": "nağd pulların başqa hesablara köçürülməsi",
         "correct": false
@@ -2470,6 +2466,10 @@ const QUESTIONS = [
       {
         "text": "qiymətlilərin satılması",
         "correct": false
+      },
+      {
+        "text": "nağd pulların və digər qiymətlilərin",
+        "correct": true
       }
     ]
   },
@@ -2478,12 +2478,12 @@ const QUESTIONS = [
     "question": "Mərkəzi Bank hansı Qanuna əsasən fəaliyyət göstərir:",
     "options": [
       {
-        "text": "\"Əsas Bank Haqqında\" Qanuna əsasən",
-        "correct": false
-      },
-      {
         "text": "\"Mərkəzi Bank Haqqında\" Qanuna əsasən",
         "correct": true
+      },
+      {
+        "text": "\"Əsas Bank Haqqında\" Qanuna əsasən",
+        "correct": false
       },
       {
         "text": "\"Mərkəzi Bankın fəaliyyəti Haqqında Qanuna\" əsasən",
@@ -2512,16 +2512,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "XÖHKS",
-        "correct": true
-      },
-      {
         "text": "kredit sistemi",
         "correct": false
       },
       {
         "text": "SWİFT",
         "correct": false
+      },
+      {
+        "text": "XÖHKS",
+        "correct": true
       }
     ]
   },
@@ -2552,6 +2552,10 @@ const QUESTIONS = [
     "question": "Bankların yaradılması və təşkili hansı variantda doğru verilib?",
     "options": [
       {
+        "text": "Açıq Səhmdar Cəmiyyəti formasında yaradılır və fəaliyyət göstərir",
+        "correct": true
+      },
+      {
         "text": "Qapalı Səhmdar Cəmiyyəti formasında yaradılır",
         "correct": false
       },
@@ -2566,10 +2570,6 @@ const QUESTIONS = [
       {
         "text": "əsas və qeyri məhdud Məsuliyyətli Cəmiyyət formasında yaradılır",
         "correct": false
-      },
-      {
-        "text": "Açıq Səhmdar Cəmiyyəti formasında yaradılır və fəaliyyət göstərir",
-        "correct": true
       }
     ]
   },
@@ -2577,10 +2577,6 @@ const QUESTIONS = [
     "num": 106,
     "question": "Fəaliyyət ölçülərinə görə banklar ayrılır:",
     "options": [
-      {
-        "text": "kiçik, orta, sistem əhəmiyyətli banklara",
-        "correct": true
-      },
       {
         "text": "kiçik,səhmdar,kommersiya banklarına",
         "correct": false
@@ -2596,6 +2592,10 @@ const QUESTIONS = [
       {
         "text": "vasitəçilik,mərkəzi,filiallı",
         "correct": false
+      },
+      {
+        "text": "kiçik, orta, sistem əhəmiyyətli banklara",
+        "correct": true
       }
     ]
   },
@@ -2604,12 +2604,12 @@ const QUESTIONS = [
     "question": "Bankların mənafeyini  müdafiə etmək üçün ictimai təşkilat kimi yaradılır:",
     "options": [
       {
-        "text": "investisiya fondları",
-        "correct": false
-      },
-      {
         "text": "Banklar Assosiasiyası",
         "correct": true
+      },
+      {
+        "text": "investisiya fondları",
+        "correct": false
       },
       {
         "text": "Mərkəzi Bankın ərazi idarələri",
@@ -2718,12 +2718,12 @@ const QUESTIONS = [
     "question": "İqtisadiyyatın …. şəraitində bank sistemi fəal inkişaf edir:",
     "options": [
       {
-        "text": "zəif",
-        "correct": false
-      },
-      {
         "text": "artım",
         "correct": true
+      },
+      {
+        "text": "zəif",
+        "correct": false
       },
       {
         "text": "hiperinflyasiya",
@@ -2752,16 +2752,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hesablaşma və kreditləşmədə vasitəçidir",
-        "correct": true
-      },
-      {
         "text": "bank filiallarına lisenziya verən hüquqi şəxsdir",
         "correct": false
       },
       {
         "text": "Maliyyə Nazirliynin struktur bölməsidir",
         "correct": false
+      },
+      {
+        "text": "hesablaşma və kreditləşmədə vasitəçidir",
+        "correct": true
       }
     ]
   },
@@ -2769,6 +2769,10 @@ const QUESTIONS = [
     "num": 114,
     "question": "Kommersiya bankı …. :",
     "options": [
+      {
+        "text": "hesablaşma və kreditləşmədə vasitəçidir",
+        "correct": true
+      },
       {
         "text": "Mərkəzi Bankın struktur bölməsidir",
         "correct": false
@@ -2782,10 +2786,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hesablaşma və kreditləşmədə vasitəçidir",
-        "correct": true
-      },
-      {
         "text": "bank filiallarına lisenziya verən fiziki şəxsdir",
         "correct": false
       }
@@ -2795,6 +2795,10 @@ const QUESTIONS = [
     "num": 115,
     "question": "Mərkəzi Bank kommersiya banklarına lisenziya (xüsusi razılıq) verməkdən imtina edə bilərmi?",
     "options": [
+      {
+        "text": "səbəblər göstərilməklə imtina edə bilər",
+        "correct": true
+      },
       {
         "text": "imtina edə bilməz",
         "correct": false
@@ -2810,10 +2814,6 @@ const QUESTIONS = [
       {
         "text": "Milli Məclisin qərarı ilə imtina edə bilər",
         "correct": false
-      },
-      {
-        "text": "səbəblər göstərilməklə imtina edə bilər",
-        "correct": true
       }
     ]
   },
@@ -2822,12 +2822,12 @@ const QUESTIONS = [
     "question": "Banknotdur:",
     "options": [
       {
-        "text": "Mərkəzi Bankın kağız pul formasında tədavülə buraxdığı pul nişanları",
-        "correct": true
-      },
-      {
         "text": "dövlət qiymətli kağızları",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın kağız pul formasında tədavülə buraxdığı pul nişanları",
+        "correct": true
       },
       {
         "text": "bankın sadə vekseli",
@@ -2848,12 +2848,12 @@ const QUESTIONS = [
     "question": "Pul hesablaşmaları başlıca olaraq hansı dövriyyəyə əsaslanmalıdır:",
     "options": [
       {
-        "text": "nağd",
-        "correct": false
-      },
-      {
         "text": "nağdsız",
         "correct": true
+      },
+      {
+        "text": "nağd",
+        "correct": false
       },
       {
         "text": "uzunmüddətli pul dövriyyəsinə",
@@ -2900,12 +2900,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "funksiyasıdır",
-        "correct": true
-      },
-      {
         "text": "müqaviləsidir",
         "correct": false
+      },
+      {
+        "text": "funksiyasıdır",
+        "correct": true
       }
     ]
   },
@@ -2926,12 +2926,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "2025",
-        "correct": false
-      },
-      {
         "text": "2001",
         "correct": true
+      },
+      {
+        "text": "2025",
+        "correct": false
       }
     ]
   },
@@ -2939,10 +2939,6 @@ const QUESTIONS = [
     "num": 121,
     "question": "Elektron hesablaşmaları həyata keçirmək üçün istifadə edilən texniki vasitədir:",
     "options": [
-      {
-        "text": "plastik kart",
-        "correct": true
-      },
       {
         "text": "komisyon kartı",
         "correct": false
@@ -2958,6 +2954,10 @@ const QUESTIONS = [
       {
         "text": "klassik kart",
         "correct": false
+      },
+      {
+        "text": "plastik kart",
+        "correct": true
       }
     ]
   },
@@ -2970,16 +2970,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "istiqraz",
-        "correct": true
-      },
-      {
         "text": "şəxsi vəsait",
         "correct": false
       },
       {
         "text": "cəlb olunmuş vəsait",
         "correct": false
+      },
+      {
+        "text": "istiqraz",
+        "correct": true
       },
       {
         "text": "xüsusi kapital",
@@ -2992,16 +2992,16 @@ const QUESTIONS = [
     "question": "Bank krediti, istehlak krediti, ipoteka krediti, beynəlxalq kredit və s. kreditin .....:",
     "options": [
       {
+        "text": "formalarıdır",
+        "correct": true
+      },
+      {
         "text": "sənədidir",
         "correct": false
       },
       {
         "text": "quruluşudur",
         "correct": false
-      },
-      {
-        "text": "formalarıdır",
-        "correct": true
       },
       {
         "text": "əsasıdır",
@@ -3026,12 +3026,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "valyuta",
-        "correct": false
-      },
-      {
         "text": "investisiya",
         "correct": true
+      },
+      {
+        "text": "valyuta",
+        "correct": false
       },
       {
         "text": "birja",
@@ -3056,12 +3056,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "sənəd dövriyyəsi",
-        "correct": false
-      },
-      {
         "text": "vasitəçilik",
         "correct": true
+      },
+      {
+        "text": "sənəd dövriyyəsi",
+        "correct": false
       }
     ]
   },
@@ -3069,10 +3069,6 @@ const QUESTIONS = [
     "num": 126,
     "question": "Kassa əməliyyatlarına aid gün ərzində rəsmiləşdirilmiş sənəd hesab olunur:",
     "options": [
-      {
-        "text": "kassa sənədləri",
-        "correct": true
-      },
       {
         "text": "məxfi sənədlər",
         "correct": false
@@ -3084,6 +3080,10 @@ const QUESTIONS = [
       {
         "text": "debet sənədləri",
         "correct": false
+      },
+      {
+        "text": "kassa sənədləri",
+        "correct": true
       },
       {
         "text": "lazımsız sənədlər",
@@ -3100,10 +3100,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bankın illik mənfəətindən ayırmalar hesabına",
-        "correct": true
-      },
-      {
         "text": "büdcə vəsaitlərinin mənfəəti hesabına",
         "correct": false
       },
@@ -3114,6 +3110,10 @@ const QUESTIONS = [
       {
         "text": "Banklar Assosiasiyasının mənfəəti hesabına",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın illik mənfəətindən ayırmalar hesabına",
+        "correct": true
       }
     ]
   },
@@ -3130,12 +3130,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "ola bilməz",
-        "correct": true
-      },
-      {
         "text": "Statistika Komitəsinin razılığı ilə müflis ola bilər",
         "correct": false
+      },
+      {
+        "text": "ola bilməz",
+        "correct": true
       },
       {
         "text": "lisenziyası ləğv edilə bilər",
@@ -3186,12 +3186,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "2024",
-        "correct": false
-      },
-      {
         "text": "2004",
         "correct": true
+      },
+      {
+        "text": "2024",
+        "correct": false
       }
     ]
   },
@@ -3199,10 +3199,6 @@ const QUESTIONS = [
     "num": 131,
     "question": "Əməliyyat gününün axşamı nağd pul və digər qiymətlilərin qəbulunu həyata keçirən kassadır:",
     "options": [
-      {
-        "text": "axşam kassası",
-        "correct": true
-      },
       {
         "text": "səhər kassası",
         "correct": false
@@ -3214,6 +3210,10 @@ const QUESTIONS = [
       {
         "text": "sistem kassası",
         "correct": false
+      },
+      {
+        "text": "axşam kassası",
+        "correct": true
       },
       {
         "text": "gündüz kassası",
@@ -3230,16 +3230,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bankomat",
-        "correct": true
-      },
-      {
         "text": "bankın pul sayğacı",
         "correct": false
       },
       {
         "text": "bankın pul sayan aparatı",
         "correct": false
+      },
+      {
+        "text": "bankomat",
+        "correct": true
       },
       {
         "text": "kassirin pul sayan aparatı",
@@ -3260,16 +3260,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kassir",
-        "correct": true
-      },
-      {
         "text": "mühasib",
         "correct": false
       },
       {
         "text": "baş mühasib",
         "correct": false
+      },
+      {
+        "text": "kassir",
+        "correct": true
       }
     ]
   },
@@ -3290,12 +3290,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "komisyon haqq",
-        "correct": true
-      },
-      {
         "text": "müştərək haqq",
         "correct": false
+      },
+      {
+        "text": "komisyon haqq",
+        "correct": true
       }
     ]
   },
@@ -3316,12 +3316,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "audit",
-        "correct": false
-      },
-      {
         "text": "trast",
         "correct": true
+      },
+      {
+        "text": "audit",
+        "correct": false
       }
     ]
   },
@@ -3330,12 +3330,12 @@ const QUESTIONS = [
     "question": "Maliyyə və operativ (əməliyyat) lizinq, lizinqin ....:",
     "options": [
       {
-        "text": "formalarıdır",
-        "correct": true
-      },
-      {
         "text": "mahiyyətidir",
         "correct": false
+      },
+      {
+        "text": "formalarıdır",
+        "correct": true
       },
       {
         "text": "məqsədidir",
@@ -3360,16 +3360,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "vasitəçilik",
-        "correct": true
-      },
-      {
         "text": "depozit",
         "correct": false
       },
       {
         "text": "klirinq",
         "correct": false
+      },
+      {
+        "text": "vasitəçilik",
+        "correct": true
       },
       {
         "text": "sığorta",
@@ -3446,12 +3446,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit sistemi, pul sistemi",
-        "correct": false
-      },
-      {
         "text": "AZİPS (Real Vaxt Rejimində Banklararası Milli Hesablaşmalar Sistemi) , XÖHKS (Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi)",
         "correct": true
+      },
+      {
+        "text": "kredit sistemi, pul sistemi",
+        "correct": false
       }
     ]
   },
@@ -3459,10 +3459,6 @@ const QUESTIONS = [
     "num": 141,
     "question": "Nağdsız hesablaşma üsuludur:",
     "options": [
-      {
-        "text": "klirinq",
-        "correct": true
-      },
       {
         "text": "subhesab",
         "correct": false
@@ -3474,6 +3470,10 @@ const QUESTIONS = [
       {
         "text": "trast",
         "correct": false
+      },
+      {
+        "text": "klirinq",
+        "correct": true
       },
       {
         "text": "sığorta",
@@ -3490,10 +3490,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "veksel",
-        "correct": true
-      },
-      {
         "text": "dövriyyə sənədi",
         "correct": false
       },
@@ -3504,6 +3500,10 @@ const QUESTIONS = [
       {
         "text": "akkreditiv",
         "correct": false
+      },
+      {
+        "text": "veksel",
+        "correct": true
       }
     ]
   },
@@ -3520,12 +3520,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müdafiə, operativ, tənzimləmə",
-        "correct": true
-      },
-      {
         "text": "pul vəsaiti, depozit",
         "correct": false
+      },
+      {
+        "text": "müdafiə, operativ, tənzimləmə",
+        "correct": true
       },
       {
         "text": "kredit, faktorinq",
@@ -3576,12 +3576,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank kredit təşkilatlarına lisenziya vermir",
-        "correct": false
-      },
-      {
         "text": "müddətsiz",
         "correct": true
+      },
+      {
+        "text": "Mərkəzi Bank kredit təşkilatlarına lisenziya vermir",
+        "correct": false
       }
     ]
   },
@@ -3589,10 +3589,6 @@ const QUESTIONS = [
     "num": 146,
     "question": "Mərkəzi Bank:",
     "options": [
-      {
-        "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan edir",
-        "correct": true
-      },
       {
         "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan etmək Mərkəzi Bankın lisenziyavermə əməliyyatıdır",
         "correct": false
@@ -3604,6 +3600,10 @@ const QUESTIONS = [
       {
         "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan etmək Mərkəzin Bankın səlahiyyətinə aid deyil",
         "correct": false
+      },
+      {
+        "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan edir",
+        "correct": true
       },
       {
         "text": "manatın xarici valyutalara nisbətdə rəsmi məzənnəsini müəyyən və elan etmək Mərkəzin Bankın iş prinspinə aid deyil",
@@ -3620,10 +3620,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "kredit təşkilatları",
         "correct": false
       },
@@ -3634,6 +3630,10 @@ const QUESTIONS = [
       {
         "text": "bankların filialları",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       }
     ]
   },
@@ -3650,12 +3650,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "\"Banklar və bank fəaliyyəti Haqqında\" Qanun",
-        "correct": true
-      },
-      {
         "text": "\"Depozit Sistemi Haqqında\" Qanun",
         "correct": false
+      },
+      {
+        "text": "\"Banklar və bank fəaliyyəti Haqqında\" Qanun",
+        "correct": true
       },
       {
         "text": "\"Qiymətli Kağızlar Haqqında\" Qanun",
@@ -3676,12 +3676,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "BVF (Beynəlxalq Valyuta Fondu)",
-        "correct": false
-      },
-      {
         "text": "BOKT (Bank Olmayan Kredit Təşkilatı)",
         "correct": true
+      },
+      {
+        "text": "BVF (Beynəlxalq Valyuta Fondu)",
+        "correct": false
       },
       {
         "text": "FES (Federal Ehtiyat Sistemi)",
@@ -3706,12 +3706,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Müəssisə və şirkətlər",
-        "correct": false
-      },
-      {
         "text": "Bank Holdinq şirkəti",
         "correct": true
+      },
+      {
+        "text": "Müəssisə və şirkətlər",
+        "correct": false
       }
     ]
   },
@@ -3720,16 +3720,16 @@ const QUESTIONS = [
     "question": "Pul-kredit tənzimləyicisidir:",
     "options": [
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "İxtisaslaşmış banklar",
         "correct": false
       },
       {
         "text": "Universal banklar",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       },
       {
         "text": "Bank Holdinq şirkətləri",
@@ -3750,10 +3750,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "Kredit təşkilatları",
         "correct": false
       },
@@ -3764,6 +3760,10 @@ const QUESTIONS = [
       {
         "text": "Səhmdar banklar",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       }
     ]
   },
@@ -3780,12 +3780,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "trast",
-        "correct": true
-      },
-      {
         "text": "əmtəə",
         "correct": false
+      },
+      {
+        "text": "trast",
+        "correct": true
       },
       {
         "text": "klirinq",
@@ -3810,12 +3810,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "banknot, metal pullardan",
-        "correct": true
-      },
-      {
         "text": "yalnız xəzinədarlıq biletlərindən",
         "correct": false
+      },
+      {
+        "text": "banknot, metal pullardan",
+        "correct": true
       }
     ]
   },
@@ -3832,12 +3832,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kreditor ölkəsinin, borcalanın ölkəsinin,",
-        "correct": true
-      },
-      {
         "text": "yalnız kredit alan ölkənin valyutasında",
         "correct": false
+      },
+      {
+        "text": "kreditor ölkəsinin, borcalanın ölkəsinin,",
+        "correct": true
       }
     ]
   },
@@ -3846,12 +3846,12 @@ const QUESTIONS = [
     "question": "Azərbaycanın müasir Bank Sistemi …. tiplidir:",
     "options": [
       {
-        "text": "bazar",
-        "correct": true
-      },
-      {
         "text": "keçid",
         "correct": false
+      },
+      {
+        "text": "bazar",
+        "correct": true
       },
       {
         "text": "bölüşdürücü",
@@ -3876,16 +3876,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "maliyyə vasitəçisi",
-        "correct": true
-      },
-      {
         "text": "bank nəzarəti orqanının",
         "correct": false
       },
       {
         "text": "hökümətin xəzinadarı",
         "correct": false
+      },
+      {
+        "text": "maliyyə vasitəçisi",
+        "correct": true
       },
       {
         "text": "son instansiya kreditoru",
@@ -3976,12 +3976,12 @@ const QUESTIONS = [
     "question": "Rəqəmsal bankların strateji istiqamətidir:",
     "options": [
       {
-        "text": "rəqəmsal ödəniş infrastrukturunun",
-        "correct": true
-      },
-      {
         "text": "ödəniş sistemlərinin azalması",
         "correct": false
+      },
+      {
+        "text": "rəqəmsal ödəniş infrastrukturunun",
+        "correct": true
       }
     ]
   },
@@ -3994,12 +3994,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "prinsipidir",
-        "correct": true
-      },
-      {
         "text": "formasıdır",
         "correct": false
+      },
+      {
+        "text": "prinsipidir",
+        "correct": true
       },
       {
         "text": "funksiyasıdır",
@@ -4034,12 +4034,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kommersiya banklarıdır",
-        "correct": false
-      },
-      {
         "text": "Mərkəzi Bankdır",
         "correct": true
+      },
+      {
+        "text": "kommersiya banklarıdır",
+        "correct": false
       },
       {
         "text": "sığorta şirkətləridir",
@@ -4060,16 +4060,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "Səhmdarların Ümumi Yığıncağının qərarı ilə",
+        "correct": true
+      },
+      {
         "text": "Auditorlar Palatasının qərarı ilə",
         "correct": false
       },
       {
         "text": "Maliyyə Nazirliyinin razılığı ilə",
         "correct": false
-      },
-      {
-        "text": "Səhmdarların Ümumi Yığıncağının qərarı ilə",
-        "correct": true
       }
     ]
   },
@@ -4078,12 +4078,12 @@ const QUESTIONS = [
     "question": "Lizinq əməliyyatında iştirak edə bilər:",
     "options": [
       {
-        "text": "lizinq alan istənilən hüquqi və fiziki şəxs",
-        "correct": true
-      },
-      {
         "text": "lisenziyası (xüsusi icazə) olmayan banklar",
         "correct": false
+      },
+      {
+        "text": "lizinq alan istənilən hüquqi və fiziki şəxs",
+        "correct": true
       },
       {
         "text": "hüquqi şəxs olan kredit göndərən",
@@ -4108,10 +4108,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "regional, beynəlxalq banklara",
-        "correct": true
-      },
-      {
         "text": "xırda,orta,iri banklara",
         "correct": false
       },
@@ -4122,6 +4118,10 @@ const QUESTIONS = [
       {
         "text": "filialsız və çox filiallı banklara",
         "correct": false
+      },
+      {
+        "text": "regional, beynəlxalq banklara",
+        "correct": true
       }
     ]
   },
@@ -4138,12 +4138,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bankın passiv əməliyyatları",
-        "correct": true
-      },
-      {
         "text": "bankın aktiv əməliyyatları",
         "correct": false
+      },
+      {
+        "text": "bankın passiv əməliyyatları",
+        "correct": true
       },
       {
         "text": "bankın kredit əməliyyatları",
@@ -4155,6 +4155,10 @@ const QUESTIONS = [
     "num": 169,
     "question": "Hüquqi şəxs kimi bankın malik olduğu kapitalın pul ilə ifadəsi:",
     "options": [
+      {
+        "text": "nizamnamə fondu adlanır",
+        "correct": true
+      },
       {
         "text": "yığım fondu adlanır",
         "correct": false
@@ -4168,10 +4172,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "nizamnamə fondu adlanır",
-        "correct": true
-      },
-      {
         "text": "tənzimləmə fondu adlanır",
         "correct": false
       }
@@ -4181,6 +4181,10 @@ const QUESTIONS = [
     "num": 170,
     "question": "Kreditə olan tələbin artması faiz dərəcəsini:",
     "options": [
+      {
+        "text": "artırır",
+        "correct": true
+      },
       {
         "text": "üzən məzənnə ilə artırır",
         "correct": false
@@ -4196,10 +4200,6 @@ const QUESTIONS = [
       {
         "text": "azaldır",
         "correct": false
-      },
-      {
-        "text": "artırır",
-        "correct": true
       }
     ]
   },
@@ -4208,12 +4208,12 @@ const QUESTIONS = [
     "question": "Aktiv əməliyyatlar bankların ........artırır?",
     "options": [
       {
-        "text": "gəlirini",
-        "correct": true
-      },
-      {
         "text": "statusunu",
         "correct": false
+      },
+      {
+        "text": "gəlirini",
+        "correct": true
       },
       {
         "text": "lisenziyanın ləğv edilməsi təhlükəsini",
@@ -4234,12 +4234,12 @@ const QUESTIONS = [
     "question": "Mərkəzi Bankın aktiv əməliyyatıdır:",
     "options": [
       {
-        "text": "əmanətlərə görə faizlər ödəmək",
-        "correct": false
-      },
-      {
         "text": "dövlətin qiymətli kağızlarına qoyuluşlar",
         "correct": true
+      },
+      {
+        "text": "əmanətlərə görə faizlər ödəmək",
+        "correct": false
       },
       {
         "text": "depozit cəlb etmək",
@@ -4282,12 +4282,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "maliyyə hesabatları",
-        "correct": true
-      },
-      {
         "text": "mənfəət norması",
         "correct": false
+      },
+      {
+        "text": "maliyyə hesabatları",
+        "correct": true
       }
     ]
   },
@@ -4304,16 +4304,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "əmlak sahibləri",
+        "correct": true
+      },
+      {
         "text": "Mərkəzi Bank",
         "correct": false
       },
       {
         "text": "sığortaçılar",
         "correct": false
-      },
-      {
-        "text": "əmlak sahibləri",
-        "correct": true
       }
     ]
   },
@@ -4321,10 +4321,6 @@ const QUESTIONS = [
     "num": 176,
     "question": "Trast əməliyyatlarının icraçıları kimlərdir?",
     "options": [
-      {
-        "text": "etibarlı və peşəkar idarə edənlər",
-        "correct": true
-      },
       {
         "text": "kreditorlar",
         "correct": false
@@ -4338,6 +4334,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "etibarlı və peşəkar idarə edənlər",
+        "correct": true
+      },
+      {
         "text": "brokerlər",
         "correct": false
       }
@@ -4348,12 +4348,12 @@ const QUESTIONS = [
     "question": "Kommersiya banklarının kassa əməliyyatları ......... :",
     "options": [
       {
-        "text": "AZİPS - əməliyyatıdır",
-        "correct": false
-      },
-      {
         "text": "nağd pulların mədaxili və məxaricidir",
         "correct": true
+      },
+      {
+        "text": "AZİPS - əməliyyatıdır",
+        "correct": false
       },
       {
         "text": "sənədlərin qeydiyyatdan keçirilməsidir",
@@ -4400,6 +4400,10 @@ const QUESTIONS = [
     "question": "Kreditə xas olan xassəni göstərin:",
     "options": [
       {
+        "text": "ödənişli xarakter daşıması",
+        "correct": true
+      },
+      {
         "text": "dəyər xarakterli olması",
         "correct": false
       },
@@ -4410,10 +4414,6 @@ const QUESTIONS = [
       {
         "text": "uçot xarakterli olması",
         "correct": false
-      },
-      {
-        "text": "ödənişli xarakter daşıması",
-        "correct": true
       },
       {
         "text": "əməli xarakter olması",
@@ -4430,6 +4430,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "müddətsiz",
+        "correct": true
+      },
+      {
         "text": "8 illiyinə",
         "correct": false
       },
@@ -4440,10 +4444,6 @@ const QUESTIONS = [
       {
         "text": "5 illiyinə",
         "correct": false
-      },
-      {
-        "text": "müddətsiz",
-        "correct": true
       }
     ]
   },
@@ -4451,10 +4451,6 @@ const QUESTIONS = [
     "num": 181,
     "question": "Lizinq kreditinin obyekti kimi çıxış edir:",
     "options": [
-      {
-        "text": "daşınan əmlak",
-        "correct": true
-      },
       {
         "text": "maliyyə müqaviləsi",
         "correct": false
@@ -4468,6 +4464,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "daşınan əmlak",
+        "correct": true
+      },
+      {
         "text": "uçot sənədləri",
         "correct": false
       }
@@ -4478,12 +4478,12 @@ const QUESTIONS = [
     "question": "Bank sektorunun məcmu kapitalının strukturu  və dinamikasının təhlili üçün  hansı göstəricilərdən istifadə olunur:",
     "options": [
       {
-        "text": "heç bir kapitaldan istifədə olunmur",
-        "correct": false
-      },
-      {
         "text": "I (əsas) və II (əlavə) dərəcəli kapitaldan",
         "correct": true
+      },
+      {
+        "text": "heç bir kapitaldan istifədə olunmur",
+        "correct": false
       },
       {
         "text": "investisiya kapitalından",
@@ -4538,12 +4538,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "depozitə qoyulur",
-        "correct": false
-      },
-      {
         "text": "müştəriyə qaytarılır",
         "correct": true
+      },
+      {
+        "text": "depozitə qoyulur",
+        "correct": false
       },
       {
         "text": "çeklə birlikdə sığortaçıya göndərilir",
@@ -4566,10 +4566,6 @@ const QUESTIONS = [
     "question": "Bankın iş fəaliyyətində müxtəlif texniki və texnologiyanın istifadəsi ilə əlaqədar risk adlanır:",
     "options": [
       {
-        "text": "texnoloji risk",
-        "correct": true
-      },
-      {
         "text": "alternativ risk",
         "correct": false
       },
@@ -4580,6 +4576,10 @@ const QUESTIONS = [
       {
         "text": "əmək fəaliyyəti riski",
         "correct": false
+      },
+      {
+        "text": "texnoloji risk",
+        "correct": true
       },
       {
         "text": "ödəniş riski",
@@ -4596,16 +4596,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müddətsiz",
-        "correct": true
-      },
-      {
         "text": "10 illiyinə",
         "correct": false
       },
       {
         "text": "həm müddətli, həm də müddətsiz",
         "correct": false
+      },
+      {
+        "text": "müddətsiz",
+        "correct": true
       },
       {
         "text": "Mərkəzi Bank kredit təşkilatlarına lisenziya vermir",
@@ -4622,12 +4622,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "nəticələrin pozulma riski",
-        "correct": false
-      },
-      {
         "text": "işgüzar nüfüzun itirilməsi riski",
         "correct": true
+      },
+      {
+        "text": "nəticələrin pozulma riski",
+        "correct": false
       },
       {
         "text": "məsuliyyətə cəlb olunma riski",
@@ -4656,12 +4656,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "xüsusi və cəlb edilən vəsaitlər",
-        "correct": true
-      },
-      {
         "text": "faktorinqə verilən vəsaitlər",
         "correct": false
+      },
+      {
+        "text": "xüsusi və cəlb edilən vəsaitlər",
+        "correct": true
       }
     ]
   },
@@ -4670,12 +4670,12 @@ const QUESTIONS = [
     "question": "Kredit təşkilatı yaradılır:",
     "options": [
       {
-        "text": "ən azı üç hüquqi və ya fiziki şəxs tərəfindən",
-        "correct": true
-      },
-      {
         "text": "ən azı beş hüquqi şəxs tərəfindən",
         "correct": false
+      },
+      {
+        "text": "ən azı üç hüquqi və ya fiziki şəxs tərəfindən",
+        "correct": true
       },
       {
         "text": "son kapitalı ödəmək imkanına",
@@ -4688,12 +4688,12 @@ const QUESTIONS = [
     "question": "Nağd pul dövriyyəsinin təşkilinin məqsədi:",
     "options": [
       {
-        "text": "pul tədavülünün sabitliyini, elastikliyini",
-        "correct": true
-      },
-      {
         "text": "nağdsız pulların emissiyasını təmin etməkdir",
         "correct": false
+      },
+      {
+        "text": "pul tədavülünün sabitliyini, elastikliyini",
+        "correct": true
       }
     ]
   },
@@ -4736,16 +4736,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "faizin ödənilməsi (ödənişlik)",
-        "correct": true
-      },
-      {
         "text": "idarəçilik",
         "correct": false
       },
       {
         "text": "sərbəstlik",
         "correct": false
+      },
+      {
+        "text": "faizin ödənilməsi (ödənişlik)",
+        "correct": true
       }
     ]
   },
@@ -4754,12 +4754,12 @@ const QUESTIONS = [
     "question": "Təklif edilən ifadələrdən kreditin funksiyasını ayırın:",
     "options": [
       {
-        "text": "müvəqqəti azad vəsaitlərin səfərbər",
-        "correct": false
-      },
-      {
         "text": "yenidənbölgü funksiyası",
         "correct": true
+      },
+      {
+        "text": "müvəqqəti azad vəsaitlərin səfərbər",
+        "correct": false
       }
     ]
   },
@@ -4780,12 +4780,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kreditin ödənilməsi risqinin sığortalanması ilə",
-        "correct": false
-      },
-      {
         "text": "yalnız kredit müqaviləsi ilə",
         "correct": true
+      },
+      {
+        "text": "kreditin ödənilməsi risqinin sığortalanması ilə",
+        "correct": false
       }
     ]
   },
@@ -4838,12 +4838,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bankın  aktivləri ilə",
-        "correct": true
-      },
-      {
         "text": "dövlət büdcəsinin bütün gəlirləri ilə",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın  aktivləri ilə",
+        "correct": true
       },
       {
         "text": "xəzinədarlığın mədaxili ilə",
@@ -4856,6 +4856,10 @@ const QUESTIONS = [
     "question": "Emissiya və pul tədavülü mexanizmi dedikdə … başa düşülür:",
     "options": [
       {
+        "text": "pulların dövriyyəyə buraxılması",
+        "correct": true
+      },
+      {
         "text": "emissiya mərkəzi və ölkənin inkasso xidməti",
         "correct": false
       },
@@ -4866,10 +4870,6 @@ const QUESTIONS = [
       {
         "text": "banknot və xırda pulların kəsilməsi texnologiyasını həyata keçirmək",
         "correct": false
-      },
-      {
-        "text": "pulların dövriyyəyə buraxılması",
-        "correct": true
       },
       {
         "text": "ölkənin emissiya mərkəzi və hesablaşma kassa mərkəzi",
@@ -4900,10 +4900,6 @@ const QUESTIONS = [
     "question": "Valyuta bazarının iştirakçısıdır ........:",
     "options": [
       {
-        "text": "valyuta əməliyyatlarını yerinə yetirmək səlahiyyəti olan müvəkkil banklar",
-        "correct": true
-      },
-      {
         "text": "lisenziyası olmayan lombardlar",
         "correct": false
       },
@@ -4914,6 +4910,10 @@ const QUESTIONS = [
       {
         "text": "Mərkəzi Bankın icazəsi ilə bütün sığorta təşkilatları",
         "correct": false
+      },
+      {
+        "text": "valyuta əməliyyatlarını yerinə yetirmək səlahiyyəti olan müvəkkil banklar",
+        "correct": true
       },
       {
         "text": "Banklar Assosiasiyasının bütün şöbələri",
@@ -4930,10 +4930,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "banklar və birjalar",
-        "correct": true
-      },
-      {
         "text": "Statistika Komitəsi",
         "correct": false
       },
@@ -4944,6 +4940,10 @@ const QUESTIONS = [
       {
         "text": "faktorinq firmaları",
         "correct": false
+      },
+      {
+        "text": "banklar və birjalar",
+        "correct": true
       }
     ]
   },
@@ -4960,16 +4960,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "açıq bazar əməliyyatları",
-        "correct": true
-      },
-      {
         "text": "Mərkəzi Bankın valyuta əməliyyatları",
         "correct": false
       },
       {
         "text": "kredit və trast əməliyyatları",
         "correct": false
+      },
+      {
+        "text": "açıq bazar əməliyyatları",
+        "correct": true
       }
     ]
   },
@@ -4982,16 +4982,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
         "text": "Dövlət Statistika Komitəsi",
         "correct": false
       },
       {
         "text": "Maliyyə Nazirliyi",
         "correct": false
-      },
-      {
-        "text": "Mərkəzi Bank",
-        "correct": true
       },
       {
         "text": "İqtisadiyyat Nazirliyi",
@@ -5012,16 +5012,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "emissiya",
+        "correct": true
+      },
+      {
         "text": "inflyasiya",
         "correct": false
       },
       {
         "text": "vasitəçilik",
         "correct": false
-      },
-      {
-        "text": "emissiya",
-        "correct": true
       }
     ]
   },
@@ -5086,12 +5086,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "2020",
-        "correct": false
-      },
-      {
         "text": "2005",
         "correct": true
+      },
+      {
+        "text": "2020",
+        "correct": false
       },
       {
         "text": "2023",
@@ -5120,12 +5120,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Banklar haqqında Qanunvericilikdir",
-        "correct": true
-      },
-      {
         "text": "Mərkəzi Bankdır",
         "correct": false
+      },
+      {
+        "text": "Banklar haqqında Qanunvericilikdir",
+        "correct": true
       }
     ]
   },
@@ -5146,12 +5146,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "birja",
-        "correct": false
-      },
-      {
         "text": "etibar etmə",
         "correct": true
+      },
+      {
+        "text": "birja",
+        "correct": false
       }
     ]
   },
@@ -5159,10 +5159,6 @@ const QUESTIONS = [
     "num": 211,
     "question": "Bank menecmentinin əsas prinsiplərindən biridir:",
     "options": [
-      {
-        "text": "heyətin səmərəli təşkili və ondan səmərəli istifadə",
-        "correct": true
-      },
       {
         "text": "bank texnologiyalarının səmərəsizliyini yoxlamaq",
         "correct": false
@@ -5176,6 +5172,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "heyətin səmərəli təşkili və ondan səmərəli istifadə",
+        "correct": true
+      },
+      {
         "text": "bankın hesab planına riayət edilməsi",
         "correct": false
       }
@@ -5186,12 +5186,12 @@ const QUESTIONS = [
     "question": "Depozit, ssuda və banklararası kredit üzrə faizlər… … müəyyənləşdirilir:",
     "options": [
       {
-        "text": "kredit idarələrinin sayına görə",
-        "correct": false
-      },
-      {
         "text": "iqtisadiyyatın ümumi vəziyyətinə görə",
         "correct": true
+      },
+      {
+        "text": "kredit idarələrinin sayına görə",
+        "correct": false
       },
       {
         "text": "lisenziya faizinə görə",
@@ -5230,12 +5230,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit vermək ilə",
-        "correct": false
-      },
-      {
         "text": "topdan satış ticarət ilə",
         "correct": true
+      },
+      {
+        "text": "kredit vermək ilə",
+        "correct": false
       },
       {
         "text": "investisiya fəaliyyəti ilə",
@@ -5256,16 +5256,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "xüsusi kapital və cəlb edilmiş vəsaitlər",
+        "correct": true
+      },
+      {
         "text": "yalnız şəxsi vəsaitlər",
         "correct": false
       },
       {
         "text": "yalnız mənfəətə cəlb olunmuş vəsaitlər",
         "correct": false
-      },
-      {
-        "text": "xüsusi kapital və cəlb edilmiş vəsaitlər",
-        "correct": true
       }
     ]
   },
@@ -5304,12 +5304,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "dövlətlərarası",
-        "correct": true
-      },
-      {
         "text": "ipotekada olan",
         "correct": false
+      },
+      {
+        "text": "dövlətlərarası",
+        "correct": true
       },
       {
         "text": "kommersiyada olan",
@@ -5352,16 +5352,16 @@ const QUESTIONS = [
     "question": "Veksel əsasən …….. istifadə edilir:",
     "options": [
       {
+        "text": "iri maliyyə-ticarət sövdələşmələrinə, topdan satış ticarətə",
+        "correct": true
+      },
+      {
         "text": "bank müqaviləsinə",
         "correct": false
       },
       {
         "text": "fiziki şəxslərə və emissiya",
         "correct": false
-      },
-      {
-        "text": "iri maliyyə-ticarət sövdələşmələrinə, topdan satış ticarətə",
-        "correct": true
       }
     ]
   },
@@ -5374,6 +5374,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "müştərinin sərbəst pul vəsaitlərinin olmasını",
+        "correct": true
+      },
+      {
         "text": "bankın Mərkəzi Banka ödəyəcəyi məbləği",
         "correct": false
       },
@@ -5384,10 +5388,6 @@ const QUESTIONS = [
       {
         "text": "müştərinin tərəfdaşlarına olan borcunu",
         "correct": false
-      },
-      {
-        "text": "müştərinin sərbəst pul vəsaitlərinin olmasını",
-        "correct": true
       }
     ]
   },
@@ -5395,10 +5395,6 @@ const QUESTIONS = [
     "num": 221,
     "question": "Kommersiya banklarının cəlb etdiyi vəsaitdir.......:",
     "options": [
-      {
-        "text": "banklararası kredit",
-        "correct": true
-      },
       {
         "text": "bankın emissiya gəliri",
         "correct": false
@@ -5414,6 +5410,10 @@ const QUESTIONS = [
       {
         "text": "ehtiyat fondu",
         "correct": false
+      },
+      {
+        "text": "banklararası kredit",
+        "correct": true
       }
     ]
   },
@@ -5448,12 +5448,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "ödəmə qabiliyyətinin olması",
-        "correct": true
-      },
-      {
         "text": "risklilik qabiliyyətliliyi",
         "correct": false
+      },
+      {
+        "text": "ödəmə qabiliyyətinin olması",
+        "correct": true
       },
       {
         "text": "mübadilə qabiliyyətliliyi",
@@ -5498,10 +5498,6 @@ const QUESTIONS = [
     "question": "İpoteka dedikdə nə başa düşülür?",
     "options": [
       {
-        "text": "mənzillərin, yaşayış sahələrinin girov qoyulması",
-        "correct": true
-      },
-      {
         "text": "sənədin girov qoyulması",
         "correct": false
       },
@@ -5512,6 +5508,10 @@ const QUESTIONS = [
       {
         "text": "vəsaitin girov qoyulması",
         "correct": false
+      },
+      {
+        "text": "mənzillərin, yaşayış sahələrinin girov qoyulması",
+        "correct": true
       },
       {
         "text": "faktorinq",
@@ -5558,16 +5558,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kommersiya banklarının",
-        "correct": true
-      },
-      {
         "text": "ərazi idarələrinin",
         "correct": false
       },
       {
         "text": "Milli Depozit Sisteminin",
         "correct": false
+      },
+      {
+        "text": "kommersiya banklarının",
+        "correct": true
       }
     ]
   },
@@ -5584,12 +5584,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Auditorlar Palatasının verdiyi sənədlərə əsasən",
-        "correct": false
-      },
-      {
         "text": "hesablaşma sənədlərinə əsasən",
         "correct": true
+      },
+      {
+        "text": "Auditorlar Palatasının verdiyi sənədlərə əsasən",
+        "correct": false
       },
       {
         "text": "Mərkəzi Bankın verdiyi icazəyə əsasən",
@@ -5612,12 +5612,12 @@ const QUESTIONS = [
     "question": "Banklar müştərilərin hesabı üzrə əməliyyatları nəyə əsasən həyata keçirir:",
     "options": [
       {
-        "text": "hesablaşma sənədlərinə əsasən",
-        "correct": true
-      },
-      {
         "text": "vençur müqaviləsinə əsasən",
         "correct": false
+      },
+      {
+        "text": "hesablaşma sənədlərinə əsasən",
+        "correct": true
       },
       {
         "text": "pul hesablaşmalarına əsasən",
@@ -5642,10 +5642,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hökümətə və kredit təşkilatlarına",
-        "correct": true
-      },
-      {
         "text": "bank holdinqlərinə",
         "correct": false
       },
@@ -5656,6 +5652,10 @@ const QUESTIONS = [
       {
         "text": "sığorta şirkətlərinə",
         "correct": false
+      },
+      {
+        "text": "hökümətə və kredit təşkilatlarına",
+        "correct": true
       }
     ]
   },
@@ -5664,16 +5664,16 @@ const QUESTIONS = [
     "question": "Mərkəzi Bankın aktiv əməliyyatlarına aiddir:",
     "options": [
       {
+        "text": "hökümətə və banklara verilən kreditlər",
+        "correct": true
+      },
+      {
         "text": "istehlak əməliyyatlarını həyata keçirmək",
         "correct": false
       },
       {
         "text": "əhalinin əmanətlərini qaytarmaq",
         "correct": false
-      },
-      {
-        "text": "hökümətə və banklara verilən kreditlər",
-        "correct": true
       },
       {
         "text": "əmanətlərə görə faizlər ödəmək",
@@ -5702,12 +5702,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "daşınan əmlakın icarəsi",
-        "correct": true
-      },
-      {
         "text": "icazə",
         "correct": false
+      },
+      {
+        "text": "daşınan əmlakın icarəsi",
+        "correct": true
       }
     ]
   },
@@ -5720,6 +5720,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "bankın yarandığı zaman formalaşan ilkin kapitalın minimum miqdarıdır",
+        "correct": true
+      },
+      {
         "text": "bankın balansdan kənar öhdəlikləri olan",
         "correct": false
       },
@@ -5730,10 +5734,6 @@ const QUESTIONS = [
       {
         "text": "Mərkəzi Bankın kommersiya banklarına verdiyi vəsaitdir",
         "correct": false
-      },
-      {
-        "text": "bankın yarandığı zaman formalaşan ilkin kapitalın minimum miqdarıdır",
-        "correct": true
       }
     ]
   },
@@ -5741,10 +5741,6 @@ const QUESTIONS = [
     "num": 236,
     "question": "Passiv əməliyyatlar bankın......... formalaşdırır:",
     "options": [
-      {
-        "text": "xərclərini",
-        "correct": true
-      },
       {
         "text": "statusunu",
         "correct": false
@@ -5756,6 +5752,10 @@ const QUESTIONS = [
       {
         "text": "pulu qiymətdən salır",
         "correct": false
+      },
+      {
+        "text": "xərclərini",
+        "correct": true
       },
       {
         "text": "gəlirini",
@@ -5802,16 +5802,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "nağdsız",
-        "correct": true
-      },
-      {
         "text": "nağd",
         "correct": false
       },
       {
         "text": "qarşılıqlı dövriyyə",
         "correct": false
+      },
+      {
+        "text": "nağdsız",
+        "correct": true
       }
     ]
   },
@@ -5854,16 +5854,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "emissiya və kommersiya banklarına",
+        "correct": true
+      },
+      {
         "text": "kicik, orta, iri banklara",
         "correct": false
       },
       {
         "text": "Bank Olmayan Kredit Təşkilatlarına (BOKT)",
         "correct": false
-      },
-      {
-        "text": "emissiya və kommersiya banklarına",
-        "correct": true
       }
     ]
   },
@@ -5871,10 +5871,6 @@ const QUESTIONS = [
     "num": 241,
     "question": "Bank Olmayan Kredit Təşkilatlarının (BOKT)  fəaliyyəti ...... tərəfindən tənzimlənir:",
     "options": [
-      {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
       {
         "text": "Maliyyə Nazirliyi",
         "correct": false
@@ -5890,6 +5886,10 @@ const QUESTIONS = [
       {
         "text": "Milli Depozit Sistemi",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       }
     ]
   },
@@ -5902,10 +5902,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "tədavül xərclərinə qənaət",
-        "correct": true
-      },
-      {
         "text": "hesablara qənaət",
         "correct": false
       },
@@ -5916,6 +5912,10 @@ const QUESTIONS = [
       {
         "text": "kapitala qənaət",
         "correct": false
+      },
+      {
+        "text": "tədavül xərclərinə qənaət",
+        "correct": true
       }
     ]
   },
@@ -5928,12 +5928,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "strateji risk",
-        "correct": false
-      },
-      {
         "text": "kredit riski",
         "correct": true
+      },
+      {
+        "text": "strateji risk",
+        "correct": false
       },
       {
         "text": "valyuta riski",
@@ -5962,12 +5962,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "universal",
-        "correct": true
-      },
-      {
         "text": "ixtisaslaşmış",
         "correct": false
+      },
+      {
+        "text": "universal",
+        "correct": true
       }
     ]
   },
@@ -5984,16 +5984,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "pulların dövriyyəyə buraxılması",
+        "correct": true
+      },
+      {
         "text": "ölkənin emissiya mərkəzi və hesablaşma kassa mərkəzi",
         "correct": false
       },
       {
         "text": "banknot və xırda pulların kəsilməsi texnologiyasını həyata keçirmək",
         "correct": false
-      },
-      {
-        "text": "pulların dövriyyəyə buraxılması",
-        "correct": true
       }
     ]
   },
@@ -6001,10 +6001,6 @@ const QUESTIONS = [
     "num": 246,
     "question": "Bankların mənafeyini müdafiə etmək üçün yaradılır:",
     "options": [
-      {
-        "text": "Banklar Assosiasiyası",
-        "correct": true
-      },
       {
         "text": "Maliyyə İnstitutları",
         "correct": false
@@ -6020,6 +6016,10 @@ const QUESTIONS = [
       {
         "text": "Auditorlar Palatası",
         "correct": false
+      },
+      {
+        "text": "Banklar Assosiasiyası",
+        "correct": true
       }
     ]
   },
@@ -6072,6 +6072,10 @@ const QUESTIONS = [
     "question": "Passiv əməliyyatların aparılmasında məqsəd:",
     "options": [
       {
+        "text": "xüsusi kapitalın və resursların formalaşmasıdır",
+        "correct": true
+      },
+      {
         "text": "faiz borcunun formalaşmasıdır",
         "correct": false
       },
@@ -6082,10 +6086,6 @@ const QUESTIONS = [
       {
         "text": "son kapitalın formalaşmasıdır",
         "correct": false
-      },
-      {
-        "text": "xüsusi kapitalın və resursların formalaşmasıdır",
-        "correct": true
       },
       {
         "text": "kapitalın azalmasıdır",
@@ -6110,12 +6110,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bankın kommersiya banklarına verdiyi lisenziya",
-        "correct": false
-      },
-      {
         "text": "məcburi ehtiyat normaları",
         "correct": true
+      },
+      {
+        "text": "Mərkəzi Bankın kommersiya banklarına verdiyi lisenziya",
+        "correct": false
       }
     ]
   },
@@ -6154,16 +6154,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "azalır",
-        "correct": true
-      },
-      {
         "text": "dəyişməz qalır",
         "correct": false
       },
       {
         "text": "bərabərləşir",
         "correct": false
+      },
+      {
+        "text": "azalır",
+        "correct": true
       },
       {
         "text": "həndəsi silsilə ilə qalxır",
@@ -6184,16 +6184,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "18 mart 2009",
-        "correct": true
-      },
-      {
         "text": "31 dekabr 2008",
         "correct": false
       },
       {
         "text": "16 oktyabr 1991",
         "correct": false
+      },
+      {
+        "text": "18 mart 2009",
+        "correct": true
       }
     ]
   },
@@ -6206,16 +6206,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "1992-ci ildə",
+        "correct": true
+      },
+      {
         "text": "2024-ci ildə",
         "correct": false
       },
       {
         "text": "2000-ci ildə",
         "correct": false
-      },
-      {
-        "text": "1992-ci ildə",
-        "correct": true
       },
       {
         "text": "1993-ci ildə",
@@ -6280,12 +6280,12 @@ const QUESTIONS = [
     "question": "Kütləvi Ödənişlər üzrə Mərkəzləşdirilmiş İnformasiya Sistemi (KÖMİS) yaranıb:",
     "options": [
       {
-        "text": "30 sentyabr 2019",
-        "correct": false
-      },
-      {
         "text": "11 iyul 2008",
         "correct": true
+      },
+      {
+        "text": "30 sentyabr 2019",
+        "correct": false
       },
       {
         "text": "15 iyul 2009",
@@ -6314,12 +6314,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit təşkilatında hesabının olması",
-        "correct": true
-      },
-      {
         "text": "Mərkəzi Bankın razılığı",
         "correct": false
+      },
+      {
+        "text": "kredit təşkilatında hesabının olması",
+        "correct": true
       },
       {
         "text": "banklarla hesabatı",
@@ -6406,16 +6406,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hesabda kifayət qədər vəsait olduqda",
-        "correct": true
-      },
-      {
         "text": "ödəyicinin vaxtı keçmiş borcu olmadıqda",
         "correct": false
       },
       {
         "text": "hesabda vəsait olmadıqda",
         "correct": false
+      },
+      {
+        "text": "hesabda kifayət qədər vəsait olduqda",
+        "correct": true
       },
       {
         "text": "müştərinin müraciəti gecikdikdə",
@@ -6432,12 +6432,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bələdiyyələrin göstərişi ilə",
-        "correct": false
-      },
-      {
         "text": "banklararası razılaşma əsasında",
         "correct": true
+      },
+      {
+        "text": "bələdiyyələrin göstərişi ilə",
+        "correct": false
       },
       {
         "text": "Maliyyə Nazirliyinin göstərişi ilə",
@@ -6454,6 +6454,10 @@ const QUESTIONS = [
     "question": "Nizamnamə kapitalı nədir?",
     "options": [
       {
+        "text": "bank yarandığı anda yaradılan ilkin kapitaldır",
+        "correct": true
+      },
+      {
         "text": "çatışmayan kapitaldır",
         "correct": false
       },
@@ -6464,10 +6468,6 @@ const QUESTIONS = [
       {
         "text": "borc kapitalıdır",
         "correct": false
-      },
-      {
-        "text": "bank yarandığı anda yaradılan ilkin kapitaldır",
-        "correct": true
       },
       {
         "text": "sonradan əldə edilən kapitaldır",
@@ -6498,10 +6498,6 @@ const QUESTIONS = [
     "question": "Kommersiya bankının hansı mülkiyyət  formasında yaradılmasına baxmayaraq, onlar.......:",
     "options": [
       {
-        "text": "müstəqildir",
-        "correct": true
-      },
-      {
         "text": "Milli Depozit Sisteminə hesabat verirlər",
         "correct": false
       },
@@ -6514,6 +6510,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "müstəqildir",
+        "correct": true
+      },
+      {
         "text": "Prezidentə hesabat verməlidir",
         "correct": false
       }
@@ -6524,12 +6524,12 @@ const QUESTIONS = [
     "question": "Lizinq verən ... şəxsdir:",
     "options": [
       {
-        "text": "Auditorlar Palatasından olan",
-        "correct": false
-      },
-      {
         "text": "öz vəsaiti və borc vəsaiti hesabına əldə edilən əmlakı lizinq alana təqdim edən",
         "correct": true
+      },
+      {
+        "text": "Auditorlar Palatasından olan",
+        "correct": false
       },
       {
         "text": "Beynəlxalq Valyuta Fondundan (BVF) cəlb olunmuş vəsait hesabına mülkiyyət əldə edən",
@@ -6602,6 +6602,10 @@ const QUESTIONS = [
     "question": "Mərkəzi Bankın mənfəəti",
     "options": [
       {
+        "text": "fəaliyyətindən əldə etdiyi gəlirlər hesabına formalaşır",
+        "correct": true
+      },
+      {
         "text": "nağdsız ödənişlər hesabına formalaşır",
         "correct": false
       },
@@ -6616,10 +6620,6 @@ const QUESTIONS = [
       {
         "text": "dondurulmuş vəsaitlər hesabına formalaşır",
         "correct": false
-      },
-      {
-        "text": "fəaliyyətindən əldə etdiyi gəlirlər hesabına formalaşır",
-        "correct": true
       }
     ]
   },
@@ -6680,16 +6680,16 @@ const QUESTIONS = [
     "question": "Kreditin prinsiplərini göstərin:",
     "options": [
       {
+        "text": "qaytarılmaq, müddədlilik, təminatlılıq, ödənişlik, məqsədlilik",
+        "correct": true
+      },
+      {
         "text": "yalnız məqsədli xarakter daşıması",
         "correct": false
       },
       {
         "text": "müddətlilik,ödənişlik,lizinq,faktorinq",
         "correct": false
-      },
-      {
-        "text": "qaytarılmaq, müddədlilik, təminatlılıq, ödənişlik, məqsədlilik",
-        "correct": true
       },
       {
         "text": "yalnız %-ni ödəmək",
@@ -6706,6 +6706,10 @@ const QUESTIONS = [
     "question": "Bankın cari fəaliyyəti zamanı meydana çıxan itkilər .... hesabına ödənilir:",
     "options": [
       {
+        "text": "ehtiyat fondu",
+        "correct": true
+      },
+      {
         "text": "ictimai təminatlı fondu",
         "correct": false
       },
@@ -6716,10 +6720,6 @@ const QUESTIONS = [
       {
         "text": "İpoteka Fondu",
         "correct": false
-      },
-      {
-        "text": "ehtiyat fondu",
-        "correct": true
       },
       {
         "text": "sığorta fondu",
@@ -6740,16 +6740,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "nağd pul nişanlarının tədavülüdür",
+        "correct": true
+      },
+      {
         "text": "tədavülə nağdsız pulların emissiyasıdır",
         "correct": false
       },
       {
         "text": "nağd pulların nağdsız pullara keçməsidir",
         "correct": false
-      },
-      {
-        "text": "nağd pul nişanlarının tədavülüdür",
-        "correct": true
       }
     ]
   },
@@ -6757,10 +6757,6 @@ const QUESTIONS = [
     "num": 276,
     "question": "Alıcı ona xidmət göstərən bank depozitində olan vəsait və ya bankın zəmanəti ilə  satıcının ərazisində yerləşən malın dəyərinin, ödəyicinin (alıcının) müəyyən etdiyi şərtlərlə ödənilməsinə dair verdiyi  tapşırığa əsasən hesablaşmanın aparıldığı forma ……adlanır:",
     "options": [
-      {
-        "text": "akkreditiv",
-        "correct": true
-      },
       {
         "text": "inkasso",
         "correct": false
@@ -6776,6 +6772,10 @@ const QUESTIONS = [
       {
         "text": "veksel",
         "correct": false
+      },
+      {
+        "text": "akkreditiv",
+        "correct": true
       }
     ]
   },
@@ -6784,16 +6784,16 @@ const QUESTIONS = [
     "question": "Banklar nağdsız hesablaşmaları və pul köçürmələrini ......... həyata keçirirlər:",
     "options": [
       {
-        "text": "Mərkəzi Bankın qəbul etdiyi",
-        "correct": true
-      },
-      {
         "text": "Maliyyə Nazirliyinin göstərişinə uyğun olaraq",
         "correct": false
       },
       {
         "text": "auditor xidmətinə uyğun olaraq",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın qəbul etdiyi",
+        "correct": true
       }
     ]
   },
@@ -6810,16 +6810,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "struktur bölmələrinin auditini həyata keçirir",
-        "correct": true
-      },
-      {
         "text": "bank rəhbərini təyin edir",
         "correct": false
       },
       {
         "text": "Mərkəzi Bankın İdarə Heyətinin fəaliyyətinə nəzarət edir",
         "correct": false
+      },
+      {
+        "text": "struktur bölmələrinin auditini həyata keçirir",
+        "correct": true
       }
     ]
   },
@@ -6827,6 +6827,10 @@ const QUESTIONS = [
     "num": 279,
     "question": "Nağdsız hesablaşma sisteminin sabit işləməsini təmin etmək, onların fəaliyyətini təşkil etmək, əlaqələndirmək və nəzarət etmək …səlahiyyətindədir:",
     "options": [
+      {
+        "text": "Mərkəzi Bankın",
+        "correct": true
+      },
       {
         "text": "Hesablama Palatasının",
         "correct": false
@@ -6838,10 +6842,6 @@ const QUESTIONS = [
       {
         "text": "faktorinq firmalarının",
         "correct": false
-      },
-      {
-        "text": "Mərkəzi Bankın",
-        "correct": true
       },
       {
         "text": "Klirinq Mərkəzinin",
@@ -6858,6 +6858,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "nizamnamə fondu və kapital ehtiyatından",
+        "correct": true
+      },
+      {
         "text": "fiziki şəxslərin vəsaitlərindən",
         "correct": false
       },
@@ -6868,10 +6872,6 @@ const QUESTIONS = [
       {
         "text": "Mərkəzi Bankın kapital və sənəd ehtiyatından",
         "correct": false
-      },
-      {
-        "text": "nizamnamə fondu və kapital ehtiyatından",
-        "correct": true
       }
     ]
   },
@@ -6880,16 +6880,16 @@ const QUESTIONS = [
     "question": "Kreditləşmənin son instansiya kreditoru qismində Mərkəzi Bank ...... :",
     "options": [
       {
-        "text": "ödəmə qabiliyyətinin qısa müddətli pozulması  və likvidlik çatışmazlığı ilə  üzləşmiş banklara kredit verə bilər",
-        "correct": true
-      },
-      {
         "text": "kritik vəziyyətlərdə istehsal müəssisələrinə kreditlər verir",
         "correct": false
       },
       {
         "text": "vətəndaşlara istehlak kreditləri verir",
         "correct": false
+      },
+      {
+        "text": "ödəmə qabiliyyətinin qısa müddətli pozulması  və likvidlik çatışmazlığı ilə  üzləşmiş banklara kredit verə bilər",
+        "correct": true
       },
       {
         "text": "vətəndaşlara lizinq krediti verir",
@@ -6910,12 +6910,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Banklar Assosiasiyası",
-        "correct": true
-      },
-      {
         "text": "Sığorta Kompaniyaları",
         "correct": false
+      },
+      {
+        "text": "Banklar Assosiasiyası",
+        "correct": true
       },
       {
         "text": "Kredit İttifaqları",
@@ -6962,16 +6962,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "sahibidir",
+        "correct": true
+      },
+      {
         "text": "müvəqqəti sahibidir",
         "correct": false
       },
       {
         "text": "müvəqqəti təsisçisidir",
         "correct": false
-      },
-      {
-        "text": "sahibidir",
-        "correct": true
       },
       {
         "text": "daimi icarədarıdır",
@@ -6996,12 +6996,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "sığorta işinin təşkili ilə",
-        "correct": false
-      },
-      {
         "text": "qiymətlərin sabitliyinin təmin edilməsi ilə",
         "correct": true
+      },
+      {
+        "text": "sığorta işinin təşkili ilə",
+        "correct": false
       }
     ]
   },
@@ -7009,10 +7009,6 @@ const QUESTIONS = [
     "num": 286,
     "question": "Bankın səhmdarı ola bilərlər:",
     "options": [
-      {
-        "text": "heç biri",
-        "correct": true
-      },
       {
         "text": "siyasi partiyalar",
         "correct": false
@@ -7028,6 +7024,10 @@ const QUESTIONS = [
       {
         "text": "ictimai birliklər",
         "correct": false
+      },
+      {
+        "text": "heç biri",
+        "correct": true
       }
     ]
   },
@@ -7040,16 +7040,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "3 təsisçi",
-        "correct": true
-      },
-      {
         "text": "5 təsisçi",
         "correct": false
       },
       {
         "text": "2 təsisçi",
         "correct": false
+      },
+      {
+        "text": "3 təsisçi",
+        "correct": true
       },
       {
         "text": "1 təsisçi",
@@ -7070,16 +7070,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "əməliyyat riski",
-        "correct": true
-      },
-      {
         "text": "əmtəə-mal riski",
         "correct": false
       },
       {
         "text": "pul riski",
         "correct": false
+      },
+      {
+        "text": "əməliyyat riski",
+        "correct": true
       }
     ]
   },
@@ -7118,6 +7118,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "aktiv və passiv əməliyyatlara",
+        "correct": true
+      },
+      {
         "text": "sadə və çətin əməliyyatlara",
         "correct": false
       },
@@ -7128,10 +7132,6 @@ const QUESTIONS = [
       {
         "text": "REPO əməliyyatlarına",
         "correct": false
-      },
-      {
-        "text": "aktiv və passiv əməliyyatlara",
-        "correct": true
       }
     ]
   },
@@ -7166,12 +7166,12 @@ const QUESTIONS = [
     "question": "Rəqəmsal bankçılığın ödəniş alətidir:",
     "options": [
       {
-        "text": "SOS terminalları",
-        "correct": false
-      },
-      {
         "text": "bank kartları",
         "correct": true
+      },
+      {
+        "text": "SOS terminalları",
+        "correct": false
       },
       {
         "text": "bilet kartları",
@@ -7200,12 +7200,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank tərəfindən",
-        "correct": true
-      },
-      {
         "text": "Milli Depozit Sistemi tərəfindən",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank tərəfindən",
+        "correct": true
       },
       {
         "text": "Maliyyə Nazirliyi tərəfindən",
@@ -7230,12 +7230,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "faktorinq",
-        "correct": true
-      },
-      {
         "text": "kredit",
         "correct": false
+      },
+      {
+        "text": "faktorinq",
+        "correct": true
       }
     ]
   },
@@ -7252,16 +7252,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "faiz xərcləri",
+        "correct": true
+      },
+      {
         "text": "əmək haqqı xərcləri",
         "correct": false
       },
       {
         "text": "investisiya xərcləri",
         "correct": false
-      },
-      {
-        "text": "faiz xərcləri",
-        "correct": true
       }
     ]
   },
@@ -7269,10 +7269,6 @@ const QUESTIONS = [
     "num": 296,
     "question": "Audit Komitəsi:",
     "options": [
-      {
-        "text": "bankı idarə edən orqanlardan biridir",
-        "correct": true
-      },
       {
         "text": "bank əməkdaşlarına əmək haqqı verən orqandır",
         "correct": false
@@ -7284,6 +7280,10 @@ const QUESTIONS = [
       {
         "text": "bank monitorinqini həyata keçirən orqandır",
         "correct": false
+      },
+      {
+        "text": "bankı idarə edən orqanlardan biridir",
+        "correct": true
       },
       {
         "text": "banka lisenziya verən orqandır",
@@ -7322,16 +7322,16 @@ const QUESTIONS = [
     "question": "Mərkəzi Bankın hesabat ilinin mənfəəti ilk növbədə yönəldilir:",
     "options": [
       {
+        "text": "Mərkəzi Bankın kapital ehtiyatlarının formalaşmasına",
+        "correct": true
+      },
+      {
         "text": "kommersiya banklarının nizamnamə kapitalına",
         "correct": false
       },
       {
         "text": "Dövlət Büdcəsinin formalaşmasına",
         "correct": false
-      },
-      {
-        "text": "Mərkəzi Bankın kapital ehtiyatlarının formalaşmasına",
-        "correct": true
       },
       {
         "text": "maddi maraq fondunun yaradılmasına",
@@ -7360,12 +7360,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bankın kapital ehtiyatlarının formalaşmasına",
-        "correct": true
-      },
-      {
         "text": "işçi heyətinin mükafatlandırılmasına",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın kapital ehtiyatlarının formalaşmasına",
+        "correct": true
       }
     ]
   },
@@ -7382,16 +7382,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "Mərkəzi Bank tərəfindən",
+        "correct": true
+      },
+      {
         "text": "Maliyyə Nazirliyi tərəfindən",
         "correct": false
       },
       {
         "text": "ərazi idaləri və kommersiya bankları ilə birgə",
         "correct": false
-      },
-      {
-        "text": "Mərkəzi Bank tərəfindən",
-        "correct": true
       }
     ]
   },
@@ -7400,12 +7400,12 @@ const QUESTIONS = [
     "question": "Bankların mənafeyini  müdafiə etmək üçün ictimai təşkilat kimi yaradılır:",
     "options": [
       {
-        "text": "Banklar Assosiasiyası",
-        "correct": true
-      },
-      {
         "text": "kredit təşkilatları və investisya şirkətləri",
         "correct": false
+      },
+      {
+        "text": "Banklar Assosiasiyası",
+        "correct": true
       },
       {
         "text": "İpoteka Fondları",
@@ -7460,12 +7460,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kiçik, orta, sistem əhəmiyyətli banklar",
-        "correct": true
-      },
-      {
         "text": "kiçik,səhmdar,kommersiya",
         "correct": false
+      },
+      {
+        "text": "kiçik, orta, sistem əhəmiyyətli banklar",
+        "correct": true
       },
       {
         "text": "vasitəçilik,mərkəzi,filiallı",
@@ -7486,12 +7486,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "sonsuz kreditlər",
-        "correct": false
-      },
-      {
         "text": "iri kreditlər, orta kreditlər,kiçik kreditlər, mikro kreditlər",
         "correct": true
+      },
+      {
+        "text": "sonsuz kreditlər",
+        "correct": false
       },
       {
         "text": "yalnız xırda məbləğli kreditlər",
@@ -7516,12 +7516,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "dəyən zərərin ödənilməsi üçün olan vəsaitlər adlanır",
-        "correct": false
-      },
-      {
         "text": "nizamnamə kapitalı adlanır",
         "correct": true
+      },
+      {
+        "text": "dəyən zərərin ödənilməsi üçün olan vəsaitlər adlanır",
+        "correct": false
       }
     ]
   },
@@ -7590,16 +7590,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "iki pilləli",
-        "correct": true
-      },
-      {
         "text": "həm bir pilləli həm on dörd pilləli",
         "correct": false
       },
       {
         "text": "belə ölkələrdə bank sistemi olmur",
         "correct": false
+      },
+      {
+        "text": "iki pilləli",
+        "correct": true
       }
     ]
   },
@@ -7607,6 +7607,10 @@ const QUESTIONS = [
     "num": 309,
     "question": "Bazar iqtisadiyyatlı ölkələrdə Bank Sistemi ola bilər:",
     "options": [
+      {
+        "text": "iki pilləli",
+        "correct": true
+      },
       {
         "text": "pillələrin sayı yoxdur",
         "correct": false
@@ -7618,10 +7622,6 @@ const QUESTIONS = [
       {
         "text": "bir pilləli",
         "correct": false
-      },
-      {
-        "text": "iki pilləli",
-        "correct": true
       },
       {
         "text": "səkkiz pilləli",
@@ -7638,6 +7638,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "bankın passiv əməliyyatları",
+        "correct": true
+      },
+      {
         "text": "trast əməliyyatları",
         "correct": false
       },
@@ -7648,10 +7652,6 @@ const QUESTIONS = [
       {
         "text": "bankın aktiv əməliyyatları",
         "correct": false
-      },
-      {
-        "text": "bankın passiv əməliyyatları",
-        "correct": true
       }
     ]
   },
@@ -7660,16 +7660,16 @@ const QUESTIONS = [
     "question": "Ödəniş xidməti təchizatçıları tərəfindən göstərilən xidmət necə adlanır?",
     "options": [
       {
-        "text": "ekvayrinq",
-        "correct": true
-      },
-      {
         "text": "emissiya",
         "correct": false
       },
       {
         "text": "krosslaşdırma",
         "correct": false
+      },
+      {
+        "text": "ekvayrinq",
+        "correct": true
       },
       {
         "text": "yaddaş plastik kartları",
@@ -7690,12 +7690,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bütün təsisçilər və ya onların nümayəndələri",
-        "correct": true
-      },
-      {
         "text": "dövlət orqanları",
         "correct": false
+      },
+      {
+        "text": "bütün təsisçilər və ya onların nümayəndələri",
+        "correct": true
       },
       {
         "text": "bütün işçilər",
@@ -7712,16 +7712,16 @@ const QUESTIONS = [
     "question": "Azərbaycan Respublikasında fəaliyyət göstərən kredit təşkilatlarında xarici bank kapitalının iştirak limitini müəyyən edir:",
     "options": [
       {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
         "text": "Maliyyə Nazirliyi",
         "correct": false
       },
       {
         "text": "bankların əməkdaşları",
         "correct": false
-      },
-      {
-        "text": "Mərkəzi Bank",
-        "correct": true
       },
       {
         "text": "Banklar Assosiasiyası",
@@ -7776,12 +7776,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "depozitdir",
-        "correct": false
-      },
-      {
         "text": "kağız pullardır",
         "correct": true
+      },
+      {
+        "text": "depozitdir",
+        "correct": false
       }
     ]
   },
@@ -7838,16 +7838,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit təşkilatına verilən",
-        "correct": true
-      },
-      {
         "text": "yalnız əmtəə mübadiləsi əməliyyatlarını",
         "correct": false
       },
       {
         "text": "lisenziya əməliyyatlarını",
         "correct": false
+      },
+      {
+        "text": "kredit təşkilatına verilən",
+        "correct": true
       }
     ]
   },
@@ -7868,12 +7868,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "xəzinədarlıq",
-        "correct": true
-      },
-      {
         "text": "poçt müəssisələri",
         "correct": false
+      },
+      {
+        "text": "xəzinədarlıq",
+        "correct": true
       }
     ]
   },
@@ -7910,16 +7910,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "malgöndərənin faktorinqi və malalanın faktorinqi",
-        "correct": true
-      },
-      {
         "text": "depozit və faktorinq",
         "correct": false
       },
       {
         "text": "investisiya və faktorinq",
         "correct": false
+      },
+      {
+        "text": "malgöndərənin faktorinqi və malalanın faktorinqi",
+        "correct": true
       },
       {
         "text": "lizinq və faktorinq",
@@ -7992,16 +7992,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "trast",
+        "correct": true
+      },
+      {
         "text": "investisiya",
         "correct": false
       },
       {
         "text": "kredit",
         "correct": false
-      },
-      {
-        "text": "trast",
-        "correct": true
       }
     ]
   },
@@ -8009,10 +8009,6 @@ const QUESTIONS = [
     "num": 326,
     "question": "Aşağıdakı qiymətli kağızlardan hansı nağdsız hesablaşmalarda hesablaşma sənədi kimi isitfadə olunur:",
     "options": [
-      {
-        "text": "çek",
-        "correct": true
-      },
       {
         "text": "səhm",
         "correct": false
@@ -8024,6 +8020,10 @@ const QUESTIONS = [
       {
         "text": "varrant",
         "correct": false
+      },
+      {
+        "text": "çek",
+        "correct": true
       },
       {
         "text": "konossament",
@@ -8040,16 +8040,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "depozit sertifikatı",
-        "correct": true
-      },
-      {
         "text": "qiymətli metallar",
         "correct": false
       },
       {
         "text": "kredit",
         "correct": false
+      },
+      {
+        "text": "depozit sertifikatı",
+        "correct": true
       },
       {
         "text": "plastik kartlar",
@@ -8084,6 +8084,10 @@ const QUESTIONS = [
     "question": "Veksel və çekdəki verilmə imzası … adlanır:",
     "options": [
       {
+        "text": "indossament",
+        "correct": true
+      },
+      {
         "text": "konosament",
         "correct": false
       },
@@ -8094,10 +8098,6 @@ const QUESTIONS = [
       {
         "text": "trasslaşdırma",
         "correct": false
-      },
-      {
-        "text": "indossament",
-        "correct": true
       },
       {
         "text": "krosslaşdırma",
@@ -8136,16 +8136,16 @@ const QUESTIONS = [
     "question": "Qiymətli kağızlar bazarının məqsədi....?",
     "options": [
       {
-        "text": "sərbəst maliyyə resurslarını səfərbər etməkdir",
-        "correct": true
-      },
-      {
         "text": "inflyasiyaya təsir etməkdir",
         "correct": false
       },
       {
         "text": "bank yaratmaqdır",
         "correct": false
+      },
+      {
+        "text": "sərbəst maliyyə resurslarını səfərbər etməkdir",
+        "correct": true
       },
       {
         "text": "əmək haqqı verməkdir",
@@ -8180,12 +8180,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "vasitəçilərə",
-        "correct": true
-      },
-      {
         "text": "sığorta kompaniyalarına",
         "correct": false
+      },
+      {
+        "text": "vasitəçilərə",
+        "correct": true
       },
       {
         "text": "vergi orqanlarına",
@@ -8226,10 +8226,6 @@ const QUESTIONS = [
     "question": ".......... kommersiya bankının funksiyasıdır:",
     "options": [
       {
-        "text": "müştərilərə hesablaşma-kassa xidmətlərinin göstərilməsi",
-        "correct": true
-      },
-      {
         "text": "sığorta təşkilatlarının fəaliyyətinə nəzarət",
         "correct": false
       },
@@ -8240,6 +8236,10 @@ const QUESTIONS = [
       {
         "text": "banknot emissiyası",
         "correct": false
+      },
+      {
+        "text": "müştərilərə hesablaşma-kassa xidmətlərinin göstərilməsi",
+        "correct": true
       },
       {
         "text": "poçt filiallarının fəaliyyətinə nəzarət",
@@ -8256,16 +8256,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hesablaşma sənədlərinə əsasən",
-        "correct": true
-      },
-      {
         "text": "nəqliyyat sənədlərinə əsasən",
         "correct": false
       },
       {
         "text": "uyğunluq sertifikatına əsasən",
         "correct": false
+      },
+      {
+        "text": "hesablaşma sənədlərinə əsasən",
+        "correct": true
       },
       {
         "text": "hesab-qaiməyə əsasən",
@@ -8312,12 +8312,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qarışıq formada, açıq formada, qapalı formada",
-        "correct": false
-      },
-      {
         "text": "2 formada: açıq və qapalı tipli",
         "correct": true
+      },
+      {
+        "text": "qarışıq formada, açıq formada, qapalı formada",
+        "correct": false
       },
       {
         "text": "yalnız açıq tipli",
@@ -8334,6 +8334,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "şəxsi(xüsusi) vəsaitlər, cəlb olunmuş vəsaitlər",
+        "correct": true
+      },
+      {
         "text": "yalnız şəxsi vəsaitlər",
         "correct": false
       },
@@ -8344,10 +8348,6 @@ const QUESTIONS = [
       {
         "text": "yalnız cəlb olunmuş vəsaitlər",
         "correct": false
-      },
-      {
-        "text": "şəxsi(xüsusi) vəsaitlər, cəlb olunmuş vəsaitlər",
-        "correct": true
       }
     ]
   },
@@ -8355,10 +8355,6 @@ const QUESTIONS = [
     "num": 341,
     "question": "İpoteka krediti kreditin........:",
     "options": [
-      {
-        "text": "formasıdır",
-        "correct": true
-      },
       {
         "text": "uçotudur",
         "correct": false
@@ -8370,6 +8366,10 @@ const QUESTIONS = [
       {
         "text": "növüdür",
         "correct": false
+      },
+      {
+        "text": "formasıdır",
+        "correct": true
       },
       {
         "text": "prinsipidir",
@@ -8386,16 +8386,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müflis elan edilə bilməz",
-        "correct": true
-      },
-      {
         "text": "müflis elan olunmaq Mərkəzi Bankın funksiyasıdır",
         "correct": false
       },
       {
         "text": "lisenziyası ləğv edilə bilməz",
         "correct": false
+      },
+      {
+        "text": "müflis elan edilə bilməz",
+        "correct": true
       },
       {
         "text": "lisenziyası ləğv edilə bilər",
@@ -8446,12 +8446,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "Nazirlər Kabineti",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       }
     ]
   },
@@ -8580,10 +8580,6 @@ const QUESTIONS = [
     "question": "Bank menecmentinin əsas prinsiplərindən biridir:",
     "options": [
       {
-        "text": "heyyətin səmərəli təşkili və ondan səmərəli istifadə",
-        "correct": true
-      },
-      {
         "text": "daxili uçotun vəziyyətini müəyyənləşdirmək",
         "correct": false
       },
@@ -8598,6 +8594,10 @@ const QUESTIONS = [
       {
         "text": "bank fəaliyyətinin nəticələri və göstəricilərinin uçotu",
         "correct": false
+      },
+      {
+        "text": "heyyətin səmərəli təşkili və ondan səmərəli istifadə",
+        "correct": true
       }
     ]
   },
@@ -8610,16 +8610,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bankın faktorinq bölməsi",
-        "correct": true
-      },
-      {
         "text": "bankın uçot şöbəsi",
         "correct": false
       },
       {
         "text": "bankın kredit şöbəsi",
         "correct": false
+      },
+      {
+        "text": "bankın faktorinq bölməsi",
+        "correct": true
       },
       {
         "text": "bankın baş mühasibi",
@@ -8640,16 +8640,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "forfeytinq",
-        "correct": true
-      },
-      {
         "text": "kredit",
         "correct": false
       },
       {
         "text": "investisiya",
         "correct": false
+      },
+      {
+        "text": "forfeytinq",
+        "correct": true
       }
     ]
   },
@@ -8670,12 +8670,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "faktorinq əməliyyatı",
-        "correct": true
-      },
-      {
         "text": "bankda hesabların açılması əməliyyatı",
         "correct": false
+      },
+      {
+        "text": "faktorinq əməliyyatı",
+        "correct": true
       }
     ]
   },
@@ -8696,12 +8696,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "lisenziya",
-        "correct": false
-      },
-      {
         "text": "komisyon mükafat",
         "correct": true
+      },
+      {
+        "text": "lisenziya",
+        "correct": false
       }
     ]
   },
@@ -8709,10 +8709,6 @@ const QUESTIONS = [
     "num": 356,
     "question": "Lizinq alanların aldıqları kredit....... formasında olur:",
     "options": [
-      {
-        "text": "əmlak",
-        "correct": true
-      },
       {
         "text": "nağd pul",
         "correct": false
@@ -8726,6 +8722,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "əmlak",
+        "correct": true
+      },
+      {
         "text": "veksel",
         "correct": false
       }
@@ -8736,12 +8736,12 @@ const QUESTIONS = [
     "question": "Bankın vasitəçilik əməliyyatına daxildir:",
     "options": [
       {
-        "text": "kredit qabiliyyətini müəyyən etmək əməliyyatları",
-        "correct": false
-      },
-      {
         "text": "trast əməliyyatları",
         "correct": true
+      },
+      {
+        "text": "kredit qabiliyyətini müəyyən etmək əməliyyatları",
+        "correct": false
       },
       {
         "text": "blank əməliyyatları",
@@ -8770,12 +8770,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "lizinq əməliyyatları",
-        "correct": true
-      },
-      {
         "text": "investisiya əməliyyatları",
         "correct": false
+      },
+      {
+        "text": "lizinq əməliyyatları",
+        "correct": true
       },
       {
         "text": "kənd təsərrüfatının kreditləşdirilməsi",
@@ -8800,12 +8800,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "forfeytinq",
-        "correct": true
-      },
-      {
         "text": "istehlak əməliyyatları",
         "correct": false
+      },
+      {
+        "text": "forfeytinq",
+        "correct": true
       }
     ]
   },
@@ -8870,10 +8870,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "əlavə",
-        "correct": true
-      },
-      {
         "text": "sonuncu",
         "correct": false
       },
@@ -8884,6 +8880,10 @@ const QUESTIONS = [
       {
         "text": "ilkin və sonuncu",
         "correct": false
+      },
+      {
+        "text": "əlavə",
+        "correct": true
       }
     ]
   },
@@ -8906,6 +8906,10 @@ const QUESTIONS = [
     "question": "Kommersiya banklarının nizamnamə kapitalının minimum həcmi.......:",
     "options": [
       {
+        "text": "50 mln. manatdır",
+        "correct": true
+      },
+      {
         "text": "500 mln. manatdır",
         "correct": false
       },
@@ -8916,10 +8920,6 @@ const QUESTIONS = [
       {
         "text": "40 mln. manatdır",
         "correct": false
-      },
-      {
-        "text": "50 mln. manatdır",
-        "correct": true
       },
       {
         "text": "məhdudiyyət qoyulmur",
@@ -8936,6 +8936,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "Səhmdarların Ümumi Yığıncağının qərarı ilə",
+        "correct": true
+      },
+      {
         "text": "Auditorlar Palatasının qərarı ilə",
         "correct": false
       },
@@ -8946,10 +8950,6 @@ const QUESTIONS = [
       {
         "text": "Maliyyə Nazirliyinin razılığı ilə",
         "correct": false
-      },
-      {
-        "text": "Səhmdarların Ümumi Yığıncağının qərarı ilə",
-        "correct": true
       }
     ]
   },
@@ -8980,12 +8980,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Səhmdarların Ümumi Yığıncağı",
-        "correct": true
-      },
-      {
         "text": "Kredit Komitəsi",
         "correct": false
+      },
+      {
+        "text": "Səhmdarların Ümumi Yığıncağı",
+        "correct": true
       },
       {
         "text": "Bankın İdarə Heyəti",
@@ -9010,12 +9010,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "vəsaitlərin cəlb edilməsi",
-        "correct": true
-      },
-      {
         "text": "emissiya bankıdır",
         "correct": false
+      },
+      {
+        "text": "vəsaitlərin cəlb edilməsi",
+        "correct": true
       },
       {
         "text": "banklar bankıdır",
@@ -9110,10 +9110,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müstəqil",
-        "correct": true
-      },
-      {
         "text": "qanundan kənar",
         "correct": false
       },
@@ -9124,6 +9120,10 @@ const QUESTIONS = [
       {
         "text": "asılı",
         "correct": false
+      },
+      {
+        "text": "müstəqil",
+        "correct": true
       }
     ]
   },
@@ -9131,10 +9131,6 @@ const QUESTIONS = [
     "num": 373,
     "question": "Daxili auditin məqsədi:",
     "options": [
-      {
-        "text": "aşkar edilmiş nöqsanların aradan",
-        "correct": true
-      },
       {
         "text": "investisiya əməliyyatlarını həyata keçirməkdir",
         "correct": false
@@ -9146,6 +9142,10 @@ const QUESTIONS = [
       {
         "text": "depozit cəlb etməkdir",
         "correct": false
+      },
+      {
+        "text": "aşkar edilmiş nöqsanların aradan",
+        "correct": true
       }
     ]
   },
@@ -9184,12 +9184,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "istehlakçıların konkret bank",
-        "correct": false
-      },
-      {
         "text": "hamısı",
         "correct": true
+      },
+      {
+        "text": "istehlakçıların konkret bank",
+        "correct": false
       }
     ]
   },
@@ -9197,10 +9197,6 @@ const QUESTIONS = [
     "num": 376,
     "question": "İri məbləğli ödənişlərin köçürülməsi sistemidir:",
     "options": [
-      {
-        "text": "AZİPS",
-        "correct": true
-      },
       {
         "text": "kredit sistemi",
         "correct": false
@@ -9212,6 +9208,10 @@ const QUESTIONS = [
       {
         "text": "HÖP",
         "correct": false
+      },
+      {
+        "text": "AZİPS",
+        "correct": true
       },
       {
         "text": "depozit sistemi",
@@ -9250,12 +9250,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "SWİFT",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       },
       {
         "text": "BOKT-lar (Bank Olmayan Kredit Təşkilatı)",
@@ -9276,12 +9276,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "2020",
-        "correct": false
-      },
-      {
         "text": "2009",
         "correct": true
+      },
+      {
+        "text": "2020",
+        "correct": false
       },
       {
         "text": "2000",
@@ -9306,12 +9306,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "AÖS",
-        "correct": false
-      },
-      {
         "text": "KÖMİS",
         "correct": true
+      },
+      {
+        "text": "AÖS",
+        "correct": false
       }
     ]
   },
@@ -9319,10 +9319,6 @@ const QUESTIONS = [
     "num": 381,
     "question": "…. nağd pul nişanlarının emissiyasında inhisarçı hüquqa malikdir:",
     "options": [
-      {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
       {
         "text": "Auditorlar Palatası",
         "correct": false
@@ -9338,6 +9334,10 @@ const QUESTIONS = [
       {
         "text": "Parlament",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       }
     ]
   },
@@ -9350,10 +9350,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "məcmu",
-        "correct": true
-      },
-      {
         "text": "trast",
         "correct": false
       },
@@ -9364,6 +9360,10 @@ const QUESTIONS = [
       {
         "text": "risk",
         "correct": false
+      },
+      {
+        "text": "məcmu",
+        "correct": true
       }
     ]
   },
@@ -9380,12 +9380,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "maliyyə,mühasibat və statistik hesabatlar",
-        "correct": true
-      },
-      {
         "text": "təsis sənədləri",
         "correct": false
+      },
+      {
+        "text": "maliyyə,mühasibat və statistik hesabatlar",
+        "correct": true
       },
       {
         "text": "biznes planlar",
@@ -9402,16 +9402,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "müxbir",
+        "correct": true
+      },
+      {
         "text": "xəzinə",
         "correct": false
       },
       {
         "text": "veksel",
         "correct": false
-      },
-      {
-        "text": "müxbir",
-        "correct": true
       },
       {
         "text": "büdcə",
@@ -9450,16 +9450,16 @@ const QUESTIONS = [
     "question": "Mərkəzi Bankın nizamnamə fondu ........ təşkil edir:",
     "options": [
       {
-        "text": "500 mln.manat",
-        "correct": true
-      },
-      {
         "text": "500 min manat",
         "correct": false
       },
       {
         "text": "5 mln.manat",
         "correct": false
+      },
+      {
+        "text": "500 mln.manat",
+        "correct": true
       },
       {
         "text": "25 mln.dollar",
@@ -9480,16 +9480,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qismən konvertasiya olunan",
-        "correct": true
-      },
-      {
         "text": "açıq",
         "correct": false
       },
       {
         "text": "qapalı",
         "correct": false
+      },
+      {
+        "text": "qismən konvertasiya olunan",
+        "correct": true
       },
       {
         "text": "tam dönərli",
@@ -9510,12 +9510,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qapalı valyuta",
-        "correct": true
-      },
-      {
         "text": "qismən konvertasiya olunan",
         "correct": false
+      },
+      {
+        "text": "qapalı valyuta",
+        "correct": true
       },
       {
         "text": "ehtiyat valyutası",
@@ -9532,12 +9532,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "malgöndərənə ödəmənin yerinə",
-        "correct": true
-      },
-      {
         "text": "fazilərin ödənilməsinin tezliyidir",
         "correct": false
+      },
+      {
+        "text": "malgöndərənə ödəmənin yerinə",
+        "correct": true
       }
     ]
   },
@@ -9572,10 +9572,6 @@ const QUESTIONS = [
     "question": "Bank tərəfindən ödəyicidən ödəmə tapşırığı icra üçün qəbul edilir, yalnız:",
     "options": [
       {
-        "text": "ödəyicinin hesabında vəsaiti olduğu halda",
-        "correct": true
-      },
-      {
         "text": "ödəyici vəsaiti başqasına verdikdə",
         "correct": false
       },
@@ -9586,6 +9582,10 @@ const QUESTIONS = [
       {
         "text": "ödəyici kommersiya təşkilatı olduğu halda",
         "correct": false
+      },
+      {
+        "text": "ödəyicinin hesabında vəsaiti olduğu halda",
+        "correct": true
       },
       {
         "text": "benefisiar bankın razılığı ilə",
@@ -9602,10 +9602,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "aktiv əməliyyatdır",
-        "correct": true
-      },
-      {
         "text": "aktiv və passiv əməliyyatdır",
         "correct": false
       },
@@ -9616,6 +9612,10 @@ const QUESTIONS = [
       {
         "text": "vasitəçilik əməliyyatıdır",
         "correct": false
+      },
+      {
+        "text": "aktiv əməliyyatdır",
+        "correct": true
       }
     ]
   },
@@ -9632,16 +9632,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "əsas kapital",
-        "correct": true
-      },
-      {
         "text": "sonradan yaranan kapital",
         "correct": false
       },
       {
         "text": "əsas və II dərəcəli kapital",
         "correct": false
+      },
+      {
+        "text": "əsas kapital",
+        "correct": true
       }
     ]
   },
@@ -9662,12 +9662,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "cəlb edilmiş vəsaitlər",
-        "correct": true
-      },
-      {
         "text": "bank masasında olan vəsaitlər",
         "correct": false
+      },
+      {
+        "text": "cəlb edilmiş vəsaitlər",
+        "correct": true
       }
     ]
   },
@@ -9688,12 +9688,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Sığorta İdarəsinin icazasi ilə ola bilər",
-        "correct": false
-      },
-      {
         "text": "ola bilməzlər",
         "correct": true
+      },
+      {
+        "text": "Sığorta İdarəsinin icazasi ilə ola bilər",
+        "correct": false
       }
     ]
   },
@@ -9701,10 +9701,6 @@ const QUESTIONS = [
     "num": 396,
     "question": "Kommersiya banklarına lisenziyanı (xüsusi icazə) kim verir?",
     "options": [
-      {
-        "text": "Azərbaycan Respublikasının Mərkəzi Bankı",
-        "correct": true
-      },
       {
         "text": "Beynəlxalq Bank",
         "correct": false
@@ -9716,6 +9712,10 @@ const QUESTIONS = [
       {
         "text": "Banklar Assosiasiyası",
         "correct": false
+      },
+      {
+        "text": "Azərbaycan Respublikasının Mərkəzi Bankı",
+        "correct": true
       },
       {
         "text": "bankın nümayəndəliyi",
@@ -9750,12 +9750,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "ləğv edilə bilər",
-        "correct": true
-      },
-      {
         "text": "ləğv edilə bilməz",
         "correct": false
+      },
+      {
+        "text": "ləğv edilə bilər",
+        "correct": true
       },
       {
         "text": "Bank Olmayan Kredit Təşkilatlarının",
@@ -9780,12 +9780,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bankın",
-        "correct": true
-      },
-      {
         "text": "Klirinq Mərkəzinin",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın",
+        "correct": true
       }
     ]
   },
@@ -9806,12 +9806,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qeyri-rezidentlərin hesablarında",
-        "correct": false
-      },
-      {
         "text": "dövriyyədə olan nağd pul kütləsi",
         "correct": true
+      },
+      {
+        "text": "qeyri-rezidentlərin hesablarında",
+        "correct": false
       }
     ]
   },
@@ -9819,10 +9819,6 @@ const QUESTIONS = [
     "num": 401,
     "question": "Kredit təşkilatlarının yenidən maliyyələşdirilməsi:",
     "options": [
-      {
-        "text": "Mərkəzi Bankın pul siyasəti alətidir",
-        "correct": true
-      },
       {
         "text": "Mərkəzi Bankın uçot əməliyyatıdır",
         "correct": false
@@ -9838,6 +9834,10 @@ const QUESTIONS = [
       {
         "text": "Mərkəzi Bankın təşkilati funksiyasıdır",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın pul siyasəti alətidir",
+        "correct": true
       }
     ]
   },
@@ -9850,16 +9850,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "pul siyasəti alətidir",
-        "correct": true
-      },
-      {
         "text": "istehlak krediti alətidir",
         "correct": false
       },
       {
         "text": "kontokorrent kredit siyasəti alətidir",
         "correct": false
+      },
+      {
+        "text": "pul siyasəti alətidir",
+        "correct": true
       },
       {
         "text": "dövriyyə krediti siyasəti alətidir",
@@ -9936,12 +9936,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "xüsusi",
-        "correct": false
-      },
-      {
         "text": "dövlət",
         "correct": true
+      },
+      {
+        "text": "xüsusi",
+        "correct": false
       }
     ]
   },
@@ -9949,10 +9949,6 @@ const QUESTIONS = [
     "num": 406,
     "question": ".......Azərbaycan Respublikası Mərkəzi Bankının fəaliyyət məqsədi deyil:",
     "options": [
-      {
-        "text": "fiziki şəxslərin kreditləşdirilməsi",
-        "correct": true
-      },
       {
         "text": "manatın möhkəmliyinin təmin edilməsi",
         "correct": false
@@ -9964,6 +9960,10 @@ const QUESTIONS = [
       {
         "text": "manatın dayanıqlığının təmin edilməsi",
         "correct": false
+      },
+      {
+        "text": "fiziki şəxslərin kreditləşdirilməsi",
+        "correct": true
       },
       {
         "text": "uçot dərəcəsinin müəyyən edilməsi",
@@ -10010,12 +10010,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "monitorinq edir",
-        "correct": true
-      },
-      {
         "text": "lisenziyalaşdırır",
         "correct": false
+      },
+      {
+        "text": "monitorinq edir",
+        "correct": true
       },
       {
         "text": "ciddi xəbərdarlıq edir",
@@ -10062,16 +10062,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "nağd pullardır",
+        "correct": true
+      },
+      {
         "text": "kvazi pullardır",
         "correct": false
       },
       {
         "text": "nağdsız pullardır",
         "correct": false
-      },
-      {
-        "text": "nağd pullardır",
-        "correct": true
       }
     ]
   },
@@ -10079,10 +10079,6 @@ const QUESTIONS = [
     "num": 411,
     "question": "Bankda pul saxlanan yer necə adlanır?",
     "options": [
-      {
-        "text": "kassa qovşağı",
-        "correct": true
-      },
       {
         "text": "kassa stolu",
         "correct": false
@@ -10094,6 +10090,10 @@ const QUESTIONS = [
       {
         "text": "mədaxil,məxaric kassası",
         "correct": false
+      },
+      {
+        "text": "kassa qovşağı",
+        "correct": true
       },
       {
         "text": "kassa məkanı",
@@ -10110,16 +10110,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "olmalıdır",
-        "correct": true
-      },
-      {
         "text": "göstəriş olduqda",
         "correct": false
       },
       {
         "text": "olmaya da bilər",
         "correct": false
+      },
+      {
+        "text": "olmalıdır",
+        "correct": true
       },
       {
         "text": "istisna hallarda",
@@ -10140,12 +10140,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit təşkilatları tərəfindən sərbəst həyata keçirilir",
-        "correct": true
-      },
-      {
         "text": "Sığorta Təşkilatlarının icazəsi ilə həyata keçirilir",
         "correct": false
+      },
+      {
+        "text": "kredit təşkilatları tərəfindən sərbəst həyata keçirilir",
+        "correct": true
       },
       {
         "text": "Nazirlər Kabinetinin razılığı olmalıdır",
@@ -10170,12 +10170,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "formasıdır",
-        "correct": true
-      },
-      {
         "text": "müddətidir",
         "correct": false
+      },
+      {
+        "text": "formasıdır",
+        "correct": true
       }
     ]
   },
@@ -10196,12 +10196,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "trast şirkəti və investisiya idarələri",
-        "correct": false
-      },
-      {
         "text": "lizinq verən, lizinq alan, satıcı",
         "correct": true
+      },
+      {
+        "text": "trast şirkəti və investisiya idarələri",
+        "correct": false
       }
     ]
   },
@@ -10314,12 +10314,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "fiziki şəxslərin vəsaitləri",
-        "correct": false
-      },
-      {
         "text": "dövlətin vəsaitləri",
         "correct": true
+      },
+      {
+        "text": "fiziki şəxslərin vəsaitləri",
+        "correct": false
       }
     ]
   },
@@ -10328,12 +10328,12 @@ const QUESTIONS = [
     "question": "Kredit təşkilatlarındakı yaranmış vəziyyətin qiymətləndirilməsindən ötrü Mərkəzi Bank onların fəaliyyətini ….:",
     "options": [
       {
-        "text": "monitorinq edir",
-        "correct": true
-      },
-      {
         "text": "tənzimləyir",
         "correct": false
+      },
+      {
+        "text": "monitorinq edir",
+        "correct": true
       },
       {
         "text": "lisenziyanı ləğv edir",
@@ -10358,16 +10358,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit təşkilatları",
-        "correct": true
-      },
-      {
         "text": "xarici vətəndaşlar",
         "correct": false
       },
       {
         "text": "kooperativ təşkilatlar",
         "correct": false
+      },
+      {
+        "text": "kredit təşkilatları",
+        "correct": true
       },
       {
         "text": "dövlət əhəmiyyətli iri sənaye müəssisələri",
@@ -10388,12 +10388,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "dövlət",
-        "correct": true
-      },
-      {
         "text": "Maliyyə Nazirliyinin",
         "correct": false
+      },
+      {
+        "text": "dövlət",
+        "correct": true
       },
       {
         "text": "səhmdar",
@@ -10444,12 +10444,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "İqtisadiyyat Nazirliyi",
-        "correct": false
-      },
-      {
         "text": "Mərkəzi Bank",
         "correct": true
+      },
+      {
+        "text": "İqtisadiyyat Nazirliyi",
+        "correct": false
       }
     ]
   },
@@ -10457,10 +10457,6 @@ const QUESTIONS = [
     "num": 426,
     "question": "Mərkəzi Bank …. rolunu oynayır:",
     "options": [
-      {
-        "text": "dövlətin maliyyə agenti",
-        "correct": true
-      },
       {
         "text": "vətəndaşların kreditləşməsi",
         "correct": false
@@ -10472,6 +10468,10 @@ const QUESTIONS = [
       {
         "text": "müəssisələrin kreditoru",
         "correct": false
+      },
+      {
+        "text": "dövlətin maliyyə agenti",
+        "correct": true
       },
       {
         "text": "ölkənin lizinq mərkəzi",
@@ -10538,6 +10538,10 @@ const QUESTIONS = [
     "question": "Ölkənin emissiya mərkəzidir:",
     "options": [
       {
+        "text": "Mərkəzi Bank",
+        "correct": true
+      },
+      {
         "text": "universal bank",
         "correct": false
       },
@@ -10552,10 +10556,6 @@ const QUESTIONS = [
       {
         "text": "ixtisaslaşmış bank",
         "correct": false
-      },
-      {
-        "text": "Mərkəzi Bank",
-        "correct": true
       }
     ]
   },
@@ -10586,16 +10586,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "prinsipidir",
-        "correct": true
-      },
-      {
         "text": "sənədidir",
         "correct": false
       },
       {
         "text": "funksiyasıdır",
         "correct": false
+      },
+      {
+        "text": "prinsipidir",
+        "correct": true
       },
       {
         "text": "istifadəsidir",
@@ -10608,12 +10608,12 @@ const QUESTIONS = [
     "question": "Rəqəmsal bankların strateji istiqamətidir:",
     "options": [
       {
-        "text": "rəqəmsal ödəniş infrastrukturunun",
-        "correct": true
-      },
-      {
         "text": "ödəniş infrastrukurunun mexanikləşdirilməsi",
         "correct": false
+      },
+      {
+        "text": "rəqəmsal ödəniş infrastrukturunun",
+        "correct": true
       }
     ]
   },
@@ -10656,16 +10656,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "bütün əməliyyatların rəqəmsallaşması",
+        "correct": true
+      },
+      {
         "text": "bütün əməliyyatların mexanikləşməsi",
         "correct": false
       },
       {
         "text": "bütün əməliyyatların təhlil olunması",
         "correct": false
-      },
-      {
-        "text": "bütün əməliyyatların rəqəmsallaşması",
-        "correct": true
       }
     ]
   },
@@ -10673,10 +10673,6 @@ const QUESTIONS = [
     "num": 436,
     "question": "Rəqəmsal bankçılığın növlərindən olan ağıllı dinamikalardandır:",
     "options": [
-      {
-        "text": "Google Home",
-        "correct": true
-      },
       {
         "text": "Google APP",
         "correct": false
@@ -10688,6 +10684,10 @@ const QUESTIONS = [
       {
         "text": "Amazon Pod",
         "correct": false
+      },
+      {
+        "text": "Google Home",
+        "correct": true
       },
       {
         "text": "Apple Pod",
@@ -10704,16 +10704,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "onlayn bankçılıq və mobil bankçılıq",
-        "correct": true
-      },
-      {
         "text": "mobil bankçılıq və təkamül yenilənməsi",
         "correct": false
       },
       {
         "text": "onlayn bankçılıq və mexanikləşmə",
         "correct": false
+      },
+      {
+        "text": "onlayn bankçılıq və mobil bankçılıq",
+        "correct": true
       },
       {
         "text": "mobil bankçılıq və müasirləşmə",
@@ -10756,12 +10756,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "avtomatlaşdırılmasıdır",
-        "correct": true
-      },
-      {
         "text": "şifrələnməsidir",
         "correct": false
+      },
+      {
+        "text": "avtomatlaşdırılmasıdır",
+        "correct": true
       }
     ]
   },
@@ -10778,16 +10778,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "banklar öz müştəriləri ilə nağd hesablaşmalar həyata keçirir",
+        "correct": true
+      },
+      {
         "text": "banklar öz müştəriləri ilə audit əməliyyatlarını həyata keçirir",
         "correct": false
       },
       {
         "text": "banklar öz müştəriləri ilə sənədləşmə",
         "correct": false
-      },
-      {
-        "text": "banklar öz müştəriləri ilə nağd hesablaşmalar həyata keçirir",
-        "correct": true
       }
     ]
   },
@@ -10795,10 +10795,6 @@ const QUESTIONS = [
     "num": 441,
     "question": "Mərkəzi Bankın …. funksiyası banknot buraxılışına inhisardan və ölkədə pul tədavülünün tənzimlənməsindən ibarətdir:",
     "options": [
-      {
-        "text": "emissiya",
-        "correct": true
-      },
       {
         "text": "nəzarət",
         "correct": false
@@ -10814,6 +10810,10 @@ const QUESTIONS = [
       {
         "text": "bölüşdürücü",
         "correct": false
+      },
+      {
+        "text": "emissiya",
+        "correct": true
       }
     ]
   },
@@ -10906,10 +10906,6 @@ const QUESTIONS = [
     "question": "Azərbaycan Respublikasında əsas Valyuta Nəzarəti Orqanı ......:",
     "options": [
       {
-        "text": "Mərkəzi Bankdır",
-        "correct": true
-      },
-      {
         "text": "Auditorlar Palatasıdır",
         "correct": false
       },
@@ -10920,6 +10916,10 @@ const QUESTIONS = [
       {
         "text": "Vergilər Nazirliyidir",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankdır",
+        "correct": true
       },
       {
         "text": "Dövlət Gömrük Komitəsidir",
@@ -10936,10 +10936,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "Sığorta Təşkilatları",
         "correct": false
       },
@@ -10950,6 +10946,10 @@ const QUESTIONS = [
       {
         "text": "lombardlar",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       }
     ]
   },
@@ -10958,12 +10958,12 @@ const QUESTIONS = [
     "question": "Banklar arasında qarşılıqlı tələblər üzrə hesablaşmalar:",
     "options": [
       {
-        "text": "yalnız Bank Olmayan Kredit Təşkilatlarının (BOKT)",
-        "correct": false
-      },
-      {
         "text": "məhdudiyyətsiz mümkündür",
         "correct": true
+      },
+      {
+        "text": "yalnız Bank Olmayan Kredit Təşkilatlarının (BOKT)",
+        "correct": false
       }
     ]
   },
@@ -10998,6 +10998,10 @@ const QUESTIONS = [
     "question": "Akkreditiv üzrə nağd pulun ödənilməsi:",
     "options": [
       {
+        "text": "mümkün deyil",
+        "correct": true
+      },
+      {
         "text": "bank rəhbərinin razılığı ilə mümkündür",
         "correct": false
       },
@@ -11012,10 +11016,6 @@ const QUESTIONS = [
       {
         "text": "Banklar Assosiasiyasının razılığı ilə mümkündür",
         "correct": false
-      },
-      {
-        "text": "mümkün deyil",
-        "correct": true
       }
     ]
   },
@@ -11023,10 +11023,6 @@ const QUESTIONS = [
     "num": 451,
     "question": "Mərkəzi Bankın passiv əməliyyatı dedikdə nə başa düşülür?",
     "options": [
-      {
-        "text": "kapital bazasını formalaşdıran əməliyyatlar başa düşülür",
-        "correct": true
-      },
       {
         "text": "öz vəsaitlərini itirmək başa düşülür",
         "correct": false
@@ -11042,6 +11038,10 @@ const QUESTIONS = [
       {
         "text": "öz vəsaitlərini beynəlxalq vətəndaşlara satmaq başa düşülür",
         "correct": false
+      },
+      {
+        "text": "kapital bazasını formalaşdıran əməliyyatlar başa düşülür",
+        "correct": true
       }
     ]
   },
@@ -11054,16 +11054,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "öz gəlirləri hesabına",
-        "correct": true
-      },
-      {
         "text": "fiziki şəxslərin gəlirlərindən gələn vəsaitlər hesabına",
         "correct": false
       },
       {
         "text": "lisenziya verərkən aldığı faiz hesabına",
         "correct": false
+      },
+      {
+        "text": "öz gəlirləri hesabına",
+        "correct": true
       },
       {
         "text": "büdcə vəsaiti hesabına",
@@ -11084,16 +11084,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "dövlətin",
-        "correct": true
-      },
-      {
         "text": "kommersiya banklarının",
         "correct": false
       },
       {
         "text": "fiziki və hüquqi şəxslərin",
         "correct": false
+      },
+      {
+        "text": "dövlətin",
+        "correct": true
       }
     ]
   },
@@ -11106,16 +11106,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "mənfəət əldə etmək Mərkəzi Bankın",
-        "correct": true
-      },
-      {
         "text": "mənfəət əldə etmək Mərkəzi Bankın əsas məqsədidir",
         "correct": false
       },
       {
         "text": "mənfəəti yarı bölmək Mərkəzi Bankın məqsədidir",
         "correct": false
+      },
+      {
+        "text": "mənfəət əldə etmək Mərkəzi Bankın",
+        "correct": true
       }
     ]
   },
@@ -11136,12 +11136,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "tədiyə balansını tərtib etmək",
-        "correct": false
-      },
-      {
         "text": "iqtisadiyyatın real sektorunun kreditləşdirilməsi",
         "correct": true
+      },
+      {
+        "text": "tədiyə balansını tərtib etmək",
+        "correct": false
       }
     ]
   },
@@ -11149,10 +11149,6 @@ const QUESTIONS = [
     "num": 456,
     "question": "Mərkəzi Bankın pul siyasəti alətidir:",
     "options": [
-      {
-        "text": "açıq bazar əməliyyatları",
-        "correct": true
-      },
       {
         "text": "xüsusi kapitala nəzarət",
         "correct": false
@@ -11168,6 +11164,10 @@ const QUESTIONS = [
       {
         "text": "fiziki şəxslərə kredit vermək",
         "correct": false
+      },
+      {
+        "text": "açıq bazar əməliyyatları",
+        "correct": true
       }
     ]
   },
@@ -11180,16 +11180,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "ehtiyat fondu",
-        "correct": true
-      },
-      {
         "text": "bank fondu",
         "correct": false
       },
       {
         "text": "kredit fondu",
         "correct": false
+      },
+      {
+        "text": "ehtiyat fondu",
+        "correct": true
       },
       {
         "text": "depozit fondu",
@@ -11280,12 +11280,12 @@ const QUESTIONS = [
     "question": "Nağdsız pul dövriyyəsi nağd dövriyyə ilə müqayisədə tədavül xərcləri:",
     "options": [
       {
-        "text": "olduqca azdır",
-        "correct": true
-      },
-      {
         "text": "müəyyən edilmiş limitdən çoxdur",
         "correct": false
+      },
+      {
+        "text": "olduqca azdır",
+        "correct": true
       },
       {
         "text": "mövcud deyildir",
@@ -11310,12 +11310,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "təmənnasız",
-        "correct": true
-      },
-      {
         "text": "icarəyə verilərək",
         "correct": false
+      },
+      {
+        "text": "təmənnasız",
+        "correct": true
       },
       {
         "text": "ödəmə əsasında",
@@ -11340,12 +11340,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "Milli Məclis",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       },
       {
         "text": "Maliyyə Nazirliyi",
@@ -11370,12 +11370,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bankın ərazi idarələrindən",
-        "correct": true
-      },
-      {
         "text": "axşam kassalarından",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın ərazi idarələrindən",
+        "correct": true
       }
     ]
   },
@@ -11396,12 +11396,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "pul əvəzediciləri",
-        "correct": false
-      },
-      {
         "text": "banknot, metal pullar",
         "correct": true
+      },
+      {
+        "text": "pul əvəzediciləri",
+        "correct": false
       }
     ]
   },
@@ -11428,10 +11428,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bank hesabı",
-        "correct": true
-      },
-      {
         "text": "dövriyyə kassasının limiti",
         "correct": false
       },
@@ -11442,6 +11438,10 @@ const QUESTIONS = [
       {
         "text": "Mərkəzi Bankın xüsusi icazəsi",
         "correct": false
+      },
+      {
+        "text": "bank hesabı",
+        "correct": true
       }
     ]
   },
@@ -11476,12 +11476,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit təşkilatları",
-        "correct": true
-      },
-      {
         "text": "Statistika Komitəsi",
         "correct": false
+      },
+      {
+        "text": "kredit təşkilatları",
+        "correct": true
       }
     ]
   },
@@ -11502,12 +11502,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "heç kimə hesabat vermir",
-        "correct": false
-      },
-      {
         "text": "Azərbaycan Respublikasının Prezidentinə",
         "correct": true
+      },
+      {
+        "text": "heç kimə hesabat vermir",
+        "correct": false
       }
     ]
   },
@@ -11515,10 +11515,6 @@ const QUESTIONS = [
     "num": 471,
     "question": "Kredit təşkilatlarının yenidən maliyyələşdirilməsi ........:",
     "options": [
-      {
-        "text": "Mərkəzi Bankın pul siyasəti alətidir",
-        "correct": true
-      },
       {
         "text": "Mərkəzi Bankın banklara nəzarət etməsidir",
         "correct": false
@@ -11530,6 +11526,10 @@ const QUESTIONS = [
       {
         "text": "Mərkəzi Bankın əsas məqsədidir",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın pul siyasəti alətidir",
+        "correct": true
       },
       {
         "text": "Mərkəzi Bankın təşkilati funksiyasıdır",
@@ -11546,12 +11546,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müxbir",
-        "correct": true
-      },
-      {
         "text": "debet",
         "correct": false
+      },
+      {
+        "text": "müxbir",
+        "correct": true
       },
       {
         "text": "xəzinə",
@@ -11590,12 +11590,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "nağd pulların qəbulu və verilməsidir",
-        "correct": true
-      },
-      {
         "text": "sənədlərin qeydiyyatdan keçirilməsidir",
         "correct": false
+      },
+      {
+        "text": "nağd pulların qəbulu və verilməsidir",
+        "correct": true
       }
     ]
   },
@@ -11612,16 +11612,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "depozit",
+        "correct": true
+      },
+      {
         "text": "ipoteka",
         "correct": false
       },
       {
         "text": "investisiya",
         "correct": false
-      },
-      {
-        "text": "depozit",
-        "correct": true
       }
     ]
   },
@@ -11629,10 +11629,6 @@ const QUESTIONS = [
     "num": 476,
     "question": "Ödəniş tələbnamə tapşırıqları:",
     "options": [
-      {
-        "text": "nağdsız hesablaşmaların formasıdır",
-        "correct": true
-      },
       {
         "text": "nağdsız hesablaşmaların dondurulmasıdır",
         "correct": false
@@ -11648,6 +11644,10 @@ const QUESTIONS = [
       {
         "text": "nağdsız hesablaşmaların siyahıya alınmasıdır",
         "correct": false
+      },
+      {
+        "text": "nağdsız hesablaşmaların formasıdır",
+        "correct": true
       }
     ]
   },
@@ -11660,16 +11660,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kreditləşmədə vasitəçilik",
-        "correct": true
-      },
-      {
         "text": "lisenziya vermək",
         "correct": false
       },
       {
         "text": "banknot emissiyası",
         "correct": false
+      },
+      {
+        "text": "kreditləşmədə vasitəçilik",
+        "correct": true
       },
       {
         "text": "lisenziyanı ləğv etmək",
@@ -11690,12 +11690,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müstəqil",
-        "correct": true
-      },
-      {
         "text": "qərəzli",
         "correct": false
+      },
+      {
+        "text": "müstəqil",
+        "correct": true
       },
       {
         "text": "dövlət tipli",
@@ -11720,12 +11720,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "aksept",
-        "correct": true
-      },
-      {
         "text": "inkasso",
         "correct": false
+      },
+      {
+        "text": "aksept",
+        "correct": true
       }
     ]
   },
@@ -11760,10 +11760,6 @@ const QUESTIONS = [
     "question": "İnvestisiya şirkəti ....... şəxsdir:",
     "options": [
       {
-        "text": "hüquqi",
-        "correct": true
-      },
-      {
         "text": "bələdiyyə və dövlət mülkiyyətinə əsaslanan",
         "correct": false
       },
@@ -11778,6 +11774,10 @@ const QUESTIONS = [
       {
         "text": "müddətli fəaliyyət göstərən",
         "correct": false
+      },
+      {
+        "text": "hüquqi",
+        "correct": true
       }
     ]
   },
@@ -11790,10 +11790,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "öz qiymətli kağızlarını buraxır",
-        "correct": true
-      },
-      {
         "text": "öz qiymətli kağızlarını satın alır",
         "correct": false
       },
@@ -11804,6 +11800,10 @@ const QUESTIONS = [
       {
         "text": "başqalarının qiymətli kağızlarını satır",
         "correct": false
+      },
+      {
+        "text": "öz qiymətli kağızlarını buraxır",
+        "correct": true
       }
     ]
   },
@@ -11820,12 +11820,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bir valyuta növünün digərinə dəyişdirilməsinə",
-        "correct": true
-      },
-      {
         "text": "nağd pulun nağdsız pula çevrilməsinə",
         "correct": false
+      },
+      {
+        "text": "bir valyuta növünün digərinə dəyişdirilməsinə",
+        "correct": true
       },
       {
         "text": "pulun kreditə çevrilməsinə",
@@ -11837,6 +11837,10 @@ const QUESTIONS = [
     "num": 484,
     "question": "Portfel investisiyası əməliyyatları bankların ...... apardığı əməliyyatdır:",
     "options": [
+      {
+        "text": "qiymətli kağızlarla",
+        "correct": true
+      },
       {
         "text": "depozit ilə",
         "correct": false
@@ -11850,10 +11854,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qiymətli kağızlarla",
-        "correct": true
-      },
-      {
         "text": "ipoteka ilə",
         "correct": false
       }
@@ -11863,10 +11863,6 @@ const QUESTIONS = [
     "num": 485,
     "question": "Bankların investisiya əməliyyatları:",
     "options": [
-      {
-        "text": "vəsait qoyuluşu prosesi ilə",
-        "correct": true
-      },
       {
         "text": "hesablaşmaların sürətləndirilməsidir",
         "correct": false
@@ -11878,6 +11874,10 @@ const QUESTIONS = [
       {
         "text": "kredit resurslarının formalaşmasıdır",
         "correct": false
+      },
+      {
+        "text": "vəsait qoyuluşu prosesi ilə",
+        "correct": true
       }
     ]
   },
@@ -11885,10 +11885,6 @@ const QUESTIONS = [
     "num": 486,
     "question": "İnvestor hansı investisiya fəaliyyətini həyata keçirir ?",
     "options": [
-      {
-        "text": "investisiya fəaliyyətini maliyyələşdirir",
-        "correct": true
-      },
       {
         "text": "klirinq əməliyyatlarını həyata keçirir",
         "correct": false
@@ -11902,6 +11898,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "investisiya fəaliyyətini maliyyələşdirir",
+        "correct": true
+      },
+      {
         "text": "kommunikasiya işlərini yerinə yetirir",
         "correct": false
       }
@@ -11912,12 +11912,12 @@ const QUESTIONS = [
     "question": "İnvestisiya krediti rəsmiləşdirilərkən əsasən girov kimi çıxış edir .......:",
     "options": [
       {
-        "text": "yola salınmış mallar",
-        "correct": false
-      },
-      {
         "text": "daşınmaz əmlak",
         "correct": true
+      },
+      {
+        "text": "yola salınmış mallar",
+        "correct": false
       },
       {
         "text": "plastik kartlar",
@@ -11946,12 +11946,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bölüşdürücü",
-        "correct": true
-      },
-      {
         "text": "bazar",
         "correct": false
+      },
+      {
+        "text": "bölüşdürücü",
+        "correct": true
       },
       {
         "text": "sərbəst",
@@ -12002,12 +12002,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müdafiə, kredit, borc",
-        "correct": false
-      },
-      {
         "text": "müdafiə, operativ, tənzimləmə",
         "correct": true
+      },
+      {
+        "text": "müdafiə, kredit, borc",
+        "correct": false
       }
     ]
   },
@@ -12015,10 +12015,6 @@ const QUESTIONS = [
     "num": 491,
     "question": "SSRİ Dövlət Bankı neçə pilləli idi:",
     "options": [
-      {
-        "text": "1",
-        "correct": true
-      },
       {
         "text": "4",
         "correct": false
@@ -12030,6 +12026,10 @@ const QUESTIONS = [
       {
         "text": "2",
         "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
       },
       {
         "text": "3",
@@ -12046,10 +12046,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "öz vəsaiti hesabına yalnız pul",
-        "correct": true
-      },
-      {
         "text": "yalnız hüquqi şəxslərdən depozit qəbul edə bilər",
         "correct": false
       },
@@ -12060,6 +12056,10 @@ const QUESTIONS = [
       {
         "text": "Mərkəzi Bankın vəsaiti hesabına kredit verə bilər",
         "correct": false
+      },
+      {
+        "text": "öz vəsaiti hesabına yalnız pul",
+        "correct": true
       }
     ]
   },
@@ -12076,12 +12076,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bankın",
-        "correct": true
-      },
-      {
         "text": "kommersiya bankının",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın",
+        "correct": true
       },
       {
         "text": "Maliyyə Nazirliyinin",
@@ -12128,16 +12128,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "II pilləsində",
+        "correct": true
+      },
+      {
         "text": "heç birində",
         "correct": false
       },
       {
         "text": "I və II pilləsində",
         "correct": false
-      },
-      {
-        "text": "II pilləsində",
-        "correct": true
       }
     ]
   },
@@ -12146,16 +12146,16 @@ const QUESTIONS = [
     "question": "Mülkiyyətinə görə ayrılan bankları göstərin:",
     "options": [
       {
-        "text": "dövlət, səhmdar,korporativ",
-        "correct": true
-      },
-      {
         "text": "korporativ,mərkəzi,kommersiya",
         "correct": false
       },
       {
         "text": "1 pilləli, 2 pilləli, 3 pilləli",
         "correct": false
+      },
+      {
+        "text": "dövlət, səhmdar,korporativ",
+        "correct": true
       }
     ]
   },
@@ -12168,12 +12168,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "cari ilin əməliyyatları üzrə qalıqların çıxarılmasıdır",
-        "correct": true
-      },
-      {
         "text": "hesablar üzrə balansı müəyyənləşdirməkdir",
         "correct": false
+      },
+      {
+        "text": "cari ilin əməliyyatları üzrə qalıqların çıxarılmasıdır",
+        "correct": true
       },
       {
         "text": "balansdan kənar hesablar üzrə qalıq çıxarmaqdır",
@@ -12224,12 +12224,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "stolun daxilində saxlaya bilər",
-        "correct": false
-      },
-      {
         "text": "saxlaya bilməz",
         "correct": true
+      },
+      {
+        "text": "stolun daxilində saxlaya bilər",
+        "correct": false
       },
       {
         "text": "açıq seyfdə saxlaya bilər",
@@ -12254,12 +12254,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "müddətsiz",
-        "correct": false
-      },
-      {
         "text": "mübahisəsiz",
         "correct": true
+      },
+      {
+        "text": "müddətsiz",
+        "correct": false
       }
     ]
   },
@@ -12268,16 +12268,16 @@ const QUESTIONS = [
     "question": "İnvestisiyanın formalarını göstərin:",
     "options": [
       {
-        "text": "portfel və birbaşa investisiya",
-        "correct": true
-      },
-      {
         "text": "uzunmüddətli və qısamüddətli investisiya",
         "correct": false
       },
       {
         "text": "yalnız portfel investisiyası",
         "correct": false
+      },
+      {
+        "text": "portfel və birbaşa investisiya",
+        "correct": true
       },
       {
         "text": "birbaşa və son investisiya",
@@ -12298,10 +12298,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hüquqi şəxsdir",
-        "correct": true
-      },
-      {
         "text": "əmanət bankıdır",
         "correct": false
       },
@@ -12312,6 +12308,10 @@ const QUESTIONS = [
       {
         "text": "investordur",
         "correct": false
+      },
+      {
+        "text": "hüquqi şəxsdir",
+        "correct": true
       }
     ]
   },
@@ -12328,12 +12328,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "sığorta təşkilatları",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       },
       {
         "text": "depozit bankları",
@@ -12358,12 +12358,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "etibar edirəm,inanıram",
-        "correct": true
-      },
-      {
         "text": "faktorinq",
         "correct": false
+      },
+      {
+        "text": "etibar edirəm,inanıram",
+        "correct": true
       }
     ]
   },
@@ -12384,12 +12384,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bankın kommersiya",
-        "correct": false
-      },
-      {
         "text": "investisiya",
         "correct": true
+      },
+      {
+        "text": "Mərkəzi Bankın kommersiya",
+        "correct": false
       }
     ]
   },
@@ -12420,16 +12420,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "uzunmüddətli",
-        "correct": true
-      },
-      {
         "text": "ticarət",
         "correct": false
       },
       {
         "text": "orta müddətli",
         "correct": false
+      },
+      {
+        "text": "uzunmüddətli",
+        "correct": true
       },
       {
         "text": "qısamüddətli və bir günlük kredit",
@@ -12450,12 +12450,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hüquqi və fiziki şəxslər",
-        "correct": true
-      },
-      {
         "text": "dövləti təmsil etməyən orqanlar",
         "correct": false
+      },
+      {
+        "text": "hüquqi və fiziki şəxslər",
+        "correct": true
       },
       {
         "text": "yalnız hüquqi şəxslər",
@@ -12506,12 +12506,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "dövlət kreditor kimi iştirak etmir",
-        "correct": false
-      },
-      {
         "text": "dövlətin həm kreditor,həm borclu kimi iştirakı",
         "correct": true
+      },
+      {
+        "text": "dövlət kreditor kimi iştirak etmir",
+        "correct": false
       }
     ]
   },
@@ -12520,16 +12520,16 @@ const QUESTIONS = [
     "question": "Daşınmaz əmlaka görə uzunmüddətli kreditin növünü göstərin:",
     "options": [
       {
-        "text": "ipoteka",
-        "correct": true
-      },
-      {
         "text": "tədiyyə",
         "correct": false
       },
       {
         "text": "faktorinq",
         "correct": false
+      },
+      {
+        "text": "ipoteka",
+        "correct": true
       },
       {
         "text": "beynəlxalq",
@@ -12550,12 +12550,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kreditor ölkənin, borcalanın ölkəsinin, üçüncü ölkənin",
-        "correct": true
-      },
-      {
         "text": "yalnız dönərli olmayan valyuta ilə",
         "correct": false
+      },
+      {
+        "text": "kreditor ölkənin, borcalanın ölkəsinin, üçüncü ölkənin",
+        "correct": true
       }
     ]
   },
@@ -12612,12 +12612,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bölmə rəhbərini təyin edir",
-        "correct": false
-      },
-      {
         "text": "struktur bölmələrinin auditini həyata keçirir",
         "correct": true
+      },
+      {
+        "text": "bölmə rəhbərini təyin edir",
+        "correct": false
       }
     ]
   },
@@ -12625,10 +12625,6 @@ const QUESTIONS = [
     "num": 516,
     "question": "Bankın funksional təyinatıdır:",
     "options": [
-      {
-        "text": "depozit",
-        "correct": true
-      },
       {
         "text": "deflyasiya",
         "correct": false
@@ -12644,6 +12640,10 @@ const QUESTIONS = [
       {
         "text": "devalvasiya",
         "correct": false
+      },
+      {
+        "text": "depozit",
+        "correct": true
       }
     ]
   },
@@ -12678,16 +12678,16 @@ const QUESTIONS = [
     "question": "Kommersiya banklarının əsas məqsədidir:",
     "options": [
       {
+        "text": "mənfəət əldə etmək",
+        "correct": true
+      },
+      {
         "text": "bank yaratmaq",
         "correct": false
       },
       {
         "text": "lisenziya vermək",
         "correct": false
-      },
-      {
-        "text": "mənfəət əldə etmək",
-        "correct": true
       },
       {
         "text": "bankları ləğv etmək",
@@ -12708,16 +12708,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "universal",
+        "correct": true
+      },
+      {
         "text": "orta",
         "correct": false
       },
       {
         "text": "iri",
         "correct": false
-      },
-      {
-        "text": "universal",
-        "correct": true
       },
       {
         "text": "kiçik",
@@ -12756,12 +12756,12 @@ const QUESTIONS = [
     "question": "Bank Olmayan Kredit Təşkilatları (BOKT) Bank Sisteminin hansı pilləsində yerləşir?",
     "options": [
       {
-        "text": "ikinci pilləsində",
-        "correct": true
-      },
-      {
         "text": "üçüncü pilləsində",
         "correct": false
+      },
+      {
+        "text": "ikinci pilləsində",
+        "correct": true
       },
       {
         "text": "birinci pilləsində",
@@ -12786,10 +12786,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "masa,stol",
-        "correct": true
-      },
-      {
         "text": "kətil",
         "correct": false
       },
@@ -12800,6 +12796,10 @@ const QUESTIONS = [
       {
         "text": "kreslo",
         "correct": false
+      },
+      {
+        "text": "masa,stol",
+        "correct": true
       }
     ]
   },
@@ -12816,12 +12816,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "Hesablama Palatası",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       },
       {
         "text": "Mərkəzi Aparat",
@@ -12834,6 +12834,10 @@ const QUESTIONS = [
     "question": "Kreditin prinsipləridir:",
     "options": [
       {
+        "text": "hamısı",
+        "correct": true
+      },
+      {
         "text": "faizini ödəmə",
         "correct": false
       },
@@ -12844,10 +12848,6 @@ const QUESTIONS = [
       {
         "text": "qaytarılmaq",
         "correct": false
-      },
-      {
-        "text": "hamısı",
-        "correct": true
       },
       {
         "text": "məqsədlilik",
@@ -12864,6 +12864,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "mülkiyyət formasına",
+        "correct": true
+      },
+      {
         "text": "fəaliyyət miqyaslarına",
         "correct": false
       },
@@ -12874,10 +12878,6 @@ const QUESTIONS = [
       {
         "text": "əməliyyatların həcminə",
         "correct": false
-      },
-      {
-        "text": "mülkiyyət formasına",
-        "correct": true
       }
     ]
   },
@@ -12885,10 +12885,6 @@ const QUESTIONS = [
     "num": 526,
     "question": "Səhm neçənci dərəcəli qiymətli kağız növü hesab edilir?",
     "options": [
-      {
-        "text": "I dərəcəli",
-        "correct": true
-      },
       {
         "text": "IV dərəcəli",
         "correct": false
@@ -12904,6 +12900,10 @@ const QUESTIONS = [
       {
         "text": "dərəcəsizdir",
         "correct": false
+      },
+      {
+        "text": "I dərəcəli",
+        "correct": true
       }
     ]
   },
@@ -12916,16 +12916,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "istiqraz, səhm",
-        "correct": true
-      },
-      {
         "text": "faktorinq,forfeytinq",
         "correct": false
       },
       {
         "text": "kredit, borc",
         "correct": false
+      },
+      {
+        "text": "istiqraz, səhm",
+        "correct": true
       },
       {
         "text": "depozit,uçot",
@@ -12946,12 +12946,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "fyuçers, opsion, svop",
-        "correct": true
-      },
-      {
         "text": "səhm, depozit, fyuçers, svop",
         "correct": false
+      },
+      {
+        "text": "fyuçers, opsion, svop",
+        "correct": true
       },
       {
         "text": "manat, svop, opsion, fyuçers",
@@ -12964,6 +12964,10 @@ const QUESTIONS = [
     "question": "Kreditin hansı formasında o, pul formasında verilir və pul formasında qaytarılır:",
     "options": [
       {
+        "text": "bank",
+        "correct": true
+      },
+      {
         "text": "qarışıq",
         "correct": false
       },
@@ -12974,10 +12978,6 @@ const QUESTIONS = [
       {
         "text": "əmtəə",
         "correct": false
-      },
-      {
-        "text": "bank",
-        "correct": true
       },
       {
         "text": "dünya",
@@ -13002,12 +13002,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "istehlak",
-        "correct": false
-      },
-      {
         "text": "bank",
         "correct": true
+      },
+      {
+        "text": "istehlak",
+        "correct": false
       }
     ]
   },
@@ -13016,12 +13016,12 @@ const QUESTIONS = [
     "question": "Kreditin funksiyasını qeyd edin:",
     "options": [
       {
-        "text": "yenidənbölgü",
-        "correct": true
-      },
-      {
         "text": "riskli",
         "correct": false
+      },
+      {
+        "text": "yenidənbölgü",
+        "correct": true
       },
       {
         "text": "bərabərləşdirici",
@@ -13046,16 +13046,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "borcalandan kreditora",
-        "correct": true
-      },
-      {
         "text": "kreditordan borcalana",
         "correct": false
       },
       {
         "text": "üçüncü şəxslərə",
         "correct": false
+      },
+      {
+        "text": "borcalandan kreditora",
+        "correct": true
       },
       {
         "text": "qarantiya edəndən zəmanətçiyə",
@@ -13124,12 +13124,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "optimallaşdırma",
-        "correct": false
-      },
-      {
         "text": "yenidənbölgü funksiyası",
         "correct": true
+      },
+      {
+        "text": "optimallaşdırma",
+        "correct": false
       }
     ]
   },
@@ -13137,10 +13137,6 @@ const QUESTIONS = [
     "num": 536,
     "question": "Qaytarılmaq kreditin …:",
     "options": [
-      {
-        "text": "prinsipidir",
-        "correct": true
-      },
       {
         "text": "faizidir",
         "correct": false
@@ -13152,6 +13148,10 @@ const QUESTIONS = [
       {
         "text": "roludur",
         "correct": false
+      },
+      {
+        "text": "prinsipidir",
+        "correct": true
       },
       {
         "text": "təyinatıdır",
@@ -13182,12 +13182,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "Bank Olmayan Kredit Təşkilatı (BOKT)",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": true
       },
       {
         "text": "kredit təşkilatları",
@@ -13208,12 +13208,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "faktorinq və lizinq",
-        "correct": false
-      },
-      {
         "text": "kredit",
         "correct": true
+      },
+      {
+        "text": "faktorinq və lizinq",
+        "correct": false
       },
       {
         "text": "anderraytinq",
@@ -13238,12 +13238,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "vaxtı keçmiş borclar",
-        "correct": false
-      },
-      {
         "text": "pul vəsaitləri",
         "correct": true
+      },
+      {
+        "text": "vaxtı keçmiş borclar",
+        "correct": false
       }
     ]
   },
@@ -13282,10 +13282,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit münasibətləridir",
-        "correct": true
-      },
-      {
         "text": "maliyyə münasibətləridir",
         "correct": false
       },
@@ -13296,6 +13292,10 @@ const QUESTIONS = [
       {
         "text": "riskli münasibətləridir",
         "correct": false
+      },
+      {
+        "text": "kredit münasibətləridir",
+        "correct": true
       }
     ]
   },
@@ -13308,12 +13308,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bank",
-        "correct": false
-      },
-      {
         "text": "kredit təşkilatının özü",
         "correct": true
+      },
+      {
+        "text": "Mərkəzi Bank",
+        "correct": false
       },
       {
         "text": "Mərkəzi Bankın əməkdaşları",
@@ -13352,12 +13352,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "5 gündən bir",
-        "correct": false
-      },
-      {
         "text": "fasiləsiz",
         "correct": true
+      },
+      {
+        "text": "5 gündən bir",
+        "correct": false
       }
     ]
   },
@@ -13396,16 +13396,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bankın gündəlik balansında",
-        "correct": true
-      },
-      {
         "text": "bankın kassa dəftərində",
         "correct": false
       },
       {
         "text": "bankın məxaric sənədində",
         "correct": false
+      },
+      {
+        "text": "bankın gündəlik balansında",
+        "correct": true
       },
       {
         "text": "bankın mədaxil sənədində",
@@ -13478,12 +13478,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bankın acılıb bağlanmasını",
-        "correct": false
-      },
-      {
         "text": "kassa əməliyyatlarının yekununu",
         "correct": true
+      },
+      {
+        "text": "bankın acılıb bağlanmasını",
+        "correct": false
       }
     ]
   },
@@ -13491,10 +13491,6 @@ const QUESTIONS = [
     "num": 551,
     "question": "Müştərinin kredit üzrə öz borcunu vaxtında və tam ödəmək qabiliyyətidir.....:",
     "options": [
-      {
-        "text": "ödəmə qabiliyyətinin olması",
-        "correct": true
-      },
       {
         "text": "mübadilə qabiliyyətliliyi",
         "correct": false
@@ -13506,6 +13502,10 @@ const QUESTIONS = [
       {
         "text": "ödəmə qabiliyyətinin olmamması",
         "correct": false
+      },
+      {
+        "text": "ödəmə qabiliyyətinin olması",
+        "correct": true
       },
       {
         "text": "hesablaşma qabiliyyətliliyi",
@@ -13522,16 +13522,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit alıb geri qaytarmaq",
-        "correct": true
-      },
-      {
         "text": "kredit riskini azaltmaq",
         "correct": false
       },
       {
         "text": "kredit almamaq",
         "correct": false
+      },
+      {
+        "text": "kredit alıb geri qaytarmaq",
+        "correct": true
       },
       {
         "text": "kreditin faizinin olmaması",
@@ -13544,16 +13544,16 @@ const QUESTIONS = [
     "question": "Kredit sözünü izah edin:",
     "options": [
       {
+        "text": "inanıram, etibar edirəm",
+        "correct": true
+      },
+      {
         "text": "faktorinq",
         "correct": false
       },
       {
         "text": "bank",
         "correct": false
-      },
-      {
-        "text": "inanıram, etibar edirəm",
-        "correct": true
       },
       {
         "text": "depozit",
@@ -13582,12 +13582,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qısamüddətli, ortamüddətli, uzunmüddətli",
-        "correct": true
-      },
-      {
         "text": "yalnız ortamüddətli",
         "correct": false
+      },
+      {
+        "text": "qısamüddətli, ortamüddətli, uzunmüddətli",
+        "correct": true
       }
     ]
   },
@@ -13622,10 +13622,6 @@ const QUESTIONS = [
     "question": "Kredit əməliyyatları nəticəsində .....:",
     "options": [
       {
-        "text": "bankların kredit portfeli formalaşır",
-        "correct": true
-      },
-      {
         "text": "bankların faktorinq əməliyyatı formalaşır",
         "correct": false
       },
@@ -13636,6 +13632,10 @@ const QUESTIONS = [
       {
         "text": "banklara lisenziya verilir",
         "correct": false
+      },
+      {
+        "text": "bankların kredit portfeli formalaşır",
+        "correct": true
       },
       {
         "text": "bankların heç bir əməliyyatı formalaşmır",
@@ -13652,16 +13652,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "borc",
-        "correct": true
-      },
-      {
         "text": "kommersiya",
         "correct": false
       },
       {
         "text": "pul sistemi",
         "correct": false
+      },
+      {
+        "text": "borc",
+        "correct": true
       },
       {
         "text": "investisiya",
@@ -13712,12 +13712,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "vəsaitləri cəlb etdikdə",
-        "correct": true
-      },
-      {
         "text": "bank açıldıqda",
         "correct": false
+      },
+      {
+        "text": "vəsaitləri cəlb etdikdə",
+        "correct": true
       }
     ]
   },
@@ -13752,12 +13752,12 @@ const QUESTIONS = [
     "question": "Kreditin formalarını göstərin:",
     "options": [
       {
-        "text": "hamısı",
-        "correct": true
-      },
-      {
         "text": "beynəlxalq kredit",
         "correct": false
+      },
+      {
+        "text": "hamısı",
+        "correct": true
       },
       {
         "text": "bank krediti",
@@ -13782,16 +13782,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "analitik hesab məlumatlarını özündə əks etdirməklə",
-        "correct": true
-      },
-      {
         "text": "loro hesabdır",
         "correct": false
       },
       {
         "text": "Müşahidə Şurasına verilən hesabdır",
         "correct": false
+      },
+      {
+        "text": "analitik hesab məlumatlarını özündə əks etdirməklə",
+        "correct": true
       }
     ]
   },
@@ -13888,16 +13888,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "əmək haqqı fondu",
-        "correct": true
-      },
-      {
         "text": "borc vəsaitləri",
         "correct": false
       },
       {
         "text": "ehtiyatlar",
         "correct": false
+      },
+      {
+        "text": "əmək haqqı fondu",
+        "correct": true
       },
       {
         "text": "cəlb olunmuş vəsaitlər",
@@ -13918,12 +13918,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "təsisçi payının formalaşması",
-        "correct": true
-      },
-      {
         "text": "qiymətli kağızların satın alınması",
         "correct": false
+      },
+      {
+        "text": "təsisçi payının formalaşması",
+        "correct": true
       },
       {
         "text": "Müşahidə Şurasının qərarı",
@@ -13936,6 +13936,10 @@ const QUESTIONS = [
     "question": "Bankın Təsis Yığıncağında ......... iştirak etdikdə səlahiyyətli sayılır:",
     "options": [
       {
+        "text": "bütün təsisçilər",
+        "correct": true
+      },
+      {
         "text": "75 faiz təsisçi",
         "correct": false
       },
@@ -13946,10 +13950,6 @@ const QUESTIONS = [
       {
         "text": "1 faiz təsisçi",
         "correct": false
-      },
-      {
-        "text": "bütün təsisçilər",
-        "correct": true
       },
       {
         "text": "sadə səs çoxluğu olduqda",
@@ -13974,12 +13974,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "nizamnamə (şərikli) kapitalı həcmində olar",
-        "correct": false
-      },
-      {
         "text": "qadağandır",
         "correct": true
+      },
+      {
+        "text": "nizamnamə (şərikli) kapitalı həcmində olar",
+        "correct": false
       }
     ]
   },
@@ -13987,10 +13987,6 @@ const QUESTIONS = [
     "num": 571,
     "question": "Banklararası kredit üzrə sövdələşmə aparılır:",
     "options": [
-      {
-        "text": "banklararası bazarda",
-        "correct": true
-      },
       {
         "text": "bank ssudaları bazarında",
         "correct": false
@@ -14002,6 +13998,10 @@ const QUESTIONS = [
       {
         "text": "valyuta bazarında və sığorta təşkilatlarında",
         "correct": false
+      },
+      {
+        "text": "banklararası bazarda",
+        "correct": true
       },
       {
         "text": "qiymətli kağızlar bazarında",
@@ -14018,10 +14018,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "dövlətin pul və valyuta siyasətini",
-        "correct": true
-      },
-      {
         "text": "fiziki şəxslərə kredit verir",
         "correct": false
       },
@@ -14032,6 +14028,10 @@ const QUESTIONS = [
       {
         "text": "Bank Assosiasiyalarına kredit verir və onların fəaliyyətini həyata keçirir",
         "correct": false
+      },
+      {
+        "text": "dövlətin pul və valyuta siyasətini",
+        "correct": true
       }
     ]
   },
@@ -14044,12 +14044,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "trast",
-        "correct": false
-      },
-      {
         "text": "investisiya",
         "correct": true
+      },
+      {
+        "text": "trast",
+        "correct": false
       },
       {
         "text": "depozit",
@@ -14074,12 +14074,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hökümətlərarası kredit",
-        "correct": false
-      },
-      {
         "text": "banklararası kredit",
         "correct": true
+      },
+      {
+        "text": "hökümətlərarası kredit",
+        "correct": false
       },
       {
         "text": "dövlətlərarası kredit",
@@ -14096,6 +14096,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "kommersiya bankları",
+        "correct": true
+      },
+      {
         "text": "Banklar Assosiasiyaları",
         "correct": false
       },
@@ -14106,10 +14110,6 @@ const QUESTIONS = [
       {
         "text": "Milli Depozit Sistemi",
         "correct": false
-      },
-      {
-        "text": "kommersiya bankları",
-        "correct": true
       }
     ]
   },
@@ -14117,10 +14117,6 @@ const QUESTIONS = [
     "num": 576,
     "question": "Restrukturizasiya nə deməkdir:",
     "options": [
-      {
-        "text": "göstərilənlərin hamısı",
-        "correct": true
-      },
       {
         "text": "bankların hüquqi-təşkilati formalarının yeniləşməsi",
         "correct": false
@@ -14132,6 +14128,10 @@ const QUESTIONS = [
       {
         "text": "fəaliyyət qabiliyyəti olmayan bankların ləğvi",
         "correct": false
+      },
+      {
+        "text": "göstərilənlərin hamısı",
+        "correct": true
       },
       {
         "text": "bankların birləşdirilməsi",
@@ -14148,10 +14148,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bankın likvidliyinin nizamlaşdırılmasında",
-        "correct": true
-      },
-      {
         "text": "bankın ləğvi xərclərinin ödəniləmsində",
         "correct": false
       },
@@ -14162,6 +14158,10 @@ const QUESTIONS = [
       {
         "text": "əmanətçılərin itgilərdən sığortalanmasında",
         "correct": false
+      },
+      {
+        "text": "bankın likvidliyinin nizamlaşdırılmasında",
+        "correct": true
       }
     ]
   },
@@ -14178,12 +14178,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "passiv",
-        "correct": true
-      },
-      {
         "text": "komisyon-vasitəçilik",
         "correct": false
+      },
+      {
+        "text": "passiv",
+        "correct": true
       },
       {
         "text": "balansdan kənar",
@@ -14234,12 +14234,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Milli Məclisindir",
-        "correct": false
-      },
-      {
         "text": "dövlətindir",
         "correct": true
+      },
+      {
+        "text": "Milli Məclisindir",
+        "correct": false
       }
     ]
   },
@@ -14270,16 +14270,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qiymətlərin sabitliyinin",
-        "correct": true
-      },
-      {
         "text": "bank risklərnin qarşısını alınmasının",
         "correct": false
       },
       {
         "text": "fiziki şəxslərin kreditləşməsinin",
         "correct": false
+      },
+      {
+        "text": "qiymətlərin sabitliyinin",
+        "correct": true
       },
       {
         "text": "dövriyyə sənədlərinin",
@@ -14292,16 +14292,16 @@ const QUESTIONS = [
     "question": "Mərkəzi Bank öz fəaliyyəti barəsində hesabat verir:",
     "options": [
       {
+        "text": "Azərbaycan Respublikasının Prezidentinə",
+        "correct": true
+      },
+      {
         "text": "İcra Hakimiyyətinə",
         "correct": false
       },
       {
         "text": "Milli Depozit Sisteminə",
         "correct": false
-      },
-      {
-        "text": "Azərbaycan Respublikasının Prezidentinə",
-        "correct": true
       },
       {
         "text": "fiziki şəxslərə",
@@ -14326,12 +14326,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "investisiya",
-        "correct": false
-      },
-      {
         "text": "vasitəçilik",
         "correct": true
+      },
+      {
+        "text": "investisiya",
+        "correct": false
       },
       {
         "text": "lombard",
@@ -14356,12 +14356,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Banklar Assosiasiyası",
-        "correct": false
-      },
-      {
         "text": "Mərkəzi Bank",
         "correct": true
+      },
+      {
+        "text": "Banklar Assosiasiyası",
+        "correct": false
       }
     ]
   },
@@ -14370,16 +14370,16 @@ const QUESTIONS = [
     "question": "Mərkəzi Bankın fəaliyyətinin əsas məqsədi ... götürmək deyildir:",
     "options": [
       {
-        "text": "mənfəət",
-        "correct": true
-      },
-      {
         "text": "ehtiyyat pulu",
         "correct": false
       },
       {
         "text": "borc",
         "correct": false
+      },
+      {
+        "text": "mənfəət",
+        "correct": true
       },
       {
         "text": "pul dəsti",
@@ -14400,10 +14400,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Banka",
-        "correct": true
-      },
-      {
         "text": "Banklar Assosiasiyasına",
         "correct": false
       },
@@ -14414,6 +14410,10 @@ const QUESTIONS = [
       {
         "text": "Beynəlxalq Banka",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Banka",
+        "correct": true
       }
     ]
   },
@@ -14456,12 +14456,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Rusiya və Belorusiyada",
-        "correct": false
-      },
-      {
         "text": "yalnız ölkə ərazisində",
         "correct": true
+      },
+      {
+        "text": "Rusiya və Belorusiyada",
+        "correct": false
       },
       {
         "text": "Avropa ölkələrində",
@@ -14486,12 +14486,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Xəzinədarlıq",
-        "correct": false
-      },
-      {
         "text": "Mərkəzi Bank",
         "correct": true
+      },
+      {
+        "text": "Xəzinədarlıq",
+        "correct": false
       }
     ]
   },
@@ -14499,10 +14499,6 @@ const QUESTIONS = [
     "num": 591,
     "question": "Bankların müxbir hesabları açılır:",
     "options": [
-      {
-        "text": "banklararası müqavilələr əsasında",
-        "correct": true
-      },
       {
         "text": "bələdiyyələrin göstərişi əsasında",
         "correct": false
@@ -14514,6 +14510,10 @@ const QUESTIONS = [
       {
         "text": "Maliyyə Nazirliyinin göstərişi əsasında",
         "correct": false
+      },
+      {
+        "text": "banklararası müqavilələr əsasında",
+        "correct": true
       },
       {
         "text": "Mərkəzi Bankın göstərişi əsasında",
@@ -14548,12 +14548,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "tədavül xərclərinə qənaət",
-        "correct": true
-      },
-      {
         "text": "sənədlərə qənaət",
         "correct": false
+      },
+      {
+        "text": "tədavül xərclərinə qənaət",
+        "correct": true
       },
       {
         "text": "zamana qənaət",
@@ -14578,12 +14578,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "borc",
-        "correct": true
-      },
-      {
         "text": "maliyyə",
         "correct": false
+      },
+      {
+        "text": "borc",
+        "correct": true
       }
     ]
   },
@@ -14644,10 +14644,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "peşakar fəaliyyətdir",
-        "correct": true
-      },
-      {
         "text": "qeyri-peşakar fəaliyyətdir",
         "correct": false
       },
@@ -14658,6 +14654,10 @@ const QUESTIONS = [
       {
         "text": "həvəskar fəaliyyətdir",
         "correct": false
+      },
+      {
+        "text": "peşakar fəaliyyətdir",
+        "correct": true
       }
     ]
   },
@@ -14674,16 +14674,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "adi və imtiyazlı səhm",
-        "correct": true
-      },
-      {
         "text": "qiymətli kağızlar buraxmaq hüququ yoxdur",
         "correct": false
       },
       {
         "text": "yalnız adi səhm",
         "correct": false
+      },
+      {
+        "text": "adi və imtiyazlı səhm",
+        "correct": true
       }
     ]
   },
@@ -14704,12 +14704,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Səhmdarların Ümumi Yığıncağının",
-        "correct": true
-      },
-      {
         "text": "Səhmdar Cəmiyyətin və Auditorun",
         "correct": false
+      },
+      {
+        "text": "Səhmdarların Ümumi Yığıncağının",
+        "correct": true
       }
     ]
   },
@@ -14766,12 +14766,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bankın resursları artır",
-        "correct": true
-      },
-      {
         "text": "hesablaşmalar bərabərləşir",
         "correct": false
+      },
+      {
+        "text": "bankın resursları artır",
+        "correct": true
       },
       {
         "text": "bankın resursları azalır",
@@ -14792,12 +14792,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "faktorinq şöbələri",
-        "correct": false
-      },
-      {
         "text": "banklar və müştərilər",
         "correct": true
+      },
+      {
+        "text": "faktorinq şöbələri",
+        "correct": false
       },
       {
         "text": "yalnız bankın işçiləri",
@@ -14826,12 +14826,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "banklar",
-        "correct": true
-      },
-      {
         "text": "Statistika Komitəsi",
         "correct": false
+      },
+      {
+        "text": "banklar",
+        "correct": true
       }
     ]
   },
@@ -14852,12 +14852,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "aktiv və passivlər",
-        "correct": false
-      },
-      {
         "text": "ehtiyatlar",
         "correct": true
+      },
+      {
+        "text": "aktiv və passivlər",
+        "correct": false
       }
     ]
   },
@@ -14880,10 +14880,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "passiv əməliyyatlar",
-        "correct": true
-      },
-      {
         "text": "faktorinq əməliyyatları",
         "correct": false
       },
@@ -14894,6 +14890,10 @@ const QUESTIONS = [
       {
         "text": "investisiya əməliyyatları",
         "correct": false
+      },
+      {
+        "text": "passiv əməliyyatlar",
+        "correct": true
       }
     ]
   },
@@ -14910,12 +14910,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "operativ",
-        "correct": true
-      },
-      {
         "text": "hesablaşma",
         "correct": false
+      },
+      {
+        "text": "operativ",
+        "correct": true
       },
       {
         "text": "yenidənyaranma",
@@ -14966,12 +14966,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "xəzinə öhdəlikləri",
-        "correct": false
-      },
-      {
         "text": "banka qoyulan pul vəsaitləri",
         "correct": true
+      },
+      {
+        "text": "xəzinə öhdəlikləri",
+        "correct": false
       }
     ]
   },
@@ -14998,16 +14998,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "əhalinin əmanətləri",
-        "correct": true
-      },
-      {
         "text": "investisiya vəsaitləri",
         "correct": false
       },
       {
         "text": "sığorta təşkilatlarının verdiyi kreditlər",
         "correct": false
+      },
+      {
+        "text": "əhalinin əmanətləri",
+        "correct": true
       },
       {
         "text": "pulların dəyişdirilməsi",
@@ -15020,16 +15020,16 @@ const QUESTIONS = [
     "question": "Pul yığımı ola bilər:",
     "options": [
       {
-        "text": "nağd və nağdsız formada",
-        "correct": true
-      },
-      {
         "text": "yalnız nağd formada",
         "correct": false
       },
       {
         "text": "yalnız nağdsız formada",
         "correct": false
+      },
+      {
+        "text": "nağd və nağdsız formada",
+        "correct": true
       },
       {
         "text": "yalnız dövlətin qiymətli",
@@ -15080,12 +15080,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "inkişafın əvvəlki",
-        "correct": false
-      },
-      {
         "text": "müvəqqəti azad olan dəyər",
         "correct": true
+      },
+      {
+        "text": "inkişafın əvvəlki",
+        "correct": false
       }
     ]
   },
@@ -15093,10 +15093,6 @@ const QUESTIONS = [
     "num": 616,
     "question": "Borc faizi kimdən kimə gedir:",
     "options": [
-      {
-        "text": "borcalandan kreditora",
-        "correct": true
-      },
       {
         "text": "qarantiya edəndən zəmanətçiyə",
         "correct": false
@@ -15108,6 +15104,10 @@ const QUESTIONS = [
       {
         "text": "borcalandan krediti qarantiya edənə",
         "correct": false
+      },
+      {
+        "text": "borcalandan kreditora",
+        "correct": true
       },
       {
         "text": "kreditordan borcalana",
@@ -15124,16 +15124,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "yenidənbölgü",
-        "correct": true
-      },
-      {
         "text": "riskli",
         "correct": false
       },
       {
         "text": "nəzarət",
         "correct": false
+      },
+      {
+        "text": "yenidənbölgü",
+        "correct": true
       },
       {
         "text": "sosial",
@@ -15154,16 +15154,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "istehlak",
-        "correct": true
-      },
-      {
         "text": "əmtəə",
         "correct": false
       },
       {
         "text": "kommersiya",
         "correct": false
+      },
+      {
+        "text": "istehlak",
+        "correct": true
       }
     ]
   },
@@ -15180,12 +15180,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kommersiya",
-        "correct": false
-      },
-      {
         "text": "bank",
         "correct": true
+      },
+      {
+        "text": "kommersiya",
+        "correct": false
       },
       {
         "text": "ipoteka",
@@ -15206,16 +15206,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "kommersiya bankları",
+        "correct": true
+      },
+      {
         "text": "banklararası kredit sistemi",
         "correct": false
       },
       {
         "text": "Mərkəzi Bankın ərazi idarələri",
         "correct": false
-      },
-      {
-        "text": "kommersiya bankları",
-        "correct": true
       }
     ]
   },
@@ -15280,12 +15280,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit",
-        "correct": true
-      },
-      {
         "text": "dünya pulu",
         "correct": false
+      },
+      {
+        "text": "kredit",
+        "correct": true
       },
       {
         "text": "metal",
@@ -15310,12 +15310,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "yalnız milli valyutada",
-        "correct": true
-      },
-      {
         "text": "SDR ilə",
         "correct": false
+      },
+      {
+        "text": "yalnız milli valyutada",
+        "correct": true
       }
     ]
   },
@@ -15336,12 +15336,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "təsərrüfat subyektlərinin",
-        "correct": false
-      },
-      {
         "text": "əhalinin",
         "correct": true
+      },
+      {
+        "text": "təsərrüfat subyektlərinin",
+        "correct": false
       }
     ]
   },
@@ -15349,10 +15349,6 @@ const QUESTIONS = [
     "num": 626,
     "question": "Bütün müəssisə və təşkilatlar özlərinin nağd pul vəsaitlərini saxlamalıdırlar:",
     "options": [
-      {
-        "text": "kredit təşkilatlarında",
-        "correct": true
-      },
       {
         "text": "Maliyyə Nazirliyində",
         "correct": false
@@ -15364,6 +15360,10 @@ const QUESTIONS = [
       {
         "text": "xəzinədarlıqda",
         "correct": false
+      },
+      {
+        "text": "kredit təşkilatlarında",
+        "correct": true
       },
       {
         "text": "Beynəlxalq Valyuta Fondunda",
@@ -15394,12 +15394,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "dövriyyə kassasının limiti",
-        "correct": false
-      },
-      {
         "text": "bank hesabları",
         "correct": true
+      },
+      {
+        "text": "dövriyyə kassasının limiti",
+        "correct": false
       },
       {
         "text": "Mərkəzi Bankın xüsusi icazəsi",
@@ -15428,12 +15428,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kommersiya banklarının",
-        "correct": true
-      },
-      {
         "text": "sığorta təşkilatlarının",
         "correct": false
+      },
+      {
+        "text": "kommersiya banklarının",
+        "correct": true
       }
     ]
   },
@@ -15446,6 +15446,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "mümkün deyil",
+        "correct": true
+      },
+      {
         "text": "bank emitentin razılığı ilə mümkündür",
         "correct": false
       },
@@ -15456,10 +15460,6 @@ const QUESTIONS = [
       {
         "text": "istisna hallarda mümkündür",
         "correct": false
-      },
-      {
-        "text": "mümkün deyil",
-        "correct": true
       }
     ]
   },
@@ -15486,12 +15486,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bank hesabındakı hesabda olan vəsait həcmində",
-        "correct": true
-      },
-      {
         "text": "müştərinin istəyinə uyğun məbləğdə",
         "correct": false
+      },
+      {
+        "text": "bank hesabındakı hesabda olan vəsait həcmində",
+        "correct": true
       },
       {
         "text": "1000 manata bölünən istənilən məbləğdə",
@@ -15546,12 +15546,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "ödəyici tərəfindən",
-        "correct": true
-      },
-      {
         "text": "baş idarə tərəfindən",
         "correct": false
+      },
+      {
+        "text": "ödəyici tərəfindən",
+        "correct": true
       }
     ]
   },
@@ -15572,12 +15572,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "sığorta",
-        "correct": false
-      },
-      {
         "text": "ipoteka",
         "correct": true
+      },
+      {
+        "text": "sığorta",
+        "correct": false
       }
     ]
   },
@@ -15585,10 +15585,6 @@ const QUESTIONS = [
     "num": 636,
     "question": "Dövlət kreditinin əlamətidir:",
     "options": [
-      {
-        "text": "dövlətin həm kreditor,həm borclu kimi iştirakı",
-        "correct": true
-      },
       {
         "text": "müəssisələrin borclu kimi iştirakı",
         "correct": false
@@ -15604,6 +15600,10 @@ const QUESTIONS = [
       {
         "text": "kredit təşkilatlarının borclu kimi iştirakı",
         "correct": false
+      },
+      {
+        "text": "dövlətin həm kreditor,həm borclu kimi iştirakı",
+        "correct": true
       }
     ]
   },
@@ -15646,12 +15646,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "valyuta riski",
-        "correct": true
-      },
-      {
         "text": "kapital riski",
         "correct": false
+      },
+      {
+        "text": "valyuta riski",
+        "correct": true
       },
       {
         "text": "əmtəə-mal riski",
@@ -15668,16 +15668,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "kapital riski",
+        "correct": true
+      },
+      {
         "text": "valyuta riski",
         "correct": false
       },
       {
         "text": "əmtəə-mal riski",
         "correct": false
-      },
-      {
-        "text": "kapital riski",
-        "correct": true
       },
       {
         "text": "faiz dərəcəsi riski",
@@ -15694,6 +15694,10 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "faiz dərəcəsi riski",
+        "correct": true
+      },
+      {
         "text": "likvidlik riski",
         "correct": false
       },
@@ -15704,10 +15708,6 @@ const QUESTIONS = [
       {
         "text": "valyuta riski",
         "correct": false
-      },
-      {
-        "text": "faiz dərəcəsi riski",
-        "correct": true
       }
     ]
   },
@@ -15716,12 +15716,12 @@ const QUESTIONS = [
     "question": "Bazar riskinə aid olmayan riski seçin ......:",
     "options": [
       {
-        "text": "reputasiya riski",
-        "correct": true
-      },
-      {
         "text": "xarici valyuta riski",
         "correct": false
+      },
+      {
+        "text": "reputasiya riski",
+        "correct": true
       },
       {
         "text": "kapital riski",
@@ -15746,16 +15746,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "əməliyyat riski",
-        "correct": true
-      },
-      {
         "text": "xarici valyuta riski",
         "correct": false
       },
       {
         "text": "faiz dərəcəsi riski",
         "correct": false
+      },
+      {
+        "text": "əməliyyat riski",
+        "correct": true
       },
       {
         "text": "kapital riski",
@@ -15776,12 +15776,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "məzənnə riski",
-        "correct": true
-      },
-      {
         "text": "likvidlik riski",
         "correct": false
+      },
+      {
+        "text": "məzənnə riski",
+        "correct": true
       },
       {
         "text": "əməliyyat riski",
@@ -15820,16 +15820,16 @@ const QUESTIONS = [
     "question": "Kommersiya bankları ............ funksiyasını yerinə yetirir:",
     "options": [
       {
-        "text": "vəsaitlərin depozitlərə toplanılması",
-        "correct": true
-      },
-      {
         "text": "hökümətin bankiri",
         "correct": false
       },
       {
         "text": "dövlətin emissiya mərkəzi",
         "correct": false
+      },
+      {
+        "text": "vəsaitlərin depozitlərə toplanılması",
+        "correct": true
       },
       {
         "text": "hökumətin kassiri və Milli Depozit Sisteminin",
@@ -15841,10 +15841,6 @@ const QUESTIONS = [
     "num": 646,
     "question": "Mərkəzi Bankın pul siyasəti alətidir:",
     "options": [
-      {
-        "text": "açıq bazarda əməliyyatların aparılması",
-        "correct": true
-      },
       {
         "text": "kommersiya banklarına lisenziyaların verilməsi",
         "correct": false
@@ -15860,6 +15856,10 @@ const QUESTIONS = [
       {
         "text": "lizinq əməliyyatlarının həyata keçirilməsi",
         "correct": false
+      },
+      {
+        "text": "açıq bazarda əməliyyatların aparılması",
+        "correct": true
       }
     ]
   },
@@ -15872,10 +15872,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "Mərkəzi Bankın pul siyasəti alətidir",
-        "correct": true
-      },
-      {
         "text": "Mərkəzi Bankın hüquqi funksiyasıdır",
         "correct": false
       },
@@ -15886,6 +15882,10 @@ const QUESTIONS = [
       {
         "text": "Mərkəzi Bankın lisenziya vermə əməliyyatıdır",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bankın pul siyasəti alətidir",
+        "correct": true
       }
     ]
   },
@@ -15902,12 +15902,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "istehlak",
-        "correct": true
-      },
-      {
         "text": "debet",
         "correct": false
+      },
+      {
+        "text": "istehlak",
+        "correct": true
       },
       {
         "text": "valyuta",
@@ -15958,12 +15958,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "depozit əməliyyatlarından",
-        "correct": false
-      },
-      {
         "text": "Mərkəzi Bankın ərazi idarələrindən",
         "correct": true
+      },
+      {
+        "text": "depozit əməliyyatlarından",
+        "correct": false
       }
     ]
   },
@@ -15972,12 +15972,12 @@ const QUESTIONS = [
     "question": "Nağd pulun dövriyyəsi......təşkil edilərək həyata keçirilir :",
     "options": [
       {
-        "text": "Mərkəzi Bank və kommersiya bankları vasitəsi ilə",
-        "correct": true
-      },
-      {
         "text": "müştərilər tərəfindən",
         "correct": false
+      },
+      {
+        "text": "Mərkəzi Bank və kommersiya bankları vasitəsi ilə",
+        "correct": true
       },
       {
         "text": "BOKT-lar (Bank Olmayan Kredit Təşkilatı) tərəfindən",
@@ -16020,12 +16020,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "alt hissədə boşluq və ya zirzəmi olmamalıdır",
-        "correct": false
-      },
-      {
         "text": "hamısı",
         "correct": true
+      },
+      {
+        "text": "alt hissədə boşluq və ya zirzəmi olmamalıdır",
+        "correct": false
       },
       {
         "text": "oda davamlı dəmir seyflərlə təchiz olunmalıdır",
@@ -16060,6 +16060,10 @@ const QUESTIONS = [
     "question": "Akkreditiv üzrə fəaliyyət müddəti və hesablaşma qaydası ….... müəyyən edilir:",
     "options": [
       {
+        "text": "ödəyici və satıcı arasındakı müqavilə ilə",
+        "correct": true
+      },
+      {
         "text": "Maliyyə Nazirliyi ilə",
         "correct": false
       },
@@ -16074,10 +16078,6 @@ const QUESTIONS = [
       {
         "text": "Hesablama Palatası ilə",
         "correct": false
-      },
-      {
-        "text": "ödəyici və satıcı arasındakı müqavilə ilə",
-        "correct": true
       }
     ]
   },
@@ -16086,16 +16086,16 @@ const QUESTIONS = [
     "question": "Beynəlxalq hesablaşmalar kimin vasitəsilə aparılır?",
     "options": [
       {
-        "text": "kommersiya banklarının",
-        "correct": true
-      },
-      {
         "text": "valyuta birjalarının",
         "correct": false
       },
       {
         "text": "lizinq şirkətlərinin",
         "correct": false
+      },
+      {
+        "text": "kommersiya banklarının",
+        "correct": true
       },
       {
         "text": "investisiya fondlarının",
@@ -16112,12 +16112,12 @@ const QUESTIONS = [
     "question": "Nağdsız hesablaşmaların formalarına aiddir:",
     "options": [
       {
-        "text": "ödəniş tapşırıqları,ödəniş-tələbnamə",
-        "correct": true
-      },
-      {
         "text": "bank sənədləri ilə hesablaşmalar",
         "correct": false
+      },
+      {
+        "text": "ödəniş tapşırıqları,ödəniş-tələbnamə",
+        "correct": true
       }
     ]
   },
@@ -16134,12 +16134,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "hesabda kifayət qədər vəsait olduqda",
-        "correct": true
-      },
-      {
         "text": "hesabda vəsait olmadıqda",
         "correct": false
+      },
+      {
+        "text": "hesabda kifayət qədər vəsait olduqda",
+        "correct": true
       },
       {
         "text": "müştəri vaxtı keçmiş borcunu ödədikdə",
@@ -16196,10 +16196,6 @@ const QUESTIONS = [
     "question": "SWİFT- nədir?",
     "options": [
       {
-        "text": "Ümumidünya Banklararası",
-        "correct": true
-      },
-      {
         "text": "Ümumidünya Vergi Sistemi",
         "correct": false
       },
@@ -16210,6 +16206,10 @@ const QUESTIONS = [
       {
         "text": "Ölkələrarası Depozit Sistemi",
         "correct": false
+      },
+      {
+        "text": "Ümumidünya Banklararası",
+        "correct": true
       }
     ]
   },
@@ -16218,12 +16218,12 @@ const QUESTIONS = [
     "question": "Kredit təşkilatının hüquqi normativ aktlarının və bağlanılmış müqavilələrin tələblərinə riayət etməməsi ilə əlaqədar yaranan itkilər hansı risk qrupuna daxildir:",
     "options": [
       {
-        "text": "kənar risk",
-        "correct": false
-      },
-      {
         "text": "hüquqi risk",
         "correct": true
+      },
+      {
+        "text": "kənar risk",
+        "correct": false
       },
       {
         "text": "işgüzarlığın itirilmə riski",
@@ -16252,12 +16252,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "strateji risk",
-        "correct": true
-      },
-      {
         "text": "mütərəqqi risk",
         "correct": false
+      },
+      {
+        "text": "strateji risk",
+        "correct": true
       },
       {
         "text": "faktiki risk",
@@ -16308,12 +16308,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "kredit riski",
-        "correct": false
-      },
-      {
         "text": "faiz riski",
         "correct": true
+      },
+      {
+        "text": "kredit riski",
+        "correct": false
       }
     ]
   },
@@ -16322,16 +16322,16 @@ const QUESTIONS = [
     "question": "Bazarda faiz dərəcələrinin, valyuta məzənnələrinin, qiymətli kağızların və əmtəələrin dəyərində baş verən dəyişikliklərlə əlaqadar yaranan … riskdir?",
     "options": [
       {
-        "text": "bazar riski",
-        "correct": true
-      },
-      {
         "text": "strateji risk",
         "correct": false
       },
       {
         "text": "əməliyyat riskləri",
         "correct": false
+      },
+      {
+        "text": "bazar riski",
+        "correct": true
       },
       {
         "text": "hüquq riski",
@@ -16352,16 +16352,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "pul vəsaitləri",
-        "correct": true
-      },
-      {
         "text": "qiymətli metallar",
         "correct": false
       },
       {
         "text": "əsas vəsaitlər",
         "correct": false
+      },
+      {
+        "text": "pul vəsaitləri",
+        "correct": true
       },
       {
         "text": "əmtəə material dəyərliləri",
@@ -16382,12 +16382,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "uzunmüddətli",
-        "correct": true
-      },
-      {
         "text": "iki günlük kredit",
         "correct": false
+      },
+      {
+        "text": "uzunmüddətli",
+        "correct": true
       },
       {
         "text": "ticarət",
@@ -16412,12 +16412,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "lizinq",
-        "correct": true
-      },
-      {
         "text": "kommersiya",
         "correct": false
+      },
+      {
+        "text": "lizinq",
+        "correct": true
       }
     ]
   },
@@ -16434,16 +16434,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
+        "text": "lizinq",
+        "correct": true
+      },
+      {
         "text": "tədiyyə",
         "correct": false
       },
       {
         "text": "ipoteka",
         "correct": false
-      },
-      {
-        "text": "lizinq",
-        "correct": true
       }
     ]
   },
@@ -16451,10 +16451,6 @@ const QUESTIONS = [
     "num": 671,
     "question": "Kreditin hansı formasında o, pul formasında verilir və pul formasında qaytarılır:",
     "options": [
-      {
-        "text": "bank",
-        "correct": true
-      },
       {
         "text": "beynəlxalq",
         "correct": false
@@ -16466,6 +16462,10 @@ const QUESTIONS = [
       {
         "text": "əmtəə",
         "correct": false
+      },
+      {
+        "text": "bank",
+        "correct": true
       },
       {
         "text": "əmtəə-pul",
@@ -16482,10 +16482,6 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "sərbəst konvertasiya olunan",
-        "correct": true
-      },
-      {
         "text": "konvertasiya olunmayan",
         "correct": false
       },
@@ -16496,6 +16492,10 @@ const QUESTIONS = [
       {
         "text": "cari hesablar üzrə konvertasiya olunan",
         "correct": false
+      },
+      {
+        "text": "sərbəst konvertasiya olunan",
+        "correct": true
       }
     ]
   },
@@ -16503,10 +16503,6 @@ const QUESTIONS = [
     "num": 673,
     "question": "Dəst nədir :",
     "options": [
-      {
-        "text": "eyni nominal dəyərdən olan 100 (yüz) vərəqdən",
-        "correct": true
-      },
       {
         "text": "100 ( yüz) vərəqdən ibarət əskinazları saxlayan kassadır",
         "correct": false
@@ -16518,6 +16514,10 @@ const QUESTIONS = [
       {
         "text": "pulların ləğv edilməsidir",
         "correct": false
+      },
+      {
+        "text": "eyni nominal dəyərdən olan 100 (yüz) vərəqdən",
+        "correct": true
       }
     ]
   },
@@ -16530,16 +16530,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "pul dəstələrini bağlamaq üçün Mərkəzi Bank",
-        "correct": true
-      },
-      {
         "text": "Mərkəzi Bankın pulları saxlamaq kassasıdır",
         "correct": false
       },
       {
         "text": "möhürdür",
         "correct": false
+      },
+      {
+        "text": "pul dəstələrini bağlamaq üçün Mərkəzi Bank",
+        "correct": true
       }
     ]
   },
@@ -16560,12 +16560,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qeyri-depozit",
-        "correct": false
-      },
-      {
         "text": "vasitəçilik",
         "correct": true
+      },
+      {
+        "text": "qeyri-depozit",
+        "correct": false
       }
     ]
   },
@@ -16573,10 +16573,6 @@ const QUESTIONS = [
     "num": 676,
     "question": "Trast əməliyyatı bankın.......əməliyyatıdır:",
     "options": [
-      {
-        "text": "vasitəçilik",
-        "correct": true
-      },
       {
         "text": "əmtəə",
         "correct": false
@@ -16588,6 +16584,10 @@ const QUESTIONS = [
       {
         "text": "deponlaşdırma",
         "correct": false
+      },
+      {
+        "text": "vasitəçilik",
+        "correct": true
       },
       {
         "text": "sənədləşmə",
@@ -16604,16 +16604,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "vasitəçilik",
-        "correct": true
-      },
-      {
         "text": "kassa",
         "correct": false
       },
       {
         "text": "depozit",
         "correct": false
+      },
+      {
+        "text": "vasitəçilik",
+        "correct": true
       },
       {
         "text": "sənədləşmə",
@@ -16634,12 +16634,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "operativ,maliyyə",
-        "correct": true
-      },
-      {
         "text": "operativ və dəqiqlik",
         "correct": false
+      },
+      {
+        "text": "operativ,maliyyə",
+        "correct": true
       },
       {
         "text": "maliyyə və lizinq",
@@ -16704,10 +16704,6 @@ const QUESTIONS = [
     "question": "Faktorinq zamanı faktor firma müştəriyə ........ :",
     "options": [
       {
-        "text": "malların dəyərinin vaxtından",
-        "correct": true
-      },
-      {
         "text": "vaxtında ödənilməmiş malların dəyərini ödəmir",
         "correct": false
       },
@@ -16718,6 +16714,10 @@ const QUESTIONS = [
       {
         "text": "kreditin ödənilməsi üzrə güzəştli şərait yaradır",
         "correct": false
+      },
+      {
+        "text": "malların dəyərinin vaxtından",
+        "correct": true
       }
     ]
   },
@@ -16744,12 +16744,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "qiymətli kağızların alqı-satqısı",
-        "correct": true
-      },
-      {
         "text": "kommersiya banklarının hesablarının azaldılması",
         "correct": false
+      },
+      {
+        "text": "qiymətli kağızların alqı-satqısı",
+        "correct": true
       },
       {
         "text": "kommersiya banklarının kreditləşdirilməsi",
@@ -16774,12 +16774,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "nağdsız",
-        "correct": true
-      },
-      {
         "text": "1 ilə qədər olan pul dövriyyəsi",
         "correct": false
+      },
+      {
+        "text": "nağdsız",
+        "correct": true
       }
     ]
   },
@@ -16814,10 +16814,6 @@ const QUESTIONS = [
     "question": "XÖHKS- nədir?",
     "options": [
       {
-        "text": "Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi",
-        "correct": true
-      },
-      {
         "text": "Xarici Ödənişlər üzrə Hesablaşma Konvertasiya Sistemi",
         "correct": false
       },
@@ -16828,6 +16824,10 @@ const QUESTIONS = [
       {
         "text": "Valyuta sistemi",
         "correct": false
+      },
+      {
+        "text": "Xırda Ödənişlər üzrə Hesablaşma Klirinq Sistemi",
+        "correct": true
       },
       {
         "text": "Xırda Ödənişlər üzrə Hesablaşma Kredit Sistemi",
@@ -16844,16 +16844,16 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "bank hesabı müqaviləsinin bağlanması ilə",
-        "correct": true
-      },
-      {
         "text": "borc sənədləri ilə",
         "correct": false
       },
       {
         "text": "xüsusi razılıq hesabının açılması ilə",
         "correct": false
+      },
+      {
+        "text": "bank hesabı müqaviləsinin bağlanması ilə",
+        "correct": true
       },
       {
         "text": "kredit münasibətlərinin qurulması qaydası ilə",
@@ -16874,12 +16874,12 @@ const QUESTIONS = [
         "correct": false
       },
       {
-        "text": "beynəlxalq",
-        "correct": true
-      },
-      {
         "text": "ərazi",
         "correct": false
+      },
+      {
+        "text": "beynəlxalq",
+        "correct": true
       },
       {
         "text": "ölkə",
@@ -16918,6 +16918,10 @@ const QUESTIONS = [
     "question": "Kreditin prinsipidir:",
     "options": [
       {
+        "text": "müddətlilik",
+        "correct": true
+      },
+      {
         "text": "qiymətləndirmək",
         "correct": false
       },
@@ -16932,10 +16936,6 @@ const QUESTIONS = [
       {
         "text": "sistemlilik",
         "correct": false
-      },
-      {
-        "text": "müddətlilik",
-        "correct": true
       }
     ]
   },
@@ -16943,10 +16943,6 @@ const QUESTIONS = [
     "num": 691,
     "question": "Kreditin prinsipini göstərin:",
     "options": [
-      {
-        "text": "qaytarılma",
-        "correct": true
-      },
       {
         "text": "sövdələşmə",
         "correct": false
@@ -16958,6 +16954,10 @@ const QUESTIONS = [
       {
         "text": "sənədləşmə",
         "correct": false
+      },
+      {
+        "text": "qaytarılma",
+        "correct": true
       },
       {
         "text": "mərkəzləşmə",
@@ -16991,4 +16991,4 @@ const QUESTIONS = [
       }
     ]
   }
-];
+]

@@ -50,18 +50,26 @@ function init() {
   restartBtn.addEventListener('click', resetApp);
 }
 
-
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
 
 function selectQuestionsByRange(questions, start, end) {
   // Filter questions in the specified range
   const filtered = questions.filter((item) => item.num >= start && item.num <= end);
   
-  // If more than 50 questions, select first 50
+  // Always shuffle the questions randomly
+  shuffleArray(filtered);
+  
+  // If more than 50 questions, randomly select 50
   if (filtered.length > 50) {
     return filtered.slice(0, 50);
   }
   
-  // Otherwise return all questions in the range
+  // Otherwise return all questions in the range (already shuffled)
   return filtered;
 }
 
@@ -184,13 +192,12 @@ function selectAnswer(selectedIndex) {
   });
 
   const isCorrect = selectedIndex === correctIndex;
-
   results.push({
     num: current.num,
     question: current.question,
     selected: selectedOption.text,
     correct: correctText,
-    isCorrect: isCorrect,
+    isCorrect,
   });
 
   if (isCorrect) {
